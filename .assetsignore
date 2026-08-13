@@ -1,0 +1,4 @@
+# Build-time only — not part of the public static site.
+gen/
+wrangler.toml
+README.md
