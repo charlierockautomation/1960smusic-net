@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Party Playlist Builder — 1960smusic.net</title>
+<meta name="description" content="Build a 1960s party playlist by vibe — pick a mood like upbeat, romantic or dance and get a shuffled set of matching tracks you can play right away. A free tool from 1960smusic.net.">
+<link rel="canonical" href="https://1960smusic.net/tools/playlist-builder/">
+<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/tools/tools.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/">1960s<span>music</span>.net</a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="/">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <h1 class="page-title">Party Playlist Builder</h1>
+    <p class="lead">Pick a vibe and we'll pull a shuffled set of 1960s tracks to match the mood.</p>
+
+    <div class="controls">
+      <label class="field" for="vibe">Vibe:
+        <select id="vibe"></select>
+      </label>
+      <label class="field" for="count">Songs:
+        <select id="count">
+          <option value="6">6</option>
+          <option value="10" selected>10</option>
+          <option value="15">15</option>
+        </select>
+      </label>
+      <button class="btn" id="build">Build playlist</button>
+    </div>
+
+    <div id="result" aria-live="polite"></div>
+
+    <nav class="tool-links" aria-label="More tools">
+      <strong>More tools:</strong>
+      <a href="/tools/random-song/">Random Song Generator</a>
+      <a href="/tools/trivia/">Trivia</a>
+      <a href="/tools/quiz/">Personality Quiz</a>
+      <a href="/">Home</a>
+    </nav>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>&copy; 2025 1960smusic.net</div>
+    <nav aria-label="Footer">
+      <a href="/about.html">About</a>
+      <a href="/contact.html">Contact</a>
+      <a href="/privacy-policy.html">Privacy Policy</a>
+      <a href="/terms-of-use.html">Terms of Use</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="/tools/shared.js"></script>
+<script>
+/* Vibe groups map a friendly label to underlying mood_tags in the dataset.
+   This is the same generator engine as the Random Song Generator, filtered by
+   mood_tags instead of genre. */
+const VIBES = {
+  'upbeat':        { label: 'Upbeat & Feel-Good',      tags: ['upbeat','joyful','sunny','exuberant','celebratory','bright','carefree','party','playful','lighthearted','optimistic'] },
+  'romantic':      { label: 'Romantic & Tender',       tags: ['romantic','tender','devoted','sweet','warm','intimate','sensual','gentle','yearning','pleading','passionate'] },
+  'dance':         { label: 'Dance Party',             tags: ['danceable','groovy','funky','stomping','party','energetic','raucous','frenetic'] },
+  'driving':       { label: 'Driving Rock',            tags: ['driving','raw','aggressive','gritty','heavy','hard-driving','revved-up','electric','snarling','fierce','frantic','urgent','primal','fuzzy','ferocious'] },
+  'dreamy':        { label: 'Dreamy & Psychedelic',    tags: ['dreamy','hypnotic','trippy','psychedelic','spacey','cosmic','surreal','kaleidoscopic','atmospheric','eerie','haunting'] },
+  'reflective':    { label: 'Mellow & Reflective',     tags: ['reflective','wistful','melancholy','bittersweet','aching','lonesome','nostalgic','contemplative','mellow','laid-back','poignant','somber','remorseful'] },
+  'smooth':        { label: 'Smooth & Sophisticated',  tags: ['smooth','lush','sophisticated','swinging','torchy','jazzy','bossa-nova','sultry','graceful','serene'] },
+  'anthemic':      { label: 'Anthemic & Epic',         tags: ['anthemic','soaring','epic','powerful','triumphant','grand','rousing','stirring','uplifting','singalong','building','dramatic'] },
+};
+
+function songsForVibe(key) {
+  const wanted = new Set(VIBES[key].tags);
+  return DATA.songs.filter(s => (s.mood_tags || []).some(t => wanted.has(t)));
+}
+
+function build() {
+  const key = document.getElementById('vibe').value;
+  const count = parseInt(document.getElementById('count').value, 10);
+  const matches = shuffle(songsForVibe(key)).slice(0, count);
+  if (!matches.length) { document.getElementById('result').innerHTML = '<p>No songs found for that vibe.</p>'; return; }
+  const items = matches.map((s, i) =>
+    '<li>' +
+      '<span class="n">#' + (i + 1) + '</span>' +
+      '<div class="song" style="margin-top:6px">' +
+        '<h2>' + escapeHtml(s.title) + '</h2>' +
+        '<p class="meta">' + songMeta(s) + '</p>' +
+        ytEmbed(s) +
+      '</div>' +
+    '</li>').join('');
+  document.getElementById('result').innerHTML =
+    '<h2>' + escapeHtml(VIBES[key].label) + ' &mdash; ' + matches.length + ' tracks</h2>' +
+    '<ol class="playlist">' + items + '</ol>';
+}
+
+(async function init() {
+  await loadData();
+  const sel = document.getElementById('vibe');
+  Object.keys(VIBES).forEach(k => {
+    const o = document.createElement('option');
+    o.value = k; o.textContent = VIBES[k].label; sel.appendChild(o);
+  });
+  document.getElementById('build').addEventListener('click', build);
+  build();
+})();
+</script>
+</body>
+</html>

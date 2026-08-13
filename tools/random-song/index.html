@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Random 60s Song Generator — 1960smusic.net</title>
+<meta name="description" content="Discover a random song from the 1960s — spin up a track from any of eight genres, watch it play, and hit generate for another. A free interactive tool from 1960smusic.net.">
+<link rel="canonical" href="https://1960smusic.net/tools/random-song/">
+<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/tools/tools.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/">1960s<span>music</span>.net</a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="/">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <h1 class="page-title">Random 60s Song Generator</h1>
+    <p class="lead">Not sure what to listen to? Spin the dial and let the decade pick for you.</p>
+
+    <div class="controls">
+      <label class="field" for="genre">Genre:
+        <select id="genre"><option value="">All genres</option></select>
+      </label>
+      <button class="btn" id="generate">Generate another</button>
+    </div>
+
+    <div id="result" aria-live="polite"></div>
+
+    <nav class="tool-links" aria-label="More tools">
+      <strong>More tools:</strong>
+      <a href="/tools/playlist-builder/">Party Playlist Builder</a>
+      <a href="/tools/trivia/">Trivia</a>
+      <a href="/tools/quiz/">Personality Quiz</a>
+      <a href="/">Home</a>
+    </nav>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>&copy; 2025 1960smusic.net</div>
+    <nav aria-label="Footer">
+      <a href="/about.html">About</a>
+      <a href="/contact.html">Contact</a>
+      <a href="/privacy-policy.html">Privacy Policy</a>
+      <a href="/terms-of-use.html">Terms of Use</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="/tools/shared.js"></script>
+<script>
+let pool = [];
+let current = null;
+
+function renderSong(song) {
+  const tags = (song.mood_tags || []).slice(0, 5)
+    .map(t => '<span class="tag">' + escapeHtml(t) + '</span>').join('');
+  document.getElementById('result').innerHTML =
+    '<div class="song">' +
+      '<h2>' + escapeHtml(song.title) + '</h2>' +
+      '<p class="meta">' + songMeta(song) + '</p>' +
+      ytEmbed(song) +
+      '<div class="tags">' + tags + '</div>' +
+    '</div>';
+}
+
+function pick() {
+  const genre = document.getElementById('genre').value;
+  pool = genre ? DATA.songs.filter(s => s.genre_id === genre) : DATA.songs;
+  if (!pool.length) { document.getElementById('result').innerHTML = '<p>No songs found.</p>'; return; }
+  // avoid immediate repeat when the pool is larger than 1
+  let next = randomPick(pool);
+  if (pool.length > 1 && current) { while (next.id === current.id) next = randomPick(pool); }
+  current = next;
+  renderSong(next);
+}
+
+(async function init() {
+  await loadData();
+  const sel = document.getElementById('genre');
+  DATA.genres.forEach(g => {
+    const o = document.createElement('option');
+    o.value = g.id; o.textContent = g.name; sel.appendChild(o);
+  });
+  document.getElementById('generate').addEventListener('click', pick);
+  sel.addEventListener('change', pick);
+  pick();
+})();
+</script>
+</body>
+</html>

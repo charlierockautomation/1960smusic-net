@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What's Your 60s Sound? — Personality Quiz — 1960smusic.net</title>
+<meta name="description" content="Answer a few questions about your taste and mood and discover which 1960s genre is your sound — from Motown soul to psychedelic rock. A free personality quiz from 1960smusic.net.">
+<link rel="canonical" href="https://1960smusic.net/tools/quiz/">
+<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/tools/tools.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/">1960s<span>music</span>.net</a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="/">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <h1 class="page-title">What's Your 60s Sound?</h1>
+    <p class="lead">Seven quick questions about your taste and mood. At the end, we'll match you to your decade.</p>
+
+    <div class="scorebar" id="progress"></div>
+    <div id="quiz" aria-live="polite"></div>
+
+    <nav class="tool-links" aria-label="More tools">
+      <strong>More tools:</strong>
+      <a href="/tools/random-song/">Random Song Generator</a>
+      <a href="/tools/playlist-builder/">Party Playlist Builder</a>
+      <a href="/tools/trivia/">Trivia</a>
+      <a href="/">Home</a>
+    </nav>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>&copy; 2025 1960smusic.net</div>
+    <nav aria-label="Footer">
+      <a href="/about.html">About</a>
+      <a href="/contact.html">Contact</a>
+      <a href="/privacy-policy.html">Privacy Policy</a>
+      <a href="/terms-of-use.html">Terms of Use</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="/tools/shared.js"></script>
+<script>
+/* Each answer adds weight to one or more of the 8 genre ids. Highest total wins. */
+const QUESTIONS = [
+  { q: "It's Saturday night. Where are you?",
+    a: [
+      { t: "At a loud club, dancing till 2am",                 w: { 'motown-soul': 2, 'garage-surf-rock': 1 } },
+      { t: "At a smoky basement gig watching a new band",      w: { 'british-invasion': 2, 'garage-surf-rock': 1 } },
+      { t: "At a candlelit dinner with someone special",       w: { 'jazz-easy-listening': 2, 'pop-brill-building': 1 } },
+      { t: "Around a fire with a guitar and friends",          w: { 'folk-rock': 2, 'country-60s': 1 } },
+    ] },
+  { q: "Pick a place to wake up.",
+    a: [
+      { t: "A San Francisco flat, incense still burning",      w: { 'psychedelic-rock': 2, 'folk-rock': 1 } },
+      { t: "A beach house with the boards by the door",        w: { 'garage-surf-rock': 2 } },
+      { t: "A little house out in the country",                w: { 'country-60s': 2 } },
+      { t: "A downtown apartment with a record player",        w: { 'motown-soul': 1, 'pop-brill-building': 2 } },
+    ] },
+  { q: "What matters most in a song?",
+    a: [
+      { t: "A groove you can't sit still to",                  w: { 'motown-soul': 2, 'garage-surf-rock': 1 } },
+      { t: "Lyrics that actually say something",               w: { 'folk-rock': 2, 'country-60s': 1 } },
+      { t: "A sound you've never heard before",                w: { 'psychedelic-rock': 2 } },
+      { t: "A melody you're humming for days",                 w: { 'pop-brill-building': 2, 'jazz-easy-listening': 1 } },
+    ] },
+  { q: "Choose a mood.",
+    a: [
+      { t: "Euphoric and a little untethered",                 w: { 'psychedelic-rock': 2 } },
+      { t: "Heartbroken but singing anyway",                   w: { 'country-60s': 2, 'motown-soul': 1 } },
+      { t: "Cool, poised, in control",                         w: { 'jazz-easy-listening': 2 } },
+      { t: "Restless and ready to shout",                      w: { 'british-invasion': 2, 'garage-surf-rock': 1 } },
+    ] },
+  { q: "Your ideal instrument in the mix?",
+    a: [
+      { t: "A punchy horn section",                            w: { 'motown-soul': 2, 'jazz-easy-listening': 1 } },
+      { t: "A jangly twelve-string guitar",                    w: { 'folk-rock': 2, 'british-invasion': 1 } },
+      { t: "A fuzzed-out, distorted riff",                     w: { 'garage-surf-rock': 2, 'psychedelic-rock': 1 } },
+      { t: "A pedal-steel cry",                                w: { 'country-60s': 2 } },
+    ] },
+  { q: "Which era of the decade calls you?",
+    a: [
+      { t: "Early 60s — sharp suits and girl groups",          w: { 'pop-brill-building': 2, 'motown-soul': 1 } },
+      { t: "Mid 60s — the beat boom and Merseybeat",           w: { 'british-invasion': 2 } },
+      { t: "Late 60s — the psychedelic frontier",              w: { 'psychedelic-rock': 2, 'folk-rock': 1 } },
+      { t: "Timeless — standards that never date",             w: { 'jazz-easy-listening': 2 } },
+    ] },
+  { q: "Pick a night out.",
+    a: [
+      { t: "A protest march that turns into a singalong",      w: { 'folk-rock': 2 } },
+      { t: "A drag race and a bonfire on the sand",            w: { 'garage-surf-rock': 2 } },
+      { t: "A Motown revue with the whole room dancing",       w: { 'motown-soul': 2 } },
+      { t: "A honky-tonk with a jukebox in the corner",        w: { 'country-60s': 2, 'pop-brill-building': 1 } },
+    ] },
+];
+
+let qi = 0;
+const scores = {};
+
+function renderProgress() {
+  document.getElementById('progress').innerHTML =
+    qi < QUESTIONS.length ? 'Question <strong>' + (qi + 1) + '</strong> of ' + QUESTIONS.length : '';
+}
+
+function renderQuestion() {
+  const item = QUESTIONS[qi];
+  const opts = item.a.map((o, i) =>
+    '<button class="option" data-i="' + i + '">' + escapeHtml(o.t) + '</button>').join('');
+  document.getElementById('quiz').innerHTML =
+    '<div class="q">' +
+      '<p class="prompt">' + escapeHtml(item.q) + '</p>' +
+      '<div class="options">' + opts + '</div>' +
+    '</div>';
+  document.querySelectorAll('.option').forEach(b => b.addEventListener('click', onPick));
+  renderProgress();
+}
+
+function onPick(e) {
+  const item = QUESTIONS[qi];
+  const choice = item.a[parseInt(e.target.getAttribute('data-i'), 10)];
+  for (const g in choice.w) scores[g] = (scores[g] || 0) + choice.w[g];
+  qi++;
+  if (qi >= QUESTIONS.length) renderResult();
+  else renderQuestion();
+}
+
+function winningGenre() {
+  // highest score; tie-break randomly among the top for variety
+  let max = -1;
+  for (const g in scores) if (scores[g] > max) max = scores[g];
+  const top = Object.keys(scores).filter(g => scores[g] === max);
+  return randomPick(top);
+}
+
+function renderResult() {
+  renderProgress();
+  const gid = winningGenre();
+  const g = DATA.genres.find(x => x.id === gid);
+  const hub = '/blog/genres/' + gid + '/';
+  const shareText = "My 60s sound is " + g.name + " — find yours at https://1960smusic.net/tools/quiz/";
+  document.getElementById('quiz').innerHTML =
+    '<div class="result">' +
+      '<p class="kicker">Your 60s sound is</p>' +
+      '<h2>' + escapeHtml(g.name) + '</h2>' +
+      '<p class="desc">' + escapeHtml(g.description) + '</p>' +
+      '<p class="desc"><em>' + escapeHtml(g.defining_sound) + '</em></p>' +
+      '<div class="share">' +
+        '<textarea id="share-text" readonly>' + escapeHtml(shareText) + '</textarea>' +
+      '</div>' +
+      '<div class="share">' +
+        '<button class="btn" id="copy">Copy my result</button>' +
+        '<a class="btn secondary" href="' + hub + '">Explore ' + escapeHtml(g.name) + '</a>' +
+        '<button class="btn secondary" id="retake">Retake quiz</button>' +
+      '</div>' +
+      '<p class="feedback" id="copied"></p>' +
+    '</div>';
+  document.getElementById('copy').addEventListener('click', () => {
+    const ta = document.getElementById('share-text');
+    ta.select();
+    let ok = false;
+    try { ok = document.execCommand('copy'); } catch (e) { ok = false; }
+    if (navigator.clipboard) { navigator.clipboard.writeText(ta.value).catch(() => {}); ok = true; }
+    document.getElementById('copied').textContent = ok ? 'Copied to clipboard!' : 'Select the text above to copy.';
+  });
+  document.getElementById('retake').addEventListener('click', start);
+}
+
+function start() {
+  qi = 0;
+  for (const k in scores) delete scores[k];
+  renderQuestion();
+}
+
+(async function init() {
+  await loadData();
+  start();
+})();
+</script>
+</body>
+</html>

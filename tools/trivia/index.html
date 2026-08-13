@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>1960s Music Trivia — 1960smusic.net</title>
+<meta name="description" content="Test your 1960s music knowledge with a 10-question trivia round drawn from real facts about the decade's greatest songs. Free interactive trivia from 1960smusic.net.">
+<link rel="canonical" href="https://1960smusic.net/tools/trivia/">
+<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/tools/tools.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/">1960s<span>music</span>.net</a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="/">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <h1 class="page-title">1960s Music Trivia</h1>
+    <p class="lead">Ten questions, drawn from real facts about the decade's greatest records. How many can you get?</p>
+
+    <div class="scorebar" id="scorebar"></div>
+    <div id="game" aria-live="polite"></div>
+
+    <nav class="tool-links" aria-label="More tools">
+      <strong>More tools:</strong>
+      <a href="/tools/random-song/">Random Song Generator</a>
+      <a href="/tools/playlist-builder/">Party Playlist Builder</a>
+      <a href="/tools/quiz/">Personality Quiz</a>
+      <a href="/">Home</a>
+    </nav>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>&copy; 2025 1960smusic.net</div>
+    <nav aria-label="Footer">
+      <a href="/about.html">About</a>
+      <a href="/contact.html">Contact</a>
+      <a href="/privacy-policy.html">Privacy Policy</a>
+      <a href="/terms-of-use.html">Terms of Use</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="/tools/shared.js"></script>
+<script>
+const ROUND = 10;
+let questions = [];
+let idx = 0, score = 0, answered = false;
+
+/* Pick a trivia fact that doesn't give away the title, if possible. */
+function clueFor(song) {
+  const facts = (song.trivia_facts || []).filter(Boolean);
+  const t = song.title.toLowerCase();
+  const safe = facts.filter(f => !f.toLowerCase().includes(t));
+  const chosen = (safe.length ? safe : facts);
+  return chosen.length ? randomPick(chosen) : null;
+}
+
+function buildQuestions() {
+  // songs that have at least one usable fact
+  const usable = DATA.songs.filter(s => (s.trivia_facts || []).some(Boolean));
+  const chosen = shuffle(usable).slice(0, ROUND);
+  return chosen.map(song => {
+    // distractors: prefer same genre, fall back to any; unique titles
+    const sameGenre = DATA.songs.filter(s => s.genre_id === song.genre_id && s.id !== song.id);
+    const others = DATA.songs.filter(s => s.id !== song.id);
+    const pool = (sameGenre.length >= 3 ? sameGenre : others);
+    const distractors = [];
+    const seenTitles = new Set([song.title]);
+    for (const s of shuffle(pool)) {
+      if (seenTitles.has(s.title)) continue;
+      seenTitles.add(s.title); distractors.push(s.title);
+      if (distractors.length === 3) break;
+    }
+    const options = shuffle([song.title, ...distractors]);
+    return { song, clue: clueFor(song), options, answer: song.title };
+  });
+}
+
+function renderScore() {
+  document.getElementById('scorebar').innerHTML =
+    'Score: <strong>' + score + '</strong> / ' + ROUND +
+    (idx < questions.length ? '  &middot;  Question ' + (idx + 1) + ' of ' + ROUND : '');
+}
+
+function renderQuestion() {
+  answered = false;
+  const q = questions[idx];
+  const opts = q.options.map(o =>
+    '<button class="option" data-title="' + escapeHtml(o) + '">' + escapeHtml(o) + '</button>').join('');
+  document.getElementById('game').innerHTML =
+    '<div class="q">' +
+      '<p class="progress">' + escapeHtml(genreName(q.song.genre_id)) + '  &middot;  ' + escapeHtml(String(q.song.year)) + '</p>' +
+      '<p class="prompt">Which song is this fact about?</p>' +
+      '<p class="lead" style="margin:0 0 18px">&ldquo;' + escapeHtml(q.clue) + '&rdquo;</p>' +
+      '<div class="options">' + opts + '</div>' +
+      '<div class="feedback" id="fb"></div>' +
+      '<div id="next-wrap" class="hidden" style="margin-top:18px">' +
+        '<button class="btn" id="next">' + (idx === ROUND - 1 ? 'See results' : 'Next question') + '</button>' +
+      '</div>' +
+    '</div>';
+  document.querySelectorAll('.option').forEach(b => b.addEventListener('click', onAnswer));
+  document.getElementById('next').addEventListener('click', onNext);
+  renderScore();
+}
+
+function onAnswer(e) {
+  if (answered) return;
+  answered = true;
+  const q = questions[idx];
+  const chosen = e.target.getAttribute('data-title');
+  const correct = chosen === q.answer;
+  if (correct) score++;
+  document.querySelectorAll('.option').forEach(b => {
+    b.disabled = true;
+    const t = b.getAttribute('data-title');
+    if (t === q.answer) b.classList.add('correct');
+    else if (t === chosen) b.classList.add('wrong');
+  });
+  document.getElementById('fb').innerHTML = correct
+    ? '<strong style="color:#2f7d24">Correct!</strong> &ldquo;' + escapeHtml(q.answer) + '&rdquo; by ' + escapeHtml(q.song.artist_name) + '.'
+    : 'The answer was <strong>&ldquo;' + escapeHtml(q.answer) + '&rdquo;</strong> by ' + escapeHtml(q.song.artist_name) + '.';
+  document.getElementById('next-wrap').classList.remove('hidden');
+  renderScore();
+}
+
+function onNext() {
+  idx++;
+  if (idx >= questions.length) renderResults();
+  else renderQuestion();
+}
+
+function renderResults() {
+  renderScore();
+  let msg;
+  if (score === ROUND) msg = 'A perfect round — you really know the decade.';
+  else if (score >= 7) msg = 'Excellent — you clearly grew up with (or dug deep into) the 60s.';
+  else if (score >= 4) msg = 'Not bad at all — a solid ear for the era.';
+  else msg = 'Plenty more to discover — try another round!';
+  document.getElementById('game').innerHTML =
+    '<div class="result">' +
+      '<p class="kicker">Round complete</p>' +
+      '<h2>' + score + ' / ' + ROUND + '</h2>' +
+      '<p class="desc">' + msg + '</p>' +
+      '<button class="btn" id="again">Play again</button>' +
+    '</div>';
+  document.getElementById('again').addEventListener('click', start);
+}
+
+function start() {
+  questions = buildQuestions();
+  idx = 0; score = 0;
+  renderQuestion();
+}
+
+(async function init() {
+  await loadData();
+  start();
+})();
+</script>
+</body>
+</html>

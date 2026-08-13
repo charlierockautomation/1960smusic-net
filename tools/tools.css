@@ -1,0 +1,74 @@
+/* 1960smusic.net — tool components (Phase 1)
+   Loaded in addition to /styles.css; reuses its :root variables. */
+
+/* controls */
+.controls{
+  display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:18px 0 26px;
+  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+}
+.btn{
+  display:inline-block;cursor:pointer;font-family:inherit;font-size:1rem;
+  background:var(--amber);color:#fff;border:none;border-radius:8px;
+  padding:11px 22px;text-decoration:none;line-height:1.2;
+}
+.btn:hover{background:#b07f14;color:#fff;}
+.btn.secondary{background:var(--card);color:var(--ink);border:1px solid var(--line);}
+.btn.secondary:hover{border-color:var(--amber);color:var(--ink);}
+.btn:disabled{opacity:.5;cursor:default;}
+
+select{
+  font-family:inherit;font-size:1rem;padding:10px 12px;border:1px solid var(--line);
+  border-radius:8px;background:var(--card);color:var(--ink);
+}
+label.field{font-family:inherit;font-size:.95rem;color:var(--muted);display:flex;gap:8px;align-items:center;}
+
+/* youtube embed (responsive 16:9) */
+.embed{position:relative;width:100%;padding-top:56.25%;border-radius:10px;overflow:hidden;
+  background:#000;border:1px solid var(--line);}
+.embed iframe{position:absolute;inset:0;width:100%;height:100%;}
+
+/* song result card */
+.song{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px;margin:0 0 22px;}
+.song h2{margin:0 0 .15em;border:none;padding:0;font-size:1.5rem;}
+.song .meta{font-family:sans-serif;color:var(--muted);font-size:.95rem;margin:0 0 16px;}
+.song .tags{margin:14px 0 0;}
+.tag{display:inline-block;font-family:sans-serif;font-size:.72rem;letter-spacing:.05em;
+  text-transform:uppercase;background:#f0e7d6;color:#6b5a30;border-radius:20px;
+  padding:3px 11px;margin:0 6px 6px 0;}
+
+/* playlist list */
+.playlist{list-style:none;padding:0;margin:0;}
+.playlist li{margin:0 0 26px;}
+.playlist .n{font-family:sans-serif;font-size:.8rem;color:var(--amber);font-weight:bold;letter-spacing:.08em;}
+
+/* trivia / quiz */
+.q{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:24px;margin:0 0 22px;}
+.q .prompt{font-size:1.2rem;margin:0 0 18px;}
+.q .progress{font-family:sans-serif;font-size:.85rem;color:var(--muted);letter-spacing:.05em;text-transform:uppercase;margin:0 0 10px;}
+.options{display:grid;gap:10px;}
+.option{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+  text-align:left;font-size:1rem;background:var(--bg);border:1px solid var(--line);
+  border-radius:8px;padding:13px 16px;cursor:pointer;color:var(--ink);}
+.option:hover:not(:disabled){border-color:var(--amber);}
+.option.correct{background:#e7f4e4;border-color:#4c9a3f;color:#245c1c;}
+.option.wrong{background:#f7e5e5;border-color:var(--red);color:#8a2a2a;}
+.option:disabled{cursor:default;}
+.feedback{font-family:sans-serif;font-size:.95rem;margin:14px 0 0;color:var(--muted);}
+.scorebar{font-family:sans-serif;font-size:.95rem;color:var(--muted);margin:0 0 18px;}
+.scorebar strong{color:var(--ink);}
+
+/* result card (quiz) */
+.result{background:var(--card);border:1px solid var(--line);border-top:6px solid var(--amber);
+  border-radius:12px;padding:30px;text-align:center;}
+.result .kicker{font-family:sans-serif;text-transform:uppercase;letter-spacing:.12em;font-size:.8rem;color:var(--muted);}
+.result h2{border:none;padding:0;margin:.2em 0 .3em;font-size:2rem;}
+.result .desc{color:var(--muted);max-width:52ch;margin:0 auto 18px;}
+.share{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:10px;}
+.share textarea{width:100%;max-width:520px;height:70px;font-family:sans-serif;font-size:.9rem;
+  border:1px solid var(--line);border-radius:8px;padding:10px;resize:none;color:var(--ink);background:var(--bg);}
+
+/* cross-links footer strip */
+.tool-links{margin:10px 0 0;font-family:sans-serif;font-size:.95rem;}
+.tool-links a{margin-right:16px;}
+
+.hidden{display:none;}
