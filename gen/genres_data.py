@@ -1,0 +1,38 @@
+# -*- coding: utf-8 -*-
+# Genre records. (id, name, description, defining_sound, years_active)
+# Descriptions are genuinely distinct, written not scraped.
+
+GENRES = [
+ ("british-invasion", "British Invasion & Beat Music",
+  "When The Beatles landed in New York in 1964, they opened the door for a wave of UK groups that reshaped American pop almost overnight. Rooted in Merseybeat, skiffle and a deep love of American R&B, these bands paired jangling guitars and tight harmonies with a swaggering new attitude. Within two years the movement had splintered into everything from the raw riffing of The Kinks to the mod fury of The Who.",
+  "Chiming guitars, Merseybeat harmonies, R&B-inspired energy and a sharp-suited attitude",
+  "1963\u20131967"),
+ ("psychedelic-rock", "Psychedelic Rock",
+  "Psychedelic rock tried to translate the mind-expanding experience of the era into sound, using studio trickery, modal drones and extended improvisation. On the US West Coast it grew out of San Francisco's ballroom scene, while in Britain it emerged from art-school experimentation and Syd Barrett's whimsy. The result was music that swirled, distorted and stretched the pop single far past its former limits.",
+  "Swirling effects, feedback and fuzz, modal drones, and long improvisational jams",
+  "1965\u20131969"),
+ ("garage-surf-rock", "Garage & Surf Rock",
+  "Before the term 'punk' existed, thousands of American teenagers were making raw, primitive rock in their garages on cheap amps and combo organs. Its cousin, surf rock, translated the thrill of Southern California's waves into reverb-drenched instrumentals and sun-soaked harmonies. Together they form the scrappy, do-it-yourself backbone of 1960s American rock.",
+  "Fuzz guitar, cheap combo organ, heavy reverb, and untrained teenage energy",
+  "1960\u20131967"),
+ ("folk-rock", "Folk Rock",
+  "Folk rock was born the moment acoustic protest singers plugged in, most famously when Bob Dylan went electric in 1965 and The Byrds set his words to a twelve-string Rickenbacker. It fused the literate, socially engaged songwriting of the folk revival with the drive and volume of a rock band. The genre gave the decade both its conscience and some of its most enduring melodies.",
+  "Ringing twelve-string guitars, close harmonies, and literate, socially aware lyrics",
+  "1964\u20131969"),
+ ("motown-soul", "Motown, Soul & R&B",
+  "From Berry Gordy's Detroit hit factory to the deep soul of the American South, this was the sound of Black America crossing over to dominate the pop mainstream. Motown offered a polished, irresistibly danceable formula built on crack session players and dazzling vocal groups, while Southern soul dug into grittier, gospel-fueled emotion. It produced some of the most joyous and enduring records of the era.",
+  "Tight rhythm sections, call-and-response vocals, gospel fervor and Detroit polish",
+  "1961\u20131969"),
+ ("country-60s", "Country (Nashville Sound & Bakersfield)",
+  "1960s country was defined by a tug-of-war between two philosophies. Nashville producers smoothed the music's rough edges with string sections and cooing backing choirs to win a pop audience, creating the lush 'Nashville Sound.' Out in California, Buck Owens and Merle Haggard pushed back with the twangy, electric, honky-tonk-driven 'Bakersfield Sound.' The decade's classics came from both camps.",
+  "Pedal steel and Telecaster twang set against smooth Nashville strings and vocal choruses",
+  "1960\u20131969"),
+ ("pop-brill-building", "Pop & Brill Building / Bubblegum Pop",
+  "Much of the decade's brightest pop was crafted by professional songwriters working in cubicles at New York's Brill Building and nearby offices, where teams like Goffin\u2013King and Barry\u2013Greenwich turned out hit after hit. Their songs powered girl groups, teen idols and, by decade's end, the deliberately simple, sugary confection known as bubblegum pop. It is the sound of pure, craftsman-built melody.",
+  "Professionally crafted hooks, girl-group drama, Wall-of-Sound production and sugary melody",
+  "1960\u20131969"),
+ ("jazz-easy-listening", "Jazz & Easy Listening",
+  "Alongside the rock revolution, the 1960s were a golden age for sophisticated adult pop: swinging vocalists, lush film themes, and the cool Brazilian pulse of bossa nova. Composers like Burt Bacharach and Henry Mancini wrote intricate, harmonically rich songs, while jazz players crossed over into the pop charts. This is the elegant, cocktail-hour counterpart to the decade's louder sounds.",
+  "Lush orchestration, sophisticated harmony, crooned vocals and cool bossa nova rhythms",
+  "1960\u20131969"),
+]

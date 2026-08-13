@@ -1,0 +1,1049 @@
+[
+  {
+    "id": "the-beatles",
+    "name": "The Beatles",
+    "genre_ids": [
+      "british-invasion"
+    ],
+    "active_years": "1960–1970",
+    "origin": "Liverpool, England",
+    "bio_short": "The most influential band of the 1960s, formed in Liverpool by John Lennon, Paul McCartney, George Harrison and Ringo Starr. Their evolution from beat-pop to studio experimentation reshaped popular music.",
+    "notable_song_ids": [
+      "she-loves-you-beatles",
+      "i-want-to-hold-your-hand-beatles",
+      "please-please-me-beatles",
+      "lucy-in-the-sky-with-diamonds-beatles",
+      "strawberry-fields-forever-beatles"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "the-rolling-stones",
+    "name": "The Rolling Stones",
+    "genre_ids": [
+      "british-invasion"
+    ],
+    "active_years": "1962–present",
+    "origin": "London, England",
+    "bio_short": "Blues-rooted London band led by Mick Jagger and Keith Richards that became the defining 'bad boy' counterpart to The Beatles during the British Invasion.",
+    "notable_song_ids": [
+      "i-cant-get-no-satisfaction-rolling-stones",
+      "paint-it-black-rolling-stones"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "the-who",
+    "name": "The Who",
+    "genre_ids": [
+      "british-invasion"
+    ],
+    "active_years": "1964–1983",
+    "origin": "London, England",
+    "bio_short": "Explosive mod-era band known for Pete Townshend's power chords, Keith Moon's drumming and rock-opera ambitions like 'Tommy'.",
+    "notable_song_ids": [
+      "my-generation-who"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "the-kinks",
+    "name": "The Kinks",
+    "genre_ids": [
+      "british-invasion"
+    ],
+    "active_years": "1963–1996",
+    "origin": "Muswell Hill, London, England",
+    "bio_short": "Ray Davies-led band whose distorted riff on 'You Really Got Me' helped invent hard rock, later pivoting to wry, distinctly English songwriting.",
+    "notable_song_ids": [
+      "you-really-got-me-kinks",
+      "sunny-afternoon-kinks",
+      "waterloo-sunset-kinks",
+      "all-day-and-all-of-the-night-kinks"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "the-animals",
+    "name": "The Animals",
+    "genre_ids": [
+      "british-invasion"
+    ],
+    "active_years": "1963–1969",
+    "origin": "Newcastle upon Tyne, England",
+    "bio_short": "Gritty R&B-driven group fronted by Eric Burdon, best known for the transatlantic No. 1 'House of the Rising Sun'.",
+    "notable_song_ids": [
+      "house-of-the-rising-sun-animals"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "the-dave-clark-five",
+    "name": "The Dave Clark Five",
+    "genre_ids": [
+      "british-invasion"
+    ],
+    "active_years": "1957–1970",
+    "origin": "Tottenham, London, England",
+    "bio_short": "Drummer-led beat group whose stomping 'Tottenham Sound' briefly rivaled The Beatles and made a record number of Ed Sullivan Show appearances.",
+    "notable_song_ids": [
+      "glad-all-over-dave-clark-five",
+      "bits-and-pieces-dave-clark-five",
+      "because-dave-clark-five"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "hermanns-hermits",
+    "name": "Herman's Hermits",
+    "genre_ids": [
+      "british-invasion"
+    ],
+    "active_years": "1964–1971",
+    "origin": "Manchester, England",
+    "bio_short": "Clean-cut Manchester pop group fronted by Peter Noone that scored a run of cheerful transatlantic hits in the mid-1960s.",
+    "notable_song_ids": [
+      "mrs-brown-youve-got-a-lovely-daughter-hermanns-hermits",
+      "im-henry-the-viii-i-am-hermanns-hermits"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "the-yardbirds",
+    "name": "The Yardbirds",
+    "genre_ids": [
+      "british-invasion"
+    ],
+    "active_years": "1963–1968",
+    "origin": "London, England",
+    "bio_short": "Blues-rock incubator famous for launching guitarists Eric Clapton, Jeff Beck and Jimmy Page and for pioneering the 'rave-up'.",
+    "notable_song_ids": [
+      "for-your-love-yardbirds",
+      "heart-full-of-soul-yardbirds",
+      "over-under-sideways-down-yardbirds"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "the-searchers",
+    "name": "The Searchers",
+    "genre_ids": [
+      "british-invasion"
+    ],
+    "active_years": "1959–1985",
+    "origin": "Liverpool, England",
+    "bio_short": "Liverpool Merseybeat band known for jangling twelve-string guitar and tight harmonies on hits like 'Needles and Pins'.",
+    "notable_song_ids": [
+      "needles-and-pins-searchers"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "the-doors",
+    "name": "The Doors",
+    "genre_ids": [
+      "psychedelic-rock"
+    ],
+    "active_years": "1965–1973",
+    "origin": "Los Angeles, California",
+    "bio_short": "L.A. quartet built around Jim Morrison's poetry and Ray Manzarek's organ, blending blues, jazz and dark theatricality.",
+    "notable_song_ids": [
+      "light-my-fire-doors",
+      "the-end-doors",
+      "strange-days-doors",
+      "the-crystal-ship-doors"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "jefferson-airplane",
+    "name": "Jefferson Airplane",
+    "genre_ids": [
+      "psychedelic-rock"
+    ],
+    "active_years": "1965–1972",
+    "origin": "San Francisco, California",
+    "bio_short": "Leading San Francisco psychedelic band, powered by Grace Slick's vocals on 'White Rabbit' and 'Somebody to Love'.",
+    "notable_song_ids": [
+      "white-rabbit-jefferson-airplane",
+      "somebody-to-love-jefferson-airplane",
+      "wooden-ships-jefferson-airplane"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "the-jimi-hendrix-experience",
+    "name": "The Jimi Hendrix Experience",
+    "genre_ids": [
+      "psychedelic-rock"
+    ],
+    "active_years": "1966–1969",
+    "origin": "London, England",
+    "bio_short": "Power trio that showcased Jimi Hendrix's revolutionary electric-guitar technique and feedback-drenched psychedelia.",
+    "notable_song_ids": [
+      "purple-haze-jimi-hendrix-experience",
+      "hey-joe-jimi-hendrix-experience"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "pink-floyd",
+    "name": "Pink Floyd",
+    "genre_ids": [
+      "psychedelic-rock"
+    ],
+    "active_years": "1965–present",
+    "origin": "London, England",
+    "bio_short": "British band whose early Syd Barrett era defined UK psychedelia before evolving into progressive rock pioneers.",
+    "notable_song_ids": [
+      "arnold-layne-pink-floyd",
+      "astronomy-domine-pink-floyd"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "the-byrds",
+    "name": "The Byrds",
+    "genre_ids": [
+      "psychedelic-rock",
+      "folk-rock"
+    ],
+    "active_years": "1964–1973",
+    "origin": "Los Angeles, California",
+    "bio_short": "Roger McGuinn's twelve-string Rickenbacker gave the band its chiming signature, bridging folk-rock and early psychedelia.",
+    "notable_song_ids": [
+      "eight-miles-high-byrds",
+      "mr-tambourine-man-byrds",
+      "turn-turn-turn-byrds"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "the-grateful-dead",
+    "name": "The Grateful Dead",
+    "genre_ids": [
+      "psychedelic-rock"
+    ],
+    "active_years": "1965–1995",
+    "origin": "Palo Alto, California",
+    "bio_short": "Improvisation-driven San Francisco band that grew from the acid-test scene into a touring institution led by Jerry Garcia.",
+    "notable_song_ids": [
+      "dark-star-grateful-dead"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "country-joe-and-the-fish",
+    "name": "Country Joe and the Fish",
+    "genre_ids": [
+      "psychedelic-rock"
+    ],
+    "active_years": "1965–1970",
+    "origin": "Berkeley, California",
+    "bio_short": "Berkeley band that fused psychedelia with pointed anti-Vietnam War satire, epitomized by the 'I-Feel-Like-I'm-Fixin'-to-Die Rag'.",
+    "notable_song_ids": [],
+    "article_slug": null
+  },
+  {
+    "id": "the-13th-floor-elevators",
+    "name": "The 13th Floor Elevators",
+    "genre_ids": [
+      "psychedelic-rock"
+    ],
+    "active_years": "1965–1969",
+    "origin": "Austin, Texas",
+    "bio_short": "Texas group often credited with coining the term 'psychedelic rock,' distinguished by Roky Erickson's wail and the electric jug.",
+    "notable_song_ids": [],
+    "article_slug": null
+  },
+  {
+    "id": "love",
+    "name": "Love",
+    "genre_ids": [
+      "psychedelic-rock"
+    ],
+    "active_years": "1965–1972",
+    "origin": "Los Angeles, California",
+    "bio_short": "Arthur Lee's racially integrated L.A. band whose 1967 album 'Forever Changes' is a landmark of baroque psychedelia.",
+    "notable_song_ids": [],
+    "article_slug": null
+  },
+  {
+    "id": "the-beach-boys",
+    "name": "The Beach Boys",
+    "genre_ids": [
+      "garage-surf-rock"
+    ],
+    "active_years": "1961–present",
+    "origin": "Hawthorne, California",
+    "bio_short": "Brian Wilson's California group defined surf-pop harmony before expanding into the ambitious studio craft of 'Pet Sounds'.",
+    "notable_song_ids": [
+      "surfin-usa-beach-boys",
+      "good-vibrations-beach-boys",
+      "fun-fun-fun-beach-boys",
+      "california-girls-beach-boys",
+      "surfin-safari-beach-boys"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "the-ventures",
+    "name": "The Ventures",
+    "genre_ids": [
+      "garage-surf-rock"
+    ],
+    "active_years": "1958–present",
+    "origin": "Tacoma, Washington",
+    "bio_short": "Hugely influential instrumental group whose clean guitar sound on 'Walk, Don't Run' inspired countless bands worldwide.",
+    "notable_song_ids": [
+      "walk-dont-run-ventures"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "the-standells",
+    "name": "The Standells",
+    "genre_ids": [
+      "garage-surf-rock"
+    ],
+    "active_years": "1962–1970",
+    "origin": "Los Angeles, California",
+    "bio_short": "L.A. garage band whose snarling 'Dirty Water' became an enduring anthem, later adopted by Boston sports fans.",
+    "notable_song_ids": [
+      "dirty-water-standells"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "the-sonics",
+    "name": "The Sonics",
+    "genre_ids": [
+      "garage-surf-rock"
+    ],
+    "active_years": "1960–1968",
+    "origin": "Tacoma, Washington",
+    "bio_short": "Raw, distorted Pacific Northwest band widely cited as a proto-punk influence for its ferocious early recordings.",
+    "notable_song_ids": [
+      "the-witch-sonics",
+      "have-love-will-travel-sonics"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "dick-dale",
+    "name": "Dick Dale",
+    "genre_ids": [
+      "garage-surf-rock"
+    ],
+    "active_years": "1959–1969",
+    "origin": "Boston, Massachusetts",
+    "bio_short": "The 'King of the Surf Guitar,' whose staccato, reverb-heavy Middle-Eastern-tinged playing defined instrumental surf rock.",
+    "notable_song_ids": [
+      "miserlou-dick-dale"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "the-kingsmen",
+    "name": "The Kingsmen",
+    "genre_ids": [
+      "garage-surf-rock"
+    ],
+    "active_years": "1959–1967",
+    "origin": "Portland, Oregon",
+    "bio_short": "Portland group whose famously murky recording of 'Louie Louie' became one of rock's most iconic garage records.",
+    "notable_song_ids": [
+      "louie-louie-kingsmen"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "sam-the-sham-and-the-pharaohs",
+    "name": "Sam the Sham and the Pharaohs",
+    "genre_ids": [
+      "garage-surf-rock"
+    ],
+    "active_years": "1963–1968",
+    "origin": "Dallas, Texas",
+    "bio_short": "Tex-Mex flavored novelty-rock band, costumed in turbans, best known for the raucous 'Wooly Bully'.",
+    "notable_song_ids": [
+      "wooly-bully-sam-the-sham-and-the-pharaohs"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "the-seeds",
+    "name": "The Seeds",
+    "genre_ids": [
+      "garage-surf-rock"
+    ],
+    "active_years": "1965–1972",
+    "origin": "Los Angeles, California",
+    "bio_short": "Sky Saxon's L.A. band whose primitive, organ-driven 'Pushin' Too Hard' epitomized the garage-punk template.",
+    "notable_song_ids": [
+      "pushin-too-hard-seeds"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "the-count-five",
+    "name": "Count Five",
+    "genre_ids": [
+      "garage-surf-rock"
+    ],
+    "active_years": "1964–1969",
+    "origin": "San Jose, California",
+    "bio_short": "San Jose teenagers whose fuzz-guitar hit 'Psychotic Reaction' became a garage-rock classic.",
+    "notable_song_ids": [
+      "psychotic-reaction-count-five"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "bob-dylan",
+    "name": "Bob Dylan",
+    "genre_ids": [
+      "folk-rock"
+    ],
+    "active_years": "1961–present",
+    "origin": "Duluth, Minnesota",
+    "bio_short": "The era's defining songwriter, who moved from acoustic protest folk to electric rock in 1965 and won the 2016 Nobel Prize in Literature.",
+    "notable_song_ids": [
+      "like-a-rolling-stone-bob-dylan",
+      "blowin-in-the-wind-bob-dylan",
+      "positively-4th-street-bob-dylan",
+      "subterranean-homesick-blues-bob-dylan",
+      "the-times-they-are-a-changin-bob-dylan"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "simon-and-garfunkel",
+    "name": "Simon & Garfunkel",
+    "genre_ids": [
+      "folk-rock"
+    ],
+    "active_years": "1957–1970",
+    "origin": "Queens, New York",
+    "bio_short": "Paul Simon and Art Garfunkel's harmony duo whose literate songs like 'The Sound of Silence' defined introspective folk-rock.",
+    "notable_song_ids": [
+      "the-sound-of-silence-simon-and-garfunkel",
+      "the-boxer-simon-and-garfunkel",
+      "scarborough-fair-canticle-simon-and-garfunkel"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "joan-baez",
+    "name": "Joan Baez",
+    "genre_ids": [
+      "folk-rock"
+    ],
+    "active_years": "1958–present",
+    "origin": "Staten Island, New York",
+    "bio_short": "Soprano-voiced folk icon and civil-rights activist who helped popularize Bob Dylan's early songs.",
+    "notable_song_ids": [],
+    "article_slug": null
+  },
+  {
+    "id": "peter-paul-and-mary",
+    "name": "Peter, Paul and Mary",
+    "genre_ids": [
+      "folk-rock"
+    ],
+    "active_years": "1961–1970",
+    "origin": "New York City, New York",
+    "bio_short": "Popular folk trio central to the 1960s protest movement, scoring hits with 'If I Had a Hammer' and Dylan covers.",
+    "notable_song_ids": [
+      "if-i-had-a-hammer-peter-paul-and-mary",
+      "puff-the-magic-dragon-peter-paul-and-mary",
+      "leaving-on-a-jet-plane-peter-paul-and-mary",
+      "freight-train-peter-paul-and-mary"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "donovan",
+    "name": "Donovan",
+    "genre_ids": [
+      "folk-rock"
+    ],
+    "active_years": "1964–1970",
+    "origin": "Glasgow, Scotland",
+    "bio_short": "Scottish singer-songwriter who blended folk with psychedelia and jazz on hits like 'Sunshine Superman' and 'Season of the Witch'.",
+    "notable_song_ids": [
+      "season-of-the-witch-donovan",
+      "catch-the-wind-donovan",
+      "universal-soldier-donovan"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "the-mamas-and-the-papas",
+    "name": "The Mamas & The Papas",
+    "genre_ids": [
+      "folk-rock"
+    ],
+    "active_years": "1965–1968",
+    "origin": "Los Angeles, California",
+    "bio_short": "Lush harmony group led by John Phillips whose 'California Dreamin'' captured the mid-decade folk-rock sound.",
+    "notable_song_ids": [
+      "california-dreamin-mamas-and-the-papas",
+      "monday-monday-mamas-and-the-papas"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "leonard-cohen",
+    "name": "Leonard Cohen",
+    "genre_ids": [
+      "folk-rock"
+    ],
+    "active_years": "1967–2016",
+    "origin": "Montreal, Quebec, Canada",
+    "bio_short": "Canadian poet and novelist who turned to songwriting in 1967, bringing literary depth to folk with 'Suzanne' and 'So Long, Marianne'.",
+    "notable_song_ids": [
+      "suzanne-leonard-cohen",
+      "hey-thats-no-way-to-say-goodbye-leonard-cohen"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "scott-mckenzie",
+    "name": "Scott McKenzie",
+    "genre_ids": [
+      "folk-rock"
+    ],
+    "active_years": "1961–1970",
+    "origin": "Jacksonville, Florida",
+    "bio_short": "American singer whose 1967 anthem 'San Francisco (Be Sure to Wear Flowers in Your Hair)' became the Summer of Love's signature song.",
+    "notable_song_ids": [
+      "san-francisco-be-sure-to-wear-flowers-in-your-hair-scott-mckenzie"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "the-supremes",
+    "name": "The Supremes",
+    "genre_ids": [
+      "motown-soul"
+    ],
+    "active_years": "1959–1977",
+    "origin": "Detroit, Michigan",
+    "bio_short": "Motown's most successful act and the most charting American vocal group, led for its peak by Diana Ross.",
+    "notable_song_ids": [
+      "stop-in-the-name-of-love-supremes",
+      "baby-love-supremes",
+      "where-did-our-love-go-supremes",
+      "you-keep-me-hangin-on-supremes",
+      "come-see-about-me-supremes"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "the-four-tops",
+    "name": "The Four Tops",
+    "genre_ids": [
+      "motown-soul"
+    ],
+    "active_years": "1953–1997",
+    "origin": "Detroit, Michigan",
+    "bio_short": "Long-running Motown vocal quartet, with Levi Stubbs's urgent lead voice powering 'Reach Out I'll Be There'.",
+    "notable_song_ids": [
+      "reach-out-ill-be-there-four-tops",
+      "i-cant-help-myself-sugar-pie-honey-bunch-four-tops"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "the-temptations",
+    "name": "The Temptations",
+    "genre_ids": [
+      "motown-soul"
+    ],
+    "active_years": "1960–present",
+    "origin": "Detroit, Michigan",
+    "bio_short": "Signature Motown group known for sharp choreography and layered harmonies on 'My Girl' and 'Get Ready'.",
+    "notable_song_ids": [
+      "my-girl-temptations",
+      "get-ready-temptations"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "marvin-gaye",
+    "name": "Marvin Gaye",
+    "genre_ids": [
+      "motown-soul"
+    ],
+    "active_years": "1961–1984",
+    "origin": "Washington, D.C.",
+    "bio_short": "Versatile Motown star whose smooth voice and later socially conscious work made him one of soul's defining artists.",
+    "notable_song_ids": [
+      "i-heard-it-through-the-grapevine-marvin-gaye",
+      "aint-no-mountain-high-enough-marvin-gaye",
+      "how-sweet-it-is-to-be-loved-by-you-marvin-gaye"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "smokey-robinson-and-the-miracles",
+    "name": "Smokey Robinson & The Miracles",
+    "genre_ids": [
+      "motown-soul"
+    ],
+    "active_years": "1955–1972",
+    "origin": "Detroit, Michigan",
+    "bio_short": "Group led by Smokey Robinson, one of Motown's principal songwriters, celebrated for melodic, poetic soul.",
+    "notable_song_ids": [
+      "the-tracks-of-my-tears-smokey-robinson-and-the-miracles",
+      "i-second-that-emotion-smokey-robinson-and-the-miracles"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "martha-and-the-vandellas",
+    "name": "Martha and the Vandellas",
+    "genre_ids": [
+      "motown-soul"
+    ],
+    "active_years": "1957–1972",
+    "origin": "Detroit, Michigan",
+    "bio_short": "Powerhouse Motown trio whose 'Dancing in the Street' and 'Heat Wave' brought raw energy to the label's sound.",
+    "notable_song_ids": [
+      "dancing-in-the-street-martha-and-the-vandellas",
+      "heat-wave-martha-and-the-vandellas"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "stevie-wonder",
+    "name": "Stevie Wonder",
+    "genre_ids": [
+      "motown-soul"
+    ],
+    "active_years": "1961–present",
+    "origin": "Saginaw, Michigan",
+    "bio_short": "Child prodigy signed to Motown at 11 who became a multi-instrumentalist innovator and one of the most awarded artists ever.",
+    "notable_song_ids": [
+      "for-once-in-my-life-stevie-wonder",
+      "uptight-everythings-alright-stevie-wonder",
+      "fingertips-pt-2-stevie-wonder"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "aretha-franklin",
+    "name": "Aretha Franklin",
+    "genre_ids": [
+      "motown-soul"
+    ],
+    "active_years": "1960–2018",
+    "origin": "Memphis, Tennessee",
+    "bio_short": "The 'Queen of Soul,' whose gospel-rooted voice and 1967 recording of 'Respect' made her a cultural landmark.",
+    "notable_song_ids": [
+      "respect-aretha-franklin"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "james-brown",
+    "name": "James Brown",
+    "genre_ids": [
+      "motown-soul"
+    ],
+    "active_years": "1956–2006",
+    "origin": "Barnwell, South Carolina",
+    "bio_short": "The 'Godfather of Soul,' whose rhythmic innovations laid the groundwork for funk and, later, hip-hop.",
+    "notable_song_ids": [
+      "i-got-you-i-feel-good-james-brown",
+      "its-a-mans-mans-mans-world-james-brown"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "johnny-cash",
+    "name": "Johnny Cash",
+    "genre_ids": [
+      "country-60s"
+    ],
+    "active_years": "1954–2003",
+    "origin": "Kingsland, Arkansas",
+    "bio_short": "The 'Man in Black,' whose deep voice and outlaw image bridged country, rockabilly and folk audiences.",
+    "notable_song_ids": [
+      "ring-of-fire-johnny-cash",
+      "i-walk-the-line-johnny-cash"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "patsy-cline",
+    "name": "Patsy Cline",
+    "genre_ids": [
+      "country-60s"
+    ],
+    "active_years": "1957–1963",
+    "origin": "Winchester, Virginia",
+    "bio_short": "Pioneering vocalist of the Nashville Sound whose emotive delivery on 'Crazy' crossed country into pop before her death at 30.",
+    "notable_song_ids": [
+      "crazy-patsy-cline",
+      "i-fall-to-pieces-patsy-cline"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "buck-owens",
+    "name": "Buck Owens",
+    "genre_ids": [
+      "country-60s"
+    ],
+    "active_years": "1957–1980",
+    "origin": "Sherman, Texas",
+    "bio_short": "Architect of the twangy, electric 'Bakersfield Sound' that offered a rougher alternative to polished Nashville country.",
+    "notable_song_ids": [
+      "act-naturally-buck-owens",
+      "together-again-buck-owens",
+      "buckaroo-buck-owens"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "merle-haggard",
+    "name": "Merle Haggard",
+    "genre_ids": [
+      "country-60s"
+    ],
+    "active_years": "1963–2016",
+    "origin": "Oildale, California",
+    "bio_short": "Bakersfield giant and ex-convict whose autobiographical songs like 'Mama Tried' made him a country institution.",
+    "notable_song_ids": [
+      "okie-from-muskogee-merle-haggard",
+      "mama-tried-merle-haggard"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "tammy-wynette",
+    "name": "Tammy Wynette",
+    "genre_ids": [
+      "country-60s"
+    ],
+    "active_years": "1966–1998",
+    "origin": "Tremont, Mississippi",
+    "bio_short": "The 'First Lady of Country Music,' whose 'Stand By Your Man' became one of the genre's best-selling singles.",
+    "notable_song_ids": [
+      "stand-by-your-man-tammy-wynette",
+      "apartment-no-9-tammy-wynette"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "glen-campbell",
+    "name": "Glen Campbell",
+    "genre_ids": [
+      "country-60s"
+    ],
+    "active_years": "1958–2017",
+    "origin": "Billstown, Arkansas",
+    "bio_short": "Crossover star and ace session guitarist whose Jimmy Webb collaborations produced 'Wichita Lineman' and 'By the Time I Get to Phoenix'.",
+    "notable_song_ids": [
+      "gentle-on-my-mind-glen-campbell",
+      "wichita-lineman-glen-campbell",
+      "by-the-time-i-get-to-phoenix-glen-campbell"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "roger-miller",
+    "name": "Roger Miller",
+    "genre_ids": [
+      "country-60s"
+    ],
+    "active_years": "1957–1992",
+    "origin": "Fort Worth, Texas",
+    "bio_short": "Witty singer-songwriter whose playful hits 'King of the Road' and 'Dang Me' won a then-record haul of Grammys.",
+    "notable_song_ids": [
+      "king-of-the-road-roger-miller",
+      "dang-me-roger-miller"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "loretta-lynn",
+    "name": "Loretta Lynn",
+    "genre_ids": [
+      "country-60s"
+    ],
+    "active_years": "1960–2022",
+    "origin": "Butcher Hollow, Kentucky",
+    "bio_short": "Coal-miner's daughter whose candid, woman's-perspective songwriting broke new ground in country music.",
+    "notable_song_ids": [
+      "you-aint-woman-enough-to-take-my-man-loretta-lynn"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "the-monkees",
+    "name": "The Monkees",
+    "genre_ids": [
+      "pop-brill-building"
+    ],
+    "active_years": "1966–1971",
+    "origin": "Los Angeles, California",
+    "bio_short": "Made-for-TV pop group whose catchy, Brill-Building-supplied hits and hit series became a mid-60s phenomenon.",
+    "notable_song_ids": [
+      "im-a-believer-monkees",
+      "last-train-to-clarksville-monkees",
+      "daydream-believer-monkees"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "the-four-seasons",
+    "name": "The Four Seasons",
+    "genre_ids": [
+      "pop-brill-building"
+    ],
+    "active_years": "1960–1977",
+    "origin": "Newark, New Jersey",
+    "bio_short": "Frankie Valli's falsetto-led group that strung together doo-wop-infused pop chart-toppers like 'Sherry' and 'Walk Like a Man'.",
+    "notable_song_ids": [
+      "walk-like-a-man-four-seasons",
+      "big-girls-dont-cry-four-seasons",
+      "sherry-four-seasons"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "the-ronettes",
+    "name": "The Ronettes",
+    "genre_ids": [
+      "pop-brill-building"
+    ],
+    "active_years": "1959–1967",
+    "origin": "New York City, New York",
+    "bio_short": "Girl group fronted by Ronnie Spector whose 'Be My Baby' epitomized Phil Spector's 'Wall of Sound'.",
+    "notable_song_ids": [
+      "be-my-baby-ronettes"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "lesley-gore",
+    "name": "Lesley Gore",
+    "genre_ids": [
+      "pop-brill-building"
+    ],
+    "active_years": "1963–1969",
+    "origin": "New York City, New York",
+    "bio_short": "Teen-pop star whose 'It's My Party' and the proto-feminist 'You Don't Own Me' made her a defining early-60s voice.",
+    "notable_song_ids": [
+      "its-my-party-lesley-gore"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "the-shangri-las",
+    "name": "The Shangri-Las",
+    "genre_ids": [
+      "pop-brill-building"
+    ],
+    "active_years": "1963–1968",
+    "origin": "Queens, New York",
+    "bio_short": "Girl group known for melodramatic 'death-disc' teen sagas, most famously 'Leader of the Pack'.",
+    "notable_song_ids": [
+      "leader-of-the-pack-shangri-las"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "the-turtles",
+    "name": "The Turtles",
+    "genre_ids": [
+      "pop-brill-building"
+    ],
+    "active_years": "1965–1970",
+    "origin": "Los Angeles, California",
+    "bio_short": "L.A. pop-rock band that topped the charts with the sunny 'Happy Together' in 1967.",
+    "notable_song_ids": [
+      "happy-together-turtles"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "the-shirelles",
+    "name": "The Shirelles",
+    "genre_ids": [
+      "pop-brill-building"
+    ],
+    "active_years": "1957–1982",
+    "origin": "Passaic, New Jersey",
+    "bio_short": "One of the first successful girl groups; their 'Will You Love Me Tomorrow' was the first US No. 1 by a Black girl group.",
+    "notable_song_ids": [
+      "will-you-love-me-tomorrow-shirelles"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "the-crystals",
+    "name": "The Crystals",
+    "genre_ids": [
+      "pop-brill-building"
+    ],
+    "active_years": "1961–1967",
+    "origin": "Brooklyn, New York",
+    "bio_short": "Phil Spector-produced girl group behind Wall-of-Sound hits 'Da Doo Ron Ron' and 'Then He Kissed Me'.",
+    "notable_song_ids": [
+      "da-doo-ron-ron-crystals",
+      "then-he-kissed-me-crystals"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "the-young-rascals",
+    "name": "The Young Rascals",
+    "genre_ids": [
+      "pop-brill-building"
+    ],
+    "active_years": "1965–1972",
+    "origin": "New York City, New York",
+    "bio_short": "Blue-eyed soul group whose energetic 'Good Lovin'' and mellow 'Groovin'' were mid-60s staples.",
+    "notable_song_ids": [
+      "good-lovin-young-rascals",
+      "groovin-young-rascals"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "frank-sinatra",
+    "name": "Frank Sinatra",
+    "genre_ids": [
+      "jazz-easy-listening"
+    ],
+    "active_years": "1935–1995",
+    "origin": "Hoboken, New Jersey",
+    "bio_short": "The premier American pop-jazz vocalist, whose phrasing and 1960s Reprise recordings defined adult popular song.",
+    "notable_song_ids": [
+      "fly-me-to-the-moon-frank-sinatra",
+      "strangers-in-the-night-frank-sinatra",
+      "my-way-frank-sinatra"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "tony-bennett",
+    "name": "Tony Bennett",
+    "genre_ids": [
+      "jazz-easy-listening"
+    ],
+    "active_years": "1949–2021",
+    "origin": "Astoria, Queens, New York",
+    "bio_short": "Enduring interpreter of the Great American Songbook, signature song 'I Left My Heart in San Francisco'.",
+    "notable_song_ids": [
+      "the-shadow-of-your-smile-tony-bennett",
+      "i-left-my-heart-in-san-francisco-tony-bennett"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "herb-alpert-and-the-tijuana-brass",
+    "name": "Herb Alpert & The Tijuana Brass",
+    "genre_ids": [
+      "jazz-easy-listening"
+    ],
+    "active_years": "1962–1969",
+    "origin": "Los Angeles, California",
+    "bio_short": "Trumpeter-led instrumental group whose bright 'Ameriachi' sound dominated mid-60s easy-listening charts.",
+    "notable_song_ids": [
+      "a-taste-of-honey-herb-alpert-and-the-tijuana-brass",
+      "spanish-flea-herb-alpert-and-the-tijuana-brass",
+      "this-guys-in-love-with-you-herb-alpert-and-the-tijuana-brass"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "dionne-warwick",
+    "name": "Dionne Warwick",
+    "genre_ids": [
+      "jazz-easy-listening"
+    ],
+    "active_years": "1961–present",
+    "origin": "East Orange, New Jersey",
+    "bio_short": "Sophisticated pop-soul singer whose long partnership with Burt Bacharach and Hal David produced a string of elegant hits.",
+    "notable_song_ids": [
+      "walk-on-by-dionne-warwick",
+      "do-you-know-the-way-to-san-jose-dionne-warwick",
+      "alfie-dionne-warwick"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "henry-mancini",
+    "name": "Henry Mancini",
+    "genre_ids": [
+      "jazz-easy-listening"
+    ],
+    "active_years": "1952–1994",
+    "origin": "Cleveland, Ohio",
+    "bio_short": "Prolific film and TV composer of 'Moon River' and the 'Pink Panther' theme, a giant of orchestral easy listening.",
+    "notable_song_ids": [
+      "moon-river-henry-mancini",
+      "days-of-wine-and-roses-henry-mancini"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "stan-getz",
+    "name": "Stan Getz",
+    "genre_ids": [
+      "jazz-easy-listening"
+    ],
+    "active_years": "1943–1991",
+    "origin": "Philadelphia, Pennsylvania",
+    "bio_short": "Lyrical tenor saxophonist whose bossa nova recordings, notably 'The Girl from Ipanema,' sparked a US Latin-jazz craze.",
+    "notable_song_ids": [
+      "desafinado-stan-getz"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "wes-montgomery",
+    "name": "Wes Montgomery",
+    "genre_ids": [
+      "jazz-easy-listening"
+    ],
+    "active_years": "1948–1968",
+    "origin": "Indianapolis, Indiana",
+    "bio_short": "Innovative jazz guitarist famed for his thumb-picked octave style, later crossing into pop-jazz success.",
+    "notable_song_ids": [
+      "bumpin-on-sunset-wes-montgomery"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "astrud-gilberto",
+    "name": "Astrud Gilberto",
+    "genre_ids": [
+      "jazz-easy-listening"
+    ],
+    "active_years": "1963–2023",
+    "origin": "Salvador, Bahia, Brazil",
+    "bio_short": "Brazilian singer whose understated English vocal on 'The Girl from Ipanema' became the face of the bossa nova wave.",
+    "notable_song_ids": [
+      "the-girl-from-ipanema-astrud-gilberto"
+    ],
+    "article_slug": null
+  },
+  {
+    "id": "burt-bacharach",
+    "name": "Burt Bacharach",
+    "genre_ids": [
+      "jazz-easy-listening"
+    ],
+    "active_years": "1957–2023",
+    "origin": "Kansas City, Missouri",
+    "bio_short": "Influential composer-arranger whose sophisticated melodies and unusual time signatures defined 1960s sophisticated pop.",
+    "notable_song_ids": [],
+    "article_slug": null
+  }
+]
