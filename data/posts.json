@@ -18,6 +18,15 @@
       "description": "How four teenagers from Liverpool became the most influential band in music history, from Hamburg's clubs to the studio innovations of Revolver and Sgt. Pepper.",
       "date": "2026-08-14",
       "genre": "british-invasion"
+    },
+    {
+      "id": "she-loves-you-beatles",
+      "title": "She Loves You: Inside The Beatles' Breakthrough 1963 Single",
+      "slug": "/blog/songs/she-loves-you-beatles/",
+      "type": "song-story",
+      "description": "How The Beatles wrote their biggest UK single on a tour bus, recorded it in a single day, and built pop's most famous closing chord in 1963.",
+      "date": "2026-08-14",
+      "genre": "british-invasion"
     }
   ]
 }
