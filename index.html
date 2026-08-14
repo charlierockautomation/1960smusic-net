@@ -286,14 +286,16 @@ function renderGenres(genres){
       '<span class="name">' + esc(g.name) + '</span>' +
     '</a></li>';
   }).join('');
-  // grid (genre hubs are not published yet -> graceful "tuning in soon" state)
+  // grid (check which hubs are live)
+  var liveHubs = {'british-invasion': true};
   document.getElementById('genre-grid').innerHTML = ordered.map(function(g){
     var f = GENRE_FREQ[g.id] || '';
-    return '<a class="genre-card soon" href="/blog/genres/' + esc(g.slug || g.id) + '/">' +
+    var isLive = liveHubs[g.id];
+    return '<a class="genre-card' + (isLive ? '' : ' soon') + '" href="/blog/genres/' + esc(g.slug || g.id) + '/">' +
       '<span class="freq">' + esc(f) + ' FM</span>' +
       '<h3>' + esc(g.name) + '</h3>' +
       '<p class="sound">' + esc(g.defining_sound || '') + '</p>' +
-      '<span class="soon-tag">Tuning in soon</span>' +
+      (isLive ? '' : '<span class="soon-tag">Tuning in soon</span>') +
     '</a>';
   }).join('');
 }
