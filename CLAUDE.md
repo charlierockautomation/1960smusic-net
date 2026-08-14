@@ -76,8 +76,12 @@ queue, not ad hoc requests. This is how Claude Code operates it:
    server) for that approval — don't push unprompted, and don't wait on
    Charlie for anything else in between.
 5. **Once live and confirmed** (page responds 200 at its live URL), in
-   the same session update all three, in order: `docs/content-build.md`
+   the same session update all four, in order: `docs/content-build.md`
    (status → `live`), `data/posts.json` (add the entry — this is what
    makes it show up on `/blog/` and its category archive automatically,
    see `blog/shared.js`), `link-map.md` (status → `live`, live URL,
-   inbound/outbound links). Only then move to the next queue row.
+   inbound/outbound links), then regenerate `sitemap.xml` by running
+   `python3 gen/generate_sitemap.py` (reads `data/posts.json` and
+   `data/tools.json`; do this after `posts.json` is updated, not
+   before) and commit/push the new `sitemap.xml` alongside the tracker
+   updates. Only then move to the next queue row.
