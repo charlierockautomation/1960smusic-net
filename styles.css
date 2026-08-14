@@ -311,20 +311,40 @@ h3{font-size:1.25rem;color:var(--ink-soft);}
 
 /* ---------- FAQ ---------- */
 .faq{margin:14px 0 8px;}
-.faq details{
+.faq details,.article-body details{
   background:var(--ivory-face);border:1px solid var(--line);border-left:4px solid var(--brass);
   border-radius:0 10px 10px 0;margin:0 0 12px;padding:0 18px;
 }
-.faq summary{
+.faq summary,.article-body summary{
   cursor:pointer;list-style:none;font-family:var(--font-display);font-weight:600;font-size:1.12rem;
   padding:15px 0;color:var(--near-black);display:flex;justify-content:space-between;align-items:center;gap:12px;
 }
-.faq summary::-webkit-details-marker{display:none;}
-.faq summary::after{content:"+";font-family:var(--font-mono);color:var(--brass);font-size:1.3rem;line-height:1;}
-.faq details[open] summary::after{content:"\2212";}
-.faq details[open] summary{color:var(--tube-glow);}
-.faq .answer{padding:0 0 16px;color:var(--ink-soft);font-size:1rem;}
-.faq .answer p{margin:0 0 .6em;}
+.faq summary::-webkit-details-marker,.article-body summary::-webkit-details-marker{display:none;}
+.faq summary::after,.article-body summary::after{content:"+";font-family:var(--font-mono);color:var(--brass);font-size:1.3rem;line-height:1;}
+.faq details[open] summary::after,.article-body details[open] summary::after{content:"\2212";}
+.faq details[open] summary,.article-body details[open] summary{color:var(--tube-glow);}
+.faq .answer,.article-body .answer{padding:0 0 16px;color:var(--ink-soft);font-size:1rem;}
+.faq .answer p,.article-body .answer p{margin:0 0 .6em;}
+
+/* ---------- Article / genre hub pages ---------- */
+.article{max-width:768px;}
+.breadcrumb{font-family:var(--font-mono);font-size:.78rem;letter-spacing:.04em;color:var(--ink-soft);margin:18px 0 14px;}
+.breadcrumb a{color:var(--ink-soft);text-decoration:none;}
+.breadcrumb a:hover{color:var(--tube-glow);}
+.article-header h1{margin:.1em 0 .5em;}
+/* featured image: never overflow its container / the viewport */
+.featured-image{margin:0 0 1.8rem;text-align:center;}
+.featured-image img{display:block;max-width:100%;height:auto;margin:0 auto;border:1px solid var(--line);border-radius:10px;}
+.featured-image figcaption{margin:8px auto 0;max-width:640px;font-size:12px;line-height:1.5;color:#888;text-align:center;}
+.featured-image figcaption a{color:#888;}
+.article-body{font-size:1.05rem;}
+.article-body .lead{font-size:1.15rem;color:var(--near-black);}
+.article-body h2{font-family:var(--font-display);font-size:1.55rem;margin:1.6em 0 .5em;}
+.article-body h3{font-family:var(--font-display);font-size:1.2rem;color:var(--ink-soft);margin:1.4em 0 .4em;}
+.article-body p{margin:0 0 1.1em;}
+.article-body ul{margin:0 0 1.2em;padding-left:1.25em;}
+.article-body ul a{color:var(--red);}
+.article-body hr{border:0;border-top:1px solid var(--line);margin:2em 0;}
 
 /* ---------- Social sharing ---------- */
 .share-bar{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin:16px 0 8px;}
