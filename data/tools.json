@@ -1,0 +1,61 @@
+{
+  "_comment": "Homepage tools registry. The homepage renders tools with status 'live' in the featured (illuminated) section and status 'coming_soon' in the dimmer (unlit) section. Flip a status to 'live' to promote a tool automatically — no markup changes required. Frequency numbers are invented but consistent with the tuning-dial concept.",
+  "tools": [
+    {
+      "id": "random-song",
+      "name": "Random Song Generator",
+      "freq": "89.1",
+      "status": "live",
+      "href": "/tools/random-song/",
+      "blurb": "Hit generate and let the decade pick a track for you — from any of the eight genres, playing right on the page."
+    },
+    {
+      "id": "playlist-builder",
+      "name": "Party Playlist Builder",
+      "freq": "92.5",
+      "status": "live",
+      "href": "/tools/playlist-builder/",
+      "blurb": "Pick a vibe — upbeat, romantic, dance and more — and build a shuffled playlist to match the mood."
+    },
+    {
+      "id": "trivia",
+      "name": "Music Trivia",
+      "freq": "96.3",
+      "status": "live",
+      "href": "/tools/trivia/",
+      "blurb": "A ten-question round drawn from real facts about the decade's greatest records. Keep score, then play again."
+    },
+    {
+      "id": "quiz",
+      "name": "What's Your 60s Sound?",
+      "freq": "100.7",
+      "status": "live",
+      "href": "/tools/quiz/",
+      "blurb": "Answer seven quick questions and discover which 1960s genre is your personal soundtrack."
+    },
+    {
+      "id": "radio-dial",
+      "name": "Radio Dial",
+      "freq": "103.9",
+      "status": "coming_soon",
+      "href": "/tools/radio/",
+      "blurb": "A continuous, station-style listening experience that rotates through each genre."
+    },
+    {
+      "id": "daily-guessing-game",
+      "name": "Daily Guessing Game",
+      "freq": "105.5",
+      "status": "coming_soon",
+      "href": "/tools/daily/",
+      "blurb": "A new song clip every day — guess the track from a short, recognizable hook."
+    },
+    {
+      "id": "crossword",
+      "name": "60s Crossword",
+      "freq": "107.2",
+      "status": "coming_soon",
+      "href": "/tools/crossword/",
+      "blurb": "A 1960s-themed crossword built from the artists, songs and stories of the decade."
+    }
+  ]
+}

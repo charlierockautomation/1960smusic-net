@@ -3,10 +3,60 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>1960smusic.net — The music that defined a decade</title>
-<meta name="description" content="1960smusic.net is a growing resource dedicated to the music of the 1960s — genre guides, artist profiles, song stories and interactive tools covering British Invasion, Motown, psychedelia, folk rock, surf, country and more.">
+<title>The Music of the 1960s — Genres, Songs & Interactive Tools | 1960smusic.net</title>
+<meta name="description" content="Tune in to the music of the 1960s: eight genre stations from British Invasion to Motown and psychedelia, hundreds of essential songs, and free interactive tools you can play right now.">
 <link rel="canonical" href="https://1960smusic.net/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The Music of the 1960s — 1960smusic.net">
+<meta property="og:description" content="Eight genre stations, hundreds of essential songs, and free interactive tools. Tune in to the music of the 1960s.">
+<meta property="og:url" content="https://1960smusic.net/">
+<meta name="twitter:card" content="summary">
 <link rel="stylesheet" href="/styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "The Music of the 1960s: Genres, Songs and Interactive Tools",
+  "description": "An overview of the music of the 1960s — how the decade's sound is organized into eight core genres, the essential songs and artists, and the free interactive tools on 1960smusic.net.",
+  "author": {"@type": "Organization", "name": "1960smusic.net"},
+  "publisher": {"@type": "Organization", "name": "1960smusic.net"},
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://1960smusic.net/"},
+  "about": "1960s music"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What defines the music of the 1960s?",
+      "acceptedAnswer": {"@type": "Answer", "text": "1960s music is defined by a decade of rapid reinvention: in barely ten years popular music moved from polished early-60s pop and the Motown hit factory through the British Invasion, folk rock, surf and garage, Nashville and Bakersfield country, and the psychedelic explosion. The common thread is the rise of the self-contained band, the 45 rpm single as a cultural force, and studios used as instruments in their own right."}
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main genres of 1960s music?",
+      "acceptedAnswer": {"@type": "Answer", "text": "This site organizes the decade into eight core genres: British Invasion & Beat Music, Motown/Soul & R&B, Folk Rock, Garage & Surf Rock, Psychedelic Rock, Country (Nashville Sound & Bakersfield), Pop & Brill Building, and Jazz & Easy Listening. Each is presented as its own station with its defining sound and key artists."}
+    },
+    {
+      "@type": "Question",
+      "name": "How is 1960smusic.net organized?",
+      "acceptedAnswer": {"@type": "Answer", "text": "The site is built like the front panel of a tube radio. Each of the eight genres is a station you can tune into, and each interactive tool is a control on the panel. You can start from a genre station, play a tool such as the Random Song Generator or Party Playlist Builder, or test yourself with trivia and the personality quiz."}
+    },
+    {
+      "@type": "Question",
+      "name": "Why these eight genres?",
+      "acceptedAnswer": {"@type": "Answer", "text": "These eight cover the styles that shaped the charts and the culture across the whole decade, from the start of the 60s to its end, while staying distinct enough to explore one at a time. Together they map the vast majority of the essential 1960s songs and artists without collapsing everything into a single vague 'oldies' category."}
+    },
+    {
+      "@type": "Question",
+      "name": "Is everything on 1960smusic.net free to use?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Yes. Every tool is free, needs no sign-up, and runs right in your browser, powered by a hand-checked catalogue of essential 1960s songs with music that plays on the page."}
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <header class="site-header">
@@ -20,78 +70,110 @@
   </div>
 </header>
 
-<section class="hero">
+<section class="panel-hero">
   <div class="wrap">
-    <h1>1960smusic.net</h1>
-    <p class="tagline">The definitive resource for the music that defined a decade.</p>
+    <h1>Tune in to the music of the 1960s</h1>
+    <p class="intro">The <strong>music of the 1960s</strong> reshaped popular culture in barely ten years — from the British Invasion and the Motown hit factory to folk rock, surf, country and the psychedelic frontier. 1960smusic.net maps that decade like a radio band you can tune across: every genre is a station, every tool a control on the panel. Everything is researched from verifiable sources, paired with music you can actually play on the page — no invented history, no sign-up.</p>
+
+    <div class="dial" role="navigation" aria-label="Genre stations tuning dial">
+      <div class="dial-head">
+        <span class="fm">FM &middot; 1960s BAND</span>
+        <span class="hint">Tune to a genre station &rarr;</span>
+      </div>
+      <div class="dial-band">
+        <ul class="stations" id="dial-stations"><li style="padding:14px;color:var(--ink-soft);font-family:var(--font-mono)">Tuning in…</li></ul>
+      </div>
+    </div>
   </div>
 </section>
 
 <main>
   <div class="wrap">
-    <p class="lead">Welcome to 1960smusic.net — a resource being built to celebrate the extraordinary music of the 1960s.</p>
 
-    <p>From the arrival of the British Invasion to the Motown hit factory, the West-Coast psychedelic explosion, the folk-rock awakening, surf and garage energy, Nashville and Bakersfield country, sophisticated pop and cool jazz, the 1960s reshaped popular music in barely ten years. Our goal is to map that decade in depth: genuine, fact-checked writing paired with tools that let you actually <em>listen</em> and explore, not just read.</p>
+    <!-- 2. ACTIVE TOOLS (data-driven from /data/tools.json) -->
+    <section class="section" aria-labelledby="tools-live-h">
+      <div class="section-head">
+        <h2 id="tools-live-h">Play Me Now</h2>
+        <p class="sub">Free interactive tools — powered on and ready.</p>
+      </div>
+      <hr class="rule">
+      <div class="tool-grid" id="tools-live"></div>
+    </section>
 
-    <p>The site is organized around eight core genres and hundreds of essential songs and artists. Everything here is researched from verifiable sources — we do not invent history, quotes or trivia. As sections are completed and reviewed, they will go live below.</p>
+    <!-- coming-soon tools (dim / unlit) -->
+    <section class="section" id="tools-coming-section" aria-labelledby="tools-soon-h" hidden>
+      <div class="section-head">
+        <h2 id="tools-soon-h">Warming up</h2>
+        <p class="sub">More controls being wired to the panel.</p>
+      </div>
+      <hr class="rule">
+      <div class="tool-grid coming" id="tools-coming"></div>
+    </section>
 
-    <h2>Play now</h2>
-    <p>Our first interactive tools are live — free, no sign-up, and powered by a hand-checked catalogue of essential 1960s songs.</p>
+    <!-- 3. GENRE STATIONS -->
+    <section class="section" aria-labelledby="genres-h">
+      <div class="section-head">
+        <h2 id="genres-h">Genre stations</h2>
+        <p class="sub">Eight stations across the 1960s band.</p>
+      </div>
+      <hr class="rule">
+      <div class="genre-grid" id="genre-grid"></div>
+    </section>
 
-    <div class="cards">
-      <div class="card">
-        <h3><a href="/tools/random-song/">Random Song Generator</a></h3>
-        <p>Spin the dial for a random track from any of the eight genres, and play it right on the page.</p>
+    <!-- 4. FAQ / AI answer section -->
+    <section class="section" aria-labelledby="faq-h">
+      <div class="section-head">
+        <h2 id="faq-h">1960s music, in brief</h2>
+        <p class="sub">Quick answers to the questions people ask about the decade.</p>
       </div>
-      <div class="card">
-        <h3><a href="/tools/playlist-builder/">Party Playlist Builder</a></h3>
-        <p>Pick a vibe — upbeat, romantic, dance and more — and build a shuffled playlist to match the mood.</p>
+      <hr class="rule">
+      <div class="faq">
+        <details open>
+          <summary>What defines the music of the 1960s?</summary>
+          <div class="answer"><p>1960s music is defined by a decade of rapid reinvention: in barely ten years popular music moved from polished early-60s pop and the Motown hit factory through the British Invasion, folk rock, surf and garage, Nashville and Bakersfield country, and the psychedelic explosion. The common thread is the rise of the self-contained band, the 45 rpm single as a cultural force, and studios used as instruments in their own right.</p></div>
+        </details>
+        <details>
+          <summary>What are the main genres of 1960s music?</summary>
+          <div class="answer"><p>This site organizes the decade into eight core genres: British Invasion &amp; Beat Music, Motown/Soul &amp; R&amp;B, Folk Rock, Garage &amp; Surf Rock, Psychedelic Rock, Country (Nashville Sound &amp; Bakersfield), Pop &amp; Brill Building, and Jazz &amp; Easy Listening. Each is presented as its own station with its defining sound and key artists.</p></div>
+        </details>
+        <details>
+          <summary>How is 1960smusic.net organized?</summary>
+          <div class="answer"><p>The site is built like the front panel of a tube radio. Each of the eight genres is a station you can tune into, and each interactive tool is a control on the panel. You can start from a genre station, play a tool such as the Random Song Generator or Party Playlist Builder, or test yourself with trivia and the personality quiz.</p></div>
+        </details>
+        <details>
+          <summary>Why these eight genres?</summary>
+          <div class="answer"><p>These eight cover the styles that shaped the charts and the culture across the whole decade, from the start of the 60s to its end, while staying distinct enough to explore one at a time. Together they map the vast majority of the essential 1960s songs and artists without collapsing everything into a single vague &ldquo;oldies&rdquo; category.</p></div>
+        </details>
+        <details>
+          <summary>Is everything on 1960smusic.net free to use?</summary>
+          <div class="answer"><p>Yes. Every tool is free, needs no sign-up, and runs right in your browser, powered by a hand-checked catalogue of essential 1960s songs with music that plays on the page.</p></div>
+        </details>
       </div>
-      <div class="card">
-        <h3><a href="/tools/trivia/">Music Trivia</a></h3>
-        <p>A ten-question round drawn from real facts about the decade's greatest records. Keep score, then play again.</p>
-      </div>
-      <div class="card">
-        <h3><a href="/tools/quiz/">What's Your 60s Sound?</a></h3>
-        <p>Answer seven quick questions and discover which 1960s genre is your personal soundtrack.</p>
-      </div>
-    </div>
+    </section>
 
-    <h2>Still to come</h2>
-    <p>The following are in active development. They are listed here as a preview only — links will appear once each section has real, finished content behind it.</p>
+    <!-- 5. SOCIAL SHARING -->
+    <section class="section" aria-labelledby="share-h">
+      <div class="section-head">
+        <h2 id="share-h">Share the dial</h2>
+      </div>
+      <hr class="rule">
+      <div class="share-bar" id="share-bar" aria-label="Share this page">
+        <span class="label">Share</span>
+        <a class="share-btn" data-share="facebook" href="#" target="_blank" rel="noopener" aria-label="Share on Facebook" title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.2c-1.2 0-1.6.8-1.6 1.6V12h2.7l-.4 2.9h-2.3v7A10 10 0 0 0 22 12z"/></svg></a>
+        <a class="share-btn" data-share="x" href="#" target="_blank" rel="noopener" aria-label="Share on X" title="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.9 2H22l-7.6 8.7L23 22h-6.9l-5.4-7-6.2 7H1.4l8.1-9.3L1 2h7l4.9 6.5L18.9 2zm-2.4 18h1.9L7.6 4H5.6l10.9 16z"/></svg></a>
+        <a class="share-btn" data-share="pinterest" href="#" target="_blank" rel="noopener" aria-label="Share on Pinterest" title="Pinterest"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.6 19.3c-.1-.8-.2-2 0-2.9l1.2-5s-.3-.6-.3-1.5c0-1.4.8-2.4 1.8-2.4.9 0 1.3.6 1.3 1.4 0 .9-.6 2.2-.9 3.4-.2 1 .5 1.9 1.5 1.9 1.9 0 3.2-2.4 3.2-5.2 0-2.2-1.5-3.8-4.1-3.8a4.7 4.7 0 0 0-4.9 4.7c0 .9.3 1.5.7 2 .2.2.2.3.1.6l-.2.9c-.1.3-.3.4-.6.2-1.2-.5-1.8-1.8-1.8-3.4 0-2.6 2.2-5.6 6.5-5.6 3.5 0 5.7 2.5 5.7 5.2 0 3.5-2 6.2-4.9 6.2-1 0-1.9-.5-2.2-1.1l-.6 2.4c-.2.8-.7 1.7-1 2.3A10 10 0 1 0 12 2z"/></svg></a>
+        <a class="share-btn" data-share="reddit" href="#" target="_blank" rel="noopener" aria-label="Share on Reddit" title="Reddit"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 11.8c0-1.1-.9-2-2-2-.5 0-1 .2-1.4.6a9.7 9.7 0 0 0-4.9-1.5l.9-3.9 2.7.6a1.5 1.5 0 1 0 .2-1.2l-3.2-.7c-.2 0-.4.1-.4.3l-1 4.6a9.8 9.8 0 0 0-5 1.5A2 2 0 1 0 4.3 14a3.7 3.7 0 0 0 0 .6c0 3 3.5 5.4 7.7 5.4s7.7-2.4 7.7-5.4a3.7 3.7 0 0 0 0-.6c.8-.4 1.3-1.2 1.3-2.2zM8 13.4a1.3 1.3 0 1 1 2.6 0 1.3 1.3 0 0 1-2.6 0zm7.3 3.6c-.9.9-2.6 1-3.3 1s-2.4 0-3.3-1c-.1-.2-.1-.4 0-.5s.4-.1.5 0c.6.6 1.8.8 2.8.8s2.2-.2 2.8-.8c.1-.1.4-.1.5 0s.1.3 0 .5zm-.2-2.3a1.3 1.3 0 1 1 0-2.6 1.3 1.3 0 0 1 0 2.6z"/></svg></a>
+        <a class="share-btn" data-share="whatsapp" href="#" target="_blank" rel="noopener" aria-label="Share on WhatsApp" title="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.5 15.2L2 22l4.9-1.3A10 10 0 1 0 12 2zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-2.9.8.8-2.8-.2-.3A8 8 0 1 1 12 20zm4.4-6c-.2-.1-1.4-.7-1.6-.8s-.4-.1-.5.1-.6.8-.8 1-.3.2-.5.1a6.6 6.6 0 0 1-3.3-2.9c-.2-.4.2-.4.6-1.2a.4.4 0 0 0 0-.4c0-.1-.5-1.3-.7-1.7s-.4-.4-.5-.4h-.5a1 1 0 0 0-.7.3A3 3 0 0 0 6.5 10c0 1.8 1.3 3.5 1.5 3.7s2.6 3.9 6.2 5.1c.9.4 1.5.6 2 .5a1.7 1.7 0 0 0 1.1-.8 2 2 0 0 0 .1-.8c0-.2-.3-.3-.5-.4z"/></svg></a>
+        <a class="share-btn" data-share="email" href="#" aria-label="Share by email" title="Email"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm9 7L4 6.5V18h16V6.5L12 12zm0-2 7.5-5H4.5L12 10z"/></svg></a>
+      </div>
+    </section>
 
-    <div class="cards">
-      <div class="card">
-        <h3>Genre Guides</h3>
-        <p>In-depth hubs for all eight genres, from British Invasion to Jazz &amp; Easy Listening — covering the sound, the story and the key artists.</p>
-      </div>
-      <div class="card">
-        <h3>Artist Profiles</h3>
-        <p>Concise, accurate biographies of the era's defining performers and the songs that made them.</p>
-      </div>
-      <div class="card">
-        <h3>Song Stories</h3>
-        <p>The history, trivia and cultural context behind the records that defined the decade.</p>
-      </div>
-      <div class="card">
-        <h3>Radio Dial</h3>
-        <p>A continuous, station-style listening experience that rotates through each genre.</p>
-      </div>
-      <div class="card">
-        <h3>Daily Guessing Game</h3>
-        <p>A new song clip every day — guess the track from a short, recognizable hook.</p>
-      </div>
-      <div class="card">
-        <h3>Crossword</h3>
-        <p>A 1960s-themed crossword built from the artists, songs and stories of the decade.</p>
-      </div>
-    </div>
   </div>
 </main>
 
 <footer class="site-footer">
   <div class="wrap">
-    <div>&copy; 2025 1960smusic.net</div>
+    <div>&copy; <span data-year>2025</span> 1960smusic.net</div>
     <nav aria-label="Footer">
       <a href="/about.html">About</a>
       <a href="/contact.html">Contact</a>
@@ -100,5 +182,111 @@
     </nav>
   </div>
 </footer>
+
+<script>
+/* ---- current year (never goes stale) ---- */
+document.querySelectorAll('[data-year]').forEach(function(e){ e.textContent = new Date().getFullYear(); });
+
+/* ---- social share links ---- */
+(function(){
+  var url = encodeURIComponent(location.href.split('#')[0]);
+  var title = encodeURIComponent(document.title);
+  var map = {
+    facebook:  'https://www.facebook.com/sharer/sharer.php?u=' + url,
+    x:         'https://twitter.com/intent/tweet?url=' + url + '&text=' + title,
+    pinterest: 'https://pinterest.com/pin/create/button/?url=' + url + '&description=' + title,
+    reddit:    'https://www.reddit.com/submit?url=' + url + '&title=' + title,
+    whatsapp:  'https://api.whatsapp.com/send?text=' + title + '%20' + url,
+    email:     'mailto:?subject=' + title + '&body=' + url
+  };
+  document.querySelectorAll('.share-btn[data-share]').forEach(function(a){
+    var k = a.getAttribute('data-share');
+    if (map[k]) a.setAttribute('href', map[k]);
+  });
+})();
+
+/* ---- invented-but-consistent dial frequencies per genre id ---- */
+var GENRE_FREQ = {
+  'british-invasion':'88.4',
+  'motown-soul':'90.1',
+  'folk-rock':'92.5',
+  'garage-surf-rock':'94.7',
+  'psychedelic-rock':'97.3',
+  'country-60s':'99.5',
+  'pop-brill-building':'101.9',
+  'jazz-easy-listening':'104.6'
+};
+
+function esc(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){
+  return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
+
+async function getJSON(path){ var r = await fetch(path); if(!r.ok) throw new Error(path+' '+r.status); return r.json(); }
+
+/* ---- render tools (data-driven: status decides which section) ---- */
+function renderTools(data){
+  var tools = (data && data.tools) || [];
+  var live = tools.filter(function(t){ return t.status === 'live'; });
+  var soon = tools.filter(function(t){ return t.status === 'coming_soon'; });
+
+  document.getElementById('tools-live').innerHTML = live.map(function(t){
+    return '<a class="tool-window" href="' + esc(t.href) + '">' +
+      '<span class="win-top"><span class="freq">' + esc(t.freq) + ' FM</span><span class="lamp" aria-hidden="true"></span></span>' +
+      '<h3>' + esc(t.name) + '</h3>' +
+      '<p>' + esc(t.blurb) + '</p>' +
+      '<span class="cta">Play Me Now</span>' +
+    '</a>';
+  }).join('') || '<p class="sub">No tools available yet.</p>';
+
+  var section = document.getElementById('tools-coming-section');
+  if (soon.length){
+    section.hidden = false;
+    document.getElementById('tools-coming').innerHTML = soon.map(function(t){
+      return '<div class="tool-window dim">' +
+        '<span class="win-top"><span class="freq">' + esc(t.freq) + ' FM</span><span class="lamp" aria-hidden="true"></span></span>' +
+        '<h3>' + esc(t.name) + '</h3>' +
+        '<p>' + esc(t.blurb) + '</p>' +
+        '<span class="status">Coming soon</span>' +
+      '</div>';
+    }).join('');
+  } else {
+    section.hidden = true;
+  }
+}
+
+/* ---- render genre stations (dial strip + grid) ---- */
+function orderByFreq(genres){
+  return genres.slice().sort(function(a,b){
+    return parseFloat(GENRE_FREQ[a.id]||'999') - parseFloat(GENRE_FREQ[b.id]||'999');
+  });
+}
+function renderGenres(genres){
+  var ordered = orderByFreq(genres);
+  // dial strip
+  document.getElementById('dial-stations').innerHTML = ordered.map(function(g){
+    var f = GENRE_FREQ[g.id] || '';
+    return '<li class="station"><a href="/blog/genres/' + esc(g.slug || g.id) + '/">' +
+      '<span class="freq">' + esc(f) + '</span>' +
+      '<span class="name">' + esc(g.name) + '</span>' +
+    '</a></li>';
+  }).join('');
+  // grid (genre hubs are not published yet -> graceful "tuning in soon" state)
+  document.getElementById('genre-grid').innerHTML = ordered.map(function(g){
+    var f = GENRE_FREQ[g.id] || '';
+    return '<a class="genre-card soon" href="/blog/genres/' + esc(g.slug || g.id) + '/">' +
+      '<span class="freq">' + esc(f) + ' FM</span>' +
+      '<h3>' + esc(g.name) + '</h3>' +
+      '<p class="sound">' + esc(g.defining_sound || '') + '</p>' +
+      '<span class="soon-tag">Tuning in soon</span>' +
+    '</a>';
+  }).join('');
+}
+
+(async function init(){
+  try { renderTools(await getJSON('/data/tools.json')); }
+  catch(e){ document.getElementById('tools-live').innerHTML = '<p class="sub">Tools are loading — please refresh.</p>'; }
+  try { renderGenres(await getJSON('/data/genres.json')); }
+  catch(e){ document.getElementById('dial-stations').innerHTML = '<li style="padding:14px">Stations unavailable.</li>'; }
+})();
+</script>
 </body>
 </html>

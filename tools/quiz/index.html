@@ -41,7 +41,7 @@
 
 <footer class="site-footer">
   <div class="wrap">
-    <div>&copy; 2025 1960smusic.net</div>
+    <div>&copy; <span data-year>2025</span> 1960smusic.net</div>
     <nav aria-label="Footer">
       <a href="/about.html">About</a>
       <a href="/contact.html">Contact</a>
@@ -188,5 +188,6 @@ function start() {
   start();
 })();
 </script>
+<script>document.querySelectorAll("[data-year]").forEach(function(e){e.textContent=new Date().getFullYear();});</script>
 </body>
 </html>
