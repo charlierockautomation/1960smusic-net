@@ -16,6 +16,13 @@ STOP = {"the", "and", "his", "her", "band", "experience", "tijuana", "brass",
         "orchestra", "featuring", "feat", "with", "of", "pharaohs", "miracles",
         "vandellas", "seasons", "tops", "supremes", "del-tones", "shondells"}
 
+# article_slug overrides: set once a bio/song-story page has been placed
+# (may still be status "placed" rather than "live" -- see link-map.md)
+ARTIST_ARTICLE_SLUGS = {
+    "the-beatles": "/blog/artists/the-beatles/",
+}
+SONG_ARTICLE_SLUGS = {}
+
 def slug(s):
     s = s.lower()
     s = s.replace("&", "and")
@@ -163,7 +170,7 @@ def main():
             "trivia_facts": trivia,
             "crossword_eligible": bool(re.match(r"^[A-Za-z0-9' .!?()&,/-]+$", title)),
             "difficulty": difficulty,
-            "article_slug": None,
+            "article_slug": SONG_ARTICLE_SLUGS.get(sid),
         }
         songs_json.append(rec)
         by_artist.setdefault(artist_id, []).append((sid, difficulty, year))
@@ -181,7 +188,7 @@ def main():
             "origin": origin,
             "bio_short": bio,
             "notable_song_ids": notable,
-            "article_slug": None,
+            "article_slug": ARTIST_ARTICLE_SLUGS.get(aid),
         })
 
     # ---- genres.json ----

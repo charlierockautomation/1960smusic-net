@@ -1,0 +1,14 @@
+# Link Map
+
+Tracks every published/placed content page: what type it is, its status, and
+what it links up to (parent/hub) and across to (sibling content). Update this
+file whenever a page is placed or its status changes.
+
+Status values: `drafted` (content written, not placed as a file) · `placed`
+(file exists in the repo, not deployed live) · `live` (deployed and linked
+from the site).
+
+| Page | Type | Status | Live URL | Links up to | Links across to |
+|------|------|--------|----------|-------------|------------------|
+| /blog/genres/british-invasion/ | genre hub | live | https://1960smusic.net/blog/genres/british-invasion/ | / (homepage) | /tools/trivia/ |
+| /blog/artists/the-beatles/ | artist bio | placed | — | /blog/genres/british-invasion/, / (homepage) | /blog/songs/she-loves-you-beatles/, /blog/songs/i-want-to-hold-your-hand-beatles/, /blog/songs/please-please-me-beatles/ |
