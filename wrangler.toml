@@ -7,3 +7,5 @@ compatibility_date = "2026-08-13"
 directory = "./"
 # Fallback for client-side navigation / clean 404 handling.
 not_found_handling = "404-page"
+
+# Deploy test: production branch confirmed set to main 2026-08-14.
