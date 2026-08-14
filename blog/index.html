@@ -50,14 +50,55 @@
       <hr>
     </div>
 
-    <div class="tool-grid">
-      <a class="tool-window" href="/blog/genres/british-invasion/">
-        <span class="win-top"><span class="freq">Genre hub</span><span class="lamp" aria-hidden="true"></span></span>
-        <h3>British Invasion: How 1960s British Rock Bands Conquered America</h3>
-        <p>How UK bands led by The Beatles took over American radio, charts, and TV starting in 1964.</p>
-        <span class="cta">Read the guide</span>
-      </a>
-    </div>
+    <section class="section" aria-labelledby="genre-hub-h">
+      <div class="section-head">
+        <h2 id="genre-hub-h">Genre Hubs</h2>
+        <p class="sub">In-depth guides to each of the eight genres.</p>
+        <a class="dial-jump" id="seeall-genre-hub" href="/blog/genres/">See all <span class="arr" aria-hidden="true">&rarr;</span></a>
+      </div>
+      <hr class="rule">
+      <div class="genre-grid" id="posts-genre-hub"></div>
+    </section>
+
+    <section class="section" aria-labelledby="artist-bio-h">
+      <div class="section-head">
+        <h2 id="artist-bio-h">Artist Bios</h2>
+        <p class="sub">The performers who defined the decade.</p>
+        <a class="dial-jump" id="seeall-artist-bio" href="/blog/artists/">See all <span class="arr" aria-hidden="true">&rarr;</span></a>
+      </div>
+      <hr class="rule">
+      <div class="genre-grid" id="posts-artist-bio"></div>
+    </section>
+
+    <section class="section" aria-labelledby="song-story-h">
+      <div class="section-head">
+        <h2 id="song-story-h">Song Stories</h2>
+        <p class="sub">The history behind the records that mattered.</p>
+        <a class="dial-jump" id="seeall-song-story" href="/blog/songs/">See all <span class="arr" aria-hidden="true">&rarr;</span></a>
+      </div>
+      <hr class="rule">
+      <div class="genre-grid" id="posts-song-story"></div>
+    </section>
+
+    <section class="section" aria-labelledby="trending-h">
+      <div class="section-head">
+        <h2 id="trending-h">Trending</h2>
+        <p class="sub">1960s music having a moment right now.</p>
+        <a class="dial-jump" id="seeall-trending" href="/blog/trending/">See all <span class="arr" aria-hidden="true">&rarr;</span></a>
+      </div>
+      <hr class="rule">
+      <div class="genre-grid" id="posts-trending"></div>
+    </section>
+
+    <section class="section" aria-labelledby="on-this-day-h">
+      <div class="section-head">
+        <h2 id="on-this-day-h">On This Day</h2>
+        <p class="sub">Milestones from the decade, dated to the day.</p>
+        <a class="dial-jump" id="seeall-on-this-day" href="/blog/on-this-day/">See all <span class="arr" aria-hidden="true">&rarr;</span></a>
+      </div>
+      <hr class="rule">
+      <div class="genre-grid" id="posts-on-this-day"></div>
+    </section>
   </article>
 </main>
 
@@ -74,5 +115,7 @@
 </footer>
 
 <script src="/site.js" defer></script>
+<script src="/blog/shared.js"></script>
+<script>renderBlogIndex(6);</script>
 </body>
 </html>

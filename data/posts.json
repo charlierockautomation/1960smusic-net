@@ -1,0 +1,23 @@
+{
+  "_comment": "Blog content registry. /blog/index.html and every /blog/{genres,artists,songs,trending,on-this-day}/index.html archive page read this file and render automatically. To publish a new article: place its page, then add one entry here. No markup changes required. type must be one of: genre-hub, artist-bio, song-story, trending, on-this-day. genre is the matching slug from genres.json, or null when the content isn't tied to one genre.",
+  "posts": [
+    {
+      "id": "british-invasion",
+      "title": "British Invasion: How 1960s British Rock Bands Conquered America",
+      "slug": "/blog/genres/british-invasion/",
+      "type": "genre-hub",
+      "description": "How UK bands led by The Beatles conquered American radio, charts, and TV starting in 1964, and the sound and artists that defined the movement.",
+      "date": "2026-08-13",
+      "genre": "british-invasion"
+    },
+    {
+      "id": "the-beatles",
+      "title": "The Beatles: The Liverpool Band That Changed Music Forever",
+      "slug": "/blog/artists/the-beatles/",
+      "type": "artist-bio",
+      "description": "How four teenagers from Liverpool became the most influential band in music history, from Hamburg's clubs to the studio innovations of Revolver and Sgt. Pepper.",
+      "date": "2026-08-14",
+      "genre": "british-invasion"
+    }
+  ]
+}
