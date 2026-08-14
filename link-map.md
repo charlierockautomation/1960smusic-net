@@ -11,4 +11,4 @@ from the site).
 | Page | Type | Status | Live URL | Links up to | Links across to |
 |------|------|--------|----------|-------------|------------------|
 | /blog/genres/british-invasion/ | genre hub | live | https://1960smusic.net/blog/genres/british-invasion/ | / (homepage) | /tools/trivia/ |
-| /blog/artists/the-beatles/ | artist bio | placed | — | /blog/genres/british-invasion/, / (homepage) | /blog/songs/she-loves-you-beatles/, /blog/songs/i-want-to-hold-your-hand-beatles/, /blog/songs/please-please-me-beatles/ |
+| /blog/artists/the-beatles/ | artist bio | live | https://1960smusic.net/blog/artists/the-beatles/ | /blog/genres/british-invasion/, / (homepage) | /blog/songs/she-loves-you-beatles/, /blog/songs/i-want-to-hold-your-hand-beatles/, /blog/songs/please-please-me-beatles/ |

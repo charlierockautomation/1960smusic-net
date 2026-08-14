@@ -148,6 +148,13 @@ def check_banned_phrases(plain_text, errors):
             errors.append(f'banned phrase found: "{phrase}"')
 
 
+def check_template_placeholders(text, errors):
+    leftover = sorted(set(re.findall(r"\{\{[A-Z0-9_.|-]+\}\}", text)))
+    if leftover:
+        shown = ", ".join(leftover[:8]) + (", ..." if len(leftover) > 8 else "")
+        errors.append(f"{len(leftover)} unfilled article-template.html placeholder(s) left in file: {shown}")
+
+
 ABBREVIATIONS = ["Mr", "Mrs", "Ms", "Dr", "St", "Sgt", "Capt", "Rev", "Jr", "Sr", "vs", "etc"]
 
 
@@ -190,6 +197,7 @@ def check_file(path):
     check_word_count(wc, errors, page_type)
     check_banned_phrases(plain, errors)
     check_one_sentence_per_line(text, errors)
+    check_template_placeholders(text, errors)
 
     return page_type, wc, errors
 
