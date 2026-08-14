@@ -3,17 +3,25 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Privacy Policy — 1960smusic.net</title>
+<title>Privacy Policy | 1960smusic.net</title>
 <meta name="description" content="Privacy Policy for 1960smusic.net, covering data collection, cookies, analytics, advertising, your rights under GDPR and CCPA, data retention and how to contact us.">
 <link rel="canonical" href="https://1960smusic.net/privacy-policy.html">
 <meta name="robots" content="index,follow">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#3D2B1F">
 <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
 <header class="site-header">
   <div class="wrap">
     <a class="brand" href="/">1960s<span>music</span>.net</a>
-    <nav class="site-nav" aria-label="Primary">
+    <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav" type="button"><span class="bars" aria-hidden="true"></span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary">
       <a href="/">Home</a>
       <a href="/about.html">About</a>
       <a href="/contact.html">Contact</a>
@@ -40,7 +48,7 @@
     </ul>
 
     <h2>3. Analytics</h2>
-    <p>We use analytics services, which may include Google Analytics, to understand how visitors use the site in aggregate — for example, which pages are most popular. These services set cookies and process usage data on our behalf. Where offered, we enable IP anonymization. You can opt out of Google Analytics using the <a href="https://tools.google.com/dlpage/gaoptout" rel="nofollow noopener" target="_blank">Google Analytics Opt-out Browser Add-on</a>.</p>
+    <p>We use analytics services, which may include Google Analytics, to understand how visitors use the site in aggregate, for example, which pages are most popular. These services set cookies and process usage data on our behalf. Where offered, we enable IP anonymization. You can opt out of Google Analytics using the <a href="https://tools.google.com/dlpage/gaoptout" rel="nofollow noopener" target="_blank">Google Analytics Opt-out Browser Add-on</a>.</p>
 
     <h2>4. Advertising</h2>
     <p>We may display advertising, including through Google AdSense, to help support the site. Third-party vendors, including Google, use cookies to serve ads based on your prior visits to this and other websites.</p>
@@ -89,6 +97,6 @@
     </nav>
   </div>
 </footer>
-<script>document.querySelectorAll("[data-year]").forEach(function(e){e.textContent=new Date().getFullYear();});</script>
+<script src="/site.js" defer></script>
 </body>
 </html>

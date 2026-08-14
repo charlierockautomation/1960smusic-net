@@ -3,16 +3,24 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>About — 1960smusic.net</title>
-<meta name="description" content="About 1960smusic.net: our mission, who the site is for, and our editorial commitment to accuracy in documenting the music of 1960–1969.">
+<title>About | 1960smusic.net</title>
+<meta name="description" content="About 1960smusic.net: our mission, who the site is for, and our editorial commitment to accuracy in documenting the music of 1960 to 1969.">
 <link rel="canonical" href="https://1960smusic.net/about.html">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#3D2B1F">
 <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
 <header class="site-header">
   <div class="wrap">
     <a class="brand" href="/">1960s<span>music</span>.net</a>
-    <nav class="site-nav" aria-label="Primary">
+    <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav" type="button"><span class="bars" aria-hidden="true"></span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary">
       <a href="/">Home</a>
       <a href="/about.html" aria-current="page">About</a>
       <a href="/contact.html">Contact</a>
@@ -23,7 +31,7 @@
 <main>
   <div class="wrap">
     <h1 class="page-title">About 1960smusic.net</h1>
-    <p class="lead">A resource dedicated to understanding — and enjoying — the music of the 1960s.</p>
+    <p class="lead">A resource dedicated to understanding and enjoying the music of the 1960s.</p>
 
     <h2>Our mission</h2>
     <p>1960smusic.net exists to document one of the richest, most consequential decades in the history of popular music, and to make it easy and enjoyable to explore. The 1960s did not just produce great records; they transformed how music was written, recorded, marketed and heard. Our aim is to capture that story genre by genre, artist by artist and song by song, and to pair solid reference material with tools that let you listen and engage rather than simply read.</p>
@@ -35,10 +43,10 @@
     <p>Accuracy is the foundation of everything here. We work only from verifiable information, and we do not invent facts, quotations, chart positions or "trivia" to fill space. Where a detail is disputed or uncertain, we prefer to leave it out rather than present a guess as fact. Interactive features are built on the same carefully checked dataset that powers our written pages, so what you play with is the same information you read.</p>
 
     <h2>Scope</h2>
-    <p>Our focus is deliberately narrow and deep: the years 1960 through 1969, organized into eight core genres — British Invasion &amp; Beat Music, Psychedelic Rock, Garage &amp; Surf Rock, Folk Rock, Motown / Soul &amp; R&amp;B, 1960s Country, Pop &amp; Brill Building / Bubblegum, and Jazz &amp; Easy Listening. Keeping the scope tight lets us treat each corner of the decade with the depth it deserves rather than spreading thin across everything.</p>
+    <p>Our focus is deliberately narrow and deep: the years 1960 through 1969, organized into eight core genres: British Invasion &amp; Beat Music, Psychedelic Rock, Garage &amp; Surf Rock, Folk Rock, Motown / Soul &amp; R&amp;B, 1960s Country, Pop &amp; Brill Building / Bubblegum, and Jazz &amp; Easy Listening. Keeping the scope tight lets us treat each corner of the decade with the depth it deserves rather than spreading thin across everything.</p>
 
     <h2>A work in progress</h2>
-    <p>This is an early foundation release. New genre guides, artist profiles, song features and interactive tools are being written, built and reviewed, and will be published only once there is real, finished content behind them — we would rather publish a little that is genuinely useful than a lot that is empty. Thank you for stopping by early; the collection will keep growing.</p>
+    <p>This is an early foundation release. New genre guides, artist profiles, song features and interactive tools are being written, built and reviewed, and will be published only once there is real, finished content behind them. We would rather publish a little that is genuinely useful than a lot that is empty. Thank you for stopping by early; the collection will keep growing.</p>
   </div>
 </main>
 
@@ -53,6 +61,6 @@
     </nav>
   </div>
 </footer>
-<script>document.querySelectorAll("[data-year]").forEach(function(e){e.textContent=new Date().getFullYear();});</script>
+<script src="/site.js" defer></script>
 </body>
 </html>

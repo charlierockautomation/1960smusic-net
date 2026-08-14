@@ -3,9 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>1960s Music Trivia — 1960smusic.net</title>
+<title>1960s Music Trivia | 1960smusic.net</title>
 <meta name="description" content="Test your 1960s music knowledge with a 10-question trivia round drawn from real facts about the decade's greatest songs. Free interactive trivia from 1960smusic.net.">
 <link rel="canonical" href="https://1960smusic.net/tools/trivia/">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#3D2B1F">
 <link rel="stylesheet" href="/styles.css">
 <link rel="stylesheet" href="/tools/tools.css">
 </head>
@@ -13,7 +20,8 @@
 <header class="site-header">
   <div class="wrap">
     <a class="brand" href="/">1960s<span>music</span>.net</a>
-    <nav class="site-nav" aria-label="Primary">
+    <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav" type="button"><span class="bars" aria-hidden="true"></span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary">
       <a href="/">Home</a>
       <a href="/about.html">About</a>
       <a href="/contact.html">Contact</a>
@@ -143,10 +151,10 @@ function onNext() {
 function renderResults() {
   renderScore();
   let msg;
-  if (score === ROUND) msg = 'A perfect round — you really know the decade.';
-  else if (score >= 7) msg = 'Excellent — you clearly grew up with (or dug deep into) the 60s.';
-  else if (score >= 4) msg = 'Not bad at all — a solid ear for the era.';
-  else msg = 'Plenty more to discover — try another round!';
+  if (score === ROUND) msg = 'A perfect round. You really know the decade.';
+  else if (score >= 7) msg = 'Excellent. You clearly grew up with (or dug deep into) the 60s.';
+  else if (score >= 4) msg = 'Not bad at all. A solid ear for the era.';
+  else msg = 'Plenty more to discover. Try another round!';
   document.getElementById('game').innerHTML =
     '<div class="result">' +
       '<p class="kicker">Round complete</p>' +
@@ -168,6 +176,6 @@ function start() {
   start();
 })();
 </script>
-<script>document.querySelectorAll("[data-year]").forEach(function(e){e.textContent=new Date().getFullYear();});</script>
+<script src="/site.js" defer></script>
 </body>
 </html>

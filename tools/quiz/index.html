@@ -3,9 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>What's Your 60s Sound? — Personality Quiz — 1960smusic.net</title>
-<meta name="description" content="Answer a few questions about your taste and mood and discover which 1960s genre is your sound — from Motown soul to psychedelic rock. A free personality quiz from 1960smusic.net.">
+<title>What's Your 60s Sound? Personality Quiz | 1960smusic.net</title>
+<meta name="description" content="Answer a few questions about your taste and mood and discover which 1960s genre is your sound, from Motown soul to psychedelic rock. A free personality quiz from 1960smusic.net.">
 <link rel="canonical" href="https://1960smusic.net/tools/quiz/">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#3D2B1F">
 <link rel="stylesheet" href="/styles.css">
 <link rel="stylesheet" href="/tools/tools.css">
 </head>
@@ -13,7 +20,8 @@
 <header class="site-header">
   <div class="wrap">
     <a class="brand" href="/">1960s<span>music</span>.net</a>
-    <nav class="site-nav" aria-label="Primary">
+    <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav" type="button"><span class="bars" aria-hidden="true"></span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary">
       <a href="/">Home</a>
       <a href="/about.html">About</a>
       <a href="/contact.html">Contact</a>
@@ -92,10 +100,10 @@ const QUESTIONS = [
     ] },
   { q: "Which era of the decade calls you?",
     a: [
-      { t: "Early 60s — sharp suits and girl groups",          w: { 'pop-brill-building': 2, 'motown-soul': 1 } },
-      { t: "Mid 60s — the beat boom and Merseybeat",           w: { 'british-invasion': 2 } },
-      { t: "Late 60s — the psychedelic frontier",              w: { 'psychedelic-rock': 2, 'folk-rock': 1 } },
-      { t: "Timeless — standards that never date",             w: { 'jazz-easy-listening': 2 } },
+      { t: "Early 60s: sharp suits and girl groups",          w: { 'pop-brill-building': 2, 'motown-soul': 1 } },
+      { t: "Mid 60s: the beat boom and Merseybeat",           w: { 'british-invasion': 2 } },
+      { t: "Late 60s: the psychedelic frontier",              w: { 'psychedelic-rock': 2, 'folk-rock': 1 } },
+      { t: "Timeless: standards that never date",             w: { 'jazz-easy-listening': 2 } },
     ] },
   { q: "Pick a night out.",
     a: [
@@ -149,7 +157,7 @@ function renderResult() {
   const gid = winningGenre();
   const g = DATA.genres.find(x => x.id === gid);
   const hub = '/blog/genres/' + gid + '/';
-  const shareText = "My 60s sound is " + g.name + " — find yours at https://1960smusic.net/tools/quiz/";
+  const shareText = "My 60s sound is " + g.name + ". Find yours at https://1960smusic.net/tools/quiz/";
   document.getElementById('quiz').innerHTML =
     '<div class="result">' +
       '<p class="kicker">Your 60s sound is</p>' +
@@ -188,6 +196,6 @@ function start() {
   start();
 })();
 </script>
-<script>document.querySelectorAll("[data-year]").forEach(function(e){e.textContent=new Date().getFullYear();});</script>
+<script src="/site.js" defer></script>
 </body>
 </html>

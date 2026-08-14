@@ -3,21 +3,28 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>The Music of the 1960s — Genres, Songs & Interactive Tools | 1960smusic.net</title>
+<title>The Music of the 1960s: Genres, Songs & Interactive Tools | 1960smusic.net</title>
 <meta name="description" content="Tune in to the music of the 1960s: eight genre stations from British Invasion to Motown and psychedelia, hundreds of essential songs, and free interactive tools you can play right now.">
 <link rel="canonical" href="https://1960smusic.net/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="The Music of the 1960s — 1960smusic.net">
+<meta property="og:title" content="The Music of the 1960s: 1960smusic.net">
 <meta property="og:description" content="Eight genre stations, hundreds of essential songs, and free interactive tools. Tune in to the music of the 1960s.">
 <meta property="og:url" content="https://1960smusic.net/">
 <meta name="twitter:card" content="summary">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#3D2B1F">
 <link rel="stylesheet" href="/styles.css">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "The Music of the 1960s: Genres, Songs and Interactive Tools",
-  "description": "An overview of the music of the 1960s — how the decade's sound is organized into eight core genres, the essential songs and artists, and the free interactive tools on 1960smusic.net.",
+  "description": "An overview of the music of the 1960s: how the decade's sound is organized into eight core genres, the essential songs and artists, and the free interactive tools on 1960smusic.net.",
   "author": {"@type": "Organization", "name": "1960smusic.net"},
   "publisher": {"@type": "Organization", "name": "1960smusic.net"},
   "mainEntityOfPage": {"@type": "WebPage", "@id": "https://1960smusic.net/"},
@@ -62,7 +69,8 @@
 <header class="site-header">
   <div class="wrap">
     <a class="brand" href="/">1960s<span>music</span>.net</a>
-    <nav class="site-nav" aria-label="Primary">
+    <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav" type="button"><span class="bars" aria-hidden="true"></span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary">
       <a href="/" aria-current="page">Home</a>
       <a href="/about.html">About</a>
       <a href="/contact.html">Contact</a>
@@ -73,15 +81,21 @@
 <section class="panel-hero">
   <div class="wrap">
     <h1>Tune in to the music of the 1960s</h1>
-    <p class="intro">The <strong>music of the 1960s</strong> reshaped popular culture in barely ten years — from the British Invasion and the Motown hit factory to folk rock, surf, country and the psychedelic frontier. 1960smusic.net maps that decade like a radio band you can tune across: every genre is a station, every tool a control on the panel. Everything is researched from verifiable sources, paired with music you can actually play on the page — no invented history, no sign-up.</p>
+    <p class="intro">The <strong>music of the 1960s</strong> reshaped popular culture in barely ten years, from the British Invasion and the Motown hit factory to folk rock, surf, country and the psychedelic frontier.<br>
+    1960smusic.net maps that decade like a radio band you can tune across: every genre is a station, every tool a control on the panel.<br>
+    Everything is researched from verifiable sources, paired with music you can actually play on the page, with no invented history and no sign-up.</p>
 
     <div class="dial" role="navigation" aria-label="Genre stations tuning dial">
       <div class="dial-head">
         <span class="fm">FM &middot; 1960s BAND</span>
-        <span class="hint">Tune to a genre station &rarr;</span>
+        <a class="dial-jump" href="#genres">Tune to a genre station <span class="arr" aria-hidden="true">&rarr;</span></a>
       </div>
-      <div class="dial-band">
-        <ul class="stations" id="dial-stations"><li style="padding:14px;color:var(--ink-soft);font-family:var(--font-mono)">Tuning in…</li></ul>
+      <div class="dial-band-wrap">
+        <button class="dial-nav prev" id="dial-prev" type="button" aria-label="Scroll to previous stations">&lsaquo;</button>
+        <div class="dial-band">
+          <ul class="stations" id="dial-stations"><li style="padding:14px;color:var(--ink-soft);font-family:var(--font-mono)">Tuning in…</li></ul>
+        </div>
+        <button class="dial-nav next" id="dial-next" type="button" aria-label="Scroll to next stations">&rsaquo;</button>
       </div>
     </div>
   </div>
@@ -94,7 +108,7 @@
     <section class="section" aria-labelledby="tools-live-h">
       <div class="section-head">
         <h2 id="tools-live-h">Play Me Now</h2>
-        <p class="sub">Free interactive tools — powered on and ready.</p>
+        <p class="sub">Free interactive tools: powered on and ready.</p>
       </div>
       <hr class="rule">
       <div class="tool-grid" id="tools-live"></div>
@@ -111,7 +125,7 @@
     </section>
 
     <!-- 3. GENRE STATIONS -->
-    <section class="section" aria-labelledby="genres-h">
+    <section class="section" id="genres" aria-labelledby="genres-h">
       <div class="section-head">
         <h2 id="genres-h">Genre stations</h2>
         <p class="sub">Eight stations across the 1960s band.</p>
@@ -130,23 +144,29 @@
       <div class="faq">
         <details open>
           <summary>What defines the music of the 1960s?</summary>
-          <div class="answer"><p>1960s music is defined by a decade of rapid reinvention: in barely ten years popular music moved from polished early-60s pop and the Motown hit factory through the British Invasion, folk rock, surf and garage, Nashville and Bakersfield country, and the psychedelic explosion. The common thread is the rise of the self-contained band, the 45 rpm single as a cultural force, and studios used as instruments in their own right.</p></div>
+          <div class="answer"><p>1960s music is defined by a decade of rapid reinvention: in barely ten years popular music moved from polished early-60s pop and the Motown hit factory through the British Invasion, folk rock, surf and garage, Nashville and Bakersfield country, and the psychedelic explosion.<br>
+          The common thread is the rise of the self-contained band, the 45 rpm single as a cultural force, and studios used as instruments in their own right.</p></div>
         </details>
         <details>
           <summary>What are the main genres of 1960s music?</summary>
-          <div class="answer"><p>This site organizes the decade into eight core genres: British Invasion &amp; Beat Music, Motown/Soul &amp; R&amp;B, Folk Rock, Garage &amp; Surf Rock, Psychedelic Rock, Country (Nashville Sound &amp; Bakersfield), Pop &amp; Brill Building, and Jazz &amp; Easy Listening. Each is presented as its own station with its defining sound and key artists.</p></div>
+          <div class="answer"><p>This site organizes the decade into eight core genres: British Invasion &amp; Beat Music, Motown/Soul &amp; R&amp;B, Folk Rock, Garage &amp; Surf Rock, Psychedelic Rock, Country (Nashville Sound &amp; Bakersfield), Pop &amp; Brill Building, and Jazz &amp; Easy Listening.<br>
+          Each is presented as its own station with its defining sound and key artists.</p></div>
         </details>
         <details>
           <summary>How is 1960smusic.net organized?</summary>
-          <div class="answer"><p>The site is built like the front panel of a tube radio. Each of the eight genres is a station you can tune into, and each interactive tool is a control on the panel. You can start from a genre station, play a tool such as the Random Song Generator or Party Playlist Builder, or test yourself with trivia and the personality quiz.</p></div>
+          <div class="answer"><p>The site is built like the front panel of a tube radio.<br>
+          Each of the eight genres is a station you can tune into, and each interactive tool is a control on the panel.<br>
+          You can start from a genre station, play a tool such as the Random Song Generator or Party Playlist Builder, or test yourself with trivia and the personality quiz.</p></div>
         </details>
         <details>
           <summary>Why these eight genres?</summary>
-          <div class="answer"><p>These eight cover the styles that shaped the charts and the culture across the whole decade, from the start of the 60s to its end, while staying distinct enough to explore one at a time. Together they map the vast majority of the essential 1960s songs and artists without collapsing everything into a single vague &ldquo;oldies&rdquo; category.</p></div>
+          <div class="answer"><p>These eight cover the styles that shaped the charts and the culture across the whole decade, from the start of the 60s to its end, while staying distinct enough to explore one at a time.<br>
+          Together they map the vast majority of the essential 1960s songs and artists without collapsing everything into a single vague &ldquo;oldies&rdquo; category.</p></div>
         </details>
         <details>
           <summary>Is everything on 1960smusic.net free to use?</summary>
-          <div class="answer"><p>Yes. Every tool is free, needs no sign-up, and runs right in your browser, powered by a hand-checked catalogue of essential 1960s songs with music that plays on the page.</p></div>
+          <div class="answer"><p>Yes.<br>
+          Every tool is free, needs no sign-up, and runs right in your browser, powered by a hand-checked catalogue of essential 1960s songs with music that plays on the page.</p></div>
         </details>
       </div>
     </section>
@@ -184,9 +204,6 @@
 </footer>
 
 <script>
-/* ---- current year (never goes stale) ---- */
-document.querySelectorAll('[data-year]').forEach(function(e){ e.textContent = new Date().getFullYear(); });
-
 /* ---- social share links ---- */
 (function(){
   var url = encodeURIComponent(location.href.split('#')[0]);
@@ -281,12 +298,68 @@ function renderGenres(genres){
   }).join('');
 }
 
+/* ---- desktop dial interactivity: drag, mouse wheel, prev/next arrows ---- */
+function setupDial(){
+  var band = document.getElementById('dial-stations');
+  var prev = document.getElementById('dial-prev');
+  var next = document.getElementById('dial-next');
+  if (!band) return;
+
+  function step(){ return Math.max(160, Math.round(band.clientWidth * 0.8)); }
+
+  function updateArrows(){
+    var max = band.scrollWidth - band.clientWidth - 1;
+    if (prev) prev.disabled = band.scrollLeft <= 0;
+    if (next) next.disabled = band.scrollLeft >= max;
+  }
+
+  if (prev) prev.addEventListener('click', function(){ band.scrollBy({left:-step(), behavior:'smooth'}); });
+  if (next) next.addEventListener('click', function(){ band.scrollBy({left: step(), behavior:'smooth'}); });
+
+  band.addEventListener('scroll', updateArrows, {passive:true});
+  window.addEventListener('resize', updateArrows);
+
+  /* mouse wheel -> horizontal scroll (vertical intent wins so the page still scrolls) */
+  band.addEventListener('wheel', function(e){
+    if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) return;
+    if (band.scrollWidth <= band.clientWidth) return;
+    e.preventDefault();
+    band.scrollLeft += e.deltaY;
+  }, {passive:false});
+
+  /* click-and-drag to scrub the band (pointer events cover mouse + pen) */
+  var down = false, startX = 0, startLeft = 0, moved = false;
+  band.addEventListener('pointerdown', function(e){
+    if (e.pointerType === 'touch') return; /* native touch scroll already works */
+    down = true; moved = false;
+    startX = e.clientX; startLeft = band.scrollLeft;
+    band.classList.add('dragging');
+  });
+  band.addEventListener('pointermove', function(e){
+    if (!down) return;
+    var dx = e.clientX - startX;
+    if (Math.abs(dx) > 4) moved = true;
+    band.scrollLeft = startLeft - dx;
+  });
+  function endDrag(){ if (!down) return; down = false; band.classList.remove('dragging'); }
+  band.addEventListener('pointerup', endDrag);
+  band.addEventListener('pointercancel', endDrag);
+  band.addEventListener('pointerleave', endDrag);
+  /* swallow the click that ends a drag so it doesn't navigate */
+  band.addEventListener('click', function(e){
+    if (moved){ e.preventDefault(); e.stopPropagation(); moved = false; }
+  }, true);
+
+  updateArrows();
+}
+
 (async function init(){
   try { renderTools(await getJSON('/data/tools.json')); }
-  catch(e){ document.getElementById('tools-live').innerHTML = '<p class="sub">Tools are loading — please refresh.</p>'; }
-  try { renderGenres(await getJSON('/data/genres.json')); }
+  catch(e){ document.getElementById('tools-live').innerHTML = '<p class="sub">Tools are loading. Please refresh.</p>'; }
+  try { renderGenres(await getJSON('/data/genres.json')); setupDial(); }
   catch(e){ document.getElementById('dial-stations').innerHTML = '<li style="padding:14px">Stations unavailable.</li>'; }
 })();
 </script>
+<script src="/site.js" defer></script>
 </body>
 </html>

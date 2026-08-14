@@ -1,5 +1,5 @@
 {
-  "_comment": "Homepage tools registry. The homepage renders tools with status 'live' in the featured (illuminated) section and status 'coming_soon' in the dimmer (unlit) section. Flip a status to 'live' to promote a tool automatically — no markup changes required. Frequency numbers are invented but consistent with the tuning-dial concept.",
+  "_comment": "Homepage tools registry. The homepage renders tools with status 'live' in the featured (illuminated) section and status 'coming_soon' in the dimmer (unlit) section. Flip a status to 'live' to promote a tool automatically, no markup changes required. Frequency numbers are invented but consistent with the tuning-dial concept.",
   "tools": [
     {
       "id": "random-song",
@@ -7,7 +7,7 @@
       "freq": "89.1",
       "status": "live",
       "href": "/tools/random-song/",
-      "blurb": "Hit generate and let the decade pick a track for you — from any of the eight genres, playing right on the page."
+      "blurb": "Hit generate and let the decade pick a track for you, from any of the eight genres, playing right on the page."
     },
     {
       "id": "playlist-builder",
@@ -15,7 +15,7 @@
       "freq": "92.5",
       "status": "live",
       "href": "/tools/playlist-builder/",
-      "blurb": "Pick a vibe — upbeat, romantic, dance and more — and build a shuffled playlist to match the mood."
+      "blurb": "Pick a vibe such as upbeat, romantic or dance, and build a shuffled playlist to match the mood."
     },
     {
       "id": "trivia",
@@ -47,7 +47,7 @@
       "freq": "105.5",
       "status": "coming_soon",
       "href": "/tools/daily/",
-      "blurb": "A new song clip every day — guess the track from a short, recognizable hook."
+      "blurb": "A new song clip every day: guess the track from a short, recognizable hook."
     },
     {
       "id": "crossword",

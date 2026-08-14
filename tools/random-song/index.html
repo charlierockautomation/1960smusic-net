@@ -3,9 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Random 60s Song Generator — 1960smusic.net</title>
-<meta name="description" content="Discover a random song from the 1960s — spin up a track from any of eight genres, watch it play, and hit generate for another. A free interactive tool from 1960smusic.net.">
+<title>Random 60s Song Generator | 1960smusic.net</title>
+<meta name="description" content="Discover a random song from the 1960s: spin up a track from any of eight genres, watch it play, and hit generate for another. A free interactive tool from 1960smusic.net.">
 <link rel="canonical" href="https://1960smusic.net/tools/random-song/">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#3D2B1F">
 <link rel="stylesheet" href="/styles.css">
 <link rel="stylesheet" href="/tools/tools.css">
 </head>
@@ -13,7 +20,8 @@
 <header class="site-header">
   <div class="wrap">
     <a class="brand" href="/">1960s<span>music</span>.net</a>
-    <nav class="site-nav" aria-label="Primary">
+    <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav" type="button"><span class="bars" aria-hidden="true"></span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary">
       <a href="/">Home</a>
       <a href="/about.html">About</a>
       <a href="/contact.html">Contact</a>
@@ -97,6 +105,6 @@ function pick() {
   pick();
 })();
 </script>
-<script>document.querySelectorAll("[data-year]").forEach(function(e){e.textContent=new Date().getFullYear();});</script>
+<script src="/site.js" defer></script>
 </body>
 </html>
