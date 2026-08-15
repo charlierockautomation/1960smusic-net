@@ -36,6 +36,15 @@
       "description": "How The Beatles wrote it eyeball to eyeball, then rode it to their first US number one and a nation-changing Ed Sullivan debut.",
       "date": "2026-08-14",
       "genre": "british-invasion"
+    },
+    {
+      "id": "please-please-me-beatles",
+      "title": "Please Please Me: The Beatles' First UK Number One",
+      "slug": "/blog/songs/please-please-me-beatles/",
+      "type": "song-story",
+      "description": "How John Lennon's Roy Orbison homage became The Beatles' first chart-topping single after George Martin sped up its tempo in one session.",
+      "date": "2026-08-15",
+      "genre": "british-invasion"
     }
   ]
 }
