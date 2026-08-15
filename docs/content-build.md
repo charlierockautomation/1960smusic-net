@@ -48,7 +48,7 @@ before embedding; swap for a verified ID if the flagged one doesn't hold up.
 | 3 | She Loves You | /blog/songs/she-loves-you-beatles/ | song-story | british-invasion | live | She Loves You | nGbWU8S3vzs | |
 | 4 | I Want to Hold Your Hand | /blog/songs/i-want-to-hold-your-hand-beatles/ | song-story | british-invasion | live | I Want to Hold Your Hand | jenWdylTtzs | |
 | 5 | Please Please Me | /blog/songs/please-please-me-beatles/ | song-story | british-invasion | live | Please Please Me | czw8eqepir8 | |
-| 6 | The Rolling Stones bio | /blog/artists/the-rolling-stones/ | artist-bio | british-invasion | not started | Brian Jones Rolling Stones | nrIPxlFzDi0 | |
+| 6 | The Rolling Stones bio | /blog/artists/the-rolling-stones/ | artist-bio | british-invasion | live | Brian Jones Rolling Stones | nrIPxlFzDi0 | |
 | 7 | (I Can't Get No) Satisfaction | /blog/songs/i-cant-get-no-satisfaction-rolling-stones/ | song-story | british-invasion | not started | (I Can't Get No) Satisfaction | nrIPxlFzDi0 | |
 | 8 | Paint It Black | /blog/songs/paint-it-black-rolling-stones/ | song-story | british-invasion | not started | Paint It Black | O4irXQhgMqg | |
 | 9 | The Kinks bio | /blog/artists/the-kinks/ | artist-bio | british-invasion | not started | The Kinks | fTTsY-oz6Go | |

@@ -45,6 +45,15 @@
       "description": "How John Lennon's Roy Orbison homage became The Beatles' first chart-topping single after George Martin sped up its tempo in one session.",
       "date": "2026-08-15",
       "genre": "british-invasion"
+    },
+    {
+      "id": "the-rolling-stones",
+      "title": "Brian Jones Rolling Stones: The Founder Behind the Band",
+      "slug": "/blog/artists/the-rolling-stones/",
+      "type": "artist-bio",
+      "description": "How a 20-year-old blues fanatic built the Rolling Stones, named it after Muddy Waters, and lost it before his death in 1969.",
+      "date": "2026-08-15",
+      "genre": "british-invasion"
     }
   ]
 }
