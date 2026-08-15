@@ -260,7 +260,11 @@ def check_keyword(text, plain_text, errors, notes):
     if kw.lower() not in desc.lower():
         errors.append(f'focus keyword "{kw}" not found in meta description')
 
-    first_100 = " ".join(re.findall(r"[A-Za-z0-9']+", plain_text)[:100])
+    # slice on the original text (punctuation intact) so keywords containing
+    # punctuation (parentheses, hyphens, ampersands) can still match; a
+    # token-stripped rebuild would silently lose that punctuation
+    word_ends = [m.end() for m in re.finditer(r"[A-Za-z0-9']+", plain_text)][:100]
+    first_100 = plain_text[:word_ends[-1]] if word_ends else ""
     if kw.lower() not in first_100.lower():
         errors.append(f'focus keyword "{kw}" not found in first 100 words of body')
 
