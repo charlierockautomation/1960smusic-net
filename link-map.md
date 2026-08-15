@@ -17,3 +17,4 @@ from the site).
 | /blog/songs/please-please-me-beatles/ | song story | live | https://1960smusic.net/blog/songs/please-please-me-beatles/ | /blog/artists/the-beatles/, /blog/genres/british-invasion/, / (homepage) | /blog/songs/she-loves-you-beatles/ |
 | /blog/artists/the-rolling-stones/ | artist bio | live | https://1960smusic.net/blog/artists/the-rolling-stones/ | /blog/genres/british-invasion/, / (homepage) | none (no song-story links in body) |
 | /blog/songs/i-cant-get-no-satisfaction-rolling-stones/ | song story | live | https://1960smusic.net/blog/songs/i-cant-get-no-satisfaction-rolling-stones/ | /blog/artists/the-rolling-stones/, /blog/genres/british-invasion/, / (homepage) | none |
+| /blog/songs/paint-it-black-rolling-stones/ | song story | live | https://1960smusic.net/blog/songs/paint-it-black-rolling-stones/ | /blog/artists/the-rolling-stones/, /blog/genres/british-invasion/, / (homepage) | none |

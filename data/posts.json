@@ -63,6 +63,15 @@
       "description": "How Keith Richards wrote the riff half asleep in a Florida motel room and turned it into the Stones' first US number one.",
       "date": "2026-08-15",
       "genre": "british-invasion"
+    },
+    {
+      "id": "paint-it-black-rolling-stones",
+      "title": "Paint It Black Stones: The Hit Born From a Studio Joke",
+      "slug": "/blog/songs/paint-it-black-rolling-stones/",
+      "type": "song-story",
+      "description": "How a joke on the organ and Brian Jones's brand-new sitar turned into the first sitar song ever to hit number one in the US and UK.",
+      "date": "2026-08-15",
+      "genre": "british-invasion"
     }
   ]
 }
