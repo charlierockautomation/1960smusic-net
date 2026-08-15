@@ -59,23 +59,31 @@ queue, not ad hoc requests. This is how Claude Code operates it:
    Work the first `not started` row only. Never start a new row while an
    earlier one is still `in progress` or `drafted` — get one page fully
    live, tracked, and confirmed before starting the next.
-2. **Build with `/docs/article-template.html`** as the shell. Pull facts
-   from `data/songs.json` and `data/artists.json` first; use web search
-   only to fill verified gaps (dates, chart facts, sourced quotes). Never
-   invent history, quotes, or trivia — this is a standing site rule, not
-   new for the pipeline.
-3. **`gen/check_article.py` is the formatting/structure gate.** Run it on
+2. **Research the competition before writing a word.** See
+   `docs/writing-standard.md` → "Content completeness". Find the top 3
+   currently-ranking pages for the focus keyword, read all 3, note every
+   true fact and subtopic they cover. This is mandatory pre-writing
+   research, not an optional polish pass done after a draft exists. The
+   target for every article is to beat all 3 of those pages: more
+   complete, more accurate, better written.
+3. **Build with `/docs/article-template.html`** as the shell. Pull facts
+   from `data/songs.json` and `data/artists.json` first, then fold in
+   everything found in step 2, using web search to verify and fill
+   further gaps (dates, chart facts, sourced quotes). Never invent
+   history, quotes, or trivia — this is a standing site rule, not new
+   for the pipeline.
+4. **`gen/check_article.py` is the formatting/structure gate.** Run it on
    the built page; if it fails, fix the article and rerun until it PASSes.
    Never bring a formatting or structure question to Charlie — the
-   template and check_article.py already define both. Do not commit on a
-   FAIL.
-4. **Two required human checkpoints, no others:** Charlie gives the
+   template, `docs/writing-standard.md`, and check_article.py already
+   define all of it. Do not commit on a FAIL.
+5. **Two required human checkpoints, no others:** Charlie gives the
    go-ahead to start a session, and Charlie gives explicit approval
    before any page is pushed to `main` (which is what makes it live, see
    above). Build, validate, and present the page (e.g. via a local
    server) for that approval — don't push unprompted, and don't wait on
    Charlie for anything else in between.
-5. **Once live and confirmed** (page responds 200 at its live URL), in
+6. **Once live and confirmed** (page responds 200 at its live URL), in
    the same session update all four, in order: `docs/content-build.md`
    (status → `live`), `data/posts.json` (add the entry — this is what
    makes it show up on `/blog/` and its category archive automatically,

@@ -55,6 +55,32 @@ said in chat before the most recent revision.
   don't strip bold when editing a sentence, don't add it gratuitously
   either.
 
+## Content completeness (mandatory pre-writing step)
+
+Before drafting any article, research what's currently ranking. This is
+not optional and not a nice-to-have, it happens before a single word of
+the draft gets written:
+
+- Search the focus keyword and identify the top 3 currently-ranking
+  pages on Google for it.
+- Read all 3. Note every true, verifiable fact, angle, and subtopic
+  they cover: dates, names, numbers, anecdotes, context.
+- The new article must cover everything relevant that those 3 cover, no
+  content gaps against the competition. If a true, findable fact exists
+  and is relevant, it goes in the article. Leaving out a real fact
+  because the article "felt long enough" is not acceptable.
+- The target is not "as good as" the top 3, it's better than all of
+  them: more complete, more accurate, better written, more engaging to
+  actually read. That's the bar for every article, not just the
+  ambitious ones.
+- "Better written" means real flow and voice (see the "top expert"
+  rule above), not just more facts crammed in. Write for the person
+  reading it, a music fan who wants the real story, not for a search
+  engine. Remember who that reader is while writing every section.
+- This research happens once per article, before drafting, not as a
+  retrofit after check_article.py passes. Facts found during this step
+  still go through the no-hallucination rule below: verified only.
+
 ## Structure
 
 - Fixed order: H1, then the intro/lead paragraph, then the featured
