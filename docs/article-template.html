@@ -10,10 +10,15 @@ How to use:
      artist-bio, MusicRecording for song-story) and delete the other,
      including its surrounding <script> tags and this instruction block
      stays out of the shipped file.
-  4. House rules (see CLAUDE.md / README.md): zero em dashes, one sentence
-     per line (use <br> inside a <p> for multi-sentence paragraphs), no
-     invented facts, banned filler phrases forbidden, focus keyword in
-     the H1 and in the opening and closing sentences.
+  4. Full rules: docs/writing-standard.md. Key points: zero em dashes,
+     one sentence per line (<br> inside a <p> for multi-sentence
+     paragraphs), 75%+ of sentences under 20 words, no invented facts,
+     banned filler/AI-cliche words forbidden, focus keyword in the H1,
+     opening sentence, closing sentence, at least one H2/H3, title tag,
+     meta description, and first 100 words, never in two consecutive
+     sentences, keyword density strictly between 1% and 2%. Structure
+     order is fixed: H1, intro, image, TOC, YouTube embed, then the
+     rest. Long H2 sections get real H3 subheadings, one per idea.
   5. Run: python3 gen/check_article.py blog/{artists|songs}/{slug}/index.html
      Fix and rerun until PASS before committing.
 -->
@@ -138,27 +143,28 @@ How to use:
 
     <header class="article-header">
       <h1>{{H1_TEXT_MAX_65_CHARS_STARTS_WITH_FOCUS_KEYWORD}}</h1>
-      <figure class="featured-image">
-        <img src="{{FEATURED_IMAGE_FILENAME}}" alt="{{IMAGE_ALT_TEXT}}" width="{{IMAGE_WIDTH}}" height="{{IMAGE_HEIGHT}}">
-        <figcaption>{{IMAGE_CAPTION}}. Photo: {{PHOTOGRAPHER_OR_SOURCE}}. {{LICENSE}}, via <a href="{{COMMONS_FILE_PAGE_URL}}" target="_blank" rel="noopener">Wikimedia Commons</a>.</figcaption>
-      </figure>
     </header>
 
     <div class="article-body">
       <p class="lead">{{OPENING_SENTENCE_CONTAINING_FOCUS_KEYWORD}}<br>
       {{SECOND_LEAD_SENTENCE}}</p>
 
-      <div class="youtube-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;margin:2rem 0;">
-        <iframe src="https://www.youtube.com/embed/{{YOUTUBE_ID}}" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="{{YOUTUBE_EMBED_TITLE}}"></iframe>
-      </div>
+      <figure class="featured-image">
+        <img src="{{FEATURED_IMAGE_FILENAME}}" alt="{{IMAGE_ALT_TEXT}}" width="{{IMAGE_WIDTH}}" height="{{IMAGE_HEIGHT}}">
+        <figcaption>{{IMAGE_CAPTION}}. Photo: {{PHOTOGRAPHER_OR_SOURCE}}. {{LICENSE}}, via <a href="{{COMMONS_FILE_PAGE_URL}}" target="_blank" rel="noopener">Wikimedia Commons</a>.</figcaption>
+      </figure>
 
       <h2 id="table-of-contents">Table of Contents</h2>
       <ul>
         <li><a href="#{{SECTION_1_ID}}">{{SECTION_1_LABEL}}</a></li>
         <li><a href="#{{SECTION_2_ID}}">{{SECTION_2_LABEL}}</a></li>
         <li><a href="#{{SECTION_3_ID}}">{{SECTION_3_LABEL}}</a></li>
-        <li><a href="#faq">FAQ: {{FOCUS_KEYWORD}}</a></li>
+        <li><a href="#faq">FAQ</a></li>
       </ul>
+
+      <div class="youtube-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;margin:2rem 0;">
+        <iframe src="https://www.youtube.com/embed/{{YOUTUBE_ID}}" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="{{YOUTUBE_EMBED_TITLE}}"></iframe>
+      </div>
 
       <hr>
 
@@ -181,7 +187,7 @@ How to use:
 
       <hr>
 
-      <h2 id="faq">FAQ: {{FOCUS_KEYWORD}}</h2>
+      <h2 id="faq">FAQ</h2>
 
       <details open>
         <summary>{{FAQ_Q1}}</summary>

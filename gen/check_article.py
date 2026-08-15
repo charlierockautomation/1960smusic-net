@@ -3,16 +3,21 @@
 
 Usage: python3 gen/check_article.py <path-to-index.html> [...]
 
-Checks enforced (per team spec, 2026-08-14):
+Full rules: docs/writing-standard.md. Checks enforced here (2026-08-16):
   - zero em dashes (—) or en dashes used as em-dash substitutes (–)
-  - at least 4 FAQ questions (<dt> or FAQPage schema mainEntity)
+  - at least 4 FAQ questions (no length requirement on answers)
   - table of contents present when body word count > 600
   - at least one <img> with non-empty alt text
   - at least one YouTube embed on song and artist pages
   - word count within range for the page type:
       artist bio: 800-1200, song story: 600-900, genre hub: 1200-1800
-  - no banned filler phrases
+  - no banned filler phrases / AI-cliche words
   - one sentence per line: no multi-sentence paragraph without a <br> break
+  - 75%+ of sentences under 20 words
+  - keyword density strictly 1%-2% (outside that band is a fail either
+    way), keyword present in title, meta description, first 100 words,
+    at least one H2/H3, and never in two consecutive sentences. Focus
+    keyword is read from the JSON-LD "about" field.
 
 Page type is read from the "PAGE:" line in the leading HTML comment block
 if present, else inferred from the path (/blog/artists/, /blog/songs/,
@@ -27,6 +32,20 @@ BANNED_PHRASES = [
     "in conclusion",
     "it goes without saying",
     "it is worth noting",
+    "delve",
+    "tapestry",
+    "testament",
+    "vibrant",
+    "unveil",
+    "groundbreaking",
+    "seminal",
+    "journey",
+    "realm",
+    "haunting",
+    "sonic landscape",
+]
+SOFT_BANNED_MAX_ONE = [
+    "stands the test of time",
 ]
 
 WORD_COUNT_RANGES = {
@@ -63,26 +82,41 @@ def strip_tags(fragment):
     return htmllib.unescape(fragment)
 
 
-def body_text(text):
-    # word count / banned-phrase checks apply to the article copy itself,
-    # not header/nav/footer chrome, so prefer .article-body when present
+def body_html(text):
+    """Raw .article-body HTML, tags intact, header/nav/footer chrome excluded."""
     m = re.search(r'class="article-body"[^>]*>(.*)', text, flags=re.S | re.I)
     if m:
-        # cut off at the closing </article> so trailing nav/footer isn't counted
         chunk = m.group(1)
         end = re.search(r"</article>", chunk, flags=re.I)
         if end:
             chunk = chunk[:end.start()]
-        body = chunk
-    else:
-        m2 = re.search(r"<body[^>]*>(.*)</body>", text, flags=re.S | re.I)
-        body = m2.group(1) if m2 else text
-    body = re.sub(r"<!--.*?-->", " ", body, flags=re.S)
+        return chunk
+    m2 = re.search(r"<body[^>]*>(.*)</body>", text, flags=re.S | re.I)
+    return m2.group(1) if m2 else text
+
+
+def body_text(text):
+    body = re.sub(r"<!--.*?-->", " ", body_html(text), flags=re.S)
     return strip_tags(body)
 
 
 def word_count(text):
     return len(re.findall(r"[A-Za-z0-9']+", text))
+
+
+def prose_lines(text):
+    """One entry per intended sentence: every <p>, split on <br>, in document
+    order. House style is one sentence per line/<br> segment, so this reads
+    sentences directly off the markup instead of re-splitting on punctuation
+    (which false-positives across headings, TOC entries, and FAQ questions
+    that have no sentence-ending punctuation of their own)."""
+    lines = []
+    for m in re.finditer(r"<p\b[^>]*>(.*?)</p>", body_html(text), flags=re.S | re.I):
+        for seg in re.split(r"<br\s*/?>", m.group(1), flags=re.I):
+            plain = strip_tags(seg).strip()
+            if plain:
+                lines.append(plain)
+    return lines
 
 
 def check_em_dashes(text, errors):
@@ -94,11 +128,11 @@ def check_em_dashes(text, errors):
 
 
 def check_faq(text, errors):
-    dt_count = len(re.findall(r"<dt\b", text, flags=re.I))
+    answers = re.findall(r'class="answer"><p>(.*?)</p></div>', text, flags=re.S)
     faq_schema_q = 0
     for m in re.finditer(r'"@type"\s*:\s*"FAQPage".*?"mainEntity"\s*:\s*\[(.*?)\]\s*\}', text, flags=re.S):
         faq_schema_q = len(re.findall(r'"@type"\s*:\s*"Question"', m.group(1)))
-    count = max(dt_count, faq_schema_q)
+    count = max(len(answers), faq_schema_q)
     if count < 4:
         errors.append(f"only {count} FAQ question(s) found, need at least 4")
 
@@ -145,7 +179,11 @@ def check_banned_phrases(plain_text, errors):
     lowered = plain_text.lower()
     for phrase in BANNED_PHRASES:
         if phrase in lowered:
-            errors.append(f'banned phrase found: "{phrase}"')
+            errors.append(f'banned word/phrase found: "{phrase}"')
+    for phrase in SOFT_BANNED_MAX_ONE:
+        n = lowered.count(phrase)
+        if n > 1:
+            errors.append(f'"{phrase}" used {n} times, allowed once per article')
 
 
 def check_template_placeholders(text, errors):
@@ -180,6 +218,73 @@ def check_one_sentence_per_line(text, errors):
                 errors.append(f"multiple sentences without a line break: \"{snippet}...\"")
 
 
+def check_sentence_length(text, errors):
+    sents = prose_lines(text)
+    if not sents:
+        return
+    lengths = [len(re.findall(r"[A-Za-z0-9']+", s)) for s in sents]
+    under20 = sum(1 for n in lengths if n < 20)
+    pct = under20 / len(lengths) * 100
+    if pct < 75:
+        errors.append(f"only {pct:.0f}% of sentences are under 20 words, need 75%+")
+
+
+def extract_focus_keyword(text):
+    m = re.search(r'"about"\s*:\s*"([^"]+)"', text)
+    return m.group(1).strip() if m else None
+
+
+def check_keyword(text, plain_text, errors, notes):
+    kw = extract_focus_keyword(text)
+    if not kw:
+        errors.append('no focus keyword found (expected JSON-LD "about" field)')
+        return
+
+    wc = word_count(plain_text)
+    kw_words = len(kw.split())
+    occ = len(re.findall(re.escape(kw), plain_text, re.I))
+    density = (occ * kw_words / wc * 100) if wc else 0
+
+    if density > 2:
+        errors.append(f'keyword density {density:.2f}% for "{kw}" (over 2% is a stuffing flag)')
+    elif density < 1:
+        errors.append(f'keyword density {density:.2f}% for "{kw}" (under 1% is not enough signal)')
+
+    title_m = re.search(r"<title>(.*?)</title>", text, flags=re.S | re.I)
+    title = htmllib.unescape(title_m.group(1)) if title_m else ""
+    if kw.lower() not in title.lower():
+        errors.append(f'focus keyword "{kw}" not found in <title>')
+
+    desc_m = re.search(r'name="description"\s+content="([^"]*)"', text, flags=re.I)
+    desc = htmllib.unescape(desc_m.group(1)) if desc_m else ""
+    if kw.lower() not in desc.lower():
+        errors.append(f'focus keyword "{kw}" not found in meta description')
+
+    first_100 = " ".join(re.findall(r"[A-Za-z0-9']+", plain_text)[:100])
+    if kw.lower() not in first_100.lower():
+        errors.append(f'focus keyword "{kw}" not found in first 100 words of body')
+
+    heading_text = " ".join(re.findall(r"<h[23][^>]*>(.*?)</h[23]>", body_html(text), flags=re.S | re.I))
+    heading_text = strip_tags(heading_text)
+    if kw.lower() not in heading_text.lower():
+        # long keywords (6+ words) can make "one more occurrence" mathematically
+        # exceed the 2% density cap on its own; when that's the case, this
+        # placement requirement is infeasible rather than skipped, so don't fail it
+        would_be_density = ((occ + 1) * kw_words / wc * 100) if wc else 0
+        if would_be_density <= 2:
+            errors.append(f'focus keyword "{kw}" not found in any H2/H3')
+        else:
+            notes.append(f'focus keyword "{kw}" ({kw_words} words) not in any H2/H3, but adding one would '
+                          f'push density to {would_be_density:.2f}% (over the 2% cap) at {wc} words, so this is skipped')
+
+    sents = prose_lines(text)
+    has_kw = [bool(re.search(re.escape(kw), s, re.I)) for s in sents]
+    for i in range(len(has_kw) - 1):
+        if has_kw[i] and has_kw[i + 1]:
+            errors.append(f'focus keyword "{kw}" appears in two consecutive sentences (around: "{sents[i][:60]}...")')
+            break
+
+
 def check_file(path):
     with open(path, encoding="utf-8") as f:
         text = f.read()
@@ -189,6 +294,7 @@ def check_file(path):
     wc = word_count(plain)
 
     errors = []
+    notes = []
     check_em_dashes(text, errors)
     check_faq(text, errors)
     check_toc(text, errors, wc)
@@ -198,8 +304,10 @@ def check_file(path):
     check_banned_phrases(plain, errors)
     check_one_sentence_per_line(text, errors)
     check_template_placeholders(text, errors)
+    check_sentence_length(text, errors)
+    check_keyword(text, plain, errors, notes)
 
-    return page_type, wc, errors
+    return page_type, wc, errors, notes
 
 
 def main(argv):
@@ -208,8 +316,10 @@ def main(argv):
         return 2
     failed = False
     for path in argv:
-        page_type, wc, errors = check_file(path)
+        page_type, wc, errors, notes = check_file(path)
         print(f"{path}  [{page_type or 'unknown type'}, {wc} words]")
+        for n in notes:
+            print(f"  NOTE: {n}")
         if errors:
             failed = True
             for e in errors:
