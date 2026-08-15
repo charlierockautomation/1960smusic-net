@@ -27,6 +27,15 @@
       "description": "How The Beatles wrote their biggest UK single on a tour bus, recorded it in a single day, and built pop's most famous closing chord in 1963.",
       "date": "2026-08-14",
       "genre": "british-invasion"
+    },
+    {
+      "id": "i-want-to-hold-your-hand-beatles",
+      "title": "I Want to Hold Your Hand: How The Beatles Broke America",
+      "slug": "/blog/songs/i-want-to-hold-your-hand-beatles/",
+      "type": "song-story",
+      "description": "How The Beatles wrote it eyeball to eyeball, then rode it to their first US number one and a nation-changing Ed Sullivan debut.",
+      "date": "2026-08-14",
+      "genre": "british-invasion"
     }
   ]
 }
