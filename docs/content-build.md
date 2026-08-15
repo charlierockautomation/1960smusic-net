@@ -48,7 +48,7 @@ before embedding; swap for a verified ID if the flagged one doesn't hold up.
 | 3 | She Loves You | /blog/songs/she-loves-you-beatles/ | song-story | british-invasion | live | She Loves You | nGbWU8S3vzs | |
 | 4 | I Want to Hold Your Hand | /blog/songs/i-want-to-hold-your-hand-beatles/ | song-story | british-invasion | live | I Want to Hold Your Hand | jenWdylTtzs | |
 | 5 | Please Please Me | /blog/songs/please-please-me-beatles/ | song-story | british-invasion | live | Please Please Me | czw8eqepir8 | |
-| 6 | The Rolling Stones bio | /blog/artists/the-rolling-stones/ | artist-bio | british-invasion | not started | The Rolling Stones | nrIPxlFzDi0 | |
+| 6 | The Rolling Stones bio | /blog/artists/the-rolling-stones/ | artist-bio | british-invasion | not started | Brian Jones Rolling Stones | nrIPxlFzDi0 | |
 | 7 | (I Can't Get No) Satisfaction | /blog/songs/i-cant-get-no-satisfaction-rolling-stones/ | song-story | british-invasion | not started | (I Can't Get No) Satisfaction | nrIPxlFzDi0 | |
 | 8 | Paint It Black | /blog/songs/paint-it-black-rolling-stones/ | song-story | british-invasion | not started | Paint It Black | O4irXQhgMqg | |
 | 9 | The Kinks bio | /blog/artists/the-kinks/ | artist-bio | british-invasion | not started | The Kinks | fTTsY-oz6Go | |
@@ -78,3 +78,19 @@ Artist-bio YouTube IDs are the artist's first `notable_song_ids` entry in
 `data/artists.json` (same convention used for The Beatles bio, which
 embeds "She Loves You"). Song-story YouTube IDs come straight from the
 matching record in `data/songs.json`.
+
+## Future keywords (not queued, do not add to the rotation above)
+
+Charlie-supplied keywords for articles that don't have a queue row yet.
+These sit here until Charlie says to add them to the numbered rotation.
+Adding a keyword here never changes queue order on its own.
+
+| Keyword | Suggested article | Note |
+|---|---|---|
+| Sympathy for the Devil | Rolling Stones song story (not yet queued; queue currently has "(I Can't Get No) Satisfaction" as row 7) | 40,500 volume, low competition |
+| 60s rock bands | Hub or list article | |
+| British rock bands 1960s | Hub or list article | |
+| 1960s music artists | Artist category hub | |
+| Merseybeat | Sub-genre article | |
+| Mod music 1960s | Sub-genre article | |
+| British blues rock 1960s | Sub-genre article | |
