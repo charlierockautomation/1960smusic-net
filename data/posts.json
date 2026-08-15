@@ -54,6 +54,15 @@
       "description": "How a 20-year-old blues fanatic built the Rolling Stones, named it after Muddy Waters, and lost it before his death in 1969.",
       "date": "2026-08-15",
       "genre": "british-invasion"
+    },
+    {
+      "id": "i-cant-get-no-satisfaction-rolling-stones",
+      "title": "(I Can't Get No) Satisfaction: Written in His Sleep",
+      "slug": "/blog/songs/i-cant-get-no-satisfaction-rolling-stones/",
+      "type": "song-story",
+      "description": "How Keith Richards wrote the riff half asleep in a Florida motel room and turned it into the Stones' first US number one.",
+      "date": "2026-08-15",
+      "genre": "british-invasion"
     }
   ]
 }
