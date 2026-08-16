@@ -94,3 +94,8 @@ Adding a keyword here never changes queue order on its own.
 | Merseybeat | Sub-genre article | |
 | Mod music 1960s | Sub-genre article | |
 | British blues rock 1960s | Sub-genre article | |
+| Lola by The Kinks | Kinks song story (not yet queued) | 27,100 volume, low competition |
+| The Kinks Are the Village Green Preservation Society | Kinks album feature (not yet queued; no album-review type in the pipeline yet) | ~1,000-1,300 volume across variants, low competition |
+| The Kinks Don't Forget to Dance | Kinks song story (not yet queued) | 480 volume, low competition |
+| Kinda Kinks | Kinks album feature (not yet queued; no album-review type in the pipeline yet) | 480 volume, low competition |
+| The Kinks Greatest Hits | Kinks compilation feature (not yet queued) | 2,900 volume, low competition |
