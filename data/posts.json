@@ -72,6 +72,15 @@
       "description": "How a joke on the organ and Brian Jones's brand-new sitar turned into the first sitar song ever to hit number one in the US and UK.",
       "date": "2026-08-15",
       "genre": "british-invasion"
+    },
+    {
+      "id": "the-kinks",
+      "title": "The Kinks: How Getting Banned From America Changed Them",
+      "slug": "/blog/artists/the-kinks/",
+      "type": "artist-bio",
+      "description": "How a slashed amp, a bloody onstage fight, and a four-year US touring ban turned Ray Davies into one of rock's most English songwriters.",
+      "date": "2026-08-16",
+      "genre": "british-invasion"
     }
   ]
 }
