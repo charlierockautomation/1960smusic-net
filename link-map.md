@@ -21,3 +21,4 @@ from the site).
 | /blog/artists/the-kinks/ | artist bio | live | https://1960smusic.net/blog/artists/the-kinks/ | /blog/genres/british-invasion/, / (homepage) | none (no song-story links in body) |
 | /blog/songs/you-really-got-me-kinks/ | song story | live | https://1960smusic.net/blog/songs/you-really-got-me-kinks/ | /blog/artists/the-kinks/, /blog/genres/british-invasion/, / (homepage) | none |
 | /blog/songs/all-day-and-all-of-the-night-kinks/ | song story | live | https://1960smusic.net/blog/songs/all-day-and-all-of-the-night-kinks/ | /blog/artists/the-kinks/, /blog/genres/british-invasion/, / (homepage) | none |
+| /blog/songs/sunny-afternoon-kinks/ | song story | live | https://1960smusic.net/blog/songs/sunny-afternoon-kinks/ | /blog/artists/the-kinks/, /blog/genres/british-invasion/, / (homepage) | none |

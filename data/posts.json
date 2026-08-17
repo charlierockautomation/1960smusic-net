@@ -99,6 +99,15 @@
       "description": "How The Kinks doubled down on their own riff formula, then won a royalties fight when The Doors borrowed it too closely.",
       "date": "2026-08-16",
       "genre": "british-invasion"
+    },
+    {
+      "id": "sunny-afternoon-kinks",
+      "title": "Kinks Sunny Afternoon: Written During a Real Breakdown",
+      "slug": "/blog/songs/sunny-afternoon-kinks/",
+      "type": "song-story",
+      "description": "How Ray Davies wrote a breezy tax satire while recovering from a real nervous breakdown, then knocked The Beatles off number one.",
+      "date": "2026-08-16",
+      "genre": "british-invasion"
     }
   ]
 }
