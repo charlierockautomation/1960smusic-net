@@ -81,6 +81,15 @@
       "description": "How a slashed amp, a bloody onstage fight, and a four-year US touring ban turned Ray Davies into one of rock's most English songwriters.",
       "date": "2026-08-16",
       "genre": "british-invasion"
+    },
+    {
+      "id": "you-really-got-me-kinks",
+      "title": "You Really Got Me: The Take Ray Davies Refused",
+      "slug": "/blog/songs/you-really-got-me-kinks/",
+      "type": "song-story",
+      "description": "How Ray Davies refused to release the first take, forced a re-record at his own label's expense, and built a blueprint for hard rock.",
+      "date": "2026-08-16",
+      "genre": "british-invasion"
     }
   ]
 }
