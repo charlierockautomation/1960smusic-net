@@ -90,6 +90,15 @@
       "description": "How Ray Davies refused to release the first take, forced a re-record at his own label's expense, and built a blueprint for hard rock.",
       "date": "2026-08-16",
       "genre": "british-invasion"
+    },
+    {
+      "id": "all-day-and-all-of-the-night-kinks",
+      "title": "All Day and All of the Night: The Riff The Doors Copied",
+      "slug": "/blog/songs/all-day-and-all-of-the-night-kinks/",
+      "type": "song-story",
+      "description": "How The Kinks doubled down on their own riff formula, then won a royalties fight when The Doors borrowed it too closely.",
+      "date": "2026-08-16",
+      "genre": "british-invasion"
     }
   ]
 }
