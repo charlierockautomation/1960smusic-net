@@ -54,7 +54,7 @@ before embedding; swap for a verified ID if the flagged one doesn't hold up.
 | 9 | The Kinks bio | /blog/artists/the-kinks/ | artist-bio | british-invasion | live | The Kinks | fTTsY-oz6Go | |
 | 10 | You Really Got Me | /blog/songs/you-really-got-me-kinks/ | song-story | british-invasion | live | You Really Got Me | fTTsY-oz6Go | |
 | 11 | All Day and All of the Night | /blog/songs/all-day-and-all-of-the-night-kinks/ | song-story | british-invasion | live | All Day and All of the Night | fOGMRnKl5co | |
-| 12 | Sunny Afternoon | /blog/songs/sunny-afternoon-kinks/ | song-story | british-invasion | not started | Sunny Afternoon | TYIl6n_SRCI | |
+| 12 | Sunny Afternoon | /blog/songs/sunny-afternoon-kinks/ | song-story | british-invasion | not started | Kinks Sunny Afternoon | TYIl6n_SRCI | |
 | 13 | Waterloo Sunset | /blog/songs/waterloo-sunset-kinks/ | song-story | british-invasion | not started | Waterloo Sunset | N_MqfF0WBsU | |
 | 14 | The Who bio | /blog/artists/the-who/ | artist-bio | british-invasion | not started | The Who | qN5zw04WxCc | yt |
 | 15 | My Generation | /blog/songs/my-generation-who/ | song-story | british-invasion | not started | My Generation | qN5zw04WxCc | yt |
