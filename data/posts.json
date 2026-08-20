@@ -108,6 +108,15 @@
       "description": "How Ray Davies wrote a breezy tax satire while recovering from a real nervous breakdown, then knocked The Beatles off number one.",
       "date": "2026-08-16",
       "genre": "british-invasion"
+    },
+    {
+      "id": "on-this-day-september-1",
+      "title": "On This Day: September 1 in 1960s Music",
+      "slug": "/blog/on-this-day/september-1/",
+      "type": "on-this-day",
+      "description": "21 verified 1960s music events from September 1: chart hits, festival closings, Beatles history, and notable births, each dated and sourced.",
+      "date": "2026-08-20",
+      "genre": null
     }
   ]
 }

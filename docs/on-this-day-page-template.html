@@ -1,0 +1,240 @@
+<!--
+ON THIS DAY PAGE TEMPLATE: shell for /blog/on-this-day/{date-slug}/index.html
+Full rules: docs/on-this-day-sources.md (research/audit/sourcing) and
+docs/on-this-day-template-spec.md (this structure). Data for each date lives
+in /data/on-this-day/{MM-DD}.json, build/verify that JSON first, get
+Charlie's approval on the dataset, THEN fill this shell.
+
+How to use:
+  1. Copy this file to blog/on-this-day/{date-slug}/index.html
+  2. Replace every {{PLACEHOLDER}} token (search for "{{" when done).
+  3. The YEAR SECTION block and the CARD block below are each ONE example.
+     Duplicate the YEAR SECTION once per year present in the JSON (most
+     recent year first), and duplicate the CARD block once per event
+     inside that year's section, in the order given in the JSON.
+  4. Category badge classes (fixed color key, defined in styles.css under
+     "ON THIS DAY"): birth, death, release, chart, concert, festival,
+     broadcast, industry, culture. Use the class matching each event's
+     "category" field.
+  5. Only ONE of the youtube_id / image slots renders per card, per the
+     JSON. If both are null, omit the media slot entirely, don't force one.
+  6. internal_link: only link an artist/song name if a matching live page
+     already exists on the site. Check /data/posts.json or link-map.md
+     first. No forced links.
+  7. Same house style as every other page: zero em dashes, one sentence
+     per <p>, no banned filler words (see docs/writing-standard.md).
+  8. Once placed, register it in the SAME session: add an entry to
+     data/posts.json (type "on-this-day"), update link-map.md, regenerate
+     sitemap.xml. Get Charlie's go-ahead before pushing to main.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RTM6T90PRM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RTM6T90PRM');
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>On This Day: {{DATE_LABEL}} in 1960s Music | 1960smusic.net</title>
+<meta name="description" content="{{META_DESCRIPTION_150_160_CHARS_SUMMARIZING_THE_DAYS_EVENTS}}">
+<link rel="canonical" href="https://1960smusic.net/blog/on-this-day/{{DATE_SLUG}}/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="On This Day: {{DATE_LABEL}} in 1960s Music">
+<meta property="og:description" content="{{META_DESCRIPTION_150_160_CHARS_SUMMARIZING_THE_DAYS_EVENTS}}">
+<meta property="og:url" content="https://1960smusic.net/blog/on-this-day/{{DATE_SLUG}}/">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#3D2B1F">
+<link rel="stylesheet" href="/styles.css">
+
+<!-- ItemList of Event objects, one entry per event, all years -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Event",
+        "name": "{{EVENT_HEADLINE}}",
+        "startDate": "{{YYYY}}-{{MM}}-{{DD}}",
+        "description": "{{EVENT_SUMMARY_LINE_1}} {{EVENT_SUMMARY_LINE_2}}"
+      }
+    }
+  ]
+}
+</script>
+
+<!-- FAQPage, matches the visible FAQ block exactly -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "{{FAQ_Q1}}", "acceptedAnswer": {"@type": "Answer", "text": "{{FAQ_A1}}"}},
+    {"@type": "Question", "name": "{{FAQ_Q2}}", "acceptedAnswer": {"@type": "Answer", "text": "{{FAQ_A2}}"}},
+    {"@type": "Question", "name": "{{FAQ_Q3}}", "acceptedAnswer": {"@type": "Answer", "text": "{{FAQ_A3}}"}},
+    {"@type": "Question", "name": "{{FAQ_Q4}}", "acceptedAnswer": {"@type": "Answer", "text": "{{FAQ_A4}}"}}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://1960smusic.net/"},
+    {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://1960smusic.net/blog/"},
+    {"@type": "ListItem", "position": 3, "name": "On This Day", "item": "https://1960smusic.net/blog/on-this-day/"},
+    {"@type": "ListItem", "position": 4, "name": "{{DATE_LABEL}}", "item": "https://1960smusic.net/blog/on-this-day/{{DATE_SLUG}}/"}
+  ]
+}
+</script>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/">1960s<span>music</span>.net</a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav" type="button"><span class="bars" aria-hidden="true"></span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary">
+      <a href="/">Home</a>
+      <a href="/blog/">Blog</a>
+      <a href="/about.html">About</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="otd-hero">
+    <div class="wrap">
+      <nav class="breadcrumb" aria-label="Breadcrumb" style="color:#C9B78C;">
+        <a href="/" style="color:#C9B78C;">Home</a> &rsaquo; <a href="/blog/" style="color:#C9B78C;">Blog</a> &rsaquo; <a href="/blog/on-this-day/" style="color:#C9B78C;">On This Day</a> &rsaquo; <span aria-current="page">{{DATE_LABEL}}</span>
+      </nav>
+      <p class="eyebrow">On this day in 1960s music</p>
+      <h1>{{DATE_LABEL}}</h1>
+      <!-- One pill per year present in the JSON, most recent first. Add class "current" to the first (most recent) pill only. -->
+      <ul class="otd-years">
+        <li><a href="#y{{YEAR}}" class="current">{{YEAR}}</a></li>
+        <!-- repeat <li><a href="#y{{YEAR}}">{{YEAR}}</a></li> for each remaining year -->
+      </ul>
+    </div>
+  </div>
+
+  <article class="wrap article" style="max-width:1040px;">
+
+    <!-- FLAGSHIP CALLOUT: the single best story of the day -->
+    <div class="otd-flagship">
+      <span class="otd-badge {{FLAGSHIP_CATEGORY}}">{{FLAGSHIP_CATEGORY}} &middot; {{FLAGSHIP_YEAR}}</span>
+      <h2>{{FLAGSHIP_HEADLINE}}</h2>
+      <p>{{FLAGSHIP_SUMMARY_LINE_1}}</p>
+      <p>{{FLAGSHIP_SUMMARY_LINE_2}}</p>
+      <!-- if flagship.youtube_id is set, embed it here inside .otd-embed using the same iframe markup as article-template.html -->
+    </div>
+
+    <!-- STAT STRIP: values computed from the JSON, never hardcoded -->
+    <div class="otd-stats">
+      <div class="otd-stat"><span class="num">{{TOTAL_EVENT_COUNT}}</span><span class="lbl">{{STAT_1_LABEL}}</span></div>
+      <div class="otd-stat"><span class="num">{{CATEGORY_COUNT}}</span><span class="lbl">{{STAT_2_LABEL}}</span></div>
+      <div class="otd-stat"><span class="num">{{YEARS_COVERED_COUNT}}</span><span class="lbl">{{STAT_3_LABEL}}</span></div>
+    </div>
+
+    <!-- ============ YEAR SECTION (duplicate once per year, most recent first) ============ -->
+    <section id="y{{YEAR}}">
+      <div class="otd-year-divider">{{YEAR}}</div>
+      <div class="otd-cards">
+
+        <!-- ==== CARD (duplicate once per event in this year) ==== -->
+        <div class="otd-card">
+          <span class="otd-badge {{EVENT_CATEGORY}}">{{EVENT_CATEGORY}}</span>
+          <h3>{{EVENT_HEADLINE}}</h3>
+          <p>{{EVENT_SUMMARY_LINE_1_WITH_INLINE_INTERNAL_OR_EXTERNAL_LINK_WOVEN_IN_IF_IT_FITS}}</p>
+          <p>{{EVENT_SUMMARY_LINE_2}}</p>
+
+          <!-- MEDIA SLOT: render AT MOST ONE of the two blocks below, only when the
+               matching JSON field is non-null. Video wins if both are legitimately
+               available. Never render either if the JSON has both null, don't force it. -->
+
+          <!-- OPTION A: youtube_id is set. Only use an ID you have personally
+               verified (oEmbed check or direct fetch) actually resolves, is
+               embeddable, and shows the claimed content. Never guess/invent an ID. -->
+          <div class="otd-media otd-embed">
+            <iframe src="https://www.youtube.com/embed/{{YOUTUBE_ID}}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="{{EVENT_HEADLINE}}"></iframe>
+          </div>
+
+          <!-- OPTION B: image is set. Source only from Wikimedia Commons or another
+               confirmed public-domain/CC source (artist photos) or, for release-type
+               events, cover art per the editorial-use convention. Download and
+               self-host under img/ inside this date's page folder (resize/compress,
+               don't hotlink Commons directly), fill every field below from the
+               JSON's image object: src, alt, width, height, credit_text, credit_url,
+               license. -->
+          <figure>
+            <img src="{{IMAGE_SRC}}" alt="{{IMAGE_ALT}}" width="{{IMAGE_WIDTH}}" height="{{IMAGE_HEIGHT}}" loading="lazy">
+            <figcaption>{{IMAGE_CAPTION_SENTENCE}}. {{IMAGE_CREDIT_TEXT}}. {{IMAGE_LICENSE}}, via <a href="{{IMAGE_CREDIT_URL}}" target="_blank" rel="noopener">Wikimedia Commons</a>.</figcaption>
+          </figure>
+        </div>
+        <!-- ==== end CARD, repeat for next event ==== -->
+
+      </div>
+    </section>
+    <!-- ============ end YEAR SECTION, repeat for next year ============ -->
+
+    <!-- FAQ -->
+    <h2 id="faq">Frequently Asked Questions</h2>
+    <details open>
+      <summary>{{FAQ_Q1}}</summary>
+      <div class="answer"><p>{{FAQ_A1}}</p></div>
+    </details>
+    <details>
+      <summary>{{FAQ_Q2}}</summary>
+      <div class="answer"><p>{{FAQ_A2}}</p></div>
+    </details>
+    <details>
+      <summary>{{FAQ_Q3}}</summary>
+      <div class="answer"><p>{{FAQ_A3}}</p></div>
+    </details>
+    <details>
+      <summary>{{FAQ_Q4}}</summary>
+      <div class="answer"><p>{{FAQ_A4}}</p></div>
+    </details>
+
+    <!-- CLOSING LINKS: skip this block entirely if no adjacent On This Day pages are live yet -->
+    <div class="otd-more">
+      <h2>More On This Day</h2>
+      <ul>
+        <li><a href="/blog/on-this-day/{{ADJACENT_DATE_SLUG_1}}/">{{ADJACENT_DATE_LABEL_1}}</a></li>
+        <li><a href="/blog/on-this-day/{{ADJACENT_DATE_SLUG_2}}/">{{ADJACENT_DATE_LABEL_2}}</a></li>
+      </ul>
+    </div>
+
+  </article>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>&copy; <span data-year>2025</span> 1960smusic.net</div>
+    <nav aria-label="Footer">
+      <a href="/about.html">About</a>
+      <a href="/contact.html">Contact</a>
+      <a href="/privacy-policy.html">Privacy Policy</a>
+      <a href="/terms-of-use.html">Terms of Use</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="/site.js" defer></script>
+</body>
+</html>

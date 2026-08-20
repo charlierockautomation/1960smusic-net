@@ -1,0 +1,431 @@
+# On This Day Build Queue
+
+Single source of truth for what On This Day date page gets built next. Read
+this file at the start of every On This Day session before touching
+anything else. Companion files: `docs/on-this-day-sources.md` (research and
+audit rules) and `docs/on-this-day-template-spec.md` (page structure).
+
+## How this works
+
+1. Find the first row below with status `not started`. That is the only
+   date to work on. Never start a new row while an earlier row is
+   `in progress`, `audited`, or `drafted`, finish and confirm one live
+   before starting the next. One date goes live per day, not a batch.
+2. **Workflow starting Sept 2 (changed from the Sept 1 build): Charlie
+   supplies the verified dataset for the next date directly**, instead of
+   researching it from scratch. Still run it through the Part 1/3/4 checks
+   in `docs/on-this-day-sources.md` (date verification, source audit,
+   final output) before building, since a "verified" claim still needs a
+   real Tier 1/2 citation traced and confirmed before it ships, the way
+   the Sept 1 dataset review caught real date errors (Ray Conniff, Sonny &
+   Cher, Bowie, Jethro Tull) even in a pre-vetted list. Get Charlie's
+   explicit approval on the RECOMMENDED FINAL DATASET before writing
+   anything.
+3. Build `data/on-this-day/{MM-DD}.json` from the approved dataset, per the
+   schema in `docs/on-this-day-template-spec.md`.
+4. Build the page at `blog/on-this-day/{date-slug}/index.html` from
+   `docs/on-this-day-page-template.html`, matching the CSS/markup already
+   live on `blog/on-this-day/september-1/index.html`.
+   - Media: every card should carry either a real image or a real video,
+     never left blank unless truly nothing verifiable exists for that
+     specific event (see `docs/on-this-day-sources.md` IMAGES & VIDEO
+     rules). **Even on a day where real images can be found for every
+     card, deliberately use video in place of an image for exactly two
+     of the cards**, so the page doesn't read as all-photo. Pick the two
+     events that best support a real, verifiable video. Beyond those two,
+     video still takes priority over image whenever a legitimate clip
+     exists for that specific event.
+   - Never invent or guess a `youtube_id` or image URL. Verify each one
+     (oEmbed/direct fetch for video, license check for images) before it
+     goes in the JSON. If the working environment can't reach youtube.com
+     to verify, say so explicitly and flag those IDs for Charlie to
+     spot-check on the live page rather than silently skipping video.
+5. Build locally, run a local server, and get Charlie's explicit
+   go-ahead before pushing to `main`.
+6. Once pushed live, in the same session update all of: this file (status
+   -> `live`), `data/posts.json` (new entry, type `on-this-day`),
+   `link-map.md` (status -> `live`, live URL, inbound/outbound links), and
+   regenerate `sitemap.xml` (`python3 gen/generate_sitemap.py`, after
+   `posts.json` is updated). Only then move to the next `not started` row.
+
+**Never use the Agent/Task tool (subagents or delegation) for any of this.**
+All research, verification, and building happens directly, single-session.
+
+Status values: `not started` -> `in progress` (research/audit underway) ->
+`audited` (RECOMMENDED FINAL DATASET approved by Charlie, JSON not yet
+built) -> `drafted` (JSON and page built, not yet reviewed locally) ->
+`live` (pushed to main and confirmed responding 200 at its live URL).
+
+Order is locked: September, October, November, December, January,
+February, March, April, May, June, July, August (calendar order starting
+from the first date built, September 1).
+
+## Queue
+
+| # | Date | Page | Data file | Status |
+|---|------|------|-----------|--------|
+| 1 | September 1 | /blog/on-this-day/september-1/ | data/on-this-day/09-01.json | live |
+| 2 | September 2 | /blog/on-this-day/september-2/ | data/on-this-day/09-02.json | not started |
+| 3 | September 3 | /blog/on-this-day/september-3/ | data/on-this-day/09-03.json | not started |
+| 4 | September 4 | /blog/on-this-day/september-4/ | data/on-this-day/09-04.json | not started |
+| 5 | September 5 | /blog/on-this-day/september-5/ | data/on-this-day/09-05.json | not started |
+| 6 | September 6 | /blog/on-this-day/september-6/ | data/on-this-day/09-06.json | not started |
+| 7 | September 7 | /blog/on-this-day/september-7/ | data/on-this-day/09-07.json | not started |
+| 8 | September 8 | /blog/on-this-day/september-8/ | data/on-this-day/09-08.json | not started |
+| 9 | September 9 | /blog/on-this-day/september-9/ | data/on-this-day/09-09.json | not started |
+| 10 | September 10 | /blog/on-this-day/september-10/ | data/on-this-day/09-10.json | not started |
+| 11 | September 11 | /blog/on-this-day/september-11/ | data/on-this-day/09-11.json | not started |
+| 12 | September 12 | /blog/on-this-day/september-12/ | data/on-this-day/09-12.json | not started |
+| 13 | September 13 | /blog/on-this-day/september-13/ | data/on-this-day/09-13.json | not started |
+| 14 | September 14 | /blog/on-this-day/september-14/ | data/on-this-day/09-14.json | not started |
+| 15 | September 15 | /blog/on-this-day/september-15/ | data/on-this-day/09-15.json | not started |
+| 16 | September 16 | /blog/on-this-day/september-16/ | data/on-this-day/09-16.json | not started |
+| 17 | September 17 | /blog/on-this-day/september-17/ | data/on-this-day/09-17.json | not started |
+| 18 | September 18 | /blog/on-this-day/september-18/ | data/on-this-day/09-18.json | not started |
+| 19 | September 19 | /blog/on-this-day/september-19/ | data/on-this-day/09-19.json | not started |
+| 20 | September 20 | /blog/on-this-day/september-20/ | data/on-this-day/09-20.json | not started |
+| 21 | September 21 | /blog/on-this-day/september-21/ | data/on-this-day/09-21.json | not started |
+| 22 | September 22 | /blog/on-this-day/september-22/ | data/on-this-day/09-22.json | not started |
+| 23 | September 23 | /blog/on-this-day/september-23/ | data/on-this-day/09-23.json | not started |
+| 24 | September 24 | /blog/on-this-day/september-24/ | data/on-this-day/09-24.json | not started |
+| 25 | September 25 | /blog/on-this-day/september-25/ | data/on-this-day/09-25.json | not started |
+| 26 | September 26 | /blog/on-this-day/september-26/ | data/on-this-day/09-26.json | not started |
+| 27 | September 27 | /blog/on-this-day/september-27/ | data/on-this-day/09-27.json | not started |
+| 28 | September 28 | /blog/on-this-day/september-28/ | data/on-this-day/09-28.json | not started |
+| 29 | September 29 | /blog/on-this-day/september-29/ | data/on-this-day/09-29.json | not started |
+| 30 | September 30 | /blog/on-this-day/september-30/ | data/on-this-day/09-30.json | not started |
+| 31 | October 1 | /blog/on-this-day/october-1/ | data/on-this-day/10-01.json | not started |
+| 32 | October 2 | /blog/on-this-day/october-2/ | data/on-this-day/10-02.json | not started |
+| 33 | October 3 | /blog/on-this-day/october-3/ | data/on-this-day/10-03.json | not started |
+| 34 | October 4 | /blog/on-this-day/october-4/ | data/on-this-day/10-04.json | not started |
+| 35 | October 5 | /blog/on-this-day/october-5/ | data/on-this-day/10-05.json | not started |
+| 36 | October 6 | /blog/on-this-day/october-6/ | data/on-this-day/10-06.json | not started |
+| 37 | October 7 | /blog/on-this-day/october-7/ | data/on-this-day/10-07.json | not started |
+| 38 | October 8 | /blog/on-this-day/october-8/ | data/on-this-day/10-08.json | not started |
+| 39 | October 9 | /blog/on-this-day/october-9/ | data/on-this-day/10-09.json | not started |
+| 40 | October 10 | /blog/on-this-day/october-10/ | data/on-this-day/10-10.json | not started |
+| 41 | October 11 | /blog/on-this-day/october-11/ | data/on-this-day/10-11.json | not started |
+| 42 | October 12 | /blog/on-this-day/october-12/ | data/on-this-day/10-12.json | not started |
+| 43 | October 13 | /blog/on-this-day/october-13/ | data/on-this-day/10-13.json | not started |
+| 44 | October 14 | /blog/on-this-day/october-14/ | data/on-this-day/10-14.json | not started |
+| 45 | October 15 | /blog/on-this-day/october-15/ | data/on-this-day/10-15.json | not started |
+| 46 | October 16 | /blog/on-this-day/october-16/ | data/on-this-day/10-16.json | not started |
+| 47 | October 17 | /blog/on-this-day/october-17/ | data/on-this-day/10-17.json | not started |
+| 48 | October 18 | /blog/on-this-day/october-18/ | data/on-this-day/10-18.json | not started |
+| 49 | October 19 | /blog/on-this-day/october-19/ | data/on-this-day/10-19.json | not started |
+| 50 | October 20 | /blog/on-this-day/october-20/ | data/on-this-day/10-20.json | not started |
+| 51 | October 21 | /blog/on-this-day/october-21/ | data/on-this-day/10-21.json | not started |
+| 52 | October 22 | /blog/on-this-day/october-22/ | data/on-this-day/10-22.json | not started |
+| 53 | October 23 | /blog/on-this-day/october-23/ | data/on-this-day/10-23.json | not started |
+| 54 | October 24 | /blog/on-this-day/october-24/ | data/on-this-day/10-24.json | not started |
+| 55 | October 25 | /blog/on-this-day/october-25/ | data/on-this-day/10-25.json | not started |
+| 56 | October 26 | /blog/on-this-day/october-26/ | data/on-this-day/10-26.json | not started |
+| 57 | October 27 | /blog/on-this-day/october-27/ | data/on-this-day/10-27.json | not started |
+| 58 | October 28 | /blog/on-this-day/october-28/ | data/on-this-day/10-28.json | not started |
+| 59 | October 29 | /blog/on-this-day/october-29/ | data/on-this-day/10-29.json | not started |
+| 60 | October 30 | /blog/on-this-day/october-30/ | data/on-this-day/10-30.json | not started |
+| 61 | October 31 | /blog/on-this-day/october-31/ | data/on-this-day/10-31.json | not started |
+| 62 | November 1 | /blog/on-this-day/november-1/ | data/on-this-day/11-01.json | not started |
+| 63 | November 2 | /blog/on-this-day/november-2/ | data/on-this-day/11-02.json | not started |
+| 64 | November 3 | /blog/on-this-day/november-3/ | data/on-this-day/11-03.json | not started |
+| 65 | November 4 | /blog/on-this-day/november-4/ | data/on-this-day/11-04.json | not started |
+| 66 | November 5 | /blog/on-this-day/november-5/ | data/on-this-day/11-05.json | not started |
+| 67 | November 6 | /blog/on-this-day/november-6/ | data/on-this-day/11-06.json | not started |
+| 68 | November 7 | /blog/on-this-day/november-7/ | data/on-this-day/11-07.json | not started |
+| 69 | November 8 | /blog/on-this-day/november-8/ | data/on-this-day/11-08.json | not started |
+| 70 | November 9 | /blog/on-this-day/november-9/ | data/on-this-day/11-09.json | not started |
+| 71 | November 10 | /blog/on-this-day/november-10/ | data/on-this-day/11-10.json | not started |
+| 72 | November 11 | /blog/on-this-day/november-11/ | data/on-this-day/11-11.json | not started |
+| 73 | November 12 | /blog/on-this-day/november-12/ | data/on-this-day/11-12.json | not started |
+| 74 | November 13 | /blog/on-this-day/november-13/ | data/on-this-day/11-13.json | not started |
+| 75 | November 14 | /blog/on-this-day/november-14/ | data/on-this-day/11-14.json | not started |
+| 76 | November 15 | /blog/on-this-day/november-15/ | data/on-this-day/11-15.json | not started |
+| 77 | November 16 | /blog/on-this-day/november-16/ | data/on-this-day/11-16.json | not started |
+| 78 | November 17 | /blog/on-this-day/november-17/ | data/on-this-day/11-17.json | not started |
+| 79 | November 18 | /blog/on-this-day/november-18/ | data/on-this-day/11-18.json | not started |
+| 80 | November 19 | /blog/on-this-day/november-19/ | data/on-this-day/11-19.json | not started |
+| 81 | November 20 | /blog/on-this-day/november-20/ | data/on-this-day/11-20.json | not started |
+| 82 | November 21 | /blog/on-this-day/november-21/ | data/on-this-day/11-21.json | not started |
+| 83 | November 22 | /blog/on-this-day/november-22/ | data/on-this-day/11-22.json | not started |
+| 84 | November 23 | /blog/on-this-day/november-23/ | data/on-this-day/11-23.json | not started |
+| 85 | November 24 | /blog/on-this-day/november-24/ | data/on-this-day/11-24.json | not started |
+| 86 | November 25 | /blog/on-this-day/november-25/ | data/on-this-day/11-25.json | not started |
+| 87 | November 26 | /blog/on-this-day/november-26/ | data/on-this-day/11-26.json | not started |
+| 88 | November 27 | /blog/on-this-day/november-27/ | data/on-this-day/11-27.json | not started |
+| 89 | November 28 | /blog/on-this-day/november-28/ | data/on-this-day/11-28.json | not started |
+| 90 | November 29 | /blog/on-this-day/november-29/ | data/on-this-day/11-29.json | not started |
+| 91 | November 30 | /blog/on-this-day/november-30/ | data/on-this-day/11-30.json | not started |
+| 92 | December 1 | /blog/on-this-day/december-1/ | data/on-this-day/12-01.json | not started |
+| 93 | December 2 | /blog/on-this-day/december-2/ | data/on-this-day/12-02.json | not started |
+| 94 | December 3 | /blog/on-this-day/december-3/ | data/on-this-day/12-03.json | not started |
+| 95 | December 4 | /blog/on-this-day/december-4/ | data/on-this-day/12-04.json | not started |
+| 96 | December 5 | /blog/on-this-day/december-5/ | data/on-this-day/12-05.json | not started |
+| 97 | December 6 | /blog/on-this-day/december-6/ | data/on-this-day/12-06.json | not started |
+| 98 | December 7 | /blog/on-this-day/december-7/ | data/on-this-day/12-07.json | not started |
+| 99 | December 8 | /blog/on-this-day/december-8/ | data/on-this-day/12-08.json | not started |
+| 100 | December 9 | /blog/on-this-day/december-9/ | data/on-this-day/12-09.json | not started |
+| 101 | December 10 | /blog/on-this-day/december-10/ | data/on-this-day/12-10.json | not started |
+| 102 | December 11 | /blog/on-this-day/december-11/ | data/on-this-day/12-11.json | not started |
+| 103 | December 12 | /blog/on-this-day/december-12/ | data/on-this-day/12-12.json | not started |
+| 104 | December 13 | /blog/on-this-day/december-13/ | data/on-this-day/12-13.json | not started |
+| 105 | December 14 | /blog/on-this-day/december-14/ | data/on-this-day/12-14.json | not started |
+| 106 | December 15 | /blog/on-this-day/december-15/ | data/on-this-day/12-15.json | not started |
+| 107 | December 16 | /blog/on-this-day/december-16/ | data/on-this-day/12-16.json | not started |
+| 108 | December 17 | /blog/on-this-day/december-17/ | data/on-this-day/12-17.json | not started |
+| 109 | December 18 | /blog/on-this-day/december-18/ | data/on-this-day/12-18.json | not started |
+| 110 | December 19 | /blog/on-this-day/december-19/ | data/on-this-day/12-19.json | not started |
+| 111 | December 20 | /blog/on-this-day/december-20/ | data/on-this-day/12-20.json | not started |
+| 112 | December 21 | /blog/on-this-day/december-21/ | data/on-this-day/12-21.json | not started |
+| 113 | December 22 | /blog/on-this-day/december-22/ | data/on-this-day/12-22.json | not started |
+| 114 | December 23 | /blog/on-this-day/december-23/ | data/on-this-day/12-23.json | not started |
+| 115 | December 24 | /blog/on-this-day/december-24/ | data/on-this-day/12-24.json | not started |
+| 116 | December 25 | /blog/on-this-day/december-25/ | data/on-this-day/12-25.json | not started |
+| 117 | December 26 | /blog/on-this-day/december-26/ | data/on-this-day/12-26.json | not started |
+| 118 | December 27 | /blog/on-this-day/december-27/ | data/on-this-day/12-27.json | not started |
+| 119 | December 28 | /blog/on-this-day/december-28/ | data/on-this-day/12-28.json | not started |
+| 120 | December 29 | /blog/on-this-day/december-29/ | data/on-this-day/12-29.json | not started |
+| 121 | December 30 | /blog/on-this-day/december-30/ | data/on-this-day/12-30.json | not started |
+| 122 | December 31 | /blog/on-this-day/december-31/ | data/on-this-day/12-31.json | not started |
+| 123 | January 1 | /blog/on-this-day/january-1/ | data/on-this-day/01-01.json | not started |
+| 124 | January 2 | /blog/on-this-day/january-2/ | data/on-this-day/01-02.json | not started |
+| 125 | January 3 | /blog/on-this-day/january-3/ | data/on-this-day/01-03.json | not started |
+| 126 | January 4 | /blog/on-this-day/january-4/ | data/on-this-day/01-04.json | not started |
+| 127 | January 5 | /blog/on-this-day/january-5/ | data/on-this-day/01-05.json | not started |
+| 128 | January 6 | /blog/on-this-day/january-6/ | data/on-this-day/01-06.json | not started |
+| 129 | January 7 | /blog/on-this-day/january-7/ | data/on-this-day/01-07.json | not started |
+| 130 | January 8 | /blog/on-this-day/january-8/ | data/on-this-day/01-08.json | not started |
+| 131 | January 9 | /blog/on-this-day/january-9/ | data/on-this-day/01-09.json | not started |
+| 132 | January 10 | /blog/on-this-day/january-10/ | data/on-this-day/01-10.json | not started |
+| 133 | January 11 | /blog/on-this-day/january-11/ | data/on-this-day/01-11.json | not started |
+| 134 | January 12 | /blog/on-this-day/january-12/ | data/on-this-day/01-12.json | not started |
+| 135 | January 13 | /blog/on-this-day/january-13/ | data/on-this-day/01-13.json | not started |
+| 136 | January 14 | /blog/on-this-day/january-14/ | data/on-this-day/01-14.json | not started |
+| 137 | January 15 | /blog/on-this-day/january-15/ | data/on-this-day/01-15.json | not started |
+| 138 | January 16 | /blog/on-this-day/january-16/ | data/on-this-day/01-16.json | not started |
+| 139 | January 17 | /blog/on-this-day/january-17/ | data/on-this-day/01-17.json | not started |
+| 140 | January 18 | /blog/on-this-day/january-18/ | data/on-this-day/01-18.json | not started |
+| 141 | January 19 | /blog/on-this-day/january-19/ | data/on-this-day/01-19.json | not started |
+| 142 | January 20 | /blog/on-this-day/january-20/ | data/on-this-day/01-20.json | not started |
+| 143 | January 21 | /blog/on-this-day/january-21/ | data/on-this-day/01-21.json | not started |
+| 144 | January 22 | /blog/on-this-day/january-22/ | data/on-this-day/01-22.json | not started |
+| 145 | January 23 | /blog/on-this-day/january-23/ | data/on-this-day/01-23.json | not started |
+| 146 | January 24 | /blog/on-this-day/january-24/ | data/on-this-day/01-24.json | not started |
+| 147 | January 25 | /blog/on-this-day/january-25/ | data/on-this-day/01-25.json | not started |
+| 148 | January 26 | /blog/on-this-day/january-26/ | data/on-this-day/01-26.json | not started |
+| 149 | January 27 | /blog/on-this-day/january-27/ | data/on-this-day/01-27.json | not started |
+| 150 | January 28 | /blog/on-this-day/january-28/ | data/on-this-day/01-28.json | not started |
+| 151 | January 29 | /blog/on-this-day/january-29/ | data/on-this-day/01-29.json | not started |
+| 152 | January 30 | /blog/on-this-day/january-30/ | data/on-this-day/01-30.json | not started |
+| 153 | January 31 | /blog/on-this-day/january-31/ | data/on-this-day/01-31.json | not started |
+| 154 | February 1 | /blog/on-this-day/february-1/ | data/on-this-day/02-01.json | not started |
+| 155 | February 2 | /blog/on-this-day/february-2/ | data/on-this-day/02-02.json | not started |
+| 156 | February 3 | /blog/on-this-day/february-3/ | data/on-this-day/02-03.json | not started |
+| 157 | February 4 | /blog/on-this-day/february-4/ | data/on-this-day/02-04.json | not started |
+| 158 | February 5 | /blog/on-this-day/february-5/ | data/on-this-day/02-05.json | not started |
+| 159 | February 6 | /blog/on-this-day/february-6/ | data/on-this-day/02-06.json | not started |
+| 160 | February 7 | /blog/on-this-day/february-7/ | data/on-this-day/02-07.json | not started |
+| 161 | February 8 | /blog/on-this-day/february-8/ | data/on-this-day/02-08.json | not started |
+| 162 | February 9 | /blog/on-this-day/february-9/ | data/on-this-day/02-09.json | not started |
+| 163 | February 10 | /blog/on-this-day/february-10/ | data/on-this-day/02-10.json | not started |
+| 164 | February 11 | /blog/on-this-day/february-11/ | data/on-this-day/02-11.json | not started |
+| 165 | February 12 | /blog/on-this-day/february-12/ | data/on-this-day/02-12.json | not started |
+| 166 | February 13 | /blog/on-this-day/february-13/ | data/on-this-day/02-13.json | not started |
+| 167 | February 14 | /blog/on-this-day/february-14/ | data/on-this-day/02-14.json | not started |
+| 168 | February 15 | /blog/on-this-day/february-15/ | data/on-this-day/02-15.json | not started |
+| 169 | February 16 | /blog/on-this-day/february-16/ | data/on-this-day/02-16.json | not started |
+| 170 | February 17 | /blog/on-this-day/february-17/ | data/on-this-day/02-17.json | not started |
+| 171 | February 18 | /blog/on-this-day/february-18/ | data/on-this-day/02-18.json | not started |
+| 172 | February 19 | /blog/on-this-day/february-19/ | data/on-this-day/02-19.json | not started |
+| 173 | February 20 | /blog/on-this-day/february-20/ | data/on-this-day/02-20.json | not started |
+| 174 | February 21 | /blog/on-this-day/february-21/ | data/on-this-day/02-21.json | not started |
+| 175 | February 22 | /blog/on-this-day/february-22/ | data/on-this-day/02-22.json | not started |
+| 176 | February 23 | /blog/on-this-day/february-23/ | data/on-this-day/02-23.json | not started |
+| 177 | February 24 | /blog/on-this-day/february-24/ | data/on-this-day/02-24.json | not started |
+| 178 | February 25 | /blog/on-this-day/february-25/ | data/on-this-day/02-25.json | not started |
+| 179 | February 26 | /blog/on-this-day/february-26/ | data/on-this-day/02-26.json | not started |
+| 180 | February 27 | /blog/on-this-day/february-27/ | data/on-this-day/02-27.json | not started |
+| 181 | February 28 | /blog/on-this-day/february-28/ | data/on-this-day/02-28.json | not started |
+| 182 | March 1 | /blog/on-this-day/march-1/ | data/on-this-day/03-01.json | not started |
+| 183 | March 2 | /blog/on-this-day/march-2/ | data/on-this-day/03-02.json | not started |
+| 184 | March 3 | /blog/on-this-day/march-3/ | data/on-this-day/03-03.json | not started |
+| 185 | March 4 | /blog/on-this-day/march-4/ | data/on-this-day/03-04.json | not started |
+| 186 | March 5 | /blog/on-this-day/march-5/ | data/on-this-day/03-05.json | not started |
+| 187 | March 6 | /blog/on-this-day/march-6/ | data/on-this-day/03-06.json | not started |
+| 188 | March 7 | /blog/on-this-day/march-7/ | data/on-this-day/03-07.json | not started |
+| 189 | March 8 | /blog/on-this-day/march-8/ | data/on-this-day/03-08.json | not started |
+| 190 | March 9 | /blog/on-this-day/march-9/ | data/on-this-day/03-09.json | not started |
+| 191 | March 10 | /blog/on-this-day/march-10/ | data/on-this-day/03-10.json | not started |
+| 192 | March 11 | /blog/on-this-day/march-11/ | data/on-this-day/03-11.json | not started |
+| 193 | March 12 | /blog/on-this-day/march-12/ | data/on-this-day/03-12.json | not started |
+| 194 | March 13 | /blog/on-this-day/march-13/ | data/on-this-day/03-13.json | not started |
+| 195 | March 14 | /blog/on-this-day/march-14/ | data/on-this-day/03-14.json | not started |
+| 196 | March 15 | /blog/on-this-day/march-15/ | data/on-this-day/03-15.json | not started |
+| 197 | March 16 | /blog/on-this-day/march-16/ | data/on-this-day/03-16.json | not started |
+| 198 | March 17 | /blog/on-this-day/march-17/ | data/on-this-day/03-17.json | not started |
+| 199 | March 18 | /blog/on-this-day/march-18/ | data/on-this-day/03-18.json | not started |
+| 200 | March 19 | /blog/on-this-day/march-19/ | data/on-this-day/03-19.json | not started |
+| 201 | March 20 | /blog/on-this-day/march-20/ | data/on-this-day/03-20.json | not started |
+| 202 | March 21 | /blog/on-this-day/march-21/ | data/on-this-day/03-21.json | not started |
+| 203 | March 22 | /blog/on-this-day/march-22/ | data/on-this-day/03-22.json | not started |
+| 204 | March 23 | /blog/on-this-day/march-23/ | data/on-this-day/03-23.json | not started |
+| 205 | March 24 | /blog/on-this-day/march-24/ | data/on-this-day/03-24.json | not started |
+| 206 | March 25 | /blog/on-this-day/march-25/ | data/on-this-day/03-25.json | not started |
+| 207 | March 26 | /blog/on-this-day/march-26/ | data/on-this-day/03-26.json | not started |
+| 208 | March 27 | /blog/on-this-day/march-27/ | data/on-this-day/03-27.json | not started |
+| 209 | March 28 | /blog/on-this-day/march-28/ | data/on-this-day/03-28.json | not started |
+| 210 | March 29 | /blog/on-this-day/march-29/ | data/on-this-day/03-29.json | not started |
+| 211 | March 30 | /blog/on-this-day/march-30/ | data/on-this-day/03-30.json | not started |
+| 212 | March 31 | /blog/on-this-day/march-31/ | data/on-this-day/03-31.json | not started |
+| 213 | April 1 | /blog/on-this-day/april-1/ | data/on-this-day/04-01.json | not started |
+| 214 | April 2 | /blog/on-this-day/april-2/ | data/on-this-day/04-02.json | not started |
+| 215 | April 3 | /blog/on-this-day/april-3/ | data/on-this-day/04-03.json | not started |
+| 216 | April 4 | /blog/on-this-day/april-4/ | data/on-this-day/04-04.json | not started |
+| 217 | April 5 | /blog/on-this-day/april-5/ | data/on-this-day/04-05.json | not started |
+| 218 | April 6 | /blog/on-this-day/april-6/ | data/on-this-day/04-06.json | not started |
+| 219 | April 7 | /blog/on-this-day/april-7/ | data/on-this-day/04-07.json | not started |
+| 220 | April 8 | /blog/on-this-day/april-8/ | data/on-this-day/04-08.json | not started |
+| 221 | April 9 | /blog/on-this-day/april-9/ | data/on-this-day/04-09.json | not started |
+| 222 | April 10 | /blog/on-this-day/april-10/ | data/on-this-day/04-10.json | not started |
+| 223 | April 11 | /blog/on-this-day/april-11/ | data/on-this-day/04-11.json | not started |
+| 224 | April 12 | /blog/on-this-day/april-12/ | data/on-this-day/04-12.json | not started |
+| 225 | April 13 | /blog/on-this-day/april-13/ | data/on-this-day/04-13.json | not started |
+| 226 | April 14 | /blog/on-this-day/april-14/ | data/on-this-day/04-14.json | not started |
+| 227 | April 15 | /blog/on-this-day/april-15/ | data/on-this-day/04-15.json | not started |
+| 228 | April 16 | /blog/on-this-day/april-16/ | data/on-this-day/04-16.json | not started |
+| 229 | April 17 | /blog/on-this-day/april-17/ | data/on-this-day/04-17.json | not started |
+| 230 | April 18 | /blog/on-this-day/april-18/ | data/on-this-day/04-18.json | not started |
+| 231 | April 19 | /blog/on-this-day/april-19/ | data/on-this-day/04-19.json | not started |
+| 232 | April 20 | /blog/on-this-day/april-20/ | data/on-this-day/04-20.json | not started |
+| 233 | April 21 | /blog/on-this-day/april-21/ | data/on-this-day/04-21.json | not started |
+| 234 | April 22 | /blog/on-this-day/april-22/ | data/on-this-day/04-22.json | not started |
+| 235 | April 23 | /blog/on-this-day/april-23/ | data/on-this-day/04-23.json | not started |
+| 236 | April 24 | /blog/on-this-day/april-24/ | data/on-this-day/04-24.json | not started |
+| 237 | April 25 | /blog/on-this-day/april-25/ | data/on-this-day/04-25.json | not started |
+| 238 | April 26 | /blog/on-this-day/april-26/ | data/on-this-day/04-26.json | not started |
+| 239 | April 27 | /blog/on-this-day/april-27/ | data/on-this-day/04-27.json | not started |
+| 240 | April 28 | /blog/on-this-day/april-28/ | data/on-this-day/04-28.json | not started |
+| 241 | April 29 | /blog/on-this-day/april-29/ | data/on-this-day/04-29.json | not started |
+| 242 | April 30 | /blog/on-this-day/april-30/ | data/on-this-day/04-30.json | not started |
+| 243 | May 1 | /blog/on-this-day/may-1/ | data/on-this-day/05-01.json | not started |
+| 244 | May 2 | /blog/on-this-day/may-2/ | data/on-this-day/05-02.json | not started |
+| 245 | May 3 | /blog/on-this-day/may-3/ | data/on-this-day/05-03.json | not started |
+| 246 | May 4 | /blog/on-this-day/may-4/ | data/on-this-day/05-04.json | not started |
+| 247 | May 5 | /blog/on-this-day/may-5/ | data/on-this-day/05-05.json | not started |
+| 248 | May 6 | /blog/on-this-day/may-6/ | data/on-this-day/05-06.json | not started |
+| 249 | May 7 | /blog/on-this-day/may-7/ | data/on-this-day/05-07.json | not started |
+| 250 | May 8 | /blog/on-this-day/may-8/ | data/on-this-day/05-08.json | not started |
+| 251 | May 9 | /blog/on-this-day/may-9/ | data/on-this-day/05-09.json | not started |
+| 252 | May 10 | /blog/on-this-day/may-10/ | data/on-this-day/05-10.json | not started |
+| 253 | May 11 | /blog/on-this-day/may-11/ | data/on-this-day/05-11.json | not started |
+| 254 | May 12 | /blog/on-this-day/may-12/ | data/on-this-day/05-12.json | not started |
+| 255 | May 13 | /blog/on-this-day/may-13/ | data/on-this-day/05-13.json | not started |
+| 256 | May 14 | /blog/on-this-day/may-14/ | data/on-this-day/05-14.json | not started |
+| 257 | May 15 | /blog/on-this-day/may-15/ | data/on-this-day/05-15.json | not started |
+| 258 | May 16 | /blog/on-this-day/may-16/ | data/on-this-day/05-16.json | not started |
+| 259 | May 17 | /blog/on-this-day/may-17/ | data/on-this-day/05-17.json | not started |
+| 260 | May 18 | /blog/on-this-day/may-18/ | data/on-this-day/05-18.json | not started |
+| 261 | May 19 | /blog/on-this-day/may-19/ | data/on-this-day/05-19.json | not started |
+| 262 | May 20 | /blog/on-this-day/may-20/ | data/on-this-day/05-20.json | not started |
+| 263 | May 21 | /blog/on-this-day/may-21/ | data/on-this-day/05-21.json | not started |
+| 264 | May 22 | /blog/on-this-day/may-22/ | data/on-this-day/05-22.json | not started |
+| 265 | May 23 | /blog/on-this-day/may-23/ | data/on-this-day/05-23.json | not started |
+| 266 | May 24 | /blog/on-this-day/may-24/ | data/on-this-day/05-24.json | not started |
+| 267 | May 25 | /blog/on-this-day/may-25/ | data/on-this-day/05-25.json | not started |
+| 268 | May 26 | /blog/on-this-day/may-26/ | data/on-this-day/05-26.json | not started |
+| 269 | May 27 | /blog/on-this-day/may-27/ | data/on-this-day/05-27.json | not started |
+| 270 | May 28 | /blog/on-this-day/may-28/ | data/on-this-day/05-28.json | not started |
+| 271 | May 29 | /blog/on-this-day/may-29/ | data/on-this-day/05-29.json | not started |
+| 272 | May 30 | /blog/on-this-day/may-30/ | data/on-this-day/05-30.json | not started |
+| 273 | May 31 | /blog/on-this-day/may-31/ | data/on-this-day/05-31.json | not started |
+| 274 | June 1 | /blog/on-this-day/june-1/ | data/on-this-day/06-01.json | not started |
+| 275 | June 2 | /blog/on-this-day/june-2/ | data/on-this-day/06-02.json | not started |
+| 276 | June 3 | /blog/on-this-day/june-3/ | data/on-this-day/06-03.json | not started |
+| 277 | June 4 | /blog/on-this-day/june-4/ | data/on-this-day/06-04.json | not started |
+| 278 | June 5 | /blog/on-this-day/june-5/ | data/on-this-day/06-05.json | not started |
+| 279 | June 6 | /blog/on-this-day/june-6/ | data/on-this-day/06-06.json | not started |
+| 280 | June 7 | /blog/on-this-day/june-7/ | data/on-this-day/06-07.json | not started |
+| 281 | June 8 | /blog/on-this-day/june-8/ | data/on-this-day/06-08.json | not started |
+| 282 | June 9 | /blog/on-this-day/june-9/ | data/on-this-day/06-09.json | not started |
+| 283 | June 10 | /blog/on-this-day/june-10/ | data/on-this-day/06-10.json | not started |
+| 284 | June 11 | /blog/on-this-day/june-11/ | data/on-this-day/06-11.json | not started |
+| 285 | June 12 | /blog/on-this-day/june-12/ | data/on-this-day/06-12.json | not started |
+| 286 | June 13 | /blog/on-this-day/june-13/ | data/on-this-day/06-13.json | not started |
+| 287 | June 14 | /blog/on-this-day/june-14/ | data/on-this-day/06-14.json | not started |
+| 288 | June 15 | /blog/on-this-day/june-15/ | data/on-this-day/06-15.json | not started |
+| 289 | June 16 | /blog/on-this-day/june-16/ | data/on-this-day/06-16.json | not started |
+| 290 | June 17 | /blog/on-this-day/june-17/ | data/on-this-day/06-17.json | not started |
+| 291 | June 18 | /blog/on-this-day/june-18/ | data/on-this-day/06-18.json | not started |
+| 292 | June 19 | /blog/on-this-day/june-19/ | data/on-this-day/06-19.json | not started |
+| 293 | June 20 | /blog/on-this-day/june-20/ | data/on-this-day/06-20.json | not started |
+| 294 | June 21 | /blog/on-this-day/june-21/ | data/on-this-day/06-21.json | not started |
+| 295 | June 22 | /blog/on-this-day/june-22/ | data/on-this-day/06-22.json | not started |
+| 296 | June 23 | /blog/on-this-day/june-23/ | data/on-this-day/06-23.json | not started |
+| 297 | June 24 | /blog/on-this-day/june-24/ | data/on-this-day/06-24.json | not started |
+| 298 | June 25 | /blog/on-this-day/june-25/ | data/on-this-day/06-25.json | not started |
+| 299 | June 26 | /blog/on-this-day/june-26/ | data/on-this-day/06-26.json | not started |
+| 300 | June 27 | /blog/on-this-day/june-27/ | data/on-this-day/06-27.json | not started |
+| 301 | June 28 | /blog/on-this-day/june-28/ | data/on-this-day/06-28.json | not started |
+| 302 | June 29 | /blog/on-this-day/june-29/ | data/on-this-day/06-29.json | not started |
+| 303 | June 30 | /blog/on-this-day/june-30/ | data/on-this-day/06-30.json | not started |
+| 304 | July 1 | /blog/on-this-day/july-1/ | data/on-this-day/07-01.json | not started |
+| 305 | July 2 | /blog/on-this-day/july-2/ | data/on-this-day/07-02.json | not started |
+| 306 | July 3 | /blog/on-this-day/july-3/ | data/on-this-day/07-03.json | not started |
+| 307 | July 4 | /blog/on-this-day/july-4/ | data/on-this-day/07-04.json | not started |
+| 308 | July 5 | /blog/on-this-day/july-5/ | data/on-this-day/07-05.json | not started |
+| 309 | July 6 | /blog/on-this-day/july-6/ | data/on-this-day/07-06.json | not started |
+| 310 | July 7 | /blog/on-this-day/july-7/ | data/on-this-day/07-07.json | not started |
+| 311 | July 8 | /blog/on-this-day/july-8/ | data/on-this-day/07-08.json | not started |
+| 312 | July 9 | /blog/on-this-day/july-9/ | data/on-this-day/07-09.json | not started |
+| 313 | July 10 | /blog/on-this-day/july-10/ | data/on-this-day/07-10.json | not started |
+| 314 | July 11 | /blog/on-this-day/july-11/ | data/on-this-day/07-11.json | not started |
+| 315 | July 12 | /blog/on-this-day/july-12/ | data/on-this-day/07-12.json | not started |
+| 316 | July 13 | /blog/on-this-day/july-13/ | data/on-this-day/07-13.json | not started |
+| 317 | July 14 | /blog/on-this-day/july-14/ | data/on-this-day/07-14.json | not started |
+| 318 | July 15 | /blog/on-this-day/july-15/ | data/on-this-day/07-15.json | not started |
+| 319 | July 16 | /blog/on-this-day/july-16/ | data/on-this-day/07-16.json | not started |
+| 320 | July 17 | /blog/on-this-day/july-17/ | data/on-this-day/07-17.json | not started |
+| 321 | July 18 | /blog/on-this-day/july-18/ | data/on-this-day/07-18.json | not started |
+| 322 | July 19 | /blog/on-this-day/july-19/ | data/on-this-day/07-19.json | not started |
+| 323 | July 20 | /blog/on-this-day/july-20/ | data/on-this-day/07-20.json | not started |
+| 324 | July 21 | /blog/on-this-day/july-21/ | data/on-this-day/07-21.json | not started |
+| 325 | July 22 | /blog/on-this-day/july-22/ | data/on-this-day/07-22.json | not started |
+| 326 | July 23 | /blog/on-this-day/july-23/ | data/on-this-day/07-23.json | not started |
+| 327 | July 24 | /blog/on-this-day/july-24/ | data/on-this-day/07-24.json | not started |
+| 328 | July 25 | /blog/on-this-day/july-25/ | data/on-this-day/07-25.json | not started |
+| 329 | July 26 | /blog/on-this-day/july-26/ | data/on-this-day/07-26.json | not started |
+| 330 | July 27 | /blog/on-this-day/july-27/ | data/on-this-day/07-27.json | not started |
+| 331 | July 28 | /blog/on-this-day/july-28/ | data/on-this-day/07-28.json | not started |
+| 332 | July 29 | /blog/on-this-day/july-29/ | data/on-this-day/07-29.json | not started |
+| 333 | July 30 | /blog/on-this-day/july-30/ | data/on-this-day/07-30.json | not started |
+| 334 | July 31 | /blog/on-this-day/july-31/ | data/on-this-day/07-31.json | not started |
+| 335 | August 1 | /blog/on-this-day/august-1/ | data/on-this-day/08-01.json | not started |
+| 336 | August 2 | /blog/on-this-day/august-2/ | data/on-this-day/08-02.json | not started |
+| 337 | August 3 | /blog/on-this-day/august-3/ | data/on-this-day/08-03.json | not started |
+| 338 | August 4 | /blog/on-this-day/august-4/ | data/on-this-day/08-04.json | not started |
+| 339 | August 5 | /blog/on-this-day/august-5/ | data/on-this-day/08-05.json | not started |
+| 340 | August 6 | /blog/on-this-day/august-6/ | data/on-this-day/08-06.json | not started |
+| 341 | August 7 | /blog/on-this-day/august-7/ | data/on-this-day/08-07.json | not started |
+| 342 | August 8 | /blog/on-this-day/august-8/ | data/on-this-day/08-08.json | not started |
+| 343 | August 9 | /blog/on-this-day/august-9/ | data/on-this-day/08-09.json | not started |
+| 344 | August 10 | /blog/on-this-day/august-10/ | data/on-this-day/08-10.json | not started |
+| 345 | August 11 | /blog/on-this-day/august-11/ | data/on-this-day/08-11.json | not started |
+| 346 | August 12 | /blog/on-this-day/august-12/ | data/on-this-day/08-12.json | not started |
+| 347 | August 13 | /blog/on-this-day/august-13/ | data/on-this-day/08-13.json | not started |
+| 348 | August 14 | /blog/on-this-day/august-14/ | data/on-this-day/08-14.json | not started |
+| 349 | August 15 | /blog/on-this-day/august-15/ | data/on-this-day/08-15.json | not started |
+| 350 | August 16 | /blog/on-this-day/august-16/ | data/on-this-day/08-16.json | not started |
+| 351 | August 17 | /blog/on-this-day/august-17/ | data/on-this-day/08-17.json | not started |
+| 352 | August 18 | /blog/on-this-day/august-18/ | data/on-this-day/08-18.json | not started |
+| 353 | August 19 | /blog/on-this-day/august-19/ | data/on-this-day/08-19.json | not started |
+| 354 | August 20 | /blog/on-this-day/august-20/ | data/on-this-day/08-20.json | not started |
+| 355 | August 21 | /blog/on-this-day/august-21/ | data/on-this-day/08-21.json | not started |
+| 356 | August 22 | /blog/on-this-day/august-22/ | data/on-this-day/08-22.json | not started |
+| 357 | August 23 | /blog/on-this-day/august-23/ | data/on-this-day/08-23.json | not started |
+| 358 | August 24 | /blog/on-this-day/august-24/ | data/on-this-day/08-24.json | not started |
+| 359 | August 25 | /blog/on-this-day/august-25/ | data/on-this-day/08-25.json | not started |
+| 360 | August 26 | /blog/on-this-day/august-26/ | data/on-this-day/08-26.json | not started |
+| 361 | August 27 | /blog/on-this-day/august-27/ | data/on-this-day/08-27.json | not started |
+| 362 | August 28 | /blog/on-this-day/august-28/ | data/on-this-day/08-28.json | not started |
+| 363 | August 29 | /blog/on-this-day/august-29/ | data/on-this-day/08-29.json | not started |
+| 364 | August 30 | /blog/on-this-day/august-30/ | data/on-this-day/08-30.json | not started |
+| 365 | August 31 | /blog/on-this-day/august-31/ | data/on-this-day/08-31.json | not started |

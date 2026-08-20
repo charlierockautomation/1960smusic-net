@@ -439,6 +439,118 @@ h3{font-size:1.25rem;color:var(--ink-soft);}
   .site-footer nav a{margin:0;font-size:.82rem;flex:0 0 auto;}
 }
 
+/* =====================================================================
+   ON THIS DAY — event-feed pages (/blog/on-this-day/{date}/)
+   Deliberately louder/more colorful than the standard article template:
+   this page's job is a scannable event feed, not a long-form essay.
+   Category color key is fixed site-wide, reused on every date page.
+   ===================================================================== */
+:root{
+  --otd-birth:#0E9594;
+  --otd-death:#6B3FA0;
+  --otd-release:#C98A0A;
+  --otd-chart:#D6336C;
+  --otd-concert:#1D6FE0;
+  --otd-festival:#F2542D;
+  --otd-broadcast:#7C3AED;
+  --otd-industry:#1E8A5F;
+  --otd-culture:#C0392B;
+}
+
+.otd-hero{
+  background:
+    radial-gradient(120% 140% at 50% -20%, #4A3527 0%, var(--walnut-cabinet) 55%, var(--walnut-deep) 100%);
+  color:var(--dial-ivory);
+  border-bottom:3px solid var(--brass);
+  padding:40px 0 30px;
+}
+.otd-hero .eyebrow{
+  font-family:var(--font-mono);font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--tube-glow);margin:0 0 .5em;
+}
+.otd-hero h1{font-family:var(--font-display);color:#fff;font-size:2.4rem;line-height:1.1;margin:0 0 .6em;}
+.otd-years{list-style:none;display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;}
+.otd-years a{
+  display:inline-block;font-family:var(--font-mono);font-weight:700;font-size:.88rem;
+  color:var(--dial-ivory);text-decoration:none;border:1.5px solid var(--brass);border-radius:20px;
+  padding:6px 14px;transition:background .15s ease,color .15s ease,border-color .15s ease;
+}
+.otd-years a:hover,.otd-years a:focus-visible{border-color:var(--tube-glow);color:#fff;}
+.otd-years a.current{background:var(--tube-glow);border-color:var(--tube-glow);color:#2a160b;}
+
+/* ---------- Flagship callout ---------- */
+.otd-flagship{
+  margin:26px 0;background:linear-gradient(135deg,#FFF3EA,var(--ivory-face));
+  border:2px solid var(--tube-glow);border-radius:16px;padding:26px 28px;
+  box-shadow:0 10px 26px rgba(0,0,0,.12);
+}
+.otd-flagship .otd-badge{margin-bottom:12px;}
+.otd-flagship h2{font-family:var(--font-display);font-size:1.7rem;margin:.1em 0 .5em;border:0;padding:0;}
+.otd-flagship p{font-size:1.08rem;margin:0 0 .7em;color:var(--near-black);}
+.otd-flagship .otd-embed{margin-top:16px;}
+
+/* ---------- Stat strip ---------- */
+.otd-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:22px 0 8px;}
+.otd-stat{
+  text-align:center;background:var(--ivory-face);border:1px solid var(--line);border-radius:12px;
+  padding:16px 10px;
+}
+.otd-stat .num{display:block;font-family:var(--font-mono);font-weight:700;font-size:1.9rem;color:var(--tube-glow);}
+.otd-stat .lbl{display:block;font-size:.82rem;color:var(--ink-soft);letter-spacing:.02em;}
+
+/* ---------- Year sections ---------- */
+.otd-year-divider{
+  margin:38px 0 16px;padding-top:6px;
+  font-family:var(--font-mono);font-weight:700;font-size:.95rem;letter-spacing:.12em;
+  color:var(--brass);text-transform:uppercase;border-top:2px solid var(--line);padding-top:14px;
+}
+.otd-cards{display:grid;grid-template-columns:1fr;gap:16px;}
+@media (min-width:700px){.otd-cards{grid-template-columns:repeat(2,1fr);}}
+
+.otd-card{
+  background:var(--ivory-face);border:1px solid var(--line);border-radius:14px;
+  padding:18px 20px;
+}
+.otd-badge{
+  display:inline-flex;align-items:center;gap:6px;font-family:var(--font-body);font-weight:700;
+  font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:#fff;border-radius:20px;padding:4px 12px;
+}
+.otd-badge.birth{background:var(--otd-birth);}
+.otd-badge.death{background:var(--otd-death);}
+.otd-badge.release{background:var(--otd-release);}
+.otd-badge.chart{background:var(--otd-chart);}
+.otd-badge.concert{background:var(--otd-concert);}
+.otd-badge.festival{background:var(--otd-festival);}
+.otd-badge.broadcast{background:var(--otd-broadcast);}
+.otd-badge.industry{background:var(--otd-industry);}
+.otd-badge.culture{background:var(--otd-culture);}
+
+.otd-card h3{font-family:var(--font-display);font-size:1.18rem;margin:.5em 0 .4em;color:var(--near-black);}
+.otd-card p{margin:0 0 .5em;color:var(--ink-soft);font-size:.98rem;}
+.otd-card p:last-of-type{margin-bottom:0;}
+.otd-card a{color:var(--red);}
+
+/* card media: either a YouTube embed or a photo, never both, never forced */
+.otd-media{margin:.7em 0;}
+.otd-embed{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:8px;}
+.otd-embed iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0;}
+.otd-card figure{margin:.7em 0;text-align:center;}
+.otd-card figure img{display:block;max-width:100%;height:auto;margin:0 auto;border:1px solid var(--line);border-radius:8px;}
+.otd-card figure figcaption{margin:6px auto 0;font-size:.72rem;line-height:1.4;color:#888;}
+.otd-card figure figcaption a{color:#888;}
+
+.otd-more{
+  margin:40px 0 8px;padding:20px 22px;background:var(--ivory-face);border:1px solid var(--line);
+  border-radius:12px;
+}
+.otd-more h2{margin-top:0;}
+.otd-more ul{margin:0;padding-left:1.2em;}
+
+@media (max-width:640px){
+  .otd-hero h1{font-size:1.9rem;}
+  .otd-stats{grid-template-columns:1fr;}
+}
+
 /* ---------- Reduced motion ---------- */
 @media (prefers-reduced-motion:reduce){
   html{scroll-behavior:auto;}

@@ -1,0 +1,424 @@
+{
+  "date_label": "September 1",
+  "date_slug": "september-1",
+  "flagship": {
+    "year": 1969,
+    "category": "festival",
+    "headline": "Texas International Pop Festival closes on Labor Day",
+    "summary_line_1": "Led Zeppelin, Janis Joplin, Santana, Sly and the Family Stone, and B.B. King closed out the three-day festival at the former Dallas International Motor Speedway in Lewisville, Texas.",
+    "summary_line_2": "It stands as one of 1969's biggest and least remembered festivals, drawing a lineup nearly as stacked as Woodstock two weeks earlier.",
+    "youtube_id": null,
+    "image": null
+  },
+  "stats": [
+    { "value": 21, "label": "verified events" },
+    { "value": 9, "label": "event categories" },
+    { "value": 10, "label": "years covered" }
+  ],
+  "years": [
+    {
+      "year": 1969,
+      "events": [
+        {
+          "category": "festival",
+          "headline": "Texas International Pop Festival closes in Lewisville",
+          "summary_line_1": "The three-day festival at the former Dallas International Motor Speedway wrapped its Labor Day finale with sets from Led Zeppelin, Janis Joplin, Santana, Sly and the Family Stone, and B.B. King.",
+          "summary_line_2": "The lineup rivaled Woodstock's two weeks earlier, yet the festival never earned the same place in popular memory.",
+          "youtube_id": null,
+          "image": {
+            "src": "img/texas-pop-marker.jpg",
+            "width": 640,
+            "height": 800,
+            "alt": "Texas Historical Commission marker commemorating the Texas International Pop Festival",
+            "credit_text": "Photo: Danazar",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Texas_International_Pop_Festival_Marker.jpg",
+            "license": "CC BY-SA 4.0"
+          },
+          "internal_link": null,
+          "external_link": { "text": "Texas State Historical Association", "url": "https://www.tshaonline.org/handbook/entries/texas-international-pop-festival-1969" }
+        },
+        {
+          "category": "festival",
+          "headline": "New Orleans Pop Festival wraps its three-day run",
+          "summary_line_1": "The festival at the Pelican State Speedway in Prairieville, Louisiana, closed out its Labor Day weekend with Janis Joplin, the Grateful Dead, Santana, and The Byrds on the bill.",
+          "summary_line_2": "It was one of three major Labor Day festivals running that same weekend, a sign of how fast the outdoor rock festival had become standard summer programming by 1969.",
+          "youtube_id": null,
+          "image": {
+            "src": "img/neworleans-pop-1969.jpg",
+            "width": 594,
+            "height": 800,
+            "alt": "New Orleans Pop Festival 1969 promotional artwork",
+            "credit_text": "Creator: Stephen St. Germain, via the Historic New Orleans Collection",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:New_Orleans_Pop_Festival_1969.png",
+            "license": "Public domain"
+          },
+          "internal_link": null,
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/New_Orleans_Pop_Festival" }
+        },
+        {
+          "category": "festival",
+          "headline": "Sky River Rock Festival closes its second year in Tenino",
+          "summary_line_1": "The second annual Sky River Rock Festival and Lighter Than Air Fair wrapped its Labor Day run in Tenino, Washington.",
+          "summary_line_2": "It was one of the earliest multi-day outdoor counterculture rock festivals in the Pacific Northwest, predating the region's later festival boom.",
+          "youtube_id": "KmPoJdu8lSs",
+          "image": null,
+          "internal_link": null,
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Sky_River_Rock_Festival" }
+        }
+      ]
+    },
+    {
+      "year": 1968,
+      "events": [
+        {
+          "category": "concert",
+          "headline": "Jimi Hendrix Experience electrifies Red Rocks",
+          "summary_line_1": "The Jimi Hendrix Experience headlined the Colorado amphitheater with Vanilla Fudge, Soft Machine, and Eire Apparent opening, a show originally misprinted for the following night.",
+          "summary_line_2": "It remains one of the era's loudest and most celebrated outdoor bills at a venue still considered one of rock's great stages.",
+          "youtube_id": null,
+          "image": {
+            "src": "img/hendrix-1968.jpg",
+            "width": 800,
+            "height": 800,
+            "alt": "Publicity photo of the Jimi Hendrix Experience, 1968",
+            "credit_text": "Warner/Reprise Records publicity photo",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Jimi_Hendrix_1968.jpg",
+            "license": "Public domain"
+          },
+          "internal_link": null,
+          "external_link": { "text": "setlist.fm", "url": "https://www.setlist.fm/setlist/the-jimi-hendrix-experience/1968/red-rocks-amphitheatre-morrison-co-6bc42a92.html" }
+        }
+      ]
+    },
+    {
+      "year": 1967,
+      "events": [
+        {
+          "category": "culture",
+          "headline": "The Beatles meet to plan their future without Brian Epstein",
+          "summary_line_1": "Paul McCartney convened the other three Beatles at his London home five days after manager Brian Epstein's death, where the band postponed a planned trip to India and greenlit the self-directed Magical Mystery Tour project.",
+          "summary_line_2": "The meeting marked the moment The Beatles took direct control of their own business affairs for the first time.",
+          "youtube_id": null,
+          "image": {
+            "src": "img/beatles-1967.jpg",
+            "width": 552,
+            "height": 800,
+            "alt": "The Beatles pictured in a 1967 promotional photo for All You Need Is Love",
+            "credit_text": "Capitol Records / Henry Grossman, via Billboard magazine, July 20, 1967",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:The_Beatles_1967.jpg",
+            "license": "Public domain"
+          },
+          "internal_link": { "text": "The Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": { "text": "The Paul McCartney Project", "url": "https://www.the-paulmccartney-project.com/1967/09/the-beatles-meet-to-discuss-their-future/" }
+        },
+        {
+          "category": "industry",
+          "headline": "Joni Mitchell registers copyright on A Melody In Your Name",
+          "summary_line_1": "Joni Mitchell filed the publishing copyright for her song under her own Gandalf Publishing Company, a small administrative step just ahead of her breakthrough as a major voice of the folk movement.",
+          "summary_line_2": "The registration is a rare paper trail into how early she was already managing her own catalog as a songwriter.",
+          "youtube_id": "er0DdKYZgA8",
+          "image": null,
+          "internal_link": null,
+          "external_link": { "text": "JoniMitchell.com archive", "url": "https://jonimitchell.com/music/song.cfm?id=246" }
+        }
+      ]
+    },
+    {
+      "year": 1966,
+      "events": [
+        {
+          "category": "concert",
+          "headline": "The Byrds open an 11-night Whisky a Go Go residency",
+          "summary_line_1": "The folk-rock pioneers began the first night of a headlining run at the Whisky a Go Go on the Sunset Strip in West Hollywood.",
+          "summary_line_2": "The residency landed during the band's shift into their more psychedelic period, a live proving ground for the new material.",
+          "youtube_id": null,
+          "image": {
+            "src": "img/byrds-1966.jpg",
+            "width": 800,
+            "height": 665,
+            "alt": "The Byrds pose together in 1966",
+            "credit_text": "KRLA Beat magazine, February 12, 1966",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:The_Byrds_on_The_Big_T.N.T._Show,_1966.jpg",
+            "license": "Public domain"
+          },
+          "internal_link": null,
+          "external_link": { "text": "setlist.fm", "url": "https://www.setlist.fm/setlist/the-byrds/1966/whisky-a-go-go-west-hollywood-ca-3bc63804.html" }
+        },
+        {
+          "category": "birth",
+          "headline": "Ariel Rivera is born in Manila",
+          "summary_line_1": "Jose Ariel Jimenez Rivera was born in Manila, Philippines.",
+          "summary_line_2": "He grew up to become a triple-platinum OPM singer, later known as one of the Philippines' most successful balladeers.",
+          "youtube_id": null,
+          "image": {
+            "src": "img/ariel-rivera-2023.jpg",
+            "width": 555,
+            "height": 800,
+            "alt": "Ariel Rivera pictured in 2023",
+            "credit_text": "Photo: Blakegripling ph",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Ariel_Rivera_2023.jpg",
+            "license": "CC0"
+          },
+          "internal_link": null,
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1965,
+      "events": [
+        {
+          "category": "industry",
+          "headline": "Roger Miller's Return of Roger Miller is certified gold",
+          "summary_line_1": "The RIAA certified Roger Miller's breakthrough album gold, marking the first gold certification of his career.",
+          "summary_line_2": "It confirmed his crossover from novelty-leaning country singles into a bona fide commercial force.",
+          "youtube_id": null,
+          "image": {
+            "src": "img/roger-miller-1965.jpg",
+            "width": 800,
+            "height": 800,
+            "alt": "US vinyl label for Roger Miller's 1965 single King of the Road",
+            "credit_text": "Smash Records / Mercury Records, 1965",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:King_of_the_road_by_roger_miller_us_vinyl_a-side.png",
+            "license": "Public domain"
+          },
+          "internal_link": null,
+          "external_link": { "text": "RIAA Gold & Platinum Database", "url": "https://www.riaa.com/gold-platinum/?tab_active=default-award&se=roger+miller" }
+        },
+        {
+          "category": "broadcast",
+          "headline": "James Brown debuts Papa's Got a Brand New Bag on Shindig!",
+          "summary_line_1": "James Brown performed his funk-soul crossover hit on the ABC teen-music variety show, showing off the dance moves that defined his live act.",
+          "summary_line_2": "The performance introduced the song's new rhythmic approach to a national television audience for the first time.",
+          "youtube_id": null,
+          "image": {
+            "src": "img/james-brown-1964.jpg",
+            "width": 800,
+            "height": 657,
+            "alt": "James Brown performing at Clemson University, 1964",
+            "credit_text": "Clemson University Taps yearbook, 1964",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:James_Brown_at_Clemson_(Taps_1964)_1.png",
+            "license": "Public domain"
+          },
+          "internal_link": null,
+          "external_link": { "text": "Songfacts", "url": "https://www.songfacts.com/facts/james-brown/papas-got-a-brand-new-bag" }
+        }
+      ]
+    },
+    {
+      "year": 1964,
+      "events": [
+        {
+          "category": "industry",
+          "headline": "Motown renews its EMI licensing deal in Britain",
+          "summary_line_1": "Motown Records signed a three-year renewal of its international licensing and distribution contract with EMI Records in the UK.",
+          "summary_line_2": "The deal laid the groundwork for the dedicated Tamla Motown label that launched in Britain the following year.",
+          "youtube_id": null,
+          "image": {
+            "src": "img/hitsville-usa.jpg",
+            "width": 800,
+            "height": 600,
+            "alt": "Hitsville U.S.A., Motown Records' original Detroit headquarters",
+            "credit_text": "Photo: Chris Butcher, 2006",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Hitsville_USA.jpg",
+            "license": "Public domain"
+          },
+          "internal_link": null,
+          "external_link": { "text": "Adam White's Motown Timeline", "url": "https://www.adampwhite.com/westgrandblog/timeline-1964" }
+        },
+        {
+          "category": "birth",
+          "headline": "Charlie Robison is born in Houston",
+          "summary_line_1": "Charlie Robison was born in Houston, Texas.",
+          "summary_line_2": "He grew up to become a leading voice of the grittier, raw Texas country movement, later finding mainstream success with I Want You Bad.",
+          "youtube_id": null,
+          "image": {
+            "src": "img/charlie-robison.jpg",
+            "width": 681,
+            "height": 800,
+            "alt": "Charlie Robison performing at South by Southwest, 2007",
+            "credit_text": "Photo: Staff Sgt. Brian Ferguson, U.S. Air Force",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Charlie_Robison.jpg",
+            "license": "Public domain"
+          },
+          "internal_link": null,
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Charlie_Robison" }
+        }
+      ]
+    },
+    {
+      "year": 1963,
+      "events": [
+        {
+          "category": "broadcast",
+          "headline": "The Beatles tape Big Night Out at Didsbury Studio Centre",
+          "summary_line_1": "The Beatles taped an appearance on ABC Television's variety show Big Night Out in Manchester, miming From Me To You, She Loves You, and Twist and Shout in front of a live studio audience.",
+          "summary_line_2": "The episode aired across the ITV network less than a week later, part of the wave of TV exposure driving Beatlemania that autumn.",
+          "youtube_id": null,
+          "image": {
+            "src": "img/beatles-hotorgscity-1963.jpg",
+            "width": 720,
+            "height": 800,
+            "alt": "The Beatles in Hötorgscity, Stockholm, October 1963",
+            "credit_text": "Scanpix",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:The_Beatles_i_H%C3%B6torgscity_1963.jpg",
+            "license": "Public domain"
+          },
+          "internal_link": { "text": "The Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": { "text": "The Beatles Bible", "url": "https://www.beatlesbible.com/1963/09/01/television-big-night-out/" }
+        }
+      ]
+    },
+    {
+      "year": 1962,
+      "events": [
+        {
+          "category": "chart",
+          "headline": "Tommy Roe's Sheila hits No. 1",
+          "summary_line_1": "Tommy Roe scored his first US Billboard Hot 100 number one with Sheila, a self-written track carrying an unmistakable Buddy Holly-style vocal hiccup and Peggy Sue-style drumbeat.",
+          "summary_line_2": "It was a re-recording of a song Roe first cut in 1960 with his high school group, The Satins, proof the original arrangement just needed the right studio polish.",
+          "youtube_id": null,
+          "image": {
+            "src": "img/tommy-roe.jpg",
+            "width": 800,
+            "height": 942,
+            "alt": "Tommy Roe pictured in a 1970 trade magazine advertisement",
+            "credit_text": "Billboard magazine, September 12, 1970",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Tommy_Roe.png",
+            "license": "Public domain"
+          },
+          "internal_link": null,
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Sheila_(Tommy_Roe_song)" }
+        }
+      ]
+    },
+    {
+      "year": 1961,
+      "events": [
+        {
+          "category": "release",
+          "headline": "Tony Bennett releases My Heart Sings",
+          "summary_line_1": "Tony Bennett released his studio album My Heart Sings on Columbia Records, recorded at CBS's 30th Street Studio in New York.",
+          "summary_line_2": "The album became a standard-bearer for early-1960s vocal pop, featuring the standout Don't Worry 'Bout Me.",
+          "youtube_id": null,
+          "image": {
+            "src": "img/tony-bennett-1964.jpg",
+            "width": 602,
+            "height": 800,
+            "alt": "Composer Harold Arlen and Tony Bennett rehearsing for CBS's The Twentieth Century, 1964",
+            "credit_text": "CBS Television, January 24, 1964",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Harold_Arlen_Tony_Bennett_1964.JPG",
+            "license": "Public domain"
+          },
+          "internal_link": null,
+          "external_link": null
+        },
+        {
+          "category": "birth",
+          "headline": "Boney James is born in Lowell, Massachusetts",
+          "summary_line_1": "James Oppenheim, later known as Boney James, was born in Lowell, Massachusetts.",
+          "summary_line_2": "He grew up to become a multi-Grammy-nominated smooth jazz saxophonist, songwriter, and producer.",
+          "youtube_id": null,
+          "image": {
+            "src": "img/boney-james.jpg",
+            "width": 532,
+            "height": 800,
+            "alt": "Boney James performing at the Jazz Cafe, 2005",
+            "credit_text": "Photo: pixgremlin",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Boney_James.jpg",
+            "license": "CC BY 2.0"
+          },
+          "internal_link": null,
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Boney_James" }
+        },
+        {
+          "category": "release",
+          "headline": "Art Blakey and the Jazz Messengers release their self-titled LP",
+          "summary_line_1": "The hard-bop group released Art Blakey and the Jazz Messengers on Impulse! Records, recorded with the band temporarily expanded to a sextet.",
+          "summary_line_2": "It was pianist Bobby Timmons's final session with the group before he left to rejoin Cannonball Adderley.",
+          "youtube_id": null,
+          "image": {
+            "src": "img/art-blakey-1960.jpg",
+            "width": 800,
+            "height": 633,
+            "alt": "Art Blakey performing in concert at the Concertgebouw, Amsterdam, December 1960",
+            "credit_text": "Ben van Meerendonk / IISG",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:12-17-1960_17717_Art_Blakey_(6331548858).jpg",
+            "license": "CC BY-SA 2.0"
+          },
+          "internal_link": null,
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Art_Blakey_and_the_Jazz_Messengers_(1961_album)" }
+        },
+        {
+          "category": "birth",
+          "headline": "Arabinda Muduli is born in Khanati, Odisha",
+          "summary_line_1": "Arabinda Muduli was born in Khanati, in India's Khordha district.",
+          "summary_line_2": "He grew up to become a celebrated Odia bhajan singer and lyricist devoted to spiritual devotional music.",
+          "youtube_id": null,
+          "image": {
+            "src": "img/arabinda-muduli.jpg",
+            "width": 504,
+            "height": 800,
+            "alt": "Arabinda Muduli, Odia devotional singer",
+            "credit_text": "Photo: Krupasindhu Muduli",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Arabinda_Muduli_Odia_singer.jpg",
+            "license": "CC BY-SA 3.0"
+          },
+          "internal_link": null,
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Arabinda_Muduli" }
+        }
+      ]
+    },
+    {
+      "year": 1960,
+      "events": [
+        {
+          "category": "death",
+          "headline": "Aunt Molly Jackson dies at 80",
+          "summary_line_1": "Mary Magdalena Garland, known professionally as Aunt Molly Jackson, died at approximately age 80.",
+          "summary_line_2": "The Appalachian folk singer and union activist had become one of the defining voices of the coal miners' struggles during the Great Depression.",
+          "youtube_id": "db_E_Jqxroo",
+          "image": null,
+          "internal_link": null,
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Aunt_Molly_Jackson" }
+        },
+        {
+          "category": "culture",
+          "headline": "Broadway and the West End dim their lights for Oscar Hammerstein II",
+          "summary_line_1": "New York's Times Square lights went dark for one minute and London's West End theater lights dimmed in a synchronized transatlantic tribute to lyricist Oscar Hammerstein II.",
+          "summary_line_2": "The joint gesture honored his massive contributions to musical theater following his death just over a week earlier.",
+          "youtube_id": null,
+          "image": {
+            "src": "img/hammerstein-1920.jpg",
+            "width": 358,
+            "height": 600,
+            "alt": "Portrait of Oscar Hammerstein II, circa 1920",
+            "credit_text": "New-York Tribune, January 11, 1920, via Library of Congress",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Oscar_Hammerstein_2nd,_ca._1920.jpg",
+            "license": "Public domain"
+          },
+          "internal_link": null,
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/September_1960" }
+        },
+        {
+          "category": "birth",
+          "headline": "Joseph Williams is born",
+          "summary_line_1": "Joseph Williams, son of film composer John Williams, was born.",
+          "summary_line_2": "He grew up to front the rock band Toto in the mid-1980s, singing lead on hits including Pamela.",
+          "youtube_id": null,
+          "image": {
+            "src": "img/joseph-williams.jpg",
+            "width": 800,
+            "height": 600,
+            "alt": "Joseph Williams performing with Toto in Örebro, Sweden, 2013",
+            "credit_text": "Photo: Evelina Gustafsson",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Joseph_Williams_Orebro_2013.jpg",
+            "license": "CC BY-SA 3.0"
+          },
+          "internal_link": null,
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Joseph_Williams_(musician)" }
+        }
+      ]
+    }
+  ]
+}
