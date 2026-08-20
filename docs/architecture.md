@@ -1,0 +1,54 @@
+# Architecture — 1960smusic.net
+
+## Data flow: gen/ → data/*.json → static pages
+
+The three JSON files in `/data/` (`genres.json`, `artists.json`,
+`songs.json`) are the single dataset every page and tool reads from. They are
+**generated artifacts**, not hand-edited:
+
+- `gen/genres_data.py`, `gen/artists_data.py`, `gen/songs_data.py` hold the
+  raw Python literals (source of truth for content).
+- `gen/generate.py` imports those three, resolves each song's `youtube_id`
+  by scraping YouTube search results and verifying via the oEmbed endpoint
+  (confirms the video is live/embeddable), then writes the three JSON files
+  to `/data/`. Resolved ids are cached in `gen/yt_cache.json` so re-runs only
+  fetch new/uncached songs.
+- `gen/augment.py` runs a second QA pass over `yt_cache.json`: fetches oEmbed
+  author/title for each cached video and flags it when the channel doesn't
+  look obviously official (not VEVO/`- Topic`/"official"/artist-name match).
+  This sets `flagged`/`reason` in the cache, which `generate.py` surfaces on
+  each song record as `_youtube_flagged` / `_youtube_flag_reason`.
+
+**To change content** (add/edit an artist, song, or genre), edit the
+corresponding `gen/*_data.py` file, then re-run `generate.py` — do not
+hand-edit the JSON in `/data/` directly, it will be overwritten on the next
+generate.
+
+The `_youtube_flagged` / `_youtube_flag_reason` fields on song records are
+QA-only scaffolding for this phase (not part of the long-term schema) and can
+be stripped later once every flagged song has been manually verified.
+
+## Dataset relationship: artists vs. song performers
+
+`artists.json` is a curated 70-artist bio roster (acts that get full
+profile/hub pages). `songs.json`'s 180 songs are performed by a wider set of
+acts, including one-hit-wonders not in the roster. Every song therefore
+carries its own `artist_name` (redundant with, but independent of,
+`artist_id`) so it can always render without a matching bio record existing.
+Don't assume `song.artist_id` resolves in `artists.json` — look it up
+defensively, or just use `artist_name` for display.
+
+Five roster artists are reserved marquee bios with empty `notable_song_ids`
+(their signature songs land in a later phase) — this is valid, not a data
+bug.
+
+## Page conventions (see index.html / about.html)
+
+- Every page: `<link rel="stylesheet" href="/styles.css">`,
+  `<link rel="canonical" href="https://1960smusic.net/...">`, standard
+  `site-header` with `brand` + `site-nav` (`aria-current="page"` on the
+  active link).
+- Root-relative links (`/about.html`, not `about.html`).
+- `_headers` sets baseline security headers (X-Frame-Options,
+  X-Content-Type-Options, Referrer-Policy) applied to `/*`; `_redirects` is
+  intentionally empty in this phase.
