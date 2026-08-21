@@ -1,0 +1,412 @@
+{
+  "date_label": "September 3",
+  "date_slug": "september-3",
+  "flagship": {
+    "year": 1968,
+    "category": "industry",
+    "headline": "Ringo Starr rejoins the Beatles at Abbey Road",
+    "summary_line_1": "Twelve days after walking out of the White Album sessions, Ringo Starr returned to Abbey Road to find his drum kit buried in flowers, George Harrison's welcome-home surprise.",
+    "summary_line_2": "The reunited band spent that evening starting work on Harrison's While My Guitar Gently Weeps, one of the album's defining tracks.",
+    "youtube_id": null,
+    "image": null
+  },
+  "stats": [
+    { "value": 23, "label": "verified events" },
+    { "value": 6, "label": "event categories" },
+    { "value": 10, "label": "years covered" }
+  ],
+  "years": [
+    {
+      "year": 1969,
+      "events": [
+        {
+          "category": "culture",
+          "headline": "MGM releases Elvis's The Trouble with Girls nationwide",
+          "summary_line_1": "MGM put Elvis Presley's 30th film, The Trouble with Girls (And How to Get Into It), into theaters across the country, just three days after he wrapped his triumphant comeback engagement at the International Hotel in Las Vegas.",
+          "summary_line_2": "The 1920s period comedy, co-starring Vincent Price, marked the last stop of Presley's acting career before he turned his full attention back to live touring.",
+          "youtube_id": null,
+          "image": {
+            "src": "img/elvis-presley-1969.jpg",
+            "width": 702,
+            "height": 900,
+            "alt": "Elvis Presley pictured in 1969",
+            "credit_text": "Public domain, via Wikimedia Commons",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Elvis_Presley_and_Colonel_Tom_Parker_1969.jpg",
+            "license": "Public domain"
+          },
+          "internal_link": null,
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Trouble_with_Girls_(film)" }
+        },
+        {
+          "category": "industry",
+          "headline": "Gary Burton Sextet tracks Good Vibes at Atlantic Studios",
+          "summary_line_1": "Vibraphonist Gary Burton's sextet, stacked with session heavyweights Richard Tee, Eric Gale, Chuck Rainey, and Bernard Purdie, was in the middle of a three-day run at Atlantic Recording Studios in New York cutting material for the album Good Vibes.",
+          "summary_line_2": "The sessions fused jazz vibraphone with deep R&B session muscle, producing tracks like Leroy the Magician that became a highlight of Burton's fusion-leaning 1970 release.",
+          "youtube_id": "NTKPAadEexo",
+          "image": null,
+          "internal_link": null,
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Good_Vibes_(Gary_Burton_album)" }
+        },
+        {
+          "category": "industry",
+          "headline": "Duke Ellington cuts A Taste of Honey for Reader's Digest",
+          "summary_line_1": "Duke Ellington and his orchestra recorded a big-band arrangement of A Taste of Honey at RCA Studio C in New York, part of a multi-day session commissioned by Reader's Digest.",
+          "summary_line_2": "The sessions reworked contemporary pop and film standards into Ellington's orchestral style, a showcase of his restless late-career output.",
+          "youtube_id": null,
+          "image": {
+            "src": "img/duke-ellington-nixon-1969.jpg",
+            "width": 589,
+            "height": 400,
+            "alt": "Duke Ellington, photographed at the White House in 1969",
+            "credit_text": "White House Photo Office / National Archives. Public domain, via Wikimedia Commons",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Richard_Nixon_and_Duke_Ellington_1969.jpg",
+            "license": "Public domain"
+          },
+          "internal_link": null,
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1968,
+      "events": [
+        {
+          "category": "industry",
+          "headline": "Ringo Starr rejoins the Beatles at Abbey Road",
+          "summary_line_1": "Twelve days after walking out of the White Album sessions, Ringo Starr returned to Abbey Road to find his drum kit buried in flowers, George Harrison's welcome-home surprise.",
+          "summary_line_2": "The reunited band spent that evening starting work on Harrison's While My Guitar Gently Weeps, one of the album's defining tracks.",
+          "youtube_id": null,
+          "image": {
+            "src": "img/ringo-starr-1968.jpeg",
+            "width": 629,
+            "height": 900,
+            "alt": "Ringo Starr pictured during the White Album sessions, 1968",
+            "credit_text": "Public domain, via Wikimedia Commons",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Ringo_Starr_%22White_Album%22_1968_Portrait.jpeg",
+            "license": "Public domain"
+          },
+          "internal_link": { "text": "The Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": { "text": "The Beatles Bible", "url": "https://www.beatlesbible.com/1968/09/03/ringo-starr-rejoins-the-beatles/" }
+        },
+        {
+          "category": "release",
+          "headline": "Elvis releases A Little Less Conversation",
+          "summary_line_1": "RCA Victor released Elvis Presley's Almost in Love / A Little Less Conversation single, written by Mac Davis and Billy Strange for the film Live a Little, Love a Little.",
+          "summary_line_2": "The groovy, brass-driven track was only a minor hit at the time, peaking at No. 69, but a 2002 remix by Dutch DJ Junkie XL turned it into a global No. 1 more than three decades later.",
+          "youtube_id": "G4VJ-SHJp4U",
+          "image": null,
+          "internal_link": null,
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/A_Little_Less_Conversation" }
+        }
+      ]
+    },
+    {
+      "year": 1967,
+      "events": [
+        {
+          "category": "broadcast",
+          "headline": "Anni-Frid Lyngstad wins Sweden's New Faces talent contest",
+          "summary_line_1": "A young Anni-Frid Lyngstad won the Nya Ansikten (New Faces) talent competition at Skansen in Stockholm, singing En Ledig Dag, and appeared on the country's biggest TV show, Hylands Hörna, that same evening.",
+          "summary_line_2": "The win came with a recording contract from EMI Sweden, launching the career of the singer who would become Frida of ABBA.",
+          "youtube_id": null,
+          "image": {
+            "src": "img/anni-frid-lyngstad-1967.jpg",
+            "width": 499,
+            "height": 622,
+            "alt": "Anni-Frid Lyngstad pictured in the Swedish newspaper Expressen, September 4 1967",
+            "credit_text": "Expressen. Public domain, via Wikimedia Commons",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Anni_Frid_Lyngstad_on_Expressen_4_September_1967.jpg",
+            "license": "Public domain"
+          },
+          "internal_link": null,
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Anni-Frid_Lyngstad" }
+        },
+        {
+          "category": "concert",
+          "headline": "The Who play the Ohio State Fairgrounds",
+          "summary_line_1": "The Who performed at the Ohio State Fairgrounds in Columbus during a multi-night run, one stop on their first US tour opening for Herman's Hermits.",
+          "summary_line_2": "The tour introduced American audiences to Pete Townshend's feedback-drenched guitar work and Keith Moon's explosive drumming for the first time.",
+          "youtube_id": "plaVBENUt0M",
+          "image": null,
+          "internal_link": null,
+          "external_link": null
+        },
+        {
+          "category": "concert",
+          "headline": "Grateful Dead play the Rio Nido Dance Hall",
+          "summary_line_1": "The Grateful Dead played the Dance Hall in Rio Nido, California, delivering a sprawling, 31-minute take on In the Midnight Hour anchored by Pigpen's frontman charisma.",
+          "summary_line_2": "The performance later surfaced on the live compilation album Fallout from the Phil Zone, a favorite among tape traders for its raw, early-era intensity.",
+          "youtube_id": "PRqv2-47dDM",
+          "image": null,
+          "internal_link": null,
+          "external_link": { "text": "Jerry Garcia show archive", "url": "https://jerrygarcia.com/show/1967-09-03-dance-hall-rio-nido-ca-usa/" }
+        },
+        {
+          "category": "concert",
+          "headline": "Cream close their second Fillmore residency",
+          "summary_line_1": "Cream wrapped a second run of shows at San Francisco's Fillmore Auditorium, sharing the bill with the Electric Flag and vibraphonist Gary Burton during the Summer of Love.",
+          "summary_line_2": "The venue's legal capacity was 900, but as many as 1,500 fans reportedly packed in, cementing Cream's reputation as the era's premier live power trio.",
+          "youtube_id": null,
+          "image": {
+            "src": "img/cream-1960s.jpg",
+            "width": 900,
+            "height": 596,
+            "alt": "Cream: Jack Bruce, Ginger Baker, and Eric Clapton, pictured in the 1960s",
+            "credit_text": "Public domain, via Wikimedia Commons",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Cream_Clapton_Bruce_Baker_1960s.jpg",
+            "license": "Public domain"
+          },
+          "internal_link": null,
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1966,
+      "events": [
+        {
+          "category": "chart",
+          "headline": "Donovan's Sunshine Superman hits No. 1",
+          "summary_line_1": "Donovan's psychedelic-pop single Sunshine Superman vaulted to No. 1 on the Billboard Hot 100, his only chart-topper in the United States.",
+          "summary_line_2": "The track's swinging arrangement featured session guitarist Jimmy Page and bassist John Paul Jones, two future Led Zeppelin bandmates playing together years before that group existed.",
+          "youtube_id": "YsX2FhBf9nY",
+          "image": null,
+          "internal_link": null,
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Sunshine_Superman_(song)" }
+        },
+        {
+          "category": "chart",
+          "headline": "96 Tears debuts on the Billboard Hot 100",
+          "summary_line_1": "Question Mark and the Mysterians' raw, Farfisa-organ garage rock single 96 Tears entered the Billboard Hot 100 at No. 75.",
+          "summary_line_2": "The DIY regional hit climbed to No. 1 by late October, its hypnotic organ riff and low-budget attitude later cited as an early blueprint for punk rock.",
+          "youtube_id": "-OOxzpR7tFg",
+          "image": null,
+          "internal_link": null,
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/96_Tears" }
+        },
+        {
+          "category": "concert",
+          "headline": "Jimmy Page fronts the Yardbirds without an ailing Jeff Beck",
+          "summary_line_1": "The Yardbirds played the Salem Armory during the Oregon State Fair as a four-piece, with Jimmy Page carrying lead guitar alone after Jeff Beck was hospitalized with meningitis and tonsillitis the day before.",
+          "summary_line_2": "The show was an early proving ground for Page as a frontline lead player, months before he would take over the band outright.",
+          "youtube_id": null,
+          "image": {
+            "src": "img/yardbirds-1965.jpg",
+            "width": 819,
+            "height": 900,
+            "alt": "The Yardbirds pictured in 1965",
+            "credit_text": "KRLA Beat / Beat Publications. Public domain, via Wikimedia Commons",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:The_Yardbirds_in_1965_(true_monochrome).jpg",
+            "license": "Public domain"
+          },
+          "internal_link": null,
+          "external_link": null
+        },
+        {
+          "category": "concert",
+          "headline": "The Who play the Drill Hall in Grantham",
+          "summary_line_1": "The Who played a gig at the Drill Hall in Grantham, Lincolnshire, part of the relentless UK club circuit that defined the band's mid-1960s mod years.",
+          "summary_line_2": "Shows like this one built the volatile, instrument-smashing reputation that would soon carry the band across the Atlantic.",
+          "youtube_id": "lJW_2wLt704",
+          "image": null,
+          "internal_link": null,
+          "external_link": null
+        },
+        {
+          "category": "concert",
+          "headline": "John Coltrane and Sonny Fortune play a benefit at the Church of the Advocate",
+          "summary_line_1": "John Coltrane's quartet played a benefit concert for the Black People's Unity Movement at the Church of the Advocate in North Philadelphia, a show reserved for the local Black community after saxophonist Sonny Fortune opened.",
+          "summary_line_2": "It came a night after a Stokely Carmichael address in the same church, tying Coltrane's avant-garde jazz directly to the era's Black Power movement.",
+          "youtube_id": null,
+          "image": {
+            "src": "img/john-coltrane-1963.jpg",
+            "width": 610,
+            "height": 900,
+            "alt": "John Coltrane pictured in 1963",
+            "credit_text": "Photo: Hugo van Gelderen / Anefo. CC0, via Wikimedia Commons",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:John_Coltrane_1963.jpg",
+            "license": "CC0"
+          },
+          "internal_link": null,
+          "external_link": { "text": "Lewis Porter", "url": "https://lewisporter.substack.com/p/coltrane-and-sonny-fortune-performed" }
+        }
+      ]
+    },
+    {
+      "year": 1965,
+      "events": [
+        {
+          "category": "concert",
+          "headline": "Bob Dylan goes electric at the Hollywood Bowl",
+          "summary_line_1": "Bob Dylan made his Hollywood Bowl debut with a two-part set, opening solo and acoustic before plugging in for an electric second half backed by Robbie Robertson, Al Kooper, Harvey Brooks, and Levon Helm.",
+          "summary_line_2": "Coming six weeks after his controversial electric turn at Newport, the Bowl crowd proved far more receptive, closing the night with Like a Rolling Stone.",
+          "youtube_id": null,
+          "image": {
+            "src": "img/bob-dylan-1965.jpg",
+            "width": 718,
+            "height": 900,
+            "alt": "Bob Dylan pictured in 1965",
+            "credit_text": "Photo: Daniel Kramer. Public domain, via Wikimedia Commons",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Bob_Dylan_1965_publicity_photo.jpg",
+            "license": "Public domain"
+          },
+          "internal_link": null,
+          "external_link": { "text": "bobdylan.com", "url": "https://www.bobdylan.com/date/1965-09-03-hollywood-bowl/" }
+        },
+        {
+          "category": "concert",
+          "headline": "A Rolling Stones show in Dublin ends in a riot",
+          "summary_line_1": "The Rolling Stones' show at the Adelphi Cinema in Dublin was cut short after just three songs when fans rushed the stage, knocking Mick Jagger to the floor and forcing the band to flee.",
+          "summary_line_2": "Filmmaker Peter Whitehead captured the chaos on camera, and the footage became a centerpiece of his tour documentary Charlie Is My Darling.",
+          "youtube_id": null,
+          "image": {
+            "src": "img/rolling-stones-1965.jpg",
+            "width": 532,
+            "height": 636,
+            "alt": "The Rolling Stones pictured in 1965",
+            "credit_text": "Public domain, via Wikimedia Commons",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Rolling_Stones_1965.jpg",
+            "license": "Public domain"
+          },
+          "internal_link": { "text": "The Rolling Stones", "url": "/blog/artists/the-rolling-stones/" },
+          "external_link": { "text": "Hotpress", "url": "https://www.hotpress.com/music/on-this-day-in-1965-the-rolling-stones-gig-in-dublins-adelphi-ends-in-chaos-22826638" }
+        },
+        {
+          "category": "industry",
+          "headline": "Lou Christie records Lightnin' Strikes",
+          "summary_line_1": "Lou Christie cut his falsetto-driven signature hit Lightnin' Strikes at Olmstead Recording Studios in New York, produced and arranged by Charles Calello.",
+          "summary_line_2": "Session guitarist Ralph Casale's stuttering, overdubbed solo became the track's most memorable hook, helping push the single to No. 1 in early 1966.",
+          "youtube_id": null,
+          "image": {
+            "src": "img/lou-christie-1966-ad.jpg",
+            "width": 459,
+            "height": 471,
+            "alt": "A 1966 Billboard trade advertisement for Lou Christie's Lightnin' Strikes",
+            "credit_text": "MGM Records trade ad. Public domain, via Wikimedia Commons",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Lou_Christie.png",
+            "license": "Public domain"
+          },
+          "internal_link": null,
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Lightnin%27_Strikes" }
+        }
+      ]
+    },
+    {
+      "year": 1964,
+      "events": [
+        {
+          "category": "concert",
+          "headline": "The Beatles play two sold-out Indiana State Fair shows",
+          "summary_line_1": "The Beatles performed two sold-out shows at the Indiana State Fair in Indianapolis, one inside the Coliseum and one outdoors at the Grandstand, drawing a combined 29,337 fans.",
+          "summary_line_2": "Opening acts Jackie DeShannon, Clarence 'Frogman' Henry, the Exciters, and the Bill Black Combo filled out the bill on this stop of the band's first full North American tour.",
+          "youtube_id": "HtVjS98Qd2g",
+          "image": null,
+          "internal_link": { "text": "The Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": { "text": "The Beatles Bible", "url": "https://www.beatlesbible.com/1964/09/03/live-state-fair-coliseum-indianapolis/" }
+        },
+        {
+          "category": "concert",
+          "headline": "The Albert Ayler Quartet tapes a landmark set in Copenhagen",
+          "summary_line_1": "Saxophonist Albert Ayler, with Don Cherry, Gary Peacock, and Sunny Murray, played an intense live set at Copenhagen's Club Montmartre that was professionally recorded.",
+          "summary_line_2": "The tapes captured Ayler at the vanguard of free jazz and were later released as The Copenhagen Tapes, a document of one of the genre's most radical quartets.",
+          "youtube_id": null,
+          "image": {
+            "src": "img/albert-ayler-1967.jpg",
+            "width": 643,
+            "height": 900,
+            "alt": "Albert Ayler, photographed for ABC Impulse! Records, 1967-68",
+            "credit_text": "Photo: Chuck Stewart. Public domain, via Wikimedia Commons",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Albert_Ayler_(1967%E2%80%9368_photo_portrait_for_ABC_Impulse!).jpg",
+            "license": "Public domain"
+          },
+          "internal_link": null,
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Copenhagen_Tapes" }
+        }
+      ]
+    },
+    {
+      "year": 1963,
+      "events": [
+        {
+          "category": "broadcast",
+          "headline": "The Beatles tape 19 songs in a single BBC marathon",
+          "summary_line_1": "The Beatles spent a full day at the BBC's Aeolian Hall recording three complete episodes of Pop Go the Beatles, taping 19 songs including She Loves You, I'll Get You, and a rare cover of Little Richard's Lucille.",
+          "summary_line_2": "The raw, high-volume session captured the band at full steam just months before Beatlemania broke internationally, with several tracks later surfacing on Live at the BBC.",
+          "youtube_id": null,
+          "image": {
+            "src": "img/beatles-1963.jpg",
+            "width": 900,
+            "height": 700,
+            "alt": "The Beatles pictured in 1963",
+            "credit_text": "Photo: Dezo Hoffmann. Public domain, via Wikimedia Commons",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_publicity_photo.jpg",
+            "license": "Public domain"
+          },
+          "internal_link": { "text": "The Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Pop_Go_the_Beatles" }
+        }
+      ]
+    },
+    {
+      "year": 1962,
+      "events": [
+        {
+          "category": "concert",
+          "headline": "The Beatles play Widnes for the first time",
+          "summary_line_1": "The Beatles made their first appearance in Widnes with a Monday night show at Queen's Hall, the first of five NEMS-promoted dates the band would play at the venue.",
+          "summary_line_2": "Ringo Starr, just weeks into the band as their permanent drummer, would join John, Paul, and George at Abbey Road the very next day to record Love Me Do for the first time with him behind the kit.",
+          "youtube_id": "RcKgBt-IPHQ",
+          "image": null,
+          "internal_link": { "text": "The Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": { "text": "setlist.fm", "url": "https://www.setlist.fm/setlist/the-beatles/1962/queens-hall-widnes-england-53cbaf41.html" }
+        }
+      ]
+    },
+    {
+      "year": 1961,
+      "events": [
+        {
+          "category": "concert",
+          "headline": "Judy Garland returns to Atlantic City for one night",
+          "summary_line_1": "Judy Garland played a single, sold-out concert at the Convention Hall Ballroom in Atlantic City, months after her legendary Judy at Carnegie Hall show that April.",
+          "summary_line_2": "Fans who couldn't get inside gathered in the parking lot to hear her sing Over the Rainbow drifting out from the hall, a testament to her drawing power during her early-1960s comeback.",
+          "youtube_id": null,
+          "image": {
+            "src": "img/judy-garland-1945.jpg",
+            "width": 467,
+            "height": 555,
+            "alt": "Judy Garland, MGM publicity photo",
+            "credit_text": "Photo: Eric Carpenter / MGM. Public domain, via Wikimedia Commons",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Judy_Garland_publicity_photo.jpg",
+            "license": "Public domain"
+          },
+          "internal_link": null,
+          "external_link": { "text": "The Judy Room", "url": "https://www.thejudyroom.com/judy-garland-the-concert-years-1960-1965/" }
+        }
+      ]
+    },
+    {
+      "year": 1960,
+      "events": [
+        {
+          "category": "broadcast",
+          "headline": "Patsy Cline sings on the Grand Ole Opry's Prince Albert segment",
+          "summary_line_1": "Patsy Cline, recently made an Opry member, sang There He Goes and Crazy Dreams on the Prince Albert segment of the Grand Ole Opry at the Ryman Auditorium, hosted by Jim Reeves alongside Chet Atkins, June Carter, and Floyd Cramer.",
+          "summary_line_2": "The tobacco-sponsored broadcast gave Cline a national radio platform just as her career was taking off.",
+          "youtube_id": null,
+          "image": {
+            "src": "img/patsy-cline-1957.jpg",
+            "width": 684,
+            "height": 900,
+            "alt": "Patsy Cline, promotional photograph, 1957",
+            "credit_text": "Public domain, via Wikimedia Commons",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Patsy_Cline_1957--Front.jpg",
+            "license": "Public domain"
+          },
+          "internal_link": null,
+          "external_link": { "text": "Country Music Hall of Fame", "url": "https://digi.countrymusichalloffame.org/digital/collection/musicaudio/id/1548/" }
+        }
+      ]
+    }
+  ]
+}
