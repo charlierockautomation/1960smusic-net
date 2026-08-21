@@ -135,6 +135,15 @@
       "description": "21 verified 1960s music events from September 2: Hendrix's most famous cover, Beatles and Stones history, chart-topping hits, and a Jodeci birth, each dated and sourced.",
       "date": "2026-08-21",
       "genre": null
+    },
+    {
+      "id": "on-this-day-september-3",
+      "title": "On This Day: September 3 in 1960s Music",
+      "slug": "/blog/on-this-day/september-3/",
+      "type": "on-this-day",
+      "description": "23 verified 1960s music events from September 3: Ringo Starr rejoins the Beatles, four different Beatles milestones across the decade, Dylan's electric Hollywood Bowl debut, and a Rolling Stones riot in Dublin, each dated and sourced.",
+      "date": "2026-08-21",
+      "genre": null
     }
   ]
 }
