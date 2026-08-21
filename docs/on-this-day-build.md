@@ -65,7 +65,7 @@ from the first date built, September 1).
 | # | Date | Page | Data file | Status |
 |---|------|------|-----------|--------|
 | 1 | September 1 | /blog/on-this-day/september-1/ | data/on-this-day/09-01.json | live |
-| 2 | September 2 | /blog/on-this-day/september-2/ | data/on-this-day/09-02.json | not started |
+| 2 | September 2 | /blog/on-this-day/september-2/ | data/on-this-day/09-02.json | live |
 | 3 | September 3 | /blog/on-this-day/september-3/ | data/on-this-day/09-03.json | not started |
 | 4 | September 4 | /blog/on-this-day/september-4/ | data/on-this-day/09-04.json | not started |
 | 5 | September 5 | /blog/on-this-day/september-5/ | data/on-this-day/09-05.json | not started |

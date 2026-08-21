@@ -23,4 +23,5 @@ from the site).
 | /blog/songs/all-day-and-all-of-the-night-kinks/ | song story | live | https://1960smusic.net/blog/songs/all-day-and-all-of-the-night-kinks/ | /blog/artists/the-kinks/, /blog/genres/british-invasion/, / (homepage) | none |
 | /blog/songs/sunny-afternoon-kinks/ | song story | live | https://1960smusic.net/blog/songs/sunny-afternoon-kinks/ | /blog/artists/the-kinks/, /blog/genres/british-invasion/, / (homepage) | none |
 | /blog/on-this-day/september-1/ | on this day | live | https://1960smusic.net/blog/on-this-day/september-1/ | /blog/on-this-day/, / (homepage) | /blog/artists/the-beatles/ |
+| /blog/on-this-day/september-2/ | on this day | live | https://1960smusic.net/blog/on-this-day/september-2/ | /blog/on-this-day/, / (homepage) | /blog/artists/the-beatles/, /blog/artists/the-rolling-stones/, /blog/on-this-day/september-1/ |
 | /blog/trending/rhythm-of-the-rain-cascades/ | trending | live | https://1960smusic.net/blog/trending/rhythm-of-the-rain-cascades/ | /blog/trending/, / (homepage) | /tools/quiz/, /tools/trivia/ |

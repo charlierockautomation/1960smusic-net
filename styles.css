@@ -535,8 +535,9 @@ h3{font-size:1.25rem;color:var(--ink-soft);}
 .otd-media{margin:.7em 0;}
 .otd-embed{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:8px;}
 .otd-embed iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0;}
-.otd-card figure{margin:.7em 0;text-align:center;}
-.otd-card figure img{display:block;max-width:100%;height:auto;margin:0 auto;border:1px solid var(--line);border-radius:8px;}
+.otd-card figure{margin:.7em 0;}
+.otd-card .otd-photo{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:8px;}
+.otd-card .otd-photo img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;margin:0;border:1px solid var(--line);border-radius:8px;}
 .otd-card figure figcaption{margin:6px auto 0;font-size:.72rem;line-height:1.4;color:#888;}
 .otd-card figure figcaption a{color:#888;}
 
