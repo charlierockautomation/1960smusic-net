@@ -9,8 +9,10 @@ Full rules: docs/writing-standard.md. Checks enforced here (2026-08-16):
   - table of contents present when body word count > 600
   - at least one <img> with non-empty alt text
   - at least one YouTube embed on song and artist pages
+  - at least one TikTok embed on trending pages
   - word count within range for the page type:
-      artist bio: 800-1200, song story: 600-900, genre hub: 1200-1800
+      artist bio: 800-1200, song story: 600-900, genre hub: 1200-1800,
+      trending: 400-700
   - no banned filler phrases / AI-cliche words
   - one sentence per line: no multi-sentence paragraph without a <br> break
   - 75%+ of sentences under 20 words
@@ -21,7 +23,7 @@ Full rules: docs/writing-standard.md. Checks enforced here (2026-08-16):
 
 Page type is read from the "PAGE:" line in the leading HTML comment block
 if present, else inferred from the path (/blog/artists/, /blog/songs/,
-/blog/genres/).
+/blog/genres/, /blog/trending/).
 """
 import re
 import sys
@@ -52,6 +54,7 @@ WORD_COUNT_RANGES = {
     "artist bio": (800, 1200),
     "song story": (600, 900),
     "genre hub": (1200, 1800),
+    "trending": (400, 700),
 }
 
 EM_DASH = "—"
@@ -72,6 +75,8 @@ def detect_type(text, path):
         return "song story"
     if "/blog/genres/" in norm:
         return "genre hub"
+    if "/blog/trending/" in norm:
+        return "trending"
     return None
 
 
@@ -165,6 +170,13 @@ def check_youtube(text, errors, page_type):
         return
     if "youtube.com/embed/" not in text and "youtube-nocookie.com/embed/" not in text:
         errors.append(f"no YouTube embed found (required on {page_type} pages)")
+
+
+def check_tiktok(text, errors, page_type):
+    if page_type != "trending":
+        return
+    if "tiktok.com/embed.js" not in text:
+        errors.append("no TikTok embed found (required on trending pages)")
 
 
 def check_word_count(wc, errors, page_type):
@@ -304,6 +316,7 @@ def check_file(path):
     check_toc(text, errors, wc)
     check_images(text, errors)
     check_youtube(text, errors, page_type)
+    check_tiktok(text, errors, page_type)
     check_word_count(wc, errors, page_type)
     check_banned_phrases(plain, errors)
     check_one_sentence_per_line(text, errors)

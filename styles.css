@@ -333,6 +333,7 @@ h3{font-size:1.25rem;color:var(--ink-soft);}
 .breadcrumb a:hover{color:var(--tube-glow);}
 .article-header h1{margin:.1em 0 .5em;}
 /* featured image: never overflow its container / the viewport */
+.tiktok-embed-wrap{margin:2rem auto;max-width:605px;text-align:center;}
 .featured-image{margin:0 0 1.8rem;text-align:center;}
 .featured-image img{display:block;max-width:100%;height:auto;margin:0 auto;border:1px solid var(--line);border-radius:10px;}
 .featured-image figcaption{margin:8px auto 0;max-width:640px;font-size:12px;line-height:1.5;color:#888;text-align:center;}

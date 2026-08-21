@@ -99,14 +99,58 @@ the draft gets written:
 - No hallucination: an unverifiable date, quote, or stat gets left out
   of the article, not guessed at or smoothed over.
 
+## Trending posts (additional structure)
+
+Applies to `/blog/trending/` on top of everything above. Word count
+target: 400-700 words (`gen/check_article.py` enforces this range for
+the `trending` type).
+
+- Fixed order is the same as the base Structure section, with the
+  YouTube-embed slot replaced: H1, intro/lead, featured image, Table
+  of Contents, then the body sections, one of which is a "why it's
+  trending now" module placed wherever it's contextually relevant
+  (not forced right after the TOC).
+- The "why it's trending now" module explains the actual resurgence
+  (a TikTok clip, a sync placement, a streaming spike) and embeds it
+  live where possible. For a TikTok source, use TikTok's own oEmbed
+  markup: the `blockquote class="tiktok-embed"` with
+  `data-video-id`, plus `<script async src="https://www.tiktok.com/embed.js">`.
+  Confirm the embed actually renders (screenshot a local preview,
+  don't assume from the markup alone) before calling the page done.
+- If the source clip is tagged as containing AI-generated media (a
+  stylized image, not archival footage), say so briefly and
+  factually in the trending module. State it as fact, not as a
+  disclaimer that undercuts the post, one or two sentences is enough.
+- Feature image is a real photo, never AI-generated, regardless of
+  what the viral source clip itself uses. Sourcing order: a
+  freely-licensed photo of the artist/band (Wikimedia Commons first)
+  > editorial-context single/album cover art (same convention
+  `docs/on-this-day-sources.md` already uses for release-type events)
+  > non-person, period-appropriate stock imagery. Note which tier was
+  used.
+- Schema: Article + FAQPage + BreadcrumbList always; add
+  MusicRecording (song-focused) or MusicGroup (artist-focused)
+  depending on the post's subject, matching the base Structure
+  section's schema rule. Add a VideoObject block for an embedded
+  clip when the source and its metadata (name, description,
+  thumbnail, embed URL) are confirmed, never with a guessed
+  `uploadDate` or other unverified field, omit fields that can't be
+  verified rather than invent them.
+- Internal linking follows the base 3-5 links-in-body rule, but don't
+  force a link to an unrelated genre hub or artist page just because
+  one happens to exist. If nothing in `link-map.md` legitimately
+  connects to the post's subject, link to general site pages instead
+  (homepage, `/blog/trending/`, a relevant tool) rather than manufacture
+  a fit.
+
 ## What check_article.py can and can't enforce
 
 Mechanically checked: word count by type, TOC presence, image + alt
-text, YouTube embed on song/artist pages, banned words, one-sentence-
-per-line, em dashes, unfilled template placeholders, FAQ count (not
-answer length), sentence-length distribution, keyword density and its
-required placements (title, meta, first 100 words, H2/H3, never
-consecutive sentences).
+text, YouTube embed on song/artist pages, TikTok embed on trending
+pages, banned words, one-sentence-per-line, em dashes, unfilled
+template placeholders, FAQ count (not answer length), sentence-length
+distribution, keyword density and its required placements (title,
+meta, first 100 words, H2/H3, never consecutive sentences).
 
 Not mechanically checked, judgment calls made while writing: whether a
 3+ item list is really a list vs. a run-on sentence, whether PAA
