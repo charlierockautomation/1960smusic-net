@@ -13,6 +13,7 @@ from the site).
 | /blog/genres/british-invasion/ | genre hub | live | https://1960smusic.net/blog/genres/british-invasion/ | / (homepage) | /tools/trivia/ |
 | /blog/genres/motown-soul/ | genre hub | live | https://1960smusic.net/blog/genres/motown-soul/ | / (homepage) | /tools/quiz/, /tools/trivia/ |
 | /blog/genres/folk-rock/ | genre hub | live | https://1960smusic.net/blog/genres/folk-rock/ | / (homepage) | /tools/quiz/, /tools/trivia/ |
+| /blog/genres/psychedelic-rock/ | genre hub | live | https://1960smusic.net/blog/genres/psychedelic-rock/ | / (homepage) | /blog/artists/the-beatles/, /blog/genres/british-invasion/, /blog/genres/folk-rock/, /tools/quiz/, /tools/trivia/ |
 | /blog/artists/the-beatles/ | artist bio | live | https://1960smusic.net/blog/artists/the-beatles/ | /blog/genres/british-invasion/, / (homepage) | /blog/songs/she-loves-you-beatles/, /blog/songs/i-want-to-hold-your-hand-beatles/, /blog/songs/please-please-me-beatles/ |
 | /blog/songs/she-loves-you-beatles/ | song story | live | https://1960smusic.net/blog/songs/she-loves-you-beatles/ | /blog/artists/the-beatles/, /blog/genres/british-invasion/, / (homepage) | /tools/trivia/ |
 | /blog/songs/i-want-to-hold-your-hand-beatles/ | song story | live | https://1960smusic.net/blog/songs/i-want-to-hold-your-hand-beatles/ | /blog/artists/the-beatles/, /blog/genres/british-invasion/, / (homepage) | /blog/songs/she-loves-you-beatles/ |

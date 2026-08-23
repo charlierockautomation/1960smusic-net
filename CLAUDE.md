@@ -99,7 +99,8 @@ should link to exists.
 A genre hub is "eligible" for linking once it is live. Eligible hubs
 currently: **British Invasion** (`/blog/genres/british-invasion/`),
 **Motown, Soul & R&B** (`/blog/genres/motown-soul/`), **Folk Rock**
-(`/blog/genres/folk-rock/`).
+(`/blog/genres/folk-rock/`), **Psychedelic Rock**
+(`/blog/genres/psychedelic-rock/`).
 
 - Any artist bio or song story whose genre matches a live hub links up to
   that hub (see existing convention in `link-map.md`).

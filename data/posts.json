@@ -29,6 +29,15 @@
       "genre": "folk-rock"
     },
     {
+      "id": "psychedelic-rock",
+      "title": "Psychedelic Rock: How LSD and Feedback Changed 1960s Music",
+      "slug": "/blog/genres/psychedelic-rock/",
+      "type": "genre-hub",
+      "description": "How San Francisco acid rock and British studio experimentation reshaped 1960s music between 1965 and 1969.",
+      "date": "2026-08-23",
+      "genre": "psychedelic-rock"
+    },
+    {
       "id": "the-beatles",
       "title": "The Beatles: The Liverpool Band That Changed Music Forever",
       "slug": "/blog/artists/the-beatles/",

@@ -46,23 +46,28 @@ Live rows (1-12) moved to [`docs/content-build-archive.md`](content-build-archiv
 | # | Title | Slug | Type | Genre | Status | Focus Keyword | YouTube ID | Flag |
 |---|-------|------|------|-------|--------|----------------|------------|------|
 | 13 | Waterloo Sunset | /blog/songs/waterloo-sunset-kinks/ | song-story | british-invasion | live | Waterloo Sunset | N_MqfF0WBsU | |
-| 14 | The Who bio | /blog/artists/the-who/ | artist-bio | british-invasion | not started | The Who | qN5zw04WxCc | yt |
-| 15 | My Generation | /blog/songs/my-generation-who/ | song-story | british-invasion | not started | My Generation | qN5zw04WxCc | yt |
-| 16 | The Animals bio | /blog/artists/the-animals/ | artist-bio | british-invasion | not started | The Animals | N4bFqW_eu2I | yt |
-| 17 | House of the Rising Sun | /blog/songs/house-of-the-rising-sun-animals/ | song-story | british-invasion | not started | House of the Rising Sun | N4bFqW_eu2I | yt |
-| 18 | The Yardbirds bio | /blog/artists/the-yardbirds/ | artist-bio | british-invasion | not started | The Yardbirds | yKI7c9x2lbM | |
-| 19 | For Your Love | /blog/songs/for-your-love-yardbirds/ | song-story | british-invasion | not started | For Your Love | yKI7c9x2lbM | |
-| 20 | Heart Full of Soul | /blog/songs/heart-full-of-soul-yardbirds/ | song-story | british-invasion | not started | Heart Full of Soul | pM1qZBFiOLU | yt |
-| 21 | Over Under Sideways Down | /blog/songs/over-under-sideways-down-yardbirds/ | song-story | british-invasion | not started | Over Under Sideways Down | OUIbVrev-yk | |
-| 22 | The Dave Clark Five bio | /blog/artists/the-dave-clark-five/ | artist-bio | british-invasion | not started | The Dave Clark Five | NHtNFaa2ne0 | yt |
-| 23 | Glad All Over | /blog/songs/glad-all-over-dave-clark-five/ | song-story | british-invasion | not started | Glad All Over | NHtNFaa2ne0 | yt |
-| 24 | Bits and Pieces | /blog/songs/bits-and-pieces-dave-clark-five/ | song-story | british-invasion | not started | Bits and Pieces | SzTQduUZFY8 | |
-| 25 | Because | /blog/songs/because-dave-clark-five/ | song-story | british-invasion | not started | Because (The Dave Clark Five) | QpKWpUJybng | yt |
-| 26 | Herman's Hermits bio | /blog/artists/hermanns-hermits/ | artist-bio | british-invasion | not started | Herman's Hermits | IOfs8U_3NQk | yt |
-| 27 | Mrs. Brown You've Got a Lovely Daughter | /blog/songs/mrs-brown-youve-got-a-lovely-daughter-hermanns-hermits/ | song-story | british-invasion | not started | Mrs. Brown You've Got a Lovely Daughter | IOfs8U_3NQk | yt |
-| 28 | I'm Henry the VIII, I Am | /blog/songs/im-henry-the-viii-i-am-hermanns-hermits/ | song-story | british-invasion | not started | I'm Henry the VIII, I Am | FFNoDsOmluA | yt |
-| 29 | The Searchers bio | /blog/artists/the-searchers/ | artist-bio | british-invasion | not started | The Searchers | ugDXpdjmpgw | yt |
-| 30 | Needles and Pins | /blog/songs/needles-and-pins-searchers/ | song-story | british-invasion | not started | Needles and Pins | ugDXpdjmpgw | yt |
+| 14 | Psychedelic Rock hub | /blog/genres/psychedelic-rock/ | genre-hub | psychedelic-rock | live | Psychedelic Rock | qoX6AKuYWL8 | |
+| 15 | Garage & Surf Rock hub | /blog/genres/garage-surf-rock/ | genre-hub | garage-surf-rock | not started | Garage Rock | enlOHxQ0tb4 | |
+| 16 | Country (Nashville Sound & Bakersfield) hub | /blog/genres/country-60s/ | genre-hub | country-60s | not started | 1960s Country Music | 1WaV2x8GXj0 | |
+| 17 | Pop & Brill Building hub | /blog/genres/pop-brill-building/ | genre-hub | pop-brill-building | not started | Brill Building Pop | 5tpxXDILZHs | yt |
+| 18 | Jazz & Easy Listening hub | /blog/genres/jazz-easy-listening/ | genre-hub | jazz-easy-listening | not started | Easy Listening 1960s | JYuyWrkwpok | |
+| 19 | The Who bio | /blog/artists/the-who/ | artist-bio | british-invasion | not started | The Who | qN5zw04WxCc | yt |
+| 20 | My Generation | /blog/songs/my-generation-who/ | song-story | british-invasion | not started | My Generation | qN5zw04WxCc | yt |
+| 21 | The Animals bio | /blog/artists/the-animals/ | artist-bio | british-invasion | not started | The Animals | N4bFqW_eu2I | yt |
+| 22 | House of the Rising Sun | /blog/songs/house-of-the-rising-sun-animals/ | song-story | british-invasion | not started | House of the Rising Sun | N4bFqW_eu2I | yt |
+| 23 | The Yardbirds bio | /blog/artists/the-yardbirds/ | artist-bio | british-invasion | not started | The Yardbirds | yKI7c9x2lbM | |
+| 24 | For Your Love | /blog/songs/for-your-love-yardbirds/ | song-story | british-invasion | not started | For Your Love | yKI7c9x2lbM | |
+| 25 | Heart Full of Soul | /blog/songs/heart-full-of-soul-yardbirds/ | song-story | british-invasion | not started | Heart Full of Soul | pM1qZBFiOLU | yt |
+| 26 | Over Under Sideways Down | /blog/songs/over-under-sideways-down-yardbirds/ | song-story | british-invasion | not started | Over Under Sideways Down | OUIbVrev-yk | |
+| 27 | The Dave Clark Five bio | /blog/artists/the-dave-clark-five/ | artist-bio | british-invasion | not started | The Dave Clark Five | NHtNFaa2ne0 | yt |
+| 28 | Glad All Over | /blog/songs/glad-all-over-dave-clark-five/ | song-story | british-invasion | not started | Glad All Over | NHtNFaa2ne0 | yt |
+| 29 | Bits and Pieces | /blog/songs/bits-and-pieces-dave-clark-five/ | song-story | british-invasion | not started | Bits and Pieces | SzTQduUZFY8 | |
+| 30 | Because | /blog/songs/because-dave-clark-five/ | song-story | british-invasion | not started | Because (The Dave Clark Five) | QpKWpUJybng | yt |
+| 31 | Herman's Hermits bio | /blog/artists/hermanns-hermits/ | artist-bio | british-invasion | not started | Herman's Hermits | IOfs8U_3NQk | yt |
+| 32 | Mrs. Brown You've Got a Lovely Daughter | /blog/songs/mrs-brown-youve-got-a-lovely-daughter-hermanns-hermits/ | song-story | british-invasion | not started | Mrs. Brown You've Got a Lovely Daughter | IOfs8U_3NQk | yt |
+| 33 | I'm Henry the VIII, I Am | /blog/songs/im-henry-the-viii-i-am-hermanns-hermits/ | song-story | british-invasion | not started | I'm Henry the VIII, I Am | FFNoDsOmluA | yt |
+| 34 | The Searchers bio | /blog/artists/the-searchers/ | artist-bio | british-invasion | not started | The Searchers | ugDXpdjmpgw | yt |
+| 35 | Needles and Pins | /blog/songs/needles-and-pins-searchers/ | song-story | british-invasion | not started | Needles and Pins | ugDXpdjmpgw | yt |
 
 Artist-bio YouTube IDs are the artist's first `notable_song_ids` entry in
 `data/artists.json` (same convention used for The Beatles bio, which
