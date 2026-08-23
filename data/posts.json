@@ -20,6 +20,15 @@
       "genre": "motown-soul"
     },
     {
+      "id": "folk-rock",
+      "title": "Folk Rock: How Bob Dylan and The Byrds Changed 1960s Music",
+      "slug": "/blog/genres/folk-rock/",
+      "type": "genre-hub",
+      "description": "How Bob Dylan going electric and The Byrds' jangly cover of Mr. Tambourine Man built one of the decade's most literate, most political sounds.",
+      "date": "2026-08-23",
+      "genre": "folk-rock"
+    },
+    {
       "id": "the-beatles",
       "title": "The Beatles: The Liverpool Band That Changed Music Forever",
       "slug": "/blog/artists/the-beatles/",
