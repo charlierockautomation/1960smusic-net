@@ -82,6 +82,56 @@ queue, not ad hoc requests.
    updated, not before) and commit/push the new `sitemap.xml` alongside the
    tracker updates. Only then move to the next queue row.
 
+## Content Quality & Site-Strengthening Standard
+
+Every new page must clear `gen/check_article.py` (formatting/structure) and
+`docs/writing-standard.md` (competitive research, density, prose rules) in
+full, no exceptions and no partial passes committed. Beyond that bar, prefer
+work that strengthens the existing site over net-new isolated pages: add
+internal links where a genuine connection exists (see Genre Hub Linking
+below), keep trackers (`link-map.md`, `docs/content-build.md`,
+`data/posts.json`) accurate the same session a page goes live, and don't
+leave a page orphaned (unlinked from any hub or bio) once something it
+should link to exists.
+
+## Genre Hub Linking
+
+A genre hub is "eligible" for linking once it is live. Eligible hubs
+currently: **British Invasion** (`/blog/genres/british-invasion/`),
+**Motown, Soul & R&B** (`/blog/genres/motown-soul/`).
+
+- Any artist bio or song story whose genre matches a live hub links up to
+  that hub (see existing convention in `link-map.md`).
+- The moment a new hub goes live, add it to this list in the same commit —
+  don't batch several hubs and update the list once at the end.
+- Once a hub is added here it's eligible for linking from all live content
+  in that genre, not just pages written after the hub shipped — if an
+  already-live article's genre matches a newly-added hub and doesn't yet
+  link to it, that's a gap worth closing, not something grandfathered in.
+
+## Content Rotation
+
+New rows added to `docs/content-build.md` should round-robin across the 8
+genres in `data/genres.json` rather than stacking many rows of one genre
+back to back, so no single genre gets fully built out while others sit
+untouched. This governs how *future* rows get queued, it does not mandate
+reordering rows already locked into the active queue.
+
+## File Size Ceiling
+
+Tracker/doc files in `docs/` stay under 199 lines. When a file crosses
+that line, split it into an active file (what's in progress/next) and an
+archive or overflow file (done, or paginated-out future rows), the way
+`docs/content-build.md` / `docs/content-build-archive.md` and
+`docs/on-this-day-build.md` / `docs/on-this-day-build-queued.md` already
+do. Update the file's own header to say what got split out and where.
+
+## On This Day Pace
+
+Minimum one On This Day date page live per day once the series is in
+active production. `docs/on-this-day-build.md` is the active queue for
+this series (see its own header for the current workflow).
+
 ## Trending Posts
 
 `/blog/trending/` covers 1960s songs/artists resurging in modern
