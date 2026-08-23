@@ -45,7 +45,7 @@ Live rows (1-12) moved to [`docs/content-build-archive.md`](content-build-archiv
 
 | # | Title | Slug | Type | Genre | Status | Focus Keyword | YouTube ID | Flag |
 |---|-------|------|------|-------|--------|----------------|------------|------|
-| 13 | Waterloo Sunset | /blog/songs/waterloo-sunset-kinks/ | song-story | british-invasion | not started | Waterloo Sunset | N_MqfF0WBsU | |
+| 13 | Waterloo Sunset | /blog/songs/waterloo-sunset-kinks/ | song-story | british-invasion | drafted | Waterloo Sunset | N_MqfF0WBsU | |
 | 14 | The Who bio | /blog/artists/the-who/ | artist-bio | british-invasion | not started | The Who | qN5zw04WxCc | yt |
 | 15 | My Generation | /blog/songs/my-generation-who/ | song-story | british-invasion | not started | My Generation | qN5zw04WxCc | yt |
 | 16 | The Animals bio | /blog/artists/the-animals/ | artist-bio | british-invasion | not started | The Animals | N4bFqW_eu2I | yt |
