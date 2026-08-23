@@ -11,6 +11,15 @@
       "genre": "british-invasion"
     },
     {
+      "id": "motown-soul",
+      "title": "Motown Music: How Detroit's Hit Factory Ruled the Charts",
+      "slug": "/blog/genres/motown-soul/",
+      "type": "genre-hub",
+      "description": "How Berry Gordy's Detroit hit factory and its Southern soul rivals built the sound that crossed over America's pop charts.",
+      "date": "2026-08-23",
+      "genre": "motown-soul"
+    },
+    {
       "id": "the-beatles",
       "title": "The Beatles: The Liverpool Band That Changed Music Forever",
       "slug": "/blog/artists/the-beatles/",
