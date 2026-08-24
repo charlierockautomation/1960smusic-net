@@ -48,7 +48,7 @@ Live rows (1-12) moved to [`docs/content-build-archive.md`](content-build-archiv
 | 13 | Waterloo Sunset | /blog/songs/waterloo-sunset-kinks/ | song-story | british-invasion | live | Waterloo Sunset | N_MqfF0WBsU | |
 | 14 | Psychedelic Rock hub | /blog/genres/psychedelic-rock/ | genre-hub | psychedelic-rock | live | Psychedelic Rock | qoX6AKuYWL8 | |
 | 15 | Garage & Surf Rock hub | /blog/genres/garage-surf-rock/ | genre-hub | garage-surf-rock | live | Garage Rock | enlOHxQ0tb4 | |
-| 16 | Country (Nashville Sound & Bakersfield) hub | /blog/genres/country-60s/ | genre-hub | country-60s | not started | 1960s Country Music | 1WaV2x8GXj0 | |
+| 16 | Country (Nashville Sound & Bakersfield) hub | /blog/genres/country-60s/ | genre-hub | country-60s | drafted | 1960s Country Music | 1WaV2x8GXj0 | |
 | 17 | Pop & Brill Building hub | /blog/genres/pop-brill-building/ | genre-hub | pop-brill-building | not started | Brill Building Pop | 5tpxXDILZHs | yt |
 | 18 | Jazz & Easy Listening hub | /blog/genres/jazz-easy-listening/ | genre-hub | jazz-easy-listening | not started | Easy Listening 1960s | JYuyWrkwpok | |
 | 19 | The Who bio | /blog/artists/the-who/ | artist-bio | british-invasion | not started | The Who | qN5zw04WxCc | yt |
