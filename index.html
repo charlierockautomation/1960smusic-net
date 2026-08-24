@@ -296,7 +296,7 @@ function renderGenres(genres){
     '</a></li>';
   }).join('');
   // grid (check which hubs are live)
-  var liveHubs = {'british-invasion': true, 'motown-soul': true, 'folk-rock': true, 'psychedelic-rock': true, 'garage-surf-rock': true, 'country-60s': true, 'pop-brill-building': true};
+  var liveHubs = {'british-invasion': true, 'motown-soul': true, 'folk-rock': true, 'psychedelic-rock': true, 'garage-surf-rock': true, 'country-60s': true, 'pop-brill-building': true, 'jazz-easy-listening': true};
   document.getElementById('genre-grid').innerHTML = ordered.map(function(g){
     var f = GENRE_FREQ[g.id] || '';
     var isLive = liveHubs[g.id];
