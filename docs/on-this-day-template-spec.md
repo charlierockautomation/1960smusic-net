@@ -70,7 +70,9 @@ Only ONE of `youtube_id` / `image` populated per event, video wins if both are l
 6. **Closing internal links** — "More On This Day" row linking to 2-3 adjacent/related dates once they exist (skip if this is the first page live).
 
 ## SCHEMA
-- `Event` objects for each entry, wrapped in `ItemList`
+- `CreativeWork` objects for each entry, wrapped in `ItemList` (not `Event`,
+  GSC flags Event items missing required `location`; these are historical,
+  not upcoming ticketed events, so CreativeWork avoids that check entirely)
 - `FAQPage` for the FAQ block
 - `BreadcrumbList` (Home > Blog > On This Day > September 1)
 

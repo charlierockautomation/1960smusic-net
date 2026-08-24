@@ -56,7 +56,7 @@ How to use:
 <meta name="theme-color" content="#3D2B1F">
 <link rel="stylesheet" href="/styles.css">
 
-<!-- ItemList of Event objects, one entry per event, all years -->
+<!-- ItemList of CreativeWork objects, one entry per event, all years (not Event: GSC flags Event items missing required location) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,7 +66,7 @@ How to use:
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@type": "Event",
+        "@type": "CreativeWork",
         "name": "{{EVENT_HEADLINE}}",
         "startDate": "{{YYYY}}-{{MM}}-{{DD}}",
         "description": "{{EVENT_SUMMARY_LINE_1}} {{EVENT_SUMMARY_LINE_2}}"
