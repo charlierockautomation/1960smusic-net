@@ -198,6 +198,15 @@
       "description": "1960s country music split into two rival camps: Nashville's polished strings and Bakersfield's twangy honky-tonk. Meet the sounds, artists, and hits.",
       "date": "2026-08-24",
       "genre": "country-60s"
+    },
+    {
+      "id": "pop-brill-building",
+      "title": "Brill Building Pop: The 1960s Hit Factory Explained",
+      "slug": "/blog/genres/pop-brill-building/",
+      "type": "genre-hub",
+      "description": "Brill Building Pop ruled early 1960s radio from one crowded Manhattan office, pairing songwriting teams like Goffin-King with girl groups and teen idols.",
+      "date": "2026-08-24",
+      "genre": "pop-brill-building"
     }
   ]
 }

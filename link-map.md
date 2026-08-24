@@ -32,3 +32,4 @@ from the site).
 | /blog/on-this-day/september-3/ | on this day | live | https://1960smusic.net/blog/on-this-day/september-3/ | /blog/on-this-day/, / (homepage) | /blog/artists/the-beatles/, /blog/artists/the-rolling-stones/, /blog/on-this-day/september-1/, /blog/on-this-day/september-2/ |
 | /blog/trending/rhythm-of-the-rain-cascades/ | trending | live | https://1960smusic.net/blog/trending/rhythm-of-the-rain-cascades/ | /blog/trending/, / (homepage) | /tools/quiz/, /tools/trivia/ |
 | /blog/genres/country-60s/ | genre hub | live | https://1960smusic.net/blog/genres/country-60s/ | / (homepage) | /tools/quiz/, /tools/trivia/ |
+| /blog/genres/pop-brill-building/ | genre hub | live | https://1960smusic.net/blog/genres/pop-brill-building/ | / (homepage) | /blog/genres/british-invasion/, /tools/quiz/, /tools/trivia/ |
