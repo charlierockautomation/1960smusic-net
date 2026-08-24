@@ -38,6 +38,15 @@
       "genre": "psychedelic-rock"
     },
     {
+      "id": "garage-surf-rock",
+      "title": "Garage Rock: The Raw, Fuzzed-Out Sound of 1960s America",
+      "slug": "/blog/genres/garage-surf-rock/",
+      "type": "genre-hub",
+      "description": "Garage rock explained: how fuzz guitars, cheap organs, and teenage garages built the raw sound of 1960s America, from Louie Louie to the Nuggets revival.",
+      "date": "2026-08-24",
+      "genre": "garage-surf-rock"
+    },
+    {
       "id": "the-beatles",
       "title": "The Beatles: The Liverpool Band That Changed Music Forever",
       "slug": "/blog/artists/the-beatles/",
