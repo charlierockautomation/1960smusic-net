@@ -33,3 +33,4 @@ from the site).
 | /blog/trending/rhythm-of-the-rain-cascades/ | trending | live | https://1960smusic.net/blog/trending/rhythm-of-the-rain-cascades/ | /blog/trending/, / (homepage) | /tools/quiz/, /tools/trivia/ |
 | /blog/genres/country-60s/ | genre hub | live | https://1960smusic.net/blog/genres/country-60s/ | / (homepage) | /tools/quiz/, /tools/trivia/ |
 | /blog/genres/pop-brill-building/ | genre hub | live | https://1960smusic.net/blog/genres/pop-brill-building/ | / (homepage) | /blog/genres/british-invasion/, /tools/quiz/, /tools/trivia/ |
+| /blog/genres/jazz-easy-listening/ | genre hub | live | https://1960smusic.net/blog/genres/jazz-easy-listening/ | / (homepage) | /blog/genres/pop-brill-building/, /blog/genres/british-invasion/, /tools/quiz/, /tools/trivia/ |

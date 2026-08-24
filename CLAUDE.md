@@ -103,7 +103,8 @@ currently: **British Invasion** (`/blog/genres/british-invasion/`),
 (`/blog/genres/psychedelic-rock/`), **Garage & Surf Rock**
 (`/blog/genres/garage-surf-rock/`), **Country (Nashville Sound &
 Bakersfield)** (`/blog/genres/country-60s/`), **Pop & Brill Building**
-(`/blog/genres/pop-brill-building/`).
+(`/blog/genres/pop-brill-building/`), **Jazz & Easy Listening**
+(`/blog/genres/jazz-easy-listening/`).
 
 - Any artist bio or song story whose genre matches a live hub links up to
   that hub (see existing convention in `link-map.md`).

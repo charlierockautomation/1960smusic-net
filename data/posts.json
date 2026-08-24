@@ -207,6 +207,15 @@
       "description": "Brill Building Pop ruled early 1960s radio from one crowded Manhattan office, pairing songwriting teams like Goffin-King with girl groups and teen idols.",
       "date": "2026-08-24",
       "genre": "pop-brill-building"
+    },
+    {
+      "id": "jazz-easy-listening",
+      "title": "1960s Easy Listening Music: The Complete Genre Guide",
+      "slug": "/blog/genres/jazz-easy-listening/",
+      "type": "genre-hub",
+      "description": "1960s easy listening music paired crooners and orchestras with the bossa nova craze and Oscar-winning film themes, from Sinatra to Astrud Gilberto.",
+      "date": "2026-08-24",
+      "genre": "jazz-easy-listening"
     }
   ]
 }
