@@ -50,7 +50,7 @@ Live rows (1-12) moved to [`docs/content-build-archive.md`](content-build-archiv
 | 15 | Garage & Surf Rock hub | /blog/genres/garage-surf-rock/ | genre-hub | garage-surf-rock | live | Garage Rock | enlOHxQ0tb4 | |
 | 16 | Country (Nashville Sound & Bakersfield) hub | /blog/genres/country-60s/ | genre-hub | country-60s | live | 1960s Country Music | 1WaV2x8GXj0 | |
 | 17 | Pop & Brill Building hub | /blog/genres/pop-brill-building/ | genre-hub | pop-brill-building | live | Brill Building Pop | 4PQAqprjOuA | |
-| 18 | Jazz & Easy Listening hub | /blog/genres/jazz-easy-listening/ | genre-hub | jazz-easy-listening | not started | Easy Listening 1960s | JYuyWrkwpok | |
+| 18 | Jazz & Easy Listening hub | /blog/genres/jazz-easy-listening/ | genre-hub | jazz-easy-listening | drafted | 1960s easy listening music | JYuyWrkwpok | |
 | 19 | The Who bio | /blog/artists/the-who/ | artist-bio | british-invasion | not started | The Who | qN5zw04WxCc | yt |
 | 20 | My Generation | /blog/songs/my-generation-who/ | song-story | british-invasion | not started | My Generation | qN5zw04WxCc | yt |
 | 21 | The Animals bio | /blog/artists/the-animals/ | artist-bio | british-invasion | not started | The Animals | N4bFqW_eu2I | yt |
