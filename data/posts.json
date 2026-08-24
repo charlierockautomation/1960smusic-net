@@ -189,6 +189,15 @@
       "description": "23 verified 1960s music events from September 3: Ringo Starr rejoins the Beatles, four different Beatles milestones across the decade, Dylan's electric Hollywood Bowl debut, and a Rolling Stones riot in Dublin, each dated and sourced.",
       "date": "2026-08-21",
       "genre": null
+    },
+    {
+      "id": "country-60s",
+      "title": "1960s Country Music: Nashville Sound vs. Bakersfield Sound",
+      "slug": "/blog/genres/country-60s/",
+      "type": "genre-hub",
+      "description": "1960s country music split into two rival camps: Nashville's polished strings and Bakersfield's twangy honky-tonk. Meet the sounds, artists, and hits.",
+      "date": "2026-08-24",
+      "genre": "country-60s"
     }
   ]
 }

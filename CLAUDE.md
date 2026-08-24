@@ -101,7 +101,8 @@ currently: **British Invasion** (`/blog/genres/british-invasion/`),
 **Motown, Soul & R&B** (`/blog/genres/motown-soul/`), **Folk Rock**
 (`/blog/genres/folk-rock/`), **Psychedelic Rock**
 (`/blog/genres/psychedelic-rock/`), **Garage & Surf Rock**
-(`/blog/genres/garage-surf-rock/`).
+(`/blog/genres/garage-surf-rock/`), **Country (Nashville Sound &
+Bakersfield)** (`/blog/genres/country-60s/`).
 
 - Any artist bio or song story whose genre matches a live hub links up to
   that hub (see existing convention in `link-map.md`).
