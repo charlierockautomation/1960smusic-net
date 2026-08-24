@@ -216,6 +216,15 @@
       "description": "1960s easy listening music paired crooners and orchestras with the bossa nova craze and Oscar-winning film themes, from Sinatra to Astrud Gilberto.",
       "date": "2026-08-24",
       "genre": "jazz-easy-listening"
+    },
+    {
+      "id": "the-who",
+      "title": "The Who: How a Smashed Guitar Became a Rock Signature",
+      "slug": "/blog/artists/the-who/",
+      "type": "artist-bio",
+      "description": "The Who turned a broken guitar and an onstage explosion into rock history, then reinvented the album with Tommy and Who's Next.",
+      "date": "2026-08-24",
+      "genre": "british-invasion"
     }
   ]
 }
