@@ -225,6 +225,15 @@
       "description": "The Who turned a broken guitar and an onstage explosion into rock history, then reinvented the album with Tommy and Who's Next.",
       "date": "2026-08-24",
       "genre": "british-invasion"
+    },
+    {
+      "id": "my-generation-who",
+      "title": "My Generation by The Who: The Song Behind the Stutter",
+      "slug": "/blog/songs/my-generation-who/",
+      "type": "song-story",
+      "description": "My Generation by The Who: the true story of Pete Townshend's train-ride lyric, Roger Daltrey's stutter, and John Entwistle's landmark bass solo.",
+      "date": "2026-08-24",
+      "genre": "british-invasion"
     }
   ]
 }

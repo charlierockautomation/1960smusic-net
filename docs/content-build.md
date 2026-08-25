@@ -52,7 +52,7 @@ Live rows (1-12) moved to [`docs/content-build-archive.md`](content-build-archiv
 | 17 | Pop & Brill Building hub | /blog/genres/pop-brill-building/ | genre-hub | pop-brill-building | live | Brill Building Pop | 4PQAqprjOuA | |
 | 18 | Jazz & Easy Listening hub | /blog/genres/jazz-easy-listening/ | genre-hub | jazz-easy-listening | live | 1960s easy listening music | JYuyWrkwpok | |
 | 19 | The Who bio | /blog/artists/the-who/ | artist-bio | british-invasion | live | The Who | nMREjRFJkfM | |
-| 20 | My Generation | /blog/songs/my-generation-who/ | song-story | british-invasion | not started | My Generation | qN5zw04WxCc | yt |
+| 20 | My Generation | /blog/songs/my-generation-who/ | song-story | british-invasion | live | My Generation by The Who | nMREjRFJkfM | |
 | 21 | The Animals bio | /blog/artists/the-animals/ | artist-bio | british-invasion | not started | The Animals | N4bFqW_eu2I | yt |
 | 22 | House of the Rising Sun | /blog/songs/house-of-the-rising-sun-animals/ | song-story | british-invasion | not started | House of the Rising Sun | N4bFqW_eu2I | yt |
 | 23 | The Yardbirds bio | /blog/artists/the-yardbirds/ | artist-bio | british-invasion | not started | The Yardbirds | yKI7c9x2lbM | |

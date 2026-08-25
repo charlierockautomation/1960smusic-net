@@ -35,3 +35,4 @@ from the site).
 | /blog/genres/pop-brill-building/ | genre hub | live | https://1960smusic.net/blog/genres/pop-brill-building/ | / (homepage) | /blog/genres/british-invasion/, /tools/quiz/, /tools/trivia/ |
 | /blog/genres/jazz-easy-listening/ | genre hub | live | https://1960smusic.net/blog/genres/jazz-easy-listening/ | / (homepage) | /blog/genres/pop-brill-building/, /blog/genres/british-invasion/, /tools/quiz/, /tools/trivia/ |
 | /blog/artists/the-who/ | artist bio | live | https://1960smusic.net/blog/artists/the-who/ | /blog/genres/british-invasion/, / (homepage) | /blog/artists/the-rolling-stones/, /blog/artists/the-kinks/ |
+| /blog/songs/my-generation-who/ | song story | live | https://1960smusic.net/blog/songs/my-generation-who/ | /blog/artists/the-who/, /blog/genres/british-invasion/, / (homepage) | /blog/artists/the-rolling-stones/, /blog/artists/the-kinks/ |
