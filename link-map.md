@@ -10,11 +10,11 @@ from the site).
 
 | Page | Type | Status | Live URL | Links up to | Links across to |
 |------|------|--------|----------|-------------|------------------|
-| /blog/genres/british-invasion/ | genre hub | live | https://1960smusic.net/blog/genres/british-invasion/ | / (homepage) | /tools/trivia/ |
-| /blog/genres/motown-soul/ | genre hub | live | https://1960smusic.net/blog/genres/motown-soul/ | / (homepage) | /tools/quiz/, /tools/trivia/ |
-| /blog/genres/folk-rock/ | genre hub | live | https://1960smusic.net/blog/genres/folk-rock/ | / (homepage) | /tools/quiz/, /tools/trivia/ |
-| /blog/genres/psychedelic-rock/ | genre hub | live | https://1960smusic.net/blog/genres/psychedelic-rock/ | / (homepage) | /blog/artists/the-beatles/, /blog/genres/british-invasion/, /blog/genres/folk-rock/, /tools/quiz/, /tools/trivia/ |
-| /blog/genres/garage-surf-rock/ | genre hub | live | https://1960smusic.net/blog/genres/garage-surf-rock/ | / (homepage) | /blog/genres/british-invasion/, /blog/artists/the-kinks/, /blog/songs/you-really-got-me-kinks/, /tools/quiz/, /tools/trivia/ |
+| /blog/genres/british-invasion/ | genre hub | live | https://1960smusic.net/blog/genres/british-invasion/ | / (homepage) | /tools/trivia/, /tools/radio/ |
+| /blog/genres/motown-soul/ | genre hub | live | https://1960smusic.net/blog/genres/motown-soul/ | / (homepage) | /tools/quiz/, /tools/trivia/, /tools/radio/ |
+| /blog/genres/folk-rock/ | genre hub | live | https://1960smusic.net/blog/genres/folk-rock/ | / (homepage) | /tools/quiz/, /tools/trivia/, /tools/radio/ |
+| /blog/genres/psychedelic-rock/ | genre hub | live | https://1960smusic.net/blog/genres/psychedelic-rock/ | / (homepage) | /blog/artists/the-beatles/, /blog/genres/british-invasion/, /blog/genres/folk-rock/, /tools/quiz/, /tools/trivia/, /tools/radio/ |
+| /blog/genres/garage-surf-rock/ | genre hub | live | https://1960smusic.net/blog/genres/garage-surf-rock/ | / (homepage) | /blog/genres/british-invasion/, /blog/artists/the-kinks/, /blog/songs/you-really-got-me-kinks/, /tools/quiz/, /tools/trivia/, /tools/radio/ |
 | /blog/artists/the-beatles/ | artist bio | live | https://1960smusic.net/blog/artists/the-beatles/ | /blog/genres/british-invasion/, / (homepage) | /blog/songs/she-loves-you-beatles/, /blog/songs/i-want-to-hold-your-hand-beatles/, /blog/songs/please-please-me-beatles/ |
 | /blog/songs/she-loves-you-beatles/ | song story | live | https://1960smusic.net/blog/songs/she-loves-you-beatles/ | /blog/artists/the-beatles/, /blog/genres/british-invasion/, / (homepage) | /tools/trivia/ |
 | /blog/songs/i-want-to-hold-your-hand-beatles/ | song story | live | https://1960smusic.net/blog/songs/i-want-to-hold-your-hand-beatles/ | /blog/artists/the-beatles/, /blog/genres/british-invasion/, / (homepage) | /blog/songs/she-loves-you-beatles/ |
@@ -31,8 +31,8 @@ from the site).
 | /blog/on-this-day/september-2/ | on this day | live | https://1960smusic.net/blog/on-this-day/september-2/ | /blog/on-this-day/, / (homepage) | /blog/artists/the-beatles/, /blog/artists/the-rolling-stones/, /blog/on-this-day/september-1/, /blog/on-this-day/september-3/ |
 | /blog/on-this-day/september-3/ | on this day | live | https://1960smusic.net/blog/on-this-day/september-3/ | /blog/on-this-day/, / (homepage) | /blog/artists/the-beatles/, /blog/artists/the-rolling-stones/, /blog/on-this-day/september-1/, /blog/on-this-day/september-2/ |
 | /blog/trending/rhythm-of-the-rain-cascades/ | trending | live | https://1960smusic.net/blog/trending/rhythm-of-the-rain-cascades/ | /blog/trending/, / (homepage) | /tools/quiz/, /tools/trivia/ |
-| /blog/genres/country-60s/ | genre hub | live | https://1960smusic.net/blog/genres/country-60s/ | / (homepage) | /tools/quiz/, /tools/trivia/ |
-| /blog/genres/pop-brill-building/ | genre hub | live | https://1960smusic.net/blog/genres/pop-brill-building/ | / (homepage) | /blog/genres/british-invasion/, /tools/quiz/, /tools/trivia/ |
-| /blog/genres/jazz-easy-listening/ | genre hub | live | https://1960smusic.net/blog/genres/jazz-easy-listening/ | / (homepage) | /blog/genres/pop-brill-building/, /blog/genres/british-invasion/, /tools/quiz/, /tools/trivia/ |
+| /blog/genres/country-60s/ | genre hub | live | https://1960smusic.net/blog/genres/country-60s/ | / (homepage) | /tools/quiz/, /tools/trivia/, /tools/radio/ |
+| /blog/genres/pop-brill-building/ | genre hub | live | https://1960smusic.net/blog/genres/pop-brill-building/ | / (homepage) | /blog/genres/british-invasion/, /tools/quiz/, /tools/trivia/, /tools/radio/ |
+| /blog/genres/jazz-easy-listening/ | genre hub | live | https://1960smusic.net/blog/genres/jazz-easy-listening/ | / (homepage) | /blog/genres/pop-brill-building/, /blog/genres/british-invasion/, /tools/quiz/, /tools/trivia/, /tools/radio/ |
 | /blog/artists/the-who/ | artist bio | live | https://1960smusic.net/blog/artists/the-who/ | /blog/genres/british-invasion/, / (homepage) | /blog/artists/the-rolling-stones/, /blog/artists/the-kinks/ |
 | /blog/songs/my-generation-who/ | song story | live | https://1960smusic.net/blog/songs/my-generation-who/ | /blog/artists/the-who/, /blog/genres/british-invasion/, / (homepage) | /blog/artists/the-rolling-stones/, /blog/artists/the-kinks/ |

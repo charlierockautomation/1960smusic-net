@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RTM6T90PRM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RTM6T90PRM');
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radio Dial | 1960smusic.net</title>
+<meta name="description" content="Tune in to a continuous, station-style stream of 1960s hits. Pick a genre station and let it play, one track after another, audio-only.">
+<link rel="canonical" href="https://1960smusic.net/tools/radio/">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#3D2B1F">
+<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/tools/tools.css">
+<link rel="stylesheet" href="/tools/radio/radio.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/">1960s<span>music</span>.net</a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav" type="button"><span class="bars" aria-hidden="true"></span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary">
+      <a href="/">Home</a>
+      <a href="/blog/">Blog</a>
+      <a href="/about.html">About</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <h1 class="page-title">Radio Dial</h1>
+    <p class="lead">Pick a station and let it play. One track after another, no video, just the music.</p>
+
+    <div class="rd-tunein" id="rd-tunein-wrap">
+      <p>Click Tune In to start listening. Your browser needs one click to allow audio to begin.</p>
+      <button class="btn" id="rd-tunein" type="button">&#9654; Tune In</button>
+    </div>
+
+    <div id="rd-trouble" hidden>This station's having trouble. Try another station on the dial below.</div>
+
+    <div id="rd-diagnostic" hidden>
+      Having trouble tuning in? This is usually a browser privacy setting or ad blocker interfering with the player.
+      Try:
+      <ul>
+        <li>Disabling your ad blocker for this site</li>
+        <li>Allowing third-party content for YouTube</li>
+        <li>A different browser</li>
+      </ul>
+      <button class="btn secondary" id="rd-try-again" type="button">Try Again</button>
+    </div>
+
+    <div id="rd-nowplaying" hidden>
+      <div id="rd-genre"></div>
+      <h2 id="rd-title"></h2>
+      <p id="rd-artist"></p>
+      <p id="rd-status" aria-live="polite"></p>
+    </div>
+
+    <div id="rd-dial" aria-label="Radio stations"></div>
+    <div id="rd-audio" class="rd-audio-hidden"></div>
+
+    <nav class="tool-links" aria-label="More tools">
+      <strong>More tools:</strong>
+      <a href="/tools/random-song/">Random Song</a>
+      <a href="/tools/playlist-builder/">Party Playlist Builder</a>
+      <a href="/tools/trivia/">Trivia</a>
+      <a href="/">Home</a>
+    </nav>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>&copy; <span data-year>2025</span> 1960smusic.net</div>
+    <nav aria-label="Footer">
+      <a href="/about.html">About</a>
+      <a href="/contact.html">Contact</a>
+      <a href="/privacy-policy.html">Privacy Policy</a>
+      <a href="/terms-of-use.html">Terms of Use</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="/tools/shared.js"></script>
+<script src="/tools/radio/radio-player.js"></script>
+<script src="/tools/radio/radio-app.js"></script>
+<script src="https://www.youtube.com/iframe_api" async></script>
+<script src="/site.js" defer></script>
+</body>
+</html>

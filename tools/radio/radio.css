@@ -1,0 +1,54 @@
+/* 1960smusic.net — Radio Dial tool. Loaded in addition to /styles.css + /tools/tools.css. */
+
+.rd-audio-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;}
+
+.rd-tunein{
+  background:var(--card);border:1px solid var(--line);border-radius:12px;
+  padding:28px;text-align:center;margin:0 0 22px;
+}
+.rd-tunein p{color:var(--muted);margin:0 0 16px;}
+.rd-tunein .btn{font-size:1.15rem;padding:14px 30px;}
+
+#rd-dial{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin:0 0 22px;}
+.rd-station{
+  font-family:inherit;text-align:left;
+  background:var(--card);border:1px solid var(--line);border-radius:10px;
+  padding:12px 14px;display:flex;flex-direction:column;gap:2px;
+}
+.rd-station .freq{font-family:var(--font-mono);font-weight:700;font-size:.95rem;color:var(--brass);}
+.rd-station .name{font-family:var(--font-body);font-weight:600;font-size:.88rem;}
+.rd-station:not(.soon):hover{border-color:var(--amber);}
+.rd-station.active{border-color:var(--tube-glow);box-shadow:0 0 0 2px var(--tube-glow) inset;}
+.rd-station.requested:not(.active){border-color:var(--brass);box-shadow:0 0 0 2px var(--brass) inset;}
+.rd-station.soon{opacity:.55;}
+.rd-station .soon-tag{font-family:sans-serif;font-size:.7rem;color:var(--dial-green);margin-top:2px;}
+.rd-ctrls{display:flex;gap:6px;margin-top:8px;}
+.rd-play-btn,.rd-stop-btn{
+  font-family:sans-serif;font-size:.8rem;font-weight:700;cursor:pointer;
+  border:none;border-radius:6px;padding:6px 10px;
+}
+.rd-play-btn{background:var(--amber);color:#2a160b;}
+.rd-play-btn:hover:not(:disabled){background:#ff8f57;}
+.rd-stop-btn{background:var(--red);color:#fff;}
+.rd-stop-btn:hover:not(:disabled){background:#8a2a2a;}
+.rd-play-btn:disabled,.rd-stop-btn:disabled{opacity:.4;cursor:default;}
+
+#rd-nowplaying{
+  background:var(--walnut-deep);color:var(--dial-ivory);border-radius:12px;
+  padding:26px;text-align:center;margin:0 0 22px;
+}
+#rd-nowplaying .rd-lamp{
+  display:inline-block;width:10px;height:10px;border-radius:50%;
+  background:var(--tube-glow);margin-right:8px;box-shadow:0 0 8px var(--tube-glow);
+}
+#rd-genre{font-family:var(--font-mono);font-size:.85rem;color:var(--brass);letter-spacing:.05em;margin:0 0 10px;}
+#rd-title{font-family:var(--font-display);font-size:1.6rem;margin:0 0 .2em;}
+#rd-artist{color:#E3D6BC;margin:0 0 14px;}
+#rd-status{font-family:sans-serif;font-size:.9rem;color:var(--brass);min-height:1.2em;}
+
+#rd-trouble,#rd-diagnostic{
+  background:#f7e5e5;border:1px solid var(--red);color:#8a2a2a;border-radius:10px;
+  padding:16px;margin:0 0 22px;font-family:sans-serif;font-size:.95rem;
+}
+#rd-diagnostic ul{margin:10px 0;padding-left:20px;}
+#rd-diagnostic .btn{margin-top:8px;}

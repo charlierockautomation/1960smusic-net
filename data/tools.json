@@ -37,7 +37,7 @@
       "id": "radio-dial",
       "name": "Radio Dial",
       "freq": "103.9",
-      "status": "coming_soon",
+      "status": "live",
       "href": "/tools/radio/",
       "blurb": "A continuous, station-style listening experience that rotates through each genre."
     },

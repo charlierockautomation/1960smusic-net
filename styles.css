@@ -347,6 +347,17 @@ h3{font-size:1.25rem;color:var(--ink-soft);}
 .article-body ul a{color:var(--red);}
 .article-body hr{border:0;border-top:1px solid var(--line);margin:2em 0;}
 
+.radio-cta{margin:1.4rem 0 1.8rem;}
+.radio-cta a{
+  display:flex;align-items:center;gap:10px;width:100%;box-sizing:border-box;
+  background:var(--ivory-face);border:1px solid var(--line);border-left:4px solid var(--tube-glow);
+  color:var(--near-black);text-decoration:none;
+  font-family:var(--font-body);font-weight:600;font-size:.92rem;border-radius:0 8px 8px 0;
+  padding:11px 16px;
+}
+.radio-cta a:hover,.radio-cta a:focus-visible{border-left-color:var(--brass);background:var(--card);}
+.radio-cta .arrow{margin-left:auto;color:var(--brass);font-size:1.1em;}
+
 /* ---------- Social sharing ---------- */
 .share-bar{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin:16px 0 8px;}
 .share-bar .label{font-family:var(--font-body);font-weight:700;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);margin-right:2px;}

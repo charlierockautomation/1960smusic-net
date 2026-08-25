@@ -290,7 +290,7 @@ function renderGenres(genres){
   // dial strip
   document.getElementById('dial-stations').innerHTML = ordered.map(function(g){
     var f = GENRE_FREQ[g.id] || '';
-    return '<li class="station"><a href="/blog/genres/' + esc(g.slug || g.id) + '/">' +
+    return '<li class="station"><a href="/tools/radio/?station=' + esc(g.id) + '">' +
       '<span class="freq">' + esc(f) + '</span>' +
       '<span class="name">' + esc(g.name) + '</span>' +
     '</a></li>';
@@ -344,12 +344,11 @@ function setupDial(){
     if (e.pointerType === 'touch') return; /* native touch scroll already works */
     down = true; moved = false;
     startX = e.clientX; startLeft = band.scrollLeft;
-    band.classList.add('dragging');
   });
   band.addEventListener('pointermove', function(e){
     if (!down) return;
     var dx = e.clientX - startX;
-    if (Math.abs(dx) > 4) moved = true;
+    if (Math.abs(dx) > 4) { moved = true; band.classList.add('dragging'); }
     band.scrollLeft = startLeft - dx;
   });
   function endDrag(){ if (!down) return; down = false; band.classList.remove('dragging'); }
