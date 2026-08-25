@@ -2,3 +2,5 @@
 gen/
 wrangler.toml
 README.md
+worker/
+.wrangler/

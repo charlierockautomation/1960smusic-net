@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RTM6T90PRM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RTM6T90PRM');
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daily Guessing Game | 1960smusic.net</title>
+<meta name="description" content="Guess the 1960s song from a short audio hook. Fifteen elimination-style levels, one wrong guess ends the run. Free to play, top 5 scores make the leaderboard.">
+<link rel="canonical" href="https://1960smusic.net/tools/daily/">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#3D2B1F">
+<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/tools/tools.css">
+<link rel="stylesheet" href="/tools/daily/daily.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/">1960s<span>music</span>.net</a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav" type="button"><span class="bars" aria-hidden="true"></span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary">
+      <a href="/">Home</a>
+      <a href="/blog/">Blog</a>
+      <a href="/about.html">About</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <h1 class="page-title">Daily Guessing Game</h1>
+    <p class="lead">A short audio hook, four choices. Fifteen levels, each one song harder than the last. One wrong guess ends the run.</p>
+
+    <div id="da-intro" class="da-intro">
+      <p>Level 1 is one song. Level 2 is two. Clear all fifteen for a perfect run and the max score of 240.</p>
+      <button class="btn" id="da-start" type="button">Start Game</button>
+    </div>
+
+    <div id="da-scorebar" class="scorebar da-scorebar"></div>
+    <div id="da-game" hidden></div>
+    <div id="da-audio" class="da-audio-hidden"></div>
+
+    <div class="da-leaderboard">
+      <h2>Today's Top 5</h2>
+      <div id="da-leaderboard"></div>
+    </div>
+
+    <nav class="tool-links" aria-label="More tools">
+      <strong>More tools:</strong>
+      <a href="/tools/quiz/">What's Your 60s Sound?</a>
+      <a href="/tools/trivia/">Trivia</a>
+      <a href="/tools/radio/">Radio Dial</a>
+      <a href="/">Home</a>
+    </nav>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>&copy; <span data-year>2025</span> 1960smusic.net</div>
+    <nav aria-label="Footer">
+      <a href="/about.html">About</a>
+      <a href="/contact.html">Contact</a>
+      <a href="/privacy-policy.html">Privacy Policy</a>
+      <a href="/terms-of-use.html">Terms of Use</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="/tools/shared.js"></script>
+<script src="/tools/daily/hook-player.js"></script>
+<script src="/tools/daily/daily-app.js"></script>
+<script src="https://www.youtube.com/iframe_api" async></script>
+<script src="/site.js" defer></script>
+</body>
+</html>

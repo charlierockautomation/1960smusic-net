@@ -1,11 +1,19 @@
 # Cloudflare Workers (static assets) — git-connected via Workers Builds.
-# The whole site deploys as static assets served from the repo root.
+# The whole site deploys as static assets served from the repo root, with a
+# thin Worker script (worker/index.js) in front for the Daily Guessing Game
+# leaderboard API. Every other path falls straight through to assets.
 name = "1960smusic-net"
 compatibility_date = "2026-08-13"
+main = "worker/index.js"
 
 [assets]
 directory = "./"
+binding = "ASSETS"
 # Fallback for client-side navigation / clean 404 handling.
 not_found_handling = "404-page"
+
+[[kv_namespaces]]
+binding = "DAILY_LEADERBOARD"
+id = "e15a355325294c4e88bd9a60e37a5500"
 
 # Deploy test: production branch confirmed set to main 2026-08-14.
