@@ -55,7 +55,7 @@ Live rows (1-12) moved to [`docs/content-build-archive.md`](content-build-archiv
 | 20 | My Generation | /blog/songs/my-generation-who/ | song-story | british-invasion | live | My Generation by The Who | nMREjRFJkfM | |
 | 21 | The Animals bio | /blog/artists/the-animals/ | artist-bio | british-invasion | live | The Animals | N4bFqW_eu2I | yt |
 | 22 | House of the Rising Sun | /blog/songs/house-of-the-rising-sun-animals/ | song-story | british-invasion | live | House of the Rising Sun | N4bFqW_eu2I | yt |
-| 23 | The Yardbirds bio | /blog/artists/the-yardbirds/ | artist-bio | british-invasion | not started | The Yardbirds | yKI7c9x2lbM | |
+| 23 | The Yardbirds bio | /blog/artists/the-yardbirds/ | artist-bio | british-invasion | live | The Yardbirds | yKI7c9x2lbM | |
 | 24 | For Your Love | /blog/songs/for-your-love-yardbirds/ | song-story | british-invasion | not started | For Your Love | yKI7c9x2lbM | |
 | 25 | Heart Full of Soul | /blog/songs/heart-full-of-soul-yardbirds/ | song-story | british-invasion | not started | Heart Full of Soul | pM1qZBFiOLU | yt |
 | 26 | Over Under Sideways Down | /blog/songs/over-under-sideways-down-yardbirds/ | song-story | british-invasion | not started | Over Under Sideways Down | OUIbVrev-yk | |

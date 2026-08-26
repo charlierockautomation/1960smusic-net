@@ -252,6 +252,15 @@
       "description": "House of the Rising Sun turned a centuries-old folk song into a one-take, world-conquering single for The Animals in 1964. Here's the real story behind it.",
       "date": "2026-08-25",
       "genre": "british-invasion"
+    },
+    {
+      "id": "the-yardbirds",
+      "title": "The Yardbirds: The Band That Launched Clapton, Beck and Page",
+      "slug": "/blog/artists/the-yardbirds/",
+      "type": "artist-bio",
+      "description": "The Yardbirds turned a London R&B club act into the band that launched Eric Clapton, Jeff Beck and Jimmy Page before splitting into Led Zeppelin in 1968.",
+      "date": "2026-08-25",
+      "genre": "british-invasion"
     }
   ]
 }
