@@ -227,6 +227,15 @@
       "genre": "british-invasion"
     },
     {
+      "id": "the-animals",
+      "title": "The Animals: The Band That Found Jimi Hendrix",
+      "slug": "/blog/artists/the-animals/",
+      "type": "artist-bio",
+      "description": "The Animals rode House of the Rising Sun to a transatlantic No. 1, then watched bassist Chas Chandler go on to discover Jimi Hendrix.",
+      "date": "2026-08-25",
+      "genre": "british-invasion"
+    },
+    {
       "id": "my-generation-who",
       "title": "My Generation by The Who: The Song Behind the Stutter",
       "slug": "/blog/songs/my-generation-who/",
