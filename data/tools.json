@@ -51,11 +51,11 @@
     },
     {
       "id": "crossword",
-      "name": "60s Crossword",
+      "name": "60s Music Crossword",
       "freq": "107.2",
-      "status": "coming_soon",
-      "href": "/tools/crossword/",
-      "blurb": "A 1960s-themed crossword built from the artists, songs and stories of the decade."
+      "status": "live",
+      "href": "/tools/60s-music-crossword/",
+      "blurb": "A 55-clue crossword pulling songs, artists and genre terms from every station on the dial."
     }
   ]
 }
