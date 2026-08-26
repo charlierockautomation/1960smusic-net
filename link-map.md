@@ -41,3 +41,4 @@ from the site).
 | /blog/songs/house-of-the-rising-sun-animals/ | song story | live | https://1960smusic.net/blog/songs/house-of-the-rising-sun-animals/ | /blog/artists/the-animals/, /blog/genres/british-invasion/, / (homepage) | /blog/songs/my-generation-who/, /blog/songs/you-really-got-me-kinks/ |
 | /blog/artists/the-yardbirds/ | artist bio | live | https://1960smusic.net/blog/artists/the-yardbirds/ | /blog/genres/british-invasion/, / (homepage) | /blog/artists/the-who/, /blog/artists/the-kinks/ |
 | /blog/songs/for-your-love-yardbirds/ | song story | live | https://1960smusic.net/blog/songs/for-your-love-yardbirds/ | /blog/artists/the-yardbirds/, /blog/genres/british-invasion/, / (homepage) | /blog/artists/the-who/, /blog/songs/house-of-the-rising-sun-animals/ |
+| /blog/trending/dolly-parton-dead/ | trending | live | https://1960smusic.net/blog/trending/dolly-parton-dead/ | /blog/trending/, / (homepage) | /blog/genres/country-60s/, /tools/quiz/, /tools/trivia/ |

@@ -270,6 +270,15 @@
       "description": "For Your Love by The Yardbirds turned a rejected teenage demo into a harpsichord-driven hit and pushed Eric Clapton out the door in 1965. Here's the real story.",
       "date": "2026-08-26",
       "genre": "british-invasion"
+    },
+    {
+      "id": "dolly-parton-dead",
+      "title": "Dolly Parton Dead at 80: What Really Happened",
+      "slug": "/blog/trending/dolly-parton-dead/",
+      "type": "trending",
+      "description": "Dolly Parton dead at 80: the confirmed cause of death, her official family statement, and why tribute clips are flooding TikTok right now.",
+      "date": "2026-08-26",
+      "genre": null
     }
   ]
 }
