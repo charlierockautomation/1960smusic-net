@@ -261,6 +261,15 @@
       "description": "The Yardbirds turned a London R&B club act into the band that launched Eric Clapton, Jeff Beck and Jimmy Page before splitting into Led Zeppelin in 1968.",
       "date": "2026-08-25",
       "genre": "british-invasion"
+    },
+    {
+      "id": "for-your-love-yardbirds",
+      "title": "For Your Love by The Yardbirds: The Harpsichord Hit That Split a Band",
+      "slug": "/blog/songs/for-your-love-yardbirds/",
+      "type": "song-story",
+      "description": "For Your Love by The Yardbirds turned a rejected teenage demo into a harpsichord-driven hit and pushed Eric Clapton out the door in 1965. Here's the real story.",
+      "date": "2026-08-26",
+      "genre": "british-invasion"
     }
   ]
 }
