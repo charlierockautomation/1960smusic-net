@@ -243,6 +243,15 @@
       "description": "My Generation by The Who: the true story of Pete Townshend's train-ride lyric, Roger Daltrey's stutter, and John Entwistle's landmark bass solo.",
       "date": "2026-08-24",
       "genre": "british-invasion"
+    },
+    {
+      "id": "house-of-the-rising-sun-animals",
+      "title": "House of the Rising Sun: How The Animals Made Folk Electric",
+      "slug": "/blog/songs/house-of-the-rising-sun-animals/",
+      "type": "song-story",
+      "description": "House of the Rising Sun turned a centuries-old folk song into a one-take, world-conquering single for The Animals in 1964. Here's the real story behind it.",
+      "date": "2026-08-25",
+      "genre": "british-invasion"
     }
   ]
 }
