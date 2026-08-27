@@ -1,0 +1,145 @@
+{
+  "date_label": "September 5",
+  "date_slug": "september-5",
+  "flagship": {
+    "year": 1964,
+    "category": "chart",
+    "headline": "The Animals hit No. 1 with House of the Rising Sun",
+    "summary_line_1": "The Billboard Hot 100 dated September 5, 1964 put the Animals' House of the Rising Sun at No. 1 in America, where it held for three weeks after already topping the UK chart in July.",
+    "summary_line_2": "It became the first British Invasion No. 1 with no connection to the Beatles, a breakthrough that helped push folk rock toward the electric sound Bob Dylan would embrace within the year.",
+    "youtube_id": "N4bFqW_eu2I",
+    "image": null
+  },
+  "stats": [
+    { "value": 10, "label": "verified events" },
+    { "value": 7, "label": "event categories" },
+    { "value": 7, "label": "years covered" }
+  ],
+  "years": [
+    {
+      "year": 1969,
+      "events": [
+        {
+          "category": "death",
+          "headline": "Josh White dies during heart surgery",
+          "summary_line_1": "Blues and folk singer Josh White died on the operating table at North Shore Hospital in Manhasset, New York, during an attempt to replace his heart valves after years of declining heart health.",
+          "summary_line_2": "White had bridged blues, folk, and the Greenwich Village revival for three decades, becoming one of the first Black artists to perform regularly at the White House.",
+          "youtube_id": "qc0aCqxuKqs",
+          "image": null,
+          "internal_link": null,
+          "external_link": { "text": "Encyclopedia.com", "url": "https://www.encyclopedia.com/education/news-wires-white-papers-and-books/white-josh" }
+        },
+        {
+          "category": "birth",
+          "headline": "Dweezil Zappa is born",
+          "summary_line_1": "Ian Donald Calvin Euclid Zappa, known as Dweezil, was born in Los Angeles to Frank and Gail Zappa.",
+          "summary_line_2": "His father had just wrapped the basic tracking sessions for Hot Rats that August, the instrumental album arriving a month later as Frank Zappa's first solo release.",
+          "youtube_id": "FoYdeEDdtK4",
+          "image": null,
+          "internal_link": null,
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Dweezil_Zappa" }
+        }
+      ]
+    },
+    {
+      "year": 1968,
+      "events": [
+        {
+          "category": "broadcast",
+          "headline": "The Doors make their Top of the Pops debut",
+          "summary_line_1": "The Doors appeared on the BBC's Top of the Pops for the first time, miming their way through Hello, I Love You on their first visit to the UK.",
+          "summary_line_2": "The single was already No. 1 in America and climbing fast in Britain, giving the psychedelic rock band a rare UK television spot.",
+          "youtube_id": "exs6GO2bvjE",
+          "image": null,
+          "internal_link": { "text": "psychedelic rock", "url": "/blog/genres/psychedelic-rock/" },
+          "external_link": { "text": "Top of the Pops Archive", "url": "https://www.totparchive.co.uk/artist.php?name=the-doors" }
+        }
+      ]
+    },
+    {
+      "year": 1967,
+      "events": [
+        {
+          "category": "industry",
+          "headline": "The Beatles begin recording I Am the Walrus",
+          "summary_line_1": "The Beatles taped the backing track for John Lennon's I Am the Walrus at Abbey Road in 16 takes, a session running from 7pm to 1am.",
+          "summary_line_2": "Recorded days after manager Brian Epstein's death, it became one of the band's most psychedelic and experimental tracks, finished later that month with an orchestra and choir.",
+          "youtube_id": "t1Jm5epJr10",
+          "image": null,
+          "internal_link": { "text": "The Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": { "text": "The Beatles Bible", "url": "https://www.beatlesbible.com/1967/09/05/recording-i-am-the-walrus/" }
+        }
+      ]
+    },
+    {
+      "year": 1966,
+      "events": [
+        {
+          "category": "culture",
+          "headline": "John Lennon flies to Germany for How I Won the War",
+          "summary_line_1": "John Lennon flew to Hanover, West Germany, to begin filming Richard Lester's How I Won the War, playing Private Gripweed in his only major non-Beatles acting role.",
+          "summary_line_2": "His ceremonial head-shave for the part happened the next morning, giving Lennon the short-haired, round-glasses look he kept for years after, while Revolver, finished a month earlier, kept climbing the charts back home.",
+          "youtube_id": "m4BuziKGMy4",
+          "image": null,
+          "internal_link": { "text": "Lennon", "url": "/blog/artists/the-beatles/" },
+          "external_link": { "text": "The Beatles Bible", "url": "https://www.beatlesbible.com/1966/09/05/john-lennon-flies-to-hanover-germany/" }
+        }
+      ]
+    },
+    {
+      "year": 1964,
+      "events": [
+        {
+          "category": "concert",
+          "headline": "The Rolling Stones open their 4th British Tour",
+          "summary_line_1": "The Rolling Stones opened their fourth British tour with two shows at the Finsbury Park Astoria in London, running through mid-October.",
+          "summary_line_2": "The tour came at the peak of the band's early British fame, a year before their own US chart-topping breakthrough, with It's All Over Now, their first UK No. 1 from that June, still the song fans wanted to hear.",
+          "youtube_id": "kMMxrFQKEV8",
+          "image": null,
+          "internal_link": { "text": "The Rolling Stones", "url": "/blog/artists/the-rolling-stones/" },
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Rolling_Stones_4th_British_Tour_1964" }
+        }
+      ]
+    },
+    {
+      "year": 1963,
+      "events": [
+        {
+          "category": "concert",
+          "headline": "The Beatles play the Gaumont Cinema in Taunton",
+          "summary_line_1": "The Beatles made their second and final appearance at Taunton's Gaumont Cinema, part of four consecutive shows promoted by John Smith.",
+          "summary_line_2": "She Loves You, the single they'd released two weeks earlier, was already climbing to No. 1 as the band worked the regional cinema circuit.",
+          "youtube_id": "nGbWU8S3vzs",
+          "image": null,
+          "internal_link": { "text": "The Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": { "text": "The Beatles Bible", "url": "https://www.beatlesbible.com/1963/09/05/live-gaumont-cinema-taunton-2/" }
+        }
+      ]
+    },
+    {
+      "year": 1962,
+      "events": [
+        {
+          "category": "concert",
+          "headline": "The Beatles play an evening set at the Cavern Club",
+          "summary_line_1": "A lunchtime Cavern Club booking was switched to the evening after the Beatles' second EMI recording session in London, where they'd cut Love Me Do with Ringo Starr the day before, left their return time uncertain, but they made it back to Liverpool in time.",
+          "summary_line_2": "Sound technician Gordon Butler used three microphones instead of one to capture the show, and performances of Some Other Guy and Kansas City/Hey-Hey-Hey-Hey survive from that recording.",
+          "youtube_id": "0pGOFX1D_jg",
+          "image": null,
+          "internal_link": { "text": "The Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": { "text": "The Beatles Bible", "url": "https://www.beatlesbible.com/1962/09/05/live-cavern-club-liverpool-227/" }
+        },
+        {
+          "category": "industry",
+          "headline": "The Beach Boys record Little Girl (You're My Miss America)",
+          "summary_line_1": "The Beach Boys cut Little Girl (You're My Miss America) at their second Capitol Records session, a track that gave Dennis Wilson his first lead vocal.",
+          "summary_line_2": "The song landed on Surfin' Safari, the album that launched the band's run as the sound of the surf rock era.",
+          "youtube_id": "sac2cMDAQoU",
+          "image": null,
+          "internal_link": { "text": "surf rock", "url": "/blog/genres/garage-surf-rock/" },
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Little_Girl_(You%27re_My_Miss_America)" }
+        }
+      ]
+    }
+  ]
+}
