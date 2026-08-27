@@ -306,6 +306,15 @@
       "description": "10 verified 1960s music events from September 5: the Animals hit No. 1 with House of the Rising Sun, the Beatles cut I Am the Walrus, and the Doors debut on Top of the Pops.",
       "date": "2026-08-27",
       "genre": null
+    },
+    {
+      "id": "heart-full-of-soul-yardbirds",
+      "title": "Heart Full of Soul by The Yardbirds: When a Sitar Became Fuzz",
+      "slug": "/blog/songs/heart-full-of-soul-yardbirds/",
+      "type": "song-story",
+      "description": "Heart Full of Soul by The Yardbirds turned a scrapped sitar session into Jeff Beck's fuzz guitar breakthrough in 1965. Here is the real story behind it.",
+      "date": "2026-08-27",
+      "genre": "british-invasion"
     }
   ]
 }
