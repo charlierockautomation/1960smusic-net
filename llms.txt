@@ -1,0 +1,61 @@
+# 1960s Music
+
+Tune in to 1960s music: eight genre stations from British Invasion to Motown, hundreds of essential songs, and free interactive tools you can play now.
+
+Sitemap: https://1960smusic.net/sitemap.xml
+
+## Tools
+- [Random Song Generator](https://1960smusic.net/tools/random-song/): Hit generate and let the decade pick a track for you, from any of the eight genres, playing right on the page.
+- [Party Playlist Builder](https://1960smusic.net/tools/playlist-builder/): Pick a vibe such as upbeat, romantic or dance, and build a shuffled playlist to match the mood.
+- [Music Trivia](https://1960smusic.net/tools/trivia/): A ten-question round drawn from real facts about the decade's greatest records. Keep score, then play again.
+- [What's Your 60s Sound?](https://1960smusic.net/tools/quiz/): Answer seven quick questions and discover which 1960s genre is your personal soundtrack.
+- [Radio Dial](https://1960smusic.net/tools/radio/): A continuous, station-style listening experience that rotates through each genre.
+- [Daily Guessing Game](https://1960smusic.net/tools/daily/): A new song clip every day: guess the track from a short, recognizable hook.
+- [60s Music Crossword](https://1960smusic.net/tools/60s-music-crossword/): A 55-clue crossword pulling songs, artists and genre terms from every station on the dial.
+
+## Genre Hubs
+- [Garage Rock: The Raw, Fuzzed-Out Sound of 1960s America](https://1960smusic.net/blog/genres/garage-surf-rock/): Garage rock explained: how fuzz guitars, cheap organs, and teenage garages built the raw sound of 1960s America, from Louie Louie to the Nuggets revival.
+- [1960s Country Music: Nashville Sound vs. Bakersfield Sound](https://1960smusic.net/blog/genres/country-60s/): 1960s country music split into two rival camps: Nashville's polished strings and Bakersfield's twangy honky-tonk. Meet the sounds, artists, and hits.
+- [Brill Building Pop: The 1960s Hit Factory Explained](https://1960smusic.net/blog/genres/pop-brill-building/): Brill Building Pop ruled early 1960s radio from one crowded Manhattan office, pairing songwriting teams like Goffin-King with girl groups and teen idols.
+- [1960s Easy Listening Music: The Complete Genre Guide](https://1960smusic.net/blog/genres/jazz-easy-listening/): 1960s easy listening music paired crooners and orchestras with the bossa nova craze and Oscar-winning film themes, from Sinatra to Astrud Gilberto.
+- [Motown Music: How Detroit's Hit Factory Ruled the Charts](https://1960smusic.net/blog/genres/motown-soul/): How Berry Gordy's Detroit hit factory and its Southern soul rivals built the sound that crossed over America's pop charts.
+- [Folk Rock: How Bob Dylan and The Byrds Changed 1960s Music](https://1960smusic.net/blog/genres/folk-rock/): How Bob Dylan going electric and The Byrds' jangly cover of Mr. Tambourine Man built one of the decade's most literate, most political sounds.
+- [Psychedelic Rock: How LSD and Feedback Changed 1960s Music](https://1960smusic.net/blog/genres/psychedelic-rock/): How San Francisco acid rock and British studio experimentation reshaped 1960s music between 1965 and 1969.
+- [British Invasion: How 1960s British Rock Bands Conquered America](https://1960smusic.net/blog/genres/british-invasion/): How UK bands led by The Beatles conquered American radio, charts, and TV starting in 1964, and the sound and artists that defined the movement.
+
+## Artists
+- [The Animals: The Band That Found Jimi Hendrix](https://1960smusic.net/blog/artists/the-animals/): The Animals rode House of the Rising Sun to a transatlantic No. 1, then watched bassist Chas Chandler go on to discover Jimi Hendrix.
+- [The Yardbirds: The Band That Launched Clapton, Beck and Page](https://1960smusic.net/blog/artists/the-yardbirds/): The Yardbirds turned a London R&B club act into the band that launched Eric Clapton, Jeff Beck and Jimmy Page before splitting into Led Zeppelin in 1968.
+- [The Who: How a Smashed Guitar Became a Rock Signature](https://1960smusic.net/blog/artists/the-who/): The Who turned a broken guitar and an onstage explosion into rock history, then reinvented the album with Tommy and Who's Next.
+- [The Kinks: How Getting Banned From America Changed Them](https://1960smusic.net/blog/artists/the-kinks/): How a slashed amp, a bloody onstage fight, and a four-year US touring ban turned Ray Davies into one of rock's most English songwriters.
+- [Brian Jones Rolling Stones: The Founder Behind the Band](https://1960smusic.net/blog/artists/the-rolling-stones/): How a 20-year-old blues fanatic built the Rolling Stones, named it after Muddy Waters, and lost it before his death in 1969.
+- [The Beatles: The Liverpool Band That Changed Music Forever](https://1960smusic.net/blog/artists/the-beatles/): How four teenagers from Liverpool became the most influential band in music history, from Hamburg's clubs to the studio innovations of Revolver and Sgt. Pepper.
+
+## Songs
+- [Heart Full of Soul by The Yardbirds: When a Sitar Became Fuzz](https://1960smusic.net/blog/songs/heart-full-of-soul-yardbirds/): Heart Full of Soul by The Yardbirds turned a scrapped sitar session into Jeff Beck's fuzz guitar breakthrough in 1965. Here is the real story behind it.
+- [Over Under Sideways Down: The Yardbirds' Raga Rock Riff](https://1960smusic.net/blog/songs/over-under-sideways-down-yardbirds/): Over Under Sideways Down Yardbirds fans still ask about: the 1966 raga rock riff, chart run, and studio story behind Jeff Beck's boldest Yardbirds single.
+- [For Your Love by The Yardbirds: The Harpsichord Hit That Split a Band](https://1960smusic.net/blog/songs/for-your-love-yardbirds/): For Your Love by The Yardbirds turned a rejected teenage demo into a harpsichord-driven hit and pushed Eric Clapton out the door in 1965. Here's the real story.
+- [House of the Rising Sun: How The Animals Made Folk Electric](https://1960smusic.net/blog/songs/house-of-the-rising-sun-animals/): House of the Rising Sun turned a centuries-old folk song into a one-take, world-conquering single for The Animals in 1964. Here's the real story behind it.
+- [My Generation by The Who: The Song Behind the Stutter](https://1960smusic.net/blog/songs/my-generation-who/): My Generation by The Who: the true story of Pete Townshend's train-ride lyric, Roger Daltrey's stutter, and John Entwistle's landmark bass solo.
+- [Waterloo Sunset: The Kinks' Most Personal Song](https://1960smusic.net/blog/songs/waterloo-sunset-kinks/): Waterloo Sunset by The Kinks: how Ray Davies turned a childhood hospital view of the Thames into pop's most tender love letter to London.
+- [You Really Got Me: The Take Ray Davies Refused](https://1960smusic.net/blog/songs/you-really-got-me-kinks/): How Ray Davies refused to release the first take, forced a re-record at his own label's expense, and built a blueprint for hard rock.
+- [All Day and All of the Night: The Riff The Doors Copied](https://1960smusic.net/blog/songs/all-day-and-all-of-the-night-kinks/): How The Kinks doubled down on their own riff formula, then won a royalties fight when The Doors borrowed it too closely.
+- [Kinks Sunny Afternoon: Written During a Real Breakdown](https://1960smusic.net/blog/songs/sunny-afternoon-kinks/): How Ray Davies wrote a breezy tax satire while recovering from a real nervous breakdown, then knocked The Beatles off number one.
+- [Please Please Me: The Beatles' First UK Number One](https://1960smusic.net/blog/songs/please-please-me-beatles/): How John Lennon's Roy Orbison homage became The Beatles' first chart-topping single after George Martin sped up its tempo in one session.
+- [(I Can't Get No) Satisfaction: Written in His Sleep](https://1960smusic.net/blog/songs/i-cant-get-no-satisfaction-rolling-stones/): How Keith Richards wrote the riff half asleep in a Florida motel room and turned it into the Stones' first US number one.
+- [Paint It Black Stones: The Hit Born From a Studio Joke](https://1960smusic.net/blog/songs/paint-it-black-rolling-stones/): How a joke on the organ and Brian Jones's brand-new sitar turned into the first sitar song ever to hit number one in the US and UK.
+- [She Loves You: Inside The Beatles' Breakthrough 1963 Single](https://1960smusic.net/blog/songs/she-loves-you-beatles/): How The Beatles wrote their biggest UK single on a tour bus, recorded it in a single day, and built pop's most famous closing chord in 1963.
+- [I Want to Hold Your Hand: How The Beatles Broke America](https://1960smusic.net/blog/songs/i-want-to-hold-your-hand-beatles/): How The Beatles wrote it eyeball to eyeball, then rode it to their first US number one and a nation-changing Ed Sullivan debut.
+
+## On This Day
+- [On This Day: September 6 in 1960s Music](https://1960smusic.net/blog/on-this-day/september-6/): 13 verified 1960s music events from September 6: Jimi Hendrix's Seattle homecoming, the Beatles finishing While My Guitar Gently Weeps, and Johnny Cash hitting No. 1 with At San Quentin.
+- [On This Day: September 4 in 1960s Music](https://1960smusic.net/blog/on-this-day/september-4/): 14 verified 1960s music events from September 4: Ringo's first Beatles session cuts Love Me Do, the Animals' US debut, Help! hits No. 1, and the Highwaymen top the charts.
+- [On This Day: September 5 in 1960s Music](https://1960smusic.net/blog/on-this-day/september-5/): 10 verified 1960s music events from September 5: the Animals hit No. 1 with House of the Rising Sun, the Beatles cut I Am the Walrus, and the Doors debut on Top of the Pops.
+- [On This Day: September 2 in 1960s Music](https://1960smusic.net/blog/on-this-day/september-2/): 21 verified 1960s music events from September 2: Hendrix's most famous cover, Beatles and Stones history, chart-topping hits, and a Jodeci birth, each dated and sourced.
+- [On This Day: September 3 in 1960s Music](https://1960smusic.net/blog/on-this-day/september-3/): 23 verified 1960s music events from September 3: Ringo Starr rejoins the Beatles, four different Beatles milestones across the decade, Dylan's electric Hollywood Bowl debut, and a Rolling Stones riot in Dublin, each dated and sourced.
+- [On This Day: September 1 in 1960s Music](https://1960smusic.net/blog/on-this-day/september-1/): 21 verified 1960s music events from September 1: chart hits, festival closings, Beatles history, and notable births, each dated and sourced.
+
+## Trending
+- [1960s Rock Legends Are Still the Reference Point in 2026](https://1960smusic.net/blog/trending/1960s-rock-legends/): A new 2026 interview reframes the Rolling Stones, Bob Dylan and Paul McCartney as 1960s rock legends nobody has replaced yet, and here's why.
+- [Dolly Parton Dead at 80: What Really Happened](https://1960smusic.net/blog/trending/dolly-parton-dead/): Dolly Parton dead at 80: the confirmed cause of death, her official family statement, and why tribute clips are flooding TikTok right now.
+- [Rhythm of the Rain Is Trending on TikTok Again](https://1960smusic.net/blog/trending/rhythm-of-the-rain-cascades/): Rhythm of the Rain by The Cascades is resurfacing on TikTok decades after its 1963 chart run. The real story behind the song, and why it's trending now.
