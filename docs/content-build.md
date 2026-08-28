@@ -58,7 +58,7 @@ Live rows (1-12) moved to [`docs/content-build-archive.md`](content-build-archiv
 | 23 | The Yardbirds bio | /blog/artists/the-yardbirds/ | artist-bio | british-invasion | live | The Yardbirds | yKI7c9x2lbM | |
 | 24 | For Your Love | /blog/songs/for-your-love-yardbirds/ | song-story | british-invasion | live | For Your Love | yKI7c9x2lbM | |
 | 25 | Heart Full of Soul | /blog/songs/heart-full-of-soul-yardbirds/ | song-story | british-invasion | live | Heart Full of Soul | pM1qZBFiOLU | yt |
-| 26 | Over Under Sideways Down | /blog/songs/over-under-sideways-down-yardbirds/ | song-story | british-invasion | not started | Over Under Sideways Down | OUIbVrev-yk | |
+| 26 | Over Under Sideways Down | /blog/songs/over-under-sideways-down-yardbirds/ | song-story | british-invasion | live | Over Under Sideways Down Yardbirds | OUIbVrev-yk | |
 | 27 | The Dave Clark Five bio | /blog/artists/the-dave-clark-five/ | artist-bio | british-invasion | not started | The Dave Clark Five | NHtNFaa2ne0 | yt |
 | 28 | Glad All Over | /blog/songs/glad-all-over-dave-clark-five/ | song-story | british-invasion | not started | Glad All Over | NHtNFaa2ne0 | yt |
 | 29 | Bits and Pieces | /blog/songs/bits-and-pieces-dave-clark-five/ | song-story | british-invasion | not started | Bits and Pieces | SzTQduUZFY8 | |

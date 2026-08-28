@@ -315,6 +315,15 @@
       "description": "Heart Full of Soul by The Yardbirds turned a scrapped sitar session into Jeff Beck's fuzz guitar breakthrough in 1965. Here is the real story behind it.",
       "date": "2026-08-27",
       "genre": "british-invasion"
+    },
+    {
+      "id": "over-under-sideways-down-yardbirds",
+      "title": "Over Under Sideways Down: The Yardbirds' Raga Rock Riff",
+      "slug": "/blog/songs/over-under-sideways-down-yardbirds/",
+      "type": "song-story",
+      "description": "Over Under Sideways Down Yardbirds fans still ask about: the 1966 raga rock riff, chart run, and studio story behind Jeff Beck's boldest Yardbirds single.",
+      "date": "2026-08-27",
+      "genre": "british-invasion"
     }
   ]
 }
