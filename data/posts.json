@@ -170,7 +170,8 @@
       "type": "on-this-day",
       "description": "21 verified 1960s music events from September 1: chart hits, festival closings, Beatles history, and notable births, each dated and sourced.",
       "date": "2026-08-20",
-      "genre": null
+      "genre": null,
+      "seq": 1
     },
     {
       "id": "on-this-day-september-2",
@@ -179,7 +180,8 @@
       "type": "on-this-day",
       "description": "21 verified 1960s music events from September 2: Hendrix's most famous cover, Beatles and Stones history, chart-topping hits, and a Jodeci birth, each dated and sourced.",
       "date": "2026-08-21",
-      "genre": null
+      "genre": null,
+      "seq": 2
     },
     {
       "id": "on-this-day-september-3",
@@ -188,7 +190,8 @@
       "type": "on-this-day",
       "description": "23 verified 1960s music events from September 3: Ringo Starr rejoins the Beatles, four different Beatles milestones across the decade, Dylan's electric Hollywood Bowl debut, and a Rolling Stones riot in Dublin, each dated and sourced.",
       "date": "2026-08-21",
-      "genre": null
+      "genre": null,
+      "seq": 3
     },
     {
       "id": "on-this-day-september-4",
@@ -197,7 +200,8 @@
       "type": "on-this-day",
       "description": "14 verified 1960s music events from September 4: Ringo's first Beatles session cuts Love Me Do, the Animals' US debut, Help! hits No. 1, and the Highwaymen top the charts.",
       "date": "2026-08-27",
-      "genre": null
+      "genre": null,
+      "seq": 4
     },
     {
       "id": "country-60s",
@@ -305,7 +309,8 @@
       "type": "on-this-day",
       "description": "10 verified 1960s music events from September 5: the Animals hit No. 1 with House of the Rising Sun, the Beatles cut I Am the Walrus, and the Doors debut on Top of the Pops.",
       "date": "2026-08-27",
-      "genre": null
+      "genre": null,
+      "seq": 5
     },
     {
       "id": "heart-full-of-soul-yardbirds",
@@ -324,6 +329,16 @@
       "description": "Over Under Sideways Down Yardbirds fans still ask about: the 1966 raga rock riff, chart run, and studio story behind Jeff Beck's boldest Yardbirds single.",
       "date": "2026-08-27",
       "genre": "british-invasion"
+    },
+    {
+      "id": "on-this-day-september-6",
+      "title": "On This Day: September 6 in 1960s Music",
+      "slug": "/blog/on-this-day/september-6/",
+      "type": "on-this-day",
+      "description": "13 verified 1960s music events from September 6: Jimi Hendrix's Seattle homecoming, the Beatles finishing While My Guitar Gently Weeps, and Johnny Cash hitting No. 1 with At San Quentin.",
+      "date": "2026-08-28",
+      "genre": null,
+      "seq": 6
     }
   ]
 }

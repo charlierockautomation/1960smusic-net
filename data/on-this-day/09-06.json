@@ -1,0 +1,200 @@
+{
+  "date_label": "September 6",
+  "date_slug": "september-6",
+  "flagship": {
+    "year": 1968,
+    "category": "concert",
+    "headline": "Jimi Hendrix plays a triumphant Seattle homecoming",
+    "summary_line_1": "The Jimi Hendrix Experience headlined Seattle Center Coliseum with Vanilla Fudge, Eire Apparent, and Soft Machine opening, Jimi's second hometown show of 1968 after spending the afternoon visiting family and friends.",
+    "summary_line_2": "It remains one of the era's loudest, most electric homecoming concerts, cementing Hendrix's psychedelic rock sound in the city where he grew up.",
+    "youtube_id": "WGoDaYjdfSg",
+    "image": null
+  },
+  "stats": [
+    { "value": 13, "label": "verified events" },
+    { "value": 5, "label": "event categories" },
+    { "value": 10, "label": "years covered" }
+  ],
+  "years": [
+    {
+      "year": 1969,
+      "events": [
+        {
+          "category": "chart",
+          "headline": "Johnny Cash's At San Quentin hits No. 1 in Canada",
+          "summary_line_1": "The RPM chart in Canada put Johnny Cash's live album At San Quentin at No. 1 on September 6, 1969, months after Cash recorded the show inside the prison's dining hall that February.",
+          "summary_line_2": "The album's biggest track, A Boy Named Sue, became Cash's signature crossover hit and helped push 1960s country music onto pop radio far beyond Nashville.",
+          "youtube_id": "iGBMok_tqNo",
+          "image": null,
+          "internal_link": { "text": "1960s country music", "url": "/blog/genres/country-60s/" },
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/List_of_Canadian_number-one_albums_of_1969" }
+        }
+      ]
+    },
+    {
+      "year": 1968,
+      "events": [
+        {
+          "category": "concert",
+          "headline": "Jimi Hendrix plays a triumphant Seattle homecoming",
+          "summary_line_1": "The Jimi Hendrix Experience headlined Seattle Center Coliseum with Vanilla Fudge, Eire Apparent, and Soft Machine opening, Jimi's second hometown show of 1968 after spending the afternoon visiting family and friends.",
+          "summary_line_2": "It remains one of the era's loudest, most electric homecoming concerts, cementing Hendrix's psychedelic rock sound in the city where he grew up.",
+          "youtube_id": "WGoDaYjdfSg",
+          "image": null,
+          "internal_link": { "text": "psychedelic rock", "url": "/blog/genres/psychedelic-rock/" },
+          "external_link": { "text": "HistoryLink.org", "url": "https://www.historylink.org/file/21124" }
+        },
+        {
+          "category": "industry",
+          "headline": "The Beatles finish While My Guitar Gently Weeps",
+          "summary_line_1": "George Harrison overdubbed organ and two lead vocals while Paul McCartney added harmony vocals and a heavily distorted bass line, completing the song a day after Eric Clapton played lead guitar live with the band.",
+          "summary_line_2": "The track became one of the White Album's most beloved deep cuts, and Clapton's guest solo, still often misremembered as a same-day overdub, marked the first time an outside guitarist played on a Beatles record.",
+          "youtube_id": "bI8P6ZSHSvE",
+          "image": null,
+          "internal_link": { "text": "The Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": { "text": "The Beatles Bible", "url": "https://www.beatlesbible.com/1968/09/06/recording-while-my-guitar-gently-weeps-5/" }
+        }
+      ]
+    },
+    {
+      "year": 1967,
+      "events": [
+        {
+          "category": "industry",
+          "headline": "Canned Heat records On the Road Again",
+          "summary_line_1": "Canned Heat cut the hypnotic, drone-heavy version of On the Road Again at Liberty Studios in Los Angeles, with new drummer Adolfo de la Parra driving Alan Wilson's eerie falsetto and harmonica.",
+          "summary_line_2": "Released the following April, it became the blues rock band's breakthrough single and a defining sound of the psychedelic rock era's blues revival.",
+          "youtube_id": "qRKNw477onU",
+          "image": null,
+          "internal_link": { "text": "psychedelic rock", "url": "/blog/genres/psychedelic-rock/" },
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/On_the_Road_Again_(Canned_Heat_song)" }
+        },
+        {
+          "category": "industry",
+          "headline": "Paul McCartney demos The Fool on the Hill alone",
+          "summary_line_1": "Paul McCartney recorded a solo piano and vocal demo of The Fool on the Hill in a single take at Abbey Road, with no other Beatles on the tape.",
+          "summary_line_2": "The demo guided George Martin's arrangement when the full band picked up the song later that month, adding the recorders and flutes that became its signature sound.",
+          "youtube_id": "wsRatIMUSu8",
+          "image": null,
+          "internal_link": { "text": "The Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": { "text": "The Beatles Bible", "url": "https://www.beatlesbible.com/1967/09/06/recording-mixing-i-am-the-walrus-the-fool-on-the-hill-blue-jay-way/" }
+        }
+      ]
+    },
+    {
+      "year": 1966,
+      "events": [
+        {
+          "category": "release",
+          "headline": "The Byrds release Mr. Spaceman",
+          "summary_line_1": "Columbia Records released the Byrds' quirky, country-tinged single Mr. Spaceman, backed with What's Happening?!?!, pulled from their experimental album Fifth Dimension.",
+          "summary_line_2": "Jim McGuinn's melodic space-rock song reached the Billboard Hot 100 and planted an early seed for the country rock sound the folk rock band would fully embrace two years later.",
+          "youtube_id": "vpZpdqg_cVo",
+          "image": null,
+          "internal_link": { "text": "folk rock", "url": "/blog/genres/folk-rock/" },
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Mr._Spaceman" }
+        }
+      ]
+    },
+    {
+      "year": 1965,
+      "events": [
+        {
+          "category": "industry",
+          "headline": "The Rolling Stones record I'm Free",
+          "summary_line_1": "The Rolling Stones cut the Byrds-influenced folk rock track I'm Free at RCA Studios in Hollywood, with Brian Jones on a shimmering 12-string guitar.",
+          "summary_line_2": "Released as the B-side to Get Off of My Cloud, the Mick Jagger and Keith Richards song became an enduring anthem of youth independence.",
+          "youtube_id": "S6InAX5IAQM",
+          "image": null,
+          "internal_link": { "text": "The Rolling Stones", "url": "/blog/artists/the-rolling-stones/" },
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/I%27m_Free_(Rolling_Stones_song)" }
+        }
+      ]
+    },
+    {
+      "year": 1964,
+      "events": [
+        {
+          "category": "concert",
+          "headline": "The Beatles play two sold-out Detroit shows",
+          "summary_line_1": "The Beatles performed two concerts at Detroit's 15,000-capacity Olympia Stadium, drawing more than 30,000 fans across the afternoon and evening shows on their first full North American tour.",
+          "summary_line_2": "The band used their Detroit press conference to praise the Tamla-Motown label, a hometown tribute that capped one of the loudest, most chaotic stops of the tour.",
+          "youtube_id": "zx2TFk0vh1I",
+          "image": null,
+          "internal_link": { "text": "The Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": { "text": "The Beatles Bible", "url": "https://www.beatlesbible.com/1964/09/06/live-olympia-stadium-detroit/" }
+        }
+      ]
+    },
+    {
+      "year": 1963,
+      "events": [
+        {
+          "category": "industry",
+          "headline": "Cilla Black signs with Brian Epstein",
+          "summary_line_1": "Liverpool singer Priscilla White signed a management contract with Beatles manager Brian Epstein, who insisted she adopt the stage name Cilla Black.",
+          "summary_line_2": "Produced by George Martin, her debut single Love of the Loved followed three weeks later, launching a run of 19 UK Top 40 hits that made her one of the defining female voices of the British Invasion.",
+          "youtube_id": "eJ4rr-K_Bqo",
+          "image": null,
+          "internal_link": { "text": "British Invasion", "url": "/blog/genres/british-invasion/" },
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Cilla_Black" }
+        }
+      ]
+    },
+    {
+      "year": 1962,
+      "events": [
+        {
+          "category": "culture",
+          "headline": "Elvis Presley causes a scene filming in Seattle",
+          "summary_line_1": "MGM closed the Gayway amusement area of the Seattle World's Fair so Elvis Presley could film outdoor scenes for It Happened at the World's Fair, drawing hundreds of fans to the fairground's edges.",
+          "summary_line_2": "The chaotic scene captured the relentless fan frenzy that followed Presley through his 1960s Hollywood movie years, months before the film's title song One Broken Heart for Sale became a Top 20 hit.",
+          "youtube_id": "5JtDuDTtWKs",
+          "image": null,
+          "internal_link": null,
+          "external_link": { "text": "Elvis History Blog", "url": "http://www.elvis-history-blog.com/elvis-in-seattle.html" }
+        },
+        {
+          "category": "industry",
+          "headline": "The Beach Boys finish their debut album",
+          "summary_line_1": "The Beach Boys held their final session for Surfin' Safari at Capitol Studios, tracking County Fair, Cuckoo Clock, Heads You Win Tails I Lose, and a cover of Moon Dawg under producer Nik Venet.",
+          "summary_line_2": "The completed album launched the group's run as the sound of the surf rock era, built on Brian Wilson's earliest fairground organ arrangements and theatrical songwriting.",
+          "youtube_id": "1SNXYv36SE4",
+          "image": null,
+          "internal_link": { "text": "surf rock", "url": "/blog/genres/garage-surf-rock/" },
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Surfin%27_Safari" }
+        }
+      ]
+    },
+    {
+      "year": 1961,
+      "events": [
+        {
+          "category": "concert",
+          "headline": "Bob Dylan tapes his earliest known live set",
+          "summary_line_1": "A twenty-year-old Bob Dylan performed at the Gaslight Cafe in Greenwich Village, where manager Terri Thal recorded the set that became known as the First Gaslight Tape.",
+          "summary_line_2": "It captured the earliest known live versions of his original songs, including Song to Woody, months before he signed to Columbia Records and became a defining voice of folk rock.",
+          "youtube_id": "lOWfCVQBixs",
+          "image": null,
+          "internal_link": { "text": "folk rock", "url": "/blog/genres/folk-rock/" },
+          "external_link": { "text": "The First Gaslight Tape", "url": "https://www.flaggingdown.com/p/the-first-gaslight-tape" }
+        }
+      ]
+    },
+    {
+      "year": 1960,
+      "events": [
+        {
+          "category": "industry",
+          "headline": "Max Roach completes the Freedom Now Suite sessions",
+          "summary_line_1": "Max Roach led his quintet with vocalist Abbey Lincoln through the second and final session for We Insist! Max Roach's Freedom Now Suite at Nola Penthouse Sound Studio, tracking the vocal-drum duet Triptych along with All Africa and Tears for Johannesburg.",
+          "summary_line_2": "Released the following January on Candid Records, the album became one of the most overtly political jazz statements of the early Civil Rights era, fusing hard bop with African rhythm.",
+          "youtube_id": "eN-QvnTz5M8",
+          "image": null,
+          "internal_link": { "text": "1960s jazz", "url": "/blog/genres/jazz-easy-listening/" },
+          "external_link": { "text": "Library of Congress", "url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/We-Insist-Max-Roachs-Freedom-Now-Suite_Gammage.pdf" }
+        }
+      ]
+    }
+  ]
+}

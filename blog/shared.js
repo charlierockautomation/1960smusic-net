@@ -55,6 +55,15 @@ function byDateDesc(a, b) {
   return a.date < b.date ? 1 : a.date > b.date ? -1 : 0;
 }
 
+/* on-this-day posts often share a publish date (several built same day),
+   so byDateDesc alone can't tell them apart. `seq` is the queue row number
+   from docs/on-this-day-build.md, which is strictly calendar-ordered, so it
+   breaks ties correctly. Falls back to byDateDesc if seq is ever missing. */
+function byOtdDesc(a, b) {
+  if (typeof a.seq === 'number' && typeof b.seq === 'number') return b.seq - a.seq;
+  return byDateDesc(a, b);
+}
+
 /* renders one post as a .genre-card (existing site card style, reused as-is) */
 function postCardHtml(post) {
   const label = TYPE_LABELS[post.type] || post.type;
@@ -72,7 +81,7 @@ async function renderBlogIndex(limit) {
     const grid = document.getElementById('posts-' + type);
     const seeAll = document.getElementById('seeall-' + type);
     if (!grid) return;
-    const ofType = posts.filter(function (p) { return p.type === type; }).sort(byDateDesc);
+    const ofType = posts.filter(function (p) { return p.type === type; }).sort(type === 'on-this-day' ? byOtdDesc : byDateDesc);
     if (!ofType.length) {
       grid.outerHTML = '<p class="sub">New ' + TYPE_SECTION_TITLES[type].toLowerCase() + ' coming soon.</p>';
       if (seeAll) seeAll.hidden = true;
@@ -87,7 +96,7 @@ async function renderBlogIndex(limit) {
 async function renderArchive(type) {
   const posts = await loadPosts();
   const grid = document.getElementById('archive-grid');
-  const ofType = posts.filter(function (p) { return p.type === type; }).sort(byDateDesc);
+  const ofType = posts.filter(function (p) { return p.type === type; }).sort(type === 'on-this-day' ? byOtdDesc : byDateDesc);
   if (!ofType.length) {
     grid.outerHTML = '<p class="sub">Nothing published in this section yet. Check back soon.</p>';
     return;

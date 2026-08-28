@@ -43,10 +43,22 @@ audit rules) and `docs/on-this-day-template-spec.md` (page structure).
 5. Build locally, run a local server, and get Charlie's explicit
    go-ahead before pushing to `main`.
 6. Once pushed live, in the same session update all of: this file (status
-   -> `live`), `data/posts.json` (new entry, type `on-this-day`),
-   `link-map.md` (status -> `live`, live URL, inbound/outbound links), and
-   regenerate `sitemap.xml` (`python3 gen/generate_sitemap.py`, after
-   `posts.json` is updated). Only then move to the next `not started` row.
+   -> `live`), `data/posts.json` (new entry, type `on-this-day`,
+   **including a `seq` field set to this file's queue row number** — see
+   note below, this is required, not optional), `link-map.md` (status ->
+   `live`, live URL, inbound/outbound links), and regenerate `sitemap.xml`
+   (`python3 gen/generate_sitemap.py`, after `posts.json` is updated). Only
+   then move to the next `not started` row.
+
+**Why `seq` matters:** the `/blog/on-this-day/` archive and the blog index
+sort this type newest-first, but several date pages often get built and
+published on the same real calendar day (their `posts.json` `date` field
+ties). A tie broken by array order silently drifted out of true
+chronological order once before. `seq` (this file's queue row number, which
+is calendar-locked) is what `blog/shared.js`'s `byOtdDesc` actually sorts
+on for `on-this-day` posts, so the listing always runs newest-covered-date
+first regardless of publish-date collisions. Never add an `on-this-day`
+entry to `posts.json` without it.
 
 **Never use the Agent/Task tool (subagents or delegation) for any of this.**
 All research, verification, and building happens directly, single-session.
@@ -71,7 +83,7 @@ calendar order and append it here.
 |---|------|------|-----------|--------|
 | 4 | September 4 | /blog/on-this-day/september-4/ | data/on-this-day/09-04.json | live |
 | 5 | September 5 | /blog/on-this-day/september-5/ | data/on-this-day/09-05.json | live |
-| 6 | September 6 | /blog/on-this-day/september-6/ | data/on-this-day/09-06.json | not started |
+| 6 | September 6 | /blog/on-this-day/september-6/ | data/on-this-day/09-06.json | live |
 | 7 | September 7 | /blog/on-this-day/september-7/ | data/on-this-day/09-07.json | not started |
 | 8 | September 8 | /blog/on-this-day/september-8/ | data/on-this-day/09-08.json | not started |
 | 9 | September 9 | /blog/on-this-day/september-9/ | data/on-this-day/09-09.json | not started |
