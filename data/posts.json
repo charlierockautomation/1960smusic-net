@@ -339,6 +339,16 @@
       "date": "2026-08-28",
       "genre": null,
       "seq": 6
+    },
+    {
+      "id": "on-this-day-september-7",
+      "title": "On This Day: September 7 in 1960s Music",
+      "slug": "/blog/on-this-day/september-7/",
+      "type": "on-this-day",
+      "description": "15 verified 1960s music events from September 7: Led Zeppelin's live debut in Denmark, the Beatles' Toronto Beatlemania, and Jimi Hendrix's Vancouver homecoming with family.",
+      "date": "2026-08-29",
+      "genre": null,
+      "seq": 7
     }
   ]
 }
