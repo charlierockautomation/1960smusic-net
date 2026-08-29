@@ -349,6 +349,16 @@
       "date": "2026-08-29",
       "genre": null,
       "seq": 7
+    },
+    {
+      "id": "on-this-day-september-8",
+      "title": "On This Day: September 8 in 1960s Music",
+      "slug": "/blog/on-this-day/september-8/",
+      "type": "on-this-day",
+      "description": "13 verified 1960s music events from September 8: the secret Beatles Apple tape that rewrote their breakup story, death threats in Montreal, and Star Trek's premiere.",
+      "date": "2026-08-29",
+      "genre": null,
+      "seq": 8
     }
   ]
 }
