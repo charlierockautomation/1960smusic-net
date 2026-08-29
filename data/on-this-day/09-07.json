@@ -1,0 +1,210 @@
+{
+  "date_label": "September 7",
+  "date_slug": "september-7",
+  "flagship": {
+    "year": 1968,
+    "category": "concert",
+    "headline": "Led Zeppelin plays its first-ever live show",
+    "summary_line_1": "Jimmy Page, Robert Plant, John Paul Jones, and John Bonham, billed as the New Yardbirds, played their first concert together in a converted school gymnasium in Gladsaxe, Denmark, opening with Train Kept A-Rollin' for 1,200 curious teenagers.",
+    "summary_line_2": "The set previewed early versions of songs headed for their debut album, including Communication Breakdown, and the response was strong enough to send the band straight into the studio once they got home to London.",
+    "youtube_id": "2atkj_KWLl0",
+    "image": null
+  },
+  "stats": [
+    { "value": 15, "label": "verified events" },
+    { "value": 5, "label": "event categories" },
+    { "value": 8, "label": "years covered" }
+  ],
+  "years": [
+    {
+      "year": 1969,
+      "events": [
+        {
+          "category": "concert",
+          "headline": "King Crimson plays a legendary club show in Chesterfield",
+          "summary_line_1": "King Crimson performed at the Victoria Ballroom Jazz Club in Chesterfield, England, just weeks before releasing their debut album In the Court of the Crimson King, running through early versions of 21st Century Schizoid Man and Epitaph.",
+          "summary_line_2": "Tapes of the show survive as one of the most bootlegged documents of the band's earliest lineup, a snapshot of progressive rock arriving nearly fully formed.",
+          "youtube_id": "7OvW8Z7kiws",
+          "image": null,
+          "internal_link": null,
+          "external_link": { "text": "Discogs", "url": "https://www.discogs.com/release/10568313-King-Crimson-September-7-1969-Jazz-Club-Chesterfield-England" }
+        }
+      ]
+    },
+    {
+      "year": 1968,
+      "events": [
+        {
+          "category": "concert",
+          "headline": "Led Zeppelin plays its first-ever live show",
+          "summary_line_1": "Jimmy Page, Robert Plant, John Paul Jones, and John Bonham, billed as the New Yardbirds, played their first concert together in a converted school gymnasium in Gladsaxe, Denmark, opening with Train Kept A-Rollin' for 1,200 curious teenagers.",
+          "summary_line_2": "The set previewed early versions of songs headed for their debut album, including Communication Breakdown, and the response was strong enough to send the band straight into the studio once they got home to London.",
+          "youtube_id": "2atkj_KWLl0",
+          "image": null,
+          "internal_link": null,
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Led_Zeppelin_Scandinavian_Tour_1968" }
+        },
+        {
+          "category": "concert",
+          "headline": "The Doors close out their first UK shows at the Roundhouse",
+          "summary_line_1": "The Doors played the second of two nights at London's Roundhouse, the climax of their first-ever concerts in the United Kingdom, with Granada Television cameras capturing the performances for the documentary The Doors Are Open.",
+          "summary_line_2": "Jim Morrison's theatrical intensity that night, on a bill built around Light My Fire, left a lasting impression on British fans who had only known the band from records until then.",
+          "youtube_id": "qoX6AKuYWL8",
+          "image": null,
+          "internal_link": { "text": "psychedelic rock", "url": "/blog/genres/psychedelic-rock/" },
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Doors_Are_Open" }
+        },
+        {
+          "category": "concert",
+          "headline": "Jimi Hendrix plays a personal homecoming show in Vancouver",
+          "summary_line_1": "The Jimi Hendrix Experience played the Pacific Coliseum in Vancouver with Vanilla Fudge and Soft Machine opening, a stop that carried extra weight because Hendrix's grandmother Nora lived in the city and he spent the afternoon with family before the show.",
+          "summary_line_2": "He tore through a set built around Purple Haze and other early hits, another stop on a 1968 tour that was cementing his psychedelic rock sound as the loudest thing in music.",
+          "youtube_id": "WGoDaYjdfSg",
+          "image": null,
+          "internal_link": { "text": "psychedelic rock", "url": "/blog/genres/psychedelic-rock/" },
+          "external_link": { "text": "the official Jimi Hendrix site", "url": "https://www.jimihendrix.com/encyclopedia-item/september-7-1968-jimi-travels-from-seattle-to-vancouver-british-columbia-canada-to-ready-for-a-performance-that-night-at-the-pacific-coliseum/" }
+        }
+      ]
+    },
+    {
+      "year": 1967,
+      "events": [
+        {
+          "category": "release",
+          "headline": "Aretha Franklin releases (You Make Me Feel Like) A Natural Woman",
+          "summary_line_1": "Atlantic Records released Aretha Franklin's (You Make Me Feel Like) A Natural Woman, a song Carole King and Gerry Goffin wrote for her in a single evening after producer Jerry Wexler tossed off the title as a challenge.",
+          "summary_line_2": "The gospel-fueled performance climbed to No. 8 on the Billboard Hot 100 and became one of the defining vocal performances of 1960s soul music.",
+          "youtube_id": "va3sgHayM7k",
+          "image": null,
+          "internal_link": { "text": "1960s soul music", "url": "/blog/genres/motown-soul/" },
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/(You_Make_Me_Feel_Like)_A_Natural_Woman" }
+        },
+        {
+          "category": "industry",
+          "headline": "The Beatles finish vocals on Blue Jay Way",
+          "summary_line_1": "The Beatles returned to EMI Studios to finish George Harrison's Blue Jay Way, working through the night on overdubs and double-tracking Harrison's lead vocal through a Hammond organ's Leslie speaker for its eerie, swirling effect.",
+          "summary_line_2": "Built for the Magical Mystery Tour soundtrack, the song became one of the era's clearest examples of the band chasing pure studio atmosphere over a conventional pop structure.",
+          "youtube_id": "ixmOAb6qzvY",
+          "image": null,
+          "internal_link": { "text": "The Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": { "text": "The Beatles Bible", "url": "https://www.beatlesbible.com/1967/09/07/recording-blue-jay-way/" }
+        },
+        {
+          "category": "industry",
+          "headline": "The Rolling Stones wrap a chaotic Satanic Majesties session block",
+          "summary_line_1": "The Rolling Stones closed out a haphazard run of sessions at Olympic Sound Studios that had stretched since August 10, piecing together the psychedelic tracks that would become Their Satanic Majesties Request.",
+          "summary_line_2": "Bassist Bill Wyman later described the sessions as a nightly lottery of who would even show up, a disorganized process that nonetheless produced 2000 Light Years from Home, the album's trippiest and most enduring track.",
+          "youtube_id": "RLhFT7YXnoI",
+          "image": null,
+          "internal_link": { "text": "The Rolling Stones", "url": "/blog/artists/the-rolling-stones/" },
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Their_Satanic_Majesties_Request" }
+        }
+      ]
+    },
+    {
+      "year": 1965,
+      "events": [
+        {
+          "category": "release",
+          "headline": "Bob Dylan releases Positively 4th Street",
+          "summary_line_1": "Columbia Records put out Bob Dylan's Positively 4th Street, a biting non-album single recorded during the Highway 61 Revisited sessions and built on Al Kooper's swirling organ.",
+          "summary_line_2": "Aimed squarely at the Greenwich Village folk scene that had turned on him for going electric, the song still climbed to No. 7 on the Billboard Hot 100, proof that Dylan's sharpest writing could dominate the pop charts as easily as folk clubs.",
+          "youtube_id": "aehwEu8SBSo",
+          "image": null,
+          "internal_link": { "text": "folk rock", "url": "/blog/genres/folk-rock/" },
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Positively_4th_Street" }
+        },
+        {
+          "category": "broadcast",
+          "headline": "Sump'n Else debuts on Dallas television",
+          "summary_line_1": "Radio personality Ron Chapman hosted the debut of Sump'n Else, a live teen dance show broadcasting from a storefront studio at Dallas's new NorthPark Shopping Center on WFAA-TV.",
+          "summary_line_2": "The after-school program ran for more than two years and gave national touring acts and Texas garage bands alike a rare local stage, including two of the only television appearances the psychedelic pioneers 13th Floor Elevators, heard here on their breakthrough single You're Gonna Miss Me, ever made.",
+          "youtube_id": "YIVpHNEPzDM",
+          "image": null,
+          "internal_link": { "text": "psychedelic rock", "url": "/blog/genres/psychedelic-rock/" },
+          "external_link": { "text": "Texas State Historical Association", "url": "https://www.tshaonline.org/handbook/entries/sumpn-else" }
+        }
+      ]
+    },
+    {
+      "year": 1964,
+      "events": [
+        {
+          "category": "concert",
+          "headline": "The Beatles play two sold-out shows at Maple Leaf Gardens",
+          "summary_line_1": "The Beatles performed back-to-back concerts at Toronto's 15,000-capacity Maple Leaf Gardens, selling more than 35,000 tickets combined and drawing fans who skipped school and slept on sidewalks to get in.",
+          "summary_line_2": "Screams drowned out most of the band's 12-song set, including She Loves You, the single that had turned Canadian teenagers into the same kind of Beatlemaniacs already sweeping Britain and the United States.",
+          "youtube_id": "oVCwDl-S09A",
+          "image": null,
+          "internal_link": { "text": "The Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": { "text": "The Beatles Bible", "url": "https://www.beatlesbible.com/1964/09/07/live-maple-leaf-gardens-toronto-canada/" }
+        }
+      ]
+    },
+    {
+      "year": 1962,
+      "events": [
+        {
+          "category": "industry",
+          "headline": "Quincy Jones records Soul Bossa Nova at A&R Studios",
+          "summary_line_1": "Arranger and bandleader Quincy Jones led his orchestra through a session at A&R Studios in New York for his album Big Band Bossa Nova, tracking the instrumental Soul Bossa Nova among sides blending American big-band swing with Brazilian rhythm.",
+          "summary_line_2": "The bouncy, flute-driven tune sat mostly unnoticed for three decades until it became the theme for Austin Powers, turning one 1962 studio afternoon into one of jazz's most unlikely pop-culture afterlives.",
+          "youtube_id": "y-ndMMYhmi0",
+          "image": null,
+          "internal_link": { "text": "1960s jazz", "url": "/blog/genres/jazz-easy-listening/" },
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Big_Band_Bossa_Nova_(Quincy_Jones_album)" }
+        },
+        {
+          "category": "culture",
+          "headline": "Elvis Presley keeps filming at the Seattle World's Fair",
+          "summary_line_1": "MGM crews kept Elvis Presley on location at the Century 21 Exposition grounds for It Happened at the World's Fair, working around dense crowds of fairgoers drawn by his presence just days into the shoot.",
+          "summary_line_2": "The film's soundtrack single One Broken Heart for Sale reached the Top 20 the following spring, one more sign of how thoroughly Presley's Hollywood years had folded 1960s pop stardom into mainstream moviegoing.",
+          "youtube_id": "5JtDuDTtWKs",
+          "image": null,
+          "internal_link": { "text": "1960s pop", "url": "/blog/genres/pop-brill-building/" },
+          "external_link": { "text": "HistoryLink.org", "url": "https://www.historylink.org/File/9363" }
+        }
+      ]
+    },
+    {
+      "year": 1961,
+      "events": [
+        {
+          "category": "industry",
+          "headline": "Lil Hardin Armstrong records Chicago: The Living Legends",
+          "summary_line_1": "Pianist, composer, and bandleader Lil Hardin Armstrong led her orchestra through a live recording session at the Birdhouse jazz club, cutting the album Chicago: The Living Legends for Riverside Records, including her original composition Clip Joint.",
+          "summary_line_2": "The set captured one of early jazz's most important, and most overlooked, female architects still driving a band decades after she helped shape the sound of Louis Armstrong's own Hot Five.",
+          "youtube_id": "86nOopU5zf8",
+          "image": null,
+          "internal_link": { "text": "traditional jazz", "url": "/blog/genres/jazz-easy-listening/" },
+          "external_link": { "text": "AllMusic", "url": "https://www.allmusic.com/album/chicago-the-living-legends-mw0000107529" }
+        }
+      ]
+    },
+    {
+      "year": 1960,
+      "events": [
+        {
+          "category": "culture",
+          "headline": "Sonny Rollins turns 30 mid-sabbatical on the Williamsburg Bridge",
+          "summary_line_1": "Tenor saxophonist Sonny Rollins spent his 30th birthday deep into a self-imposed break from public performing, practicing alone for hours on the pedestrian walkway of Brooklyn's Williamsburg Bridge.",
+          "summary_line_2": "He had already found his signature voice years earlier on the calypso-inflected St. Thomas, and it was that reputation, and the fear of losing his edge, that drove him to disappear and rebuild his technique from scratch before returning to record in 1962.",
+          "youtube_id": "fdakJqKPRDE",
+          "image": null,
+          "internal_link": { "text": "1960s jazz", "url": "/blog/genres/jazz-easy-listening/" },
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Bridge_(Sonny_Rollins_album)" }
+        },
+        {
+          "category": "culture",
+          "headline": "Come September begins filming with Bobby Darin and Sandra Dee",
+          "summary_line_1": "Producer Robert Arthur and Universal-International started principal photography on the romantic comedy Come September, sending stars Rock Hudson, Gina Lollobrigida, Bobby Darin, and Sandra Dee to Rome and the coastal town of Portofino.",
+          "summary_line_2": "Darin and Dee fell for each other on set and married within months, a real-life romance that made Darin's own instrumental theme from the film feel inseparable from the movie's sunny Riviera backdrop.",
+          "youtube_id": "VPgb9natejI",
+          "image": null,
+          "internal_link": { "text": "early 1960s pop", "url": "/blog/genres/pop-brill-building/" },
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Come_September" }
+        }
+      ]
+    }
+  ]
+}
