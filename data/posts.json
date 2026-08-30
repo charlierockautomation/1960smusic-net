@@ -359,6 +359,16 @@
       "date": "2026-08-29",
       "genre": null,
       "seq": 8
+    },
+    {
+      "id": "on-this-day-september-9",
+      "title": "On This Day: September 9 in 1960s Music",
+      "slug": "/blog/on-this-day/september-9/",
+      "type": "on-this-day",
+      "description": "18 verified 1960s music events from September 9: Hendrix defends Woodstock on Dick Cavett, the Beatles' hurricane-diverted Key West landing, and the Stones' drag-photoshoot promo film.",
+      "date": "2026-08-30",
+      "genre": null,
+      "seq": 9
     }
   ]
 }
