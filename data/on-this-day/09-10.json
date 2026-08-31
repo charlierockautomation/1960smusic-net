@@ -1,0 +1,180 @@
+{
+  "date_label": "September 10",
+  "date_slug": "september-10",
+  "flagship": {
+    "year": 1963,
+    "category": "culture",
+    "headline": "The Beatles hand the Rolling Stones a hit single in a London rehearsal room",
+    "summary_line_1": "John Lennon and Paul McCartney ran into Rolling Stones manager Andrew Loog Oldham on Charing Cross Road, then walked over to the Stones' rehearsal and finished writing I Wanna Be Your Man on the spot, handing it straight to the band.",
+    "summary_line_2": "The Stones turned it into a raw, slide-guitar single that gave them their first UK Top 20 hit that November, and watching Lennon and McCartney write so fast is what pushed Mick Jagger and Keith Richards to start writing their own songs.",
+    "youtube_id": "6jm-P2OpfrQ",
+    "image": null
+  },
+  "stats": [
+    { "value": 12, "label": "verified events" },
+    { "value": 5, "label": "event categories" },
+    { "value": 8, "label": "years covered" }
+  ],
+  "years": [
+    {
+      "year": 1969,
+      "events": [
+        {
+          "category": "concert",
+          "headline": "Hendrix leads Gypsy Sun and Rainbows through a loose New York club set",
+          "summary_line_1": "Jimi Hendrix brought his short-lived Woodstock lineup, Gypsy Sun and Rainbows, into the Salvation club in Greenwich Village for one of only a handful of shows the expanded band ever played.",
+          "summary_line_2": "The set leaned on songs like Izabella that Hendrix was still shaping that same month, giving the small club crowd a rare early listen to material from right after his headline-closing Woodstock set.",
+          "youtube_id": "z4gdWPcADPY",
+          "image": null,
+          "internal_link": null,
+          "external_link": { "text": "setlist.fm", "url": "https://www.setlist.fm/setlist/jimi-hendrix/1969/the-salvation-greenwich-village-ny-2bddcc16.html" }
+        }
+      ]
+    },
+    {
+      "year": 1967,
+      "events": [
+        {
+          "category": "concert",
+          "headline": "Pink Floyd plays their first-ever show in Sweden",
+          "summary_line_1": "Pink Floyd made their Swedish debut at the Gyllene Cirkeln jazz club in Stockholm, just over a month after releasing their first album, The Piper at the Gates of Dawn.",
+          "summary_line_2": "Engineer Anders Lind taped the hour-long show on a Revox deck, one of the only surviving complete live recordings of Syd Barrett fronting the band, playing new album tracks like Astronomy Domine before he left the lineup the following year.",
+          "youtube_id": "8UbNbor3OqQ",
+          "image": null,
+          "internal_link": { "text": "psychedelic rock", "url": "/blog/genres/psychedelic-rock/" },
+          "external_link": { "text": "setlist.fm", "url": "https://www.setlist.fm/setlist/pink-floyd/1967/gyllene-cirkeln-stockholm-sweden-6bd76e22.html" }
+        }
+      ]
+    },
+    {
+      "year": 1966,
+      "events": [
+        {
+          "category": "chart",
+          "headline": "Revolver reaches number one on the Billboard albums chart",
+          "summary_line_1": "The Beatles' seventh studio album, Revolver, climbed to number one on the Billboard Top LPs chart, starting a six-week run at the top just weeks after the band played their final paid concert at Candlestick Park.",
+          "summary_line_2": "Built on backward tape loops, Indian instrumentation, and studio effects the band could never have played live, Revolver marked their full turn from touring group to studio act, with tracks like Tomorrow Never Knows pointing straight at psychedelic rock.",
+          "youtube_id": "m4BuziKGMy4",
+          "image": null,
+          "internal_link": { "text": "the Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": { "text": "Billboard", "url": "https://www.billboard.com/music/pop/beatles-revolver-album-anniversary-7461767/" }
+        },
+        {
+          "category": "chart",
+          "headline": "The Supremes spend a second week at number one with You Can't Hurry Love",
+          "summary_line_1": "The Supremes held onto number one on the Billboard Hot 100 for a second week with You Can't Hurry Love, a Holland-Dozier-Holland single built around a walking bassline rooted in Motown's gospel influences.",
+          "summary_line_2": "It was the group's seventh chart-topping single, proof that Detroit's polished Motown, soul, and R&B sound could dominate national pop radio as easily as it did soul stations.",
+          "youtube_id": "dXrvHakZLaw",
+          "image": null,
+          "internal_link": { "text": "Motown, soul, and R&B", "url": "/blog/genres/motown-soul/" },
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/You_Can%27t_Hurry_Love" }
+        }
+      ]
+    },
+    {
+      "year": 1965,
+      "events": [
+        {
+          "category": "industry",
+          "headline": "The Byrds track Turn! Turn! Turn! at Columbia Studios",
+          "summary_line_1": "The Byrds were back at Columbia Studios in Hollywood working on their Pete Seeger-based single Turn! Turn! Turn!, one of several sessions that stretched across the first two weeks of September with producer Terry Melcher.",
+          "summary_line_2": "Unlike their debut hit Mr. Tambourine Man, where session players had handled most of the instruments, the band was finally playing its own parts, with Jim McGuinn's chiming twelve-string guitar driving the track to number one that December.",
+          "youtube_id": "xVOJla2vYx8",
+          "image": null,
+          "internal_link": null,
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Turn!_Turn!_Turn!" }
+        }
+      ]
+    },
+    {
+      "year": 1964,
+      "events": [
+        {
+          "category": "chart",
+          "headline": "You Really Got Me starts a two-week run at number one in the UK",
+          "summary_line_1": "The Kinks' You Really Got Me began a two-week stay at number one on the UK singles chart, built around Dave Davies' distorted guitar riff, famously cut by slicing his amp speaker with a razor blade.",
+          "summary_line_2": "The single's raw power made the Kinks overnight stars and gave hard rock and heavy metal one of their earliest sonic blueprints.",
+          "youtube_id": "fTTsY-oz6Go",
+          "image": null,
+          "internal_link": { "text": "You Really Got Me", "url": "/blog/songs/you-really-got-me-kinks/" },
+          "external_link": { "text": "the Official Charts Company", "url": "https://www.officialcharts.com/artist/11246/kinks/" }
+        },
+        {
+          "category": "industry",
+          "headline": "Rod Stewart records his first solo single",
+          "summary_line_1": "A nineteen-year-old Rod Stewart recorded his debut solo single, a cover of the blues standard Good Morning Little Schoolgirl, for Decca Records, with a young John Paul Jones playing bass on the session.",
+          "summary_line_2": "The single missed the charts, but the session paired two future rock stars years before Stewart joined the Faces and Jones formed Led Zeppelin.",
+          "youtube_id": "vM-GAal1rwQ",
+          "image": null,
+          "internal_link": null,
+          "external_link": { "text": "On This Day in Music", "url": "https://on-this-day.com/onthisday/thedays/music/sep10.htm" }
+        }
+      ]
+    },
+    {
+      "year": 1963,
+      "events": [
+        {
+          "category": "culture",
+          "headline": "The Beatles hand the Rolling Stones a hit single in a London rehearsal room",
+          "summary_line_1": "John Lennon and Paul McCartney ran into Rolling Stones manager Andrew Loog Oldham on Charing Cross Road, then walked over to the Stones' rehearsal and finished writing I Wanna Be Your Man on the spot, handing it straight to the band.",
+          "summary_line_2": "The Stones turned it into a raw, slide-guitar single that gave them their first UK Top 20 hit that November, and watching Lennon and McCartney write so fast is what pushed Mick Jagger and Keith Richards to start writing their own songs.",
+          "youtube_id": "6jm-P2OpfrQ",
+          "image": null,
+          "internal_link": { "text": "Rolling Stones", "url": "/blog/artists/the-rolling-stones/" },
+          "external_link": { "text": "udiscovermusic", "url": "https://www.udiscovermusic.com/stories/i-wanna-be-your-man/" }
+        },
+        {
+          "category": "culture",
+          "headline": "The Daily Mirror runs its Four Frenzied Little Lord Fauntleroys feature on the Beatles",
+          "summary_line_1": "The Daily Mirror published journalist Donald Zec's feature on the Beatles, Four Frenzied Little Lord Fauntleroys Who Are Earning £5,000 Every Week, after Zec interviewed the band at his London flat the day before.",
+          "summary_line_2": "Zec poked fun at their stone-age hair styles and sudden wealth, but the high-profile national coverage only fed Beatlemania that autumn, just weeks after the band's single She Loves You had topped the UK chart.",
+          "youtube_id": "nGbWU8S3vzs",
+          "image": null,
+          "internal_link": { "text": "the Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": { "text": "American Songwriter", "url": "https://americansongwriter.com/four-frenzied-little-lord-fauntleroys-one-of-the-beatles-funniest-interviews-from-1963/" }
+        }
+      ]
+    },
+    {
+      "year": 1961,
+      "events": [
+        {
+          "category": "chart",
+          "headline": "Ral Donner's Elvis-like ballad peaks at number four",
+          "summary_line_1": "Ral Donner's You Don't Know What You've Got (Until You Lose It) peaked at number four on the Billboard Hot 100, capping an eight-week climb up the chart.",
+          "summary_line_2": "Donner's voice sounded so close to Elvis Presley's that many radio listeners assumed the record was a new Presley single, a comparison that boosted the song's sales while shadowing the rest of Donner's career.",
+          "youtube_id": "0nkJOJjIP_g",
+          "image": null,
+          "internal_link": null,
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/You_Don%27t_Know_What_You%27ve_Got" }
+        }
+      ]
+    },
+    {
+      "year": 1960,
+      "events": [
+        {
+          "category": "broadcast",
+          "headline": "The Dick Clark Show airs its final episode",
+          "summary_line_1": "The Dick Clark Show closed out its run on ABC with a highlights episode, ending nearly three years as a Saturday-night showcase for the era's rising rock and roll and teen-pop acts.",
+          "summary_line_2": "Bobby Rydell's Volare, one of the biggest teen-idol hits of the show's run, captures the polished pop sound that filled its Saturday-night slot before American Bandstand became Dick Clark's signature program.",
+          "youtube_id": "7seu5KXBUuc",
+          "image": null,
+          "internal_link": null,
+          "external_link": { "text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Dick_Clark_Show" }
+        },
+        {
+          "category": "chart",
+          "headline": "Devil or Angel gives Bobby Vee his first number one in Vancouver",
+          "summary_line_1": "Bobby Vee's Devil or Angel, a revival of the Clovers' 1956 R&B ballad, reached number one on Vancouver's CFUN-TASTIC 50 chart, part of the single's run to number six on the US Billboard Hot 100.",
+          "summary_line_2": "The hit turned the seventeen-year-old Fargo singer, who had famously filled in for Buddy Holly's band the night of the 1959 plane crash, into a genuine teen idol.",
+          "youtube_id": "33UrSrmyqJo",
+          "image": null,
+          "internal_link": { "text": "pop and Brill Building", "url": "/blog/genres/pop-brill-building/" },
+          "external_link": { "text": "Vancouver Pop Music Signature Sounds", "url": "https://vancouversignaturesounds.com/hits/artists/bobby-vee/" }
+        }
+      ]
+    }
+  ]
+}
