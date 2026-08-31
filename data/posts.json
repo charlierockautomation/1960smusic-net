@@ -369,6 +369,16 @@
       "date": "2026-08-30",
       "genre": null,
       "seq": 9
+    },
+    {
+      "id": "on-this-day-september-10",
+      "title": "On This Day: September 10 in 1960s Music",
+      "slug": "/blog/on-this-day/september-10/",
+      "type": "on-this-day",
+      "description": "12 verified 1960s music events from September 10: the Beatles hand the Rolling Stones I Wanna Be Your Man, Revolver hits No. 1, and Pink Floyd play their first Sweden show.",
+      "date": "2026-08-31",
+      "genre": null,
+      "seq": 10
     }
   ]
 }
