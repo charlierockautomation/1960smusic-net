@@ -1,0 +1,365 @@
+{
+  "date_label": "September 11",
+  "date_slug": "september-11",
+  "flagship": {
+    "year": 1964,
+    "category": "culture",
+    "headline": "The Beatles refuse to play a segregated crowd at the Gator Bowl",
+    "summary_line_1": "The Beatles told Jacksonville promoters they would not take the stage at the Gator Bowl unless the crowd of more than 20,000 was integrated, then played through 45 mph winds left over from Hurricane Dora with Ringo Starr's drum kit nailed to the stage floor.",
+    "summary_line_2": "The stand came in the middle of their first full US tour behind A Hard Day's Night, and the band wrote a no-segregation clause into every American contract that followed.",
+    "youtube_id": "Yjyj8qnqkYI",
+    "image": null
+  },
+  "stats": [
+    {
+      "value": 19,
+      "label": "verified events"
+    },
+    {
+      "value": 7,
+      "label": "event categories"
+    },
+    {
+      "value": 10,
+      "label": "years covered"
+    }
+  ],
+  "years": [
+    {
+      "year": 1969,
+      "events": [
+        {
+          "category": "industry",
+          "headline": "John Lennon mixes the unreleased track What's the New Mary Jane",
+          "summary_line_1": "John Lennon spent an afternoon session at Abbey Road overseeing three new stereo mixes of What's the New Mary Jane, a strange, effects-heavy Beatles track featuring Yoko Ono that had been left off the White Album.",
+          "summary_line_2": "Lennon was weighing it as a possible Plastic Ono Band single, though the song stayed unreleased until the Anthology 3 compilation surfaced it in 1996.",
+          "youtube_id": "ayGnSBbOasE",
+          "image": null,
+          "internal_link": {
+            "text": "Beatles",
+            "url": "/blog/artists/the-beatles/"
+          },
+          "external_link": null
+        },
+        {
+          "category": "culture",
+          "headline": "Alice Tully Hall opens with the Chamber Music Society's debut concert",
+          "summary_line_1": "Alice Tully Hall opened at Lincoln Center with the first concert by the newly founded Chamber Music Society of Lincoln Center, timed to fall on hall namesake Alice Tully's own birthday.",
+          "summary_line_2": "Led by artistic director Charles Wadsworth, the hall gave classical chamber music a permanent home in New York a decade after Lincoln Center itself opened.",
+          "youtube_id": null,
+          "image": "/blog/on-this-day/september-11/img/alice-tully-hall-2017.jpg",
+          "internal_link": null,
+          "external_link": {
+            "text": "Chamber Music Society of Lincoln Center",
+            "url": "https://www.chambermusicsociety.org/about/history-and-mission"
+          }
+        },
+        {
+          "category": "death",
+          "headline": "Songwriter Leon Payne, the Blind Balladeer, dies at 52",
+          "summary_line_1": "Leon Payne, the blind Texas singer and songwriter known as the Blind Balladeer, died of a heart attack in San Antonio at age 52.",
+          "summary_line_2": "He wrote Lost Highway and They'll Never Take Her Love from Me, two songs Hank Williams turned into country standards, leaving Payne one of the most influential songwriters in 1960s country music even though he rarely charted hits of his own.",
+          "youtube_id": null,
+          "image": null,
+          "internal_link": {
+            "text": "1960s country",
+            "url": "/blog/genres/country-60s/"
+          },
+          "external_link": {
+            "text": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Leon_Payne"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1968,
+      "events": [
+        {
+          "category": "industry",
+          "headline": "The Beatles cut the rhythm track for Glass Onion",
+          "summary_line_1": "The Beatles ran through thirty-four takes of the rhythm track for John Lennon's Glass Onion at Abbey Road, working from 7pm to 3:30 the next morning with Lennon on acoustic guitar, Harrison on electric, McCartney on bass, and Starr on drums.",
+          "summary_line_2": "Take 33 became the master, and Lennon built the lyrics around sly callbacks to Strawberry Fields Forever and I Am the Walrus to needle fans who over-read Beatles songs for hidden meaning.",
+          "youtube_id": "NJayqkGO76A",
+          "image": null,
+          "internal_link": {
+            "text": "Beatles",
+            "url": "/blog/artists/the-beatles/"
+          },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1967,
+      "events": [
+        {
+          "category": "industry",
+          "headline": "The Beatles begin filming Magical Mystery Tour",
+          "summary_line_1": "The Beatles boarded a hired coach at London's Allsop Place to begin filming Magical Mystery Tour, a loosely scripted road trip through the English countryside with a cast of actors and friends along for the ride.",
+          "summary_line_2": "It was the band's first major project without manager Brian Epstein, who had died three weeks earlier, and the surreal, improvised shoot fed straight into psychedelic rock staples like I Am the Walrus.",
+          "youtube_id": "l8WMGBuNaus",
+          "image": null,
+          "internal_link": {
+            "text": "psychedelic rock",
+            "url": "/blog/genres/psychedelic-rock/"
+          },
+          "external_link": {
+            "text": "Beatles Bible",
+            "url": "https://www.beatlesbible.com/1967/09/11/filming-magical-mystery-tour/"
+          }
+        },
+        {
+          "category": "culture",
+          "headline": "Frank Sinatra and Sands boss Carl Cohen come to blows",
+          "summary_line_1": "Frank Sinatra confronted Sands Hotel executive Carl Cohen after new owner Howard Hughes cut off his casino credit, and Cohen knocked out Sinatra's front teeth during the fight.",
+          "summary_line_2": "The brawl ended Sinatra's long, high-rolling residency at the Sands, the same Las Vegas stage where the jazz and easy listening icon had closed sets with saloon songs like One for My Baby, and he moved his act to Caesars Palace soon after.",
+          "youtube_id": "3omQ0Xua5b8",
+          "image": null,
+          "internal_link": {
+            "text": "jazz and easy listening",
+            "url": "/blog/genres/jazz-easy-listening/"
+          },
+          "external_link": {
+            "text": "Casino.org",
+            "url": "https://www.casino.org/news/vegas-myths-re-busted-sinatra-got-his-teeth-knocked-out-by-a-casino-exec/"
+          }
+        },
+        {
+          "category": "birth",
+          "headline": "Future jazz pianist Harry Connick Jr. is born in New Orleans",
+          "summary_line_1": "Harry Connick Jr. was born in New Orleans, Louisiana, and was already playing piano in public by age five.",
+          "summary_line_2": "He grew up steeped in the city's traditional jazz scene before becoming one of the biggest-selling jazz and easy listening vocalists of the decades that followed.",
+          "youtube_id": null,
+          "image": "/blog/on-this-day/september-11/img/harry-connick-jr-2014.jpg",
+          "internal_link": {
+            "text": "jazz and easy listening",
+            "url": "/blog/genres/jazz-easy-listening/"
+          },
+          "external_link": {
+            "text": "Britannica",
+            "url": "https://www.britannica.com/biography/Harry-Connick-Jr"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1966,
+      "events": [
+        {
+          "category": "broadcast",
+          "headline": "The Rolling Stones play Paint It, Black on The Ed Sullivan Show",
+          "summary_line_1": "The Rolling Stones performed Paint It, Black and Lady Jane on The Ed Sullivan Show, then mimed the exclusive TV debut of their next single, Have You Seen Your Mother, Baby, Standing in the Shadow, with Brian Jones playing guitar in a hand cast.",
+          "summary_line_2": "The new single came out twelve days later and reached the top ten on both sides of the Atlantic, proof the band could turn a wall of feedback and horns into a hit just as easily as a sitar-laced ballad.",
+          "youtube_id": "O4irXQhgMqg",
+          "image": null,
+          "internal_link": {
+            "text": "Paint It, Black",
+            "url": "/blog/songs/paint-it-black-rolling-stones/"
+          },
+          "external_link": {
+            "text": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Have_You_Seen_Your_Mother,_Baby,_Standing_in_the_Shadow%3F"
+          }
+        },
+        {
+          "category": "broadcast",
+          "headline": "Louis Armstrong sings Cabaret on the same Ed Sullivan broadcast",
+          "summary_line_1": "Louis Armstrong, one of jazz and easy listening's defining voices, shared the September 11 episode of The Ed Sullivan Show with the Rolling Stones, performing his gravel-voiced take on Cabaret, the title song from the new Broadway musical.",
+          "summary_line_2": "Pairing a jazz elder statesman with rock's rawest new hitmakers on one broadcast showed just how wide 1960s American television's musical range still was.",
+          "youtube_id": "pNtTA7j3IoA",
+          "image": null,
+          "internal_link": {
+            "text": "jazz and easy listening",
+            "url": "/blog/genres/jazz-easy-listening/"
+          },
+          "external_link": null
+        },
+        {
+          "category": "concert",
+          "headline": "The Four Tops tape a second night for their Live! album",
+          "summary_line_1": "The Four Tops recorded a second show at Detroit's Roostertail supper club for what became Four Tops Live!, the group's first live album, following an initial taping there on August 22.",
+          "summary_line_2": "The album captured the Motown, soul, and R&B group's polished stage act on hits like Ask the Lonely and I Can't Help Myself, part of the label's Motown Monday concert series.",
+          "youtube_id": "I1g8b8rfLEs",
+          "image": null,
+          "internal_link": {
+            "text": "Motown, soul, and R&B",
+            "url": "/blog/genres/motown-soul/"
+          },
+          "external_link": {
+            "text": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Four_Tops_Live!"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1965,
+      "events": [
+        {
+          "category": "chart",
+          "headline": "Help! becomes the Beatles' sixth number one album in the US",
+          "summary_line_1": "The Beatles' Help! soundtrack jumped from number 61 to number one on the Billboard Top LPs chart, starting a nine-week run at the top while the title single still held the number one single spot.",
+          "summary_line_2": "It was the band's sixth chart-topping American album in barely two years, proof of how completely Beatlemania had taken over US record buying by the middle of the decade.",
+          "youtube_id": "2Q_ZzBGPdqE",
+          "image": null,
+          "internal_link": {
+            "text": "Beatles",
+            "url": "/blog/artists/the-beatles/"
+          },
+          "external_link": {
+            "text": "Billboard Book of Number One Albums",
+            "url": "https://number1albums.com/help_the_beatles_september_11_1965/"
+          }
+        },
+        {
+          "category": "birth",
+          "headline": "Future electronic musician Moby is born in Harlem",
+          "summary_line_1": "Richard Melville Hall, who later performed as Moby, was born in the Harlem neighborhood of Manhattan.",
+          "summary_line_2": "He grew up on his mother's soul and folk records before becoming one of electronic music's most successful artists, eventually selling more than 20 million albums built on vintage blues and gospel samples.",
+          "youtube_id": null,
+          "image": "/blog/on-this-day/september-11/img/moby-2004.jpg",
+          "internal_link": null,
+          "external_link": {
+            "text": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Moby"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1964,
+      "events": [
+        {
+          "category": "culture",
+          "headline": "The Beatles refuse to play a segregated crowd at the Gator Bowl",
+          "summary_line_1": "The Beatles told Jacksonville promoters they would not take the stage at the Gator Bowl unless the crowd of more than 20,000 was integrated, then played through 45 mph winds left over from Hurricane Dora with Ringo Starr's drum kit nailed to the stage floor.",
+          "summary_line_2": "The stand came in the middle of their first full US tour behind A Hard Day's Night, and the band wrote a no-segregation clause into every American contract that followed.",
+          "youtube_id": "Yjyj8qnqkYI",
+          "image": null,
+          "internal_link": {
+            "text": "Beatles",
+            "url": "/blog/artists/the-beatles/"
+          },
+          "external_link": {
+            "text": "Beatles Magazine",
+            "url": "https://beatlesmagazine.com/jacksonville-1964-when-the-beatles-refused-to-play-to-segregated-audiences/"
+          }
+        },
+        {
+          "category": "industry",
+          "headline": "George Harrison sets up his first publishing company, Mornyork Ltd",
+          "summary_line_1": "George Harrison incorporated Mornyork Ltd in London, his first independent music publishing company, less than a year after Don't Bother Me became his first Beatles composition to make an album.",
+          "summary_line_2": "The company was renamed Harrisongs Ltd that December, giving Harrison direct control over his own songwriting rights years before he became the band's most prolific writer outside Lennon and McCartney.",
+          "youtube_id": "k03IQbaTcxc",
+          "image": null,
+          "internal_link": {
+            "text": "Beatles",
+            "url": "/blog/artists/the-beatles/"
+          },
+          "external_link": {
+            "text": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Harrisongs"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1963,
+      "events": [
+        {
+          "category": "industry",
+          "headline": "Tony Bennett records A Taste of Honey for The Many Moods of Tony",
+          "summary_line_1": "Tony Bennett recorded his version of A Taste of Honey, a theatrical standard that predated the more famous Herb Alpert instrumental hit by two years.",
+          "summary_line_2": "The track landed on his 1964 album The Many Moods of Tony, one more entry in Bennett's run of sophisticated, orchestral jazz and easy listening standards through the decade.",
+          "youtube_id": "D4Avgocs-2s",
+          "image": null,
+          "internal_link": {
+            "text": "jazz and easy listening",
+            "url": "/blog/genres/jazz-easy-listening/"
+          },
+          "external_link": {
+            "text": "the Interactive Tony Bennett Discography",
+            "url": "https://discography.bloggingtonybennett.com/song/a-taste-of-honey/"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1962,
+      "events": [
+        {
+          "category": "industry",
+          "headline": "The Beatles bring in a session drummer to finish Love Me Do",
+          "summary_line_1": "Producer Ron Richards brought session drummer Andy White into the Beatles' EMI Studio Two session to re-record Love Me Do, cutting eighteen takes and dropping Ringo Starr to tambourine, then had the band track P.S. I Love You with White keeping a soft cha-cha beat on bongos while Starr shook maracas.",
+          "summary_line_2": "White's session became the version fans have heard ever since, on the Please Please Me album and every reissue that followed, while Ringo's original take stayed tied to the first pressing of the UK single alone.",
+          "youtube_id": "lSfpCaCYTyg",
+          "image": null,
+          "internal_link": {
+            "text": "Beatles",
+            "url": "/blog/artists/the-beatles/"
+          },
+          "external_link": {
+            "text": "Rolling Stone",
+            "url": "https://www.rollingstone.com/music/music-news/andy-white-beatles-love-me-do-drummer-dead-at-85-56676/"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1961,
+      "events": [
+        {
+          "category": "chart",
+          "headline": "Judy at Carnegie Hall becomes the first live album to hit number one",
+          "summary_line_1": "Judy Garland's double live album Judy at Carnegie Hall, a high point of her jazz and easy listening songbook, reached number one on Billboard's mono album chart in its seventh week, knocking Elvis Presley's Something for Everybody from the top.",
+          "summary_line_2": "It was the first live recording ever to top the American album chart, part of a 13-week run that later made Garland the first woman to win the Grammy for Album of the Year.",
+          "youtube_id": "lfq12giLJp4",
+          "image": null,
+          "internal_link": {
+            "text": "jazz and easy listening",
+            "url": "/blog/genres/jazz-easy-listening/"
+          },
+          "external_link": {
+            "text": "the Library of Congress",
+            "url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/judy.pdf"
+          }
+        },
+        {
+          "category": "industry",
+          "headline": "Frank Sinatra records When the World Was Young at Capitol",
+          "summary_line_1": "Frank Sinatra cut (Ah, the Apple Trees) When the World Was Young at Capitol Studio A in Hollywood with arranger Axel Stordahl, a Johnny Mercer translation of a French original.",
+          "summary_line_2": "The session came during Sinatra's final stretch at Capitol Records before he devoted himself fully to his own label, Reprise, and the song later surfaced on his 1962 album Point of No Return.",
+          "youtube_id": "6BafTT_ljpo",
+          "image": null,
+          "internal_link": null,
+          "external_link": {
+            "text": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/(Ah,_the_Apple_Trees)_When_the_World_Was_Young"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1960,
+      "events": [
+        {
+          "category": "broadcast",
+          "headline": "Nina Simone makes her national TV debut on The Ed Sullivan Show",
+          "summary_line_1": "Nina Simone made her first national television appearance on The Ed Sullivan Show, opening the standard Love Me or Leave Me with a Bach-style piano interlude before closing with her breakout hit I Loves You, Porgy.",
+          "summary_line_2": "The broadcast introduced her classically trained piano work and soul-deep phrasing to a mass American audience, an early step toward her place among the era's defining jazz and easy listening voices.",
+          "youtube_id": "5cnZjClf6zM",
+          "image": null,
+          "internal_link": {
+            "text": "jazz and easy listening",
+            "url": "/blog/genres/jazz-easy-listening/"
+          },
+          "external_link": {
+            "text": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Nina_Simone"
+          }
+        }
+      ]
+    }
+  ]
+}
