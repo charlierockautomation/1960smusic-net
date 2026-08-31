@@ -379,6 +379,16 @@
       "date": "2026-08-31",
       "genre": null,
       "seq": 10
+    },
+    {
+      "id": "on-this-day-september-11",
+      "title": "On This Day: September 11 in 1960s Music",
+      "slug": "/blog/on-this-day/september-11/",
+      "type": "on-this-day",
+      "description": "19 verified 1960s music events from September 11: the Beatles refuse a segregated Gator Bowl crowd, Nina Simone debuts on Ed Sullivan, Judy Garland hits No. 1.",
+      "date": "2026-08-31",
+      "genre": null,
+      "seq": 11
     }
   ]
 }

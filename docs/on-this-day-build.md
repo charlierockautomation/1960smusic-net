@@ -88,7 +88,7 @@ calendar order and append it here.
 | 8 | September 8 | /blog/on-this-day/september-8/ | data/on-this-day/09-08.json | live |
 | 9 | September 9 | /blog/on-this-day/september-9/ | data/on-this-day/09-09.json | live |
 | 10 | September 10 | /blog/on-this-day/september-10/ | data/on-this-day/09-10.json | live |
-| 11 | September 11 | /blog/on-this-day/september-11/ | data/on-this-day/09-11.json | not started |
+| 11 | September 11 | /blog/on-this-day/september-11/ | data/on-this-day/09-11.json | live |
 | 12 | September 12 | /blog/on-this-day/september-12/ | data/on-this-day/09-12.json | not started |
 | 13 | September 13 | /blog/on-this-day/september-13/ | data/on-this-day/09-13.json | not started |
 | 14 | September 14 | /blog/on-this-day/september-14/ | data/on-this-day/09-14.json | not started |
