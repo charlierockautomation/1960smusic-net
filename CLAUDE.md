@@ -125,12 +125,18 @@ reordering rows already locked into the active queue.
 
 ## File Size Ceiling
 
-Tracker/doc files in `docs/` stay under 199 lines. When a file crosses
-that line, split it into an active file (what's in progress/next) and an
-archive or overflow file (done, or paginated-out future rows), the way
-`docs/content-build.md` / `docs/content-build-archive.md` and
-`docs/on-this-day-build.md` / `docs/on-this-day-build-queued.md` already
-do. Update the file's own header to say what got split out and where.
+Every tracker/doc file in `docs/` stays at or under **195 lines** (hard
+ceiling 199, 195 is the working trigger so edits have headroom). The
+moment a file would cross 195, rotate content out into another doc: keep
+an active file (what's in progress/next) and push the rest into an
+archive file (done rows) or a numbered overflow chain (`-queued.md`,
+`-queued-2.md`, `-queued-3.md`, ...) for future rows. Each file that
+paginates further names its successor in its own header. This is how
+`docs/content-build.md` / `-archive.md` / `-queued.md` / `-queued-2.md`
+and `docs/on-this-day-build.md` / `-archive.md` / `-queued.md` /
+`-queued-2.md` already work. When one overflow file empties (its rows
+pulled up into the active file), the next one in the chain becomes the
+source. Update every affected file's header to say what moved and where.
 
 ## On This Day Pace
 

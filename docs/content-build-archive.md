@@ -1,7 +1,8 @@
 # Content Build Archive
 
-Live rows moved out of `docs/content-build.md` to keep that file short.
-This is a record only — for the active queue (what to build next), see
+Live rows (through row 26) moved out of `docs/content-build.md` to keep that
+file short. This is a record only — for the active queue (what to build
+next), see
 [`docs/content-build.md`](content-build.md).
 
 | # | Title | Slug | Type | Genre | Status | Focus Keyword | YouTube ID | Flag |
@@ -18,3 +19,17 @@ This is a record only — for the active queue (what to build next), see
 | 10 | You Really Got Me | /blog/songs/you-really-got-me-kinks/ | song-story | british-invasion | live | You Really Got Me | fTTsY-oz6Go | |
 | 11 | All Day and All of the Night | /blog/songs/all-day-and-all-of-the-night-kinks/ | song-story | british-invasion | live | All Day and All of the Night | fOGMRnKl5co | |
 | 12 | Sunny Afternoon | /blog/songs/sunny-afternoon-kinks/ | song-story | british-invasion | live | Kinks Sunny Afternoon | TYIl6n_SRCI | |
+| 13 | Waterloo Sunset | /blog/songs/waterloo-sunset-kinks/ | song-story | british-invasion | live | Waterloo Sunset | N_MqfF0WBsU | |
+| 14 | Psychedelic Rock hub | /blog/genres/psychedelic-rock/ | genre-hub | psychedelic-rock | live | Psychedelic Rock | qoX6AKuYWL8 | |
+| 15 | Garage & Surf Rock hub | /blog/genres/garage-surf-rock/ | genre-hub | garage-surf-rock | live | Garage Rock | enlOHxQ0tb4 | |
+| 16 | Country (Nashville Sound & Bakersfield) hub | /blog/genres/country-60s/ | genre-hub | country-60s | live | 1960s Country Music | 1WaV2x8GXj0 | |
+| 17 | Pop & Brill Building hub | /blog/genres/pop-brill-building/ | genre-hub | pop-brill-building | live | Brill Building Pop | 4PQAqprjOuA | |
+| 18 | Jazz & Easy Listening hub | /blog/genres/jazz-easy-listening/ | genre-hub | jazz-easy-listening | live | 1960s easy listening music | JYuyWrkwpok | |
+| 19 | The Who bio | /blog/artists/the-who/ | artist-bio | british-invasion | live | The Who | nMREjRFJkfM | |
+| 20 | My Generation | /blog/songs/my-generation-who/ | song-story | british-invasion | live | My Generation by The Who | nMREjRFJkfM | |
+| 21 | The Animals bio | /blog/artists/the-animals/ | artist-bio | british-invasion | live | The Animals | N4bFqW_eu2I | yt |
+| 22 | House of the Rising Sun | /blog/songs/house-of-the-rising-sun-animals/ | song-story | british-invasion | live | House of the Rising Sun | N4bFqW_eu2I | yt |
+| 23 | The Yardbirds bio | /blog/artists/the-yardbirds/ | artist-bio | british-invasion | live | The Yardbirds | yKI7c9x2lbM | |
+| 24 | For Your Love | /blog/songs/for-your-love-yardbirds/ | song-story | british-invasion | live | For Your Love | yKI7c9x2lbM | |
+| 25 | Heart Full of Soul | /blog/songs/heart-full-of-soul-yardbirds/ | song-story | british-invasion | live | Heart Full of Soul | pM1qZBFiOLU | yt |
+| 26 | Over Under Sideways Down | /blog/songs/over-under-sideways-down-yardbirds/ | song-story | british-invasion | live | Over Under Sideways Down Yardbirds | OUIbVrev-yk | |

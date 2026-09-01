@@ -75,9 +75,14 @@ from the first date built, September 1).
 ## Queue
 
 Live rows moved to [`docs/on-this-day-build-archive.md`](on-this-day-build-archive.md).
-Rows past this file's range live in [`docs/on-this-day-build-queued.md`](on-this-day-build-queued.md)
-— once every row below is `live`, pull the next chunk from that file in
-calendar order and append it here.
+Rows past this file's range live in
+[`docs/on-this-day-build-queued.md`](on-this-day-build-queued.md) (through
+April 30) then [`docs/on-this-day-build-queued-2.md`](on-this-day-build-queued-2.md)
+(May 1 onward) — once every row below is `live`, pull the next calendar
+chunk from the top of the first non-empty queued file and append it here.
+Every doc stays at or under 195 lines; when appending pushes this file
+past that, move the oldest `live` rows out to
+[`docs/on-this-day-build-archive.md`](on-this-day-build-archive.md).
 
 | # | Date | Page | Data file | Status |
 |---|------|------|-----------|--------|
