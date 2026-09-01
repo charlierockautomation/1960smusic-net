@@ -389,6 +389,16 @@
       "date": "2026-08-31",
       "genre": null,
       "seq": 11
+    },
+    {
+      "id": "on-this-day-september-12",
+      "title": "On This Day: September 12 in 1960s Music",
+      "slug": "/blog/on-this-day/september-12/",
+      "type": "on-this-day",
+      "description": "13 verified 1960s music events from September 12: JFK's Rice University moon speech, She Loves You hits UK No. 1, and the band that became Led Zeppelin makes its live debut.",
+      "date": "2026-09-01",
+      "genre": null,
+      "seq": 12
     }
   ]
 }
