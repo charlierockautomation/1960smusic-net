@@ -1,0 +1,260 @@
+{
+  "date_label": "September 12",
+  "date_slug": "september-12",
+  "flagship": {
+    "year": 1962,
+    "category": "culture",
+    "headline": "JFK delivers his We Choose to Go to the Moon speech",
+    "summary_line_1": "President John F. Kennedy addressed a crowd of roughly 40,000 people at Rice University's stadium in Houston, laying out the case for landing an American on the Moon before the decade was out.",
+    "summary_line_2": "The speech's space-age optimism fed straight into the reverb-drenched instrumentals of the era's surf and garage rock scene, where songs chasing that same futuristic thrill were already climbing the charts.",
+    "youtube_id": "SckJY7vBmLQ",
+    "image": null,
+    "internal_link": {
+      "text": "garage and surf rock",
+      "url": "/blog/genres/garage-surf-rock/"
+    },
+    "external_link": {
+      "text": "JFK Library",
+      "url": "https://www.jfklibrary.org/learn/about-jfk/historic-speeches/address-at-rice-university-on-the-nations-space-effort"
+    }
+  },
+  "stats": [
+    { "value": 13, "label": "verified events" },
+    { "value": 6, "label": "event categories" },
+    { "value": 8, "label": "years covered" }
+  ],
+  "years": [
+    {
+      "year": 1969,
+      "events": [
+        {
+          "category": "release",
+          "headline": "The Rolling Stones release Through the Past, Darkly (Big Hits Vol. 2)",
+          "summary_line_1": "Decca Records released the Rolling Stones' second hits compilation, Through the Past, Darkly (Big Hits Vol. 2), in a distinctive octagonal gatefold sleeve carrying an inside epitaph to founding guitarist Brian Jones, who had died two months earlier.",
+          "summary_line_2": "The album reached number two on the UK chart and included the band's new summer single Honky Tonk Women, the last Rolling Stones recording to feature Jones.",
+          "youtube_id": "3BKTxntVBEA",
+          "image": null,
+          "internal_link": {
+            "text": "Rolling Stones",
+            "url": "/blog/artists/the-rolling-stones/"
+          },
+          "external_link": {
+            "text": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Through_the_Past,_Darkly_(Big_Hits_Vol._2)"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1968,
+      "events": [
+        {
+          "category": "concert",
+          "headline": "The Yardbirds, soon to become Led Zeppelin, play Stockholm's Gröna Lund",
+          "summary_line_1": "Jimmy Page's new lineup, still touring under a leftover Yardbirds contract, opened the Swedish leg of their first tour with a show on the Stora Scenen stage at Gröna Lund amusement park, the first time Page, Robert Plant, John Paul Jones, and John Bonham played together outside England.",
+          "summary_line_2": "The band renamed itself Led Zeppelin weeks later, and the short Scandinavian run became the testing ground for the blues-heavy material that filled their debut album.",
+          "youtube_id": "w772GXG5LnE",
+          "image": null,
+          "internal_link": {
+            "text": "Yardbirds",
+            "url": "/blog/artists/the-yardbirds/"
+          },
+          "external_link": {
+            "text": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Led_Zeppelin_Scandinavian_Tour_1968"
+          }
+        },
+        {
+          "category": "industry",
+          "headline": "The Beatles overdub lead vocals onto Glass Onion",
+          "summary_line_1": "With producer George Martin away, his young assistant Chris Thomas supervised the Beatles as John Lennon double-tracked his lead vocal and Ringo Starr added tambourine onto the Glass Onion rhythm track cut the night before.",
+          "summary_line_2": "The overnight session, running past 3am, pushed Lennon's sly, self-referential White Album track closer to its finished shape.",
+          "youtube_id": "NJayqkGO76A",
+          "image": null,
+          "internal_link": {
+            "text": "Beatles",
+            "url": "/blog/artists/the-beatles/"
+          },
+          "external_link": {
+            "text": "The Beatles Bible",
+            "url": "https://www.beatlesbible.com/1968/09/12/recording-glass-onion-2/"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1967,
+      "events": [
+        {
+          "category": "concert",
+          "headline": "Traffic play a Swedish-radio-recorded show at Stockholm's Konserthuset",
+          "summary_line_1": "The newly formed Traffic, only months removed from Steve Winwood leaving the Spencer Davis Group, played Stockholm's Konserthuset with Sveriges Radio recording the set, one of the earliest live Traffic broadcasts to survive.",
+          "summary_line_2": "The show came three months before their debut album Mr. Fantasy, built on the psychedelic sound of their breakthrough single Paper Sun.",
+          "youtube_id": "MPx5-Sn8FrY",
+          "image": null,
+          "internal_link": {
+            "text": "psychedelic rock",
+            "url": "/blog/genres/psychedelic-rock/"
+          },
+          "external_link": {
+            "text": "setlist.fm",
+            "url": "https://www.setlist.fm/setlist/traffic/1967/konserthuset-stockholm-sweden-73da7a5d.html"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1966,
+      "events": [
+        {
+          "category": "broadcast",
+          "headline": "The Monkees premieres on NBC",
+          "summary_line_1": "The Monkees, a television sitcom about a fictional pop band modeled on the freewheeling style of the Beatles' A Hard Day's Night, made its broadcast debut on NBC in prime time.",
+          "summary_line_2": "The show turned Micky Dolenz, Davy Jones, Michael Nesmith, and Peter Tork into a real chart-topping act within weeks, starting with Last Train to Clarksville.",
+          "youtube_id": "OA-KO04_KgM",
+          "image": null,
+          "internal_link": {
+            "text": "Pop &amp; Brill Building",
+            "url": "/blog/genres/pop-brill-building/"
+          },
+          "external_link": {
+            "text": "Songfacts",
+            "url": "https://calendar.songfacts.com/september/12/4600"
+          }
+        },
+        {
+          "category": "broadcast",
+          "headline": "The Roger Miller Show premieres on NBC",
+          "summary_line_1": "Country singer-songwriter Roger Miller's own musical variety series premiered on NBC in the Monday 8:30pm slot, built around his comic songwriting and country guest stars.",
+          "summary_line_2": "The show ran only through December, but it captured Miller near the commercial peak of hits like King of the Road that had made him a rare country crossover star on national television.",
+          "youtube_id": "oHtoayjVLAY",
+          "image": null,
+          "internal_link": {
+            "text": "1960s country",
+            "url": "/blog/genres/country-60s/"
+          },
+          "external_link": {
+            "text": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/The_Roger_Miller_Show"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1965,
+      "events": [
+        {
+          "category": "broadcast",
+          "headline": "The Beatles' final live Ed Sullivan Show appearance airs",
+          "summary_line_1": "CBS broadcast the Beatles' fourth and last appearance on The Ed Sullivan Show, a six-song set taped a month earlier the day before their Shea Stadium concert, including Paul McCartney's first televised solo performance of Yesterday backed by a string quartet.",
+          "summary_line_2": "It closed out the run of live Beatles performances on the same program that had helped launch Beatlemania in America back in February 1964.",
+          "youtube_id": "fCV9oqtwyVA",
+          "image": null,
+          "internal_link": {
+            "text": "Beatles",
+            "url": "/blog/artists/the-beatles/"
+          },
+          "external_link": {
+            "text": "The Beatles Bible",
+            "url": "https://www.beatlesbible.com/1965/08/14/beatles-fourth-ed-sullivan-show/"
+          }
+        },
+        {
+          "category": "release",
+          "headline": "Simon & Garfunkel's electric Sound of Silence is released as a single",
+          "summary_line_1": "Columbia Records released an overdubbed electric version of Simon & Garfunkel's Sound of Silence as a single, adding drums, bass, and electric guitar to the original acoustic track without telling Paul Simon or Art Garfunkel, who had already split up as a duo.",
+          "summary_line_2": "The new version caught the rising folk rock wave and climbed to number one on the Billboard Hot 100 by January 1966, reuniting the pair and launching their career.",
+          "youtube_id": "xUZgM96XY7s",
+          "image": null,
+          "internal_link": {
+            "text": "folk rock",
+            "url": "/blog/genres/folk-rock/"
+          },
+          "external_link": {
+            "text": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/The_Sound_of_Silence"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1964,
+      "events": [
+        {
+          "category": "concert",
+          "headline": "The Beatles play Boston Garden",
+          "summary_line_1": "The Beatles played their only Boston Garden concert of the decade to nearly 14,000 fans, landing in the early hours of the morning at Hanscom Field to dodge the crowds waiting at Boston's main airport.",
+          "summary_line_2": "The stop came midway through their first full North American tour behind A Hard Day's Night, with screaming fans drowning out most of the set.",
+          "youtube_id": "Yjyj8qnqkYI",
+          "image": null,
+          "internal_link": {
+            "text": "Beatles",
+            "url": "/blog/artists/the-beatles/"
+          },
+          "external_link": {
+            "text": "The Beatles Bible",
+            "url": "https://www.beatlesbible.com/1964/09/12/live-boston-garden-boston/"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1963,
+      "events": [
+        {
+          "category": "chart",
+          "headline": "She Loves You reaches number one on the UK singles chart",
+          "summary_line_1": "The Beatles' She Loves You topped the UK Singles Chart for the first of its two separate runs at number one, powered by Ringo Starr's driving beat and the band's yeah, yeah, yeah refrain.",
+          "summary_line_2": "It went on to become the best-selling single in Britain for all of 1963 and remains the highest-selling single of the Beatles' career in the UK.",
+          "youtube_id": "nGbWU8S3vzs",
+          "image": null,
+          "internal_link": {
+            "text": "She Loves You",
+            "url": "/blog/songs/she-loves-you-beatles/"
+          },
+          "external_link": {
+            "text": "Official Charts",
+            "url": "https://www.officialcharts.com/charts/singles-chart/19630912/7501/"
+          }
+        },
+        {
+          "category": "culture",
+          "headline": "Norman Parkinson photographs the Beatles at Abbey Road",
+          "summary_line_1": "Fashion photographer Norman Parkinson, invited by Queen magazine, spent the day shooting black-and-white portraits of the Beatles at the President Hotel and inside Abbey Road's Studio Two, where the band was recording Don't Bother Me, Little Child, and I Wanna Be Your Man for With the Beatles.",
+          "summary_line_2": "His relaxed, high-fashion images of the group at work became some of the most widely reproduced early photographs of the band.",
+          "youtube_id": "k03IQbaTcxc",
+          "image": null,
+          "internal_link": {
+            "text": "Beatles",
+            "url": "/blog/artists/the-beatles/"
+          },
+          "external_link": {
+            "text": "Flashbak",
+            "url": "https://flashbak.com/the-beatles-at-abbey-road-on-september-12-1963-norman-parkinsons-early-fab-four-photographs-410058/"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1962,
+      "events": [
+        {
+          "category": "industry",
+          "headline": "Coleman Hawkins records I Remember You for Desafinado",
+          "summary_line_1": "Tenor saxophonist Coleman Hawkins cut his bossa nova arrangement of the standard I Remember You at Rudy Van Gelder's New Jersey studio, backed by Tommy Flanagan on claves, guitarists Howard Collins and Barry Galbraith, bassist Major Holley, and drummer Eddie Locke.",
+          "summary_line_2": "The track landed on Desafinado, Hawkins' entry into the bossa nova wave that swept American jazz in 1962, arranged by Manny Albam for Impulse! Records.",
+          "youtube_id": null,
+          "image": "/blog/on-this-day/september-12/img/desafinado-cover-1962.jpg",
+          "internal_link": {
+            "text": "jazz and easy listening",
+            "url": "/blog/genres/jazz-easy-listening/"
+          },
+          "external_link": {
+            "text": "All About Jazz",
+            "url": "https://www.allaboutjazz.com/news/backgrounder-coleman-hawkins-desafinado-1962/"
+          }
+        }
+      ]
+    }
+  ]
+}
