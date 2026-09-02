@@ -426,6 +426,16 @@
       "description": "Bits and Pieces followed Glad All Over to UK number two in 1964, its stomping beat so heavy that dance hall managers banned the record to protect their floors.",
       "date": "2026-09-01",
       "genre": "british-invasion"
+    },
+    {
+      "id": "on-this-day-september-13",
+      "title": "On This Day: September 13 in 1960s Music",
+      "slug": "/blog/on-this-day/september-13/",
+      "type": "on-this-day",
+      "description": "12 verified 1960s music events from September 13: the Plastic Ono Band's Toronto debut, the Beatles release Yesterday in the US, and Pink Floyd's last Copenhagen shows with Syd Barrett.",
+      "date": "2026-09-02",
+      "genre": null,
+      "seq": 13
     }
   ]
 }
