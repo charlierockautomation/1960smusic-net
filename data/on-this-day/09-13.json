@@ -1,0 +1,262 @@
+{
+  "date_label": "September 13",
+  "date_slug": "september-13",
+  "flagship": {
+    "year": 1969,
+    "category": "concert",
+    "headline": "The Plastic Ono Band make their live debut in Toronto",
+    "summary_line_1": "John Lennon, Yoko Ono, Eric Clapton, Klaus Voormann, and drummer Alan White flew to Toronto on a day's notice to play the Toronto Rock and Roll Revival as the Plastic Ono Band, debuting the song Cold Turkey.",
+    "summary_line_2": "It was Lennon's first full concert away from the Beatles since 1957, and the thrill of it pushed him to tell the band he was leaving a week later.",
+    "youtube_id": "6QFtc_ehGGQ",
+    "image": null,
+    "internal_link": {
+      "text": "the Beatles",
+      "url": "/blog/artists/the-beatles/"
+    },
+    "external_link": {
+      "text": "The Beatles Bible",
+      "url": "https://www.beatlesbible.com/1969/09/13/plastic-ono-band-perform-toronto-rock-and-roll-revival-festival/"
+    }
+  },
+  "stats": [
+    { "value": 12, "label": "verified events" },
+    { "value": 4, "label": "event categories" },
+    { "value": 9, "label": "years covered" }
+  ],
+  "years": [
+    {
+      "year": 1969,
+      "events": [
+        {
+          "category": "concert",
+          "headline": "The Plastic Ono Band make their live debut in Toronto",
+          "summary_line_1": "John Lennon, Yoko Ono, Eric Clapton, Klaus Voormann, and drummer Alan White flew to Toronto on a day's notice to play the Toronto Rock and Roll Revival as the Plastic Ono Band, debuting the song Cold Turkey.",
+          "summary_line_2": "It was Lennon's first full concert away from the Beatles since 1957, and the thrill of it pushed him to tell the band he was leaving a week later.",
+          "youtube_id": "6QFtc_ehGGQ",
+          "image": null,
+          "internal_link": {
+            "text": "the Beatles",
+            "url": "/blog/artists/the-beatles/"
+          },
+          "external_link": {
+            "text": "The Beatles Bible",
+            "url": "https://www.beatlesbible.com/1969/09/13/plastic-ono-band-perform-toronto-rock-and-roll-revival-festival/"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1968,
+      "events": [
+        {
+          "category": "industry",
+          "headline": "The Beatles overdub piano and drums onto Glass Onion",
+          "summary_line_1": "Back at Abbey Road, with George Martin away and his assistant Chris Thomas running the session, Ringo Starr overdubbed piano and extra drums onto the Glass Onion backing track cut two nights earlier, as the Beatles' recording diary confirms.",
+          "summary_line_2": "The overnight date left John Lennon's puzzle-box White Album song needing only a recorder part and a string arrangement.",
+          "youtube_id": "NJayqkGO76A",
+          "image": null,
+          "internal_link": {
+            "text": "the Beatles",
+            "url": "/blog/artists/the-beatles/"
+          },
+          "external_link": {
+            "text": "The Beatles Bible",
+            "url": "https://www.beatlesbible.com/1968/09/13/recording-glass-onion-3/"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1967,
+      "events": [
+        {
+          "category": "concert",
+          "headline": "Pink Floyd close a three-night Copenhagen run with Syd Barrett",
+          "summary_line_1": "Pink Floyd finished three nights at the Star Club in Copenhagen, and someone in the crowd taped the set, as catalogues of the band's live recordings note.",
+          "summary_line_2": "It survives as one of the few live documents of the Syd Barrett lineup and a foundational moment for British psychedelic rock, catching rarities like the instrumental Reaction in G and the debut single Arnold Layne.",
+          "youtube_id": "H3DGpINHX5Q",
+          "image": null,
+          "internal_link": {
+            "text": "psychedelic rock",
+            "url": "/blog/genres/psychedelic-rock/"
+          },
+          "external_link": {
+            "text": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Pink_Floyd_bootleg_recordings"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1965,
+      "events": [
+        {
+          "category": "release",
+          "headline": "The Beatles release Yesterday as a US single",
+          "summary_line_1": "Capitol issued Yesterday backed with Ringo Starr's Act Naturally as a US single, catalog number 5498, per the Beatles' release history.",
+          "summary_line_2": "The Beatles had refused to put the Paul McCartney solo track out as a single in Britain, but in America it spent four weeks at number one on the Billboard Hot 100.",
+          "youtube_id": "wXTJBr9tt8Q",
+          "image": null,
+          "internal_link": {
+            "text": "The Beatles",
+            "url": "/blog/artists/the-beatles/"
+          },
+          "external_link": {
+            "text": "The Beatles Bible",
+            "url": "https://www.beatlesbible.com/1965/09/13/us-single-yesterday/"
+          }
+        },
+        {
+          "category": "broadcast",
+          "headline": "Hullabaloo returns to NBC with Sammy Davis Jr. hosting",
+          "summary_line_1": "The pop series Hullabaloo opened its second season on NBC with Sammy Davis Jr. hosting, the Supremes singing, and the Lovin' Spoonful performing their hit Do You Believe in Magic.",
+          "summary_line_2": "The prime-time show was one of the few national outlets putting Motown acts and folk rock bands in front of a mass teen audience each week.",
+          "youtube_id": "JnbfuAcCqpY",
+          "image": null,
+          "internal_link": {
+            "text": "Motown acts",
+            "url": "/blog/genres/motown-soul/"
+          },
+          "external_link": {
+            "text": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Hullabaloo_(TV_series)"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1964,
+      "events": [
+        {
+          "category": "concert",
+          "headline": "The Beatles play two shows at the Baltimore Civic Center",
+          "summary_line_1": "The Beatles played an afternoon and an evening house at the Baltimore Civic Center for about 28,000 fans total, their only visit to the city, with police lined three deep in front of the stage.",
+          "summary_line_2": "The screaming buried the 12-song set that closed each night with Twist and Shout, as it did everywhere on the 1964 North American tour.",
+          "youtube_id": "b-VAxGJdJeQ",
+          "image": null,
+          "internal_link": {
+            "text": "The Beatles",
+            "url": "/blog/artists/the-beatles/"
+          },
+          "external_link": {
+            "text": "The Beatles Bible",
+            "url": "https://www.beatlesbible.com/1964/09/13/live-civic-center-baltimore/"
+          }
+        },
+        {
+          "category": "concert",
+          "headline": "The Rolling Stones play two houses at the Liverpool Empire",
+          "summary_line_1": "The Rolling Stones played two shows in a night at the Empire Theatre in Liverpool, deep in Beatles home territory, on their fourth British tour.",
+          "summary_line_2": "The tour ran alongside their first UK number one, It's All Over Now, which they had cut that summer at Chess Studios in Chicago.",
+          "youtube_id": "YbTs4qXgFx8",
+          "image": null,
+          "internal_link": {
+            "text": "The Rolling Stones",
+            "url": "/blog/artists/the-rolling-stones/"
+          },
+          "external_link": {
+            "text": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/The_Rolling_Stones_4th_British_Tour_1964"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1963,
+      "events": [
+        {
+          "category": "industry",
+          "headline": "Shirley Ellis records The Nitty Gritty in New York",
+          "summary_line_1": "Singer Shirley Ellis recorded The Nitty Gritty, a Lincoln Chase dance number, with producer Hutch Davie in New York.",
+          "summary_line_2": "Released that October, it reached number eight on the Billboard Hot 100 and number four on the R&B chart, and set up her bigger hit The Name Game.",
+          "youtube_id": "9Wq48_gsjHk",
+          "image": null,
+          "internal_link": {
+            "text": "R&B chart",
+            "url": "/blog/genres/motown-soul/"
+          },
+          "external_link": {
+            "text": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/The_Nitty_Gritty_(song)"
+          }
+        },
+        {
+          "category": "concert",
+          "headline": "The Beatles play their final show in Preston",
+          "summary_line_1": "The Beatles headlined the Public Hall in Preston, Lancashire, their second and last concert in the town, as the Beatles' live archive records.",
+          "summary_line_2": "They were still riding She Loves You that week, two months before Beatlemania turned national and the British Invasion reached America.",
+          "youtube_id": "nGbWU8S3vzs",
+          "image": null,
+          "internal_link": {
+            "text": "British Invasion",
+            "url": "/blog/genres/british-invasion/"
+          },
+          "external_link": {
+            "text": "The Beatles Bible",
+            "url": "https://www.beatlesbible.com/1963/09/13/live-public-hall-preston-2/"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1962,
+      "events": [
+        {
+          "category": "industry",
+          "headline": "Mel Tormé cuts Comin' Home Baby in New York",
+          "summary_line_1": "Mel Tormé, a jazz and easy listening mainstay, cut the title track for his album Comin' Home Baby! at a New York session for Atlantic, produced by Nesuhi Ertegun.",
+          "summary_line_2": "The finger-snapping, minor-key single reached number 36 on the Billboard Hot 100 and put Tormé back on the pop chart after a decade away.",
+          "youtube_id": "WBugBEWVnpA",
+          "image": null,
+          "internal_link": {
+            "text": "jazz and easy listening",
+            "url": "/blog/genres/jazz-easy-listening/"
+          },
+          "external_link": {
+            "text": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Comin%27_Home_Baby!"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1961,
+      "events": [
+        {
+          "category": "concert",
+          "headline": "Judy Garland brings her Carnegie Hall show to San Francisco",
+          "summary_line_1": "Judy Garland performed her Carnegie Hall concert program at the Civic Auditorium in San Francisco for a crowd of 8,700, the set built around standards like San Francisco and The Man That Got Away.",
+          "summary_line_2": "The touring run cemented her late-career standing in pop and easy listening, and her 1961 Carnegie Hall album spent weeks at number one.",
+          "youtube_id": "b-YBrQQLnYo",
+          "image": null,
+          "internal_link": {
+            "text": "easy listening",
+            "url": "/blog/genres/jazz-easy-listening/"
+          },
+          "external_link": {
+            "text": "The Judy Room",
+            "url": "https://www.thejudyroom.com/judy-garland-the-concert-years-1960-1965/judy-at-the-civic-auditorium-san-francisco-1961/"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1960,
+      "events": [
+        {
+          "category": "industry",
+          "headline": "Congress makes payola a federal crime",
+          "summary_line_1": "President Eisenhower signed the Communications Act Amendments of 1960, making undisclosed cash or gifts for airplay a federal crime under a new Section 508, as the US Capitol records the day.",
+          "summary_line_2": "The law followed the payola hearings that wrecked Alan Freed, and it sped radio toward the managed Top 40 format that carried hits like Chubby Checker's The Twist to number one that same month.",
+          "youtube_id": "Jqhos69iHg8",
+          "image": null,
+          "internal_link": null,
+          "external_link": {
+            "text": "US Capitol",
+            "url": "https://www.visitthecapitol.gov/artifact/communications-act-amendments-september-13-1960-0"
+          }
+        }
+      ]
+    }
+  ]
+}
