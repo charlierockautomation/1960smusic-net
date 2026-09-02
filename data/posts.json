@@ -417,6 +417,15 @@
       "description": "Glad All Over knocked the Beatles off number one in January 1964, made the Dave Clark Five stars, and became a football terrace anthem that never went away.",
       "date": "2026-09-01",
       "genre": "british-invasion"
+    },
+    {
+      "id": "bits-and-pieces-dave-clark-five",
+      "title": "Bits and Pieces Dave Clark Five: The Stomp That Shook Britain",
+      "slug": "/blog/songs/bits-and-pieces-dave-clark-five/",
+      "type": "song-story",
+      "description": "Bits and Pieces followed Glad All Over to UK number two in 1964, its stomping beat so heavy that dance hall managers banned the record to protect their floors.",
+      "date": "2026-09-01",
+      "genre": "british-invasion"
     }
   ]
 }

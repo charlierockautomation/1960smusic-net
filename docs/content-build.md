@@ -80,7 +80,7 @@ Live rows (1-26) are in [`docs/content-build-archive.md`](content-build-archive.
 |---|-------|------|------|-------|--------|----------------|------------|------|
 | 27 | The Dave Clark Five bio | /blog/artists/the-dave-clark-five/ | artist-bio | british-invasion | live | The Dave Clark 5 | mgwkpOzZXWg | |
 | 28 | Glad All Over | /blog/songs/glad-all-over-dave-clark-five/ | song-story | british-invasion | live | Glad All Over | mgwkpOzZXWg | |
-| 29 | Bits and Pieces | /blog/songs/bits-and-pieces-dave-clark-five/ | song-story | british-invasion | not started | Bits and Pieces | SzTQduUZFY8 | |
+| 29 | Bits and Pieces | /blog/songs/bits-and-pieces-dave-clark-five/ | song-story | british-invasion | live | Bits and Pieces | SzTQduUZFY8 | |
 | 30 | Because | /blog/songs/because-dave-clark-five/ | song-story | british-invasion | not started | Because (The Dave Clark Five) | QpKWpUJybng | yt |
 | 31 | Herman's Hermits bio | /blog/artists/hermanns-hermits/ | artist-bio | british-invasion | not started | Herman's Hermits | IOfs8U_3NQk | yt |
 | 32 | Mrs. Brown You've Got a Lovely Daughter | /blog/songs/mrs-brown-youve-got-a-lovely-daughter-hermanns-hermits/ | song-story | british-invasion | not started | Mrs. Brown You've Got a Lovely Daughter | IOfs8U_3NQk | yt |
