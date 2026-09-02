@@ -408,6 +408,15 @@
       "description": "The Dave Clark 5 knocked the Beatles off number one, played the Ed Sullivan Show a record 18 times, then vanished for decades when Dave Clark shelved the tapes.",
       "date": "2026-09-01",
       "genre": "british-invasion"
+    },
+    {
+      "id": "glad-all-over-dave-clark-five",
+      "title": "Glad All Over: How the Dave Clark Five Beat the Beatles",
+      "slug": "/blog/songs/glad-all-over-dave-clark-five/",
+      "type": "song-story",
+      "description": "Glad All Over knocked the Beatles off number one in January 1964, made the Dave Clark Five stars, and became a football terrace anthem that never went away.",
+      "date": "2026-09-01",
+      "genre": "british-invasion"
     }
   ]
 }
