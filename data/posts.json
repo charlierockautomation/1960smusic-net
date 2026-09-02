@@ -436,6 +436,16 @@
       "date": "2026-09-02",
       "genre": null,
       "seq": 13
+    },
+    {
+      "id": "on-this-day-september-14",
+      "title": "On This Day: September 14 in 1960s Music",
+      "slug": "/blog/on-this-day/september-14/",
+      "type": "on-this-day",
+      "description": "15 verified 1960s music events from September 14: Joni Mitchell's first performance of Woodstock, George Harrison flies to India to study sitar, and the Jimi Hendrix Experience at the Hollywood Bowl.",
+      "date": "2026-09-02",
+      "genre": null,
+      "seq": 14
     }
   ]
 }
