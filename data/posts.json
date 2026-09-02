@@ -399,6 +399,15 @@
       "date": "2026-09-01",
       "genre": null,
       "seq": 12
+    },
+    {
+      "id": "the-dave-clark-five",
+      "title": "The Dave Clark 5: Britain's Drum-Driven Answer to the Beatles",
+      "slug": "/blog/artists/the-dave-clark-five/",
+      "type": "artist-bio",
+      "description": "The Dave Clark 5 knocked the Beatles off number one, played the Ed Sullivan Show a record 18 times, then vanished for decades when Dave Clark shelved the tapes.",
+      "date": "2026-09-01",
+      "genre": "british-invasion"
     }
   ]
 }

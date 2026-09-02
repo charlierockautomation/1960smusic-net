@@ -78,7 +78,7 @@ Live rows (1-26) are in [`docs/content-build-archive.md`](content-build-archive.
 
 | # | Title | Slug | Type | Genre | Status | Focus Keyword | YouTube ID | Flag |
 |---|-------|------|------|-------|--------|----------------|------------|------|
-| 27 | The Dave Clark Five bio | /blog/artists/the-dave-clark-five/ | artist-bio | british-invasion | not started | The Dave Clark Five | NHtNFaa2ne0 | yt |
+| 27 | The Dave Clark Five bio | /blog/artists/the-dave-clark-five/ | artist-bio | british-invasion | live | The Dave Clark 5 | mgwkpOzZXWg | |
 | 28 | Glad All Over | /blog/songs/glad-all-over-dave-clark-five/ | song-story | british-invasion | not started | Glad All Over | NHtNFaa2ne0 | yt |
 | 29 | Bits and Pieces | /blog/songs/bits-and-pieces-dave-clark-five/ | song-story | british-invasion | not started | Bits and Pieces | SzTQduUZFY8 | |
 | 30 | Because | /blog/songs/because-dave-clark-five/ | song-story | british-invasion | not started | Because (The Dave Clark Five) | QpKWpUJybng | yt |
