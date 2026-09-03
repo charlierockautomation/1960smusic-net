@@ -455,6 +455,16 @@
       "date": "2026-09-02",
       "genre": null,
       "seq": 14
+    },
+    {
+      "id": "on-this-day-september-15",
+      "title": "On This Day: September 15 in 1960s Music",
+      "slug": "/blog/on-this-day/september-15/",
+      "type": "on-this-day",
+      "description": "Nine verified 1960s music events from September 15: the Rolling Stones' Waldbühne riot in Berlin, Otis Blue and Something Else released, and police halting the Beatles onstage in Cleveland.",
+      "date": "2026-09-03",
+      "genre": null,
+      "seq": 15
     }
   ]
 }
