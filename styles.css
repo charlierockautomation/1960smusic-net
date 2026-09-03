@@ -344,8 +344,16 @@ h3{font-size:1.25rem;color:var(--ink-soft);}
 .article-body h3{font-family:var(--font-display);font-size:1.2rem;color:var(--ink-soft);margin:1.4em 0 .4em;}
 .article-body p{margin:0 0 1.1em;}
 .article-body ul{margin:0 0 1.2em;padding-left:1.25em;}
+.article-body ol{margin:0 0 1.2em;padding-left:1.35em;}
 .article-body ul a{color:var(--red);}
+.article-body li{margin:0 0 .4em;}
 .article-body hr{border:0;border-top:1px solid var(--line);margin:2em 0;}
+.article-body img{max-width:100%;height:auto;}
+.table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 1.4em;}
+.article-body table{border-collapse:collapse;width:100%;min-width:360px;font-size:.98rem;}
+.article-body caption{caption-side:bottom;padding-top:8px;font-size:.8rem;color:#888;text-align:left;}
+.article-body th,.article-body td{border:1px solid var(--line);padding:8px 11px;text-align:left;vertical-align:top;}
+.article-body thead th{background:var(--card);font-family:var(--font-body);}
 
 .radio-cta{margin:1.4rem 0 1.8rem;}
 .radio-cta a{
