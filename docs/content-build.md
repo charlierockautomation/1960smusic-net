@@ -83,7 +83,7 @@ Live rows (1-26) are in [`docs/content-build-archive.md`](content-build-archive.
 | 29 | Bits and Pieces | /blog/songs/bits-and-pieces-dave-clark-five/ | song-story | british-invasion | live | Bits and Pieces | SzTQduUZFY8 | |
 | 30 | Because | /blog/songs/because-dave-clark-five/ | song-story | british-invasion | live | because the dave clark five | nuKdJmOZLN4 | |
 | 31 | Herman's Hermits bio | /blog/artists/hermanns-hermits/ | artist-bio | british-invasion | live | Herman's Hermits | IOfs8U_3NQk | yt |
-| 32 | Mrs. Brown You've Got a Lovely Daughter | /blog/songs/mrs-brown-youve-got-a-lovely-daughter-hermanns-hermits/ | song-story | british-invasion | not started | Mrs. Brown You've Got a Lovely Daughter | IOfs8U_3NQk | yt |
+| 32 | Mrs. Brown You've Got a Lovely Daughter | /blog/songs/mrs-brown-youve-got-a-lovely-daughter-hermanns-hermits/ | song-story | british-invasion | live | Mrs. Brown You've Got a Lovely Daughter | IOfs8U_3NQk | yt |
 | 33 | I'm Henry the VIII, I Am | /blog/songs/im-henry-the-viii-i-am-hermanns-hermits/ | song-story | british-invasion | not started | I'm Henry the VIII, I Am | FFNoDsOmluA | yt |
 | 34 | The Searchers bio | /blog/artists/the-searchers/ | artist-bio | british-invasion | not started | The Searchers | ugDXpdjmpgw | yt |
 | 35 | Needles and Pins | /blog/songs/needles-and-pins-searchers/ | song-story | british-invasion | not started | Needles and Pins | ugDXpdjmpgw | yt |

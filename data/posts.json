@@ -474,6 +474,15 @@
       "description": "Herman's Hermits rode singalong hits and Peter Noone's boyish charm to the top of the 1965 US charts, briefly outselling the Beatles during the British Invasion.",
       "date": "2026-09-03",
       "genre": "british-invasion"
+    },
+    {
+      "id": "mrs-brown-youve-got-a-lovely-daughter-hermanns-hermits",
+      "title": "Mrs. Brown, You've Got a Lovely Daughter: The Two-Take Number One",
+      "slug": "/blog/songs/mrs-brown-youve-got-a-lovely-daughter-hermanns-hermits/",
+      "type": "song-story",
+      "description": "Mrs. Brown, You've Got a Lovely Daughter was an album afterthought Peter Noone taped off his TV. How it hit number one in America in 1965 with no UK release.",
+      "date": "2026-09-03",
+      "genre": "british-invasion"
     }
   ]
 }
