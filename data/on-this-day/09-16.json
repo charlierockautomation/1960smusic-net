@@ -1,0 +1,225 @@
+{
+  "date_label": "September 16",
+  "date_slug": "september-16",
+  "flagship": {
+    "year": 1964,
+    "category": "concert",
+    "headline": "The Beatles play their only New Orleans concert",
+    "summary_line_1": "About 12,000 fans packed City Park Stadium for the only concert the Beatles ever played in New Orleans, and roughly 700 of them stormed the field mid-set before police cleared it.",
+    "summary_line_2": "Earlier that day the Beatles met Fats Domino and collected keys to the city, capping a stop that lasted barely 24 hours.",
+    "youtube_id": "QElJzUmgEuo",
+    "image": null,
+    "internal_link": {
+      "text": "the Beatles",
+      "url": "/blog/artists/the-beatles/"
+    },
+    "external_link": {
+      "text": "The Beatles Bible",
+      "url": "https://www.beatlesbible.com/1964/09/16/live-city-park-stadium-new-orleans/"
+    }
+  },
+  "stats": [
+    { "value": 10, "label": "verified events" },
+    { "value": 5, "label": "event categories" },
+    { "value": 10, "label": "watchable clips" }
+  ],
+  "years": [
+    {
+      "year": 1969,
+      "events": [
+        {
+          "category": "concert",
+          "headline": "The Allman Brothers Band play Mercer University",
+          "summary_line_1": "The Allman Brothers Band played the campus of Mercer University in Macon, the Georgia town they had just made home, working through early staples like It's Not My Cross to Bear.",
+          "summary_line_2": "Their debut album was still weeks from release, but the twin guitars and twin drums were already locked in.",
+          "youtube_id": "ESDqkzZOQCo",
+          "image": null,
+          "internal_link": null,
+          "external_link": {
+            "text": "setlist.fm",
+            "url": "https://www.setlist.fm/setlist/the-allman-brothers-band/1969/mercer-university-macon-ga-53d45ff9.html"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1968,
+      "events": [
+        {
+          "category": "industry",
+          "headline": "The Beatles record I Will for the White Album",
+          "summary_line_1": "Paul McCartney, John Lennon and Ringo Starr worked through 67 takes of McCartney's ballad I Will in Studio Two at Abbey Road, with George Harrison absent.",
+          "summary_line_2": "The same late session produced Step Inside Love and the loose scrap Can You Take Me Back, a stray minute that reached the final Beatles album.",
+          "youtube_id": "p-abNGP1BK4",
+          "image": null,
+          "internal_link": {
+            "text": "Beatles",
+            "url": "/blog/artists/the-beatles/"
+          },
+          "external_link": {
+            "text": "The Beatles Bible",
+            "url": "https://www.beatlesbible.com/1968/09/16/recording-i-will-glass-onion/"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1967,
+      "events": [
+        {
+          "category": "chart",
+          "headline": "Are You Experienced enters the US album chart",
+          "summary_line_1": "The US edition of the Jimi Hendrix Experience's debut Are You Experienced entered the Billboard Top LPs chart, led by its opening track Purple Haze.",
+          "summary_line_2": "It stayed on the chart for 106 weeks, 27 of them in the top 40, and gave American listeners their first full dose of Hendrix's psychedelic rock.",
+          "youtube_id": "WGoDaYjdfSg",
+          "image": null,
+          "internal_link": {
+            "text": "psychedelic rock",
+            "url": "/blog/genres/psychedelic-rock/"
+          },
+          "external_link": {
+            "text": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Are_You_Experienced"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1966,
+      "events": [
+        {
+          "category": "concert",
+          "headline": "The Grateful Dead headline the Avalon Ballroom",
+          "summary_line_1": "The Grateful Dead played the Avalon Ballroom in San Francisco under the Family Dog banner, one of the 1966 shows later pressed onto the rough albums Vintage Dead and Historic Dead.",
+          "summary_line_2": "Their set leaned on blues and jug-band tunes like Cold Rain and Snow, the raw material they were stretching into long psychedelic rock jams.",
+          "youtube_id": "4yHWr0hmIWg",
+          "image": null,
+          "internal_link": {
+            "text": "psychedelic rock",
+            "url": "/blog/genres/psychedelic-rock/"
+          },
+          "external_link": {
+            "text": "Dead.net",
+            "url": "https://www.dead.net/show/september-16-1966"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1965,
+      "events": [
+        {
+          "category": "concert",
+          "headline": "Duke Ellington premieres his first Sacred Concert",
+          "summary_line_1": "Duke Ellington and his orchestra gave the first performance of his Concert of Sacred Music at Grace Cathedral in San Francisco, filmed for broadcast by KQED.",
+          "summary_line_2": "Ellington built the program around the spiritual Come Sunday and later called the Sacred Concerts the most important work he had done, a late turn that carried jazz into the liturgy.",
+          "youtube_id": "6IOjr9xgUPQ",
+          "image": null,
+          "internal_link": {
+            "text": "jazz",
+            "url": "/blog/genres/jazz-easy-listening/"
+          },
+          "external_link": {
+            "text": "KQED",
+            "url": "https://www.kqed.org/arts/10957761/from-the-club-to-the-cathedral-revisiting-duke-ellingtons-controversial-sacred-concert"
+          }
+        },
+        {
+          "category": "broadcast",
+          "headline": "The Dean Martin Show premieres on NBC",
+          "summary_line_1": "NBC launched The Dean Martin Show, the loose cue-card variety hour that would run nine seasons, with Frank Sinatra as the first guest.",
+          "summary_line_2": "Its theme was Martin's 1964 hit Everybody Loves Somebody, and the show kept his brand of easy listening pop in front of a mass audience through the rock era.",
+          "youtube_id": "z-2_OstpR5c",
+          "image": null,
+          "internal_link": {
+            "text": "easy listening",
+            "url": "/blog/genres/jazz-easy-listening/"
+          },
+          "external_link": {
+            "text": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/The_Dean_Martin_Show"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1964,
+      "events": [
+        {
+          "category": "concert",
+          "headline": "The Beatles play their only New Orleans concert",
+          "summary_line_1": "About 12,000 fans packed City Park Stadium for the only concert the Beatles ever played in New Orleans, and roughly 700 of them stormed the field mid-set before police cleared it.",
+          "summary_line_2": "Earlier that day the Beatles met Fats Domino and collected keys to the city, capping a stop that lasted barely 24 hours.",
+          "youtube_id": "QElJzUmgEuo",
+          "image": null,
+          "internal_link": {
+            "text": "the Beatles",
+            "url": "/blog/artists/the-beatles/"
+          },
+          "external_link": {
+            "text": "The Beatles Bible",
+            "url": "https://www.beatlesbible.com/1964/09/16/live-city-park-stadium-new-orleans/"
+          }
+        },
+        {
+          "category": "broadcast",
+          "headline": "Shindig! premieres on ABC",
+          "summary_line_1": "ABC aired the first episode of Shindig!, a fast-moving rock and pop showcase built by British producer Jack Good.",
+          "summary_line_2": "Sam Cooke headlined the premiere with Tennessee Waltz and Blowin' in the Wind, bringing soul to primetime alongside the Everly Brothers and the Righteous Brothers.",
+          "youtube_id": "RHuPuhZjwwI",
+          "image": null,
+          "internal_link": {
+            "text": "soul",
+            "url": "/blog/genres/motown-soul/"
+          },
+          "external_link": {
+            "text": "Ultimate Classic Rock",
+            "url": "https://ultimateclassicrock.com/shindig-debut/"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1963,
+      "events": [
+        {
+          "category": "release",
+          "headline": "The Beach Boys release the Surfer Girl album",
+          "summary_line_1": "Capitol Records released Surfer Girl, the third Beach Boys album and the first to credit Brian Wilson as sole producer.",
+          "summary_line_2": "It also brought Al Jardine back in place of David Marks, and it pushed the group's surf rock toward the studio craft of Wilson's later work.",
+          "youtube_id": "Xlcr04CB4jM",
+          "image": null,
+          "internal_link": {
+            "text": "surf rock",
+            "url": "/blog/genres/garage-surf-rock/"
+          },
+          "external_link": {
+            "text": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Surfer_Girl"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1960,
+      "events": [
+        {
+          "category": "release",
+          "headline": "Cliff Richard and the Shadows release Nine Times Out of Ten",
+          "summary_line_1": "Columbia released Nine Times Out of Ten, a Cliff Richard and the Shadows single that reached number three on the UK chart and earned a silver disc.",
+          "summary_line_2": "Richard and his band were Britain's biggest homegrown rock act, holding the ground the British Invasion groups would take worldwide four years later.",
+          "youtube_id": "0XgQD6hJb4s",
+          "image": null,
+          "internal_link": {
+            "text": "British Invasion",
+            "url": "/blog/genres/british-invasion/"
+          },
+          "external_link": {
+            "text": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Nine_Times_Out_of_Ten"
+          }
+        }
+      ]
+    }
+  ]
+}
