@@ -512,6 +512,16 @@
       "description": "The Ronettes' 1963 hit Be My Baby is racking up fresh plays on TikTok. Here's the real story behind Hal Blaine's drum intro and why it's trending now.",
       "date": "2026-09-04",
       "genre": "pop-brill-building"
+    },
+    {
+      "id": "on-this-day-september-18",
+      "title": "On This Day: September 18 in 1960s Music",
+      "slug": "/blog/on-this-day/september-18/",
+      "type": "on-this-day",
+      "description": "Nine verified 1960s music events from September 18: the Beatles write and finish Birthday in one Abbey Road session, the Doors tape a tight set for Danish TV, and the Beach Boys release Smiley Smile.",
+      "date": "2026-09-06",
+      "genre": null,
+      "seq": 18
     }
   ]
 }
