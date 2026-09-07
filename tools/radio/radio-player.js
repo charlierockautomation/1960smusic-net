@@ -17,11 +17,13 @@ var RadioPlayer = (function(){
     if (readyTimer) { clearTimeout(readyTimer); readyTimer = null; }
   }
 
-  function create(elementId, firstVideoId){
+  function create(elementId, firstVideoId, autoplay){
     player = new YT.Player(elementId, {
       height: '2', width: '2',
       videoId: firstVideoId,
-      playerVars: { autoplay: 1, mute: 1, controls: 0, disablekb: 1, fs: 0, modestbranding: 1, playsinline: 1 },
+      playerVars: autoplay
+        ? { autoplay: 1, mute: 1, controls: 0, disablekb: 1, fs: 0, modestbranding: 1, playsinline: 1 }
+        : { autoplay: 0, controls: 0, disablekb: 1, fs: 0, modestbranding: 1, playsinline: 1 },
       events: {
         onReady: function(e){ clearReadyTimer(); if (hooks.onReady) hooks.onReady(e); },
         onStateChange: function(e){ if (hooks.onStateChange) hooks.onStateChange(e); },
@@ -37,7 +39,13 @@ var RadioPlayer = (function(){
       readyTimer = setTimeout(function(){
         if (hooks.onReadyTimeout) hooks.onReadyTimeout();
       }, opts.readyTimeoutMs || 9000);
-      var start = function(){ create(elementId, firstVideoId); };
+      var start = function(){ create(elementId, firstVideoId, true); };
+      if (apiReady && window.YT && window.YT.Player) start();
+      else pendingInit = start;
+    },
+    preload: function(elementId, firstVideoId){
+      if (player) return;
+      var start = function(){ create(elementId, firstVideoId, false); };
       if (apiReady && window.YT && window.YT.Player) start();
       else pendingInit = start;
     },

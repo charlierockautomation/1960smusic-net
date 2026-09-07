@@ -185,6 +185,14 @@ function requestedGenre(){
   }).catch(function(){
     document.getElementById('rd-dial').innerHTML = '<p>Stations unavailable.</p>';
   });
+  /* Pre-create the hidden YT player now (idle, no autoplay) so the first tap
+     only has to send one direct loadVideoById call. Mobile browsers won't
+     honor an async unmute issued after the fact, but they do honor a
+     loadVideoById call made straight from the click handler -- same reason
+     manual stop/replay always worked. */
+  loadStationSongs(requested || DEFAULT_GENRE).then(function(songs){
+    if (songs && songs.length) RadioPlayer.preload('rd-audio', songs[0].youtube_id);
+  }).catch(function(){});
   document.getElementById('rd-tunein').addEventListener('click', function(){ selectStation(requestedGenre() || DEFAULT_GENRE); });
   document.getElementById('rd-try-again').addEventListener('click', retryInit);
 })();
