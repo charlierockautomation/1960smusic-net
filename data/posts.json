@@ -522,6 +522,16 @@
       "date": "2026-09-06",
       "genre": null,
       "seq": 18
+    },
+    {
+      "id": "on-this-day-september-19",
+      "title": "On This Day: September 19 in 1960s Music",
+      "slug": "/blog/on-this-day/september-19/",
+      "type": "on-this-day",
+      "description": "14 verified 1960s music events from September 19: the Who begin recording Tommy at IBC Studios, Chubby Checker's The Twist hits number one, and the Bee Gees release Massachusetts.",
+      "date": "2026-09-07",
+      "genre": null,
+      "seq": 19
     }
   ]
 }
