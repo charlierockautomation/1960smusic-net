@@ -532,6 +532,16 @@
       "date": "2026-09-07",
       "genre": null,
       "seq": 19
+    },
+    {
+      "id": "on-this-day-september-20",
+      "title": "On This Day: September 20 in 1960s Music",
+      "slug": "/blog/on-this-day/september-20/",
+      "type": "on-this-day",
+      "description": "8 verified 1960s music events from September 20: John Lennon privately tells the Beatles he's leaving, the Archies' Sugar, Sugar hits number one, and Blind Faith's debut album tops the Billboard 200.",
+      "date": "2026-09-07",
+      "genre": null,
+      "seq": 20
     }
   ]
 }
