@@ -542,6 +542,15 @@
       "date": "2026-09-07",
       "genre": null,
       "seq": 20
+    },
+    {
+      "id": "im-henry-the-viii-i-am-hermanns-hermits",
+      "title": "Henry the 8th Herman's Hermits: The Song That Dethroned the Stones",
+      "slug": "/blog/songs/im-henry-the-viii-i-am-hermanns-hermits/",
+      "type": "song-story",
+      "description": "Henry the 8th Herman's Hermits turned a 1910 music hall song into a two-minute 1965 number one that knocked The Rolling Stones off the Billboard top spot.",
+      "date": "2026-09-07",
+      "genre": "british-invasion"
     }
   ]
 }
