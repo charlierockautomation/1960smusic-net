@@ -1,6 +1,6 @@
 /* 1960smusic.net — Radio Dial tool. Loaded in addition to /styles.css + /tools/tools.css. */
 
-.rd-audio-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;}
+.rd-audio-hidden{position:fixed;left:0;bottom:0;width:2px;height:2px;opacity:.01;overflow:hidden;pointer-events:none;}
 
 .rd-tunein{
   background:var(--card);border:1px solid var(--line);border-radius:12px;

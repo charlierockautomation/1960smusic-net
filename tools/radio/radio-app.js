@@ -22,6 +22,7 @@ var currentGenre = null, currentSong = null;
 var consecutiveFails = 0;
 var playingGenre = null;
 var loadToken = 0;
+var hasUnmuted = false;
 
 function esc(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){
   return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
@@ -62,7 +63,10 @@ function showDiagnostic(){ document.getElementById('rd-diagnostic').hidden = fal
 
 function onPlayerReady(){ /* first track autoplays via playerVars.autoplay */ }
 function onPlayerStateChange(e){
-  if (e.data === YT.PlayerState.PLAYING){ consecutiveFails = 0; setStatus(''); }
+  if (e.data === YT.PlayerState.PLAYING){
+    consecutiveFails = 0; setStatus('');
+    if (!hasUnmuted){ hasUnmuted = true; RadioPlayer.unmute(); }
+  }
   else if (e.data === YT.PlayerState.ENDED){ nextTrack(); }
 }
 function onPlayerError(e){
@@ -130,6 +134,7 @@ function stopStation(){
 
 function retryInit(){
   RadioPlayer.destroy();
+  hasUnmuted = false;
   hideDiagnostic();
   selectStation(currentGenre || DEFAULT_GENRE);
 }

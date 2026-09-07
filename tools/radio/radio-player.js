@@ -19,9 +19,9 @@ var RadioPlayer = (function(){
 
   function create(elementId, firstVideoId){
     player = new YT.Player(elementId, {
-      height: '1', width: '1',
+      height: '2', width: '2',
       videoId: firstVideoId,
-      playerVars: { autoplay: 1, controls: 0, disablekb: 1, fs: 0, modestbranding: 1, playsinline: 1 },
+      playerVars: { autoplay: 1, mute: 1, controls: 0, disablekb: 1, fs: 0, modestbranding: 1, playsinline: 1 },
       events: {
         onReady: function(e){ clearReadyTimer(); if (hooks.onReady) hooks.onReady(e); },
         onStateChange: function(e){ if (hooks.onStateChange) hooks.onStateChange(e); },
@@ -43,6 +43,9 @@ var RadioPlayer = (function(){
     },
     loadVideo: function(id){
       if (player && player.loadVideoById) player.loadVideoById(id);
+    },
+    unmute: function(){
+      if (player && player.unMute) { player.unMute(); player.setVolume(100); }
     },
     stop: function(){
       if (player && player.stopVideo) player.stopVideo();
