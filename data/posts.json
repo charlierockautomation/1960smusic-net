@@ -560,6 +560,15 @@
       "description": "The Searchers band rode jangling twelve-string guitars from Liverpool clubs to three UK number ones, becoming Merseybeat's longest-running touring act.",
       "date": "2026-09-07",
       "genre": "british-invasion"
+    },
+    {
+      "id": "needles-and-pins-searchers",
+      "title": "Needles and Pins: How The Searchers Topped the UK Chart",
+      "slug": "/blog/songs/needles-and-pins-searchers/",
+      "type": "song-story",
+      "description": "Needles and Pins turned a Jackie DeShannon flop into The Searchers' first UK number one, helped along by a studio accident and a squeaky bass drum pedal.",
+      "date": "2026-09-07",
+      "genre": "british-invasion"
     }
   ]
 }
