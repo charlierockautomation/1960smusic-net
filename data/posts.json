@@ -569,6 +569,16 @@
       "description": "Needles and Pins turned a Jackie DeShannon flop into The Searchers' first UK number one, helped along by a studio accident and a squeaky bass drum pedal.",
       "date": "2026-09-07",
       "genre": "british-invasion"
+    },
+    {
+      "id": "on-this-day-september-21",
+      "title": "On This Day: September 21 in 1960s Music",
+      "slug": "/blog/on-this-day/september-21/",
+      "type": "on-this-day",
+      "description": "12 verified 1960s music events from September 21: the Beach Boys finish Good Vibrations, the Beatles play Liverpool twice in a day and film Blue Jay Way, and Jeannie C. Riley tops the Hot 100 with Harper Valley P.T.A.",
+      "date": "2026-09-08",
+      "genre": null,
+      "seq": 21
     }
   ]
 }
