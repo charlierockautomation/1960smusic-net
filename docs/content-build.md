@@ -85,7 +85,7 @@ Live rows (1-26) are in [`docs/content-build-archive.md`](content-build-archive.
 | 31 | Herman's Hermits bio | /blog/artists/hermanns-hermits/ | artist-bio | british-invasion | live | Herman's Hermits | IOfs8U_3NQk | yt |
 | 32 | Mrs. Brown You've Got a Lovely Daughter | /blog/songs/mrs-brown-youve-got-a-lovely-daughter-hermanns-hermits/ | song-story | british-invasion | live | Mrs. Brown You've Got a Lovely Daughter | IOfs8U_3NQk | yt |
 | 33 | I'm Henry the VIII, I Am | /blog/songs/im-henry-the-viii-i-am-hermanns-hermits/ | song-story | british-invasion | live | henry the 8th herman's hermits | FFNoDsOmluA | yt |
-| 34 | The Searchers bio | /blog/artists/the-searchers/ | artist-bio | british-invasion | in progress | The Searchers band | ugDXpdjmpgw | yt |
+| 34 | The Searchers bio | /blog/artists/the-searchers/ | artist-bio | british-invasion | live | The Searchers band | ugDXpdjmpgw | yt |
 | 35 | Needles and Pins | /blog/songs/needles-and-pins-searchers/ | song-story | british-invasion | not started | Needles and Pins | ugDXpdjmpgw | yt |
 | 36 | Do Wah Diddy Diddy | /blog/songs/do-wah-diddy-diddy-manfred-mann/ | song-story | british-invasion | not started | Do Wah Diddy Diddy | 1UingsUi0mI |  |
 | 37 | The Doors bio | /blog/artists/the-doors/ | artist-bio | psychedelic-rock | not started | The Doors | qoX6AKuYWL8 |  |

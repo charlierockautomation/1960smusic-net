@@ -551,6 +551,15 @@
       "description": "Henry the 8th Herman's Hermits turned a 1910 music hall song into a two-minute 1965 number one that knocked The Rolling Stones off the Billboard top spot.",
       "date": "2026-09-07",
       "genre": "british-invasion"
+    },
+    {
+      "id": "the-searchers",
+      "title": "The Searchers Band: Merseybeat's Longest-Running Hitmakers",
+      "slug": "/blog/artists/the-searchers/",
+      "type": "artist-bio",
+      "description": "The Searchers band rode jangling twelve-string guitars from Liverpool clubs to three UK number ones, becoming Merseybeat's longest-running touring act.",
+      "date": "2026-09-07",
+      "genre": "british-invasion"
     }
   ]
 }
