@@ -588,6 +588,16 @@
       "description": "Do Wah Diddy Diddy turned a flop by The Exciters into a transatlantic No. 1 for Manfred Mann in 1964, care of songwriters Jeff Barry and Ellie Greenwich.",
       "date": "2026-09-08",
       "genre": "british-invasion"
+    },
+    {
+      "id": "on-this-day-september-22",
+      "title": "On This Day: September 22 in 1960s Music",
+      "slug": "/blog/on-this-day/september-22/",
+      "type": "on-this-day",
+      "description": "11 verified 1960s music events from September 22: Bob Dylan premieres A Hard Rain's a-Gonna Fall at Carnegie Hall, Fiddler on the Roof opens on Broadway, and The Band release their self-titled second album.",
+      "date": "2026-09-09",
+      "genre": null,
+      "seq": 22
     }
   ]
 }
