@@ -579,6 +579,15 @@
       "date": "2026-09-08",
       "genre": null,
       "seq": 21
+    },
+    {
+      "id": "do-wah-diddy-diddy-manfred-mann",
+      "title": "Do Wah Diddy Diddy: The Story of Manfred Mann's No. 1 Hit",
+      "slug": "/blog/songs/do-wah-diddy-diddy-manfred-mann/",
+      "type": "song-story",
+      "description": "Do Wah Diddy Diddy turned a flop by The Exciters into a transatlantic No. 1 for Manfred Mann in 1964, care of songwriters Jeff Barry and Ellie Greenwich.",
+      "date": "2026-09-08",
+      "genre": "british-invasion"
     }
   ]
 }
