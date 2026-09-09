@@ -88,7 +88,7 @@ Live rows (1-26) are in [`docs/content-build-archive.md`](content-build-archive.
 | 34 | The Searchers bio | /blog/artists/the-searchers/ | artist-bio | british-invasion | live | The Searchers band | ugDXpdjmpgw | yt |
 | 35 | Needles and Pins | /blog/songs/needles-and-pins-searchers/ | song-story | british-invasion | live | Needles and Pins | ugDXpdjmpgw | yt |
 | 36 | Do Wah Diddy Diddy | /blog/songs/do-wah-diddy-diddy-manfred-mann/ | song-story | british-invasion | live | Do Wah Diddy Diddy | 1UingsUi0mI |  |
-| 37 | The Doors bio | /blog/artists/the-doors/ | artist-bio | psychedelic-rock | not started | The Doors | qoX6AKuYWL8 |  |
+| 37 | The Doors bio | /blog/artists/the-doors/ | artist-bio | psychedelic-rock | live | The Doors | qoX6AKuYWL8 |  |
 | 38 | Light My Fire | /blog/songs/light-my-fire-doors/ | song-story | psychedelic-rock | not started | Light My Fire | qoX6AKuYWL8 |  |
 | 39 | The End | /blog/songs/the-end-doors/ | song-story | psychedelic-rock | not started | The End by The Doors | 9pRGoSbYHQE |  |
 | 40 | Strange Days | /blog/songs/strange-days-doors/ | song-story | psychedelic-rock | not started | Strange Days by The Doors | tHOK87ozcho |  |

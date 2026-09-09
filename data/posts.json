@@ -598,6 +598,15 @@
       "date": "2026-09-09",
       "genre": null,
       "seq": 22
+    },
+    {
+      "id": "the-doors",
+      "title": "The Doors: Jim Morrison's Psychedelic Rock Legacy",
+      "slug": "/blog/artists/the-doors/",
+      "type": "artist-bio",
+      "description": "The Doors fused Jim Morrison's poetry with Ray Manzarek's organ to become one of the defining, most controversial bands of 1960s psychedelic rock.",
+      "date": "2026-09-09",
+      "genre": "psychedelic-rock"
     }
   ]
 }
