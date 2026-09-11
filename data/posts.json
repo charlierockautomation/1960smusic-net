@@ -617,6 +617,15 @@
       "description": "The Doors fused Jim Morrison's poetry with Ray Manzarek's organ to become one of the defining, most controversial bands of 1960s psychedelic rock.",
       "date": "2026-09-09",
       "genre": "psychedelic-rock"
+    },
+    {
+      "id": "light-my-fire-doors",
+      "title": "The Doors Light My Fire: Story Behind Their Breakthrough Hit",
+      "slug": "/blog/songs/light-my-fire-doors/",
+      "type": "song-story",
+      "description": "The Doors Light My Fire grew from Robby Krieger's first finished song into a number one hit that got the band banned from The Ed Sullivan Show.",
+      "date": "2026-09-10",
+      "genre": "psychedelic-rock"
     }
   ]
 }
