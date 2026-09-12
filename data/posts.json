@@ -655,6 +655,15 @@
       "description": "The End by The Doors began as a breakup song, got the band fired from the Whisky a Go Go, and became the closing epic of Apocalypse Now.",
       "date": "2026-09-11",
       "genre": "psychedelic-rock"
+    },
+    {
+      "id": "strange-days-doors",
+      "title": "Album Strange Days: Inside The Doors' 1967 Moog Turn",
+      "slug": "/blog/songs/strange-days-doors/",
+      "type": "song-story",
+      "description": "The album Strange Days pushed The Doors into darker, theatrical ground in 1967, with an early Moog vocal effect and a Sniffen Court street shoot for the cover.",
+      "date": "2026-09-12",
+      "genre": "psychedelic-rock"
     }
   ]
 }
