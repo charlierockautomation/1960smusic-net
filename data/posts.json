@@ -646,6 +646,15 @@
       "description": "The Doors Light My Fire grew from Robby Krieger's first finished song into a number one hit that got the band banned from The Ed Sullivan Show.",
       "date": "2026-09-10",
       "genre": "psychedelic-rock"
+    },
+    {
+      "id": "the-end-doors",
+      "title": "The End by The Doors: Story Behind the 11-Minute Epic",
+      "slug": "/blog/songs/the-end-doors/",
+      "type": "song-story",
+      "description": "The End by The Doors began as a breakup song, got the band fired from the Whisky a Go Go, and became the closing epic of Apocalypse Now.",
+      "date": "2026-09-11",
+      "genre": "psychedelic-rock"
     }
   ]
 }

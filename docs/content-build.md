@@ -90,7 +90,7 @@ Live rows (1-26) are in [`docs/content-build-archive.md`](content-build-archive.
 | 36 | Do Wah Diddy Diddy | /blog/songs/do-wah-diddy-diddy-manfred-mann/ | song-story | british-invasion | live | Do Wah Diddy Diddy | 1UingsUi0mI |  |
 | 37 | The Doors bio | /blog/artists/the-doors/ | artist-bio | psychedelic-rock | live | The Doors | qoX6AKuYWL8 |  |
 | 38 | Light My Fire | /blog/songs/light-my-fire-doors/ | song-story | psychedelic-rock | live | Light My Fire | qoX6AKuYWL8 |  |
-| 39 | The End | /blog/songs/the-end-doors/ | song-story | psychedelic-rock | not started | The End by The Doors | 9pRGoSbYHQE |  |
+| 39 | The End | /blog/songs/the-end-doors/ | song-story | psychedelic-rock | live | The End by The Doors | 9pRGoSbYHQE |  |
 | 40 | Strange Days | /blog/songs/strange-days-doors/ | song-story | psychedelic-rock | not started | Strange Days by The Doors | tHOK87ozcho |  |
 | 41 | The Crystal Ship | /blog/songs/the-crystal-ship-doors/ | song-story | psychedelic-rock | not started | The Crystal Ship | rbulIrN4scs |  |
 | 42 | The Beach Boys bio | /blog/artists/the-beach-boys/ | artist-bio | garage-surf-rock | not started | The Beach Boys | enlOHxQ0tb4 |  |
