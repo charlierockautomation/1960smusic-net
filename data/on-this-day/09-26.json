@@ -13,9 +13,9 @@
     "external_link": { "text": "The Beatles Bible", "url": "https://www.beatlesbible.com/1969/09/26/uk-lp-abbey-road/" }
   },
   "stats": [
-    { "value": 12, "label": "verified events" },
+    { "value": 11, "label": "verified events" },
     { "value": 4, "label": "event categories" },
-    { "value": 12, "label": "watchable clips" }
+    { "value": 11, "label": "watchable clips" }
   ],
   "years": [
     {
@@ -76,16 +76,6 @@
     {
       "year": 1966,
       "events": [
-        {
-          "category": "concert",
-          "headline": "Jimi Hendrix makes his first UK stage appearance",
-          "summary_line_1": "Jimi Hendrix flew into London for the first time on September 26, 1966, and that same night climbed onstage at the Scotch of St James club to jam with the house band, The Gass.",
-          "summary_line_2": "The impromptu set marked Hendrix's first UK performance, months before his debut single, Hey Joe, introduced British audiences to the sound he had just started building in London.",
-          "youtube_id": "rXwMrBb2x1Q",
-          "image": null,
-          "internal_link": { "text": "psychedelic rock", "url": "/blog/genres/psychedelic-rock/" },
-          "external_link": { "text": "Louder", "url": "https://www.loudersound.com/features/the-inside-story-of-jimi-hendrixs-first-london-show-by-the-man-who-made-it-happen" }
-        },
         {
           "category": "industry",
           "headline": "Brian Epstein is hospitalized in London",
