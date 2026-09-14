@@ -109,7 +109,7 @@ past that, move the oldest `live` rows out to
 | 24 | September 24 | /blog/on-this-day/september-24/ | data/on-this-day/09-24.json | live |
 | 25 | September 25 | /blog/on-this-day/september-25/ | data/on-this-day/09-25.json | live |
 | 26 | September 26 | /blog/on-this-day/september-26/ | data/on-this-day/09-26.json | live |
-| 27 | September 27 | /blog/on-this-day/september-27/ | data/on-this-day/09-27.json | drafted |
+| 27 | September 27 | /blog/on-this-day/september-27/ | data/on-this-day/09-27.json | live |
 | 28 | September 28 | /blog/on-this-day/september-28/ | data/on-this-day/09-28.json | not started |
 | 29 | September 29 | /blog/on-this-day/september-29/ | data/on-this-day/09-29.json | not started |
 | 30 | September 30 | /blog/on-this-day/september-30/ | data/on-this-day/09-30.json | not started |
