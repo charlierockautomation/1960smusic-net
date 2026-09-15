@@ -684,6 +684,16 @@
       "description": "The album Strange Days pushed The Doors into darker, theatrical ground in 1967, with an early Moog vocal effect and a Sniffen Court street shoot for the cover.",
       "date": "2026-09-12",
       "genre": "psychedelic-rock"
+    },
+    {
+      "id": "on-this-day-september-28",
+      "title": "On This Day: September 28 in 1960s Music",
+      "slug": "/blog/on-this-day/september-28/",
+      "type": "on-this-day",
+      "description": "16 verified 1960s music events from September 28: Hey Jude begins its nine-week run at number one, the Rolling Stones play four different UK shows across the decade, and Jim Morrison gets arrested in Tallahassee.",
+      "date": "2026-09-15",
+      "genre": null,
+      "seq": 28
     }
   ]
 }

@@ -1,0 +1,235 @@
+{
+  "date_label": "September 28",
+  "date_slug": "september-28",
+  "flagship": {
+    "year": 1968,
+    "category": "chart",
+    "headline": "Hey Jude begins its nine week run at number one",
+    "summary_line_1": "The Beatles' \"Hey Jude\" reached number one on the Billboard Hot 100 on September 28, 1968, launching the longest chart topping run of any Beatles single.",
+    "summary_line_2": "Written by Paul McCartney to comfort John Lennon's son Julian during his parents' divorce, the seven minute single held the top spot for nine straight weeks and became the best selling record of the decade.",
+    "youtube_id": "A_MjCqQoLLA",
+    "image": null
+  },
+  "stats": [
+    { "value": 16, "label": "verified events" },
+    { "value": 7, "label": "event categories" },
+    { "value": 15, "label": "watchable clips" }
+  ],
+  "years": [
+    {
+      "year": 1969,
+      "events": [
+        {
+          "category": "industry",
+          "headline": "John Lennon re-records Cold Turkey with Eric Clapton",
+          "summary_line_1": "John Lennon and the Plastic Ono Band gathered at Trident Studios in London on September 28, 1969, to re-record \"Cold Turkey\" with Eric Clapton on guitar, Klaus Voormann on bass and Ringo Starr on drums.",
+          "summary_line_2": "Lennon had scrapped an earlier attempt at EMI Studios three days before, and this Trident session produced the master used for the finished single.",
+          "youtube_id": "xqVe9UKfSmI",
+          "image": null,
+          "internal_link": { "text": "The Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1968,
+      "events": [
+        {
+          "category": "chart",
+          "headline": "Hey Jude begins its nine week run at number one",
+          "summary_line_1": "The Beatles' \"Hey Jude\" reached number one on the Billboard Hot 100 on September 28, 1968, launching the longest chart topping run of any Beatles single.",
+          "summary_line_2": "Written by Paul McCartney to comfort John Lennon's son Julian during his parents' divorce, the seven minute single held the top spot for nine straight weeks and became the best selling record of the decade.",
+          "youtube_id": "A_MjCqQoLLA",
+          "image": null,
+          "internal_link": { "text": "The Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": { "text": "Billboard", "url": "https://www.billboard.com/pro/this-week-in-billboard-chart-history-1968-the-beatles-hey-jude-hot-100/" }
+        },
+        {
+          "category": "death",
+          "headline": "Pioneering DJ Dewey Phillips dies at 42",
+          "summary_line_1": "Memphis radio disc jockey Dewey Phillips, whose WHBQ show Red, Hot and Blue gave rock and roll some of its earliest airplay, died of heart failure on September 28, 1968, at age 42.",
+          "summary_line_2": "Phillips had famously given Elvis Presley his radio debut back in 1954, spinning \"That's All Right\" on the air the same week it was recorded and helping launch the sound that would define the decade that followed.",
+          "youtube_id": "DCP_g7X31nI",
+          "image": null,
+          "internal_link": null,
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1967,
+      "events": [
+        {
+          "category": "release",
+          "headline": "Gladys Knight and the Pips release I Heard It Through the Grapevine",
+          "summary_line_1": "Motown's Soul label released Gladys Knight and the Pips' version of \"I Heard It Through the Grapevine\" on September 28, 1967, produced by Norman Whitfield.",
+          "summary_line_2": "The record became Motown's biggest selling single to that point, topping the R&B chart and climbing to number two on the Billboard Hot 100.",
+          "youtube_id": "SFjJLMHRHFI",
+          "image": null,
+          "internal_link": { "text": "Motown, Soul & R&B", "url": "/blog/genres/motown-soul/" },
+          "external_link": null
+        },
+        {
+          "category": "industry",
+          "headline": "The Beatles dub the orchestra onto I Am the Walrus",
+          "summary_line_1": "Back at EMI Studios on September 28, 1967, George Martin dubbed the orchestral and choral parts recorded the day before onto an earlier take of \"I Am the Walrus\", while the band also finished new mono mixes of \"Flying\".",
+          "summary_line_2": "The session locked in the finished, chaotic master that would anchor the Magical Mystery Tour soundtrack two months later.",
+          "youtube_id": "Ws5klxbI87I",
+          "image": null,
+          "internal_link": { "text": "psychedelic rock", "url": "/blog/genres/psychedelic-rock/" },
+          "external_link": { "text": "The Beatles Bible", "url": "https://www.beatlesbible.com/1967/09/28/recording-mixing-editing-i-am-the-walrus-flying/" }
+        }
+      ]
+    },
+    {
+      "year": 1966,
+      "events": [
+        {
+          "category": "concert",
+          "headline": "The Rolling Stones headline two shows at Ardwick's ABC Theatre",
+          "summary_line_1": "The Rolling Stones played two shows at the ABC Theatre in Ardwick, Manchester on September 28, 1966, with the Yardbirds and Ike and Tina Turner opening the bill.",
+          "summary_line_2": "A young Jimmy Page was in the Yardbirds' lineup that night, playing to a crowd that had just watched the Stones' \"Have You Seen Your Mother, Baby, Standing in the Shadow?\" climb the charts.",
+          "youtube_id": "QVY9I0XP-g8",
+          "image": null,
+          "internal_link": { "text": "The Yardbirds", "url": "/blog/artists/the-yardbirds/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1965,
+      "events": [
+        {
+          "category": "concert",
+          "headline": "The Rolling Stones play two nights at Cardiff's Capitol Theatre",
+          "summary_line_1": "The Rolling Stones played the first of two shows at the Capitol Theatre in Cardiff, Wales on September 28, 1965, touring behind their new worldwide number one.",
+          "summary_line_2": "\"(I Can't Get No) Satisfaction\" had just topped the charts on both sides of the Atlantic, turning the band's UK dates that autumn into a scramble for tickets.",
+          "youtube_id": "nrIPxlFzDi0",
+          "image": null,
+          "internal_link": { "text": "(I Can't Get No) Satisfaction", "url": "/blog/songs/i-cant-get-no-satisfaction-rolling-stones/" },
+          "external_link": null
+        },
+        {
+          "category": "industry",
+          "headline": "Dottie West records Before the Ring on Your Finger Turns Green",
+          "summary_line_1": "Country singer Dottie West cut \"Before the Ring on Your Finger Turns Green\" at RCA Victor's Nashville studio on September 28, 1965, with Chet Atkins producing.",
+          "summary_line_2": "Written by Felice and Boudleaux Bryant, the song became a top 40 country hit that November and helped cement West's run as one of Nashville's leading female voices.",
+          "youtube_id": "uA9Q5zShnDE",
+          "image": null,
+          "internal_link": { "text": "Country (Nashville Sound & Bakersfield)", "url": "/blog/genres/country-60s/" },
+          "external_link": null,
+          "_youtube_flagged": true,
+          "_youtube_flag_reason": "No official label or -Topic channel upload found after a real search; using the closest legitimate archival upload of the actual recording."
+        }
+      ]
+    },
+    {
+      "year": 1964,
+      "events": [
+        {
+          "category": "concert",
+          "headline": "A Ray Charles concert erupts into a riot in Dallas",
+          "summary_line_1": "A Ray Charles concert at Dallas Memorial Auditorium turned into a riot on September 28, 1964, after an employee announced during a long intermission that the IRS had seized the night's gate receipts.",
+          "summary_line_2": "The furious crowd smashed roughly 27 plate glass windows and tore up the ticket booths, and police in riot gear had to restore order before the night was out.",
+          "youtube_id": "H61YWtExfS0",
+          "image": null,
+          "internal_link": null,
+          "external_link": { "text": "D Magazine", "url": "https://www.dmagazine.com/publications/d-magazine/1990/october/the-ray-charles-riot/" }
+        },
+        {
+          "category": "concert",
+          "headline": "The Rolling Stones play two shows at the Odeon in Romford",
+          "summary_line_1": "The Rolling Stones played two shows at the Odeon Cinema in Romford, Essex on September 28, 1964, partway through their fourth British tour of the year.",
+          "summary_line_2": "The band had just scored their first UK number one with \"It's All Over Now\", and the Bobby Womack cover was still anchoring their live set that autumn.",
+          "youtube_id": "Ur-yMil88fU",
+          "image": null,
+          "internal_link": { "text": "British Invasion", "url": "/blog/genres/british-invasion/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1963,
+      "events": [
+        {
+          "category": "culture",
+          "headline": "Jim Morrison gets arrested in Tallahassee",
+          "summary_line_1": "A 19 year old college student named Jim Morrison was arrested for disturbing the peace and stealing a police officer's helmet during a Florida State-TCU football game in Tallahassee on September 28, 1963.",
+          "summary_line_2": "It was the future Doors frontman's first brush with the law, a small preview of the chaos that would follow him once he became rock's most notorious wild card.",
+          "youtube_id": null,
+          "image": {
+            "src": "img/jim-morrison-1963.jpg",
+            "width": 500,
+            "height": 600,
+            "alt": "Jim Morrison's Tallahassee police booking photo, September 28, 1963",
+            "credit_text": "Florida state government police record. Public domain (PD Florida), via Wikimedia Commons",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Jim_Morrison_(1963).jpg",
+            "license": "Public domain"
+          },
+          "internal_link": { "text": "The Doors", "url": "/blog/artists/the-doors/" },
+          "external_link": null
+        },
+        {
+          "category": "concert",
+          "headline": "The Rolling Stones play Walthamstow Assembly Hall",
+          "summary_line_1": "The Rolling Stones performed at Assembly Hall in Walthamstow, north London, on September 28, 1963, deep into a run of UK package tour dates that put them in front of screaming crowds nightly.",
+          "summary_line_2": "Mick Jagger, Keith Richards, Brian Jones, Bill Wyman and Charlie Watts were still riding the momentum of their debut single, a cover of Chuck Berry's \"Come On\", released that summer.",
+          "youtube_id": "-OLkVbDA3OQ",
+          "image": null,
+          "internal_link": { "text": "The Rolling Stones", "url": "/blog/artists/the-rolling-stones/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1962,
+      "events": [
+        {
+          "category": "concert",
+          "headline": "The Beatles play their 136th Cavern Club lunchtime show",
+          "summary_line_1": "The Beatles gave their 136th lunchtime performance at Liverpool's Cavern Club on September 28, 1962, just weeks after cutting \"Love Me Do\" for Parlophone.",
+          "summary_line_2": "The tight, sweaty club sets sharpened the band's stage act right before Britain got its first real taste of them on record.",
+          "youtube_id": "XB16AkSGLqk",
+          "image": null,
+          "internal_link": { "text": "British Invasion", "url": "/blog/genres/british-invasion/" },
+          "external_link": { "text": "The Beatles Bible", "url": "https://www.beatlesbible.com/1962/09/28/live-cavern-club-liverpool-240/" }
+        },
+        {
+          "category": "concert",
+          "headline": "The Beatles close out the Royal Iris riverboat shuffle",
+          "summary_line_1": "The Beatles topped the bill for the last of four riverboat shuffle shows aboard the MV Royal Iris ferry on the River Mersey on September 28, 1962, with Lee Castle and the Barons opening.",
+          "summary_line_2": "The floating gigs were a Cavern Club tradition dreamed up by owner Ray McFall, and this one closed out just as \"Love Me Do\" prepared to hit shops the following week.",
+          "youtube_id": "MA5DkiVKSlM",
+          "image": null,
+          "internal_link": { "text": "The Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1961,
+      "events": [
+        {
+          "category": "broadcast",
+          "headline": "Dr. Kildare premieres on NBC",
+          "summary_line_1": "NBC premiered the medical drama Dr. Kildare on September 28, 1961, starring a young Richard Chamberlain as the title intern.",
+          "summary_line_2": "The show made Chamberlain a teen idol and briefly pushed him into a pop singing career, including the Billboard top ten hit \"Theme from Dr. Kildare\".",
+          "youtube_id": "TY68CWCJp4s",
+          "image": null,
+          "internal_link": null,
+          "external_link": null
+        },
+        {
+          "category": "concert",
+          "headline": "The Beatles play Litherland Town Hall",
+          "summary_line_1": "The Beatles played a local gig at Litherland Town Hall in Liverpool on September 28, 1961, the same hall where a frenzied teenage crowd had first mobbed them like stars back in December 1960.",
+          "summary_line_2": "The group played the venue while their first released recording, \"My Bonnie\" with Tony Sheridan, was already turning up on Merseyside jukeboxes that same autumn.",
+          "youtube_id": "jZO5ASVLbMY",
+          "image": null,
+          "internal_link": { "text": "The Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": null
+        }
+      ]
+    }
+  ]
+}
