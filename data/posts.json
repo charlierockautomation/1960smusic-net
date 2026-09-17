@@ -694,6 +694,15 @@
       "date": "2026-09-15",
       "genre": null,
       "seq": 28
+    },
+    {
+      "id": "the-crystal-ship-doors",
+      "title": "The Crystal Ship: The Doors' 1967 Breakup Ballad",
+      "slug": "/blog/songs/the-crystal-ship-doors/",
+      "type": "song-story",
+      "description": "The Crystal Ship is Jim Morrison's farewell to his first serious girlfriend, a piano led ballad The Doors tucked onto their 1967 debut album.",
+      "date": "2026-09-16",
+      "genre": "psychedelic-rock"
     }
   ]
 }

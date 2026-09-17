@@ -92,7 +92,7 @@ Live rows (1-26) are in [`docs/content-build-archive.md`](content-build-archive.
 | 38 | Light My Fire | /blog/songs/light-my-fire-doors/ | song-story | psychedelic-rock | live | Light My Fire | qoX6AKuYWL8 |  |
 | 39 | The End | /blog/songs/the-end-doors/ | song-story | psychedelic-rock | live | The End by The Doors | 9pRGoSbYHQE |  |
 | 40 | Strange Days | /blog/songs/strange-days-doors/ | song-story | psychedelic-rock | live | album strange days | tHOK87ozcho |  |
-| 41 | The Crystal Ship | /blog/songs/the-crystal-ship-doors/ | song-story | psychedelic-rock | not started | The Crystal Ship | rbulIrN4scs |  |
+| 41 | The Crystal Ship | /blog/songs/the-crystal-ship-doors/ | song-story | psychedelic-rock | live | The Crystal Ship | rbulIrN4scs |  |
 | 42 | The Beach Boys bio | /blog/artists/the-beach-boys/ | artist-bio | garage-surf-rock | not started | The Beach Boys | enlOHxQ0tb4 |  |
 | 43 | Surfin' USA | /blog/songs/surfin-usa-beach-boys/ | song-story | garage-surf-rock | not started | Surfin' USA by The Beach Boys | enlOHxQ0tb4 |  |
 | 44 | Good Vibrations | /blog/songs/good-vibrations-beach-boys/ | song-story | garage-surf-rock | not started | Good Vibrations by The Beach Boys | apBWI6xrbLY |  |
