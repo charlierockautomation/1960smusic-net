@@ -188,7 +188,7 @@ function requestedGenre(){ var id = new URLSearchParams(location.search).get('st
   }).catch(function(){
     document.getElementById('rd-dial').innerHTML = '<p>Stations unavailable.</p>';
   });
-  /* Pre-create hidden YT player now (idle) so first tap only needs one loadVideoById call. */
+  /* Pre-create the visible YT player now (idle, muted-off) so first tap only needs one loadVideoById call. */
   loadStationSongs(requested || DEFAULT_GENRE).then(function(songs){
     if (songs && songs.length) RadioPlayer.preload('rd-audio', songs[0].youtube_id);
   }).catch(function(){});

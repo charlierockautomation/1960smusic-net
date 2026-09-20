@@ -1,5 +1,6 @@
 /* 1960smusic.net — Radio Dial: YouTube IFrame Player engine.
-   Hidden audio-only player; the UI on top never shows YouTube chrome. */
+   Player is the radio's visible "screen" (see #rd-audio in radio.css) --
+   always on-page, always full YouTube chrome, never hidden or covered. */
 
 var RadioPlayer = (function(){
   var player = null;
@@ -19,11 +20,11 @@ var RadioPlayer = (function(){
 
   function create(elementId, firstVideoId, autoplay){
     player = new YT.Player(elementId, {
-      height: '2', width: '2',
+      height: '270', width: '480',
       videoId: firstVideoId,
       playerVars: autoplay
-        ? { autoplay: 1, mute: 1, controls: 0, disablekb: 1, fs: 0, modestbranding: 1, playsinline: 1 }
-        : { autoplay: 0, controls: 0, disablekb: 1, fs: 0, modestbranding: 1, playsinline: 1 },
+        ? { autoplay: 1, mute: 1, controls: 1, playsinline: 1 }
+        : { autoplay: 0, controls: 1, playsinline: 1 },
       events: {
         onReady: function(e){ clearReadyTimer(); if (hooks.onReady) hooks.onReady(e); },
         onStateChange: function(e){ if (hooks.onStateChange) hooks.onStateChange(e); },

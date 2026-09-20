@@ -82,8 +82,10 @@ requiring the field on all 434+ entries.
 ### Radio Dial controls (`/tools/radio/`)
 
 Core station/queue/player logic lives in `radio-app.js` (unchanged
-architecture: one shared hidden YouTube player, one station playing at a
-time). Per-card Skip, Select, and Volume controls are split into their own
+architecture: one shared, visible YouTube player as the dial's "screen"
+in `.rd-screen-frame`, one station playing at a time; the frame/bezel sit
+around the player, never on top of it, per the YouTube Embed Rule in
+`CLAUDE.md`). Per-card Skip, Select, and Volume controls are split into their own
 files to keep `radio-app.js` under the 199-line ceiling, coordinating with
 it via three DOM `CustomEvent`s it dispatches: `rd:dial-rendered` (dial
 markup built, carries enabled genres), `rd:tiles-updated` (play/pause state

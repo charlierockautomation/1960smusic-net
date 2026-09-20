@@ -1,6 +1,18 @@
 /* 1960smusic.net — Radio Dial tool. Loaded in addition to /styles.css + /tools/tools.css. */
 
-.rd-audio-hidden{position:fixed;left:0;bottom:0;width:2px;height:2px;opacity:.01;overflow:hidden;pointer-events:none;}
+.rd-screen-frame{
+  background:var(--walnut-deep);border:3px solid var(--brass);border-radius:14px;
+  padding:12px;margin:0 0 22px;
+  display:flex;justify-content:center;
+}
+/* #rd-audio, not .rd-screen: YT.Player replaces the div with a bare
+   <iframe id="rd-audio">, dropping any class on it. The id is the only
+   thing that survives every re-create/reload, so sizing hangs off it. */
+#rd-audio{
+  width:100%;max-width:480px;aspect-ratio:16/9;
+  min-width:200px;min-height:200px;
+  background:#000;border-radius:6px;border:0;
+}
 
 .rd-tunein{
   background:var(--card);border:1px solid var(--line);border-radius:12px;

@@ -12,7 +12,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Radio Dial | 1960smusic.net</title>
-<meta name="description" content="Tune in to a continuous, station-style stream of 1960s hits. Pick a genre station and let it play, one track after another, audio-only.">
+<meta name="description" content="Tune in to a continuous, station-style stream of 1960s hits. Pick a genre station and let it play, one track after another.">
 <link rel="canonical" href="https://1960smusic.net/tools/radio/">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -43,7 +43,7 @@
 <main>
   <div class="wrap">
     <h1 class="page-title">Radio Dial</h1>
-    <p class="lead">Pick a station and let it play. One track after another, no video, just the music.</p>
+    <p class="lead">Pick a station and let it play, one track after another.</p>
 
     <div class="rd-tunein" id="rd-tunein-wrap">
       <p>Click Tune In to start listening. Your browser needs one click to allow audio to begin.</p>
@@ -70,8 +70,11 @@
       <p id="rd-status" aria-live="polite"></p>
     </div>
 
+    <div class="rd-screen-frame">
+      <div id="rd-audio"></div>
+    </div>
+
     <div id="rd-dial" aria-label="Radio stations"></div>
-    <div id="rd-audio" class="rd-audio-hidden"></div>
 
     <dialog id="rd-select-dialog" class="rd-select-dialog">
       <div class="rd-select-head">
