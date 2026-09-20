@@ -6,8 +6,7 @@ var GENRE_FREQ = {
   'garage-surf-rock':'94.7','psychedelic-rock':'97.3','country-60s':'99.5',
   'pop-brill-building':'101.9','jazz-easy-listening':'104.6'
 };
-/* All 8 stations live -- Phase 1 data verified for all 8, one-station
-   checkpoint (British Invasion) confirmed working. */
+/* All 8 stations live for Phase 1. */
 var ENABLED_GENRES = {
   'british-invasion': true, 'motown-soul': true, 'folk-rock': true,
   'garage-surf-rock': true, 'psychedelic-rock': true, 'country-60s': true,
@@ -24,8 +23,7 @@ var playingGenre = null;
 var loadToken = 0;
 var hasUnmuted = false;
 
-function esc(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){
-  return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
+function esc(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
 function fetchJSON(path){ return fetch(path).then(function(r){ if(!r.ok) throw new Error(path+' '+r.status); return r.json(); }); }
 function setStatus(t){ document.getElementById('rd-status').textContent = t; }
 
@@ -47,9 +45,10 @@ function renderNowPlaying(song, loading){
   setStatus(loading ? 'Tuning in…' : '');
 }
 
+function dedupeHead(prev){ if (queue.length > 1 && queue[0] === prev){ var t = queue[0]; queue[0] = queue[1]; queue[1] = t; } }
 function nextTrack(){
   if (!queue.length) return;
-  if (queueIdx >= queue.length) buildQueue(cache[currentGenre]);
+  if (queueIdx >= queue.length){ buildQueue(cache[currentGenre]); dedupeHead(currentSong); }
   var song = queue[queueIdx++];
   currentSong = song;
   renderNowPlaying(song, true);
@@ -57,7 +56,7 @@ function nextTrack(){
 }
 
 function hideTrouble(){ document.getElementById('rd-trouble').hidden = true; }
-function showTrouble(){ document.getElementById('rd-trouble').hidden = false; setStatus(''); }
+function showTrouble(){ document.getElementById('rd-trouble').hidden = false; setStatus("This station's having trouble."); }
 function hideDiagnostic(){ document.getElementById('rd-diagnostic').hidden = true; }
 function showDiagnostic(){ document.getElementById('rd-diagnostic').hidden = false; setStatus(''); }
 
@@ -66,6 +65,7 @@ function onPlayerStateChange(e){
   if (e.data === YT.PlayerState.PLAYING){
     consecutiveFails = 0; setStatus('');
     if (!hasUnmuted){ hasUnmuted = true; RadioPlayer.unmute(); }
+    document.dispatchEvent(new CustomEvent('rd:track-started', { detail: { genre: currentGenre, song: currentSong } }));
   }
   else if (e.data === YT.PlayerState.ENDED){ nextTrack(); }
 }
@@ -75,7 +75,7 @@ function onPlayerError(e){
   }
   if (!SKIP_CODES[e.data]) return;
   consecutiveFails++;
-  if (consecutiveFails >= 3){ showTrouble(); return; }
+  if (consecutiveFails >= 5){ showTrouble(); return; }
   nextTrack();
 }
 function onReadyTimeout(){ showDiagnostic(); }
@@ -90,9 +90,10 @@ function updateTiles(){
     if (playBtn) playBtn.disabled = isPlaying;
     if (stopBtn) stopBtn.disabled = !isPlaying;
   });
+  document.dispatchEvent(new CustomEvent('rd:tiles-updated', { detail: { playingGenre: playingGenre } }));
 }
 
-function selectStation(genreId){
+function selectStation(genreId, startSong){
   if (!ENABLED_GENRES[genreId]) return;
   hideTrouble(); hideDiagnostic();
   consecutiveFails = 0;
@@ -105,7 +106,8 @@ function selectStation(genreId){
     if (token !== loadToken) return;
     currentGenre = genreId;
     buildQueue(songs);
-    var song = queue[queueIdx++];
+    var song = startSong || queue[queueIdx++];
+    if (startSong) dedupeHead(startSong);
     currentSong = song;
     renderNowPlaying(song, true);
     if (!RadioPlayer.isActive()){
@@ -152,9 +154,11 @@ function renderDial(genres){
       '<span class="freq">' + esc(freq) + '</span><span class="name">' + esc(g.name) + '</span>' +
       (enabled ?
         '<div class="rd-ctrls">' +
-          '<button type="button" class="rd-play-btn" data-genre="' + esc(g.id) + '">&#9654; Play</button>' +
-          '<button type="button" class="rd-stop-btn" data-genre="' + esc(g.id) + '" disabled>&#9632; Stop</button>' +
-        '</div>' :
+          '<button type="button" class="rd-play-btn" data-genre="' + esc(g.id) + '" aria-label="Play ' + esc(g.name) + ' station">&#9654; Play</button>' +
+          '<button type="button" class="rd-stop-btn" data-genre="' + esc(g.id) + '" disabled aria-label="Stop ' + esc(g.name) + ' station">&#9632; Stop</button>' +
+        '</div>' +
+        '<div class="rd-extra-ctrls" data-genre="' + esc(g.id) + '" data-name="' + esc(g.name) + '"></div>' +
+        '<div class="rd-extra-select" data-genre="' + esc(g.id) + '" data-name="' + esc(g.name) + '"></div>' :
         '<span class="soon-tag">Tuning in soon</span>') +
     '</div>';
   }).join('');
@@ -164,12 +168,11 @@ function renderDial(genres){
     if (playBtn && !playBtn.disabled) selectStation(playBtn.getAttribute('data-genre'));
     else if (stopBtn && !stopBtn.disabled) stopStation();
   });
+  var enabledOnly = ordered.filter(function(g){ return ENABLED_GENRES[g.id]; });
+  document.dispatchEvent(new CustomEvent('rd:dial-rendered', { detail: { genres: enabledOnly } }));
 }
 
-function requestedGenre(){
-  var id = new URLSearchParams(location.search).get('station');
-  return (id && ENABLED_GENRES[id]) ? id : null;
-}
+function requestedGenre(){ var id = new URLSearchParams(location.search).get('station'); return (id && ENABLED_GENRES[id]) ? id : null; }
 
 (function init(){
   var requested = requestedGenre();
@@ -185,11 +188,7 @@ function requestedGenre(){
   }).catch(function(){
     document.getElementById('rd-dial').innerHTML = '<p>Stations unavailable.</p>';
   });
-  /* Pre-create the hidden YT player now (idle, no autoplay) so the first tap
-     only has to send one direct loadVideoById call. Mobile browsers won't
-     honor an async unmute issued after the fact, but they do honor a
-     loadVideoById call made straight from the click handler -- same reason
-     manual stop/replay always worked. */
+  /* Pre-create hidden YT player now (idle) so first tap only needs one loadVideoById call. */
   loadStationSongs(requested || DEFAULT_GENRE).then(function(songs){
     if (songs && songs.length) RadioPlayer.preload('rd-audio', songs[0].youtube_id);
   }).catch(function(){});

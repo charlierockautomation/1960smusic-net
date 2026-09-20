@@ -9,7 +9,7 @@
 .rd-tunein p{color:var(--muted);margin:0 0 16px;}
 .rd-tunein .btn{font-size:1.15rem;padding:14px 30px;}
 
-#rd-dial{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin:0 0 22px;}
+#rd-dial{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:10px;margin:0 0 22px;}
 .rd-station{
   font-family:inherit;text-align:left;
   background:var(--card);border:1px solid var(--line);border-radius:10px;
@@ -22,16 +22,28 @@
 .rd-station.requested:not(.active){border-color:var(--brass);box-shadow:0 0 0 2px var(--brass) inset;}
 .rd-station.soon{opacity:.55;}
 .rd-station .soon-tag{font-family:sans-serif;font-size:.7rem;color:var(--dial-green);margin-top:2px;}
-.rd-ctrls{display:flex;gap:6px;margin-top:8px;}
-.rd-play-btn,.rd-stop-btn{
+.rd-ctrls,.rd-ctrls-row{display:flex;gap:6px;margin-top:8px;flex-wrap:wrap;}
+.rd-play-btn,.rd-stop-btn,.rd-skip-btn,.rd-select-btn{
   font-family:sans-serif;font-size:.8rem;font-weight:700;cursor:pointer;
-  border:none;border-radius:6px;padding:6px 10px;
+  border:none;border-radius:6px;padding:6px 10px;min-height:44px;box-sizing:border-box;
 }
 .rd-play-btn{background:var(--amber);color:#2a160b;}
 .rd-play-btn:hover:not(:disabled){background:#ff8f57;}
 .rd-stop-btn{background:var(--red);color:#fff;}
 .rd-stop-btn:hover:not(:disabled){background:#8a2a2a;}
-.rd-play-btn:disabled,.rd-stop-btn:disabled{opacity:.4;cursor:default;}
+.rd-skip-btn{background:var(--brass);color:#2a160b;}
+.rd-skip-btn:hover:not(:disabled){background:#cfa06a;}
+.rd-select-btn{background:var(--card);color:var(--ink);border:1px solid var(--line);width:100%;}
+.rd-select-btn:hover{border-color:var(--amber);}
+.rd-play-btn:disabled,.rd-stop-btn:disabled,.rd-skip-btn:disabled{opacity:.4;cursor:default;}
+.rd-extra-ctrls{margin-top:8px;}
+.rd-extra-select{margin-top:8px;}
+.rd-vol-wrap{display:flex;align-items:center;gap:8px;margin-top:8px;padding:10px 0;min-height:44px;box-sizing:border-box;}
+.rd-vol-label{font-family:sans-serif;font-size:.75rem;font-weight:700;color:var(--brass);}
+.rd-vol-slider{flex:1;accent-color:var(--amber);min-height:24px;}
+.rd-vol-hint{font-family:sans-serif;font-size:.72rem;color:var(--muted);margin:8px 0 0;}
+.rd-play-btn:focus-visible,.rd-stop-btn:focus-visible,.rd-skip-btn:focus-visible,
+.rd-select-btn:focus-visible,.rd-vol-slider:focus-visible{outline:2px solid var(--tube-glow);outline-offset:2px;}
 
 #rd-nowplaying{
   background:var(--walnut-deep);color:var(--dial-ivory);border-radius:12px;
@@ -52,3 +64,31 @@
 }
 #rd-diagnostic ul{margin:10px 0;padding-left:20px;}
 #rd-diagnostic .btn{margin-top:8px;}
+
+.rd-select-dialog{
+  width:min(480px,92vw);max-height:80vh;border:1px solid var(--line);border-radius:12px;
+  padding:20px;background:var(--dial-ivory);color:var(--ink);
+}
+.rd-select-dialog::backdrop{background:rgba(44,30,21,.6);}
+.rd-select-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:0 0 12px;}
+.rd-select-head h2{font-family:var(--font-display);font-size:1.2rem;margin:0;}
+#rd-select-close{
+  font-family:sans-serif;font-size:1.1rem;line-height:1;background:none;border:none;
+  cursor:pointer;color:var(--ink);min-width:44px;min-height:44px;border-radius:6px;
+}
+#rd-select-close:hover{color:var(--red);}
+#rd-select-search{
+  width:100%;box-sizing:border-box;font-family:sans-serif;font-size:.9rem;
+  padding:8px 10px;border:1px solid var(--line);border-radius:8px;margin:0 0 12px;min-height:38px;
+}
+#rd-select-list{list-style:none;margin:0;padding:0;max-height:50vh;overflow-y:auto;}
+.rd-select-item{
+  display:block;width:100%;box-sizing:border-box;text-align:left;font-family:sans-serif;
+  font-size:.88rem;background:none;border:none;border-bottom:1px solid var(--line);
+  padding:10px 6px;cursor:pointer;min-height:44px;
+}
+.rd-select-item:hover{background:#F7EED9;}
+.rd-select-empty{font-family:sans-serif;font-size:.88rem;color:var(--muted);padding:10px 6px;}
+#rd-select-close:focus-visible,#rd-select-search:focus-visible,.rd-select-item:focus-visible{
+  outline:2px solid var(--tube-glow);outline-offset:-2px;
+}

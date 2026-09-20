@@ -54,6 +54,32 @@ added per song for the guessing game (a recognizable point past any spoken
 intro); when absent, the game falls back to a default offset rather than
 requiring the field on all 434+ entries.
 
+### Radio Dial controls (`/tools/radio/`)
+
+Core station/queue/player logic lives in `radio-app.js` (unchanged
+architecture: one shared hidden YouTube player, one station playing at a
+time). Per-card Skip, Select, and Volume controls are split into their own
+files to keep `radio-app.js` under the 199-line ceiling, coordinating with
+it via three DOM `CustomEvent`s it dispatches: `rd:dial-rendered` (dial
+markup built, carries enabled genres), `rd:tiles-updated` (play/pause state
+changed), and `rd:track-started` (a track began playing).
+
+- `radio-controls.js` — Skip (per-card, enabled only on the playing
+  station, 500ms debounce) and Volume (one shared 0-100 level synced across
+  all sliders, applied via `RadioPlayer.setVolume()` on every
+  `rd:track-started`, persisted to `localStorage` behind a try/catch).
+  iOS/iPadOS-as-Mac devices get a static hint line instead of a slider
+  since those platforms ignore programmatic volume.
+- `radio-select.js` — a shared `<dialog id="rd-select-dialog">` (native
+  modal, Escape-to-close, focus returns to the invoking Select button) that
+  lazily fetches and lists a station's tracks via the same
+  `loadStationSongs()`/cache `radio-app.js` already uses. Picking a track
+  calls `selectStation(genreId, song)` (extended to accept an optional
+  starting song) which tunes to that station if needed and plays it;
+  normal auto-advance resumes afterward.
+- `onPlayerError`'s consecutive-failure threshold is 5 (auto-skip on each
+  embeddability failure, stop with a status-line message after 5 in a row).
+
 ## Page conventions (see index.html / about.html)
 
 - Every page: `<link rel="stylesheet" href="/styles.css">`,

@@ -72,6 +72,15 @@
     <div id="rd-dial" aria-label="Radio stations"></div>
     <div id="rd-audio" class="rd-audio-hidden"></div>
 
+    <dialog id="rd-select-dialog" class="rd-select-dialog">
+      <div class="rd-select-head">
+        <h2 id="rd-select-title">Select a track</h2>
+        <button type="button" id="rd-select-close" aria-label="Close track list">&times;</button>
+      </div>
+      <input type="text" id="rd-select-search" placeholder="Search tracks…" aria-label="Search tracks">
+      <ul id="rd-select-list" role="listbox"></ul>
+    </dialog>
+
     <nav class="tool-links" aria-label="More tools">
       <strong>More tools:</strong>
       <a href="/tools/random-song/">Random Song</a>
@@ -97,6 +106,8 @@
 <script src="/tools/shared.js"></script>
 <script src="/tools/radio/radio-player.js"></script>
 <script src="/tools/radio/radio-app.js"></script>
+<script src="/tools/radio/radio-controls.js"></script>
+<script src="/tools/radio/radio-select.js"></script>
 <script src="https://www.youtube.com/iframe_api" async></script>
 <script src="/site.js" defer></script>
 </body>

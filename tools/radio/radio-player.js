@@ -52,8 +52,11 @@ var RadioPlayer = (function(){
     loadVideo: function(id){
       if (player && player.loadVideoById) player.loadVideoById(id);
     },
-    unmute: function(){
-      if (player && player.unMute) { player.unMute(); player.setVolume(100); }
+    unmute: function(vol){
+      if (player && player.unMute) { player.unMute(); player.setVolume(vol == null ? 100 : vol); }
+    },
+    setVolume: function(vol){
+      if (player && player.setVolume) player.setVolume(vol);
     },
     stop: function(){
       if (player && player.stopVideo) player.stopVideo();
