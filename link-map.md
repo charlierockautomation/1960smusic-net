@@ -4,6 +4,9 @@ Tracks every published/placed content page: what type it is, its status, and
 what it links up to (parent/hub) and across to (sibling content). Update this
 file whenever a page is placed or its status changes.
 
+`/tools/radio/` (Radio Dial) is now linked sitewide from main nav ("Listen
+Now", between Home and Blog), on every page, not tracked per-row below.
+
 Status values: `drafted` (content written, not placed as a file) · `placed`
 (file exists in the repo, not deployed live) · `live` (deployed and linked
 from the site).
