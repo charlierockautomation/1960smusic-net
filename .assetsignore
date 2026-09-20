@@ -4,3 +4,4 @@ wrangler.toml
 README.md
 worker/
 .wrangler/
+docs/daily-thumbnail-review.html

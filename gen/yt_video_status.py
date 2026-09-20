@@ -24,26 +24,32 @@ def chunks(lst, n):
         yield lst[i:i + n]
 
 
-def fetch_status(ids, api_key):
+def fetch_status(ids, api_key, include_snippet=False):
     """Return (status_by_id, calls_made). status_by_id[id] = {embeddable,
-    made_for_kids, privacy_status} or is absent if YouTube returned no item
-    for that id (deleted/private video)."""
+    made_for_kids, privacy_status, [title]} or is absent if YouTube returned
+    no item for that id (deleted/private video). include_snippet=True adds
+    the video title (part=status,snippet) at no extra quota cost -- videos.list
+    is 1 unit per call regardless of which parts are requested."""
     ids = list(dict.fromkeys(ids))  # de-dupe, keep order
+    part = "status,snippet" if include_snippet else "status"
     out = {}
     calls = 0
     for batch in chunks(ids, BATCH_SIZE):
-        url = ("https://www.googleapis.com/youtube/v3/videos?part=status&id=" +
+        url = ("https://www.googleapis.com/youtube/v3/videos?part=" + part + "&id=" +
                urllib.parse.quote(",".join(batch)) + "&key=" + api_key)
         with urllib.request.urlopen(url, timeout=20) as r:
             resp = json.loads(r.read().decode())
         calls += 1
         for item in resp.get("items", []):
             st = item.get("status", {})
-            out[item["id"]] = {
+            rec = {
                 "embeddable": st.get("embeddable") is True,
                 "made_for_kids": st.get("madeForKids") is True,
                 "privacy_status": st.get("privacyStatus"),
             }
+            if include_snippet:
+                rec["title"] = item.get("snippet", {}).get("title")
+            out[item["id"]] = rec
     return out, calls
 
 

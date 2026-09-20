@@ -1,6 +1,24 @@
 /* 1960smusic.net — Daily Guessing Game. Loaded in addition to /styles.css + /tools/tools.css. */
 
-.da-audio-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;}
+.da-screen-frame{
+  background:var(--walnut-deep);border:3px solid var(--brass);border-radius:14px;
+  padding:12px;margin:0 0 18px;
+  display:flex;justify-content:center;
+}
+/* #da-audio, not a class: YT.Player replaces the div with a bare
+   <iframe id="da-audio">, dropping any class on it (same fix as Radio
+   Dial's #rd-audio). The id survives every re-create/reload. */
+#da-audio{
+  width:100%;max-width:480px;aspect-ratio:16/9;
+  min-width:200px;min-height:200px;
+  background:#000;border-radius:6px;border:0;
+}
+.da-timer{
+  text-align:center;font-family:var(--font-mono);font-size:1.3rem;font-weight:700;
+  color:var(--brass);background:var(--card);border:1px solid var(--line);
+  border-radius:10px;padding:10px;margin:0 0 18px;
+}
+.da-timer.low{color:var(--red);}
 
 .da-intro{
   background:var(--card);border:1px solid var(--line);border-radius:12px;
@@ -15,13 +33,12 @@
 }
 .da-scorebar strong{color:var(--amber);}
 
-#da-game .q .btn{margin:0 0 18px;}
-#da-game .options{margin-top:6px;}
-#da-game .option{display:flex;flex-direction:column;gap:2px;}
-.da-title{font-weight:700;}
-.da-artist{font-family:sans-serif;font-size:.85rem;color:var(--muted);}
-#da-game .option.correct .da-artist,
-#da-game .option.wrong .da-artist{color:inherit;opacity:.85;}
+#da-game .options{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:6px;}
+#da-game .option{
+  font-family:var(--font-mono);font-size:1.3rem;font-weight:700;
+  padding:16px;text-align:center;
+}
+.da-reveal{text-align:center;font-family:sans-serif;color:var(--muted);margin:10px 0 0;}
 
 .da-leaderboard{
   background:var(--card);border:1px solid var(--line);border-radius:12px;

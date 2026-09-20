@@ -22,7 +22,7 @@
   {"title": "Over Under Sideways Down", "artist": "The Yardbirds", "year": 1966, "youtube_id": "OUIbVrev-yk", "genre": "british-invasion", "verified_date": "2026-09-20"},
   {"title": "Because", "artist": "The Dave Clark Five", "year": 1964, "youtube_id": "QpKWpUJybng", "genre": "british-invasion", "verified_date": "2026-09-20"},
   {"title": "Paint It Black", "artist": "The Rolling Stones", "year": 1966, "youtube_id": "O4irXQhgMqg", "genre": "british-invasion", "verified_date": "2026-09-20"},
-  {"title": "Twist and Shout", "artist": "The Beatles", "year": 1963, "youtube_id": "2RicaUqd9Hg", "genre": "british-invasion", "verified_date": "2026-09-20"},
+  {"title": "Twist and Shout", "artist": "The Beatles", "year": 1963, "year_market": "UK", "year_alt": 1964, "year_alt_market": "US", "year_alt_source": "Wikipedia, \"Twist and Shout\": UK release on the Please Please Me album, 22 March 1963; US single release (Tollie 9001), 2 March 1964.", "youtube_id": "2RicaUqd9Hg", "genre": "british-invasion", "verified_date": "2026-09-20"},
   {"title": "A Hard Day's Night", "artist": "The Beatles", "year": 1964, "youtube_id": "Yjyj8qnqkYI", "genre": "british-invasion", "verified_date": "2026-09-20"},
   {"title": "Help!", "artist": "The Beatles", "year": 1965, "youtube_id": "2Q_ZzBGPdqE", "genre": "british-invasion", "verified_date": "2026-09-20"},
   {"title": "Day Tripper", "artist": "The Beatles", "year": 1965, "youtube_id": "AYZlME0mQB8", "genre": "british-invasion", "verified_date": "2026-09-20"},

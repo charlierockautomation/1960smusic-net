@@ -12,7 +12,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Daily Guessing Game | 1960smusic.net</title>
-<meta name="description" content="Guess the 1960s song from a short audio hook. Fifteen elimination-style levels, one wrong guess ends the run. Free to play, top 5 scores make the leaderboard.">
+<meta name="description" content="Watch a 1960s music video and guess its release year. Fifteen elimination-style levels, one wrong guess ends the run. Free to play, top 5 scores make the leaderboard.">
 <link rel="canonical" href="https://1960smusic.net/tools/daily/">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -43,7 +43,7 @@
 <main>
   <div class="wrap">
     <h1 class="page-title">Daily Guessing Game</h1>
-    <p class="lead">A short audio hook, four choices. Fifteen levels, each one song harder than the last. One wrong guess ends the run.</p>
+    <p class="lead">Watch the video, guess the release year. Fifteen levels, each one song harder than the last, less time on the clock as you go. One wrong guess ends the run.</p>
 
     <div id="da-intro" class="da-intro">
       <p>Level 1 is one song. Level 2 is two. Clear all fifteen for a perfect run and the max score of 240.</p>
@@ -51,8 +51,11 @@
     </div>
 
     <div id="da-scorebar" class="scorebar da-scorebar"></div>
+    <div class="da-screen-frame">
+      <div id="da-audio"></div>
+    </div>
+    <div id="da-timer" class="da-timer" hidden aria-live="polite"></div>
     <div id="da-game" hidden></div>
-    <div id="da-audio" class="da-audio-hidden"></div>
 
     <div class="da-leaderboard">
       <h2>Today's Top 5</h2>
@@ -83,6 +86,9 @@
 
 <script src="/tools/shared.js"></script>
 <script src="/tools/daily/hook-player.js"></script>
+<script src="/tools/daily/daily-pool.js"></script>
+<script src="/tools/daily/daily-timer.js"></script>
+<script src="/tools/daily/daily-leaderboard.js"></script>
 <script src="/tools/daily/daily-app.js"></script>
 <script src="https://www.youtube.com/iframe_api" async></script>
 <script src="/site.js" defer></script>
