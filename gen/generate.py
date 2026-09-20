@@ -162,6 +162,9 @@ def main():
             "youtube_id": c["youtube_id"],
             "_youtube_flagged": bool(c["flagged"]),
             "_youtube_flag_reason": c["reason"],
+            "_youtube_embeddable": c.get("embeddable"),
+            "_youtube_made_for_kids": c.get("made_for_kids"),
+            "_youtube_checked_at": c.get("checked_at"),
             "youtube_clip_start_seconds": clip,
             "spotify_id": None,
             "mood_tags": moods,
@@ -220,6 +223,8 @@ def main():
     print("\nDONE.")
     print("songs:", len(songs_json), "artists:", len(artists_json), "genres:", len(genres_json))
     print("flagged youtube:", sum(1 for s in songs_json if s["_youtube_flagged"]))
+    print("made-for-kids:", sum(1 for s in songs_json if s["_youtube_made_for_kids"]))
+    print("not yet status-checked:", sum(1 for s in songs_json if s["_youtube_checked_at"] is None))
     print("non-roster artist_ids used by songs (expected, not in 70-roster):", len(missing_ref))
 
 if __name__ == "__main__":

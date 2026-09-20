@@ -1,9 +1,11 @@
 # Radio Dial -- Flagged IDs
 
-Quarterly `gen/radio_verify.py` run on 2026-08-25. Entries below no longer
-returned `embeddable:true` + `privacyStatus:public`. Not auto-removed --
-backfill a working id in the matching `data/radio-eligible-<genre>.json`
-entry by hand, or drop the entry if no replacement exists.
+Quarterly `gen/radio_verify.py` run on 2026-09-20.
 
-None flagged as of 2026-08-25.
+## No longer embeddable/public (not auto-removed)
 
+None flagged as of 2026-09-20.
+
+## Made-for-kids (auto-removed from radio pool)
+
+None excluded as of 2026-09-20.

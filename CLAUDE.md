@@ -41,6 +41,16 @@ No test suite, linter, or JS build in this repo.
 - Full data flow (gen/ → data/*.json → pages), the artists-vs-song-performers
   relationship, and page-template conventions: @docs/architecture.md
 
+## YouTube Embed Rule — ABSOLUTE
+
+Every embed must be visible, unobscured, and at/above YouTube's minimum
+size (200x200px, 480x270 for 16:9); never a hidden/background player.
+Before shipping a new id, it needs an on-record `embeddable=true` /
+`made_for_kids=false` result in `gen/yt_status_cache.json` (run
+`gen/yt_video_status.py <id>`, `YOUTUBE_API_KEY` env var, never commit the
+key). `check_article.py` enforces this on song/artist pages; other types
+need a manual check first.
+
 ## No Hallucination Rule — ABSOLUTE
 
 Never invent dates, chart positions, quotes, tour details, member tenures, or
@@ -175,6 +185,13 @@ Never use the Agent/Task tool (subagents, forks, delegation) for any
 work on this site. Direct single-session work only, including all
 research (use WebSearch/WebFetch inline), for every content type and
 every task, not only the series where this was first decided.
+
+## Session Discipline
+
+One task per session. Don't hold a queue open waiting for Charlie's pick
+when the tracker already states order, work the next row and stop. No
+narration flourishes (session timers, recap paragraphs) unless asked.
+End each session on a closed status report, not an open question.
 
 ---
 Reference docs (loaded only when the task needs them):

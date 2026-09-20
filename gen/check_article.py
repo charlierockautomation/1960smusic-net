@@ -9,6 +9,8 @@ Full rules: docs/writing-standard.md. Checks enforced here (2026-08-16):
   - table of contents present when body word count > 600
   - at least one <img> with non-empty alt text
   - at least one YouTube embed on song and artist pages
+  - every embedded YouTube id has an on-record embeddable=true,
+    made_for_kids=false status in gen/yt_status_cache.json
   - at least one TikTok embed on trending pages
   - word count within range for the page type:
       artist bio: 800-1200, song story: 600-900, genre hub: 1200-1800,
@@ -25,9 +27,13 @@ Page type is read from the "PAGE:" line in the leading HTML comment block
 if present, else inferred from the path (/blog/artists/, /blog/songs/,
 /blog/genres/, /blog/trending/).
 """
+import json
+import os
 import re
 import sys
 import html as htmllib
+
+YT_STATUS_CACHE = os.path.join(os.path.dirname(__file__), "yt_status_cache.json")
 
 BANNED_PHRASES = [
     "in this article",
@@ -170,6 +176,25 @@ def check_youtube(text, errors, page_type):
         return
     if "youtube.com/embed/" not in text and "youtube-nocookie.com/embed/" not in text:
         errors.append(f"no YouTube embed found (required on {page_type} pages)")
+
+
+def check_youtube_compliance(text, errors):
+    """Every embedded YouTube id must have an on-record embeddable=true,
+    made_for_kids=false result in gen/yt_status_cache.json (see
+    gen/yt_video_status.py) before it can ship."""
+    ids = set(re.findall(r"youtube(?:-nocookie)?\.com/embed/([A-Za-z0-9_-]{11})", text))
+    if not ids:
+        return
+    cache = json.load(open(YT_STATUS_CACHE)) if os.path.exists(YT_STATUS_CACHE) else {}
+    for vid in sorted(ids):
+        st = cache.get(vid)
+        if not st:
+            errors.append(f"YouTube id {vid} has no status on record; run "
+                           f"gen/yt_video_status.py {vid} first")
+        elif st.get("made_for_kids"):
+            errors.append(f"YouTube id {vid} is made-for-kids, cannot be embedded")
+        elif not st.get("embeddable"):
+            errors.append(f"YouTube id {vid} is not embeddable per its on-record status")
 
 
 def check_tiktok(text, errors, page_type):
@@ -316,6 +341,7 @@ def check_file(path):
     check_toc(text, errors, wc)
     check_images(text, errors)
     check_youtube(text, errors, page_type)
+    check_youtube_compliance(text, errors)
     check_tiktok(text, errors, page_type)
     check_word_count(wc, errors, page_type)
     check_banned_phrases(plain, errors)

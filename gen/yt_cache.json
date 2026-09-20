@@ -5,7 +5,10 @@
   "reason": null,
   "video_title": "She Loves You (Remastered 2009)",
   "author": "The Beatles - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Beatles|||I Want to Hold Your Hand": {
   "youtube_id": "jenWdylTtzs",
@@ -13,7 +16,10 @@
   "reason": null,
   "video_title": "The Beatles - The Beatles - I Want To Hold Your Hand (Live on The Ed Sullivan Show)",
   "author": "TheBeatlesVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Rolling Stones|||(I Can't Get No) Satisfaction": {
   "youtube_id": "nrIPxlFzDi0",
@@ -21,7 +27,10 @@
   "reason": null,
   "video_title": "The Rolling Stones - (I Can't Get No) Satisfaction (Official Lyric Video)",
   "author": "ABKCOVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Kinks|||You Really Got Me": {
   "youtube_id": "fTTsY-oz6Go",
@@ -29,7 +38,10 @@
   "reason": null,
   "video_title": "The Kinks - You Really Got Me (Official Audio)",
   "author": "The Kinks",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Animals|||House of the Rising Sun": {
   "youtube_id": "N4bFqW_eu2I",
@@ -37,7 +49,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('Timeless Music') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "The Animals - House Of The Rising Sun (Music Video) [4K HD]",
   "author": "Timeless Music",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Who|||My Generation": {
   "youtube_id": "qN5zw04WxCc",
@@ -45,7 +60,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('The Best Of - Home Of Classic Music') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "The Who - My Generation",
   "author": "The Best Of - Home Of Classic Music",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Dave Clark Five|||Glad All Over": {
   "youtube_id": "NHtNFaa2ne0",
@@ -53,7 +71,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('jarichards99utube') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "Glad All Over Dave Clark Five COLOR Widescreen HiQ Hybrid JARichardsFilm 720p",
   "author": "jarichards99utube",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Manfred Mann|||Do Wah Diddy Diddy": {
   "youtube_id": "1UingsUi0mI",
@@ -61,7 +82,10 @@
   "reason": null,
   "video_title": "Do Wah Diddy Diddy",
   "author": "Manfred Mann - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Yardbirds|||For Your Love": {
   "youtube_id": "yKI7c9x2lbM",
@@ -69,7 +93,10 @@
   "reason": null,
   "video_title": "For Your Love - Original",
   "author": "The Yardbirds - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Searchers|||Needles and Pins": {
   "youtube_id": "ugDXpdjmpgw",
@@ -77,7 +104,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('The Ed Sullivan Show') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "The Searchers \"Needles And Pins\" on The Ed Sullivan Show",
   "author": "The Ed Sullivan Show",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Peter & Gordon|||A World Without Love": {
   "youtube_id": "Tdx6lLvvRyg",
@@ -85,7 +115,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('Alex Rutiaga') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "Peter and Gordon - A World Without Love (HD) 1964 Stereo",
   "author": "Alex Rutiaga",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Herman's Hermits|||Mrs. Brown You've Got a Lovely Daughter": {
   "youtube_id": "IOfs8U_3NQk",
@@ -93,7 +126,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('The Ed Sullivan Show') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "Herman's Hermits \"Mrs. Brown, You've Got A Lovely Daughter\" on The Ed Sullivan Show",
   "author": "The Ed Sullivan Show",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Kinks|||Sunny Afternoon": {
   "youtube_id": "TYIl6n_SRCI",
@@ -101,7 +137,10 @@
   "reason": null,
   "video_title": "The Kinks - Sunny Afternoon (Official Audio)",
   "author": "The Kinks",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Kinks|||Waterloo Sunset": {
   "youtube_id": "N_MqfF0WBsU",
@@ -109,7 +148,10 @@
   "reason": null,
   "video_title": "The Kinks - Waterloo Sunset (Official Audio)",
   "author": "The Kinks",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Beatles|||Please Please Me": {
   "youtube_id": "czw8eqepir8",
@@ -117,7 +159,10 @@
   "reason": null,
   "video_title": "Please Please Me (Remastered 2009)",
   "author": "The Beatles - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Herman's Hermits|||I'm Henry the VIII, I Am": {
   "youtube_id": "FFNoDsOmluA",
@@ -125,7 +170,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('The Ed Sullivan Show') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "Herman's Hermits \"Henry The VIII, I Am\" on The Ed Sullivan Show",
   "author": "The Ed Sullivan Show",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Dave Clark Five|||Bits and Pieces": {
   "youtube_id": "SzTQduUZFY8",
@@ -133,7 +181,10 @@
   "reason": null,
   "video_title": "Bits and Pieces (2019 Remaster)",
   "author": "The Dave Clark Five - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Kinks|||All Day and All of the Night": {
   "youtube_id": "fOGMRnKl5co",
@@ -141,7 +192,10 @@
   "reason": null,
   "video_title": "The Kinks - All Day And All Of The Night (Official Audio)",
   "author": "The Kinks",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Yardbirds|||Heart Full of Soul": {
   "youtube_id": "pM1qZBFiOLU",
@@ -149,7 +203,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('Aerio12345678') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "The Yardbirds - Heart Full Of Soul",
   "author": "Aerio12345678",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Small Faces|||Sha La La La Lee": {
   "youtube_id": "JsuKmqQyYR4",
@@ -157,7 +214,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('Beat-Club') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "The Small Faces - Sha La La La Lee (1966)",
   "author": "Beat-Club",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Yardbirds|||Over Under Sideways Down": {
   "youtube_id": "OUIbVrev-yk",
@@ -165,7 +225,10 @@
   "reason": null,
   "video_title": "Over Under Sideways Down (The Mono Album)",
   "author": "The Yardbirds - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Dave Clark Five|||Because": {
   "youtube_id": "QpKWpUJybng",
@@ -173,7 +236,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('THE MUSIC ENHANCEMENT CHANNEL') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "BECAUSE--THE DAVE CLARK FIVE (NEW ENHANCED RECORDING) 720P",
   "author": "THE MUSIC ENHANCEMENT CHANNEL",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Doors|||Light My Fire": {
   "youtube_id": "qoX6AKuYWL8",
@@ -181,7 +247,10 @@
   "reason": null,
   "video_title": "Light My Fire (2017 Remaster)",
   "author": "The Doors - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Jefferson Airplane|||White Rabbit": {
   "youtube_id": "pnJM_jC7j_4",
@@ -189,7 +258,10 @@
   "reason": null,
   "video_title": "Jefferson Airplane - White Rabbit (Official Audio)",
   "author": "JeffersonAirplneVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Jimi Hendrix Experience|||Purple Haze": {
   "youtube_id": "WGoDaYjdfSg",
@@ -197,7 +269,10 @@
   "reason": null,
   "video_title": "The Jimi Hendrix Experience - Purple Haze (Official Audio)",
   "author": "JimiHendrixVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Jefferson Airplane|||Somebody to Love": {
   "youtube_id": "a-C9pUGszsw",
@@ -205,7 +280,10 @@
   "reason": null,
   "video_title": "Jefferson Airplane - Somebody to Love (Official Audio)",
   "author": "JeffersonAirplneVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Beatles|||Lucy in the Sky with Diamonds": {
   "youtube_id": "naoknj1ebqI",
@@ -213,7 +291,10 @@
   "reason": null,
   "video_title": "Lucy In The Sky With Diamonds (Remastered 2009)",
   "author": "The Beatles - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Beatles|||Strawberry Fields Forever": {
   "youtube_id": "HtUH9z_Oey8",
@@ -221,7 +302,10 @@
   "reason": null,
   "video_title": "The Beatles - The Beatles - Strawberry Fields Forever (Official Music Video) [2015 Mix]",
   "author": "TheBeatlesVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Doors|||The End": {
   "youtube_id": "9pRGoSbYHQE",
@@ -229,7 +313,10 @@
   "reason": null,
   "video_title": "The End (2017 Remaster)",
   "author": "The Doors - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Pink Floyd|||Arnold Layne": {
   "youtube_id": "H3DGpINHX5Q",
@@ -237,7 +324,10 @@
   "reason": null,
   "video_title": "Pink Floyd - Arnold Layne (Official Music Video)",
   "author": "Pink Floyd",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Strawberry Alarm Clock|||Incense and Peppermints": {
   "youtube_id": "4rw1_FNdy-Y",
@@ -245,7 +335,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('moondoggy') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "Strawberry Alarm Clock - Incense & Peppermints (1967)",
   "author": "moondoggy",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Small Faces|||Itchycoo Park": {
   "youtube_id": "fayL1WTR1Go",
@@ -253,7 +346,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('Beat-Club') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "The Small Faces - Itchykoo Park (1967)",
   "author": "Beat-Club",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Byrds|||Eight Miles High": {
   "youtube_id": "NxyOhFBoxSY",
@@ -261,7 +357,10 @@
   "reason": null,
   "video_title": "The Byrds - Eight Miles High (Audio)",
   "author": "TheByrdsVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Iron Butterfly|||In-A-Gadda-Da-Vida": {
   "youtube_id": "UIVe-rZBcm4",
@@ -269,7 +368,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('pauloget') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "IRON BUTTERFLY - IN A GADDA DA VIDA - 1968 (ORIGINAL FULL VERSION) CD SOUND & 3D VIDEO",
   "author": "pauloget",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Jimi Hendrix Experience|||Hey Joe": {
   "youtube_id": "rXwMrBb2x1Q",
@@ -277,7 +379,10 @@
   "reason": null,
   "video_title": "The Jimi Hendrix Experience - Hey Joe (Official Audio)",
   "author": "JimiHendrixVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Doors|||Strange Days": {
   "youtube_id": "tHOK87ozcho",
@@ -285,7 +390,10 @@
   "reason": null,
   "video_title": "Strange Days",
   "author": "The Doors - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Chambers Brothers|||Time Has Come Today": {
   "youtube_id": "hIqwzQ7g-Cc",
@@ -293,7 +401,10 @@
   "reason": null,
   "video_title": "The Chambers Brothers - Time Has Come Today (Audio)",
   "author": "ChambersBrothersVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Donovan|||Season of the Witch": {
   "youtube_id": "GU35oCHGhJ0",
@@ -301,7 +412,10 @@
   "reason": null,
   "video_title": "Donovan - Season of the Witch (Official Audio)",
   "author": "DonovanVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Cream|||White Room": {
   "youtube_id": "-DQdB7dTm1A",
@@ -309,7 +423,10 @@
   "reason": null,
   "video_title": "Cream - White Room [Official Lyric Video]",
   "author": "Cream - Band",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Electric Prunes|||Get Me to the World on Time": {
   "youtube_id": "m7a_Wkr_Hjs",
@@ -317,7 +434,10 @@
   "reason": null,
   "video_title": "Get Me to the World on Time (2007 Remaster)",
   "author": "THE ELECTRIC PRUNES - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Pink Floyd|||Astronomy Domine": {
   "youtube_id": "8UbNbor3OqQ",
@@ -325,7 +445,10 @@
   "reason": null,
   "video_title": "Pink Floyd - Astronomy Domine (Official Audio)",
   "author": "Pink Floyd",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Grateful Dead|||Dark Star": {
   "youtube_id": "AlWqitKLnfs",
@@ -333,7 +456,10 @@
   "reason": null,
   "video_title": "Grateful Dead - Dark Star (Winterland 10/18/74)",
   "author": "Grateful Dead",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Jefferson Airplane|||Wooden Ships": {
   "youtube_id": "ROBaoiJK0wc",
@@ -341,7 +467,10 @@
   "reason": null,
   "video_title": "Jefferson Airplane - Wooden Ships (Official Audio)",
   "author": "JeffersonAirplneVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Doors|||The Crystal Ship": {
   "youtube_id": "rbulIrN4scs",
@@ -349,7 +478,10 @@
   "reason": null,
   "video_title": "The Crystal Ship (2017 Remaster)",
   "author": "The Doors - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Cream|||Sunshine of Your Love": {
   "youtube_id": "f3y8jf01UY8",
@@ -357,7 +489,10 @@
   "reason": null,
   "video_title": "Sunshine Of Your Love",
   "author": "Cream - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Beach Boys|||Surfin' USA": {
   "youtube_id": "enlOHxQ0tb4",
@@ -365,7 +500,10 @@
   "reason": null,
   "video_title": "The Beach Boys - Surfin' U.S.A. (Lyric Video)",
   "author": "TheBeachBoysVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Beach Boys|||Good Vibrations": {
   "youtube_id": "apBWI6xrbLY",
@@ -373,7 +511,10 @@
   "reason": null,
   "video_title": "The Beach Boys - Good Vibrations (Official Music Video)",
   "author": "TheBeachBoysVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Surfaris|||Wipe Out": {
   "youtube_id": "m4IfxAQ4TqQ",
@@ -381,7 +522,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('Smurfstools Oldies Music Time Machine') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "NEW \ud83d\udcc0 Wipe Out - The Surfaris {DES Stereo} 1963",
   "author": "Smurfstools Oldies Music Time Machine",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Chantays|||Pipeline": {
   "youtube_id": "ZFucCXherLg",
@@ -389,7 +533,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('SURFSTYLEY4') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "THE CHANTAYS Pipeline Tv 1963",
   "author": "SURFSTYLEY4",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Ventures|||Walk Don't Run": {
   "youtube_id": "hIuIIqbyEIU",
@@ -397,7 +544,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('Ares1964') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "The Ventures - Walk Don't Run",
   "author": "Ares1964",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Jan & Dean|||Surf City": {
   "youtube_id": "nFeUEfpN_yc",
@@ -405,7 +555,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('Smurfstools Oldies Music Time Machine') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "NEW * Surf City - Jan & Dean {Stereo} 1963",
   "author": "Smurfstools Oldies Music Time Machine",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Dick Dale and His Del-Tones|||Miserlou": {
   "youtube_id": "MXB6T55oytE",
@@ -413,7 +566,10 @@
   "reason": null,
   "video_title": "Miserlou",
   "author": "Dick Dale - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Kingsmen|||Louie Louie": {
   "youtube_id": "CfRZNNyQoF0",
@@ -421,7 +577,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('Smurfstools Oldies Music Time Machine') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "NEW \ud83d\udcc0 Louie Louie - The Kingsmen {DES Stereo} 1963",
   "author": "Smurfstools Oldies Music Time Machine",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Troggs|||Wild Thing": {
   "youtube_id": "gSWInYFVksg",
@@ -429,7 +588,10 @@
   "reason": null,
   "video_title": "The Troggs - Wild Thing",
   "author": "TheTroggsVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Sam the Sham and the Pharaohs|||Wooly Bully": {
   "youtube_id": "Pv5cXss5cPg",
@@ -437,7 +599,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('GPITRAL2 Music for Learning English with subtitles') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "Woolly Bully Sam The Sham & Pharaohs Lyrics",
   "author": "GPITRAL2 Music for Learning English with subtitles",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Standells|||Dirty Water": {
   "youtube_id": "5apEctKwiD8",
@@ -445,7 +610,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('David Bryant') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "The Standells - Dirty Water",
   "author": "David Bryant",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Count Five|||Psychotic Reaction": {
   "youtube_id": "lrsGz6mQuN4",
@@ -453,7 +621,10 @@
   "reason": null,
   "video_title": "Psychotic Reaction",
   "author": "Count Five - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Question Mark & the Mysterians|||96 Tears": {
   "youtube_id": "bOCOMYGIfUQ",
@@ -461,7 +632,10 @@
   "reason": null,
   "video_title": "? and The Mysterians - 96 Tears (Official Lyric Video)",
   "author": "QuestionMarkVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Beach Boys|||Fun, Fun, Fun": {
   "youtube_id": "VF_o-N0fhZ0",
@@ -469,7 +643,10 @@
   "reason": null,
   "video_title": "Fun, Fun, Fun (Remastered 2001)",
   "author": "The Beach Boys - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Beach Boys|||California Girls": {
   "youtube_id": "DR2lvcdKSdU",
@@ -477,7 +654,10 @@
   "reason": null,
   "video_title": "California Girls (Stereo)",
   "author": "The Beach Boys - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Sonics|||The Witch": {
   "youtube_id": "HGBsxpnRhMk",
@@ -485,7 +665,10 @@
   "reason": null,
   "video_title": "The Witch",
   "author": "THE SONICS - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Sonics|||Have Love, Will Travel": {
   "youtube_id": "SV9N7TbIzcE",
@@ -493,7 +676,10 @@
   "reason": null,
   "video_title": "Have Love Will Travel",
   "author": "THE SONICS - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Seeds|||Pushin' Too Hard": {
   "youtube_id": "pNZwCNSSWlI",
@@ -501,7 +687,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('eddie4forreal') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "The Seeds - Pushin' Too Hard.",
   "author": "eddie4forreal",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Ronny and the Daytonas|||G.T.O.": {
   "youtube_id": "vYXJmiyVwY0",
@@ -509,7 +698,10 @@
   "reason": null,
   "video_title": "G.T.O.",
   "author": "RONNY & THE DAYTONAS - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Beach Boys|||Surfin' Safari": {
   "youtube_id": "IMChBJZUDK8",
@@ -517,7 +709,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('TheOldrecordclub') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "The Beach Boys ~ Surfin' Safari  (1962)",
   "author": "TheOldrecordclub",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Marketts|||Out of Limits": {
   "youtube_id": "eUZa1bDY2JI",
@@ -525,7 +720,10 @@
   "reason": null,
   "video_title": "Out of Limits",
   "author": "The Marketts - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Music Machine|||Talk Talk": {
   "youtube_id": "4OhY4ipNbPY",
@@ -533,7 +731,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('jersonmajin') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "The Music Machine - Talk Talk (1966)",
   "author": "jersonmajin",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Byrds|||Mr. Tambourine Man": {
   "youtube_id": "Swqw5a8I4b4",
@@ -541,7 +742,10 @@
   "reason": null,
   "video_title": "The Byrds - Mr. Tambourine Man (Audio)",
   "author": "TheByrdsVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Bob Dylan|||Like a Rolling Stone": {
   "youtube_id": "IwOfCgkyEj0",
@@ -549,7 +753,10 @@
   "reason": null,
   "video_title": "Bob Dylan - Like a Rolling Stone (Official Audio)",
   "author": "BobDylanVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Simon & Garfunkel|||The Sound of Silence": {
   "youtube_id": "4fWyzwo1xg0",
@@ -557,7 +764,10 @@
   "reason": null,
   "video_title": "Simon & Garfunkel - The Sounds of Silence (Audio)",
   "author": "SimonGarfunkelVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Bob Dylan|||Blowin' in the Wind": {
   "youtube_id": "MMFj8uDubsE",
@@ -565,7 +775,10 @@
   "reason": null,
   "video_title": "Bob Dylan - Blowin' in the Wind (Official Audio)",
   "author": "BobDylanVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Byrds|||Turn! Turn! Turn!": {
   "youtube_id": "xVOJla2vYx8",
@@ -573,7 +786,10 @@
   "reason": null,
   "video_title": "The Byrds - Turn! Turn! Turn! (To Everything There Is A Season) (Audio)",
   "author": "TheByrdsVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Peter, Paul and Mary|||If I Had a Hammer": {
   "youtube_id": "XxWTDcP9Y5E",
@@ -581,7 +797,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('John1948Ten') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "Peter, Paul and Mary - If I Had A Hammer (1963 performance)",
   "author": "John1948Ten",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Peter, Paul and Mary|||Puff, the Magic Dragon": {
   "youtube_id": "z15pxWUXvLY",
@@ -589,7 +808,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('James Guilford') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "Puff The Magic Dragon -- Peter, Paul & Mary ~ Live 1965",
   "author": "James Guilford",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Mamas & The Papas|||California Dreamin'": {
   "youtube_id": "N-aK6JnyFmk",
@@ -597,7 +819,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('Folk Experience') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "The Mamas & The Papas - California Dreamin'",
   "author": "Folk Experience",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Mamas & The Papas|||Monday, Monday": {
   "youtube_id": "h81Ojd3d2rY",
@@ -605,7 +830,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('OscarOsR') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "The Mamas & The Papas - Monday Monday",
   "author": "OscarOsR",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Donovan|||Catch the Wind": {
   "youtube_id": "J8hjEYTpwE8",
@@ -613,7 +841,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('folkman 123') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "Donovan - Catch the wind",
   "author": "folkman 123",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Bob Dylan|||Positively 4th Street": {
   "youtube_id": "aehwEu8SBSo",
@@ -621,7 +852,10 @@
   "reason": null,
   "video_title": "Bob Dylan - Positively 4th Street (Official Audio)",
   "author": "BobDylanVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Bob Dylan|||Subterranean Homesick Blues": {
   "youtube_id": "MGxjIBEZvx0",
@@ -629,7 +863,10 @@
   "reason": null,
   "video_title": "Bob Dylan - Subterranean Homesick Blues (Official Video)",
   "author": "BobDylanVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Simon & Garfunkel|||The Boxer": {
   "youtube_id": "l3LFML_pxlY",
@@ -637,7 +874,10 @@
   "reason": null,
   "video_title": "Simon & Garfunkel - The Boxer (Audio)",
   "author": "SimonGarfunkelVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Simon & Garfunkel|||Scarborough Fair/Canticle": {
   "youtube_id": "-Jj4s9I-53g",
@@ -645,7 +885,10 @@
   "reason": null,
   "video_title": "Simon & Garfunkel - Scarborough Fair/Canticle (Audio)",
   "author": "SimonGarfunkelVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Leonard Cohen|||Suzanne": {
   "youtube_id": "svitEEpI07E",
@@ -653,7 +896,10 @@
   "reason": null,
   "video_title": "Leonard Cohen - Suzanne (Official Audio)",
   "author": "LeonardCohenVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Donovan|||Universal Soldier": {
   "youtube_id": "jBF3K1J9wHI",
@@ -661,7 +907,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('Ripples - Folk and Pop from the 60s and 70s') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "Donovan - Universal Soldier (Official Audio)",
   "author": "Ripples - Folk and Pop from the 60s and 70s",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Peter, Paul and Mary|||Leaving on a Jet Plane": {
   "youtube_id": "F2m--R3J6f4",
@@ -669,7 +918,10 @@
   "reason": null,
   "video_title": "Leaving on a Jet Plane (2004 Remaster)",
   "author": "Peter, Paul & Mary - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Judy Collins|||Both Sides Now": {
   "youtube_id": "8L1UngfqojI",
@@ -677,7 +929,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('RHINO') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "Judy Collins - Both Sides Now (Official Audio)",
   "author": "RHINO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Scott McKenzie|||San Francisco (Be Sure to Wear Flowers in Your Hair)": {
   "youtube_id": "j-447NaiBJs",
@@ -685,7 +940,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('TheFreddyShow') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "Scott Mckenzie - San Francisco (Official HD Video)",
   "author": "TheFreddyShow",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Bob Dylan|||The Times They Are a-Changin'": {
   "youtube_id": "90WD_ats6eE",
@@ -693,7 +951,10 @@
   "reason": null,
   "video_title": "Bob Dylan - The Times They Are A-Changin' (Official Audio)",
   "author": "BobDylanVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Peter, Paul and Mary|||Freight Train": {
   "youtube_id": "BZrb-ao5v3M",
@@ -701,7 +962,10 @@
   "reason": null,
   "video_title": "Freight Train",
   "author": "Peter, Paul & Mary - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Leonard Cohen|||Hey, That's No Way to Say Goodbye": {
   "youtube_id": "b-bJPmasXKs",
@@ -709,7 +973,10 @@
   "reason": null,
   "video_title": "Leonard Cohen - Hey, That's No Way to Say Goodbye (Official Audio)",
   "author": "LeonardCohenVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Supremes|||Stop! In the Name of Love": {
   "youtube_id": "une981B7Q4Y",
@@ -717,7 +984,10 @@
   "reason": null,
   "video_title": "The Supremes - Stop! In The Name Of Love (Lyric Video)",
   "author": "TheSupremesVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Marvin Gaye|||I Heard It Through the Grapevine": {
   "youtube_id": "5ZnrZnFSlWU",
@@ -725,7 +995,10 @@
   "reason": null,
   "video_title": "Marvin Gaye - I Heard It Through The Grapevine (Live)",
   "author": "MarvinGayeVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Temptations|||My Girl": {
   "youtube_id": "y3KJ7d2qBoA",
@@ -733,7 +1006,10 @@
   "reason": null,
   "video_title": "The Temptations - My Girl (Lyric Video)",
   "author": "TheTemptationsVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Four Tops|||Reach Out I'll Be There": {
   "youtube_id": "2EaflX0MWRo",
@@ -741,7 +1017,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('Clara0815007') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "Four Tops - Reach Out (I'll Be There) (1967) HD 0815007",
   "author": "Clara0815007",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Marvin Gaye & Tammi Terrell|||Ain't No Mountain High Enough": {
   "youtube_id": "IC5PL0XImjw",
@@ -749,7 +1028,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('Doc Rudy | Soul Studios') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "Ain't No Mountain High Enough (extra HQ) - Marvin Gaye & Tammi Terrell",
   "author": "Doc Rudy | Soul Studios",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Martha and the Vandellas|||Dancing in the Street": {
   "youtube_id": "GuCBXTfoVq8",
@@ -757,7 +1039,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('namnoiz') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "Dancing In The Street - Martha and the Vandellas - 1964 - Music Video",
   "author": "namnoiz",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Aretha Franklin|||Respect": {
   "youtube_id": "A134hShx_gw",
@@ -765,7 +1050,10 @@
   "reason": null,
   "video_title": "Aretha Franklin - Respect (Official Lyric Video)",
   "author": "Aretha Franklin",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Four Tops|||I Can't Help Myself (Sugar Pie Honey Bunch)": {
   "youtube_id": "s3bksUSPB4c",
@@ -773,7 +1061,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('drdotfeelgood') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "The Four Tops-I Can't Help Myself (Sugar Pie, Honey Bunch)",
   "author": "drdotfeelgood",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Smokey Robinson & The Miracles|||The Tracks of My Tears": {
   "youtube_id": "rNS6D4hSQdA",
@@ -781,7 +1072,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('oldiesphxmannyb') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "The Tracks of My Tears - Smokey Robinson & The Miracles",
   "author": "oldiesphxmannyb",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Marvelettes|||Please Mr. Postman": {
   "youtube_id": "425GpjTSlS4",
@@ -789,7 +1083,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('ticktock70') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "The Marvelettes - Please Mr. Postman (1961)",
   "author": "ticktock70",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Smokey Robinson & The Miracles|||I Second That Emotion": {
   "youtube_id": "zp32JdgG6hg",
@@ -797,7 +1094,10 @@
   "reason": null,
   "video_title": "I Second That Emotion (Single Version / Mono)",
   "author": "Smokey Robinson - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Temptations|||Get Ready": {
   "youtube_id": "mhsYOzdJjI0",
@@ -805,7 +1105,10 @@
   "reason": null,
   "video_title": "The Temptations - Get Ready (Lyric Video)",
   "author": "TheTemptationsVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Stevie Wonder|||For Once in My Life": {
   "youtube_id": "l3qi3E40aWE",
@@ -813,7 +1116,10 @@
   "reason": null,
   "video_title": "For Once In My Life",
   "author": "Stevie Wonder - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Stevie Wonder|||Uptight (Everything's Alright)": {
   "youtube_id": "kZf3Byq8oLA",
@@ -821,7 +1127,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('TheMotownMoments') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "Uptight - Stevie Wonder",
   "author": "TheMotownMoments",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Supremes|||Baby Love": {
   "youtube_id": "D6QF4sB40gU",
@@ -829,7 +1138,10 @@
   "reason": null,
   "video_title": "The Supremes - Baby Love (Lyric Video)",
   "author": "TheSupremesVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Supremes|||Where Did Our Love Go": {
   "youtube_id": "Jt_31gR18NA",
@@ -837,7 +1149,10 @@
   "reason": null,
   "video_title": "The Supremes - Where Did Our Love Go (Lyric Video)",
   "author": "TheSupremesVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "James Brown|||I Got You (I Feel Good)": {
   "youtube_id": "pTdihu-mp90",
@@ -845,7 +1160,10 @@
   "reason": null,
   "video_title": "James Brown - I Got You (I Feel Good) (Visualizer)",
   "author": "JamesBrownVevo",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "James Brown|||It's a Man's Man's Man's World": {
   "youtube_id": "H77fRz1rybs",
@@ -853,7 +1171,10 @@
   "reason": null,
   "video_title": "James Brown - It's A Man's Man's Man's World",
   "author": "JamesBrownVevo",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Martha and the Vandellas|||Heat Wave": {
   "youtube_id": "5k0GDQrK2jo",
@@ -861,7 +1182,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('TheOldrecordclub') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "Martha Reeves & The Vandellas ~ Heat Wave  (1963)",
   "author": "TheOldrecordclub",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Marvin Gaye|||How Sweet It Is (To Be Loved by You)": {
   "youtube_id": "OhbQVA7hPuQ",
@@ -869,7 +1193,10 @@
   "reason": null,
   "video_title": "How Sweet It Is (To Be Loved By You)",
   "author": "Marvin Gaye - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Supremes|||You Keep Me Hangin' On": {
   "youtube_id": "pi00f6oiMu4",
@@ -877,7 +1204,10 @@
   "reason": null,
   "video_title": "The Supremes - You Keep Me Hangin' On (Lyric Video)",
   "author": "TheSupremesVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Little Stevie Wonder|||Fingertips, Pt. 2": {
   "youtube_id": "2cSjOxqldFs",
@@ -885,7 +1215,10 @@
   "reason": null,
   "video_title": "Little Stevie Wonder - 1963 Fingertips Part II",
   "author": "TheEyesofwonder",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Supremes|||Come See About Me": {
   "youtube_id": "NkH_dm9NkxQ",
@@ -893,7 +1226,10 @@
   "reason": null,
   "video_title": "The Supremes - Come See About Me (Lyric Video)",
   "author": "TheSupremesVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Johnny Cash|||Ring of Fire": {
   "youtube_id": "1WaV2x8GXj0",
@@ -901,7 +1237,10 @@
   "reason": null,
   "video_title": "Ring of Fire",
   "author": "Johnny Cash - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Patsy Cline|||Crazy": {
   "youtube_id": "YWKeuYcDAoo",
@@ -909,7 +1248,10 @@
   "reason": null,
   "video_title": "Patsy Cline - Crazy (Official Video) ft. The Jordanaires",
   "author": "PatsyClineVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Buck Owens|||Act Naturally": {
   "youtube_id": "__SMDtF_DsY",
@@ -917,7 +1259,10 @@
   "reason": null,
   "video_title": "Buck Owens  Act Naturally",
   "author": "Buck Owens",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Merle Haggard|||Okie from Muskogee": {
   "youtube_id": "3dM03dG3zv4",
@@ -925,7 +1270,10 @@
   "reason": null,
   "video_title": "Okie From Muskogee",
   "author": "Merle Haggard - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Roger Miller|||King of the Road": {
   "youtube_id": "L4kvi5IG_KE",
@@ -933,7 +1281,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('Smurfstools Oldies Music Time Machine') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "King Of The Road \ud83d\udcc0 Roger Miller 4K-HD 1965  {Stereo}",
   "author": "Smurfstools Oldies Music Time Machine",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Tammy Wynette|||Stand by Your Man": {
   "youtube_id": "AM-b8P1yj9w",
@@ -941,7 +1292,10 @@
   "reason": null,
   "video_title": "Tammy Wynette - Stand By Your Man (Official Audio)",
   "author": "TammyWynetteVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Glen Campbell|||Gentle on My Mind": {
   "youtube_id": "mfMnNqn-hKg",
@@ -949,7 +1303,10 @@
   "reason": null,
   "video_title": "Gentle On My Mind (Remastered 2001)",
   "author": "Glen Campbell - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Glen Campbell|||Wichita Lineman": {
   "youtube_id": "Q8P_xTBpAcY",
@@ -957,7 +1314,10 @@
   "reason": null,
   "video_title": "Wichita Lineman (Remastered 2001)",
   "author": "Glen Campbell - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Merle Haggard|||Mama Tried": {
   "youtube_id": "loT_pYzi3Vw",
@@ -965,7 +1325,10 @@
   "reason": null,
   "video_title": "Merle Haggard - Mama Tried (Live)",
   "author": "MerleHaggardVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Buck Owens|||Together Again": {
   "youtube_id": "h6-wKFK4sQM",
@@ -973,7 +1336,10 @@
   "reason": null,
   "video_title": "Buck Owens  Together Again",
   "author": "Buck Owens",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Eddy Arnold|||Make the World Go Away": {
   "youtube_id": "lq0Ri9e6SY0",
@@ -981,7 +1347,10 @@
   "reason": null,
   "video_title": "Eddy Arnold - Make the World Go Away (Official Audio)",
   "author": "LegacyRecordingsVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Jim Reeves|||He'll Have to Go": {
   "youtube_id": "bpi8Bek6jdM",
@@ -989,7 +1358,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('paulo1') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "Jim Reeves - He'll Have To Go",
   "author": "paulo1",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Loretta Lynn|||You Ain't Woman Enough (To Take My Man)": {
   "youtube_id": "8_wwP8UZR1o",
@@ -997,7 +1369,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('kkiilljjooy') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "Loretta Lynn - You Ain't Woman Enough (To Take My Man)",
   "author": "kkiilljjooy",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Jeannie Seely|||Don't Touch Me": {
   "youtube_id": "3DNvni6vO0I",
@@ -1005,7 +1380,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('Eric Mesi') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "Jeannie Seely    Don't Touch Me",
   "author": "Eric Mesi",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Statler Brothers|||Flowers on the Wall": {
   "youtube_id": "W6DmeR9a6ig",
@@ -1013,7 +1391,10 @@
   "reason": null,
   "video_title": "The Statler Brothers - Flowers On the Wall (Man in Black: Live in Denmark)",
   "author": "JohnnyCashVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Willie Nelson|||Funny How Time Slips Away": {
   "youtube_id": "iZaZqx9v3dU",
@@ -1021,7 +1402,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('killerclam') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "Willie Nelson - 1997 - Funny How Time Slips Away",
   "author": "killerclam",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Glen Campbell|||By the Time I Get to Phoenix": {
   "youtube_id": "aMb681nTLIo",
@@ -1029,7 +1413,10 @@
   "reason": null,
   "video_title": "Glen Campbell - By The Time I Get To Phoenix",
   "author": "GlenCampbellVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Tammy Wynette|||Apartment No. 9": {
   "youtube_id": "zsaQoSBJ7PQ",
@@ -1037,7 +1424,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('MyJustified') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "Tammy Wynette-Apartment #9",
   "author": "MyJustified",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Buck Owens|||Buckaroo": {
   "youtube_id": "-2VLIO14dns",
@@ -1045,7 +1435,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('joltinjack') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "Buck Owens - Buckaroo - 1965",
   "author": "joltinjack",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Johnny Cash|||I Walk the Line": {
   "youtube_id": "J-6fW66IUY4",
@@ -1053,7 +1446,10 @@
   "reason": null,
   "video_title": "I Walk the Line",
   "author": "Johnny Cash - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Patsy Cline|||I Fall to Pieces": {
   "youtube_id": "gEcZ8BlsJhI",
@@ -1061,7 +1457,10 @@
   "reason": null,
   "video_title": "Patsy Cline - I Fall To Pieces (Audio) ft. The Jordanaires",
   "author": "PatsyClineVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Roger Miller|||Dang Me": {
   "youtube_id": "Lg7DcCI39GY",
@@ -1069,7 +1468,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('TheOldrecordclub') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "Roger Miller ~ Dang Me (1964)",
   "author": "TheOldrecordclub",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Monkees|||I'm a Believer": {
   "youtube_id": "5tpxXDILZHs",
@@ -1077,7 +1479,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('Classics in HD') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "The Monkees - I'm a Believer HD",
   "author": "Classics in HD",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Shirelles|||Will You Love Me Tomorrow": {
   "youtube_id": "Y2e8B2CmicQ",
@@ -1085,7 +1490,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('Bert') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "The Shirelles  - Will You Love Me Tomorrow    (1960)",
   "author": "Bert",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Monkees|||Last Train to Clarksville": {
   "youtube_id": "zSzsyqzQNeQ",
@@ -1093,7 +1501,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('Monte Carlo Music') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "The Monkees - Last Train To Clarksville (1966/HD)",
   "author": "Monte Carlo Music",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Lesley Gore|||It's My Party": {
   "youtube_id": "mtCIdpnQoWk",
@@ -1101,7 +1512,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('The Ed Sullivan Show') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "Lesley Gore \"It's My Party & She's A Fool\" on The Ed Sullivan Show",
   "author": "The Ed Sullivan Show",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Four Seasons|||Walk Like a Man": {
   "youtube_id": "GzoIvwNqKpw",
@@ -1109,7 +1523,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('RHINO') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "The Four Seasons - Walk Like A Man (Official Audio)",
   "author": "RHINO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Four Seasons|||Big Girls Don't Cry": {
   "youtube_id": "zRZpaxBMJRU",
@@ -1117,7 +1534,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('RHINO') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "The Four Seasons - Big Girls Don't Cry (Official Audio)",
   "author": "RHINO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Four Seasons|||Sherry": {
   "youtube_id": "jMcWldfg28s",
@@ -1125,7 +1545,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('RHINO') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "The Four Seasons - Sherry (Official Audio)",
   "author": "RHINO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Ronettes|||Be My Baby": {
   "youtube_id": "jSPpbOGnFgk",
@@ -1133,7 +1556,10 @@
   "reason": null,
   "video_title": "The Ronettes - Be My Baby (Official Audio)",
   "author": "TheRonettesVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Crystals|||Da Doo Ron Ron": {
   "youtube_id": "S-OTd7DXjlo",
@@ -1141,7 +1567,10 @@
   "reason": null,
   "video_title": "The Crystals - Da Doo Ron Ron (Audio)",
   "author": "PhilSpectorVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Shangri-Las|||Leader of the Pack": {
   "youtube_id": "Q8UKf65NOzM",
@@ -1149,7 +1578,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('Dazz B') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "The Shangri-Las -Leader Of The Pack Video with High Quality Sound",
   "author": "Dazz B",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Dixie Cups|||Chapel of Love": {
   "youtube_id": "oBcXOmwq58U",
@@ -1157,7 +1589,10 @@
   "reason": null,
   "video_title": "Chapel Of Love (Mono / Remastered 2022)",
   "author": "The Dixie Cups - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Petula Clark|||Downtown": {
   "youtube_id": "Zx06XNfDvk0",
@@ -1165,7 +1600,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('AL NUCAHC') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "Petula Clark   Downtown. original version",
   "author": "AL NUCAHC",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Turtles|||Happy Together": {
   "youtube_id": "sq3awlDqAVo",
@@ -1173,7 +1611,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('Stereo Classics') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "The Turtles - Happy Together [HD]",
   "author": "Stereo Classics",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Archies|||Sugar, Sugar": {
   "youtube_id": "j3plj_Xplus",
@@ -1181,7 +1622,10 @@
   "reason": null,
   "video_title": "The Archies - Sugar, Sugar (Official Animated Music Video)",
   "author": "TheArchiesVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Young Rascals|||Good Lovin'": {
   "youtube_id": "OUNJbVFW5Pw",
@@ -1189,7 +1633,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('The Ed Sullivan Show') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "The Young Rascals \"Good Lovin'\" on The Ed Sullivan Show",
   "author": "The Ed Sullivan Show",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Van Morrison|||Brown Eyed Girl": {
   "youtube_id": "UfmkgQRmmeE",
@@ -1197,7 +1644,10 @@
   "reason": null,
   "video_title": "Van Morrison - Brown Eyed Girl (Official Audio)",
   "author": "VanMorrisonVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "John Fred & His Playboy Band|||Judy in Disguise (With Glasses)": {
   "youtube_id": "tWhnmF-Clu0",
@@ -1205,7 +1655,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('Smurfstools Oldies Music Time Machine') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "NEW * Judy In Disguise (With Glasses) - John Fred & His Playboy Band {Stereo} 1967",
   "author": "Smurfstools Oldies Music Time Machine",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Crystals|||Then He Kissed Me": {
   "youtube_id": "MSkum4B162M",
@@ -1213,7 +1666,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('SabolSlayer') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "Then He Kissed Me- The Crystals (HD)",
   "author": "SabolSlayer",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Tommy James & The Shondells|||Crimson and Clover": {
   "youtube_id": "XS0niyiKlcw",
@@ -1221,7 +1677,10 @@
   "reason": null,
   "video_title": "Tommy James and the Shondells - Crimson & Clover",
   "author": "Tommy James",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Tommy James & The Shondells|||I Think We're Alone Now": {
   "youtube_id": "hFWhTqLSVzE",
@@ -1229,7 +1688,10 @@
   "reason": null,
   "video_title": "Tommy James & The Shondells - I Think We`re Alone Now Live on Village Square 1967",
   "author": "Tommy James",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Monkees|||Daydream Believer": {
   "youtube_id": "xvqeSJlgaNk",
@@ -1237,7 +1699,10 @@
   "reason": null,
   "video_title": "The Monkees - Daydream Believer (Official Music Video)",
   "author": "The Monkees",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Young Rascals|||Groovin'": {
   "youtube_id": "4JIq8Zn0AJE",
@@ -1245,7 +1710,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('NVNCBL') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "The Young Rascals - Groovin' (1967)",
   "author": "NVNCBL",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Frank Sinatra|||Fly Me to the Moon": {
   "youtube_id": "JYuyWrkwpok",
@@ -1253,7 +1721,10 @@
   "reason": null,
   "video_title": "Frank Sinatra - Fly Me To The Moon (Audio) ft. Count Basie And His Orchestra",
   "author": "FrankSinatraVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Frank Sinatra|||Strangers in the Night": {
   "youtube_id": "Sek1vLw3s20",
@@ -1261,7 +1732,10 @@
   "reason": null,
   "video_title": "Frank Sinatra - Strangers In The Night (Audio)",
   "author": "FrankSinatraVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Stan Getz & Astrud Gilberto|||The Girl from Ipanema": {
   "youtube_id": "sVdaFQhS86E",
@@ -1269,7 +1743,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('iTubeNL') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "Astrud Gilberto and Stan Getz - The Girl From Ipanema (1964) LIVE",
   "author": "iTubeNL",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Herb Alpert & The Tijuana Brass|||A Taste of Honey": {
   "youtube_id": "NC38-qqiVgg",
@@ -1277,7 +1754,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('Kasbah Party Rentals') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "Herb Alpert & the Tijuana Brass   A Taste of Honey",
   "author": "Kasbah Party Rentals",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Herb Alpert & The Tijuana Brass|||Spanish Flea": {
   "youtube_id": "aBE9EQ7gXKI",
@@ -1285,7 +1765,10 @@
   "reason": null,
   "video_title": "Spanish Flea",
   "author": "Herb Alpert & The Tijuana Brass - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Herb Alpert & The Tijuana Brass|||This Guy's in Love with You": {
   "youtube_id": "o8ByJ1C0iR4",
@@ -1293,7 +1776,10 @@
   "reason": null,
   "video_title": "Herb Alpert - This Guy's In Love With You",
   "author": "Herb Alpert",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Jackie DeShannon|||What the World Needs Now Is Love": {
   "youtube_id": "YUaxVQPohlU",
@@ -1301,7 +1787,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('Beth Cartwright') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "Jackie DeShannon - What The World Needs Now Is Love",
   "author": "Beth Cartwright",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Dionne Warwick|||Walk On By": {
   "youtube_id": "vsGsCvJWEo8",
@@ -1309,7 +1798,10 @@
   "reason": null,
   "video_title": "Walk on By",
   "author": "Dionne Warwick - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Dionne Warwick|||Do You Know the Way to San Jose": {
   "youtube_id": "FZLa-1q-lkw",
@@ -1317,7 +1809,10 @@
   "reason": null,
   "video_title": "Do You Know the Way to San Jose",
   "author": "Dionne Warwick - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Dionne Warwick|||Alfie": {
   "youtube_id": "YL06i9aiM4o",
@@ -1325,7 +1820,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('World of Jazz') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "Dionne Warwick - Alfie (Live) \u2022 World of Jazz",
   "author": "World of Jazz",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Henry Mancini|||Moon River": {
   "youtube_id": "CYcSiHRPYKA",
@@ -1333,7 +1831,10 @@
   "reason": null,
   "video_title": "Henry Mancini \"Moon River\" (Official Visualizer)",
   "author": "Henry Mancini",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Henry Mancini|||Days of Wine and Roses": {
   "youtube_id": "bY55VayUW9I",
@@ -1341,7 +1842,10 @@
   "reason": null,
   "video_title": "Henry Mancini - The Days Of Wine And Roses (Best Of Both Worlds, November 29th 1964)",
   "author": "Henry Mancini",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Tony Bennett|||The Shadow of Your Smile": {
   "youtube_id": "mP2ZaQ7Wq24",
@@ -1349,7 +1853,10 @@
   "reason": null,
   "video_title": "The Shadow of Your Smile (Love Theme from \"The Sandpiper\")",
   "author": "Tony Bennett - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Tony Bennett|||I Left My Heart in San Francisco": {
   "youtube_id": "r6DUwMnDxEs",
@@ -1357,7 +1864,10 @@
   "reason": null,
   "video_title": "Tony Bennett - I Left My Heart in San Francisco (Live on MTV Unplugged)",
   "author": "tonybennettVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Vince Guaraldi|||Cast Your Fate to the Wind": {
   "youtube_id": "TAh4gYZdDUg",
@@ -1365,7 +1875,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('Gil_Favor') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "Cast Your Fate to the Wind - Vince Guaraldi Trio",
   "author": "Gil_Favor",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Cannonball Adderley|||Mercy, Mercy, Mercy": {
   "youtube_id": "s4rXEKtC8iY",
@@ -1373,7 +1886,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('Anthony Valente's Jazz Channel') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "Cannonball Adderley Quintet - \"Mercy, Mercy, Mercy\" (1966)",
   "author": "Anthony Valente's Jazz Channel",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Wes Montgomery|||Bumpin' on Sunset": {
   "youtube_id": "dqn3PF_DcSg",
@@ -1381,7 +1897,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('TheAaronSpears') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "Wes Montgomery - Bumpin' On Sunset",
   "author": "TheAaronSpears",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Quincy Jones|||Soul Bossa Nova": {
   "youtube_id": "tCP2aN7bqC0",
@@ -1389,7 +1908,10 @@
   "reason": null,
   "video_title": "Soul Bossa Nova",
   "author": "Quincy Jones - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Dusty Springfield|||The Look of Love": {
   "youtube_id": "Tf1d65OHYXo",
@@ -1397,7 +1919,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('60otaku4') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "Dusty Springfield - The Look of Love",
   "author": "60otaku4",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Frank Sinatra|||My Way": {
   "youtube_id": "qQzdAsjWGPg",
@@ -1405,7 +1930,10 @@
   "reason": null,
   "video_title": "My Way (2008 Remastered)",
   "author": "Frank Sinatra - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Stan Getz & Joao Gilberto|||Desafinado": {
   "youtube_id": "W-DKtzy-07Y",
@@ -1413,7 +1941,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('Jazz & Blues') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "04.- Desafinado - Getz / Gilberto - Stan Getz & Joao Gilberto",
   "author": "Jazz & Blues",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Jack Jones|||Wives and Lovers": {
   "youtube_id": "rZ7WT02wFOk",
@@ -1421,7 +1952,10 @@
   "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('davidhertzberg1') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
   "video_title": "Jack Jones: Wives and Lovers (Bacharach, David, 1963)",
   "author": "davidhertzberg1",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "Kai Winding|||More (Theme from Mondo Cane)": {
   "youtube_id": "M-I5L-0oJSM",
@@ -1429,7 +1963,10 @@
   "reason": null,
   "video_title": "More (Theme From Mondo Cane)",
   "author": "Kai Winding - Topic",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  },
  "The Rolling Stones|||Paint It Black": {
   "youtube_id": "O4irXQhgMqg",
@@ -1437,6 +1974,9 @@
   "reason": null,
   "video_title": "The Rolling Stones - Paint It, Black (Official Lyric Video)",
   "author": "ABKCOVEVO",
-  "live_ok": true
+  "live_ok": true,
+  "embeddable": true,
+  "made_for_kids": false,
+  "checked_at": "2026-09-20"
  }
 }
