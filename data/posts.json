@@ -723,6 +723,16 @@
       "date": "2026-09-21",
       "genre": null,
       "seq": 30
+    },
+    {
+      "id": "on-this-day-october-1",
+      "title": "On This Day: October 1 in 1960s Music",
+      "slug": "/blog/on-this-day/october-1/",
+      "type": "on-this-day",
+      "description": "15 verified 1960s music events from October 1: Abbey Road hits US shelves, Hendrix jams with Cream, Dylan debuts The Band at Carnegie Hall, and Brian Epstein signs the Beatles.",
+      "date": "2026-09-22",
+      "genre": null,
+      "seq": 31
     }
   ]
 }
