@@ -1,0 +1,203 @@
+{
+  "date_label": "September 30",
+  "date_slug": "september-30",
+  "flagship": {
+    "year": 1969,
+    "category": "industry",
+    "headline": "Hendrix, Stills and Miles cut an early Woodstock",
+    "summary_line_1": "Jimi Hendrix joined Stephen Stills, Buddy Miles and Duane Hitchings at New York's Record Plant, cutting an early take of Joni Mitchell's just-written song Woodstock months before Crosby, Stills, Nash & Young turned it into a hit.",
+    "summary_line_2": "Hendrix played bass guitar flipped upside down for the loose, historic jam, which finally surfaced on the 2018 compilation Both Sides of the Sky.",
+    "youtube_id": "57z5c0sYNfk",
+    "image": null
+  },
+  "stats": [
+    { "value": 13, "label": "verified events" },
+    { "value": 5, "label": "event categories" },
+    { "value": 8, "label": "watchable clips" }
+  ],
+  "years": [
+    {
+      "year": 1969,
+      "events": [
+        {
+          "id": "ev-hendrix-woodstock-session",
+          "category": "industry",
+          "headline": "Hendrix, Stills and Miles cut an early Woodstock",
+          "summary_line_1": "Jimi Hendrix joined Stephen Stills, Buddy Miles and Duane Hitchings at New York's Record Plant, cutting an early take of Joni Mitchell's just-written song Woodstock months before Crosby, Stills, Nash & Young turned it into a hit.",
+          "summary_line_2": "Hendrix played bass guitar flipped upside down for the loose, historic jam, which finally surfaced on the 2018 compilation Both Sides of the Sky.",
+          "youtube_id": "57z5c0sYNfk",
+          "image": null,
+          "internal_link": null,
+          "external_link": null
+        },
+        {
+          "id": "ev-rare-earth-get-ready",
+          "category": "release",
+          "headline": "Rare Earth release their platinum Get Ready",
+          "summary_line_1": "Motown released Rare Earth's second album, Get Ready, anchored by a 21-minute side-long reworking of the Smokey Robinson-written title track.",
+          "summary_line_2": "The LP went on to platinum certification, peaked at No. 12 on the Billboard 200 and spent 77 weeks on the chart, an unlikely rock crossover for a soul label.",
+          "youtube_id": "D0BCUumCEFY",
+          "image": null,
+          "internal_link": null,
+          "external_link": null
+        },
+        {
+          "id": "ev-christine-hinton-death",
+          "category": "death",
+          "headline": "Christine Hinton dies in a Marin County crash",
+          "summary_line_1": "Christine Hinton, David Crosby's 21-year-old girlfriend and founder of the Crosby, Stills & Nash fan club, was killed in Marin County when a cat loose in her van made her swerve into the path of an oncoming school bus.",
+          "summary_line_2": "Crosby was inconsolable, and the loss became the raw emotional core of Guinnevere, a song he had already written about her, and of his devastating 1971 solo debut, If I Could Only Remember My Name.",
+          "youtube_id": "7F-4oGg9gtk",
+          "image": null,
+          "internal_link": null,
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1968,
+      "events": [
+        {
+          "id": "ev-love-child-release",
+          "category": "release",
+          "headline": "Motown releases Love Child",
+          "summary_line_1": "Motown released Diana Ross & the Supremes' socially conscious single Love Child, backed with Will This Be the Day and produced by the songwriting team known as The Clan.",
+          "summary_line_2": "The record sold 500,000 copies in its first week, became the group's eleventh number one, and went on to end the Beatles' Hey Jude run atop the Billboard Hot 100 that November.",
+          "youtube_id": "RNCkah42w6Q",
+          "image": null,
+          "internal_link": null,
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1967,
+      "events": [
+        {
+          "id": "ev-bbc-radio-one-launch",
+          "category": "broadcast",
+          "headline": "BBC Radio 1 launches with Flowers in the Rain",
+          "summary_line_1": "The BBC officially launched BBC Radio 1 at 7am, with DJ Tony Blackburn welcoming listeners to the exciting new sound of Radio 1 and spinning the Move's Flowers in the Rain as the station's first record.",
+          "summary_line_2": "Created by Parliament to fill the gap left by outlawed offshore pirate stations, Radio 1 built its early roster around former pirate DJs and reshaped British pop radio for a generation.",
+          "youtube_id": "S2YngCx-f2A",
+          "image": null,
+          "internal_link": null,
+          "external_link": { "text": "This Day In Music", "url": "https://www.thisdayinmusic.com/liner-notes/wonderful-radio-1/" }
+        }
+      ]
+    },
+    {
+      "year": 1966,
+      "events": [
+        {
+          "id": "ev-stones-glasgow-shows",
+          "category": "concert",
+          "headline": "The Rolling Stones play two shows in Glasgow",
+          "summary_line_1": "The Rolling Stones played two shows at Glasgow's Odeon Theatre, part of an Aftermath tour bill shared with Ike & Tina Turner and the Yardbirds.",
+          "summary_line_2": "The Scottish stop came near the end of what would be the band's last full UK package tour before stadium-scale rock took over.",
+          "youtube_id": null,
+          "image": { "src": "img/rolling-stones-schiphol-1966.jpg", "alt": "The Rolling Stones arriving at Amsterdam's Schiphol Airport, 1966", "width": 800, "height": 586, "caption": "The Rolling Stones at Schiphol Airport, Amsterdam, 1966. CC0, via Wikimedia Commons." },
+          "internal_link": { "text": "the Yardbirds", "url": "/blog/artists/the-yardbirds/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1965,
+      "events": [
+        {
+          "id": "ev-donovan-shindig-debut",
+          "category": "broadcast",
+          "headline": "Donovan makes his US TV debut on Shindig!",
+          "summary_line_1": "Scottish folk troubadour Donovan made his American television debut on ABC's Shindig!, performing Catch the Wind and Colours alongside the Hollies, the Turtles and the Dave Clark Five.",
+          "summary_line_2": "The appearance introduced prime-time US audiences to the acoustic British folk sound just as Bob Dylan was plugging in back home.",
+          "youtube_id": null,
+          "image": { "src": "img/donovan-casey-kasem-1965.jpg", "alt": "Donovan pictured with radio host Casey Kasem, September 1965", "width": 603, "height": 752, "caption": "Donovan with Casey Kasem, September 1965. Public domain, via Wikimedia Commons." },
+          "internal_link": { "text": "the Dave Clark Five", "url": "/blog/artists/the-dave-clark-five/" },
+          "external_link": null
+        },
+        {
+          "id": "ev-stones-hanley-shows",
+          "category": "concert",
+          "headline": "The Rolling Stones play two shows in Hanley",
+          "summary_line_1": "The Rolling Stones played two shows, the 6:30 and 9:00 houses, at the Gaumont Theatre in Hanley, Staffordshire, on their autumn UK package tour.",
+          "summary_line_2": "The dates came weeks after (I Can't Get No) Satisfaction had turned the band into the biggest live draw in Britain.",
+          "youtube_id": null,
+          "image": { "src": "img/rolling-stones-beverly-hills-1965.jpg", "alt": "The Rolling Stones pictured in Beverly Hills, 1965", "width": 800, "height": 609, "caption": "The Rolling Stones, Beverly Hills, 1965. Los Angeles Times / UCLA, CC BY 4.0, via Wikimedia Commons." },
+          "internal_link": { "text": "the Rolling Stones", "url": "/blog/artists/the-rolling-stones/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1964,
+      "events": [
+        {
+          "id": "ev-beatles-no-reply-session",
+          "category": "industry",
+          "headline": "The Beatles finish No Reply and Every Little Thing",
+          "summary_line_1": "The Beatles wrapped two sessions in Studio Two at EMI Studios, completing the master take of No Reply in eight takes and finishing Every Little Thing, both destined for Beatles For Sale.",
+          "summary_line_2": "John Lennon played electric 12-string on Every Little Thing, while No Reply, finished with George Martin adding piano, opened the album that December.",
+          "youtube_id": "YgFo9STa70E",
+          "image": null,
+          "internal_link": { "text": "The Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1963,
+      "events": [
+        {
+          "id": "ev-stones-rex-ballroom",
+          "category": "concert",
+          "headline": "The Rolling Stones play an emergency Cambridge show",
+          "summary_line_1": "The Rolling Stones played a non-tour show at the Rex Ballroom in Cambridge for a contracted fee of £150, per a surviving carbon-copy contract dated September 20, 1963.",
+          "summary_line_2": "Booked by co-manager Eric Easton about five weeks before the band's second single, I Wanna Be Your Man, hit UK shops, the gig captured the live demand already building around them.",
+          "youtube_id": null,
+          "image": { "src": "img/early-rolling-stones-1963.jpg", "alt": "The Rolling Stones pictured in 1963", "width": 800, "height": 593, "caption": "The Rolling Stones, 1963. Public domain, via Wikimedia Commons." },
+          "internal_link": { "text": "The Rolling Stones", "url": "/blog/artists/the-rolling-stones/" },
+          "external_link": null
+        },
+        {
+          "id": "ev-dont-bother-me-mix",
+          "category": "industry",
+          "headline": "Don't Bother Me gets its mono mix",
+          "summary_line_1": "Producer George Martin and engineer Norman Smith completed the mono mix of George Harrison's songwriting debut, Don't Bother Me, in Studio Two at EMI Studios.",
+          "summary_line_2": "The stereo mix followed almost a month later on October 29, clearing Harrison's first original composition for its spot on With the Beatles.",
+          "youtube_id": "k03IQbaTcxc",
+          "image": null,
+          "internal_link": { "text": "The Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1960,
+      "events": [
+        {
+          "id": "ev-flintstones-premiere",
+          "category": "broadcast",
+          "headline": "The Flintstones premieres on ABC",
+          "summary_line_1": "ABC gave The Flintstones its network premiere as the first prime-time animated sitcom, with an original musical score and theme cues by Hoyt Curtin under producers William Hanna and Joseph Barbera.",
+          "summary_line_2": "The show's music-driven format set a template for prime-time animation scoring that lasted for decades.",
+          "youtube_id": "G_PSxMSupdg",
+          "image": null,
+          "internal_link": null,
+          "external_link": null
+        },
+        {
+          "id": "ev-eileen-farrell-vassar",
+          "category": "concert",
+          "headline": "Eileen Farrell headlines a Vassar centennial concert",
+          "summary_line_1": "Soprano Eileen Farrell gave the ninth Barbara Woods Morgan Memorial Concert in Vassar College's Students' Building during the school's centennial year, pairing classical works by Beethoven, Schubert, Weber, Debussy and Poulenc with contemporary American songs.",
+          "summary_line_2": "The recital showcased the crossover star's range just months into a five-season run at the Metropolitan Opera, bridging concert-hall repertoire and popular song.",
+          "youtube_id": null,
+          "image": null,
+          "internal_link": null,
+          "external_link": null
+        }
+      ]
+    }
+  ]
+}
