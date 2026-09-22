@@ -733,6 +733,15 @@
       "date": "2026-09-22",
       "genre": null,
       "seq": 31
+    },
+    {
+      "id": "the-beach-boys",
+      "title": "The Beach Boys: California's Surf-Pop Pioneers",
+      "slug": "/blog/artists/the-beach-boys/",
+      "type": "artist-bio",
+      "description": "The Beach Boys turned Hawthorne, California garage rehearsals into Pet Sounds and Good Vibrations, becoming 1960s surf pop's most influential and tragic band.",
+      "date": "2026-09-22",
+      "genre": "garage-surf-rock"
     }
   ]
 }

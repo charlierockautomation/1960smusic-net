@@ -37,6 +37,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://1960smusic.net/blog/artists/the-beach-boys/</loc>
+    <lastmod>2026-09-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://1960smusic.net/blog/artists/the-beatles/</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
