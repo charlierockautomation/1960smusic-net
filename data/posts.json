@@ -713,6 +713,16 @@
       "description": "The Crystal Ship is Jim Morrison's farewell to his first serious girlfriend, a piano led ballad The Doors tucked onto their 1967 debut album.",
       "date": "2026-09-16",
       "genre": "psychedelic-rock"
+    },
+    {
+      "id": "on-this-day-september-30",
+      "title": "On This Day: September 30 in 1960s Music",
+      "slug": "/blog/on-this-day/september-30/",
+      "type": "on-this-day",
+      "description": "13 verified 1960s music events from September 30: Hendrix cuts an early version of Woodstock, BBC Radio 1 launches, The Flintstones premieres, and the Rolling Stones play three different UK shows across the decade.",
+      "date": "2026-09-21",
+      "genre": null,
+      "seq": 30
     }
   ]
 }
