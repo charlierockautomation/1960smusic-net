@@ -1,0 +1,220 @@
+{
+  "date_label": "October 1",
+  "date_slug": "october-1",
+  "flagship": {
+    "year": 1969,
+    "category": "release",
+    "headline": "The Beatles release Abbey Road in the United States",
+    "summary_line_1": "Capitol Records issued the Beatles' eleventh studio album, Abbey Road, in the US five days after its British debut, led by Come Together, Something and George Harrison's Here Comes the Sun.",
+    "summary_line_2": "The album shot to No. 1 on the Billboard 200 and went on to sell more than 12 million copies domestically, the last album the Beatles recorded together as a group.",
+    "youtube_id": null,
+    "image": "/blog/on-this-day/october-1/img/abbey-road-album-cover-1969.jpg"
+  },
+  "stats": [
+    { "value": 15, "label": "verified events" },
+    { "value": 5, "label": "event categories" },
+    { "value": 6, "label": "watchable clips" }
+  ],
+  "years": [
+    {
+      "year": 1969,
+      "events": [
+        {
+          "id": "ev-abbey-road-us-release",
+          "category": "release",
+          "headline": "The Beatles release Abbey Road in the United States",
+          "summary_line_1": "Capitol Records issued the Beatles' eleventh studio album, Abbey Road, in the US five days after its British debut, led by Come Together, Something and George Harrison's Here Comes the Sun.",
+          "summary_line_2": "The album shot to No. 1 on the Billboard 200 and went on to sell more than 12 million copies domestically, the last album the Beatles recorded together as a group.",
+          "youtube_id": null,
+          "image": "/blog/on-this-day/october-1/img/abbey-road-album-cover-1969.jpg",
+          "internal_link": { "text": "the Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": null
+        },
+        {
+          "id": "ev-monkees-present-release",
+          "category": "release",
+          "headline": "The Monkees release The Monkees Present",
+          "summary_line_1": "Colgems Records released The Monkees Present, the group's eighth studio album, arriving with Peter Tork already gone and Michael Nesmith on his way out.",
+          "summary_line_2": "It stands as the last Monkees studio album to feature Nesmith until the 1996 reunion LP Justus, a quiet close to the pop and Brill Building era that had made them stars.",
+          "youtube_id": null,
+          "image": "/blog/on-this-day/october-1/img/monkees-present-album-cover-1969.png",
+          "internal_link": { "text": "pop and Brill Building", "url": "/blog/genres/pop-brill-building/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1967,
+      "events": [
+        {
+          "id": "ev-hendrix-little-miss-lover",
+          "category": "industry",
+          "headline": "The Jimi Hendrix Experience record Little Miss Lover",
+          "summary_line_1": "The Jimi Hendrix Experience cut Little Miss Lover at Olympic Studios in London with producer Chas Chandler and engineer Eddie Kramer, built around Hendrix's wah-wah guitar riff.",
+          "summary_line_2": "The track landed on Axis: Bold as Love that December, part of the psychedelic rock explosion Hendrix helped define just months after Are You Experienced introduced the trio to America.",
+          "youtube_id": null,
+          "image": "/blog/on-this-day/october-1/img/jimi-hendrix-helsinki-1967.jpg",
+          "internal_link": { "text": "psychedelic rock", "url": "/blog/genres/psychedelic-rock/" },
+          "external_link": null
+        },
+        {
+          "id": "ev-peggy-lee-ed-sullivan",
+          "category": "broadcast",
+          "headline": "Peggy Lee makes her eleventh appearance on The Ed Sullivan Show",
+          "summary_line_1": "Peggy Lee performed her new Capitol single I Feel It and the standard The More I See You, then joined fellow guests Sergio Franchi and Nancy Sinatra for a trio number, One of Those Songs.",
+          "summary_line_2": "Backed by musicians including Toots Thielemans and her longtime pianist Lou Levy, the appearance showcased the vocal sophistication that made Lee a defining voice of 1960s jazz and easy listening.",
+          "youtube_id": null,
+          "image": "/blog/on-this-day/october-1/img/peggy-lee-1950.jpg",
+          "internal_link": { "text": "1960s jazz and easy listening", "url": "/blog/genres/jazz-easy-listening/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1966,
+      "events": [
+        {
+          "id": "ev-hendrix-jams-cream",
+          "category": "concert",
+          "headline": "Jimi Hendrix makes his UK stage debut jamming with Cream",
+          "summary_line_1": "Newly arrived in London for barely a week, Jimi Hendrix asked to sit in with Cream at the London Polytechnic and tore through Howlin' Wolf's Killing Floor, playing guitar behind his head and with his teeth.",
+          "summary_line_2": "Eric Clapton later called the band completely stunned, an early sign of the guitar revolution Hendrix brought to Britain weeks before releasing his own debut single, Hey Joe, part of the psychedelic rock surge breaking out of London that year.",
+          "youtube_id": "rXwMrBb2x1Q",
+          "image": null,
+          "internal_link": { "text": "psychedelic rock surge", "url": "/blog/genres/psychedelic-rock/" },
+          "external_link": null
+        },
+        {
+          "id": "ev-stones-newcastle-shows",
+          "category": "concert",
+          "headline": "The Rolling Stones play two shows at Newcastle's City Hall",
+          "summary_line_1": "The Rolling Stones played two houses at Newcastle upon Tyne's City Hall, part of the closing week of what would be their last full UK package tour before stadium-scale rock took hold.",
+          "summary_line_2": "The dates came deep into the year that had already given the band Paint It Black, their first US and UK number one to feature a sitar.",
+          "youtube_id": "O4irXQhgMqg",
+          "image": null,
+          "internal_link": { "text": "Paint It Black", "url": "/blog/songs/paint-it-black-rolling-stones/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1965,
+      "events": [
+        {
+          "id": "ev-dylan-carnegie-hall-hawks",
+          "category": "concert",
+          "headline": "Bob Dylan debuts the Hawks as his electric band at Carnegie Hall",
+          "summary_line_1": "Bob Dylan brought his new touring band, soon known as the Hawks and later as The Band, Robbie Robertson, Garth Hudson, Rick Danko, Richard Manuel and Levon Helm, onto the Carnegie Hall stage for their first major performance together.",
+          "summary_line_2": "The prestigious room gave a cold reception to the loud, electric sound, but the same musicians went on to back Dylan through his historic and equally divisive 1966 tour, part of the era's folk-rock reckoning.",
+          "youtube_id": "IwOfCgkyEj0",
+          "image": null,
+          "internal_link": { "text": "folk-rock", "url": "/blog/genres/folk-rock/" },
+          "external_link": null
+        },
+        {
+          "id": "ev-stones-chester-shows",
+          "category": "concert",
+          "headline": "The Rolling Stones play two shows at Chester's ABC Theatre",
+          "summary_line_1": "The Rolling Stones performed at 6:15 and 8:30 at the ABC Theatre in Chester, England, with the Moody Blues opening in place of Unit 4 Plus 2, as part of their second British tour of the year.",
+          "summary_line_2": "The dates came weeks after (I Can't Get No) Satisfaction had turned the band into Britain's biggest live draw.",
+          "youtube_id": "nrIPxlFzDi0",
+          "image": null,
+          "internal_link": { "text": "(I Can't Get No) Satisfaction", "url": "/blog/songs/i-cant-get-no-satisfaction-rolling-stones/" },
+          "external_link": null
+        },
+        {
+          "id": "ev-byrds-turn-turn-turn-release",
+          "category": "release",
+          "headline": "The Byrds release Turn! Turn! Turn! as a single",
+          "summary_line_1": "Columbia released the Byrds' Turn! Turn! Turn! (To Everything There Is a Season), Pete Seeger's Ecclesiastes-based lyric set to Jim McGuinn's jangling twelve-string guitar, backed with She Don't Care About Time.",
+          "summary_line_2": "The single entered the US chart three weeks later and climbed to No. 1 that December, cementing the folk-rock sound the band had helped invent.",
+          "youtube_id": "xVOJla2vYx8",
+          "image": null,
+          "internal_link": { "text": "folk-rock", "url": "/blog/genres/folk-rock/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1964,
+      "events": [
+        {
+          "id": "ev-miles-davis-salle-pleyel",
+          "category": "concert",
+          "headline": "The Miles Davis Quintet plays two shows at Salle Pleyel in Paris",
+          "summary_line_1": "Miles Davis led Wayne Shorter, Herbie Hancock, Ron Carter and Tony Williams through two ORTF-broadcast concerts at the first Paris Jazz Festival, running through staples like So What, Autumn Leaves and Stella by Starlight.",
+          "summary_line_2": "The performances captured the freshly assembled Second Great Quintet just weeks into Shorter's tenure, later released commercially as Paris Jazz Festival, Salle Pleyel 10/1/1964, a landmark of 1960s jazz.",
+          "youtube_id": null,
+          "image": "/blog/on-this-day/october-1/img/miles-davis-helsinki-1964.jpg",
+          "internal_link": { "text": "1960s jazz", "url": "/blog/genres/jazz-easy-listening/" },
+          "external_link": null
+        },
+        {
+          "id": "ev-october-revolution-jazz-opens",
+          "category": "festival",
+          "headline": "Bill Dixon opens the October Revolution in Jazz festival",
+          "summary_line_1": "Trumpeter and composer Bill Dixon opened his four-day October Revolution in Jazz festival at the Cellar Café in New York, drawing roughly 700 listeners to hear about 40 avant-garde groups including Cecil Taylor and Sun Ra.",
+          "summary_line_2": "The festival's success directly led to the founding of the Jazz Composer's Guild, a landmark organizing moment for free jazz and the wider 1960s jazz scene, later documented on the compilation album The October Revolution.",
+          "youtube_id": null,
+          "image": "/blog/on-this-day/october-1/img/october-revolution-jazz-album-cover-1964.jpg",
+          "internal_link": { "text": "1960s jazz", "url": "/blog/genres/jazz-easy-listening/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1962,
+      "events": [
+        {
+          "id": "ev-epstein-beatles-contract",
+          "category": "industry",
+          "headline": "Brian Epstein signs his management contract with the Beatles",
+          "summary_line_1": "John Lennon and Ringo Starr signed for themselves at Epstein's NEMS office in Liverpool, while Harold Harrison and Jim McCartney co-signed on behalf of their underage sons in the Beatles, four days before Love Me Do reached UK shops.",
+          "summary_line_2": "The deal gave Epstein 25 percent of the group's earnings and formally locked in the managerial partnership that guided Beatlemania, confirmed by the only surviving copy bearing all five signatures.",
+          "youtube_id": null,
+          "image": "/blog/on-this-day/october-1/img/brian-epstein-hullabaloo-1965.jpg",
+          "internal_link": { "text": "the Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": { "text": "Beatles Bible", "url": "https://www.beatlesbible.com/1962/10/01/beatles-sign-management-contract-with-brian-epstein/" }
+        },
+        {
+          "id": "ev-surfin-safari-release",
+          "category": "release",
+          "headline": "The Beach Boys release their debut album Surfin' Safari",
+          "summary_line_1": "Capitol Records issued the group's first LP, Surfin' Safari, introducing the raw harmonies of Brian, Carl and Dennis Wilson, Mike Love and David Marks to a national audience.",
+          "summary_line_2": "The album, anchored by the title track and Surfin', peaked at No. 32 on the Billboard 200 and kicked off one of American pop's most celebrated catalogs, part of the wider garage and surf rock sound taking hold nationwide.",
+          "youtube_id": "IMChBJZUDK8",
+          "image": null,
+          "internal_link": { "text": "garage and surf rock", "url": "/blog/genres/garage-surf-rock/" },
+          "external_link": null
+        },
+        {
+          "id": "ev-carson-tonight-show-debut",
+          "category": "broadcast",
+          "headline": "Johnny Carson debuts as host of The Tonight Show",
+          "summary_line_1": "Comedian Johnny Carson took over from Jack Paar as host of NBC's Tonight Show, introduced by guest Groucho Marx before a lineup that included Joan Crawford, Mel Brooks, Tony Bennett and Rudy Vallee.",
+          "summary_line_2": "Paul Anka's adapted theme music became the show's signature sound for three decades, during which Tonight served as American television's premier late-night showcase for musical guests.",
+          "youtube_id": null,
+          "image": "/blog/on-this-day/october-1/img/johnny-carson-tonight-show-1965.jpg",
+          "internal_link": null,
+          "external_link": { "text": "History.com", "url": "https://www.history.com/this-day-in-history/october-1/johnny-carson-makes-debut-as-tonight-show-host" }
+        }
+      ]
+    },
+    {
+      "year": 1960,
+      "events": [
+        {
+          "id": "ev-joan-baez-debut-album",
+          "category": "release",
+          "headline": "Joan Baez releases her self-titled debut album",
+          "summary_line_1": "Vanguard Records released 19-year-old folk singer Joan Baez's self-titled debut album, recorded that summer over three days at Manhattan Center in New York.",
+          "summary_line_2": "The record, built on traditional ballads like House of the Rising Sun and Silver Dagger, went gold and helped launch the American folk revival that defined the decade's opening years.",
+          "youtube_id": null,
+          "image": "/blog/on-this-day/october-1/img/joan-baez-debut-album-cover-1960.jpg",
+          "internal_link": null,
+          "external_link": null
+        }
+      ]
+    }
+  ]
+}
