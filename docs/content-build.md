@@ -95,7 +95,7 @@ Live rows (1-26) are in [`docs/content-build-archive.md`](content-build-archive.
 | 41 | The Crystal Ship | /blog/songs/the-crystal-ship-doors/ | song-story | psychedelic-rock | live | The Crystal Ship | rbulIrN4scs |  |
 | 42 | The Beach Boys bio | /blog/artists/the-beach-boys/ | artist-bio | garage-surf-rock | live | The Beach Boys | enlOHxQ0tb4 |  |
 | 43 | Surfin' USA | /blog/songs/surfin-usa-beach-boys/ | song-story | garage-surf-rock | live | Surfin USA | enlOHxQ0tb4 |  |
-| 44 | Good Vibrations | /blog/songs/good-vibrations-beach-boys/ | song-story | garage-surf-rock | not started | Good Vibrations by The Beach Boys | apBWI6xrbLY |  |
+| 44 | Good Vibrations | /blog/songs/good-vibrations-beach-boys/ | song-story | garage-surf-rock | live | Good Vibrations by The Beach Boys | apBWI6xrbLY |  |
 | 45 | Fun, Fun, Fun | /blog/songs/fun-fun-fun-beach-boys/ | song-story | garage-surf-rock | not started | Fun, Fun, Fun | VF_o-N0fhZ0 |  |
 | 46 | California Girls | /blog/songs/california-girls-beach-boys/ | song-story | garage-surf-rock | not started | California Girls by The Beach Boys | DR2lvcdKSdU |  |
 | 47 | Surfin' Safari | /blog/songs/surfin-safari-beach-boys/ | song-story | garage-surf-rock | not started | Surfin' Safari by The Beach Boys | IMChBJZUDK8 | yt |
