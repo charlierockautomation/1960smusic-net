@@ -1,0 +1,237 @@
+{
+  "date_label": "October 3",
+  "date_slug": "october-3",
+  "flagship": {
+    "year": 1968,
+    "category": "industry",
+    "headline": "The Beatles begin recording Savoy Truffle",
+    "summary_line_1": "Paul McCartney, George Harrison, and Ringo Starr gathered at Trident Studios in Soho to start work on Harrison's Savoy Truffle for the White Album, cutting the rhythm track with Harrison on electric guitar, McCartney on bass, and Starr on drums.",
+    "summary_line_2": "Inspired by Eric Clapton's fondness for a box of chocolates and the toothache that followed, the song's heavy horn arrangement would be added days later, one of the White Album's odder, funkier detours.",
+    "youtube_id": "eHlyjSm0eR4",
+    "image": null
+  },
+  "stats": [
+    { "value": 12, "label": "verified events" },
+    { "value": 8, "label": "event categories" },
+    { "value": 7, "label": "watchable clips" }
+  ],
+  "years": [
+    {
+      "year": 1969,
+      "events": [
+        {
+          "id": "ev-led-zeppelin-scheveningen",
+          "category": "concert",
+          "headline": "Led Zeppelin open their autumn European tour in Scheveningen",
+          "summary_line_1": "Led Zeppelin kicked off their autumn 1969 European tour with a show at the Circustheater in Scheveningen, Netherlands, working through the hard blues-rock of their debut album, including Communication Breakdown and How Many More Times.",
+          "summary_line_2": "The show came just months after that first record had put the band on the map, and the short European run helped set up the heavier sound of Led Zeppelin II later that month.",
+          "youtube_id": "2atkj_KWLl0",
+          "image": null,
+          "internal_link": null,
+          "external_link": { "text": "setlist.fm", "url": "https://www.setlist.fm/setlist/led-zeppelin/1969/circustheater-scheveningen-netherlands-23dfb0b7.html" }
+        },
+        {
+          "id": "ev-skip-james-dies",
+          "category": "death",
+          "headline": "Delta blues pioneer Skip James dies in Philadelphia",
+          "summary_line_1": "Nehemiah Curtis Skip James, the Mississippi Delta bluesman known for his eerie minor-key guitar tunings and high falsetto, died of cancer in Philadelphia at age 67.",
+          "summary_line_2": "Rediscovered during the 1960s blues revival after decades out of the public eye, songs like Hard Time Killing Floor Blues and I'm So Glad went on to be covered by Cream and other British rock bands who idolized his style.",
+          "youtube_id": "_jp25Cfw2Ro",
+          "image": null,
+          "internal_link": null,
+          "external_link": null
+        },
+        {
+          "id": "ev-gwen-stefani-born",
+          "category": "birth",
+          "headline": "Future No Doubt frontwoman Gwen Stefani is born in Fullerton",
+          "summary_line_1": "Gwen Renee Stefani was born in Fullerton, California, growing up to front the ska-pop band No Doubt before launching a solo career.",
+          "summary_line_2": "Stefani's rise decades later traced back to the same Southern California music scene that had produced the Beach Boys' surf sound in the 1960s.",
+          "youtube_id": null,
+          "image": {
+            "src": "/blog/on-this-day/october-3/img/gwen-stefani-2015.jpg",
+            "width": 800,
+            "height": 533,
+            "alt": "Gwen Stefani performing with No Doubt, 2015",
+            "credit_text": "Photo: Lorie Shaull, 2015. CC BY-SA 4.0, via Wikimedia Commons",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Gwen_Stefani,_No_Doubt.jpg",
+            "license": "CC BY-SA 4.0"
+          },
+          "internal_link": null,
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1968,
+      "events": [
+        {
+          "id": "ev-beatles-savoy-truffle-recording",
+          "category": "industry",
+          "headline": "The Beatles begin recording Savoy Truffle",
+          "summary_line_1": "Paul McCartney, George Harrison, and Ringo Starr gathered at Trident Studios in Soho to start work on Harrison's Savoy Truffle for the White Album, cutting the rhythm track with Harrison on electric guitar, McCartney on bass, and Starr on drums.",
+          "summary_line_2": "Inspired by Eric Clapton's fondness for a box of chocolates and the toothache that followed, the song's heavy horn arrangement would be added days later, one of the <a href=\"/blog/artists/the-beatles/\">Beatles</a>' odder, funkier White Album detours.",
+          "youtube_id": "eHlyjSm0eR4",
+          "image": null,
+          "internal_link": { "text": "the Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1967,
+      "events": [
+        {
+          "id": "ev-woody-guthrie-dies",
+          "category": "death",
+          "headline": "Folk icon Woody Guthrie dies at 55",
+          "summary_line_1": "Woodrow Wilson Guthrie, the folk singer and songwriter behind This Land Is Your Land and hundreds of other topical ballads, died at Creedmoor Psychiatric Center in Queens, New York, after a long battle with Huntington's disease.",
+          "summary_line_2": "His songwriting directly shaped the 1960s folk revival, inspiring a young Bob Dylan and a generation of singer-songwriters who followed him into Greenwich Village.",
+          "youtube_id": "Ol0rRdF5L1c",
+          "image": null,
+          "internal_link": null,
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1965,
+      "events": [
+        {
+          "id": "ev-tom-jones-judy-garland-ed-sullivan",
+          "category": "broadcast",
+          "headline": "Tom Jones and Judy Garland share the bill on The Ed Sullivan Show",
+          "summary_line_1": "Welsh singer Tom Jones performed With These Hands on CBS's The Ed Sullivan Show, sharing the broadcast with Judy Garland, who sang a medley including Come Rain or Come Shine, and Sophie Tucker in her last filmed appearance.",
+          "summary_line_2": "Jones's performance landed in the middle of his breakout year in America, months after It's Not Unusual had made him a star on both sides of the Atlantic.",
+          "youtube_id": "x_pFbiDMupQ",
+          "image": null,
+          "internal_link": null,
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1964,
+      "events": [
+        {
+          "id": "ev-beatles-shindig-taping",
+          "category": "broadcast",
+          "headline": "The Beatles tape their Shindig! performance for US television",
+          "summary_line_1": "The <a href=\"/blog/artists/the-beatles/\">Beatles</a> filmed a live set at Granville Studio in Fulham Broadway for the American show Shindig!, performing Kansas City/Hey-Hey-Hey-Hey!, I'm a Loser, and Boys in front of London fan club members.",
+          "summary_line_2": "Broadcast in the US four days later, it was one of only a handful of performances the group recorded specifically for American television during the height of 1964 Beatlemania.",
+          "youtube_id": null,
+          "image": {
+            "src": "/blog/on-this-day/october-3/img/beatles-jfk-1964.jpg",
+            "width": 800,
+            "height": 565,
+            "alt": "The Beatles waving to fans after landing at JFK Airport, February 1964",
+            "credit_text": "Photo: United Press International, February 1964. Public domain, via Wikimedia Commons",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:The_Beatles_arrive_at_JFK_Airport.jpg",
+            "license": "Public domain"
+          },
+          "internal_link": { "text": "The Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": null
+        },
+        {
+          "id": "ev-zombies-shes-not-there-us-release",
+          "category": "release",
+          "headline": "The Zombies release She's Not There in the US",
+          "summary_line_1": "Parrot Records released the Zombies' debut single She's Not There, backed with You Make Me Feel Good, in the United States.",
+          "summary_line_2": "Written by keyboardist Rod Argent, the jazz-tinged, minor-key hit climbed to No. 2 on the Billboard Hot 100, making the Zombies one of the more musically adventurous acts of the British Invasion.",
+          "youtube_id": "T6cLHNF5N8E",
+          "image": null,
+          "internal_link": { "text": "British Invasion", "url": "/blog/genres/british-invasion/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1963,
+      "events": [
+        {
+          "id": "ev-beatles-public-ear-interview",
+          "category": "broadcast",
+          "headline": "The Beatles tape an interview for BBC radio's The Public Ear",
+          "summary_line_1": "The <a href=\"/blog/artists/the-beatles/\">Beatles</a> gave a 12-minute interview to features assistant Michael Colley at NEMS Enterprises' London office, part of a segment on the Mersey Beat scene for the BBC Light Programme's The Public Ear.",
+          "summary_line_2": "Broadcast a month later, it caught the group reflecting on Liverpool's music scene just weeks before I Want to Hold Your Hand broke them nationwide.",
+          "youtube_id": null,
+          "image": {
+            "src": "/blog/on-this-day/october-3/img/beatles-publicity-1963.jpg",
+            "width": 800,
+            "height": 623,
+            "alt": "The Beatles publicity photo, 1963",
+            "credit_text": "Photo: Dezo Hoffmann, 1963. Public domain, via Wikimedia Commons",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_publicity_photo.jpg",
+            "license": "Public domain"
+          },
+          "internal_link": { "text": "The Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1962,
+      "events": [
+        {
+          "id": "ev-tommy-lee-born",
+          "category": "birth",
+          "headline": "Future Motley Crue drummer Tommy Lee is born in Athens",
+          "summary_line_1": "Thomas Lee Bass, who would grow up to co-found and drum for the heavy metal band Motley Crue, was born in Athens, Greece.",
+          "summary_line_2": "Lee went on to become one of the most recognizable rock drummers of the 1980s and 1990s.",
+          "youtube_id": null,
+          "image": {
+            "src": "/blog/on-this-day/october-3/img/tommy-lee-2012.jpg",
+            "width": 533,
+            "height": 800,
+            "alt": "Tommy Lee performing in 2012",
+            "credit_text": "Photo: Glenn Francis, PacificProDigital.com, 2012. CC BY-SA 3.0, via Wikimedia Commons",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:Tommy_Lee_2012.jpg",
+            "license": "CC BY-SA 3.0"
+          },
+          "internal_link": null,
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1961,
+      "events": [
+        {
+          "id": "ev-beach-boys-first-session",
+          "category": "industry",
+          "headline": "The Beach Boys record their first studio session",
+          "summary_line_1": "Brian, Dennis, and Carl Wilson, cousin Mike Love, and neighbor Al Jardine gathered at World Pacific Studios in Los Angeles for their first studio session, tracking early versions of Surfin' and Luau under producers Hite and Dorinda Morgan.",
+          "summary_line_2": "Surfin' was released two months later on Candix Records as the group's debut single, kicking off the California surf rock movement that would define the <a href=\"/blog/genres/garage-surf-rock/\">Beach Boys</a>' early career.",
+          "youtube_id": null,
+          "image": {
+            "src": "/blog/on-this-day/october-3/img/beach-boys-1963.jpg",
+            "width": 450,
+            "height": 800,
+            "alt": "The Beach Boys, publicity photo, 1963",
+            "credit_text": "Publicity photo, March 1963. Public domain, via Wikimedia Commons",
+            "credit_url": "https://commons.wikimedia.org/wiki/File:The_Beach_Boys_1962.jpg",
+            "license": "Public domain"
+          },
+          "internal_link": { "text": "Beach Boys", "url": "/blog/genres/garage-surf-rock/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1960,
+      "events": [
+        {
+          "id": "ev-beatles-last-indra-club-night",
+          "category": "concert",
+          "headline": "The Beatles play their last night at Hamburg's Indra Club",
+          "summary_line_1": "The Beatles wrapped up 48 straight nights at the Indra Club in Hamburg's St. Pauli district after noise complaints from a neighbor forced club owner Bruno Koschmider to move them to the larger Kaiserkeller the very next night.",
+          "summary_line_2": "The grueling Hamburg residencies built the relentless stamina that defined the group's live act, the same city where they'd back Tony Sheridan on My Bonnie the following year, their first appearance on a record.",
+          "youtube_id": "8KNedjsgnwY",
+          "image": null,
+          "internal_link": { "text": "The Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": { "text": "Beatles Bible", "url": "https://www.beatlesbible.com/1960/10/03/beatles-last-show-indra-club-hamburg/" }
+        }
+      ]
+    }
+  ]
+}
