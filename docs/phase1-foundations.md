@@ -17,7 +17,7 @@ Status values: `not started` · `in progress` · `blocked (reason)` · `live`
 
 | # | Task | Status |
 |---|---|---|
-| 1 | Static HTML listing pages | in progress (built, committed, awaiting Charlie's push approval) |
+| 1 | Static HTML listing pages | live |
 | 2 | Homepage: crawlable links to hubs, tools, latest OTD; real share links | not started |
 | 3 | URL + response audit (redirects, trailing slash, .html vs extensionless) | not started |
 | 4 | 404.html page | not started |
