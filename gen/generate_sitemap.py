@@ -24,10 +24,11 @@ TODAY = date.today().isoformat()
 # link convention (see CLAUDE.md: root-relative links).
 STATIC_PAGES = {
     "/": ("weekly", "1.0"),
-    "/about.html": ("monthly", "0.5"),
-    "/contact.html": ("monthly", "0.3"),
-    "/privacy-policy.html": ("yearly", "0.2"),
-    "/terms-of-use.html": ("yearly", "0.2"),
+    "/about": ("monthly", "0.5"),
+    "/about/charlie/": ("monthly", "0.5"),
+    "/contact": ("monthly", "0.3"),
+    "/privacy-policy": ("yearly", "0.2"),
+    "/terms-of-use": ("yearly", "0.2"),
     "/blog/": ("weekly", "0.9"),
     "/blog/genres/": ("weekly", "0.7"),
     "/blog/artists/": ("weekly", "0.7"),

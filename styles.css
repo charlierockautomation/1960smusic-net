@@ -339,6 +339,11 @@ h3{font-size:1.25rem;color:var(--ink-soft);}
 .breadcrumb a{color:var(--ink-soft);text-decoration:none;}
 .breadcrumb a:hover{color:var(--tube-glow);}
 .article-header h1{margin:.1em 0 .5em;}
+.byline{font-family:var(--font-mono);font-size:.82rem;color:var(--ink-soft);margin:-.2em 0 1.2em;}
+.byline a{color:var(--red);}
+.byline-dark{color:#C9B78C;margin:-.3em 0 1em;}
+.byline-dark a{color:#E7DBC0;}
+.byline-dark a:hover{color:var(--tube-glow);}
 /* featured image: never overflow its container / the viewport */
 .tiktok-embed-wrap{margin:2rem auto;max-width:605px;text-align:center;}
 .featured-image{margin:0 0 1.8rem;text-align:center;}

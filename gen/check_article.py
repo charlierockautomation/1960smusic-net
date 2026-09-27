@@ -18,6 +18,9 @@ Full rules: docs/writing-standard.md. Checks enforced here (2026-08-16):
   - no banned filler phrases / AI-cliche words
   - one sentence per line: no multi-sentence paragraph without a <br> break
   - 75%+ of sentences under 20 words
+  - visible byline linking to /about/charlie/ with a Published <time>
+    date, and Article JSON-LD with a Person author plus datePublished and
+    dateModified
   - keyword density strictly 1%-2% (outside that band is a fail either
     way), keyword present in title, meta description, first 100 words,
     at least one H2/H3, and never in two consecutive sentences. Focus
@@ -223,6 +226,34 @@ def check_banned_phrases(plain_text, errors):
             errors.append(f'"{phrase}" used {n} times, allowed once per article')
 
 
+def check_byline(text, errors):
+    m = re.search(r'<p class="byline[^"]*">(.*?)</p>', text, flags=re.S | re.I)
+    if not m:
+        errors.append('no byline found (<p class="byline">)')
+    else:
+        if 'href="/about/charlie/"' not in m.group(1):
+            errors.append("byline does not link to /about/charlie/")
+        if not re.search(r'Published\s*<time datetime="\d{4}-\d{2}-\d{2}"', m.group(1)):
+            errors.append('byline has no "Published <time datetime=...>" date')
+    article = None
+    for block in re.findall(r'<script type="application/ld\+json">(.*?)</script>', text, flags=re.S | re.I):
+        try:
+            data = json.loads(block)
+        except ValueError:
+            continue
+        if isinstance(data, dict) and data.get("@type") == "Article":
+            article = data
+    if article is None:
+        errors.append("no Article JSON-LD found")
+        return
+    author = article.get("author") or {}
+    if author.get("@type") != "Person" or not author.get("name"):
+        errors.append("Article JSON-LD author is not a Person with a name")
+    for key in ("datePublished", "dateModified"):
+        if not article.get(key):
+            errors.append(f"Article JSON-LD missing {key}")
+
+
 def check_template_placeholders(text, errors):
     leftover = sorted(set(re.findall(r"\{\{[A-Z0-9_.|-]+\}\}", text)))
     if leftover:
@@ -347,6 +378,7 @@ def check_file(path):
     check_banned_phrases(plain, errors)
     check_one_sentence_per_line(text, errors)
     check_template_placeholders(text, errors)
+    check_byline(text, errors)
     check_sentence_length(text, errors)
     check_keyword(text, plain, errors, notes)
 

@@ -58,7 +58,7 @@ How to use:
   "headline": "{{H1_TEXT}}",
   "description": "{{META_DESCRIPTION_150_160_CHARS}}",
   "image": "https://1960smusic.net{{SLUG}}{{FEATURED_IMAGE_FILENAME}}",
-  "author": {"@type": "Organization", "name": "1960smusic.net"},
+  "author": {"@type": "Person", "name": "Charlie Gillingham", "url": "https://1960smusic.net/about/charlie/"},
   "publisher": {
     "@type": "Organization",
     "name": "1960smusic.net",
@@ -144,6 +144,8 @@ How to use:
 
     <header class="article-header">
       <h1>{{H1_TEXT_MAX_65_CHARS_STARTS_WITH_FOCUS_KEYWORD}}</h1>
+      <!-- Published = the post's date in data/posts.json. Add the Updated part only after a real content change (and set dateModified to match). Never fake freshness. -->
+      <p class="byline">By <a href="/about/charlie/">Charlie Gillingham</a> <span aria-hidden="true">&middot;</span> Published <time datetime="{{DATE_YYYY-MM-DD}}">{{DATE_MONTH_D_YYYY}}</time></p>
     </header>
 
     <div class="article-body">
