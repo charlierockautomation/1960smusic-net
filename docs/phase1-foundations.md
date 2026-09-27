@@ -21,8 +21,8 @@ Status values: `not started` · `in progress` · `blocked (reason)` · `live`
 | 2 | Homepage: crawlable links to hubs, tools, latest OTD; real share links | live |
 | 3 | URL + response audit (redirects, trailing slash, .html vs extensionless) | live |
 | 4 | 404.html page | live |
-| 5 | Byline, Published/Updated dates, author schema on every article | not started |
-| 6 | Author page /about/charlie/ + About rewrite | blocked (needs Charlie's facts) |
+| 5 | Byline, Published/Updated dates, author schema on every article | live |
+| 6 | Author page /about/charlie/ + About rewrite | live |
 | 7 | Schema audit per page type | not started |
 | 8 | Image alt-text rule in check_article.py + backfill | not started |
 | 9 | Trending clean-up (Dolly Parton retitle + 301, "1960s rock legends") | blocked (Charlie's decision) |
@@ -129,12 +129,21 @@ the 8 hubs, radio. `noindex` meta.
 - JSON-LD: `author` = Person (name "Charlie Gillingham", url
   https://1960smusic.net/about/charlie/), `datePublished`, `dateModified`.
 - check_article.py: fail if byline, published date or author schema missing.
+- Done 2026-09-27: byline + Published <time> on all 83 posts (33 OTD pages
+  also gained an Article JSON-LD block), author = Person on every Article,
+  British Invasion datePublished fixed to its posts.json date,
+  check_article.py `check_byline`, both templates updated. Live, confirmed
+  by Charlie.
 
 ### 6. Author page (blocked)
 Wait for Charlie's facts. Do not write biography details from memory or
 inference. When provided: `/about/charlie/` with Person schema; About page
 names Charlie and links there; keep the existing accuracy policy text.
 One link to ClassicRockArtists.com at most.
+- Done 2026-09-27: facts taken from musicofthe70s.net/about/author/,
+  reworded for this site. /about/charlie/ (ProfilePage + Person), About
+  page names Charlie and links there, added to sitemap. Live, confirmed
+  by Charlie.
 
 ### 7. Schema audit
 Validate the JSON-LD on one page of each type parses and carries:
