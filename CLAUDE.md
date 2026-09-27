@@ -12,8 +12,8 @@ is `main`; every push to `main` deploys automatically at 100% traffic, no
 dashboard promotion needed. Plain HTML/CSS, no framework, no bundler, no JS
 build step.
 
-Phase 0 (data spine + policy pages) is done. `/tools/*` has four live
-client-side tools. `/blog/*` is a live, data-driven content system.
+**Current priority (Sep 27, 2026):** `docs/phase1-foundations.md` before new queue
+rows; On This Day daily minimum continues. Why: `docs/strategy-review-2026-09.md`.
 
 ## Commands
 
@@ -86,11 +86,15 @@ queue, not ad hoc requests.
 6. **Once live and confirmed** (page responds 200 at its live URL), in the
    same session update all four, in order: `docs/content-build.md` (status →
    `live`), `data/posts.json` (new entry — this is what makes it show up on
-   `/blog/` and its category archive, see `blog/shared.js`), `link-map.md`
-   (status → `live`, live URL, inbound/outbound links), then regenerate
-   `sitemap.xml` (`python3 gen/generate_sitemap.py`, after `posts.json` is
-   updated, not before) and commit/push the new `sitemap.xml` alongside the
-   tracker updates. Only then move to the next queue row.
+   `/blog/` and its category archive), `link-map.md` (status → `live`, live
+   URL, inbound/outbound links), then run `python3 gen/build_listings.py`
+   (rebuilds the static `<a class="genre-card">` markup in `blog/index.html`
+   and every `blog/*/index.html` from the updated `posts.json` — this is
+   what makes the new entry crawlable without JS) and regenerate
+   `sitemap.xml` (`python3 gen/generate_sitemap.py`, after both `posts.json`
+   and `build_listings.py` run, not before) and commit/push the new
+   `sitemap.xml` alongside the tracker updates. Only then move to the next
+   queue row.
 
 ## Content Quality & Site-Strengthening Standard
 
@@ -195,4 +199,4 @@ End each session on a closed status report, not an open question.
 
 ---
 Reference docs (loaded only when the task needs them):
-@docs/architecture.md · @docs/content-build.md · @docs/writing-standard.md · @link-map.md
+@docs/phase1-foundations.md · @docs/strategy-review-2026-09.md · @docs/architecture.md · @docs/content-build.md · @docs/writing-standard.md · @link-map.md
