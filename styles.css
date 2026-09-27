@@ -87,6 +87,9 @@ h3{font-size:1.25rem;color:var(--muted);}
 }
 .card h3{margin:0 0 .3em;color:var(--ink);font-family:sans-serif;font-size:1.1rem;}
 .card p{margin:0;color:var(--muted);font-size:.98rem;}
+a.card{display:block;text-decoration:none;color:inherit;transition:border-color .15s;}
+a.card:hover,a.card:focus{border-color:var(--amber);}
+a.card:hover h3,a.card:focus h3{color:var(--red);}
 
 .badge{
   display:inline-block;font-family:sans-serif;font-size:.72rem;letter-spacing:.08em;
