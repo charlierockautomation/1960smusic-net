@@ -19,7 +19,7 @@ Status values: `not started` · `in progress` · `blocked (reason)` · `live`
 |---|---|---|
 | 1 | Static HTML listing pages | live |
 | 2 | Homepage: crawlable links to hubs, tools, latest OTD; real share links | live |
-| 3 | URL + response audit (redirects, trailing slash, .html vs extensionless) | in progress (fixes done locally, awaiting push approval) |
+| 3 | URL + response audit (redirects, trailing slash, .html vs extensionless) | live |
 | 4 | 404.html page | not started |
 | 5 | Byline, Published/Updated dates, author schema on every article | not started |
 | 6 | Author page /about/charlie/ + About rewrite | blocked (needs Charlie's facts) |
@@ -105,9 +105,9 @@ sits on the crawl path:
   on-site links to the no-slash form already.
 - Re-audit after the edit: all 4 extensionless URLs confirmed 200 locally
   (`python3 -m http.server`, canonical + every nav/footer link on each
-  page checked in the rendered HTML) and already 200 on production
-  (pre-existing, unaffected by the local edit). Change is local only,
-  not yet pushed to `main` — needs Charlie's go-ahead to deploy.
+  page checked in the rendered HTML). Pushed to `main` 2026-09-27,
+  confirmed live: all 4 canonical tags now read extensionless and
+  return 200 in production.
 - Charlie is sending Cloudflare 3xx/4xx screenshots; fold them in when
   they arrive.
 
