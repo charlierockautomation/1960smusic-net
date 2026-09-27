@@ -308,6 +308,13 @@ h3{font-size:1.25rem;color:var(--ink-soft);}
 }
 .genre-card.soon{border-color:#C9B78C;}
 .genre-card.soon::before{background:linear-gradient(180deg,var(--dial-green),#33513c);}
+.genre-tile{display:flex;flex-direction:column;gap:6px;}
+.genre-tile .genre-card{flex:1;}
+.genre-listen{
+  align-self:flex-start;font-family:var(--font-mono);font-size:.82rem;
+  color:var(--brass);text-decoration:none;padding-left:6px;
+}
+.genre-listen:hover,.genre-listen:focus-visible{color:var(--tube-glow);text-decoration:underline;}
 
 /* ---------- FAQ ---------- */
 .faq{margin:14px 0 8px;}

@@ -39,6 +39,9 @@ ARCHIVE_FILES = {
 }
 
 BLOG_INDEX_FILE = ROOT / "blog" / "index.html"
+ROOT_INDEX_FILE = ROOT / "index.html"
+LATEST_OTD_COUNT = 1
+LATEST_OTHER_COUNT = 3
 
 _MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
@@ -113,6 +116,15 @@ def main():
         html = inject(html, ":" + post_type, cards)
     BLOG_INDEX_FILE.write_text(html)
     print("%s: updated" % BLOG_INDEX_FILE.relative_to(ROOT))
+
+    latest_otd = by_type["on-this-day"][:LATEST_OTD_COUNT]
+    other_posts = sort_posts([p for p in posts if p["type"] != "on-this-day"], "")
+    latest_other = other_posts[:LATEST_OTHER_COUNT]
+    latest_cards = "".join(post_card_html(p) for p in latest_otd + latest_other)
+    html = ROOT_INDEX_FILE.read_text()
+    html = inject(html, ":latest", latest_cards)
+    ROOT_INDEX_FILE.write_text(html)
+    print("%s: updated" % ROOT_INDEX_FILE.relative_to(ROOT))
 
 
 if __name__ == "__main__":
