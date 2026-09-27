@@ -19,7 +19,7 @@ Status values: `not started` · `in progress` · `blocked (reason)` · `live`
 |---|---|---|
 | 1 | Static HTML listing pages | live |
 | 2 | Homepage: crawlable links to hubs, tools, latest OTD; real share links | live |
-| 3 | URL + response audit (redirects, trailing slash, .html vs extensionless) | not started |
+| 3 | URL + response audit (redirects, trailing slash, .html vs extensionless) | in progress (fixes done locally, awaiting push approval) |
 | 4 | 404.html page | not started |
 | 5 | Byline, Published/Updated dates, author schema on every article | not started |
 | 6 | Author page /about/charlie/ + About rewrite | blocked (needs Charlie's facts) |
@@ -63,14 +63,53 @@ Problem: `blog/index.html` and every `blog/*/index.html` ship an empty
 ### 3. URL + response audit
 Cloudflare AI Crawl Control shows 408 unsuccessful AI-crawler requests in
 7 days (Amazonbot 106, Perplexity-User 67, CCBot 47, DuckAssistBot 36).
-- With `curl -sI`, test for every URL in sitemap.xml: the URL as listed,
-  without trailing slash, and for root pages both `/x` and `/x.html`.
-  Record status codes and Location headers in a short table in this file.
-- Flag any 3xx chain, any 307 where a 301 is expected, and any URL whose
-  canonical target itself redirects.
-- Propose fixes (e.g. `_redirects` 301s, internal links matching canonical
-  form) and wait for Charlie's approval before changing routing.
-- Charlie is sending Cloudflare 3xx/4xx screenshots; fold them in.
+
+**Audit run 2026-09-27** (`curl -sI`, all 74 sitemap.xml URLs, 3 variants
+each: as-listed, no-trailing-slash, and `.html`/extensionless for root
+pages). Full raw results:
+`/tmp/claude-1000/-home-natcharresources-1960smusic-net/16c48406-857b-45e9-bc86-96f3fcf0816e/scratchpad/results.tsv`.
+
+- All 74 as-listed sitemap URLs return 200. No 404s, no multi-hop chains.
+- Every directory URL (all `/blog/...` and `/tools/...` entries, ~65 URLs)
+  307s from its no-slash form to the trailing-slash form, which is 200.
+  Single hop, right target, wrong code: should be 301 (permanent, this
+  form never changes) not 307.
+- `about.html`, `contact.html`, `privacy-policy.html`, `terms-of-use.html`
+  each 307 to their extensionless form (`/about`, `/contact`, etc.), which
+  is 200. But each page's own `<link rel="canonical">` still points at
+  the `.html` form (confirmed in source) — so the canonical URL Google is
+  told to trust redirects away from itself. Matches GSC's "Alternate page
+  with proper canonical tag" note in the strategy review, except the
+  canonical target is not actually the form being served.
+- Root cause: `wrangler.toml` `[assets]` sets no `html_handling`, so
+  Cloudflare defaults to `auto-trailing-slash` (redirects both directory
+  and `.html` requests, 307, not configurable to 301 via that setting).
+
+**Decision (Charlie, 2026-09-27):** don't touch `wrangler.toml`/
+`html_handling` and don't add `_redirects`. Instead make the extensionless
+form the one every on-site signal already agrees with, so the 307 never
+sits on the crawl path:
+- Fixed the 4 canonical tags (`about`, `contact`, `privacy-policy`,
+  `terms-of-use`) to the extensionless URL. No `og:url` present on any of
+  the 4, nothing else to change there.
+- Site-wide scan (`grep -rohE 'href="/[a-zA-Z0-9_/-]+\.html"'` across
+  every `.html`/`.js`) found exactly 4 distinct `.html` targets in use
+  (the same 4 pages, 206/206/104/103 occurrences), no other `.html` links
+  anywhere. Rewrote all of them to extensionless via `sed` across the 103
+  files that referenced them.
+- Separately scanned for no-trailing-slash `/blog/...`/`/tools/...` links:
+  none found (every internal link already used the trailing-slash form;
+  the 307s on that front only ever show up when *requesting* the no-slash
+  form directly, never from an on-site link pointing at it).
+- Directory trailing-slash 307s therefore need no further work: nothing
+  on-site links to the no-slash form already.
+- Re-audit after the edit: all 4 extensionless URLs confirmed 200 locally
+  (`python3 -m http.server`, canonical + every nav/footer link on each
+  page checked in the rendered HTML) and already 200 on production
+  (pre-existing, unaffected by the local edit). Change is local only,
+  not yet pushed to `main` — needs Charlie's go-ahead to deploy.
+- Charlie is sending Cloudflare 3xx/4xx screenshots; fold them in when
+  they arrive.
 
 ### 4. 404.html
 wrangler.toml uses `not_found_handling = "404-page"` but no `404.html`
