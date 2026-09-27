@@ -20,7 +20,7 @@ Status values: `not started` · `in progress` · `blocked (reason)` · `live`
 | 1 | Static HTML listing pages | live |
 | 2 | Homepage: crawlable links to hubs, tools, latest OTD; real share links | live |
 | 3 | URL + response audit (redirects, trailing slash, .html vs extensionless) | live |
-| 4 | 404.html page | not started |
+| 4 | 404.html page | live |
 | 5 | Byline, Published/Updated dates, author schema on every article | not started |
 | 6 | Author page /about/charlie/ + About rewrite | blocked (needs Charlie's facts) |
 | 7 | Schema audit per page type | not started |
@@ -115,6 +115,10 @@ sits on the crawl path:
 wrangler.toml uses `not_found_handling = "404-page"` but no `404.html`
 exists. Build one in the site shell: short message, links to home, blog,
 the 8 hubs, radio. `noindex` meta.
+- Done 2026-09-27: `404.html` in the site shell, `noindex`, links to home,
+  blog, radio and all 8 genre hubs (`.genre-card`). Verified locally via
+  `wrangler dev` (missing URLs 404 with the page, all links 200). Pushed to
+  `main`, confirmed live by Charlie.
 
 ### 5. Byline and dates
 - Article template and every live article (all types in posts.json):
