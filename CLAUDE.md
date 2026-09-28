@@ -192,8 +192,12 @@ every task, not only the series where this was first decided.
 
 ## Session Discipline
 
-One task per session. Don't hold a queue open waiting for Charlie's pick
-when the tracker already states order, work the next row and stop. No
+Multiple tasks per session are fine when they can be done cleanly, one at
+a time, each fully closed out (built, checked, approved, pushed, tracker
+updated) before the next one starts. Don't hold a queue open waiting for
+Charlie's pick when the tracker already states order; work the next
+unblocked row and continue until the queue runs out, a task needs
+Charlie's decision, or something isn't going cleanly — then stop. No
 narration flourishes (session timers, recap paragraphs) unless asked.
 End each session on a closed status report, not an open question.
 
