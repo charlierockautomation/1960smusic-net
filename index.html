@@ -30,13 +30,99 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "1960s Music: Genres, Songs and Interactive Tools",
-  "description": "An overview of 1960s music: how the decade's sound is organized into eight core genres, the essential songs and artists, and the free interactive tools on 1960smusic.net.",
-  "author": {"@type": "Organization", "name": "1960smusic.net"},
-  "publisher": {"@type": "Organization", "name": "1960smusic.net"},
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://1960smusic.net/"},
-  "about": "1960s music"
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://1960smusic.net/#website",
+      "url": "https://1960smusic.net/",
+      "name": "1960smusic.net",
+      "description": "An overview of 1960s music: how the decade's sound is organized into eight core genres, the essential songs and artists, and the free interactive tools on 1960smusic.net.",
+      "publisher": {
+        "@id": "https://1960smusic.net/#organization"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://1960smusic.net/#organization",
+      "name": "1960smusic.net",
+      "url": "https://1960smusic.net/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://1960smusic.net/android-chrome-512x512.png"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://1960smusic.net/",
+      "url": "https://1960smusic.net/",
+      "name": "1960s Music: Genres, Songs and Interactive Tools",
+      "description": "An overview of 1960s music: how the decade's sound is organized into eight core genres, the essential songs and artists, and the free interactive tools on 1960smusic.net.",
+      "isPartOf": {
+        "@id": "https://1960smusic.net/#website"
+      },
+      "about": "1960s music",
+      "mainEntity": {
+        "@id": "https://1960smusic.net/#genres"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://1960smusic.net/#genres",
+      "name": "1960s music genres",
+      "numberOfItems": 8,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "British Invasion & Beat Music",
+          "url": "https://1960smusic.net/blog/genres/british-invasion/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Psychedelic Rock",
+          "url": "https://1960smusic.net/blog/genres/psychedelic-rock/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Garage & Surf Rock",
+          "url": "https://1960smusic.net/blog/genres/garage-surf-rock/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Folk Rock",
+          "url": "https://1960smusic.net/blog/genres/folk-rock/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Motown, Soul & R&B",
+          "url": "https://1960smusic.net/blog/genres/motown-soul/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Country (Nashville Sound & Bakersfield)",
+          "url": "https://1960smusic.net/blog/genres/country-60s/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Pop & Brill Building / Bubblegum Pop",
+          "url": "https://1960smusic.net/blog/genres/pop-brill-building/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "Jazz & Easy Listening",
+          "url": "https://1960smusic.net/blog/genres/jazz-easy-listening/"
+        }
+      ]
+    }
+  ]
 }
 </script>
 <script type="application/ld+json">

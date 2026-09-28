@@ -51,6 +51,7 @@ How to use:
 <link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#3D2B1F">
 <link rel="stylesheet" href="/styles.css">
+<!-- FOCUS KEYWORD: {{FOCUS_KEYWORD}} -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,7 +68,7 @@ How to use:
   "datePublished": "{{DATE_YYYY-MM-DD}}",
   "dateModified": "{{DATE_YYYY-MM-DD}}",
   "mainEntityOfPage": {"@type": "WebPage", "@id": "https://1960smusic.net{{SLUG}}"},
-  "about": "{{FOCUS_KEYWORD}}",
+  "about": {"@type": "{{MusicGroup_OR_MusicRecording}}", "@id": "https://1960smusic.net{{SLUG}}#subject", "name": "{{ARTIST_NAME_OR_SONG_TITLE}}"},
   "keywords": "{{COMMA_SEPARATED_KEYWORDS}}"
 }
 </script>
@@ -76,6 +77,7 @@ How to use:
 {
   "@context": "https://schema.org",
   "@type": "MusicGroup",
+  "@id": "https://1960smusic.net{{SLUG}}#subject",
   "name": "{{ARTIST_NAME}}",
   "url": "https://1960smusic.net{{SLUG}}",
   "genre": ["{{GENRE_NAME}}"],
@@ -91,6 +93,7 @@ How to use:
 {
   "@context": "https://schema.org",
   "@type": "MusicRecording",
+  "@id": "https://1960smusic.net{{SLUG}}#subject",
   "name": "{{SONG_TITLE}}",
   "url": "https://1960smusic.net{{SLUG}}",
   "byArtist": {"@type": "MusicGroup", "name": "{{ARTIST_NAME}}"},

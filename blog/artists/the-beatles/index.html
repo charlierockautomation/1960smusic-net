@@ -56,7 +56,7 @@ STATUS: placed, not live. Do not deploy until explicit go-ahead.
     "@type": "WebPage",
     "@id": "https://1960smusic.net/blog/artists/the-beatles/"
   },
-  "about": "The Beatles",
+  "about": {"@type": "MusicGroup", "@id": "https://1960smusic.net/blog/artists/the-beatles/#subject", "name": "The Beatles"},
   "keywords": "The Beatles, Liverpool, John Lennon, Paul McCartney, George Harrison, Ringo Starr, British Invasion, Hamburg, Revolver, Sgt. Pepper"
 }
 </script>
@@ -64,6 +64,7 @@ STATUS: placed, not live. Do not deploy until explicit go-ahead.
 {
   "@context": "https://schema.org",
   "@type": "MusicGroup",
+  "@id": "https://1960smusic.net/blog/artists/the-beatles/#subject",
   "name": "The Beatles",
   "url": "https://1960smusic.net/blog/artists/the-beatles/",
   "genre": ["Rock and roll", "British Invasion", "Merseybeat", "Psychedelic rock"],

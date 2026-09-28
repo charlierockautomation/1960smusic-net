@@ -254,6 +254,30 @@ def check_byline(text, errors):
             errors.append(f"Article JSON-LD missing {key}")
 
 
+SUBJECT_TYPES = {"artist bio": ("MusicGroup", "Person"), "song story": ("MusicRecording",)}
+
+
+def check_schema_subject(text, errors, page_type):
+    """Artist bios and song stories: Article.about must reference the page's
+    MusicGroup/Person or MusicRecording block by @id, not a keyword string."""
+    allowed = SUBJECT_TYPES.get(page_type)
+    if not allowed:
+        return
+    nodes = []
+    for block in re.findall(r'<script type="application/ld\+json">(.*?)</script>', text, flags=re.S | re.I):
+        try:
+            nodes.append(json.loads(block))
+        except ValueError:
+            errors.append("JSON-LD block does not parse")
+    article = next((n for n in nodes if isinstance(n, dict) and n.get("@type") == "Article"), None)
+    about = (article or {}).get("about")
+    if not isinstance(about, dict) or about.get("@type") not in allowed or not about.get("@id"):
+        errors.append("Article JSON-LD about must be {@type: %s, @id: ...}" % " or ".join(allowed))
+        return
+    if not any(isinstance(n, dict) and n.get("@id") == about["@id"] and n.get("@type") in allowed for n in nodes):
+        errors.append("Article JSON-LD about @id matches no %s block on the page" % "/".join(allowed))
+
+
 def check_template_placeholders(text, errors):
     leftover = sorted(set(re.findall(r"\{\{[A-Z0-9_.|-]+\}\}", text)))
     if leftover:
@@ -298,14 +322,16 @@ def check_sentence_length(text, errors):
 
 
 def extract_focus_keyword(text):
-    m = re.search(r'"about"\s*:\s*"([^"]+)"', text)
+    # artist bios, song stories and trending carry it in a comment, since their
+    # JSON-LD "about" is a structured entity; other types still use "about"
+    m = re.search(r"^\s*(?:<!--)?\s*FOCUS KEYWORD:\s*(.+?)\s*(?:-->)?\s*$", text, flags=re.M) or re.search(r'"about"\s*:\s*"([^"]+)"', text)
     return m.group(1).strip() if m else None
 
 
 def check_keyword(text, plain_text, errors, notes):
     kw = extract_focus_keyword(text)
     if not kw:
-        errors.append('no focus keyword found (expected JSON-LD "about" field)')
+        errors.append('no focus keyword found (expected <!-- FOCUS KEYWORD: ... --> or JSON-LD "about")')
         return
 
     wc = word_count(plain_text)
@@ -379,6 +405,7 @@ def check_file(path):
     check_one_sentence_per_line(text, errors)
     check_template_placeholders(text, errors)
     check_byline(text, errors)
+    check_schema_subject(text, errors, page_type)
     check_sentence_length(text, errors)
     check_keyword(text, plain, errors, notes)
 
