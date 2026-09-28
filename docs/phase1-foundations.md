@@ -60,10 +60,9 @@ Charlie's decision (2026-09-28): retitle around her 1960s career, confirmed.
   pages regenerated. Old `/blog/trending/dolly-parton-dead/` directory
   removed. Confirmed the death itself is real (NPR/CNN/Wikipedia, Aug 25
   2026) before touching any of this, since the page makes that claim.
-  Built and served locally (200 on the new page; old path 404s locally
-  only because plain `http.server` doesn't apply `_redirects`, that's a
-  Cloudflare-side rule, will 301 once deployed). Not pushed yet, pending
-  Charlie's review per the two-checkpoint rule.
+  Merged to `main` 2026-09-28 with Charlie's go-ahead. Charlie confirmed
+  both URLs live in production: new page returns 200, old
+  `/blog/trending/dolly-parton-dead/` 301s to it.
 - Still open: the "1960s rock legends" half of this row hasn't been
   looked at yet.
 
