@@ -7,8 +7,9 @@ Day daily minimum (1/day, target 2/day through October) continues in
 parallel on its own track.
 
 Rules that still apply: CLAUDE.md in full (No Hallucination, YouTube Embed
-Rule, no subagents, one task per session, Charlie approves before any push
-to `main`, 195-line file ceiling). Work the first task whose status is
+Rule, no subagents, multiple tasks per session allowed if each is closed
+out cleanly before the next starts, Charlie approves before any push to
+`main`, 195-line file ceiling). Work the first task whose status is
 `not started`. Update its status here in the same session it goes live.
 
 Status values: `not started` · `in progress` · `blocked (reason)` · `live`
