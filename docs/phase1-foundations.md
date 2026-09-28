@@ -23,7 +23,7 @@ Status values: `not started` · `in progress` · `blocked (reason)` · `live`
 | 4 | 404.html page | live |
 | 5 | Byline, Published/Updated dates, author schema on every article | live |
 | 6 | Author page /about/charlie/ + About rewrite | live |
-| 7 | Schema audit per page type | in progress (awaiting push approval) |
+| 7 | Schema audit per page type | live |
 | 8 | Image alt-text rule in check_article.py + backfill | not started |
 | 9 | Trending clean-up (Dolly Parton retitle + 301, "1960s rock legends") | blocked (Charlie's decision) |
 | 10 | IndexNow ping on deploy | blocked (Charlie adds site to Bing first) |
@@ -163,6 +163,7 @@ Fix gaps in the templates first, then backfill live pages.
   MusicRecording block by `#subject` @id; Dolly Parton fixed MusicGroup to
   Person. Focus keyword moved to `<!-- FOCUS KEYWORD: -->`. All 7 tools get
   WebApplication (crossword WebApplication+Game). New check_schema_subject.
+  Live, confirmed by Charlie (home, radio, Waterloo Sunset view-source).
 
 ### 8. Alt text
 check_article.py: every `<img>` needs a descriptive `alt` (not empty, not
