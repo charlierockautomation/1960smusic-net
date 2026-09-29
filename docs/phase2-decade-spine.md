@@ -121,17 +121,46 @@ pipeline is blog-only; added directly to `gen/generate_sitemap.py`'s
 `STATIC_PAGES` instead, and to `link-map.md`.
 
 Charlie's call 2026-09-29: added a "Listen to `<year>` Music" section
-right after the lead (before the image) on every year page, one
-YouTube embed per genre-shift anchor song, so readers can play the
-songs being discussed without leaving the page. YouTube API quota was
-exhausted for the day (another project), so this reuses ids already
-verified in `gen/yt_status_cache.json` from the site's existing
-catalog rather than checking new ones; template instruction 8 now
-says never to call `yt_video_status.py` for a new id on a year page.
-Retrofitted onto `/1960s/1960/` (3 embeds) and `/1960s/1961/` (3
-embeds); both still PASS at 1395 and 1242 words. `docs/year-page-template.html`
-updated so every later year page (tasks 4-11) builds this in from the
-start.
+right after the lead (before the image) on every year page, so readers
+can play the songs being discussed without leaving the page. Took
+three tries to get right; the working version and the reasons the
+first two failed are now the standing spec in
+`docs/year-page-template.html`'s "Playlist player" section. Summary:
+
+1. First attempt stacked 3 full-size static iframes (one per
+   genre-shift anchor song, reusing already-cached ids since the
+   YouTube API quota looked exhausted that day). Charlie rejected it as
+   thin and slow, and asked for one reusable playlist player instead,
+   modeled on musicofthe80s.com's sticky player and a 70s-site table
+   pattern, expanded to 20-30 songs per year with fresh chart-backed
+   sourcing.
+2. Second attempt built that player (`/assets/js/playlist-player*.js`,
+   `/assets/css/playlist-player.css`, ported from
+   musicofthe80s.com's cassette-player.tsx/player-context.tsx) but
+   shipped broken: the tracklist `<tr>` rows used a plain `data-year`
+   attribute, which collided with `site.js`'s site-wide
+   `[data-year]` footer-copyright selector and wiped every row's
+   content to the current year on load.
+3. Third attempt fixed the collision (everything renamed to namespaced
+   `data-pp-*` attributes) and expanded to the real target: all 25
+   songs from Billboard's Year-End Hot 100 top 25 of 1960, 4 ids
+   already cached, 21 more found via `generate.py`'s existing no-API
+   scraper and verified in one batched `videos.list` call (quota was
+   not actually exhausted, 1 call used). Also wrote
+   `gen/test_playlist_player.py` (Playwright) after a second real bug
+   turned up on inspection, not just the reported one: the Play
+   All/Shuffle/search controls had the right CSS classes but were
+   missing the `data-pp-playall`/`data-pp-shuffle`/`data-pp-search`
+   marker attributes `playlist-table.js` actually queries for, so they
+   silently did nothing. The test now catches exactly that class of
+   bug before a page ships.
+
+Live on `/1960s/1960/` 2026-09-29, 1700 words, PASS. `/1960s/1961/`
+still has the old 3-embed version from attempt 1 (`/1960s/1961/` was
+approved and pushed before the redesign request), left as-is on
+Charlie's instruction, not upgraded yet. Tasks 4-11 build the playlist
+player from the start per the template; task 3's rebuild is a
+follow-up, not blocking the queue.
 
 ### 12. Best 60s Songs list page
 `/best-60s-songs/`: 100 songs pulled from `data/songs.json` (extend the

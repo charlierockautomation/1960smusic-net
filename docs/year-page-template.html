@@ -42,21 +42,123 @@ How to use:
   8. "Listen to {{YEAR}} Music" section, right after the lead paragraph,
      before the featured image (Charlie's call 2026-09-29, overrides the
      base article-template.html embed position for this content type
-     only): one YouTube embed per song used as a genre-shift anchor
-     below, so the same songs you're already discussing are playable
-     inline. Only ever use a youtube_id already in data/songs.json with a
-     clean gen/yt_status_cache.json record (embeddable true, made_for_kids
-     false); never call gen/yt_video_status.py for a NEW id on a year
-     page, the dataset's already-verified catalog is enough. If a year's
-     data/songs.json coverage has fewer than 2-3 usable ids, that's fine,
-     just embed what's there rather than forcing a mismatch.
+     only). This is the shared playlist player, not a stack of individual
+     embeds (that was tried for the first 1960 build and thrown out, see
+     "Playlist player" below for the full spec, and
+     docs/phase2-decade-spine.md task 2's notes for how it went wrong the
+     first two times before it worked).
   9. Base writing-standard.md rules still apply in full: zero em dashes,
      one sentence per line, banned words, keyword density 1-2%, FAQ 4-6
      real questions, image alt text rules, internal/external link counts.
+     A 20-30 song tracklist table adds real body word count; trim prose
+     elsewhere if you run over the (1100, 1700) ceiling rather than widen
+     the range, that range is meant to bound prose, not tracklist rows.
   10. Run: python3 gen/check_article.py 1960s/{{YEAR}}/index.html
-     Fix and rerun until PASS. Charlie's go-ahead before pushing to main,
-     same as every other content type.
+     Fix and rerun until PASS.
+  11. Run the self-test (adapt gen/test_playlist_player.py's PORT/URL/
+     video-id constants for the new year) and get it to print PASS before
+     showing Charlie anything. Do not ask Charlie to reload and check for
+     you, that already failed twice on the 1960 build. See "Testing" below.
+  12. Charlie's go-ahead before pushing to main, same as every other
+     content type.
+
+Playlist player ("Listen to {{YEAR}} Music" section)
+  Shared component, already built, do not rewrite it per year:
+    /assets/js/playlist-player.js (engine: lazy YT.Player creation on
+      first play, auto-advance, error-skip throttle, mobile-autoplay-
+      stuck fallback, ported from musicofthe80s.com's cassette-player.tsx
+      + player-context.tsx architecture)
+    /assets/js/playlist-player-ui.js (the sticky bottom bar: prev/play-
+      pause/stop/next/volume/progress/counter)
+    /assets/js/playlist-table.js (wires a static <table data-pp-playlist-id>
+      to the engine: Play All, Shuffle, search, row click, highlight)
+    /assets/css/playlist-player.css (site's own cream/brown tokens)
+  Per year page, you only add markup, right after the lead <p>:
+    - an <h2 id="listen"> + one-sentence intro whose song count comes
+      from a <span data-pp-count data-pp-table="pp-table-{{YEAR}}">N</span>
+      (playlist-table.js overwrites it from the real row count on load,
+      so it can never drift out of sync with a hand-typed number)
+    - a .pp-controls block: Play All button (data-pp-playall), Shuffle
+      button (data-pp-shuffle), search input (data-pp-search), every one
+      of them ALSO carrying data-pp-table="pp-table-{{YEAR}}". Missing
+      that marker attribute is exactly the bug that shipped once already,
+      the buttons render fine and silently do nothing.
+    - a <table id="pp-table-{{YEAR}}" class="pp-table"
+      data-pp-playlist-id="year-{{YEAR}}"> with columns #, Title, Artist,
+      Chart Peak, Genre. Each <tbody> row: <tr data-pp-yt="ID"
+      data-pp-title="..." data-pp-artist="..." data-pp-yr="{{YEAR}}">.
+      NEVER use a bare data-year attribute, site.js does
+      document.querySelectorAll('[data-year]') site-wide for the footer
+      copyright and will silently wipe out any row that has one (this is
+      exactly what broke the first attempt). Every attribute here is
+      namespaced data-pp-* specifically so it can never collide with
+      anything else on the site again.
+    - Genre column links the live hub per the Genre Shifts rule above.
+      In practice only 4 hubs cover any given early-60s year
+      (garage-surf-rock, country-60s, pop-brill-building,
+      jazz-easy-listening for 1960), so a heavy skew toward one bucket
+      (pop-brill-building on the 1960 page) is expected, not a bug.
+    - script tags before </site.js>: playlist-player.js,
+      playlist-player-ui.js, playlist-table.js, in that order.
+    - a second ItemList JSON-LD block (@id #tracklist, distinct from the
+      #no1-hits chart ItemList) with one MusicRecording ListItem per
+      table row, kept in sync with the table.
+
+  Song count and sourcing (20-30 songs per year):
+    - Pull from Billboard's Year-End Hot 100 for {{YEAR}} (top 25-30),
+      not just whichever songs happen to already be in data/songs.json.
+      Cross-check the list against a second source before trusting rank
+      order, the same way the 1960 page's chronological #1 list was
+      cross-verified.
+    - For each song, check gen/yt_status_cache.json first (many will
+      already be there from the existing catalog or other pages' work).
+    - For everything not already cached, find a candidate id WITHOUT the
+      API: `cd gen && python3 -c "import generate as g; print(g.resolve_youtube(title, artist))"`
+      (the same scraper generate.py already uses for the whole site,
+      reads youtube.com/results, no key needed). Spot check a few with
+      oEmbed (curl "https://www.youtube.com/oembed?url=...&format=json")
+      to prefer an official/VEVO/Topic/artist channel and an original
+      recording over a re-record, per CLAUDE.md's YouTube rule, but
+      don't let perfect be the enemy of done, non-official uploads that
+      pass the compliance check are acceptable and already normal
+      elsewhere on this site (see the `yt` flag column in
+      content-build.md).
+    - Verify every new id in ONE batched call:
+      `python3 gen/yt_video_status.py "id1,id2,id3,..."` (needs
+      YOUTUBE_API_KEY in the environment; up to 50 ids per call, 1 quota
+      unit regardless of batch size). Drop and replace any id that comes
+      back not embeddable or made-for-kids.
+    - check_article.py's compliance check already scans for
+      data-pp-yt="..." attributes (not just .../embed/ URLs), so a page
+      built entirely on the dynamic player still gets the same
+      never-ship-an-unverified-id safety net as every other page type.
+
+  Testing (do this before ever telling Charlie a page is ready):
+    No browser is available for casual checking in this environment, so
+    Playwright + chromium is installed for exactly this component
+    (`python3 -m playwright install chromium` if a fresh environment
+    needs it again). gen/test_playlist_player.py is the working example:
+    it starts its own local server, loads the page, and checks the row
+    count and real titles, that a row click actually starts that video
+    (checked by reading PlaylistPlayer.getState() AND confirming a real
+    YouTube network request for that id fired, not by reading
+    iframe.src, since YT.Player replaces its target element with the
+    actual iframe rather than nesting one inside it, so the src on the
+    original id never changes), Next/Prev, Play All landing on row 1
+    with the right "1 / N" counter, Shuffle landing on a valid id,
+    search filtering, and zero console errors. Copy it per year (new
+    PORT, new expected ids/positions) rather than trying to make one
+    script parametric over every year at once. Only show Charlie a page
+    after this prints PASS, with the screenshot path and the test
+    output, not a "please reload and check" ask.
 -->
+<!-- The <head>/<body> HTML below is the pre-playlist-player 1960
+     shell (task 1, 2026-09-29). It still shows the right schema and
+     section order; the Listen section markup itself (a single
+     h3+iframe pair) is what the "Playlist player" instructions above
+     replace, copy the real markup straight from a live year page
+     (view-source on /1960s/1960/) rather than retyping it from this
+     placeholder. -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -86,6 +188,7 @@ How to use:
 <link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#3D2B1F">
 <link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/assets/css/playlist-player.css">
 <!-- FOCUS KEYWORD: {{FOCUS_KEYWORD}} -->
 <script type="application/ld+json">
 {
@@ -118,6 +221,20 @@ How to use:
   "itemListElement": [
     {"@type": "ListItem", "position": 1, "item": {"@type": "MusicRecording", "name": "{{NO1_SONG_1}}", "byArtist": {"@type": "MusicGroup", "name": "{{NO1_ARTIST_1}}"}}},
     {"@type": "ListItem", "position": 2, "item": {"@type": "MusicRecording", "name": "{{NO1_SONG_2}}", "byArtist": {"@type": "MusicGroup", "name": "{{NO1_ARTIST_2}}"}}}
+  ]
+}
+</script>
+<!-- Playlist player tracklist (see "Playlist player" instructions
+     above). Distinct @id from #no1-hits, one MusicRecording ListItem
+     per <tr> in the pp-table, 20-30 entries, not just 2. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "@id": "https://1960smusic.net/1960s/{{YEAR}}/#tracklist",
+  "name": "{{YEAR}} music tracklist, Billboard year-end top 25",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "item": {"@type": "MusicRecording", "name": "{{TRACK_1_TITLE}}", "byArtist": {"@type": "MusicGroup", "name": "{{TRACK_1_ARTIST}}"}}}
   ]
 }
 </script>
@@ -299,6 +416,9 @@ How to use:
   </div>
 </footer>
 
+<script src="/assets/js/playlist-player.js"></script>
+<script src="/assets/js/playlist-player-ui.js"></script>
+<script src="/assets/js/playlist-table.js"></script>
 <script src="/site.js" defer></script>
 </body>
 </html>
