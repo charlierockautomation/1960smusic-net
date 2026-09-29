@@ -37,15 +37,23 @@ How to use:
      those pages are live (tasks 12/13). Until then, omit those two links
      entirely rather than link a 404, they are not orphan risks since
      they're just not linkable yet.
-  7. Word count: no locked range yet (see phase2-decade-spine.md task 1
-     note). Write to the section list below, natural length, then check
-     actual word count on the first real page (task 2, 1960) and add a
-     "year page" entry to WORD_COUNT_RANGES in gen/check_article.py sized
-     off that, so every later year page is held to the same range.
-  8. Base writing-standard.md rules still apply in full: zero em dashes,
+  7. Word count: gen/check_article.py's "year page" type is (1100, 1700),
+     sized off the 1960 page (task 2). Keep every year page in that range.
+  8. "Listen to {{YEAR}} Music" section, right after the lead paragraph,
+     before the featured image (Charlie's call 2026-09-29, overrides the
+     base article-template.html embed position for this content type
+     only): one YouTube embed per song used as a genre-shift anchor
+     below, so the same songs you're already discussing are playable
+     inline. Only ever use a youtube_id already in data/songs.json with a
+     clean gen/yt_status_cache.json record (embeddable true, made_for_kids
+     false); never call gen/yt_video_status.py for a NEW id on a year
+     page, the dataset's already-verified catalog is enough. If a year's
+     data/songs.json coverage has fewer than 2-3 usable ids, that's fine,
+     just embed what's there rather than forcing a mismatch.
+  9. Base writing-standard.md rules still apply in full: zero em dashes,
      one sentence per line, banned words, keyword density 1-2%, FAQ 4-6
      real questions, image alt text rules, internal/external link counts.
-  9. Run: python3 gen/check_article.py 1960s/{{YEAR}}/index.html
+  10. Run: python3 gen/check_article.py 1960s/{{YEAR}}/index.html
      Fix and rerun until PASS. Charlie's go-ahead before pushing to main,
      same as every other content type.
 -->
@@ -168,6 +176,16 @@ How to use:
       <p class="lead">{{OPENING_SENTENCE_YEAR_PLUS_DEFINING_FACT_PLUS_NUMBER}}<br>
       {{SECOND_LEAD_SENTENCE}}</p>
 
+      <!-- One embed per genre-shift anchor song (see instruction 8 above).
+           Copy this h3+div pair per song, only ids already verified in
+           gen/yt_status_cache.json. -->
+      <h2 id="listen">Listen to {{YEAR}} Music</h2>
+      <p>{{LISTEN_INTRO_SENTENCE}}</p>
+      <h3>{{SONG_1_TITLE}}, {{SONG_1_ARTIST}}</h3>
+      <div class="youtube-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;margin:1rem 0 2rem;">
+        <iframe src="https://www.youtube.com/embed/{{SONG_1_YOUTUBE_ID}}" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="{{SONG_1_ARTIST}} - {{SONG_1_TITLE}}"></iframe>
+      </div>
+
       <figure class="featured-image">
         <img src="{{FEATURED_IMAGE_FILENAME}}" alt="{{IMAGE_ALT_TEXT}}" width="{{IMAGE_WIDTH}}" height="{{IMAGE_HEIGHT}}">
         <figcaption>{{IMAGE_CAPTION}}. Photo: {{PHOTOGRAPHER_OR_SOURCE}}. {{LICENSE}}, via <a href="{{COMMONS_FILE_PAGE_URL}}" target="_blank" rel="noopener">Wikimedia Commons</a>.</figcaption>
@@ -175,6 +193,7 @@ How to use:
 
       <h2 id="table-of-contents">Table of Contents</h2>
       <ul>
+        <li><a href="#listen">Listen to {{YEAR}} Music</a></li>
         <li><a href="#no1-hits">US #1 Hits of {{YEAR}}</a></li>
         <li><a href="#key-albums">Key Albums Released in {{YEAR}}</a></li>
         <li><a href="#notable-events">Notable Events in {{YEAR}}</a></li>

@@ -120,6 +120,19 @@ debut album). Not a `posts.json`/`build_listings.py` entry, that
 pipeline is blog-only; added directly to `gen/generate_sitemap.py`'s
 `STATIC_PAGES` instead, and to `link-map.md`.
 
+Charlie's call 2026-09-29: added a "Listen to `<year>` Music" section
+right after the lead (before the image) on every year page, one
+YouTube embed per genre-shift anchor song, so readers can play the
+songs being discussed without leaving the page. YouTube API quota was
+exhausted for the day (another project), so this reuses ids already
+verified in `gen/yt_status_cache.json` from the site's existing
+catalog rather than checking new ones; template instruction 8 now
+says never to call `yt_video_status.py` for a new id on a year page.
+Retrofitted onto `/1960s/1960/` (3 embeds) and `/1960s/1961/` (3
+embeds); both still PASS at 1395 and 1242 words. `docs/year-page-template.html`
+updated so every later year page (tasks 4-11) builds this in from the
+start.
+
 ### 12. Best 60s Songs list page
 `/best-60s-songs/`: 100 songs pulled from `data/songs.json` (extend the
 dataset first if it doesn't yet cover 100), each with year, genre,
