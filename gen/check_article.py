@@ -12,7 +12,9 @@ Full rules: docs/writing-standard.md. Checks enforced here (2026-08-16):
   - at least one YouTube embed on song and artist pages
   - every embedded YouTube id has an on-record embeddable=true,
     made_for_kids=false status in gen/yt_status_cache.json
-  - at least one TikTok embed on trending pages
+  - at least one TikTok embed on trending pages, unless the page carries a
+    `<!-- TIKTOK-EXEMPT: ... -->` comment documenting why no verifiable
+    TikTok source exists for that story
   - word count within range for the page type:
       artist bio: 800-1200, song story: 600-900, genre hub: 1200-1800,
       trending: 400-700
@@ -226,8 +228,11 @@ def check_youtube_compliance(text, errors):
 def check_tiktok(text, errors, page_type):
     if page_type != "trending":
         return
-    if "tiktok.com/embed.js" not in text:
-        errors.append("no TikTok embed found (required on trending pages)")
+    if "tiktok.com/embed.js" in text:
+        return
+    if re.search(r"<!--\s*TIKTOK-EXEMPT:", text):
+        return
+    errors.append("no TikTok embed found (required on trending pages)")
 
 
 def check_word_count(wc, errors, page_type):

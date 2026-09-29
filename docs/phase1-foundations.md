@@ -26,7 +26,7 @@ Status values: `not started` · `in progress` · `blocked (reason)` · `live`
 | 6 | Author page /about/charlie/ + About rewrite | live |
 | 7 | Schema audit per page type | live |
 | 8 | Image alt-text rule in check_article.py + backfill | live |
-| 9 | Trending clean-up (Dolly Parton retitle + 301, "1960s rock legends") | in progress |
+| 9 | Trending clean-up (Dolly Parton retitle + 301, "1960s rock legends") | live |
 | 10 | IndexNow ping on deploy | blocked (Charlie adds site to Bing first) |
 
 ## Task detail
@@ -65,8 +65,17 @@ Charlie's decision (2026-09-28): retitle around her 1960s career, confirmed.
   Merged to `main` 2026-09-28 with Charlie's go-ahead. Charlie confirmed
   both URLs live in production: new page returns 200, old
   `/blog/trending/dolly-parton-dead/` 301s to it.
-- Still open: the "1960s rock legends" half of this row hasn't been
-  looked at yet.
+- Done: the "1960s rock legends" page shipped with 2 YouTube embeds
+  instead of the mandatory TikTok embed (no TikTok source existed for
+  this story, Charlie's call). It was failing `check_article.py`'s
+  TikTok check ever since. Charlie's decision (2026-09-29): formalize a
+  documented exception rather than a one-off waiver. Added a
+  `TIKTOK-EXEMPT` rule to `docs/writing-standard.md` (search for a
+  TikTok source first, every time; only fall back when genuinely none
+  exists) and taught `check_article.py` to skip the TikTok check when a
+  `<!-- TIKTOK-EXEMPT: reason -->` comment is present. Marked this page
+  with that comment. Re-ran `check_article.py` on all 4 live trending
+  pages: all PASS.
 
 ### 10. IndexNow (blocked)
 After Charlie imports the site into Bing Webmaster Tools: generate an

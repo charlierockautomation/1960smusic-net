@@ -117,6 +117,13 @@ the `trending` type).
   `data-video-id`, plus `<script async src="https://www.tiktok.com/embed.js">`.
   Confirm the embed actually renders (screenshot a local preview,
   don't assume from the markup alone) before calling the page done.
+- Exception: if the news peg genuinely has no TikTok source (verified by
+  search, not assumed), use YouTube embed(s) for the "why it's trending
+  now" module instead, and mark the page
+  `<!-- TIKTOK-EXEMPT: <one-line reason> -->` near the top of the file so
+  `gen/check_article.py` doesn't fail it on the missing-TikTok check.
+  This is a real exception, not a shortcut: search for a TikTok source
+  first, every time, and only fall back to it when none exists.
 - If the source clip is tagged as containing AI-generated media (a
   stylized image, not archival footage), say so briefly and
   factually in the trending module. State it as fact, not as a
