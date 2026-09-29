@@ -25,7 +25,7 @@ Status values: `not started` · `in progress` · `blocked (reason)` · `live`
 | 5 | Byline, Published/Updated dates, author schema on every article | live |
 | 6 | Author page /about/charlie/ + About rewrite | live |
 | 7 | Schema audit per page type | live |
-| 8 | Image alt-text rule in check_article.py + backfill | not started |
+| 8 | Image alt-text rule in check_article.py + backfill | live |
 | 9 | Trending clean-up (Dolly Parton retitle + 301, "1960s rock legends") | in progress |
 | 10 | IndexNow ping on deploy | blocked (Charlie adds site to Bing first) |
 
@@ -36,8 +36,10 @@ Tasks 1-7 are all `live`; their write-ups moved to
 keep this file under the line ceiling.
 
 ### 8. Alt text
-check_article.py: every `<img>` needs a descriptive `alt` (not empty, not
-the filename, not identical to the caption). Backfill live pages.
+Done: `check_article.py` now fails per-image (not just "at least one alt
+present") when an `<img>`'s alt is empty, matches its filename, or is
+identical to its figcaption. Ran against every live artist/song/genre/
+trending page: zero gaps found, so no backfill edits were needed.
 
 ### 9. Trending clean-up
 Charlie's decision (2026-09-28): retitle around her 1960s career, confirmed.

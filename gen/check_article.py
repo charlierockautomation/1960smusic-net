@@ -7,7 +7,8 @@ Full rules: docs/writing-standard.md. Checks enforced here (2026-08-16):
   - zero em dashes (—) or en dashes used as em-dash substitutes (–)
   - at least 4 FAQ questions (no length requirement on answers)
   - table of contents present when body word count > 600
-  - at least one <img> with non-empty alt text
+  - every <img> has descriptive alt text: non-empty, not the filename, not
+    identical to its figcaption
   - at least one YouTube embed on song and artist pages
   - every embedded YouTube id has an on-record embeddable=true,
     made_for_kids=false status in gen/yt_status_cache.json
@@ -160,18 +161,40 @@ def check_toc(text, errors, wc):
         errors.append(f"body is {wc} words (>600) but no Table of Contents found")
 
 
+def _filename_words(src):
+    base = os.path.splitext(os.path.basename(src))[0]
+    return re.sub(r"[-_]+", " ", base).strip().lower()
+
+
 def check_images(text, errors):
     imgs = re.findall(r"<img\b[^>]*>", text, flags=re.I)
-    ok = False
-    for tag in imgs:
-        m = re.search(r'alt="([^"]*)"', tag, flags=re.I)
-        if m and m.group(1).strip():
-            ok = True
-            break
     if not imgs:
         errors.append("no <img> tag found")
-    elif not ok:
-        errors.append("no <img> with non-empty alt text found")
+        return
+
+    captioned = {}
+    for fig_m in re.finditer(r"<figure\b[^>]*>(.*?)</figure>", text, flags=re.S | re.I):
+        fig = fig_m.group(1)
+        img_m = re.search(r"<img\b[^>]*>", fig, flags=re.I)
+        cap_m = re.search(r"<figcaption>(.*?)</figcaption>", fig, flags=re.S | re.I)
+        if img_m and cap_m:
+            captioned[img_m.group(0)] = strip_tags(cap_m.group(1)).strip()
+
+    for tag in imgs:
+        m = re.search(r'alt="([^"]*)"', tag, flags=re.I)
+        alt = m.group(1).strip() if m else ""
+        src_m = re.search(r'src="([^"]*)"', tag, flags=re.I)
+        src = src_m.group(1) if src_m else ""
+        short = tag[:70]
+        if not alt:
+            errors.append(f"<img> missing/empty alt text: {short}")
+            continue
+        if alt.lower() == _filename_words(src):
+            errors.append(f"<img> alt text is just the filename: {short}")
+            continue
+        caption = captioned.get(tag)
+        if caption and alt.lower() == caption.lower():
+            errors.append(f"<img> alt text is identical to its caption: {short}")
 
 
 def check_youtube(text, errors, page_type):
