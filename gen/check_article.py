@@ -67,8 +67,10 @@ WORD_COUNT_RANGES = {
     "song story": (600, 900),
     "genre hub": (1200, 1800),
     "trending": (400, 700),
-    # "year page": range not set yet, see docs/phase2-decade-spine.md task 1.
-    # Size it off the first real /1960s/<year>/ page (task 2) then add it.
+    # Sized off the 1960 page (task 2, 1349 words): chart table, key albums,
+    # OTD-linked events, genre shifts and a radio CTA push it well past a
+    # song story but the content list doesn't need genre-hub-length prose.
+    "year page": (1100, 1700),
 }
 
 EM_DASH = "—"

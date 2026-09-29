@@ -33,7 +33,7 @@ restored, and note the result here either way.
 | # | Task | Status |
 |---|---|---|
 | 1 | Year page template + schema design | live |
-| 2 | Year page: 1960 | not started |
+| 2 | Year page: 1960 | live |
 | 3 | Year page: 1961 | not started |
 | 4 | Year page: 1962 | not started |
 | 5 | Year page: 1963 | not started |
@@ -105,6 +105,20 @@ Build one at a time, in year order, using the task-1 template. Each is
 its own row so a partial build never blocks the next; check_article.py
 gate + Charlie's go-ahead before push, same as every other content
 type.
+
+Done: `/1960s/1960/` live 2026-09-29, 1349 words, check_article.py PASS
+(this run set the "year page" word-count range to 1100-1700). All 19
+Billboard Hot 100 number ones of 1960 verified against two independent
+sources, one discrepancy resolved (Are You Lonesome Tonight, 6 weeks
+total, Nov 28 1960 to Jan 9 1961). Featured image is a real 1964
+Wikimedia Commons photo of Chubby Checker (public domain, correctly
+dated in the caption, not claimed as a 1960 photo). Links up to 3 live
+genre hubs (garage-surf-rock, country-60s, pop-brill-building) via
+songs already in the dataset, and to the one live OTD page for 1960
+with a direct music tie (`/blog/on-this-day/october-1/`, Joan Baez's
+debut album). Not a `posts.json`/`build_listings.py` entry, that
+pipeline is blog-only; added directly to `gen/generate_sitemap.py`'s
+`STATIC_PAGES` instead, and to `link-map.md`.
 
 ### 12. Best 60s Songs list page
 `/best-60s-songs/`: 100 songs pulled from `data/songs.json` (extend the
