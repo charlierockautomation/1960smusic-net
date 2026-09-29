@@ -93,8 +93,10 @@ queue, not ad hoc requests.
    what makes the new entry crawlable without JS) and regenerate
    `sitemap.xml` (`python3 gen/generate_sitemap.py`, after both `posts.json`
    and `build_listings.py` run, not before) and commit/push the new
-   `sitemap.xml` alongside the tracker updates. Only then move to the next
-   queue row.
+   `sitemap.xml` alongside the tracker updates, then ping IndexNow
+   (`python3 gen/indexnow_ping.py <new-page-url>`, see `gen/indexnow_ping.py`)
+   for the page(s) that just went live. Only then move to the next queue
+   row.
 
 ## Content Quality & Site-Strengthening Standard
 

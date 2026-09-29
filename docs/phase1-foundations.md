@@ -27,7 +27,7 @@ Status values: `not started` · `in progress` · `blocked (reason)` · `live`
 | 7 | Schema audit per page type | live |
 | 8 | Image alt-text rule in check_article.py + backfill | live |
 | 9 | Trending clean-up (Dolly Parton retitle + 301, "1960s rock legends") | live |
-| 10 | IndexNow ping on deploy | blocked (Charlie adds site to Bing first) |
+| 10 | IndexNow ping on deploy | live |
 
 ## Task detail
 
@@ -77,9 +77,16 @@ Charlie's decision (2026-09-28): retitle around her 1960s career, confirmed.
   with that comment. Re-ran `check_article.py` on all 4 live trending
   pages: all PASS.
 
-### 10. IndexNow (blocked)
-After Charlie imports the site into Bing Webmaster Tools: generate an
-IndexNow key file at the root and ping changed URLs after each deploy.
+### 10. IndexNow
+Done: key file `2fa326ab1a737bf065e8eea8dd3c1fb4.txt` live at the site
+root (served as a static asset, no `.assetsignore` entry needed). New
+`gen/indexnow_ping.py` submits given URLs (or the whole sitemap via
+`--sitemap`) to the shared IndexNow endpoint, which fans out to every
+participating engine (currently Bing; Google doesn't support IndexNow).
+Wired into CLAUDE.md's content pipeline step 6: ping the new page's URL
+right after pushing it live. Endpoint reachability confirmed
+(`api.indexnow.org` responds); first real submission still pending
+Charlie's go-ahead before contacting the live API.
 
 ## Charlie's own Phase 1 tasks (dashboard work, not Claude Code)
 - Bing Webmaster Tools: import from GSC. Done 2026-09-29, unblocks task 10.
