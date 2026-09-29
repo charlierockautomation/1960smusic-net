@@ -67,6 +67,8 @@ WORD_COUNT_RANGES = {
     "song story": (600, 900),
     "genre hub": (1200, 1800),
     "trending": (400, 700),
+    # "year page": range not set yet, see docs/phase2-decade-spine.md task 1.
+    # Size it off the first real /1960s/<year>/ page (task 2) then add it.
 }
 
 EM_DASH = "—"
@@ -89,6 +91,8 @@ def detect_type(text, path):
         return "genre hub"
     if "/blog/trending/" in norm:
         return "trending"
+    if "/1960s/" in norm:
+        return "year page"
     return None
 
 

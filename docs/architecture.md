@@ -104,6 +104,12 @@ changed), and `rd:track-started` (a track began playing).
   calls `selectStation(genreId, song)` (extended to accept an optional
   starting song) which tunes to that station if needed and plays it;
   normal auto-advance resumes afterward.
+- `radio-year.js` — optional `?year=<1960-1969>` filter for
+  `/tools/radio/?year=<year>` links (Phase 2 year pages). On
+  `rd:dial-rendered`, narrows each enabled genre's cached song list down
+  to that year in place, so every other file's Play/Skip/Select logic
+  stays within-year with no changes of its own. A genre with zero songs
+  for that year is left unfiltered rather than made unplayable.
 - `onPlayerError`'s consecutive-failure threshold is 5 (auto-skip on each
   embeddability failure, stop with a status-line message after 5 in a row).
 

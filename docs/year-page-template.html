@@ -1,0 +1,285 @@
+<!--
+YEAR PAGE TEMPLATE — shell for /1960s/{{YEAR}}/ pages (Phase 2 decade
+spine, docs/phase2-decade-spine.md task 1). All 10 year pages (1960-1969)
+share this exact structure so the series reads as one system, the way
+docs/article-template.html does for artist-bio/song-story/genre-hub.
+
+How to use:
+  1. Copy this file to 1960s/{{YEAR}}/index.html (new top-level directory,
+     same pattern as /about/index.html). Replace every {{PLACEHOLDER}}.
+     check_article.py FAILs on any leftover "{{".
+  2. Research first, per docs/writing-standard.md "Content completeness":
+     top 3 ranking pages for "{{YEAR}} music" / "top songs of {{YEAR}}"
+     before writing. US #1s come from Billboard Hot 100 year-end/weekly
+     No. 1 lists (Billboard.com or Official Charts for UK), never guessed.
+     Key albums and genre-shift facts: data/artists.json + verified
+     web search. Never invent a chart position, peak week count, or
+     release date, matching CLAUDE.md's No Hallucination rule.
+  3. Notable Events section: query every file in data/on-this-day/*.json
+     for a "years" entry with "year": {{YEAR}}, and link to that date's
+     live page (/blog/on-this-day/{{date_slug}}/) for each match. Only
+     link dates that are actually live (cross-check docs/on-this-day-build.md
+     or link-map.md, don't assume a data file means the page shipped).
+  4. Genre Shifts section: link to whichever live hub(s) overlap this
+     year, per data/genres.json years_active ranges (checked 2026-09-29):
+       british-invasion 1963-1967 · psychedelic-rock 1965-1969 ·
+       garage-surf-rock 1960-1967 · folk-rock 1964-1969 ·
+       motown-soul 1961-1969 · country-60s 1960-1969 ·
+       pop-brill-building 1960-1969 · jazz-easy-listening 1960-1969
+     Cross-reference CLAUDE.md's Genre Hub Linking eligible-hub list too,
+     since years_active alone doesn't confirm a hub is live yet.
+  5. "Play {{YEAR}}" radio link: /tools/radio/?year={{YEAR}}. Filtering
+     is live (tools/radio/radio-year.js, shipped with this template):
+     each enabled station's pool narrows to that year in place; a genre
+     with zero songs for the year is left unfiltered rather than made
+     unplayable, so the dial always plays something.
+  6. Up-links to /best-60s-songs/ and /blog/genres/60s-rock/ only once
+     those pages are live (tasks 12/13). Until then, omit those two links
+     entirely rather than link a 404, they are not orphan risks since
+     they're just not linkable yet.
+  7. Word count: no locked range yet (see phase2-decade-spine.md task 1
+     note). Write to the section list below, natural length, then check
+     actual word count on the first real page (task 2, 1960) and add a
+     "year page" entry to WORD_COUNT_RANGES in gen/check_article.py sized
+     off that, so every later year page is held to the same range.
+  8. Base writing-standard.md rules still apply in full: zero em dashes,
+     one sentence per line, banned words, keyword density 1-2%, FAQ 4-6
+     real questions, image alt text rules, internal/external link counts.
+  9. Run: python3 gen/check_article.py 1960s/{{YEAR}}/index.html
+     Fix and rerun until PASS. Charlie's go-ahead before pushing to main,
+     same as every other content type.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RTM6T90PRM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RTM6T90PRM');
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{TITLE_TAG}} | 1960smusic.net</title>
+<meta name="description" content="{{META_DESCRIPTION_150_160_CHARS}}">
+<link rel="canonical" href="https://1960smusic.net/1960s/{{YEAR}}/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{{H1_TEXT}}">
+<meta property="og:description" content="{{META_DESCRIPTION_150_160_CHARS}}">
+<meta property="og:url" content="https://1960smusic.net/1960s/{{YEAR}}/">
+<meta property="og:image" content="https://1960smusic.net/1960s/{{YEAR}}/{{FEATURED_IMAGE_FILENAME}}">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#3D2B1F">
+<link rel="stylesheet" href="/styles.css">
+<!-- FOCUS KEYWORD: {{FOCUS_KEYWORD}} -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{H1_TEXT}}",
+  "description": "{{META_DESCRIPTION_150_160_CHARS}}",
+  "image": "https://1960smusic.net/1960s/{{YEAR}}/{{FEATURED_IMAGE_FILENAME}}",
+  "author": {"@type": "Person", "name": "Charlie Gillingham", "url": "https://1960smusic.net/about/charlie/"},
+  "publisher": {
+    "@type": "Organization",
+    "name": "1960smusic.net",
+    "logo": {"@type": "ImageObject", "url": "https://1960smusic.net/android-chrome-512x512.png"}
+  },
+  "datePublished": "{{DATE_YYYY-MM-DD}}",
+  "dateModified": "{{DATE_YYYY-MM-DD}}",
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://1960smusic.net/1960s/{{YEAR}}/"},
+  "about": {"@type": "Thing", "@id": "https://1960smusic.net/1960s/{{YEAR}}/#subject", "name": "Music in {{YEAR}}"},
+  "keywords": "{{COMMA_SEPARATED_KEYWORDS}}"
+}
+</script>
+<!-- ItemList of the year's US #1 hits, in chronological chart order. One
+     ListItem per row of the #1 Hits table below; keep them in sync. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "@id": "https://1960smusic.net/1960s/{{YEAR}}/#no1-hits",
+  "name": "US Billboard Hot 100 No. 1 hits of {{YEAR}}",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "item": {"@type": "MusicRecording", "name": "{{NO1_SONG_1}}", "byArtist": {"@type": "MusicGroup", "name": "{{NO1_ARTIST_1}}"}}},
+    {"@type": "ListItem", "position": 2, "item": {"@type": "MusicRecording", "name": "{{NO1_SONG_2}}", "byArtist": {"@type": "MusicGroup", "name": "{{NO1_ARTIST_2}}"}}}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://1960smusic.net/"},
+    {"@type": "ListItem", "position": 2, "name": "{{YEAR}}", "item": "https://1960smusic.net/1960s/{{YEAR}}/"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "{{FAQ_Q1}}", "acceptedAnswer": {"@type": "Answer", "text": "{{FAQ_A1}}"}},
+    {"@type": "Question", "name": "{{FAQ_Q2}}", "acceptedAnswer": {"@type": "Answer", "text": "{{FAQ_A2}}"}},
+    {"@type": "Question", "name": "{{FAQ_Q3}}", "acceptedAnswer": {"@type": "Answer", "text": "{{FAQ_A3}}"}},
+    {"@type": "Question", "name": "{{FAQ_Q4}}", "acceptedAnswer": {"@type": "Answer", "text": "{{FAQ_A4}}"}}
+  ]
+}
+</script>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/">1960s<span>music</span>.net</a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav" type="button"><span class="bars" aria-hidden="true"></span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary">
+      <a href="/">Home</a>
+      <a href="/tools/radio/">Listen Now</a>
+      <a href="/blog/">Blog</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <article class="wrap article">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="/">Home</a> &rsaquo; <span aria-current="page">{{YEAR}}</span>
+    </nav>
+
+    <header class="article-header">
+      <h1>{{H1_TEXT_MAX_65_CHARS_STARTS_WITH_FOCUS_KEYWORD}}</h1>
+      <p class="byline">By <a href="/about/charlie/">Charlie Gillingham</a> <span aria-hidden="true">&middot;</span> Published <time datetime="{{DATE_YYYY-MM-DD}}">{{DATE_MONTH_D_YYYY}}</time></p>
+    </header>
+
+    <div class="article-body">
+      <!-- Answer-first: {{YEAR}} + one defining fact + one number, inside
+           the first 60 words (GEO rule 1, strategy-review-2026-09.md). -->
+      <p class="lead">{{OPENING_SENTENCE_YEAR_PLUS_DEFINING_FACT_PLUS_NUMBER}}<br>
+      {{SECOND_LEAD_SENTENCE}}</p>
+
+      <figure class="featured-image">
+        <img src="{{FEATURED_IMAGE_FILENAME}}" alt="{{IMAGE_ALT_TEXT}}" width="{{IMAGE_WIDTH}}" height="{{IMAGE_HEIGHT}}">
+        <figcaption>{{IMAGE_CAPTION}}. Photo: {{PHOTOGRAPHER_OR_SOURCE}}. {{LICENSE}}, via <a href="{{COMMONS_FILE_PAGE_URL}}" target="_blank" rel="noopener">Wikimedia Commons</a>.</figcaption>
+      </figure>
+
+      <h2 id="table-of-contents">Table of Contents</h2>
+      <ul>
+        <li><a href="#no1-hits">US #1 Hits of {{YEAR}}</a></li>
+        <li><a href="#key-albums">Key Albums Released in {{YEAR}}</a></li>
+        <li><a href="#notable-events">Notable Events in {{YEAR}}</a></li>
+        <li><a href="#genre-shifts">Genre Shifts in {{YEAR}}</a></li>
+        <li><a href="#play-on-radio">Play {{YEAR}} on the Radio Dial</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <hr>
+
+      <h2 id="no1-hits">US #1 Hits of {{YEAR}}</h2>
+      <p>{{NO1_HITS_INTRO_PARAGRAPH}}</p>
+      <table>
+        <thead>
+          <tr><th>Title</th><th>Artist</th><th>Chart</th><th>Peak Date</th><th>Weeks at #1</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>{{NO1_SONG_1}}</td><td>{{NO1_ARTIST_1}}</td><td>Billboard Hot 100</td><td>{{NO1_PEAK_DATE_1}}</td><td>{{NO1_WEEKS_1}}</td></tr>
+          <tr><td>{{NO1_SONG_2}}</td><td>{{NO1_ARTIST_2}}</td><td>Billboard Hot 100</td><td>{{NO1_PEAK_DATE_2}}</td><td>{{NO1_WEEKS_2}}</td></tr>
+        </tbody>
+      </table>
+      <h3>{{NO1_HITS_SUBHEAD}}</h3>
+      <p>{{NO1_HITS_SUBHEAD_PARAGRAPH}}</p>
+
+      <hr>
+
+      <h2 id="key-albums">Key Albums Released in {{YEAR}}</h2>
+      <p>{{KEY_ALBUMS_INTRO_PARAGRAPH}}</p>
+      <ul>
+        <li>{{KEY_ALBUM_1_TITLE}} &mdash; {{KEY_ALBUM_1_ARTIST}}, {{KEY_ALBUM_1_LABEL}}</li>
+        <li>{{KEY_ALBUM_2_TITLE}} &mdash; {{KEY_ALBUM_2_ARTIST}}, {{KEY_ALBUM_2_LABEL}}</li>
+        <li>{{KEY_ALBUM_3_TITLE}} &mdash; {{KEY_ALBUM_3_ARTIST}}, {{KEY_ALBUM_3_LABEL}}</li>
+      </ul>
+
+      <hr>
+
+      <h2 id="notable-events">Notable Events in {{YEAR}}</h2>
+      <!-- One paragraph or list item per matching live On This Day page for
+           this year, linked. Query data/on-this-day/*.json "years[].year"
+           against link-map.md's live OTD rows before linking any of them. -->
+      <p>{{NOTABLE_EVENTS_INTRO_PARAGRAPH}}</p>
+      <ul>
+        <li>{{EVENT_1_SUMMARY}} <a href="/blog/on-this-day/{{EVENT_1_DATE_SLUG}}/">{{EVENT_1_DATE_LABEL}}</a></li>
+        <li>{{EVENT_2_SUMMARY}} <a href="/blog/on-this-day/{{EVENT_2_DATE_SLUG}}/">{{EVENT_2_DATE_LABEL}}</a></li>
+      </ul>
+
+      <hr>
+
+      <h2 id="genre-shifts">Genre Shifts in {{YEAR}}</h2>
+      <!-- Link only to genre hubs both live (CLAUDE.md eligible-hub list)
+           and whose years_active overlaps {{YEAR}} per data/genres.json. -->
+      <p>{{GENRE_SHIFTS_PARAGRAPH}}</p>
+      <h3>{{GENRE_SHIFTS_SUBHEAD}}</h3>
+      <p>{{GENRE_SHIFTS_SUBHEAD_PARAGRAPH}}</p>
+
+      <hr>
+
+      <h2 id="play-on-radio">Play {{YEAR}} on the Radio Dial</h2>
+      <p>{{RADIO_CTA_PARAGRAPH}} <a href="/tools/radio/?year={{YEAR}}">Play {{YEAR}} on the Radio Dial</a>.</p>
+
+      <hr>
+
+      <h2 id="faq">FAQ</h2>
+
+      <details open>
+        <summary>{{FAQ_Q1}}</summary>
+        <div class="answer"><p>{{FAQ_A1_AS_HOUSE_STYLE_SENTENCES}}</p></div>
+      </details>
+      <details>
+        <summary>{{FAQ_Q2}}</summary>
+        <div class="answer"><p>{{FAQ_A2_AS_HOUSE_STYLE_SENTENCES}}</p></div>
+      </details>
+      <details>
+        <summary>{{FAQ_Q3}}</summary>
+        <div class="answer"><p>{{FAQ_A3_AS_HOUSE_STYLE_SENTENCES}}</p></div>
+      </details>
+      <details>
+        <summary>{{FAQ_Q4}}</summary>
+        <div class="answer"><p>{{FAQ_A4_AS_HOUSE_STYLE_SENTENCES}}</p></div>
+      </details>
+
+      <hr>
+
+      <!-- Up-links: homepage always; /best-60s-songs/ and
+           /blog/genres/60s-rock/ only once tasks 12/13 are live (drop
+           these two lines entirely until then, don't link a 404). -->
+      <p>{{CLOSING_PARAGRAPH_CONTAINING_FOCUS_KEYWORD_IN_LAST_SENTENCE}}<br>
+      {{INTERNAL_LINKS_ACROSS_2_TO_4_ADJACENT_YEARS_OR_GENRE_HUBS}}<br>
+      Back to the <a href="/">1960smusic.net homepage</a> to explore every year and genre of the decade.</p>
+    </div>
+  </article>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>&copy; <span data-year>2025</span> 1960smusic.net</div>
+    <nav aria-label="Footer">
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy-policy">Privacy Policy</a>
+      <a href="/terms-of-use">Terms of Use</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="/site.js" defer></script>
+</body>
+</html>

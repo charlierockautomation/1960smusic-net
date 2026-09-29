@@ -32,7 +32,7 @@ restored, and note the result here either way.
 
 | # | Task | Status |
 |---|---|---|
-| 1 | Year page template + schema design | not started |
+| 1 | Year page template + schema design | live |
 | 2 | Year page: 1960 | not started |
 | 3 | Year page: 1961 | not started |
 | 4 | Year page: 1962 | not started |
@@ -75,6 +75,30 @@ year, so all 10 stay structurally identical (matches how
 - Facts only from `data/songs.json`/`data/artists.json` plus verified
   web search (Billboard/Official Charts year-end lists), same
   no-hallucination bar as every other page type.
+
+Done: shell built at `docs/year-page-template.html`, same
+placeholder/comment convention as `article-template.html`. Sections in
+fixed order: lead, image, TOC, US #1 Hits table, Key Albums, Notable
+Events, Genre Shifts, Play-on-radio CTA, FAQ, closing links. Schema:
+Article (author Person, datePublished/dateModified) + ItemList (#1
+hits) + BreadcrumbList (2-level, Home > Year, no mid-tier hub exists
+yet) + FAQPage. `gen/check_article.py` now detects `/1960s/` paths as
+type `year page`; no word-count range added yet, sizing deferred to
+the first real page (task 2) per the note above.
+Checked `radio-app.js` 2026-09-29: it only read a `?station=` query
+param, no year filtering. Built the filter same session
+(`tools/radio/radio-year.js`, wired into `tools/radio/index.html`):
+on `?year=<1960-1969>` it narrows each enabled station's song pool to
+that year in place (overwrites `radio-app.js`'s shared `cache`, so
+Play/Skip/Select all stay within-year for free), using the `year`
+field already present on every `data/radio-eligible-*.json` entry. A
+genre with zero songs for that year is left unfiltered rather than
+made unplayable (verified against real data: e.g. 1963 has matches in
+7 of 8 genres, psychedelic-rock correctly has none since that hub
+doesn't start until 1965). Logic and data shape verified via a Node
+script; full browser playback not spot-checked this session.
+Up-links to `/best-60s-songs/` and `/blog/genres/60s-rock/` are noted
+in the template as omit-until-live (tasks 12/13), not linked yet.
 
 ### 2-11. Year pages 1960-1969
 Build one at a time, in year order, using the task-1 template. Each is
