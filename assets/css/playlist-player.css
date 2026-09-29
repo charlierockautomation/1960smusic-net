@@ -1,0 +1,87 @@
+/* 1960smusic.net -- shared playlist player (year pages and later
+   /best-60s-songs/, genre hubs, tools). Uses the site's own cream/brown
+   design tokens from /styles.css, not a separate look. */
+
+.pp-controls{ display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin:0 0 14px; }
+.pp-playall,.pp-shuffle{
+  font-family:sans-serif; font-weight:700; font-size:.85rem; cursor:pointer;
+  border:none; border-radius:8px; padding:10px 18px; min-height:44px; box-sizing:border-box;
+}
+.pp-playall{ background:var(--amber); color:#2a160b; }
+.pp-playall:hover{ background:#ff8f57; }
+.pp-shuffle{ background:var(--brass); color:#2a160b; }
+.pp-shuffle:hover{ background:#cfa06a; }
+.pp-search{
+  flex:1; min-width:160px; font:inherit; font-size:.9rem; padding:10px 12px;
+  border:1px solid var(--line); border-radius:8px; background:var(--card);
+  color:var(--ink); min-height:44px; box-sizing:border-box;
+}
+
+.pp-table{ width:100%; border-collapse:collapse; font-size:.9rem; }
+.pp-table th{
+  text-align:left; font-family:sans-serif; font-size:.72rem; text-transform:uppercase;
+  letter-spacing:.03em; color:var(--muted); border-bottom:2px solid var(--line); padding:8px 10px;
+}
+.pp-table td{ padding:8px 10px; border-bottom:1px solid var(--line); vertical-align:middle; }
+.pp-table tbody tr{ cursor:pointer; }
+.pp-table tbody tr:hover{ background:rgba(184,137,74,.08); }
+.pp-table tr.pp-active{ background:rgba(255,122,61,.14); }
+.pp-table tr.pp-active td{ color:var(--tube-glow); font-weight:700; }
+.pp-table tr.pp-hidden{ display:none; }
+.pp-play-cell{
+  font-family:var(--font-mono); font-size:.85rem; background:none; border:none;
+  color:var(--brass); cursor:pointer; padding:6px; min-width:28px; text-align:left;
+}
+.pp-table tr.pp-active .pp-play-cell::before{ content:"\25B6"; margin-right:4px; }
+
+.pp-bar{
+  position:fixed; left:0; right:0; bottom:0; z-index:60;
+  background:var(--walnut-deep); border-top:3px solid var(--brass);
+  transform:translateY(110%); transition:transform .25s ease;
+  padding-bottom:env(safe-area-inset-bottom);
+}
+.pp-bar.pp-visible{ transform:translateY(0); }
+.pp-bar-inner{
+  max-width:var(--maxw); margin:0 auto; padding:10px 16px;
+  display:flex; align-items:center; gap:14px; flex-wrap:wrap;
+}
+.pp-bar-video{
+  width:320px; aspect-ratio:16/9; min-width:200px; min-height:200px;
+  background:#000; border-radius:6px; overflow:hidden; flex-shrink:0;
+}
+.pp-bar-video #pp-video{ width:100%; height:100%; }
+.pp-bar-info{ flex:1 1 200px; min-width:0; display:flex; flex-direction:column; gap:4px; }
+.pp-bar-title{
+  font-family:var(--font-display); font-weight:700; color:var(--dial-ivory);
+  font-size:.95rem; margin:0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+.pp-bar-artist{
+  font-family:sans-serif; font-size:.8rem; color:var(--brass); margin:0;
+  white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+.pp-bar-progress-track{ height:4px; background:rgba(255,255,255,.15); border-radius:2px; overflow:hidden; margin-top:2px; }
+.pp-bar-progress-fill{ height:100%; background:var(--tube-glow); width:0%; }
+.pp-bar-time{ font-family:var(--font-mono); font-size:.72rem; color:var(--dial-ivory); }
+.pp-bar-counter{ color:var(--brass); margin-left:6px; }
+.pp-bar-transport{ display:flex; align-items:center; gap:6px; flex-shrink:0; }
+.pp-btn{
+  width:38px; height:38px; border-radius:50%; border:none; background:rgba(255,255,255,.08);
+  color:var(--dial-ivory); cursor:pointer; display:flex; align-items:center; justify-content:center;
+  font-size:1rem; flex-shrink:0;
+}
+.pp-btn:hover{ background:rgba(255,255,255,.18); }
+.pp-btn-play{ width:44px; height:44px; background:var(--tube-glow); color:#2a160b; font-size:1.05rem; }
+.pp-btn-play:hover{ background:#ff8f57; }
+.pp-vol{ accent-color:var(--tube-glow); width:80px; min-height:24px; }
+.pp-btn:focus-visible,.pp-vol:focus-visible,.pp-playall:focus-visible,
+.pp-shuffle:focus-visible,.pp-search:focus-visible,.pp-play-cell:focus-visible{
+  outline:2px solid var(--tube-glow); outline-offset:2px;
+}
+
+@media (max-width:640px){
+  .pp-bar-inner{ flex-direction:column; align-items:stretch; padding:8px 10px; gap:8px; }
+  .pp-bar-video{ width:200px; height:200px; margin:0 auto; }
+  .pp-bar-info{ text-align:center; }
+  .pp-bar-transport{ justify-content:center; }
+  .pp-vol{ width:60px; }
+}

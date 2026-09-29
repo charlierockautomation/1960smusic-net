@@ -215,8 +215,12 @@ def check_youtube(text, errors, page_type):
 def check_youtube_compliance(text, errors):
     """Every embedded YouTube id must have an on-record embeddable=true,
     made_for_kids=false result in gen/yt_status_cache.json (see
-    gen/yt_video_status.py) before it can ship."""
+    gen/yt_video_status.py) before it can ship. Covers both a static
+    .../embed/<id> URL and a data-pp-yt="<id>" attribute (the shared
+    playlist-player component in /assets/js/ loads ids that way, never as
+    a static embed URL, since nothing loads until Play is pressed)."""
     ids = set(re.findall(r"youtube(?:-nocookie)?\.com/embed/([A-Za-z0-9_-]{11})", text))
+    ids |= set(re.findall(r'data-pp-yt="([A-Za-z0-9_-]{11})"', text))
     if not ids:
         return
     cache = json.load(open(YT_STATUS_CACHE)) if os.path.exists(YT_STATUS_CACHE) else {}
