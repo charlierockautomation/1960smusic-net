@@ -137,4 +137,6 @@ crawler unsuccessful count in Cloudflare.
 - [ ] Author page facts
 - [ ] Dolly Parton Trending post: retitle to her 1960s career + 301, or leave
 - [ ] Row 62 "I Walk the Line" (1956): reframe or drop
-- [ ] Verify year-page keyword volumes
+- [ ] Verify year-page keyword volumes (attempted 2026-09-29 via
+  DataForSEO MCP, both endpoints returned HTTP 402, no account credits;
+  see `docs/phase2-decade-spine.md` open blocker)

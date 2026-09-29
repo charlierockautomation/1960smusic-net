@@ -12,8 +12,9 @@ is `main`; every push to `main` deploys automatically at 100% traffic, no
 dashboard promotion needed. Plain HTML/CSS, no framework, no bundler, no JS
 build step.
 
-**Current priority (Sep 27, 2026):** `docs/phase1-foundations.md` before new queue
-rows; On This Day daily minimum continues. Why: `docs/strategy-review-2026-09.md`.
+**Current priority (Sep 29, 2026):** Phase 1 closed, all 10 tasks live.
+`docs/phase2-decade-spine.md` before new queue rows; On This Day daily
+minimum continues. Why: `docs/strategy-review-2026-09.md`.
 
 ## Commands
 
@@ -205,4 +206,4 @@ End each session on a closed status report, not an open question.
 
 ---
 Reference docs (loaded only when the task needs them):
-@docs/phase1-foundations.md · @docs/strategy-review-2026-09.md · @docs/architecture.md · @docs/content-build.md · @docs/writing-standard.md · @link-map.md
+@docs/phase2-decade-spine.md · @docs/phase1-foundations.md · @docs/strategy-review-2026-09.md · @docs/architecture.md · @docs/content-build.md · @docs/writing-standard.md · @link-map.md
