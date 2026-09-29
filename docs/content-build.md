@@ -56,6 +56,10 @@ focus-keyword text links compound evenly for SEO and AI answer citations.
 Do not reorder rows already in this active table. New rows append in
 rotation order only.
 
+Row 62 ("I Walk the Line") was dropped, not reframed: Charlie's decision
+2026-09-29. It's a 1956 song and this site is strictly 1960-1969. The
+number is retired, not reused; row 63 onward keeps its existing number.
+
 Each session loads only the rows in this file. The rest of the rotation
 lives, in order, in:
 
@@ -113,7 +117,6 @@ Live rows (1-26) are in [`docs/content-build-archive.md`](content-build-archive.
 | 59 | Come See About Me | /blog/songs/come-see-about-me-supremes/ | song-story | motown-soul | not started | Come See About Me | NkH_dm9NkxQ |  |
 | 60 | Johnny Cash bio | /blog/artists/johnny-cash/ | artist-bio | country-60s | not started | Johnny Cash | 1WaV2x8GXj0 |  |
 | 61 | Ring of Fire | /blog/songs/ring-of-fire-johnny-cash/ | song-story | country-60s | not started | Ring of Fire | 1WaV2x8GXj0 |  |
-| 62 | I Walk the Line | /blog/songs/i-walk-the-line-johnny-cash/ | song-story | country-60s | not started | I Walk the Line | J-6fW66IUY4 |  |
 | 63 | The Monkees bio | /blog/artists/the-monkees/ | artist-bio | pop-brill-building | not started | The Monkees | 5tpxXDILZHs | yt |
 | 64 | I'm a Believer | /blog/songs/im-a-believer-monkees/ | song-story | pop-brill-building | not started | I'm a Believer | 5tpxXDILZHs | yt |
 | 65 | Last Train to Clarksville | /blog/songs/last-train-to-clarksville-monkees/ | song-story | pop-brill-building | not started | Last Train to Clarksville | zSzsyqzQNeQ | yt |

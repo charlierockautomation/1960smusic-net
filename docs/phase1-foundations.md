@@ -82,13 +82,17 @@ After Charlie imports the site into Bing Webmaster Tools: generate an
 IndexNow key file at the root and ping changed URLs after each deploy.
 
 ## Charlie's own Phase 1 tasks (dashboard work, not Claude Code)
-- GA4 internal-traffic filter (steps in the Claude Doc, fix 7)
-- Bing Webmaster Tools: import from GSC
-- GSC: Redirect error → Validate fix; after tasks 1-2 go live, URL
-  Inspection → Request indexing for /blog/ and the 5 category pages
-- Cloudflare: screenshot AI Crawl Control → Metrics 3xx and 4xx views, and
-  Security → Settings → Bot Fight Mode
-- Author page facts; Dolly Parton decision; row 62 decision
+- Bing Webmaster Tools: import from GSC. Done 2026-09-29, unblocks task 10.
+- GA4 internal-traffic filter: not yet done.
+- GSC: Redirect error report shows one stale entry
+  (`/blog/on-this-day/september-1`, no slash, last crawled Aug 21, before
+  task 3's fix shipped). Click Validate Fix on that report. `/blog/songs/`
+  indexing already requested by Charlie.
+- Cloudflare: AI Crawl Control screenshots reviewed 2026-09-29, unsuccessful
+  crawl count down sharply from the 408/7-day baseline in the strategy
+  review. Bot Fight Mode setting still needs a status check/screenshot.
+- Author page facts: done (task 6). Dolly Parton decision: done (task 9).
+  Row 62 decision: done, dropped (see `content-build.md`).
 
 ## Gate 1 (target Oct 11)
 Every listing page and the homepage pass the view-source link test, bylines
