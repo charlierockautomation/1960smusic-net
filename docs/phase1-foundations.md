@@ -84,9 +84,8 @@ root (served as a static asset, no `.assetsignore` entry needed). New
 `--sitemap`) to the shared IndexNow endpoint, which fans out to every
 participating engine (currently Bing; Google doesn't support IndexNow).
 Wired into CLAUDE.md's content pipeline step 6: ping the new page's URL
-right after pushing it live. Endpoint reachability confirmed
-(`api.indexnow.org` responds); first real submission still pending
-Charlie's go-ahead before contacting the live API.
+right after pushing it live. First real submission sent 2026-09-29 for
+`/1960s/1960/` (Phase 2 task 2), HTTP 202 accepted.
 
 ## Charlie's own Phase 1 tasks (dashboard work, not Claude Code)
 - Bing Webmaster Tools: import from GSC. Done 2026-09-29, unblocks task 10.
