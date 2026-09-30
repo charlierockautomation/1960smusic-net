@@ -1,0 +1,181 @@
+{
+  "date_label": "October 5",
+  "date_slug": "october-5",
+  "flagship": {
+    "year": 1962,
+    "category": "release",
+    "headline": "The Beatles release their debut single Love Me Do in Britain",
+    "summary_line_1": "Parlophone released the Beatles' debut single Love Me Do, backed with P.S. I Love You, across Britain, built around John Lennon's blues-harmonica riff and produced by George Martin.",
+    "summary_line_2": "It peaked at No. 17 on the UK Singles Chart that December, a modest start that nonetheless opened the door for Beatlemania and the group's rapid rise the following year.",
+    "youtube_id": "7uQuX1sOYk4",
+    "image": null
+  },
+  "stats": [
+    { "value": 11, "label": "verified events" },
+    { "value": 5, "label": "event categories" },
+    { "value": 11, "label": "watchable clips" }
+  ],
+  "years": [
+    {
+      "year": 1969,
+      "events": [
+        {
+          "id": "ev-monty-python-flying-circus-premiere",
+          "category": "broadcast",
+          "headline": "Monty Python's Flying Circus debuts with the Liberty Bell theme",
+          "summary_line_1": "BBC1 aired the first episode of Monty Python's Flying Circus, opening with John Philip Sousa's 1893 march <a href=\"https://calendar.songfacts.com/october/5/21489\" target=\"_blank\" rel=\"noopener\">The Liberty Bell</a>, a public-domain recording the troupe chose specifically because it carried no royalty cost and no prior association with the show.",
+          "summary_line_2": "The march became the show's permanent theme for its entire run, turning a 19th-century American military march into one of British television's most instantly recognizable pieces of music.",
+          "youtube_id": "pee0_Dt6MB4",
+          "image": null,
+          "internal_link": null,
+          "external_link": { "text": "The Liberty Bell", "url": "https://calendar.songfacts.com/october/5/21489" }
+        }
+      ]
+    },
+    {
+      "year": 1968,
+      "events": [
+        {
+          "id": "ev-beatles-savoy-truffle-vocal-trident",
+          "category": "industry",
+          "headline": "George Harrison cuts his Savoy Truffle vocal at Trident",
+          "summary_line_1": "George Harrison taped his lead vocal for Savoy Truffle at Trident Studios with Paul McCartney adding harmonies, the same session where the <a href=\"/blog/artists/the-beatles/\">Beatles</a> finished mono and stereo mixes of Honey Pie and Martha My Dear.",
+          "summary_line_2": "All three songs landed on the White Album that November, a single long day that quietly closed out several different corners of the sprawling double LP.",
+          "youtube_id": "z9EaBjFvQpc",
+          "image": null,
+          "internal_link": { "text": "Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": null
+        },
+        {
+          "id": "ev-sly-family-stone-fillmore-east",
+          "category": "concert",
+          "headline": "Sly and the Family Stone tape a pair of shows at the Fillmore East",
+          "summary_line_1": "Sly and the Family Stone recorded two nights of shows at Bill Graham's Fillmore East in New York, playing a set built around their then-current hit <a href=\"https://www.slystonemusic.com/music/dance-music/\" target=\"_blank\" rel=\"noopener\">Dance to the Music</a> in front of one of psychedelic soul's most electric crowds.",
+          "summary_line_2": "Never issued at the time, the tapes finally surfaced decades later as the archival album Live at the Fillmore East October 4th & 5th 1968, capturing the integrated, multi-racial band at its raw early peak.",
+          "youtube_id": "Jn2PNlhvy8E",
+          "image": null,
+          "internal_link": null,
+          "external_link": { "text": "Dance to the Music", "url": "https://www.slystonemusic.com/music/dance-music/" }
+        }
+      ]
+    },
+    {
+      "year": 1967,
+      "events": [
+        {
+          "id": "ev-jhe-castles-made-of-sand-olympic",
+          "category": "industry",
+          "headline": "The Jimi Hendrix Experience record Castles Made of Sand",
+          "summary_line_1": "The Jimi Hendrix Experience spent a long session at Olympic Studios in London finishing Castles Made of Sand and tracking more than twenty takes of Bold As Love with engineer Eddie Kramer, both destined for the album Axis: Bold as Love.",
+          "summary_line_2": "The two songs paired Hendrix's most personal lyric writing with some of his most inventive studio guitar work, tracks that still stand among the most beloved deep cuts in his catalog.",
+          "youtube_id": "ksZTYRqr444",
+          "image": null,
+          "internal_link": null,
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1965,
+      "events": [
+        {
+          "id": "ev-pink-panther-soundtrack-gold",
+          "category": "industry",
+          "headline": "Henry Mancini's Pink Panther soundtrack is certified Gold",
+          "summary_line_1": "The <a href=\"https://www.riaa.com/gold-platinum/\" target=\"_blank\" rel=\"noopener\">RIAA</a> certified Henry Mancini's The Pink Panther soundtrack Gold for selling over 500,000 copies, built around his now-iconic, saxophone-led Pink Panther Theme.",
+          "summary_line_2": "The album spent 41 weeks on the Billboard chart and went on to win three Grammy Awards, cementing Mancini's jazzy theme as one of the most recognizable instrumental melodies of the decade.",
+          "youtube_id": "dtnNO5_Ao6U",
+          "image": null,
+          "internal_link": { "text": "jazz and easy listening", "url": "/blog/genres/jazz-easy-listening/" },
+          "external_link": { "text": "RIAA", "url": "https://www.riaa.com/gold-platinum/" }
+        }
+      ]
+    },
+    {
+      "year": 1964,
+      "events": [
+        {
+          "id": "ev-stones-animals-battle-of-giants-wolverhampton",
+          "category": "concert",
+          "headline": "The Rolling Stones and the Animals face off on Radio Luxembourg",
+          "summary_line_1": "The Rolling Stones played two shows at the Gaumont Theatre in Wolverhampton on the same day Radio Luxembourg aired part one of Battle of the Giants, pitting the Stones against Newcastle rivals the Animals, whose <a href=\"/blog/songs/house-of-the-rising-sun-animals/\">House of the Rising Sun</a> had just topped the charts.",
+          "summary_line_2": "The two bands were the era's toughest British R&B exports, and hearing them compared head-to-head on the air captured how crowded and competitive the British Invasion's second wave had become.",
+          "youtube_id": "N4bFqW_eu2I",
+          "image": null,
+          "internal_link": { "text": "House of the Rising Sun", "url": "/blog/songs/house-of-the-rising-sun-animals/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1963,
+      "events": [
+        {
+          "id": "ev-stones-little-richard-watford",
+          "category": "concert",
+          "headline": "Little Richard joins the Rolling Stones' package tour in Watford",
+          "summary_line_1": "The <a href=\"/blog/artists/the-rolling-stones/\">Rolling Stones</a> played two shows at the Gaumont Theatre in Watford as part of their first UK package tour, the night rock and roll pioneer Little Richard joined the bill alongside headliners the Everly Brothers and Bo Diddley.",
+          "summary_line_2": "The Stones were still touring behind their debut single, a cover of Chuck Berry's Come On, and sharing a stage with one of their own idols each night sharpened the raw R&B attack that defined their earliest live shows.",
+          "youtube_id": "-OLkVbDA3OQ",
+          "image": null,
+          "internal_link": { "text": "Rolling Stones", "url": "/blog/artists/the-rolling-stones/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1962,
+      "events": [
+        {
+          "id": "ev-love-me-do-uk-release",
+          "category": "release",
+          "headline": "The Beatles release their debut single Love Me Do in Britain",
+          "summary_line_1": "Parlophone released the <a href=\"/blog/artists/the-beatles/\">Beatles</a>' debut single Love Me Do, backed with P.S. I Love You, across Britain, built around John Lennon's blues-harmonica riff and produced by George Martin.",
+          "summary_line_2": "It peaked at No. 17 on the UK Singles Chart that December, a modest start that nonetheless opened the door for Beatlemania and the group's rapid rise the following year.",
+          "youtube_id": "7uQuX1sOYk4",
+          "image": null,
+          "internal_link": { "text": "Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": null
+        },
+        {
+          "id": "ev-love-me-do-radio-luxembourg-premiere",
+          "category": "broadcast",
+          "headline": "Love Me Do gets its first radio play on Radio Luxembourg",
+          "summary_line_1": "EMI premiered Love Me Do on Radio Luxembourg's Friday Spectacular program, giving the Beatles' debut single its first-ever radio airing to a continental audience.",
+          "summary_line_2": "The band and their families gathered around radios in Liverpool to hear it, a small broadcast that became one of the first times the Beatles' name reached ears outside Britain.",
+          "youtube_id": "7uQuX1sOYk4",
+          "image": null,
+          "internal_link": { "text": "Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": null
+        },
+        {
+          "id": "ev-dr-no-premiere-bond-theme",
+          "category": "culture",
+          "headline": "Dr. No premieres in London, introducing the James Bond Theme",
+          "summary_line_1": "The first James Bond film, Dr. No, held its world premiere at the London Pavilion, unveiling Monty Norman's guitar-driven James Bond Theme, arranged for the screen by John Barry.",
+          "summary_line_2": "The theme's twangy riff became one of cinema's most recognizable musical signatures, a piece of film scoring that has opened every Bond movie since.",
+          "youtube_id": "0mjVJD_DtSc",
+          "image": null,
+          "internal_link": null,
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1961,
+      "events": [
+        {
+          "id": "ev-sedaka-happy-birthday-sweet-sixteen-recording",
+          "category": "industry",
+          "headline": "Neil Sedaka records Happy Birthday Sweet Sixteen",
+          "summary_line_1": "Neil Sedaka cut Happy Birthday Sweet Sixteen at RCA Victor's Studio A in New York, a bouncy piano teen-pop single he wrote with longtime writing partner Howard Greenfield.",
+          "summary_line_2": "Released that November, it climbed to No. 6 on the Billboard Hot 100 and became one of the definitive Brill Building-era hits of Sedaka's early solo career.",
+          "youtube_id": "5hflKnowjfI",
+          "image": null,
+          "internal_link": null,
+          "external_link": null
+        }
+      ]
+    }
+  ]
+}
