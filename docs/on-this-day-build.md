@@ -46,8 +46,13 @@ audit rules) and `docs/on-this-day-template-spec.md` (page structure).
    -> `live`), `data/posts.json` (new entry, type `on-this-day`,
    **including a `seq` field set to this file's queue row number** — see
    note below, this is required, not optional), `link-map.md` (status ->
-   `live`, live URL, inbound/outbound links), and regenerate `sitemap.xml`
-   (`python3 gen/generate_sitemap.py`, after `posts.json` is updated). Only
+   `live`, live URL, inbound/outbound links), then run
+   `python3 gen/build_listings.py` (rebuilds the static archive at
+   `blog/on-this-day/index.html` plus the homepage/blog-index latest-OTD
+   block from the updated `posts.json` — skipping this step left October 6
+   live but invisible on the archive/listing pages), and regenerate
+   `sitemap.xml` (`python3 gen/generate_sitemap.py`, after `posts.json` and
+   `build_listings.py` have both run). Only
    then move to the next `not started` row.
 
 **Why `seq` matters:** the `/blog/on-this-day/` archive and the blog index
