@@ -1,0 +1,277 @@
+{
+    "date_label": "October 7",
+    "date_slug": "october-7",
+    "flagship": {
+        "year": 1969,
+        "category": "release",
+        "headline": "The Jackson 5 release I Want You Back",
+        "summary_line_1": "Motown released the Jackson 5's debut single I Want You Back, written and produced by the in-house team The Corporation, across the United States on October 7, 1969 as Motown M 1157.",
+        "summary_line_2": "Eleven-year-old Michael Jackson's lead vocal carried the song to No. 1 on the Billboard Hot 100 the following January, selling more than six million copies and launching the group as Motown's last great discovery of the decade.",
+        "youtube_id": "79eyuz8z6Cg",
+        "image": null
+    },
+    "stats": [
+        {
+            "value": 13,
+            "label": "verified events"
+        },
+        {
+            "value": 6,
+            "label": "event categories"
+        },
+        {
+            "value": 13,
+            "label": "watchable clips"
+        }
+    ],
+    "years": [
+        {
+            "year": 1969,
+            "events": [
+                {
+                    "id": "ev-jackson5-i-want-you-back-release",
+                    "category": "release",
+                    "headline": "The Jackson 5 release I Want You Back",
+                    "summary_line_1": "Motown released the Jackson 5's debut single I Want You Back, written and produced by the in-house team The Corporation, across the United States on October 7, 1969 as <a href=\"https://www.45cat.com/record/m1157\" target=\"_blank\" rel=\"noopener\">Motown M 1157</a>.",
+                    "summary_line_2": "Eleven-year-old Michael Jackson's lead vocal carried the song to No. 1 on the Billboard Hot 100 the following January, selling more than six million copies and launching the group as <a href=\"/blog/genres/motown-soul/\">Motown</a>'s last great discovery of the decade.",
+                    "youtube_id": "79eyuz8z6Cg",
+                    "image": null,
+                    "internal_link": {
+                        "text": "Motown",
+                        "url": "/blog/genres/motown-soul/"
+                    },
+                    "external_link": {
+                        "text": "Motown M 1157",
+                        "url": "https://www.45cat.com/record/m1157"
+                    }
+                }
+            ]
+        },
+        {
+            "year": 1968,
+            "events": [
+                {
+                    "id": "ev-feliciano-world-series-anthem",
+                    "category": "culture",
+                    "headline": "Jose Feliciano reinvents the national anthem at the World Series",
+                    "summary_line_1": "Blind singer-guitarist Jose Feliciano performed a slow, soulful, folk-guitar rendition of The Star-Spangled Banner before <a href=\"https://sabr.org/gamesproj/game/october-7-1968-jose-feliciano-lights-tigers-fire/\" target=\"_blank\" rel=\"noopener\">Game 5 of the World Series</a> between the Detroit Tigers and St. Louis Cardinals at Tiger Stadium.",
+                    "summary_line_2": "The stylized version sparked an immediate backlash from outraged viewers and radio stations that pulled his records, but it permanently opened the door for every non-traditional anthem performance that followed.",
+                    "youtube_id": "aQkY2UFBUb4",
+                    "image": null,
+                    "internal_link": null,
+                    "external_link": {
+                        "text": "Game 5 of the World Series",
+                        "url": "https://sabr.org/gamesproj/game/october-7-1968-jose-feliciano-lights-tigers-fire/"
+                    }
+                }
+            ]
+        },
+        {
+            "year": 1967,
+            "events": [
+                {
+                    "id": "ev-beatles-reject-shea-stadium-million",
+                    "category": "industry",
+                    "headline": "The Beatles turn down $1 million to reunite at Shea Stadium",
+                    "summary_line_1": "Promoter Sid Bernstein offered the <a href=\"/blog/artists/the-beatles/\">Beatles</a> an unprecedented $1 million to play two shows at New York's Shea Stadium, the venue of their record-breaking 1965 concert, and the band said no.",
+                    "summary_line_2": "Fresh off Sgt. Pepper's Lonely Hearts Club Band and more than a year removed from their last paid gig, the band had no interest in returning to the road, no matter the price.",
+                    "youtube_id": "_7xMfIp-irg",
+                    "image": null,
+                    "internal_link": {
+                        "text": "Beatles",
+                        "url": "/blog/artists/the-beatles/"
+                    },
+                    "external_link": {
+                        "text": "Sid Bernstein offered",
+                        "url": "https://www.the-paulmccartney-project.com/1966/12/the-beatles-are-offered-1-million-to-perform-live-in-1967/"
+                    }
+                }
+            ]
+        },
+        {
+            "year": 1966,
+            "events": [
+                {
+                    "id": "ev-johnny-kidd-dies-car-crash",
+                    "category": "death",
+                    "headline": "Johnny Kidd dies in a car crash at 30",
+                    "summary_line_1": "British rock and roll singer Johnny Kidd, frontman of Johnny Kidd and the Pirates, was killed in a head-on crash on the A58 near Radcliffe, Lancashire, when the car he was riding in collided with another vehicle.",
+                    "summary_line_2": "The eyepatch-wearing singer's pounding 1960 hit <a href=\"https://www.allmusic.com/artist/johnny-kidd-mn0000241458/biography\" target=\"_blank\" rel=\"noopener\">Shakin' All Over</a> had already influenced a generation of British guitarists, from Pete Townshend to Jimmy Page.",
+                    "youtube_id": "NQ8Bqsx5mZ0",
+                    "image": null,
+                    "internal_link": null,
+                    "external_link": {
+                        "text": "Shakin' All Over",
+                        "url": "https://www.allmusic.com/artist/johnny-kidd-mn0000241458/biography"
+                    }
+                },
+                {
+                    "id": "ev-smiley-lewis-dies",
+                    "category": "death",
+                    "headline": "New Orleans R&B pioneer Smiley Lewis dies at 53",
+                    "summary_line_1": "Smiley Lewis, the booming-voiced New Orleans rhythm and blues singer behind I Hear You Knocking and One Night, died of stomach cancer in New Orleans, three days before a benefit concert organized to help pay his medical bills.",
+                    "summary_line_2": "His original recordings shaped the sound <a href=\"https://veritenews.org/2023/10/06/this-week-in-history-new-orleans-musician-smiley-lewis-died/\" target=\"_blank\" rel=\"noopener\">Fats Domino and Elvis Presley</a> later rode to much bigger hits, even as Lewis himself never crossed over to pop stardom.",
+                    "youtube_id": "ZtC1-bOVxqY",
+                    "image": null,
+                    "internal_link": null,
+                    "external_link": {
+                        "text": "Fats Domino and Elvis Presley",
+                        "url": "https://veritenews.org/2023/10/06/this-week-in-history-new-orleans-musician-smiley-lewis-died/"
+                    }
+                },
+                {
+                    "id": "ev-stones-bristol-ike-tina-yardbirds",
+                    "category": "concert",
+                    "headline": "The Rolling Stones headline a bill with Ike & Tina Turner and the Yardbirds in Bristol",
+                    "summary_line_1": "The <a href=\"/blog/artists/the-rolling-stones/\">Rolling Stones</a> played two shows at Colston Hall in Bristol on a package bill with Ike & Tina Turner and the Yardbirds, the same week their new single Have You Seen Your Mother, Baby, Standing in the Shadow? was climbing the UK and US charts.",
+                    "summary_line_2": "It was one of the last true package tours of the British Invasion era, cramming several future Rock and Roll Hall of Famers onto a single stage.",
+                    "youtube_id": "HARY3-RYy90",
+                    "image": null,
+                    "internal_link": {
+                        "text": "Rolling Stones",
+                        "url": "/blog/artists/the-rolling-stones/"
+                    },
+                    "external_link": null
+                }
+            ]
+        },
+        {
+            "year": 1965,
+            "events": [
+                {
+                    "id": "ev-stones-newcastle-city-hall",
+                    "category": "concert",
+                    "headline": "The Rolling Stones play two shows in Newcastle",
+                    "summary_line_1": "The <a href=\"/blog/artists/the-rolling-stones/\">Rolling Stones</a> performed two shows at Newcastle City Hall on their second British tour, freshly riding the worldwide success of (I Can't Get No) Satisfaction with their brand new single, Get Off of My Cloud, just entering the charts.",
+                    "summary_line_2": "Each short set was drowned out almost entirely by screaming fans, the same chaos that was already pushing the band toward abandoning small package tours altogether.",
+                    "youtube_id": "QYgJZ79FmBo",
+                    "image": null,
+                    "internal_link": {
+                        "text": "Rolling Stones",
+                        "url": "/blog/artists/the-rolling-stones/"
+                    },
+                    "external_link": null
+                }
+            ]
+        },
+        {
+            "year": 1964,
+            "events": [
+                {
+                    "id": "ev-beatles-shindig-us-broadcast",
+                    "category": "broadcast",
+                    "headline": "The Beatles' Shindig! special airs across America",
+                    "summary_line_1": "ABC broadcast a British-themed episode of the US music show <a href=\"https://www.beatlesbible.com/1964/10/03/television-shindig/\" target=\"_blank\" rel=\"noopener\">Shindig!</a> built around a Beatles performance of Kansas City, I'm a Loser and Boys, filmed four days earlier at Granville Studio in London.",
+                    "summary_line_2": "Recorded fresh off the Beatles for Sale sessions, I'm a Loser marked John Lennon's first Bob Dylan-influenced songwriting, a preview of where the band's lyrics were about to go.",
+                    "youtube_id": "f70Z3cvrQd0",
+                    "image": null,
+                    "internal_link": {
+                        "text": "Beatles",
+                        "url": "/blog/artists/the-beatles/"
+                    },
+                    "external_link": {
+                        "text": "Shindig!",
+                        "url": "https://www.beatlesbible.com/1964/10/03/television-shindig/"
+                    }
+                }
+            ]
+        },
+        {
+            "year": 1963,
+            "events": [
+                {
+                    "id": "ev-stones-record-i-wanna-be-your-man",
+                    "category": "industry",
+                    "headline": "The Rolling Stones record their Lennon-McCartney breakthrough, I Wanna Be Your Man",
+                    "summary_line_1": "On a rare day off from their UK package tour, the <a href=\"/blog/artists/the-rolling-stones/\">Rolling Stones</a> tracked I Wanna Be Your Man and Stoned at De Lane Lea Studios in London, turning a song John Lennon and Paul McCartney had handed them as a favor into their own single.",
+                    "summary_line_2": "Brian Jones's slide guitar dominated the recording, and the finished single became the <a href=\"https://americansongwriter.com/on-this-day-in-1963-the-rolling-stones-recorded-a-throwaway-beatles-track-that-would-become-their-first-ever-top-20-hit/\" target=\"_blank\" rel=\"noopener\">Stones' first UK Top 20 hit</a>, peaking at No. 12 a month later.",
+                    "youtube_id": "6jm-P2OpfrQ",
+                    "image": null,
+                    "internal_link": {
+                        "text": "Rolling Stones",
+                        "url": "/blog/artists/the-rolling-stones/"
+                    },
+                    "external_link": {
+                        "text": "Stones' first UK Top 20 hit",
+                        "url": "https://americansongwriter.com/on-this-day-in-1963-the-rolling-stones-recorded-a-throwaway-beatles-track-that-would-become-their-first-ever-top-20-hit/"
+                    }
+                },
+                {
+                    "id": "ev-beach-boys-little-deuce-coupe-release",
+                    "category": "release",
+                    "headline": "Capitol Records releases the Beach Boys' hot-rod concept album, Little Deuce Coupe",
+                    "summary_line_1": "Capitol Records issued Little Deuce Coupe, the <a href=\"/blog/artists/the-beach-boys/\">Beach Boys</a>' fourth studio album in barely a year, built entirely around cars and drag racing.",
+                    "summary_line_2": "Rooted in the same garage and surf rock sound the band had already made a signature, the <a href=\"https://www.discogs.com/release/1189709-The-Beach-Boys-Little-Deuce-Coupe\" target=\"_blank\" rel=\"noopener\">album reached No. 4</a> on the Billboard 200 and spent 46 weeks on the chart, one of the first true concept albums in rock.",
+                    "youtube_id": "TH2MXxoQTLY",
+                    "image": null,
+                    "internal_link": {
+                        "text": "Beach Boys",
+                        "url": "/blog/artists/the-beach-boys/"
+                    },
+                    "external_link": {
+                        "text": "album reached No. 4",
+                        "url": "https://www.discogs.com/release/1189709-The-Beach-Boys-Little-Deuce-Coupe"
+                    }
+                },
+                {
+                    "id": "ev-beatles-caird-hall-dundee",
+                    "category": "concert",
+                    "headline": "The Beatles close out their Scottish tour at Caird Hall in Dundee",
+                    "summary_line_1": "The Beatles played two 30-minute sets at <a href=\"https://www.beatlesbible.com/1963/10/07/live-caird-hall-dundee/\" target=\"_blank\" rel=\"noopener\">Caird Hall in Dundee</a>, the third and final night of a short Scottish tour, just weeks before I Want to Hold Your Hand turned Beatlemania into a nationwide phenomenon.",
+                    "summary_line_2": "Their current single, <a href=\"/blog/songs/she-loves-you-beatles/\">She Loves You</a>, anchored both sets and was already sitting at No. 1 across Britain.",
+                    "youtube_id": "nGbWU8S3vzs",
+                    "image": null,
+                    "internal_link": {
+                        "text": "She Loves You",
+                        "url": "/blog/songs/she-loves-you-beatles/"
+                    },
+                    "external_link": {
+                        "text": "Caird Hall in Dundee",
+                        "url": "https://www.beatlesbible.com/1963/10/07/live-caird-hall-dundee/"
+                    }
+                }
+            ]
+        },
+        {
+            "year": 1962,
+            "events": [
+                {
+                    "id": "ev-beatles-cavern-love-me-do-launch",
+                    "category": "concert",
+                    "headline": "The Beatles celebrate their first single with a packed Cavern Club night",
+                    "summary_line_1": "Two days after EMI released the Beatles' debut single, Love Me Do, the band played their <a href=\"https://www.beatlesbible.com/1962/10/07/live-cavern-club-liverpool-245/\" target=\"_blank\" rel=\"noopener\">245th appearance</a> at Liverpool's Cavern Club, sharing the bill with the Swinging Blue Genes, the Red River Jazzmen and Ian and the Zodiacs.",
+                    "summary_line_2": "The single went on to crack the UK Top 20, the first proof that the Cavern's biggest draw could translate into national chart success.",
+                    "youtube_id": "7uQuX1sOYk4",
+                    "image": null,
+                    "internal_link": {
+                        "text": "Beatles",
+                        "url": "/blog/artists/the-beatles/"
+                    },
+                    "external_link": {
+                        "text": "245th appearance",
+                        "url": "https://www.beatlesbible.com/1962/10/07/live-cavern-club-liverpool-245/"
+                    }
+                }
+            ]
+        },
+        {
+            "year": 1960,
+            "events": [
+                {
+                    "id": "ev-elvis-flaming-star-rerecord",
+                    "category": "industry",
+                    "headline": "Elvis Presley re-records Flaming Star after 20th Century Fox changes the title",
+                    "summary_line_1": "Elvis Presley returned to Radio Recorders in Hollywood to re-record the title song for his western film, after the studio changed its name from Black Star to <a href=\"https://en.wikipedia.org/wiki/Flaming_Star_(song)\" target=\"_blank\" rel=\"noopener\">Flaming Star</a> and made his original August take obsolete overnight.",
+                    "summary_line_2": "The rerecorded version later peaked at No. 14 on the Billboard Hot 100, headlining the Elvis by Request EP the following year.",
+                    "youtube_id": "iagQFFUPxAM",
+                    "image": null,
+                    "internal_link": null,
+                    "external_link": {
+                        "text": "Flaming Star",
+                        "url": "https://en.wikipedia.org/wiki/Flaming_Star_(song)"
+                    }
+                }
+            ]
+        }
+    ]
+}
