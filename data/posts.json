@@ -810,6 +810,16 @@
       "date": "2026-09-30",
       "genre": null,
       "seq": 36
+    },
+    {
+      "id": "on-this-day-october-7",
+      "title": "On This Day: October 7 in 1960s Music",
+      "slug": "/blog/on-this-day/october-7/",
+      "type": "on-this-day",
+      "description": "13 verified 1960s music events from October 7: the Jackson 5 release I Want You Back, Jose Feliciano reinvents the national anthem at the 1968 World Series, and the Beatles turn down $1 million to reunite at Shea Stadium.",
+      "date": "2026-09-30",
+      "genre": null,
+      "seq": 37
     }
   ]
 }
