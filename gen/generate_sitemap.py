@@ -38,7 +38,9 @@ STATIC_PAGES = {
     # Phase 2 decade spine year pages (docs/phase2-decade-spine.md tasks
     # 2-11). Not blog posts, so not in posts.json/build_listings.py; add
     # each year here individually as it goes live.
+    "/1960s/": ("weekly", "0.7"),
     "/1960s/1960/": ("monthly", "0.7"),
+    "/1960s/1961/": ("monthly", "0.7"),
 }
 
 

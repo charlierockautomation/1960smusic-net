@@ -34,6 +34,10 @@
     '</div>';
   document.addEventListener('DOMContentLoaded', function(){ document.body.appendChild(bar); attach(); });
 
+  window.addEventListener('resize', function(){
+    if (bar.classList.contains('pp-visible')) document.body.style.paddingBottom = bar.offsetHeight + 'px';
+  });
+
   function attach(){
     document.getElementById('pp-btn-prev').addEventListener('click', function(){ PlaylistPlayer.prev(); });
     document.getElementById('pp-btn-next').addEventListener('click', function(){ PlaylistPlayer.next(); });
@@ -52,6 +56,10 @@
     var has = s.playlist && s.playlist.length > 0;
     bar.classList.toggle('pp-visible', has);
     bar.setAttribute('aria-hidden', has ? 'false' : 'true');
+    // Keeps the bar from covering the last lines of the article/footer,
+    // re-measured on every update since the bar's height changes at the
+    // 640px stacked-layout breakpoint.
+    document.body.style.paddingBottom = has ? bar.offsetHeight + 'px' : '';
     if (!has) return;
     document.getElementById('pp-bar-title').textContent = s.song ? s.song.title : 'No track';
     document.getElementById('pp-bar-artist').textContent = s.song ? (s.song.artist + (s.song.year ? ' (' + s.song.year + ')' : '')) : '';

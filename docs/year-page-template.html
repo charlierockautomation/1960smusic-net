@@ -33,10 +33,14 @@ How to use:
      each enabled station's pool narrows to that year in place; a genre
      with zero songs for the year is left unfiltered rather than made
      unplayable, so the dial always plays something.
-  6. Up-links to /best-60s-songs/ and /blog/genres/60s-rock/ only once
-     those pages are live (tasks 12/13). Until then, omit those two links
-     entirely rather than link a 404, they are not orphan risks since
-     they're just not linkable yet.
+  6. Breadcrumb (nav + BreadcrumbList schema) always routes through the
+     /1960s/ hub (task 16, live): Home > 1960s > {{YEAR}}. Up-links to
+     /best-60s-songs/ and /blog/genres/60s-rock/ only once those pages
+     are live (tasks 12/13). Until then, omit those two links entirely
+     rather than link a 404, they are not orphan risks since they're
+     just not linkable yet. Per the "Tracker discipline" rule in
+     phase2-decade-spine.md, also move this year's card on /1960s/
+     from "Coming Soon" to a live link in the same push.
   7. Word count: gen/check_article.py's "year page" type is (1100, 1700),
      sized off the 1960 page (task 2). Keep every year page in that range.
   8. "Listen to {{YEAR}} Music" section, right after the lead paragraph,
@@ -83,6 +87,15 @@ Playlist player ("Listen to {{YEAR}} Music" section)
       of them ALSO carrying data-pp-table="pp-table-{{YEAR}}". Missing
       that marker attribute is exactly the bug that shipped once already,
       the buttons render fine and silently do nothing.
+    - the table sits inside <div class="table-scroll pp-table-scroll">
+      (not just table-scroll alone). pp-table-scroll is what clamps the
+      list to a fixed-height, sticky-header, own-scrollbar box (~8-10
+      rows visible, 480px desktop / 60vh mobile) so a reader isn't stuck
+      scrolling past 25-30 rows to reach the rest of the article. Right
+      after </table>, inside the same wrapper div, add
+      <div class="pp-table-fade" aria-hidden="true"></div> (the soft
+      fade cue at the box's bottom edge). Both classes are already
+      defined in playlist-player.css, this is markup-only per page.
     - a <table id="pp-table-{{YEAR}}" class="pp-table"
       data-pp-playlist-id="year-{{YEAR}}"> with columns #, Title, Artist,
       Chart Peak, Genre. Each <tbody> row: <tr data-pp-yt="ID"
@@ -244,7 +257,8 @@ Playlist player ("Listen to {{YEAR}} Music" section)
   "@type": "BreadcrumbList",
   "itemListElement": [
     {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://1960smusic.net/"},
-    {"@type": "ListItem", "position": 2, "name": "{{YEAR}}", "item": "https://1960smusic.net/1960s/{{YEAR}}/"}
+    {"@type": "ListItem", "position": 2, "name": "1960s", "item": "https://1960smusic.net/1960s/"},
+    {"@type": "ListItem", "position": 3, "name": "{{YEAR}}", "item": "https://1960smusic.net/1960s/{{YEAR}}/"}
   ]
 }
 </script>
@@ -279,7 +293,7 @@ Playlist player ("Listen to {{YEAR}} Music" section)
 <main>
   <article class="wrap article">
     <nav class="breadcrumb" aria-label="Breadcrumb">
-      <a href="/">Home</a> &rsaquo; <span aria-current="page">{{YEAR}}</span>
+      <a href="/">Home</a> &rsaquo; <a href="/1960s/">1960s</a> &rsaquo; <span aria-current="page">{{YEAR}}</span>
     </nav>
 
     <header class="article-header">

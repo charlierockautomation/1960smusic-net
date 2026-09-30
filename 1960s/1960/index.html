@@ -119,7 +119,8 @@
   "@type": "BreadcrumbList",
   "itemListElement": [
     {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://1960smusic.net/"},
-    {"@type": "ListItem", "position": 2, "name": "1960", "item": "https://1960smusic.net/1960s/1960/"}
+    {"@type": "ListItem", "position": 2, "name": "1960s", "item": "https://1960smusic.net/1960s/"},
+    {"@type": "ListItem", "position": 3, "name": "1960", "item": "https://1960smusic.net/1960s/1960/"}
   ]
 }
 </script>
@@ -155,7 +156,7 @@
 <main>
   <article class="wrap article">
     <nav class="breadcrumb" aria-label="Breadcrumb">
-      <a href="/">Home</a> &rsaquo; <span aria-current="page">1960</span>
+      <a href="/">Home</a> &rsaquo; <a href="/1960s/">1960s</a> &rsaquo; <span aria-current="page">1960</span>
     </nav>
 
     <header class="article-header">
@@ -176,7 +177,7 @@
         <button type="button" class="pp-shuffle" data-pp-shuffle data-pp-table="pp-table-1960">Shuffle</button>
         <input type="search" class="pp-search" data-pp-search data-pp-table="pp-table-1960" placeholder="Search title or artist" aria-label="Search 1960 tracklist">
       </div>
-      <div class="table-scroll">
+      <div class="table-scroll pp-table-scroll">
         <table id="pp-table-1960" class="pp-table" data-pp-playlist-id="year-1960">
           <caption>1960 music tracklist, Billboard year-end top 25</caption>
           <thead>
@@ -310,6 +311,7 @@
             </tr>
           </tbody>
         </table>
+        <div class="pp-table-fade" aria-hidden="true"></div>
       </div>
 
       <figure class="featured-image">

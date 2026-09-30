@@ -34,7 +34,7 @@ restored, and note the result here either way.
 |---|---|---|
 | 1 | Year page template + schema design | live |
 | 2 | Year page: 1960 | live |
-| 3 | Year page: 1961 | not started |
+| 3 | Year page: 1961 | live |
 | 4 | Year page: 1962 | not started |
 | 5 | Year page: 1963 | not started |
 | 6 | Year page: 1964 | not started |
@@ -47,58 +47,18 @@ restored, and note the result here either way.
 | 13 | 60s Rock umbrella hub (/blog/genres/60s-rock/) | not started |
 | 14 | Tool intro copy (7 tools, 200-400 words each, crawlable) | not started |
 | 15 | Homepage rebuild (full pillar copy, not just Phase 1's static links) | not started |
+| 16 | `/1960s/` hub page (year index + genre hub links) | live |
 
 ## Task detail
 
 ### 1. Year page template + schema design
-Design the shared shell for `/1960s/<year>/` before building any single
-year, so all 10 stay structurally identical (matches how
-`article-template.html` works for the other content types):
-- Answer-first intro: year + defining fact + a number, in the first 60
-  words (GEO rule 1 in the strategy review).
-- Sections: US #1 hits that year (table: title, artist, chart, peak,
-  weeks), key albums released, notable events (link out to the
-  matching `/blog/on-this-day/<month>-<day>/` page wherever one
-  exists), genre shifts that year, "Play <year>" radio filter link
-  (`/tools/radio/?year=<year>`, check whether `radio-app.js` supports a
-  year filter yet or whether that needs its own small task first).
-- Schema: Article + ItemList (the year's #1s) + BreadcrumbList, author
-  Person + datePublished/dateModified per the Phase 1 task 5/7 pattern.
-- Internal links: up to the homepage and to `/best-60s-songs/` and
-  `/blog/genres/60s-rock/` once those exist; across to every OTD page
-  already live for that year (query `data/*.json` / OTD tracker for
-  matches) and any genre hub whose era overlaps.
-- Word count / density rules: use the base Structure section of
-  `writing-standard.md` (no type-specific range is defined yet for
-  "year page" in `check_article.py`; add one, sized after seeing how
-  long a real year page runs, then keep every year page in that range).
-- Facts only from `data/songs.json`/`data/artists.json` plus verified
-  web search (Billboard/Official Charts year-end lists), same
-  no-hallucination bar as every other page type.
-
-Done: shell built at `docs/year-page-template.html`, same
-placeholder/comment convention as `article-template.html`. Sections in
-fixed order: lead, image, TOC, US #1 Hits table, Key Albums, Notable
-Events, Genre Shifts, Play-on-radio CTA, FAQ, closing links. Schema:
-Article (author Person, datePublished/dateModified) + ItemList (#1
-hits) + BreadcrumbList (2-level, Home > Year, no mid-tier hub exists
-yet) + FAQPage. `gen/check_article.py` now detects `/1960s/` paths as
-type `year page`; no word-count range added yet, sizing deferred to
-the first real page (task 2) per the note above.
-Checked `radio-app.js` 2026-09-29: it only read a `?station=` query
-param, no year filtering. Built the filter same session
-(`tools/radio/radio-year.js`, wired into `tools/radio/index.html`):
-on `?year=<1960-1969>` it narrows each enabled station's song pool to
-that year in place (overwrites `radio-app.js`'s shared `cache`, so
-Play/Skip/Select all stay within-year for free), using the `year`
-field already present on every `data/radio-eligible-*.json` entry. A
-genre with zero songs for that year is left unfiltered rather than
-made unplayable (verified against real data: e.g. 1963 has matches in
-7 of 8 genres, psychedelic-rock correctly has none since that hub
-doesn't start until 1965). Logic and data shape verified via a Node
-script; full browser playback not spot-checked this session.
-Up-links to `/best-60s-songs/` and `/blog/genres/60s-rock/` are noted
-in the template as omit-until-live (tasks 12/13), not linked yet.
+Done: shell built at `docs/year-page-template.html`. Full spec (sections,
+schema, radio-year filter build) moved to
+[`docs/phase2-decade-spine-archive.md`](phase2-decade-spine-archive.md)
+to keep this file under the line ceiling. One update since archiving:
+the BreadcrumbList was originally 2-level (Home > Year, "no mid-tier
+hub exists yet"); task 16 added that hub, so it's 3-level now (Home >
+1960s > Year) on every year page, template included.
 
 ### 2-11. Year pages 1960-1969
 Build one at a time, in year order, using the task-1 template. Each is
@@ -155,12 +115,22 @@ first two failed are now the standing spec in
    silently did nothing. The test now catches exactly that class of
    bug before a page ships.
 
-Live on `/1960s/1960/` 2026-09-29, 1700 words, PASS. `/1960s/1961/`
-still has the old 3-embed version from attempt 1 (`/1960s/1961/` was
-approved and pushed before the redesign request), left as-is on
-Charlie's instruction, not upgraded yet. Tasks 4-11 build the playlist
-player from the start per the template; task 3's rebuild is a
-follow-up, not blocking the queue.
+Live on `/1960s/1960/` 2026-09-29, 1700 words, PASS. Tasks 4-11 build
+the playlist player from the start per the template.
+
+`/1960s/1961/` rebuilt 2026-09-29 to match: was still the old 3-embed
+version from attempt 1 (shipped before the redesign request). Replaced
+with the full 25-song playlist player, Billboard Year-End Hot 100 top
+25 of 1961 (cross-verified against a second source), all 25 YouTube
+ids resolved via `generate.py`'s no-API scraper and verified embeddable
+plus not made-for-kids in one batched `yt_video_status.py` call. One id
+(Will You Love Me Tomorrow) is hosted by a non-obviously-official
+channel, same acceptable-if-compliant call as the `yt`-flagged rows in
+`content-build.md`. `gen/check_article.py` PASS at 1594 words; Playwright
+self-test (`gen/test_playlist_player_1961.py`, copied per-year per the
+template's testing note) PASS. This rebuild is also what surfaced task
+16 below: the page existed with no working path back to it from the
+homepage or any index.
 
 ### 12. Best 60s Songs list page
 `/best-60s-songs/`: 100 songs pulled from `data/songs.json` (extend the
@@ -185,6 +155,33 @@ Full pillar copy rewrite (Phase 1 task 2 only added static crawlable
 links/tools/latest-blog block, explicitly deferred the copy rewrite to
 here). Scope this once tasks 1-13 are live, since the rebuilt homepage
 should link to the year spine and the new hubs/list page.
+
+### 16. `/1960s/` hub page
+Not in the original task 1-15 scoping; gap found 2026-09-29 while
+rebuilding `/1960s/1961/`: neither live year page was linked from the
+homepage, blog, or any index, and `/1960s/` itself 404'd. Homepage
+links were correctly deferred to task 15, but no task ever covered a
+plain index of the year pages themselves.
+
+Done: static hub at `/1960s/` (year-guide cards for 1960/1961, "Coming
+Soon" cards, no link, for 1962-1969; a second grid linking every live
+genre hub). Not an article type, doesn't run `check_article.py` (same
+as `/blog/genres/` and `/blog/on-this-day/`). Added to
+`gen/generate_sitemap.py` STATIC_PAGES and `link-map.md`. Both `/1960s/1960/`
+and `/1960s/1961/` breadcrumbs (nav + schema) now route through it.
+Added a small static "1960s music, year by year" section to the
+homepage linking to the hub and both live years, ahead of task 15's
+full rebuild, so the pages aren't orphaned until then.
+
+## Tracker discipline for every new year page
+
+Every year page pushed to `main`, task 16 hub included, updates all of
+the following in the same push, not a follow-up session: `sitemap.xml`
+(via `gen/generate_sitemap.py`, after adding the path to
+`STATIC_PAGES`), `link-map.md` (new row, live URL, up/across links),
+and the `/1960s/` hub (its year-guide grid: move the card from "Coming
+Soon" to a live link). This rule exists because task 3 shipped without
+any of the three the first time.
 
 ## Gate 2 (target Nov 8)
 All 10 year pages and the Best 60s Songs list are live and linked from

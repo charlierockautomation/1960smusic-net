@@ -33,17 +33,37 @@
     var songs = readSongs(table);
     var id = table.getAttribute('data-pp-playlist-id') || table.id;
     var rows = Array.prototype.slice.call(table.querySelectorAll('tbody tr[data-pp-yt]'));
+    var scrollBox = table.closest('.pp-table-scroll');
 
     Array.prototype.forEach.call(document.querySelectorAll('[data-pp-count][data-pp-table="' + table.id + '"]'), function(el){
       el.textContent = songs.length;
     });
 
+    // Scrolls the active row into view inside scrollBox only (scrollTop math,
+    // never element.scrollIntoView(), so the page itself never jumps). The
+    // sticky thead always covers the top headH px of the visible box, even
+    // at scrollTop 0, so scrolling up has to land headH short of the row's
+    // raw offsetTop or the row ends up hidden behind the sticky header.
+    function scrollActiveIntoView(tr){
+      if (!scrollBox) return;
+      var thead = table.querySelector('thead');
+      var headH = thead ? thead.offsetHeight : 0;
+      var cTop = scrollBox.scrollTop, cBottom = cTop + scrollBox.clientHeight;
+      var rTop = tr.offsetTop, rBottom = rTop + tr.offsetHeight;
+      if (rTop - headH < cTop) scrollBox.scrollTop = Math.max(0, rTop - headH);
+      else if (rBottom > cBottom) scrollBox.scrollTop = rBottom - scrollBox.clientHeight;
+    }
+
     function highlight(){
       var s = PlaylistPlayer.getState();
       var activeId = PlaylistPlayer.isThisPlaylistActive(id) && s.song ? s.song.youtube_id : null;
+      var activeTr = null;
       rows.forEach(function(tr){
-        tr.classList.toggle('pp-active', !!activeId && tr.getAttribute('data-pp-yt') === activeId);
+        var isActive = !!activeId && tr.getAttribute('data-pp-yt') === activeId;
+        tr.classList.toggle('pp-active', isActive);
+        if (isActive) activeTr = tr;
       });
+      if (activeTr) scrollActiveIntoView(activeTr);
     }
     document.addEventListener('pp:update', highlight);
 
@@ -76,6 +96,7 @@
           var hay = (tr.getAttribute('data-pp-title') + ' ' + tr.getAttribute('data-pp-artist')).toLowerCase();
           tr.classList.toggle('pp-hidden', q.length > 0 && hay.indexOf(q) === -1);
         });
+        if (scrollBox) scrollBox.scrollTop = 0;
       });
     });
   }
