@@ -1,0 +1,138 @@
+{
+  "date_label": "October 4",
+  "date_slug": "october-4",
+  "flagship": {
+    "year": 1969,
+    "category": "chart",
+    "headline": "Abbey Road debuts at No. 1 in the UK",
+    "summary_line_1": "Abbey Road entered the UK Albums Chart at No. 1 on advance sales of 190,000 copies, the eleventh studio album by the Beatles to top the chart.",
+    "summary_line_2": "It held the top spot for eleven straight weeks before briefly dropping to No. 2 when the Rolling Stones' Let It Bleed arrived, then returned to No. 1 that December for six more weeks.",
+    "youtube_id": "oolpPmuK2I8",
+    "image": null
+  },
+  "stats": [
+    { "value": 8, "label": "verified events" },
+    { "value": 4, "label": "event categories" },
+    { "value": 8, "label": "watchable clips" }
+  ],
+  "years": [
+    {
+      "year": 1969,
+      "events": [
+        {
+          "id": "ev-abbey-road-uk-number-one",
+          "category": "chart",
+          "headline": "Abbey Road debuts at No. 1 in the UK",
+          "summary_line_1": "Abbey Road entered the UK Albums Chart at No. 1 on advance sales of 190,000 copies, the eleventh studio album by the <a href=\"/blog/artists/the-beatles/\">Beatles</a> to top the chart.",
+          "summary_line_2": "It held the top spot for eleven straight weeks before briefly dropping to No. 2 when the Rolling Stones' Let It Bleed arrived, then returned to No. 1 that December for six more weeks.",
+          "youtube_id": "oolpPmuK2I8",
+          "image": null,
+          "internal_link": { "text": "Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": null
+        },
+        {
+          "id": "ev-ccr-green-river-billboard-number-one",
+          "category": "chart",
+          "headline": "Creedence Clearwater Revival's Green River tops the Billboard 200",
+          "summary_line_1": "Creedence Clearwater Revival's fourth album, Green River, reached No. 1 on the <a href=\"https://americansongwriter.com/on-this-day-in-1969-creedence-clearwater-revival-scored-its-first-no-1-album-on-the-billboard-200-with-green-river/\" target=\"_blank\" rel=\"noopener\">Billboard 200</a>, the band's first album to top the US chart.",
+          "summary_line_2": "Built around the hit singles Bad Moon Rising and the title track, it held the top spot for four weeks during one of the most productive stretches of the band's career.",
+          "youtube_id": "3WbmBK9BR9U",
+          "image": null,
+          "internal_link": null,
+          "external_link": { "text": "Billboard 200", "url": "https://americansongwriter.com/on-this-day-in-1969-creedence-clearwater-revival-scored-its-first-no-1-album-on-the-billboard-200-with-green-river/" }
+        }
+      ]
+    },
+    {
+      "year": 1968,
+      "events": [
+        {
+          "id": "ev-beatles-martha-my-dear-recording",
+          "category": "industry",
+          "headline": "Paul McCartney records Martha My Dear alone at Trident",
+          "summary_line_1": "Paul McCartney spent the day alone at Trident Studios recording the vocal, piano, and drum parts for Martha My Dear, a tribute to his Old English sheepdog, before a 14-piece brass and string section arrived that evening to record George Martin's arrangement.",
+          "summary_line_2": "McCartney played every instrument himself except the orchestral parts, making it one of the rare White Album tracks from the <a href=\"/blog/artists/the-beatles/\">Beatles</a> that was almost a total solo performance.",
+          "youtube_id": "SQaqoNZ_35o",
+          "image": null,
+          "internal_link": { "text": "Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": null
+        },
+        {
+          "id": "ev-cream-farewell-tour-oakland",
+          "category": "concert",
+          "headline": "Cream launch their farewell tour in Oakland",
+          "summary_line_1": "Cream opened their <a href=\"https://www.udiscovermusic.com/stories/cream-final-tour/\" target=\"_blank\" rel=\"noopener\">farewell US tour</a> with a show in Oakland, California, the start of a run built around live staples like Sunshine of Your Love and White Room.",
+          "summary_line_2": "The trio had already agreed to split at their commercial peak, and the tour built toward their final show at London's Royal Albert Hall that November.",
+          "youtube_id": "f3y8jf01UY8",
+          "image": null,
+          "internal_link": null,
+          "external_link": { "text": "farewell US tour", "url": "https://www.udiscovermusic.com/stories/cream-final-tour/" }
+        }
+      ]
+    },
+    {
+      "year": 1966,
+      "events": [
+        {
+          "id": "ev-who-boris-the-spider-recording",
+          "category": "industry",
+          "headline": "The Who record Boris the Spider at Pye Studios",
+          "summary_line_1": "The <a href=\"/blog/artists/the-who/\">Who</a> recorded bassist John Entwistle's first song for the band, the growling novelty tune Boris the Spider, at Pye Studios in London for their second album, A Quick One.",
+          "summary_line_2": "Entwistle's basso vocal made it an instant favorite, and the song stayed in the Who's live set for the rest of their career even though it was never released as a single.",
+          "youtube_id": "EXT4aM7Py1I",
+          "image": null,
+          "internal_link": { "text": "Who", "url": "/blog/artists/the-who/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1963,
+      "events": [
+        {
+          "id": "ev-beatles-ready-steady-go-debut",
+          "category": "broadcast",
+          "headline": "The Beatles debut on Ready Steady Go!",
+          "summary_line_1": "The Beatles taped their debut appearance on the new ITV pop show Ready Steady Go!, miming Twist and Shout, I'll Get You, and <a href=\"/blog/songs/she-loves-you-beatles/\">She Loves You</a> before a live studio interview with Dusty Springfield and Keith Fordyce.",
+          "summary_line_2": "It was Britain's most-watched youth music program that year, and the appearance pushed Beatlemania further into British living rooms just as She Loves You climbed the charts.",
+          "youtube_id": "nGbWU8S3vzs",
+          "image": null,
+          "internal_link": { "text": "She Loves You", "url": "/blog/songs/she-loves-you-beatles/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1962,
+      "events": [
+        {
+          "id": "ev-tornados-telstar-uk-number-one",
+          "category": "chart",
+          "headline": "The Tornados send Telstar to No. 1 in the UK",
+          "summary_line_1": "Joe Meek's echoing space-age instrumental Telstar, named for the communications satellite launched that July, reached No. 1 on the <a href=\"https://www.officialcharts.com/songs/tornados-telstar/\" target=\"_blank\" rel=\"noopener\">UK Singles Chart</a> for the Tornados.",
+          "summary_line_2": "It held the top spot for five weeks and later became the first single by a British group to top the US Billboard Hot 100, a rare instrumental crossover in an era of vocal-driven hits.",
+          "youtube_id": "BkZupnpcmVg",
+          "image": null,
+          "internal_link": null,
+          "external_link": { "text": "UK Singles Chart", "url": "https://www.officialcharts.com/songs/tornados-telstar/" }
+        }
+      ]
+    },
+    {
+      "year": 1960,
+      "events": [
+        {
+          "id": "ev-beatles-kaiserkeller-first-night",
+          "category": "concert",
+          "headline": "The Beatles open their Kaiserkeller residency in Hamburg",
+          "summary_line_1": "The <a href=\"/blog/artists/the-beatles/\">Beatles</a> wrapped up 48 straight nights at Hamburg's Indra Club and moved next door to the bigger Kaiserkeller, alternating sets with Rory Storm and the Hurricanes for a 56-night run that stretched into late November.",
+          "summary_line_2": "The rowdier Kaiserkeller crowds pushed the band to play louder and longer, the same grinding Hamburg stint that hardened them into the tight live act heard the following year backing Tony Sheridan on My Bonnie.",
+          "youtube_id": "8KNedjsgnwY",
+          "image": null,
+          "internal_link": { "text": "Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": null
+        }
+      ]
+    }
+  ]
+}
