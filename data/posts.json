@@ -800,6 +800,16 @@
       "date": "2026-09-30",
       "genre": null,
       "seq": 35
+    },
+    {
+      "id": "on-this-day-october-6",
+      "title": "On This Day: October 6 in 1960s Music",
+      "slug": "/blog/on-this-day/october-6/",
+      "type": "on-this-day",
+      "description": "11 verified 1960s music events from October 6: the Beatles release Something and Come Together in the US, Jimi Hendrix jams with Stevie Wonder at the BBC, and the Rolling Stones headline Birmingham with Ike & Tina Turner and the Yardbirds.",
+      "date": "2026-09-30",
+      "genre": null,
+      "seq": 36
     }
   ]
 }
