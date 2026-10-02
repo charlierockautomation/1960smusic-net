@@ -1,0 +1,192 @@
+{
+    "date_label": "October 8",
+    "date_slug": "october-8",
+    "flagship": {
+        "year": 1963,
+        "category": "culture",
+        "headline": "Sam Cooke is denied a Shreveport hotel room and arrested",
+        "summary_line_1": "Sam Cooke and his touring party were turned away from the segregated Holiday Inn North in Shreveport, Louisiana despite having a confirmed reservation, and when Cooke and his group protested loudly, police arrested them downtown for disturbing the peace.",
+        "summary_line_2": "The humiliation pushed Cooke to write A Change Is Gonna Come within weeks, turning one furious night in Louisiana into the civil rights movement's most enduring anthem.",
+        "youtube_id": "wEBlaMOmKV4",
+        "image": null
+    },
+    "stats": [
+        { "value": 12, "label": "verified events" },
+        { "value": 4, "label": "event categories" },
+        { "value": 12, "label": "watchable clips" }
+    ],
+    "years": [
+        {
+            "year": 1969,
+            "events": [
+                {
+                    "id": "ev-bowie-opens-humble-pie-tour",
+                    "category": "concert",
+                    "headline": "David Bowie opens a UK tour backing Humble Pie",
+                    "summary_line_1": "David Bowie opened a 10-date UK package tour supporting the newly formed Humble Pie at the <a href=\"https://www.bowiebible.com/1969/10/08/live-coventry-theatre-coventry/\" target=\"_blank\" rel=\"noopener\">Coventry Theatre</a>, playing a solo acoustic set instead of the mime performance he'd originally planned.",
+                    "summary_line_2": "The bill paired him with Humble Pie's Steve Marriott and Peter Frampton, who had attended the same school as Bowie, months before Space Oddity made him a star in his own right.",
+                    "youtube_id": "iYYRH4apXDo",
+                    "image": null,
+                    "internal_link": null,
+                    "external_link": { "text": "Coventry Theatre", "url": "https://www.bowiebible.com/1969/10/08/live-coventry-theatre-coventry/" }
+                }
+            ]
+        },
+        {
+            "year": 1968,
+            "events": [
+                {
+                    "id": "ev-beatles-record-im-so-tired-bungalow-bill",
+                    "category": "industry",
+                    "headline": "The Beatles record I'm So Tired and Bungalow Bill",
+                    "summary_line_1": "During an all-night White Album session at Abbey Road, the <a href=\"/blog/artists/the-beatles/\">Beatles</a> tracked John Lennon's I'm So Tired in 14 takes, cut The Continuing Story of Bungalow Bill in just three attempts, and overdubbed onto George Harrison's Long, Long, Long.",
+                    "summary_line_2": "Written in India about Lennon's feelings for Yoko Ono, I'm So Tired captured the sleepless frustration of the band's Rishikesh stay, while <a href=\"https://www.beatlesbible.com/1968/10/08/recording-long-long-long-im-so-tired-the-continuing-story-of-bungalow-bill/\" target=\"_blank\" rel=\"noopener\">Bungalow Bill's session</a> gave Ono her only lead vocal line on a Beatles record.",
+                    "youtube_id": "7cqHtGb9WYM",
+                    "image": null,
+                    "internal_link": { "text": "Beatles", "url": "/blog/artists/the-beatles/" },
+                    "external_link": { "text": "Bungalow Bill's session", "url": "https://www.beatlesbible.com/1968/10/08/recording-long-long-long-im-so-tired-the-continuing-story-of-bungalow-bill/" }
+                }
+            ]
+        },
+        {
+            "year": 1967,
+            "events": [
+                {
+                    "id": "ev-hendrix-final-saville-theatre-show",
+                    "category": "concert",
+                    "headline": "The Jimi Hendrix Experience play their final Saville Theatre show",
+                    "summary_line_1": "The Jimi Hendrix Experience closed out their fourth and last appearance in Brian Epstein's \"Sundays at the Saville\" series, opening with The Wind Cries Mary alongside support from the Crazy World of Arthur Brown and the Herd.",
+                    "summary_line_2": "Epstein, the Beatles' manager who had personally run the Saville's Sunday rock bills, had died barely seven weeks earlier, and this <a href=\"https://www.setlist.fm/setlist/the-jimi-hendrix-experience/1967/saville-theatre-london-england-3ddcd8b.html\" target=\"_blank\" rel=\"noopener\">show</a> was one of the last nights of the venue's brief run as a showcase for London's psychedelic scene.",
+                    "youtube_id": "a3kYJy7mcsM",
+                    "image": null,
+                    "internal_link": null,
+                    "external_link": { "text": "show", "url": "https://www.setlist.fm/setlist/the-jimi-hendrix-experience/1967/saville-theatre-london-england-3ddcd8b.html" }
+                }
+            ]
+        },
+        {
+            "year": 1966,
+            "events": [
+                {
+                    "id": "ev-stravinsky-premieres-requiem-canticles",
+                    "category": "concert",
+                    "headline": "Igor Stravinsky premieres Requiem Canticles",
+                    "summary_line_1": "Stravinsky's final major composition, conducted by Robert Craft with the Ad Hoc NYC Orchestra and the Gregg Smith Singers, received its world premiere at Princeton University's McCarter Theater, with composer Aaron Copland and physicist J. Robert Oppenheimer in the audience.",
+                    "summary_line_2": "Oppenheimer was so moved by the 15-minute requiem setting that he <a href=\"https://robertgreenbergmusic.com/music-history-monday-igor-stravinsky/\" target=\"_blank\" rel=\"noopener\">asked for it to be played</a> at his own funeral, a request honored four months later, and the piece was performed again at Stravinsky's own funeral in Venice in 1971.",
+                    "youtube_id": "GGGbGbC70jE",
+                    "image": null,
+                    "internal_link": null,
+                    "external_link": { "text": "asked for it to be played", "url": "https://robertgreenbergmusic.com/music-history-monday-igor-stravinsky/" }
+                },
+                {
+                    "id": "ev-ginger-baker-collapses-toad-solo",
+                    "category": "concert",
+                    "headline": "Ginger Baker collapses after a 20-minute Toad solo",
+                    "summary_line_1": "Cream drummer Ginger Baker collapsed onstage at Sussex University moments after finishing an exhausting 20-minute drum solo on Toad, and was rushed to a nearby hospital before recovering.",
+                    "summary_line_2": "Toad, the instrumental showcase from the band's Fresh Cream debut, had already made Baker's extended solo a signature set piece, one of the earliest examples of the rock drum solo as spectacle, a style <a href=\"/blog/genres/psychedelic-rock/\">psychedelic rock</a> bands leaned on for the rest of the decade.",
+                    "youtube_id": "Ky-RD2_b4xs",
+                    "image": null,
+                    "internal_link": { "text": "psychedelic rock", "url": "/blog/genres/psychedelic-rock/" },
+                    "external_link": null
+                }
+            ]
+        },
+        {
+            "year": 1965,
+            "events": [
+                {
+                    "id": "ev-stones-stockton-on-tees",
+                    "category": "concert",
+                    "headline": "The Rolling Stones play two shows in Stockton-on-Tees",
+                    "summary_line_1": "The <a href=\"/blog/artists/the-rolling-stones/\">Rolling Stones</a> performed two shows at the ABC Theatre in Stockton-on-Tees during their <a href=\"https://www.nzentgraf.de/books/tcw/1965.htm\" target=\"_blank\" rel=\"noopener\">second British tour</a>, which ran from late September through mid-October 1965.",
+                    "summary_line_2": "The dates landed as the band's new single, Get Off of My Cloud, climbed toward the top of the charts on both sides of the Atlantic, following the massive success of <a href=\"/blog/songs/i-cant-get-no-satisfaction-rolling-stones/\">(I Can't Get No) Satisfaction</a> just months earlier.",
+                    "youtube_id": "Kt5bUuwqUWA",
+                    "image": null,
+                    "internal_link": { "text": "Rolling Stones", "url": "/blog/artists/the-rolling-stones/" },
+                    "external_link": { "text": "second British tour", "url": "https://www.nzentgraf.de/books/tcw/1965.htm" }
+                }
+            ]
+        },
+        {
+            "year": 1964,
+            "events": [
+                {
+                    "id": "ev-beatles-record-shes-a-woman",
+                    "category": "industry",
+                    "headline": "The Beatles record She's A Woman in a single day",
+                    "summary_line_1": "Paul McCartney, who had written only one verse that morning, finished and tracked <a href=\"https://www.the-paulmccartney-project.com/session/i-feel-fine-shes-a-woman-session-1/\" target=\"_blank\" rel=\"noopener\">She's A Woman</a> with the <a href=\"/blog/artists/the-beatles/\">Beatles</a> at Abbey Road across two sessions, nailing the backing track on take six before adding George Harrison's guitar solo and fresh vocals that evening.",
+                    "summary_line_2": "George Martin paired the bluesy, upbeat B-side with I Feel Fine for the band's Christmas single, giving McCartney's first solo songwriting credit a permanent place in the group's catalog.",
+                    "youtube_id": "lQomFaLyQ5I",
+                    "image": null,
+                    "internal_link": { "text": "Beatles", "url": "/blog/artists/the-beatles/" },
+                    "external_link": { "text": "She's A Woman", "url": "https://www.the-paulmccartney-project.com/session/i-feel-fine-shes-a-woman-session-1/" }
+                },
+                {
+                    "id": "ev-miles-davis-quintet-sindelfingen",
+                    "category": "concert",
+                    "headline": "The Miles Davis Quintet plays two sets in Sindelfingen",
+                    "summary_line_1": "With Wayne Shorter newly in the band, the Miles Davis Quintet played two FM-broadcast sets at the <a href=\"https://www.discogs.com/release/30700939-The-Miles-Davis-Quintet-Stadthalle-Sindelfingen-Germany-October-8-1964\" target=\"_blank\" rel=\"noopener\">Stadthalle in Sindelfingen</a>, West Germany, reworking standards including So What, Oleo and Stella by Starlight.",
+                    "summary_line_2": "The recordings captured the earliest live chemistry of what critics later called Davis's Second Great Quintet, Shorter, Herbie Hancock, Ron Carter and Tony Williams, just months after the lineup came together, part of the same <a href=\"/blog/genres/jazz-easy-listening/\">jazz</a> lineage the decade's biggest instrumentalists were pushing forward.",
+                    "youtube_id": "ylXk1LBvIqU",
+                    "image": null,
+                    "internal_link": { "text": "jazz", "url": "/blog/genres/jazz-easy-listening/" },
+                    "external_link": { "text": "Stadthalle in Sindelfingen", "url": "https://www.discogs.com/release/30700939-The-Miles-Davis-Quintet-Stadthalle-Sindelfingen-Germany-October-8-1964" }
+                },
+                {
+                    "id": "ev-cece-winans-born",
+                    "category": "birth",
+                    "headline": "Gospel icon CeCe Winans is born in Detroit",
+                    "summary_line_1": "Priscilla \"CeCe\" Winans, the first daughter born to David and Dolores Winans after seven sons, was born in <a href=\"https://www.britannica.com/biography/CeCe-Winans\" target=\"_blank\" rel=\"noopener\">Detroit, Michigan</a>.",
+                    "summary_line_2": "She grew up to become the most decorated female artist in gospel history, and though her signature solo hit Alabaster Box wouldn't arrive for nearly four decades, her career carried the Winans family's Detroit gospel roots into the mainstream.",
+                    "youtube_id": "EQgr01QKlFY",
+                    "image": null,
+                    "internal_link": null,
+                    "external_link": { "text": "Detroit, Michigan", "url": "https://www.britannica.com/biography/CeCe-Winans" }
+                }
+            ]
+        },
+        {
+            "year": 1963,
+            "events": [
+                {
+                    "id": "ev-sam-cooke-shreveport-arrest",
+                    "category": "culture",
+                    "headline": "Sam Cooke is denied a Shreveport hotel room and arrested",
+                    "summary_line_1": "Sam Cooke and his touring party were turned away from the segregated Holiday Inn North in Shreveport, Louisiana despite having a confirmed reservation, and when Cooke and his group protested loudly, police arrested them downtown for disturbing the peace.",
+                    "summary_line_2": "The humiliation pushed Cooke to write <a href=\"https://64parishes.org/entry/a-change-is-gonna-come\" target=\"_blank\" rel=\"noopener\">A Change Is Gonna Come</a> within weeks, turning one furious night in Louisiana into the civil rights movement's most enduring anthem.",
+                    "youtube_id": "wEBlaMOmKV4",
+                    "image": null,
+                    "internal_link": null,
+                    "external_link": { "text": "A Change Is Gonna Come", "url": "https://64parishes.org/entry/a-change-is-gonna-come" }
+                },
+                {
+                    "id": "ev-coltrane-afro-blue-live-birdland",
+                    "category": "concert",
+                    "headline": "John Coltrane records Afro Blue live at Birdland",
+                    "summary_line_1": "The John Coltrane Quartet, with McCoy Tyner, Jimmy Garrison and Elvin Jones, taped a club set at New York's Birdland that captured Afro Blue, I Want to Talk About You and The Promise.",
+                    "summary_line_2": "Released the following January as Live at Birdland on Impulse Records, the set became one of the defining documents of Coltrane's quartet at its most explosive, pairing <a href=\"/blog/genres/jazz-easy-listening/\">jazz</a> improvisation with the kind of raw intensity rock audiences were just starting to embrace.",
+                    "youtube_id": "kq2ptW12A6o",
+                    "image": null,
+                    "internal_link": { "text": "jazz", "url": "/blog/genres/jazz-easy-listening/" },
+                    "external_link": null
+                }
+            ]
+        },
+        {
+            "year": 1962,
+            "events": [
+                {
+                    "id": "ev-little-richard-uk-tour-opens-doncaster",
+                    "category": "concert",
+                    "headline": "Little Richard returns to rock and roll on a UK package tour",
+                    "summary_line_1": "Little Richard opened a UK package tour at the Gaumont in Doncaster, sharing a bill that also featured Sam Cooke and Gene Vincent, five years after he had walked away from rock and roll for gospel music.",
+                    "summary_line_2": "The <a href=\"https://www.bradfordtimeline.co.uk/mindex62g.htm\" target=\"_blank\" rel=\"noopener\">tour</a> would include two dates later that month, October 12 in New Brighton and October 28 in Liverpool, where a yet-unsigned <a href=\"/blog/artists/the-beatles/\">Beatles</a> opened and met Richard in person for the first time.",
+                    "youtube_id": "OtSb9arpxow",
+                    "image": null,
+                    "internal_link": { "text": "Beatles", "url": "/blog/artists/the-beatles/" },
+                    "external_link": { "text": "tour", "url": "https://www.bradfordtimeline.co.uk/mindex62g.htm" }
+                }
+            ]
+        }
+    ]
+}
