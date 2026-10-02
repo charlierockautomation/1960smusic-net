@@ -820,6 +820,16 @@
       "date": "2026-09-30",
       "genre": null,
       "seq": 37
+    },
+    {
+      "id": "on-this-day-october-8",
+      "title": "On This Day: October 8 in 1960s Music",
+      "slug": "/blog/on-this-day/october-8/",
+      "type": "on-this-day",
+      "description": "12 verified 1960s music events from October 8: Sam Cooke is denied a Shreveport hotel room that inspired A Change Is Gonna Come, the Beatles record She's A Woman, and the Jimi Hendrix Experience play their final Saville Theatre show.",
+      "date": "2026-10-02",
+      "genre": null,
+      "seq": 38
     }
   ]
 }
