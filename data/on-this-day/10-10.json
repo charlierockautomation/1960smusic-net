@@ -1,0 +1,197 @@
+{
+  "date_label": "October 10",
+  "date_slug": "october-10",
+  "flagship": {
+    "year": 1966,
+    "category": "release",
+    "headline": "The Beach Boys release Good Vibrations",
+    "summary_line_1": "Capitol Records released the Beach Boys' Good Vibrations as a standalone single, a track Brian Wilson assembled in pieces across four different studios using a theremin-like electro-theremin alongside the band's usual harmonies.",
+    "summary_line_2": "The sessions reportedly cost more than any single recorded up to that point, and the finished record went on to hit No. 1 in the US and UK, becoming the Beach Boys' first RIAA Gold single.",
+    "youtube_id": "apBWI6xrbLY",
+    "image": null
+  },
+  "stats": [
+    { "value": 12, "label": "verified events" },
+    { "value": 5, "label": "event categories" },
+    { "value": 12, "label": "watchable clips" }
+  ],
+  "years": [
+    {
+      "year": 1969,
+      "events": [
+        {
+          "id": "ev-king-crimson-debut-album",
+          "category": "release",
+          "headline": "King Crimson release their debut album, In the Court of the Crimson King",
+          "summary_line_1": "Island Records released King Crimson's debut studio album, In the Court of the Crimson King, in the UK, opening with the jarring blast of 21st Century Schizoid Man before moving into the mellotron-heavy title track.",
+          "summary_line_2": "The album reached <a href=\"https://en.wikipedia.org/wiki/In_the_Court_of_the_Crimson_King\" target=\"_blank\" rel=\"noopener\">No. 5 on the UK Albums Chart</a> and No. 28 in the US, and is widely credited as one of the records that founded progressive rock as its own genre.",
+          "youtube_id": "MM_G0IRLEx4",
+          "image": null,
+          "internal_link": null,
+          "external_link": { "text": "No. 5 on the UK Albums Chart", "url": "https://en.wikipedia.org/wiki/In_the_Court_of_the_Crimson_King" }
+        }
+      ]
+    },
+    {
+      "year": 1968,
+      "events": [
+        {
+          "id": "ev-beatles-piggies-glass-onion-strings",
+          "category": "industry",
+          "headline": "The Beatles add strings to Piggies and Glass Onion at Abbey Road",
+          "summary_line_1": "The <a href=\"/blog/artists/the-beatles/\">Beatles</a> brought in an eight-piece string section, four violins, two violas and two cellos, for producer George Martin to overdub arrangements onto George Harrison's Piggies and John Lennon's Glass Onion during <a href=\"https://www.the-paulmccartney-project.com/session/recording-piggies-glass-onion-why-dont-we-do-it-in-the-road-mixing-glass-onion-rocky-raccoon-long-long/\" target=\"_blank\" rel=\"noopener\">a session</a> at EMI Studios.",
+          "summary_line_2": "Glass Onion's string line was recorded as a slowing, unsettling edit piece meant to close out the song, while Paul McCartney and Ringo Starr used the same day to finish their own stripped-down Why Don't We Do It in the Road? elsewhere in the building, all for the White Album.",
+          "youtube_id": "NJayqkGO76A",
+          "image": null,
+          "internal_link": { "text": "Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": { "text": "a session", "url": "https://www.the-paulmccartney-project.com/session/recording-piggies-glass-onion-why-dont-we-do-it-in-the-road-mixing-glass-onion-rocky-raccoon-long-long/" }
+        }
+      ]
+    },
+    {
+      "year": 1967,
+      "events": [
+        {
+          "id": "ev-who-record-pictures-of-lily",
+          "category": "industry",
+          "headline": "The Who record Pictures of Lily for the BBC's Top Gear",
+          "summary_line_1": "The <a href=\"/blog/artists/the-who/\">Who</a> recorded a session version of Pictures of Lily, plus alternate takes of other songs, at De Lane Lea Studios in London for BBC Radio One's Top Gear.",
+          "summary_line_2": "The booking was the first time the BBC allowed an outside act to record for one of its own shows away from a BBC studio, and the session aired five days later on October 15.",
+          "youtube_id": "bIQZRvxQ6VA",
+          "image": null,
+          "internal_link": { "text": "Who", "url": "/blog/artists/the-who/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1966,
+      "events": [
+        {
+          "id": "ev-good-vibrations-release",
+          "category": "release",
+          "headline": "The Beach Boys release Good Vibrations",
+          "summary_line_1": "Capitol Records released the <a href=\"/blog/artists/the-beach-boys/\">Beach Boys</a>' <a href=\"/blog/songs/good-vibrations-beach-boys/\">Good Vibrations</a> as a standalone single, a track Brian Wilson assembled in pieces across four different studios using a theremin-like electro-theremin alongside the band's usual harmonies.",
+          "summary_line_2": "The sessions reportedly cost more than any single recorded up to that point, and the finished record went on to hit No. 1 in the US and UK, becoming the Beach Boys' first RIAA Gold single.",
+          "youtube_id": "apBWI6xrbLY",
+          "image": null,
+          "internal_link": { "text": "Good Vibrations", "url": "/blog/songs/good-vibrations-beach-boys/" },
+          "external_link": null
+        },
+        {
+          "id": "ev-monkees-debut-album-release",
+          "category": "release",
+          "headline": "The Monkees release their self-titled debut album",
+          "summary_line_1": "Colgems Records released The Monkees, the band's self-titled debut album, built around the hit single Last Train to Clarksville and songs supplied by outside writers including Boyce and Hart.",
+          "summary_line_2": "It became the first of four consecutive No. 1 albums for the group, holding the top spot on the <a href=\"https://en.wikipedia.org/wiki/The_Monkees_(album)\" target=\"_blank\" rel=\"noopener\">Billboard 200 for 13 weeks</a> while their TV show was still a new hit on NBC.",
+          "youtube_id": "U1w048AwTkI",
+          "image": null,
+          "internal_link": null,
+          "external_link": { "text": "Billboard 200 for 13 weeks", "url": "https://en.wikipedia.org/wiki/The_Monkees_(album)" }
+        }
+      ]
+    },
+    {
+      "year": 1965,
+      "events": [
+        {
+          "id": "ev-supremes-ed-sullivan-nobody-til-somebody-loves-you",
+          "category": "broadcast",
+          "headline": "The Supremes sing You're Nobody Till Somebody Loves You on Ed Sullivan",
+          "summary_line_1": "Diana Ross, Mary Wilson and Florence Ballard performed the standard You're Nobody Till Somebody Loves You live on CBS's The Ed Sullivan Show, a change of pace from the group's usual run of Motown singles.",
+          "summary_line_2": "The appearance put the trio in front of Sullivan's enormous Sunday-night audience at the height of their commercial run, reinforcing Motown's reach into mainstream American television.",
+          "youtube_id": "wKpMBdMnCiY",
+          "image": null,
+          "internal_link": { "text": "Motown", "url": "/blog/genres/motown-soul/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1964,
+      "events": [
+        {
+          "id": "ev-orbison-pretty-woman-holds-no-1",
+          "category": "chart",
+          "headline": "Roy Orbison's Oh, Pretty Woman holds No. 1",
+          "summary_line_1": "Roy Orbison's Oh, Pretty Woman, co-written with Bill Dees and released on Monument Records, held the top spot on the Billboard Hot 100 for its third straight week.",
+          "summary_line_2": "The song went on to sell millions of copies and later became the subject of a 1994 US Supreme Court copyright ruling after 2 Live Crew's parody version, cementing its place as one of Orbison's two US No. 1 hits.",
+          "youtube_id": "Ikweq0THs88",
+          "image": null,
+          "internal_link": null,
+          "external_link": null
+        },
+        {
+          "id": "ev-brubeck-take-five-brussels-tv",
+          "category": "broadcast",
+          "headline": "The Dave Brubeck Quartet tape Take Five for Belgian television",
+          "summary_line_1": "The Dave Brubeck Quartet, Brubeck on piano, Paul Desmond on alto saxophone, Joe Morello on drums and Eugene Wright on bass, taped a television performance of Take Five in Brussels, Belgium.",
+          "summary_line_2": "The 5/4-time instrumental, written by Desmond for the quartet's 1959 album Time Out, was already a <a href=\"/blog/genres/jazz-easy-listening/\">jazz</a> standard by 1964, and the Brussels footage remains one of the most-viewed surviving clips of the group performing it live.",
+          "youtube_id": "i-r9-DC93J0",
+          "image": null,
+          "internal_link": { "text": "jazz", "url": "/blog/genres/jazz-easy-listening/" },
+          "external_link": null
+        },
+        {
+          "id": "ev-beatles-de-montfort-hall-leicester",
+          "category": "concert",
+          "headline": "The Beatles play two shows at Leicester's De Montfort Hall",
+          "summary_line_1": "The <a href=\"/blog/artists/the-beatles/\">Beatles</a> played two concerts at De Montfort Hall in Leicester, the second stop on the UK tour that had opened the night before in Bradford.",
+          "summary_line_2": "The same day marked the twelfth straight week that A Hard Day's Night held No. 1 on the UK album chart, a run that showed no sign of slowing even as the band kept up a punishing night-after-night tour schedule.",
+          "youtube_id": "Yjyj8qnqkYI",
+          "image": null,
+          "internal_link": { "text": "Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1963,
+      "events": [
+        {
+          "id": "ev-elvis-kissin-cousins-vocal-overdubs",
+          "category": "industry",
+          "headline": "Elvis Presley overdubs vocals for Kissin' Cousins",
+          "summary_line_1": "Elvis Presley recorded his lead vocals for the title song Kissin' Cousins at MGM's Hollywood soundstage, the backing track having already been cut days earlier at RCA's Studio B in Nashville.",
+          "summary_line_2": "Because the film cast Presley in a dual role as two lookalike cousins, he sang the song's ending twice in two distinct voices, one more polished and one broader and more country, to fake a duet between his own characters.",
+          "youtube_id": "Fm_hdQN8AWU",
+          "image": null,
+          "internal_link": null,
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1962,
+      "events": [
+        {
+          "id": "ev-beatles-cavern-club-two-sessions",
+          "category": "concert",
+          "headline": "The Beatles play two sessions at Liverpool's Cavern Club",
+          "summary_line_1": "The <a href=\"/blog/artists/the-beatles/\">Beatles</a> played a lunchtime session and an evening session at the Cavern Club in Liverpool, sharing the evening bill with the Four Jays and Ken Dallas and the Silhouettes.",
+          "summary_line_2": "The band had put out its debut single, Love Me Do, only five days earlier, and crowds at the Cavern that autumn were among the first anywhere to hear the song played live by the group that wrote it.",
+          "youtube_id": "7uQuX1sOYk4",
+          "image": null,
+          "internal_link": { "text": "Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1960,
+      "events": [
+        {
+          "id": "ev-larry-verne-mr-custer-no-1",
+          "category": "chart",
+          "headline": "Larry Verne hits No. 1 with the novelty song Mr. Custer",
+          "summary_line_1": "Larry Verne topped the Billboard Hot 100 for the chart week ending October 10, 1960, with Mr. Custer, a comic spoken-and-sung record about a cavalry trooper begging General Custer to let him sit out the Battle of the Little Bighorn.",
+          "summary_line_2": "Written by Fred Darian, Al De Lory and Joseph Van Winkle, the record held the top spot for one week and reached <a href=\"https://en.wikipedia.org/wiki/Mr._Custer\" target=\"_blank\" rel=\"noopener\">No. 9 on the R&B chart</a>, one of the oddest records ever to top the Hot 100.",
+          "youtube_id": "EH5A29ZGFng",
+          "image": null,
+          "internal_link": null,
+          "external_link": { "text": "No. 9 on the R&B chart", "url": "https://en.wikipedia.org/wiki/Mr._Custer" }
+        }
+      ]
+    }
+  ]
+}
