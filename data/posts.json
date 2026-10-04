@@ -830,6 +830,16 @@
       "date": "2026-10-02",
       "genre": null,
       "seq": 38
+    },
+    {
+      "id": "on-this-day-october-9",
+      "title": "On This Day: October 9 in 1960s Music",
+      "slug": "/blog/on-this-day/october-9/",
+      "type": "on-this-day",
+      "description": "11 verified 1960s music events from October 9: the Beatles' Yesterday hits No. 1, Ray Charles tops the chart with Hit the Road Jack, and the Jimi Hendrix Experience play the Olympia in Paris.",
+      "date": "2026-10-03",
+      "genre": null,
+      "seq": 39
     }
   ]
 }
