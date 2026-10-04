@@ -1,0 +1,186 @@
+{
+  "date_label": "October 9",
+  "date_slug": "october-9",
+  "flagship": {
+    "year": 1965,
+    "category": "chart",
+    "headline": "Yesterday gives the Beatles their fifth No. 1 of the year",
+    "summary_line_1": "Paul McCartney's solo acoustic ballad Yesterday reached No. 1 on the Billboard Hot 100, backed only by his own guitar and a string quartet George Martin arranged, a stark departure from the Beatles' usual sound.",
+    "summary_line_2": "It began a four-week run at the top and went on to become the most covered song in recording history, cementing the Beatles' reputation for pushing pop songwriting forward even on a track none of the other three played on.",
+    "youtube_id": "NrgmdOz227I",
+    "image": null
+  },
+  "stats": [
+    { "value": 11, "label": "verified events" },
+    { "value": 7, "label": "event categories" },
+    { "value": 11, "label": "watchable clips" }
+  ],
+  "years": [
+    {
+      "year": 1969,
+      "events": [
+        {
+          "id": "ev-carpenters-release-offering",
+          "category": "release",
+          "headline": "Carpenters release their debut album, Offering",
+          "summary_line_1": "The Carpenters released their debut album, Offering, on A&M Records, built around Richard Carpenter's arrangements and Karen Carpenter's vocals and drumming.",
+          "summary_line_2": "Its closing track, a slowed-down ballad reading of the Beatles' <a href=\"https://www.udiscovermusic.com/stories/rediscover-carpenters-ticket-to-ride/\" target=\"_blank\" rel=\"noopener\">Ticket to Ride</a>, was distinctive enough that A&M reissued the whole album the following year under that song's title instead.",
+          "youtube_id": "QdBKAnAhzXo",
+          "image": null,
+          "internal_link": null,
+          "external_link": { "text": "Ticket to Ride", "url": "https://www.udiscovermusic.com/stories/rediscover-carpenters-ticket-to-ride/" }
+        },
+        {
+          "id": "ev-je-taime-totp-instrumental",
+          "category": "broadcast",
+          "headline": "BBC's Top of the Pops airs an instrumental stand-in for the banned Je t'aime moi non plus",
+          "summary_line_1": "With Jane Birkin and Serge Gainsbourg's explicit duet Je t'aime moi non plus banned from BBC airwaves, Top of the Pops broadcast an instrumental version by the show's in-house orchestra instead of the original.",
+          "summary_line_2": "The workaround let the BBC acknowledge the record's run to <a href=\"https://en.wikipedia.org/wiki/Je_t%27aime..._moi_non_plus\" target=\"_blank\" rel=\"noopener\">No. 1 on the UK Singles Chart</a>, the first French-language single to top the British chart, without ever playing its actual vocal.",
+          "youtube_id": "DvSzNkTNN4A",
+          "image": null,
+          "internal_link": null,
+          "external_link": { "text": "No. 1 on the UK Singles Chart", "url": "https://en.wikipedia.org/wiki/Je_t%27aime..._moi_non_plus" }
+        }
+      ]
+    },
+    {
+      "year": 1968,
+      "events": [
+        {
+          "id": "ev-mccartney-records-why-dont-we-do-it-in-the-road",
+          "category": "industry",
+          "headline": "Paul McCartney tracks Why Don't We Do It in the Road? on John Lennon's 28th birthday",
+          "summary_line_1": "While George Harrison and John Lennon worked on other songs elsewhere at Abbey Road, Paul McCartney booked Studio One with engineer Ken Townsend and cut five solo takes of Why Don't We Do It in the Road? on acoustic guitar and vocals, overdubbing piano onto the last one.",
+          "summary_line_2": "Ringo Starr added drums the next day to finish the track for the <a href=\"/blog/artists/the-beatles/\">Beatles</a>' White Album, a spontaneous, almost private <a href=\"https://www.beatlesbible.com/1968/10/09/recording-long-long-long-why-dont-we-do-it-in-the-road/\" target=\"_blank\" rel=\"noopener\">session</a> that fell, by coincidence, on Lennon's 28th birthday.",
+          "youtube_id": "p4E6KtQg_z0",
+          "image": null,
+          "internal_link": { "text": "Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": { "text": "session", "url": "https://www.beatlesbible.com/1968/10/09/recording-long-long-long-why-dont-we-do-it-in-the-road/" }
+        },
+        {
+          "id": "ev-stones-warehouse-rehearsals-begin",
+          "category": "industry",
+          "headline": "The Rolling Stones open rehearsals at a new London warehouse studio",
+          "summary_line_1": "The <a href=\"/blog/artists/the-rolling-stones/\">Rolling Stones</a> began working out of a newly acquired warehouse rehearsal space in London, the band's first dedicated rehearsal room instead of booked commercial studio time.",
+          "summary_line_2": "The sessions came weeks after finishing <a href=\"https://www.nzentgraf.de/books/tcw/1968.htm\" target=\"_blank\" rel=\"noopener\">Beggars Banquet</a> and fed straight into The Rolling Stones Rock and Roll Circus, the all-star television special the band filmed that December.",
+          "youtube_id": "DfgmjtukS7g",
+          "image": null,
+          "internal_link": { "text": "Rolling Stones", "url": "/blog/artists/the-rolling-stones/" },
+          "external_link": { "text": "Beggars Banquet", "url": "https://www.nzentgraf.de/books/tcw/1968.htm" }
+        }
+      ]
+    },
+    {
+      "year": 1967,
+      "events": [
+        {
+          "id": "ev-hendrix-olympia-paris",
+          "category": "concert",
+          "headline": "The Jimi Hendrix Experience play the Olympia in Paris",
+          "summary_line_1": "The original lineup, Jimi Hendrix, Noel Redding and Mitch Mitchell, played a French radio broadcast set at the Olympia theatre in Paris for Musicorama, tearing through Stone Free, Fire, Foxy Lady and Purple Haze.",
+          "summary_line_2": "The tapes stayed locked away for decades until <a href=\"https://www.jimihendrix.com/news/dagger-records-to-release-jimi-hendrix-experience-paris-67-for-record-store-day/\" target=\"_blank\" rel=\"noopener\">Dagger Records</a> finally released the full show as Paris 67, and since no official film of the gig survives, Purple Haze from the same era stands in for the fuzzed-out <a href=\"/blog/genres/psychedelic-rock/\">psychedelic rock</a> sound Hendrix brought to the stage that night.",
+          "youtube_id": "WGoDaYjdfSg",
+          "image": null,
+          "internal_link": { "text": "psychedelic rock", "url": "/blog/genres/psychedelic-rock/" },
+          "external_link": { "text": "Dagger Records", "url": "https://www.jimihendrix.com/news/dagger-records-to-release-jimi-hendrix-experience-paris-67-for-record-store-day/" }
+        }
+      ]
+    },
+    {
+      "year": 1966,
+      "events": [
+        {
+          "id": "ev-lennon-26th-birthday-almeria",
+          "category": "culture",
+          "headline": "John Lennon turns 26 while filming in Almería, Spain",
+          "summary_line_1": "John Lennon marked his 26th birthday on location in Almería, six weeks into shooting Richard Lester's How I Won the War in the supporting role of Private Gripweed.",
+          "summary_line_2": "The quiet stretch away from touring and the <a href=\"/blog/artists/the-beatles/\">Beatles</a> gave Lennon room to sketch the earliest ideas for Strawberry Fields Forever, the song that opened the band's next creative chapter.",
+          "youtube_id": "HtUH9z_Oey8",
+          "image": null,
+          "internal_link": { "text": "Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1965,
+      "events": [
+        {
+          "id": "ev-yesterday-hits-no-1",
+          "category": "chart",
+          "headline": "Yesterday gives the Beatles their fifth No. 1 of the year",
+          "summary_line_1": "Paul McCartney's solo acoustic ballad Yesterday reached <a href=\"https://en.wikipedia.org/wiki/Yesterday_(song)\" target=\"_blank\" rel=\"noopener\">No. 1</a> on the Billboard Hot 100, backed only by his own guitar and a string quartet George Martin arranged, a stark departure from the Beatles' usual sound.",
+          "summary_line_2": "It began a four-week run at the top and went on to become the most covered song in recording history, cementing the <a href=\"/blog/artists/the-beatles/\">Beatles</a>' reputation for pushing pop songwriting forward even on a track none of the other three played on.",
+          "youtube_id": "NrgmdOz227I",
+          "image": null,
+          "internal_link": { "text": "Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": { "text": "No. 1", "url": "https://en.wikipedia.org/wiki/Yesterday_(song)" }
+        }
+      ]
+    },
+    {
+      "year": 1964,
+      "events": [
+        {
+          "id": "ev-beach-boys-dance-dance-dance",
+          "category": "industry",
+          "headline": "The Beach Boys cut Dance, Dance, Dance with Glen Campbell sitting in",
+          "summary_line_1": "The <a href=\"/blog/artists/the-beach-boys/\">Beach Boys</a> re-recorded Dance, Dance, Dance at RCA Studios in Hollywood after Brian Wilson scrapped an earlier attempt from a Nashville session two weeks prior, with session player Glen Campbell adding 12-string guitar.",
+          "summary_line_2": "The song became the group's twelfth U.S. Top 40 hit, reaching No. 8, and the session helped cement Campbell's ties to the band months before he briefly joined as Wilson's touring replacement.",
+          "youtube_id": "BsLYvzNme8E",
+          "image": null,
+          "internal_link": { "text": "Beach Boys", "url": "/blog/artists/the-beach-boys/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1962,
+      "events": [
+        {
+          "id": "ev-bobby-vee-records-night-has-a-thousand-eyes",
+          "category": "industry",
+          "headline": "Bobby Vee records The Night Has A Thousand Eyes",
+          "summary_line_1": "Bobby Vee spent the day at <a href=\"https://www.discogs.com/release/2133643-Bobby-Vee-The-Night-Has-A-Thousand-Eyes\" target=\"_blank\" rel=\"noopener\">United Recorders</a> in Hollywood tracking The Night Has A Thousand Eyes under producer Snuff Garrett and arranger Ernie Freeman.",
+          "summary_line_2": "Released that December, the single spent fourteen weeks on the Hot 100 and peaked at No. 3, though no official upload of it survives on YouTube, so the clip here is Take Good Care of My Baby, Vee's No. 1 hit from the same Liberty Records run.",
+          "youtube_id": "a5xdLXT1cvs",
+          "image": null,
+          "internal_link": null,
+          "external_link": { "text": "United Recorders", "url": "https://www.discogs.com/release/2133643-Bobby-Vee-The-Night-Has-A-Thousand-Eyes" }
+        }
+      ]
+    },
+    {
+      "year": 1961,
+      "events": [
+        {
+          "id": "ev-ray-charles-hit-the-road-jack-no-1",
+          "category": "chart",
+          "headline": "Ray Charles starts a two-week run at No. 1 with Hit the Road Jack",
+          "summary_line_1": "Ray Charles and Raelettes singer Margie Hendrix traded the song's tart call-and-response vocal as Hit the Road Jack, written by Percy Mayfield, began a two-week stay atop the Billboard Hot 100.",
+          "summary_line_2": "The record won the Grammy Award for Best Rhythm and Blues Recording, one of the defining hits of Charles's crossover run from <a href=\"/blog/genres/motown-soul/\">R&B</a> into mainstream pop.",
+          "youtube_id": "uSiHqxgE2d0",
+          "image": null,
+          "internal_link": { "text": "R&B", "url": "/blog/genres/motown-soul/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1960,
+      "events": [
+        {
+          "id": "ev-kenny-garrett-born",
+          "category": "birth",
+          "headline": "Jazz saxophonist Kenny Garrett is born in Detroit",
+          "summary_line_1": "Kenny Garrett, who would go on to play alongside Miles Davis, Art Blakey and the Duke Ellington Orchestra, was born in <a href=\"https://www.allmusic.com/artist/kenny-garrett-mn0000767404/biography\" target=\"_blank\" rel=\"noopener\">Detroit, Michigan</a>.",
+          "summary_line_2": "He didn't turn professional until joining the Duke Ellington Orchestra in 1978, but his birth placed him squarely in Detroit's deep <a href=\"/blog/genres/jazz-easy-listening/\">jazz</a> lineage during the same years the city's Motown sound was reshaping American pop.",
+          "youtube_id": "hZ41AvUqk2Y",
+          "image": null,
+          "internal_link": { "text": "jazz", "url": "/blog/genres/jazz-easy-listening/" },
+          "external_link": { "text": "Detroit, Michigan", "url": "https://www.allmusic.com/artist/kenny-garrett-mn0000767404/biography" }
+        }
+      ]
+    }
+  ]
+}
