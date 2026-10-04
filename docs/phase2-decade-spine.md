@@ -36,7 +36,7 @@ restored, and note the result here either way.
 | 2 | Year page: 1960 | live |
 | 3 | Year page: 1961 | live |
 | 4 | Year page: 1962 | live |
-| 5 | Year page: 1963 | not started |
+| 5 | Year page: 1963 | live |
 | 6 | Year page: 1964 | not started |
 | 7 | Year page: 1965 | not started |
 | 8 | Year page: 1966 | not started |
@@ -88,6 +88,23 @@ Notable Events links two live OTD pages with direct 1962 music ties
 (`/blog/on-this-day/september-15/`, Four Seasons' Sherry; `/blog/
 on-this-day/october-1/`, Beach Boys' Surfin' Safari debut album).
 Playwright self-test (`gen/test_playlist_player_1962.py`) PASS.
+
+`/1960s/1963/` live 2026-10-03, 1696 words, check_article.py PASS.
+Billboard Year-End Hot 100 top 25 of 1963 (tracklist) plus the full
+chronological 21-single number-ones list, both cross-verified against
+a second source. All 25 YouTube ids resolved (7 already cached, 18 via
+`generate.py`'s no-API scraper) and verified embeddable, not
+made-for-kids, in one batched `yt_video_status.py` call; several carry
+the same acceptable-if-compliant `yt` flag used elsewhere on the site.
+First year page to link the British Invasion hub (`data/genres.json`
+starts it at 1963); also links garage-surf-rock, pop-brill-building,
+motown-soul, jazz-easy-listening and country-60s. Featured image reuses
+the existing verified 1963 Dezo Hoffmann Beatles publicity photo
+(public domain, already live on two other pages) rather than sourcing
+a new one. Notable Events links two live OTD pages with direct 1963
+music ties (`/blog/on-this-day/september-12/`, She Loves You hits UK
+No. 1; `/blog/on-this-day/september-21/`, Blue Velvet hits US No. 1).
+Playwright self-test (`gen/test_playlist_player_1963.py`) PASS.
 
 ### 12. Best 60s Songs list page
 `/best-60s-songs/`: 100 songs pulled from `data/songs.json` (extend the
