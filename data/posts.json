@@ -840,6 +840,16 @@
       "date": "2026-10-03",
       "genre": null,
       "seq": 39
+    },
+    {
+      "id": "on-this-day-october-10",
+      "title": "On This Day: October 10 in 1960s Music",
+      "slug": "/blog/on-this-day/october-10/",
+      "type": "on-this-day",
+      "description": "12 verified 1960s music events from October 10: the Beach Boys release Good Vibrations, King Crimson release their debut album, and the Supremes sing on The Ed Sullivan Show.",
+      "date": "2026-10-03",
+      "genre": null,
+      "seq": 40
     }
   ]
 }
