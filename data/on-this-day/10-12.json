@@ -1,0 +1,224 @@
+{
+  "date_label": "October 12",
+  "date_slug": "october-12",
+  "flagship": {
+    "year": 1969,
+    "category": "broadcast",
+    "headline": "A phone call to Russ Gibb ignites the \"Paul is dead\" myth",
+    "summary_line_1": "A caller to Detroit DJ Russ Gibb's WKNR-FM show told him to play the Beatles' Revolution 9 backward, and on air Gibb heard what sounded like \"turn me on, dead man,\" supposedly proof Paul McCartney had secretly died and been replaced.",
+    "summary_line_2": "The rumor had circulated quietly for two years, but Gibb's broadcast set off a nationwide frenzy that wire services and newspapers picked up within days.",
+    "youtube_id": "jF7SgFtSbaI",
+    "image": null
+  },
+  "stats": [
+    { "value": 14, "label": "verified events" },
+    { "value": 5, "label": "event categories" },
+    { "value": 14, "label": "watchable clips" }
+  ],
+  "years": [
+    {
+      "year": 1969,
+      "events": [
+        {
+          "id": "ev-wkner-paul-is-dead",
+          "category": "broadcast",
+          "headline": "A phone call to Russ Gibb ignites the \"Paul is dead\" myth",
+          "summary_line_1": "A caller to Detroit DJ Russ Gibb's WKNR-FM show told him to play the <a href=\"/blog/artists/the-beatles/\">Beatles</a>' Revolution 9 backward, and on air Gibb heard what sounded like \"turn me on, dead man,\" supposedly proof Paul McCartney had secretly died and been replaced.",
+          "summary_line_2": "The rumor had circulated quietly for two years, but Gibb's broadcast set off a nationwide frenzy, covered in detail by <a href=\"https://www.rollingstone.com/music/music-features/paul-mccartney-is-dead-conspiracy-897189/\" target=\"_blank\" rel=\"noopener\">Rolling Stone</a>.",
+          "youtube_id": "jF7SgFtSbaI",
+          "image": null,
+          "internal_link": { "text": "Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": { "text": "Rolling Stone", "url": "https://www.rollingstone.com/music/music-features/paul-mccartney-is-dead-conspiracy-897189/" }
+        },
+        {
+          "id": "ev-who-grande-riviera-tommy",
+          "category": "concert",
+          "headline": "The Who close out a two-night Tommy run at Detroit's Grande Riviera",
+          "summary_line_1": "The <a href=\"/blog/artists/the-who/\">Who</a> performed their rock opera Tommy at the Grande Riviera Theater in Detroit, the venue Russ Gibb was renting that fall after moving his promotions on from the original Grande Ballroom a few blocks away.",
+          "summary_line_2": "The show closed a two-night stand that began October 11, and the Who worked Allen Toussaint's Fortune Teller into the set alongside the full Tommy story.",
+          "youtube_id": "acKotWHn0i4",
+          "image": null,
+          "internal_link": { "text": "Who", "url": "/blog/artists/the-who/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1968,
+      "events": [
+        {
+          "id": "ev-cheap-thrills-number-one",
+          "category": "chart",
+          "headline": "Cheap Thrills hits No. 1 with Janis Joplin out front",
+          "summary_line_1": "Big Brother and the Holding Company's Cheap Thrills, fronted by Janis Joplin on tracks like Piece of My Heart, reached No. 1 on the Billboard 200 album chart.",
+          "summary_line_2": "The album spent a combined eight weeks at No. 1 across two separate runs that fall, cementing Joplin as the breakout voice of the San Francisco scene, per <a href=\"https://en.wikipedia.org/wiki/List_of_Billboard_200_number-one_albums_of_1968\" target=\"_blank\" rel=\"noopener\">Billboard's year-end chart record</a>.",
+          "youtube_id": "ETU1LO4SRv0",
+          "image": null,
+          "internal_link": { "text": "psychedelic rock", "url": "/blog/genres/psychedelic-rock/" },
+          "external_link": { "text": "Billboard's year-end chart record", "url": "https://en.wikipedia.org/wiki/List_of_Billboard_200_number-one_albums_of_1968" }
+        },
+        {
+          "id": "ev-hendrix-winterland-final-night",
+          "category": "concert",
+          "headline": "The Jimi Hendrix Experience close a three-night Winterland stand",
+          "summary_line_1": "The Jimi Hendrix Experience played two more shows at San Francisco's Winterland Ballroom, the final night of a three-night, six-show run that began October 10, 1968.",
+          "summary_line_2": "Performances from the stand, including this run of shows, later anchored the officially sanctioned <a href=\"https://www.jimihendrix.com/encyclopedia-item/october-12-1968-winterland-ballroom-san-francisco-california/\" target=\"_blank\" rel=\"noopener\">Winterland box set</a>, giving fans studio-quality releases of a run that had circulated only as bootleg tape for decades.",
+          "youtube_id": "SwvsZj1e_tA",
+          "image": null,
+          "internal_link": { "text": "psychedelic rock", "url": "/blog/genres/psychedelic-rock/" },
+          "external_link": { "text": "Winterland box set", "url": "https://www.jimihendrix.com/encyclopedia-item/october-12-1968-winterland-ballroom-san-francisco-california/" }
+        }
+      ]
+    },
+    {
+      "year": 1967,
+      "events": [
+        {
+          "id": "ev-brian-wilson-redwood-session",
+          "category": "industry",
+          "headline": "Brian Wilson starts producing Time to Get Alone for Redwood",
+          "summary_line_1": "<a href=\"/blog/artists/the-beach-boys/\">Beach Boys</a> leader Brian Wilson began producing Time to Get Alone with the vocal group Redwood, who would later become Three Dog Night, tracking the basic session during a break from the Beach Boys' own Wild Honey sessions.",
+          "summary_line_2": "The Beach Boys ultimately kept the song for themselves, and their own version finally surfaced on 1969's 20/20.",
+          "youtube_id": "YG0G56-Ac34",
+          "image": null,
+          "internal_link": { "text": "Beach Boys", "url": "/blog/artists/the-beach-boys/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1966,
+      "events": [
+        {
+          "id": "ev-supremes-hangin-on-release",
+          "category": "release",
+          "headline": "The Supremes release You Keep Me Hangin' On",
+          "summary_line_1": "Motown released the Supremes' You Keep Me Hangin' On, written and produced by Holland-Dozier-Holland, built around a staccato guitar line meant to mimic a radio signal.",
+          "summary_line_2": "The single became the group's eighth No. 1 the following month, one of the biggest <a href=\"/blog/genres/motown-soul/\">Motown</a> pop-soul records of the decade.",
+          "youtube_id": "pi00f6oiMu4",
+          "image": null,
+          "internal_link": { "text": "Motown", "url": "/blog/genres/motown-soul/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1965,
+      "events": [
+        {
+          "id": "ev-beatles-rubber-soul-session-opens",
+          "category": "industry",
+          "headline": "The Beatles open the Rubber Soul sessions with Run for Your Life",
+          "summary_line_1": "The <a href=\"/blog/artists/the-beatles/\">Beatles</a> began recording Rubber Soul at EMI's Studio Two, cutting John Lennon's Run for Your Life in five takes before starting work the same day on an early version of what became Norwegian Wood.",
+          "summary_line_2": "It was the first of a tight, four-week recording stretch that pushed the band's songwriting and studio craft further than anything they had attempted before.",
+          "youtube_id": "FPGZiw488aY",
+          "image": null,
+          "internal_link": { "text": "Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1964,
+      "events": [
+        {
+          "id": "ev-vee-jay-songs-pictures-stories",
+          "category": "release",
+          "headline": "Vee-Jay repackages the Beatles catalog one last time",
+          "summary_line_1": "Vee-Jay Records released Songs, Pictures and Stories of the Fabulous Beatles, a new gatefold repackaging of the same recordings from Introducing... The Beatles.",
+          "summary_line_2": "It sold over 400,000 copies and reached No. 63 on the Billboard album chart, Vee-Jay's last repackaging of the catalog before Capitol took over exclusive US distribution of the <a href=\"/blog/artists/the-beatles/\">Beatles</a>.",
+          "youtube_id": "2RicaUqd9Hg",
+          "image": null,
+          "internal_link": { "text": "Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1963,
+      "events": [
+        {
+          "id": "ev-sugar-shack-number-one",
+          "category": "chart",
+          "headline": "Sugar Shack starts a five-week run at No. 1",
+          "summary_line_1": "Jimmy Gilmer and the Fireballs' Sugar Shack, recorded at Norman Petty's studio in Clovis, New Mexico, reached No. 1 on the Billboard Hot 100.",
+          "summary_line_2": "It held the top spot for five straight weeks and ended the year as <a href=\"https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1963\" target=\"_blank\" rel=\"noopener\">Billboard's best-selling single of 1963</a>, part of the <a href=\"/blog/genres/pop-brill-building/\">pop</a> sound that dominated the charts right before Beatlemania hit.",
+          "youtube_id": "wswUWtKpaFg",
+          "image": null,
+          "internal_link": { "text": "pop", "url": "/blog/genres/pop-brill-building/" },
+          "external_link": { "text": "Billboard's best-selling single of 1963", "url": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1963" }
+        },
+        {
+          "id": "ev-ashworth-trembling-lips-number-one",
+          "category": "chart",
+          "headline": "Ernest Ashworth tops the country chart with Talk Back Trembling Lips",
+          "summary_line_1": "Ernest Ashworth's Talk Back Trembling Lips, written by John D. Loudermilk, reached No. 1 on Billboard's Hot Country Singles chart.",
+          "summary_line_2": "The record spent 42 weeks on the <a href=\"/blog/genres/country-60s/\">country</a> chart, became Ashworth's signature song, and helped earn him his spot on the Grand Ole Opry.",
+          "youtube_id": "T6zRwhOi0U8",
+          "image": null,
+          "internal_link": { "text": "country", "url": "/blog/genres/country-60s/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1962,
+      "events": [
+        {
+          "id": "ev-beatles-little-richard-tower-ballroom",
+          "category": "concert",
+          "headline": "The Beatles open for Little Richard and meet Billy Preston",
+          "summary_line_1": "The <a href=\"/blog/artists/the-beatles/\">Beatles</a> opened a 12-act bill headlined by Little Richard at the Tower Ballroom in New Brighton, Wallasey, exactly one week after releasing their debut single Love Me Do.",
+          "summary_line_2": "Backstage photos from the night, documented by the <a href=\"https://www.beatlesbible.com/1962/10/12/live-tower-ballroom-new-brighton-wallasey-23/\" target=\"_blank\" rel=\"noopener\">Beatles Bible</a>, captured the band's first meeting with Little Richard's teenage organist Billy Preston, who later played on their 1969 Get Back sessions.",
+          "youtube_id": "2tUWB9A8JBc",
+          "image": null,
+          "internal_link": { "text": "Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": { "text": "Beatles Bible", "url": "https://www.beatlesbible.com/1962/10/12/live-tower-ballroom-new-brighton-wallasey-23/" }
+        },
+        {
+          "id": "ev-mingus-town-hall-epitaph",
+          "category": "concert",
+          "headline": "Charles Mingus records Epitaph live at Town Hall",
+          "summary_line_1": "Charles Mingus led a 30-piece ensemble through new material at New York's Town Hall, intended as a recorded workshop session for what became his sprawling suite Epitaph.",
+          "summary_line_2": "A record label moved the date up by five weeks, leaving too little time to rehearse, and the chaotic night became, in Mingus's own view, a disaster he still called <a href=\"https://www.charlesmingus.com/blog/on-this-day-october-12-1962-mingus-epitaph-at-town-hall\" target=\"_blank\" rel=\"noopener\">a landmark of his career</a> in the <a href=\"/blog/genres/jazz-easy-listening/\">jazz</a> world.",
+          "youtube_id": "u9WnrkJAKC8",
+          "image": null,
+          "internal_link": { "text": "jazz", "url": "/blog/genres/jazz-easy-listening/" },
+          "external_link": { "text": "a landmark of his career", "url": "https://www.charlesmingus.com/blog/on-this-day-october-12-1962-mingus-epitaph-at-town-hall" }
+        }
+      ]
+    },
+    {
+      "year": 1961,
+      "events": [
+        {
+          "id": "ev-highwaymen-michael-uk-number-one",
+          "category": "chart",
+          "headline": "The Highwaymen's Michael holds the UK No. 1 spot",
+          "summary_line_1": "The Highwaymen, a group of Wesleyan University students, held the top spot on the UK Singles Chart with their recording of the 19th-century spiritual Michael, Row the Boat Ashore.",
+          "summary_line_2": "The song had already topped the US Billboard Hot 100 the previous month, making it one of the few <a href=\"/blog/genres/folk-rock/\">folk</a> revival records to reach No. 1 on both sides of the Atlantic, per the <a href=\"https://www.officialcharts.com/charts/singles-chart/19611012/7501/\" target=\"_blank\" rel=\"noopener\">Official Charts Company</a>.",
+          "youtube_id": "TZj_Ug2o5Cc",
+          "image": null,
+          "internal_link": { "text": "folk", "url": "/blog/genres/folk-rock/" },
+          "external_link": { "text": "Official Charts Company", "url": "https://www.officialcharts.com/charts/singles-chart/19611012/7501/" }
+        }
+      ]
+    },
+    {
+      "year": 1960,
+      "events": [
+        {
+          "id": "ev-magnificent-seven-wide-release",
+          "category": "release",
+          "headline": "The Magnificent Seven opens wide with its Elmer Bernstein score",
+          "summary_line_1": "United Artists opened The Magnificent Seven in roughly a thousand theaters across the South and Southwest, carried by Elmer Bernstein's driving, Oscar-nominated orchestral score.",
+          "summary_line_2": "Bernstein's brass-and-percussion theme went on to become one of the most recognizable instrumental motifs in American film music, still licensed for commercials and shows decades later, per <a href=\"https://en.wikipedia.org/wiki/The_Magnificent_Seven\" target=\"_blank\" rel=\"noopener\">Wikipedia's production history</a>.",
+          "youtube_id": "yulmgTcGLZw",
+          "image": null,
+          "internal_link": null,
+          "external_link": { "text": "Wikipedia's production history", "url": "https://en.wikipedia.org/wiki/The_Magnificent_Seven" }
+        }
+      ]
+    }
+  ]
+}
