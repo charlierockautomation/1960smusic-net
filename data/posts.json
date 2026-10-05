@@ -860,6 +860,16 @@
       "date": "2026-10-05",
       "genre": null,
       "seq": 41
+    },
+    {
+      "id": "on-this-day-october-12",
+      "title": "On This Day: October 12 in 1960s Music",
+      "slug": "/blog/on-this-day/october-12/",
+      "type": "on-this-day",
+      "description": "14 verified 1960s music events from October 12: the 'Paul is dead' rumor ignites on Detroit radio, the Beatles open Rubber Soul with Run for Your Life, and Jimmy Gilmer & the Fireballs hit No. 1 with Sugar Shack.",
+      "date": "2026-10-05",
+      "genre": null,
+      "seq": 42
     }
   ]
 }
