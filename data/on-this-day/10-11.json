@@ -1,0 +1,192 @@
+{
+  "date_label": "October 11",
+  "date_slug": "october-11",
+  "flagship": {
+    "year": 1968,
+    "category": "concert",
+    "headline": "The Jimi Hendrix Experience tear through night two at Winterland",
+    "summary_line_1": "The Jimi Hendrix Experience played two shows at the Winterland Ballroom in San Francisco, the middle night of a three-night run that stretched from October 10 to 12, 1968.",
+    "summary_line_2": "Like a Rolling Stone from this exact performance later surfaced as part of the officially sanctioned Winterland box set, giving fans a studio-quality release of a show that had circulated only as bootleg tape for decades.",
+    "youtube_id": "ktjpxrIFOx8",
+    "image": null
+  },
+  "stats": [
+    { "value": 12, "label": "verified events" },
+    { "value": 5, "label": "event categories" },
+    { "value": 12, "label": "watchable clips" }
+  ],
+  "years": [
+    {
+      "year": 1969,
+      "events": [
+        {
+          "id": "ev-archies-sugar-sugar-fourth-week",
+          "category": "chart",
+          "headline": "Sugar, Sugar holds No. 1 for a fourth and final week",
+          "summary_line_1": "The Archies' Sugar, Sugar closed out its fourth and final week atop the Billboard Hot 100, the bubblegum hit sung by Ron Dante and Toni Wine for the animated group.",
+          "summary_line_2": "Produced by Jeff Barry, it went on to become <a href=\"https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1969\" target=\"_blank\" rel=\"noopener\">Billboard's No. 1 single of the year</a> for 1969.",
+          "youtube_id": "j3plj_Xplus",
+          "image": null,
+          "internal_link": null,
+          "external_link": { "text": "Billboard's No. 1 single of the year", "url": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1969" }
+        },
+        {
+          "id": "ev-muddy-waters-car-crash",
+          "category": "culture",
+          "headline": "Muddy Waters survives a near-fatal car crash",
+          "summary_line_1": "Blues legend Muddy Waters was critically injured in a head-on car crash near Chicago while driving home from a Saturday night show in Tennessee, an accident that killed his driver and two occupants of the other car.",
+          "summary_line_2": "Waters broke three ribs and shattered his hip and pelvis, spending two months in the hospital, an ordeal detailed years later by <a href=\"https://www.thecurrent.org/feature/2018/10/05/today-in-music-history-muddy-waters-almost-dies-in-a-car-crash\" target=\"_blank\" rel=\"noopener\">Minnesota Public Radio's The Current</a>, before he returned to a career that still had its biggest Grammy wins ahead of it.",
+          "youtube_id": "bSfqNEvykv0",
+          "image": null,
+          "internal_link": null,
+          "external_link": { "text": "Minnesota Public Radio's The Current", "url": "https://www.thecurrent.org/feature/2018/10/05/today-in-music-history-muddy-waters-almost-dies-in-a-car-crash" }
+        }
+      ]
+    },
+    {
+      "year": 1968,
+      "events": [
+        {
+          "id": "ev-hendrix-winterland",
+          "category": "concert",
+          "headline": "The Jimi Hendrix Experience tear through night two at Winterland",
+          "summary_line_1": "The Jimi Hendrix Experience played two shows at the Winterland Ballroom in San Francisco, the middle night of a three-night run that stretched from October 10 to 12, 1968.",
+          "summary_line_2": "Like a Rolling Stone from this exact performance later surfaced as part of the <a href=\"https://www.jimihendrix.com/encyclopedia-item/october-11-1968-winterland-ballroom-san-francisco-california/\" target=\"_blank\" rel=\"noopener\">officially sanctioned Winterland box set</a>, giving fans a studio-quality release of a show that had circulated only as bootleg tape for decades.",
+          "youtube_id": "ktjpxrIFOx8",
+          "image": null,
+          "internal_link": null,
+          "external_link": { "text": "officially sanctioned Winterland box set", "url": "https://www.jimihendrix.com/encyclopedia-item/october-11-1968-winterland-ballroom-san-francisco-california/" }
+        },
+        {
+          "id": "ev-beatles-savoy-truffle-horns",
+          "category": "industry",
+          "headline": "The Beatles distort a horn section for Savoy Truffle",
+          "summary_line_1": "The <a href=\"/blog/artists/the-beatles/\">Beatles</a> brought six saxophonists into EMI Studio Two to overdub Savoy Truffle, with George Harrison asking engineer Ken Scott to push the brass into deliberate distortion.",
+          "summary_line_2": "The gritty horn line, arranged by George Martin's assistant Chris Thomas and documented on <a href=\"https://www.beatlesbible.com/songs/savoy-truffle/\" target=\"_blank\" rel=\"noopener\">Beatles Bible</a>, became one of the White Album's most Motown-indebted touches.",
+          "youtube_id": "z9EaBjFvQpc",
+          "image": null,
+          "internal_link": { "text": "Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": { "text": "Beatles Bible", "url": "https://www.beatlesbible.com/songs/savoy-truffle/" }
+        }
+      ]
+    },
+    {
+      "year": 1967,
+      "events": [
+        {
+          "id": "ev-doors-danbury-high-school",
+          "category": "concert",
+          "headline": "The Doors play Danbury High School after a last-minute venue switch",
+          "summary_line_1": "The <a href=\"/blog/artists/the-doors/\">Doors</a> performed at Danbury High School Auditorium in Connecticut after the originally booked venue, Western Connecticut State College, was unavailable for repairs, drawing roughly 2,000 fans for the college's Fall Weekend.",
+          "summary_line_2": "<a href=\"/blog/songs/light-my-fire-doors/\">Light My Fire</a> had topped the Hot 100 that summer, and the band's sudden national profile made the swapped-venue show one of the year's hotter local tickets.",
+          "youtube_id": "qoX6AKuYWL8",
+          "image": null,
+          "internal_link": { "text": "Light My Fire", "url": "/blog/songs/light-my-fire-doors/" },
+          "external_link": null
+        },
+        {
+          "id": "ev-lennon-ono-half-a-wind-show",
+          "category": "culture",
+          "headline": "Yoko Ono's Half-A-Wind Show opens at London's Lisson Gallery",
+          "summary_line_1": "Yoko Ono's Half-A-Wind Show, billed on its own poster as Yoko Plus Me, opened at the Lisson Gallery in London, an exhibition of sliced and half-painted household objects that <a href=\"/blog/artists/the-beatles/\">John Lennon</a> quietly underwrote.",
+          "summary_line_2": "It was the first time Lennon's name was publicly tied to Ono's art, a year before their relationship went public, and the show ran through mid-November 1967, per the <a href=\"https://www.walkerart.org/collections/artwork/invitation-to-preview-yoko-ono-at-lisson-half-a-wind-show-london-october-10-1967/\" target=\"_blank\" rel=\"noopener\">Walker Art archive</a>.",
+          "youtube_id": "Mki34tyoCp0",
+          "image": null,
+          "internal_link": { "text": "John Lennon", "url": "/blog/artists/the-beatles/" },
+          "external_link": { "text": "Walker Art archive", "url": "https://www.walkerart.org/collections/artwork/invitation-to-preview-yoko-ono-at-lisson-half-a-wind-show-london-october-10-1967/" }
+        }
+      ]
+    },
+    {
+      "year": 1965,
+      "events": [
+        {
+          "id": "ev-gerry-marsden-marries-pauline-behan",
+          "category": "culture",
+          "headline": "Gerry Marsden marries Pauline Behan",
+          "summary_line_1": "Gerry Marsden of Gerry and the Pacemakers, a leading voice of the <a href=\"/blog/genres/british-invasion/\">British Invasion</a>, married Pauline Behan, the secretary of his fan club, at St. Mary's Church in Woolton, Liverpool, with Beatles manager Brian Epstein among the guests.",
+          "summary_line_2": "Marsden and Behan stayed married until his death in 2021, while the group's signature anthem You'll Never Walk Alone remained the defining song of his career.",
+          "youtube_id": "OV5_LQArLa0",
+          "image": null,
+          "internal_link": { "text": "British Invasion", "url": "/blog/genres/british-invasion/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1964,
+      "events": [
+        {
+          "id": "ev-orbison-ed-sullivan-pretty-woman",
+          "category": "broadcast",
+          "headline": "Roy Orbison makes his only Ed Sullivan Show appearance",
+          "summary_line_1": "Roy Orbison performed Oh, Pretty Woman live on The Ed Sullivan Show, his first and only appearance on the program, introduced by Sullivan as \"the fella out of Odessa, Texas.\"",
+          "summary_line_2": "The single was holding the No. 1 spot on the Billboard Hot 100 that same week, and the song later earned a spot on the <a href=\"https://www.loc.gov/static/programs/national-recording-preservation-board/documents/PrettyWoman.pdf\" target=\"_blank\" rel=\"noopener\">Library of Congress National Recording Registry</a>.",
+          "youtube_id": "O5Rh0GjD1Yg",
+          "image": null,
+          "internal_link": null,
+          "external_link": { "text": "Library of Congress National Recording Registry", "url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/PrettyWoman.pdf" }
+        },
+        {
+          "id": "ev-beatles-odeon-birmingham",
+          "category": "concert",
+          "headline": "The Beatles play two shows at Birmingham's Odeon Cinema",
+          "summary_line_1": "The <a href=\"/blog/artists/the-beatles/\">Beatles</a> played two concerts at the Odeon Cinema in Birmingham, the third date of their autumn 1964 British tour, running through a ten-song set that closed with Long Tall Sally.",
+          "summary_line_2": "A Hard Day's Night, both the film and the album, was still riding high on the UK charts that week, months after its summer release.",
+          "youtube_id": "Yjyj8qnqkYI",
+          "image": null,
+          "internal_link": { "text": "Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1963,
+      "events": [
+        {
+          "id": "ev-stones-gaumont-derby",
+          "category": "concert",
+          "headline": "The Rolling Stones play two shows at Derby's Gaumont",
+          "summary_line_1": "The <a href=\"/blog/artists/the-rolling-stones/\">Rolling Stones</a> played two houses at the Gaumont in Derby as part of their first national UK package tour, sharing the bill with Bo Diddley, Little Richard and the Everly Brothers.",
+          "summary_line_2": "Come On, their debut single and still a fixture of the band's live set that autumn, was captured two weeks later for BBC radio's Saturday Club.",
+          "youtube_id": "LCUxr-nyx5Q",
+          "image": null,
+          "internal_link": { "text": "Rolling Stones", "url": "/blog/artists/the-rolling-stones/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1962,
+      "events": [
+        {
+          "id": "ev-beatles-rialto-ballroom",
+          "category": "concert",
+          "headline": "The Beatles play their second Rialto Ballroom show of the night",
+          "summary_line_1": "The <a href=\"/blog/artists/the-beatles/\">Beatles</a> returned to Liverpool's Rialto Ballroom on Upper Parliament Street for the second of two performances that evening, playing to local crowds less than a week after releasing their debut single.",
+          "summary_line_2": "Love Me Do had come out on October 5, and Liverpool dance-hall crowds that month were among the first anywhere to hear the group play it live.",
+          "youtube_id": "7uQuX1sOYk4",
+          "image": null,
+          "internal_link": { "text": "Beatles", "url": "/blog/artists/the-beatles/" },
+          "external_link": null
+        }
+      ]
+    },
+    {
+      "year": 1960,
+      "events": [
+        {
+          "id": "ev-miles-davis-olympia-paris",
+          "category": "concert",
+          "headline": "Miles Davis Quintet plays two shows at the Paris Olympia",
+          "summary_line_1": "Miles Davis brought his touring quintet, Sonny Stitt on saxophone, Wynton Kelly on piano, Paul Chambers on bass and Jimmy Cobb on drums, to the Olympia Theatre in Paris for two concerts recorded live by French radio.",
+          "summary_line_2": "The tapes sat unreleased for decades until The Lost Recordings restored and issued them as a box set in 2024, finally giving <a href=\"/blog/genres/jazz-easy-listening/\">jazz</a> fans an official release of a night captured from the stage.",
+          "youtube_id": "ylXk1LBvIqU",
+          "image": null,
+          "internal_link": { "text": "jazz", "url": "/blog/genres/jazz-easy-listening/" },
+          "external_link": null
+        }
+      ]
+    }
+  ]
+}
