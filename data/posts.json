@@ -850,6 +850,16 @@
       "date": "2026-10-03",
       "genre": null,
       "seq": 40
+    },
+    {
+      "id": "on-this-day-october-11",
+      "title": "On This Day: October 11 in 1960s Music",
+      "slug": "/blog/on-this-day/october-11/",
+      "type": "on-this-day",
+      "description": "12 verified 1960s music events from October 11: the Jimi Hendrix Experience play Winterland, Roy Orbison performs Oh, Pretty Woman on Ed Sullivan, and the Rolling Stones play Derby's Gaumont.",
+      "date": "2026-10-05",
+      "genre": null,
+      "seq": 41
     }
   ]
 }
