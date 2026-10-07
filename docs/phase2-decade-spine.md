@@ -173,9 +173,11 @@ Every year page pushed to `main`, task 16 hub included, updates all of
 the following in the same push, not a follow-up session: `sitemap.xml`
 (via `gen/generate_sitemap.py`, after adding the path to
 `STATIC_PAGES`), `link-map.md` (new row, live URL, up/across links),
-and the `/1960s/` hub (its year-guide grid: move the card from "Coming
-Soon" to a live link). This rule exists because task 3 shipped without
-any of the three the first time.
+the `/1960s/` hub (its year-guide grid: move the card from "Coming
+Soon" to a live link), and the homepage's "1960s music, year by year"
+grid in `index.html` (add the new year's card; missed for 1964 on the
+first push, fixed the same day). This rule exists because task 3 shipped without
+any of the first three the first time.
 
 ## Gate 2 (target Nov 8)
 All 10 year pages and the Best 60s Songs list are live and linked from
