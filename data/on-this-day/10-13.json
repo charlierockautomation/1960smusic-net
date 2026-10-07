@@ -1,0 +1,232 @@
+{
+  "date_label": "October 13",
+  "date_slug": "october-13",
+  "flagship": {
+    "year": 1963,
+    "category": "broadcast",
+    "headline": "The Beatles top the bill at the London Palladium and Beatlemania takes hold",
+    "summary_line_1": "The <a href=\"/blog/artists/the-beatles/\">Beatles</a> closed ITV's Sunday Night at the London Palladium with From Me to You, I'll Get You, She Loves You and Twist and Shout, in front of an estimated 15 to 18 million viewers.",
+    "summary_line_2": "Screaming crowds around the theatre helped push the mainstream press toward the word Beatlemania, as the <a href=\"https://www.beatlesbible.com/1963/10/13/beatlemania-begins-sunday-night-at-the-london-palladium/\" target=\"_blank\" rel=\"noopener\">Beatles Bible</a> recounts.",
+    "youtube_id": "nGbWU8S3vzs",
+    "image": null
+  },
+  "stats": [
+    {
+      "value": 10,
+      "label": "verified events"
+    },
+    {
+      "value": 5,
+      "label": "event categories"
+    },
+    {
+      "value": 10,
+      "label": "watchable clips"
+    }
+  ],
+  "years": [
+    {
+      "year": 1969,
+      "events": [
+        {
+          "id": "ev-holly-holy-release",
+          "category": "release",
+          "headline": "Neil Diamond releases Holly Holy on Uni Records",
+          "summary_line_1": "Neil Diamond's Holly Holy came out as a single on Uni Records.",
+          "summary_line_2": "It climbed to No. 6 on the Billboard Hot 100 by December, according to <a href=\"https://en.wikipedia.org/wiki/Holly_Holy\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>.",
+          "youtube_id": "qoNTEWRsFk4",
+          "image": null,
+          "internal_link": null,
+          "external_link": {
+            "text": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Holly_Holy"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1968,
+      "events": [
+        {
+          "id": "ev-dead-avalon-oct13",
+          "category": "concert",
+          "headline": "The Grateful Dead open with Dark Star at the Avalon Ballroom",
+          "summary_line_1": "The Grateful Dead played San Francisco's Avalon Ballroom, with a first set that ran from Dark Star into St. Stephen, The Eleven and Death Don't Have No Mercy, per the <a href=\"https://www.gdao.org/items/show/240993\" target=\"_blank\" rel=\"noopener\">GDAO archive</a>.",
+          "summary_line_2": "Keyboardist Ron \"Pigpen\" McKernan missed the night, and tapes from the previous night's show are often mislabeled as this one, so the clip below is a 1974 Dark Star rather than this performance.",
+          "youtube_id": "AlWqitKLnfs",
+          "image": null,
+          "internal_link": {
+            "text": "psychedelic rock",
+            "url": "/blog/genres/psychedelic-rock/"
+          },
+          "external_link": {
+            "text": "GDAO archive",
+            "url": "https://www.gdao.org/items/show/240993"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1967,
+      "events": [
+        {
+          "id": "ev-who-miles-uk",
+          "category": "release",
+          "headline": "The Who release I Can See for Miles in the UK",
+          "summary_line_1": "Track Records issued the <a href=\"/blog/artists/the-who/\">Who</a>'s I Can See for Miles, backed with Someone's Coming, as Track 604 011, per <a href=\"https://www.thewho.com/?p=3365\" target=\"_blank\" rel=\"noopener\">thewho.com</a>.",
+          "summary_line_2": "Pete Townshend's single reached No. 10 in the UK and No. 9 in the US.",
+          "youtube_id": "KEUOsVEzSMg",
+          "image": null,
+          "internal_link": {
+            "text": "Who",
+            "url": "/blog/artists/the-who/"
+          },
+          "external_link": {
+            "text": "thewho.com",
+            "url": "https://www.thewho.com/?p=3365"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1966,
+      "events": [
+        {
+          "id": "ev-hendrix-first-gig",
+          "category": "concert",
+          "headline": "The Jimi Hendrix Experience play their first show in France",
+          "summary_line_1": "The Jimi Hendrix Experience made their live debut at the Novelty cinema in Évreux, opening for Johnny Hallyday, according to <a href=\"https://ultimateclassicrock.com/jimi-hendrix-experience-live-debut/\" target=\"_blank\" rel=\"noopener\">Ultimate Classic Rock</a>.",
+          "summary_line_2": "The short set mixed covers such as In the Midnight Hour and Land of a Thousand Dances with Hey Joe, the song heard in the clip below.",
+          "youtube_id": "rXwMrBb2x1Q",
+          "image": null,
+          "internal_link": {
+            "text": "psychedelic rock",
+            "url": "/blog/genres/psychedelic-rock/"
+          },
+          "external_link": {
+            "text": "Ultimate Classic Rock",
+            "url": "https://ultimateclassicrock.com/jimi-hendrix-experience-live-debut/"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1965,
+      "events": [
+        {
+          "id": "ev-who-my-generation-ibc",
+          "category": "industry",
+          "headline": "The Who record My Generation at IBC Studios",
+          "summary_line_1": "The <a href=\"/blog/artists/the-who/\">Who</a> cut My Generation at IBC Studios in London with producer Shel Talmy, according to <a href=\"https://www.thewho.com/?p=2582\" target=\"_blank\" rel=\"noopener\">thewho.com</a>.",
+          "summary_line_2": "The single went on to reach No. 2 in the UK.",
+          "youtube_id": "fRipFYoji2A",
+          "image": null,
+          "internal_link": {
+            "text": "Who",
+            "url": "/blog/artists/the-who/"
+          },
+          "external_link": {
+            "text": "thewho.com",
+            "url": "https://www.thewho.com/?p=2582"
+          }
+        },
+        {
+          "id": "ev-beatles-drive-my-car",
+          "category": "industry",
+          "headline": "The Beatles start Drive My Car in a session that runs past midnight",
+          "summary_line_1": "The <a href=\"/blog/artists/the-beatles/\">Beatles</a> worked on Drive My Car in Studio Two at EMI Studios from 7pm until 12:15am, in four attempts, per the <a href=\"https://www.beatlesbible.com/1965/10/13/recording-drive-my-car/\" target=\"_blank\" rel=\"noopener\">Beatles Bible</a>.",
+          "summary_line_2": "It was the first Beatles session to finish after midnight, and the song became the opening track on Rubber Soul.",
+          "youtube_id": "TzSQJRELzBw",
+          "image": null,
+          "internal_link": {
+            "text": "Beatles",
+            "url": "/blog/artists/the-beatles/"
+          },
+          "external_link": {
+            "text": "Beatles Bible",
+            "url": "https://www.beatlesbible.com/1965/10/13/recording-drive-my-car/"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1964,
+      "events": [
+        {
+          "id": "ev-beatles-wigan",
+          "category": "concert",
+          "headline": "The Beatles play two shows at the ABC Cinema in Wigan",
+          "summary_line_1": "The <a href=\"/blog/artists/the-beatles/\">Beatles</a> played Wigan's ABC Cinema at 6:20pm and 8:35pm, their only visit to the town, per the <a href=\"https://www.beatlesbible.com/1964/10/13/live-abc-cinema-wigan/\" target=\"_blank\" rel=\"noopener\">Beatles Bible</a>.",
+          "summary_line_2": "It was the fourth date of the autumn 1964 British tour, with Mary Wells among the support acts and A Hard Day's Night in the set.",
+          "youtube_id": "Yjyj8qnqkYI",
+          "image": null,
+          "internal_link": {
+            "text": "Beatles",
+            "url": "/blog/artists/the-beatles/"
+          },
+          "external_link": {
+            "text": "Beatles Bible",
+            "url": "https://www.beatlesbible.com/1964/10/13/live-abc-cinema-wigan/"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1963,
+      "events": [
+        {
+          "id": "ev-beatles-palladium",
+          "category": "broadcast",
+          "headline": "The Beatles top the bill at the London Palladium and Beatlemania takes hold",
+          "summary_line_1": "The <a href=\"/blog/artists/the-beatles/\">Beatles</a> closed ITV's Sunday Night at the London Palladium with From Me to You, I'll Get You, She Loves You and Twist and Shout, in front of an estimated 15 to 18 million viewers.",
+          "summary_line_2": "Screaming crowds around the theatre helped push the mainstream press toward the word Beatlemania, as the <a href=\"https://www.beatlesbible.com/1963/10/13/beatlemania-begins-sunday-night-at-the-london-palladium/\" target=\"_blank\" rel=\"noopener\">Beatles Bible</a> recounts.",
+          "youtube_id": "nGbWU8S3vzs",
+          "image": null,
+          "internal_link": {
+            "text": "Beatles",
+            "url": "/blog/artists/the-beatles/"
+          },
+          "external_link": {
+            "text": "Beatles Bible",
+            "url": "https://www.beatlesbible.com/1963/10/13/beatlemania-begins-sunday-night-at-the-london-palladium/"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1962,
+      "events": [
+        {
+          "id": "ev-don-everly-breakdown",
+          "category": "concert",
+          "headline": "Don Everly breaks down at a London rehearsal before the Everly Brothers tour",
+          "summary_line_1": "Don Everly collapsed during rehearsals at London's Prince of Wales Theatre on the eve of the Everly Brothers' UK tour, as <a href=\"https://mojo4music.com/time-machine/1960s/mojo-time-machine-the-everley-brother-tour\" target=\"_blank\" rel=\"noopener\">MOJO</a> tells it.",
+          "summary_line_2": "He flew home to New York days later, and Phil Everly carried on, headlining the bill with bassist Joey Page stepping in.",
+          "youtube_id": "y6QrGxDzsFU",
+          "image": null,
+          "internal_link": null,
+          "external_link": {
+            "text": "MOJO",
+            "url": "https://mojo4music.com/time-machine/1960s/mojo-time-machine-the-everley-brother-tour"
+          }
+        }
+      ]
+    },
+    {
+      "year": 1960,
+      "events": [
+        {
+          "id": "ev-joey-belladonna-born",
+          "category": "birth",
+          "headline": "Joey Belladonna is born in Oswego, New York",
+          "summary_line_1": "Singer Joey Belladonna, later of Anthrax, was born in Oswego, New York.",
+          "summary_line_2": "He joined Anthrax in 1984 and fronted Among the Living and State of Euphoria, and the Madhouse video below comes from his first album with the band.",
+          "youtube_id": "uGHsxMqpL0c",
+          "image": null,
+          "internal_link": null,
+          "external_link": null
+        }
+      ]
+    }
+  ]
+}
