@@ -461,7 +461,7 @@
       "title": "On This Day: September 15 in 1960s Music",
       "slug": "/blog/on-this-day/september-15/",
       "type": "on-this-day",
-      "description": "Nine verified 1960s music events from September 15: the Rolling Stones' Waldb\u00fchne riot in Berlin, Otis Blue and Something Else released, and police halting the Beatles onstage in Cleveland.",
+      "description": "Nine verified 1960s music events from September 15: the Rolling Stones' Waldbühne riot in Berlin, Otis Blue and Something Else released, and police halting the Beatles onstage in Cleveland.",
       "date": "2026-09-03",
       "genre": null,
       "seq": 15
@@ -870,6 +870,16 @@
       "date": "2026-10-05",
       "genre": null,
       "seq": 42
+    },
+    {
+      "id": "on-this-day-october-13",
+      "title": "On This Day: October 13 in 1960s Music",
+      "slug": "/blog/on-this-day/october-13/",
+      "type": "on-this-day",
+      "description": "10 verified 1960s music events from October 13: the Beatles top the bill at the London Palladium and spark Beatlemania, the Jimi Hendrix Experience play their first show, and the Who record My Generation.",
+      "date": "2026-10-06",
+      "genre": null,
+      "seq": 43
     }
   ]
 }

@@ -130,7 +130,7 @@ past that, move the oldest `live` rows out to
 | 40 | October 10 | /blog/on-this-day/october-10/ | data/on-this-day/10-10.json | live |
 | 41 | October 11 | /blog/on-this-day/october-11/ | data/on-this-day/10-11.json | live |
 | 42 | October 12 | /blog/on-this-day/october-12/ | data/on-this-day/10-12.json | live |
-| 43 | October 13 | /blog/on-this-day/october-13/ | data/on-this-day/10-13.json | not started |
+| 43 | October 13 | /blog/on-this-day/october-13/ | data/on-this-day/10-13.json | live |
 | 44 | October 14 | /blog/on-this-day/october-14/ | data/on-this-day/10-14.json | not started |
 | 45 | October 15 | /blog/on-this-day/october-15/ | data/on-this-day/10-15.json | not started |
 | 46 | October 16 | /blog/on-this-day/october-16/ | data/on-this-day/10-16.json | not started |
