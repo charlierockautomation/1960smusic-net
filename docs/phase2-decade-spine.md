@@ -39,7 +39,7 @@ restored, and note the result here either way.
 | 5 | Year page: 1963 | live |
 | 6 | Year page: 1964 | live |
 | 7 | Year page: 1965 | live |
-| 8 | Year page: 1966 | not started |
+| 8 | Year page: 1966 | live |
 | 9 | Year page: 1967 | not started |
 | 10 | Year page: 1968 | not started |
 | 11 | Year page: 1969 | not started |
@@ -99,6 +99,22 @@ verified embeddable, not made-for-kids, in one batched call. Links all
 Stones in Finland, June 25 1965 (Finnish Heritage Agency, via Wikimedia
 Commons). Notable Events links OTD Sep 4, Sep 12, Oct 9. Playwright
 self-test (`gen/test_playlist_player_1965.py`) PASS.
+
+`/1960s/1966/` live 2026-10-08, 1694 words, check_article.py PASS.
+Billboard year-end top 25 of 1966 uses Billboard's REVISED ranking
+(Green Berets No. 1; billboardtop100of.com full list, Billboard's
+revision confirmed by AOL and Wikipedia's Green Berets article). The
+original Dec 24 1966 printed list (Wikipedia) ranks California
+Dreamin' first and Green Berets tenth; the page says so in an h3.
+Billboard's own page returned HTTP 402. Chronological number-ones list
+(27 titles, weeks cross-checked against rogerogreen.com). All 25
+YouTube ids resolved (6 cached, 19 via scraper) and verified
+embeddable, not made-for-kids, in one batched call; several carry the
+usual acceptable-if-compliant `yt` flag. Links 7 hubs (no country-60s,
+no verified 1966 tie). Featured image: CBS publicity photo of the
+Supremes on Ed Sullivan, 1966, public domain via Wikimedia Commons.
+Notable Events links OTD Sep 3, 12, 21, 24, Oct 15 (Sep 10 in albums
+bullet text only, no link). Playwright self-test PASS.
 
 ### 12. Best 60s Songs list page
 `/best-60s-songs/`: 100 songs pulled from `data/songs.json` (extend the
