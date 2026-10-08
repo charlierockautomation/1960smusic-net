@@ -23,7 +23,10 @@ How to use:
      if it fits), visible "Updated" date in the byline matching JSON-LD
      dateModified. Song/artist pages: Key Facts box after the intro and a
      link to the matching /1960s/<year>/ page (plus /best-60s-songs/ when
-     the song is on that list).
+     the song is on that list); add the gen/key_facts_data.py entry BEFORE
+     writing. Trending: link at least one relevant /1960s/<year>/ page.
+     Genre hubs: link every year in gen/genre_peak_years.py. All types:
+     og:image + JSON-LD image must be self-hosted files that exist.
   6. Run: python3 gen/check_article.py blog/{artists|songs}/{slug}/index.html
      Fix and rerun until PASS before committing.
 -->

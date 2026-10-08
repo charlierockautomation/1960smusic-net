@@ -18,18 +18,9 @@ minimum continues. Why: `docs/strategy-review-2026-09.md`.
 
 ## Commands
 
-```bash
-# Regenerate data/*.json from the gen/ source-of-truth Python modules
-cd gen && python3 generate.py
-
-# QA pass on cached YouTube ids (flags non-official-looking channels)
-cd gen && python3 augment.py
-
-# Local preview (plain static site, no build)
-python3 -m http.server 8000
-```
-
-No test suite, linter, or JS build in this repo.
+Regenerate data: `cd gen && python3 generate.py`. YouTube QA: `cd gen &&
+python3 augment.py`. Preview: `python3 -m http.server 8000`. No test suite,
+linter, or JS build.
 
 ## Data Rules
 
@@ -52,6 +43,10 @@ Before shipping a new id, it needs an on-record `embeddable=true` /
 key). `check_article.py` enforces this on song/artist pages; other types
 need a manual check first.
 
+**Never search for, read, or ask for the YouTube API key, in any session.**
+When ids need checking, give Charlie the exact `gen/yt_video_status.py`
+command and wait. He runs it himself; then read `gen/yt_status_cache.json`.
+
 ## No Hallucination Rule — ABSOLUTE
 
 Never invent dates, chart positions, quotes, tour details, member tenures, or
@@ -71,40 +66,43 @@ queue, not ad hoc requests.
    currently-ranking pages for the focus keyword, read all 3, note every true
    fact and subtopic they cover. This is mandatory pre-writing research, not
    an optional polish pass.
-3. **Build with `/docs/article-template.html`** as the shell. Facts from
-   `data/songs.json` / `data/artists.json` first, then competitor research,
-   then web search to verify and fill remaining gaps. Never invent history,
-   quotes, or trivia.
-4. **`gen/check_article.py` is the formatting/structure gate.** It also
-   enforces: title tag ≤60 chars, visible "Updated" date = JSON-LD
-   dateModified, Key Facts box (song/artist, built by
-   `gen/build_key_facts.py` from `gen/key_facts_data.py`), link to the
-   matching `/1960s/<year>/` page (+ `/best-60s-songs/` if listed), and
-   canonical `/about/`-style legal links. Run it on
-   the built page; fix and rerun until it PASSes. Never bring a formatting or
-   structure question to Charlie — the template, `docs/writing-standard.md`,
-   and check_article.py already define all of it. Do not commit on a FAIL.
-5. **Two required human checkpoints, no others:** Charlie gives the go-ahead
-   to start a session, and Charlie gives explicit approval before any page is
-   pushed to `main`. Build, validate, and present the page (e.g. local
-   server) for that approval — don't push unprompted, don't wait on Charlie
-   for anything else in between.
-6. **Once live and confirmed** (page responds 200 at its live URL), in the
-   same session update all four, in order: `docs/content-build.md` (status →
-   `live`), `data/posts.json` (new entry — this is what makes it show up on
-   `/blog/` and its category archive), `link-map.md` (status → `live`, live
-   URL, inbound/outbound links), then
-   run **`python3 gen/publish_prep.py`**: one command that rebuilds the
-   static blog cards (`build_listings.py`), regenerates `sitemap.xml`
-   (every live page found on disk, canonical trailing-slash URLs, real
-   lastmod) and `llms.txt` (includes Year Guides, Best 60s Songs, author
-   page), then runs `check_article.py --site` to prove both are in sync.
-   Commit/push the regenerated files with the tracker updates, then ping
-   IndexNow (`python3 gen/indexnow_ping.py <new-page-url>`, see
-   `gen/indexnow_ping.py`) for the page(s) that just went live. Only then
-   move to the next queue row. `check_article.py` FAILs a page already in
-   `posts.json` that is missing from `sitemap.xml`/`llms.txt`. A page not
-   meant to be indexed yet must carry `<!-- DRAFT -->` or `noindex`.
+3. **Key Facts data first (song/artist).** Before writing, add the page's
+   entry to `gen/key_facts_data.py` with verified facts only (omit anything
+   unconfirmed). `check_article.py` FAILs a song/artist page with no entry or
+   a box that doesn't match it. Then build with `/docs/article-template.html`
+   as the shell: facts from `data/songs.json` / `data/artists.json`, then
+   competitor research, then web search to verify gaps. Never invent history,
+   quotes, or trivia. Run `gen/build_key_facts.py --write` for the box.
+4. **`gen/check_article.py` is the formatting/structure gate.** It FAILs a
+   page missing any of: title ≤60 chars; visible "Updated" = JSON-LD
+   dateModified; `og:image` and JSON-LD `image` (absolute, file exists); Key
+   Facts box (song/artist); a `/1960s/<year>/` link (song: its release year;
+   artist: key years; trending: at least one; genre hub: every year in
+   `gen/genre_peak_years.py`; On This Day: one in each year section);
+   `/best-60s-songs/` if the song is listed; canonical `/about/`-style legal
+   links. Run it on the built page; fix and rerun until it PASSes. Never bring
+   a formatting or structure question to Charlie. Do not commit on a FAIL.
+5. **Pre-push gate, in this order, any failure blocks the push:**
+   (a) `python3 gen/check_article.py <new page>`; (b) add the `data/posts.json`
+   entry; (c) `python3 gen/publish_prep.py` (listings, `sitemap.xml`,
+   `llms.txt`, `check_article.py --site`, then `validate_jsonld.py --all`).
+   A page not meant to be indexed yet carries `<!-- DRAFT -->` or `noindex`.
+   Then the **two required human checkpoints, no others:** Charlie's go-ahead
+   to start a session, and Charlie's explicit approval before any push to
+   `main`. Present the page (local server) for it. Don't push unprompted.
+6. **Post-push, same session:** (a) `python3 gen/verify_live.py --last-commit`
+   (or pass the URLs): each must be HTTP 200 and in the live `sitemap.xml` and
+   `llms.txt`; retry after a minute if the deploy is still building; report
+   the output. (b) `python3 gen/indexnow_ping.py <new-page-url>`. (c) Update,
+   in order: `docs/content-build.md` (status → `live`), `link-map.md` (status,
+   live URL, inbound/outbound links); commit/push those. Only then move to the
+   next queue row.
+
+## Updated Dates
+
+Visible "Updated" and JSON-LD `dateModified` change only for substantive
+content edits (facts, prose, new sections). Link, image, markup, or SEO-plumbing
+changes never bump them.
 
 ## Content Quality & Site-Strengthening Standard
 
@@ -143,26 +141,18 @@ it from British Invasion, Garage & Surf, Folk Rock, and Psychedelic).
 
 ## Content Rotation
 
-New rows added to `docs/content-build.md` should round-robin across the 8
-genres in `data/genres.json` rather than stacking many rows of one genre
-back to back, so no single genre gets fully built out while others sit
-untouched. This governs how *future* rows get queued, it does not mandate
-reordering rows already locked into the active queue.
+New `docs/content-build.md` rows round-robin across the 8 genres in
+`data/genres.json`; never stack many rows of one genre. Applies to future
+rows only, not rows already locked into the active queue.
 
 ## File Size Ceiling
 
-Every tracker/doc file in `docs/` stays at or under **195 lines** (hard
-ceiling 199, 195 is the working trigger so edits have headroom). The
-moment a file would cross 195, rotate content out into another doc: keep
-an active file (what's in progress/next) and push the rest into an
-archive file (done rows) or a numbered overflow chain (`-queued.md`,
-`-queued-2.md`, `-queued-3.md`, ...) for future rows. Each file that
-paginates further names its successor in its own header. This is how
-`docs/content-build.md` / `-archive.md` / `-queued.md` / `-queued-2.md`
-and `docs/on-this-day-build.md` / `-archive.md` / `-queued.md` /
-`-queued-2.md` already work. When one overflow file empties (its rows
-pulled up into the active file), the next one in the chain becomes the
-source. Update every affected file's header to say what moved and where.
+Every tracker/doc file in `docs/` (and CLAUDE.md) stays at or under **195
+lines** (hard ceiling 199). When a file would cross 195, rotate content out:
+keep an active file and push done rows to an archive or a numbered overflow
+chain (`-queued.md`, `-queued-2.md`, ...), as `docs/content-build.md` and
+`docs/on-this-day-build.md` already do. Each paginating file names its
+successor in its header; update every affected header when content moves.
 
 ## On This Day Pace
 
@@ -172,28 +162,11 @@ this series (see its own header for the current workflow).
 
 ## Trending Posts
 
-`/blog/trending/` covers 1960s songs/artists resurging in modern
-culture (TikTok, streaming, sync placements). Same content pipeline
-as every other type above, plus:
-
-- Word count target: 400-700 words. Trending-specific structure and
-  the mandatory "why it's trending now" module are in
-  `docs/writing-standard.md`.
-- Live TikTok embed (blockquote + `tiktok.com/embed.js`) required,
-  placed where it's contextually relevant. Confirm it actually
-  renders before marking the page done, don't assume the markup is
-  enough. This repo's dev sandbox cannot always reach TikTok's video
-  CDN, so a local check can show a correctly-built but blank embed;
-  spot-check the live URL after deploy the same way On This Day
-  YouTube ids get spot-checked.
-- Feature image is a real photo, never AI-generated, even when the
-  viral source clip itself uses an AI-generated image. Prefer a
-  freely-licensed photo of the artist (Wikimedia Commons first). If
-  none exists, fall back to editorial-context single/album cover art,
-  then non-person period-appropriate stock imagery, in that order.
-  Note which tier was used when reporting the page as done.
-- No rotation queue yet, unlike `docs/content-build.md`. Charlie
-  requests each Trending post individually until one exists.
+`/blog/trending/` (1960s songs/artists resurging in modern culture): same
+pipeline as above, plus a live TikTok embed, a real-photo feature image
+(never AI-generated), 400-700 words, and at least one `/1960s/<year>/`
+link. Full rules: @docs/trending-posts.md. Charlie requests each post
+individually; there is no rotation queue.
 
 ## No Subagents, Site-Wide
 
@@ -215,4 +188,4 @@ End each session on a closed status report, not an open question.
 
 ---
 Reference docs (loaded only when the task needs them):
-@docs/phase2-decade-spine.md · @docs/phase1-foundations.md · @docs/strategy-review-2026-09.md · @docs/architecture.md · @docs/content-build.md · @docs/writing-standard.md · @link-map.md
+@docs/phase2-decade-spine.md · @docs/phase1-foundations.md · @docs/strategy-review-2026-09.md · @docs/trending-posts.md · @docs/architecture.md · @docs/content-build.md · @docs/writing-standard.md · @link-map.md

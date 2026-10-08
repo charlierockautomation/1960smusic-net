@@ -4,6 +4,7 @@ and checks the properties Google's rich-result docs require/recommend for the
 types this site uses, plus cross-checks against the visible page.
 
 Usage: python3 gen/validate_jsonld.py <index.html> [...]
+       python3 gen/validate_jsonld.py --all      (every index.html on the site)
 Exit 1 if any ERROR. WARN = recommended property missing / soft mismatch.
 """
 import html
@@ -150,10 +151,12 @@ def validate(path):
     return types, errs, warns
 
 
-def main(paths):
+def main(paths, quiet=False):
     bad = False
     for p in paths:
         types, errs, warns = validate(p)
+        if quiet and not errs and not warns:
+            continue
         print(f"{p}\n  types: {', '.join(str(t) for t in types)}")
         for e in errs:
             print(f"  ERROR: {e}")
@@ -162,8 +165,20 @@ def main(paths):
         if not errs:
             print("  OK" + (" (with warnings)" if warns else ""))
         bad |= bool(errs)
+    if quiet:
+        print(f"validate_jsonld: {len(paths)} pages checked, " + ("ERRORS found" if bad else "no errors"))
     return 1 if bad else 0
 
 
 if __name__ == "__main__":
-    sys.exit(main(sys.argv[1:]))
+    args = sys.argv[1:]
+    quiet = args == ["--all"]
+    if quiet:
+        args = sorted(
+            os.path.join(d, "index.html")
+            for d, _, fs in os.walk(ROOT)
+            if "index.html" in fs
+            and os.path.relpath(d, ROOT).split(os.sep)[0] not in {"gen", "docs", "worker", "assets", "data", "node_modules"}
+            and not os.path.relpath(d, ROOT).startswith(".")
+        )
+    sys.exit(main(args, quiet=quiet))

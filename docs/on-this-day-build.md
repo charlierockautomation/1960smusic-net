@@ -40,20 +40,20 @@ audit rules) and `docs/on-this-day-template-spec.md` (page structure).
      goes in the JSON. If the working environment can't reach youtube.com
      to verify, say so explicitly and flag those IDs for Charlie to
      spot-check on the live page rather than silently skipping video.
-5. Build locally, run a local server, and get Charlie's explicit
-   go-ahead before pushing to `main`.
-6. Once pushed live, in the same session update all of: this file (status
-   -> `live`), `data/posts.json` (new entry, type `on-this-day`,
-   **including a `seq` field set to this file's queue row number** — see
-   note below, this is required, not optional), `link-map.md` (status ->
-   `live`, live URL, inbound/outbound links), then run
-   `python3 gen/build_listings.py` (rebuilds the static archive at
-   `blog/on-this-day/index.html` plus the homepage/blog-index latest-OTD
-   block from the updated `posts.json` — skipping this step left October 6
-   live but invisible on the archive/listing pages), and regenerate
-   `sitemap.xml` (`python3 gen/generate_sitemap.py`, after `posts.json` and
-   `build_listings.py` have both run). Only
-   then move to the next `not started` row.
+5. Pre-push gate, any failure blocks the push: `python3 gen/check_article.py
+   <page>` (OTD reduced set: byline/dates, title, og:image + JSON-LD image,
+   a `/1960s/<year>/` link inside every year section, FAQ, canonical links;
+   unrecorded YouTube ids print as NOTEs); add the `data/posts.json` entry
+   (type `on-this-day`, **including a `seq` field set to this file's queue
+   row number**, see note below, required); then `python3
+   gen/publish_prep.py` (listings, sitemap, llms.txt, site check,
+   `validate_jsonld.py --all`). Build locally, run a local server, and get
+   Charlie's explicit go-ahead before pushing to `main`.
+6. Post-push, same session: `python3 gen/verify_live.py --last-commit`
+   (200 + live sitemap.xml + live llms.txt, report the output), then update
+   this file (status -> `live`) and `link-map.md` (status -> `live`, live
+   URL, inbound/outbound links). Only then move to the next `not started`
+   row.
 
 **Why `seq` matters:** the `/blog/on-this-day/` archive and the blog index
 sort this type newest-first, but several date pages often get built and

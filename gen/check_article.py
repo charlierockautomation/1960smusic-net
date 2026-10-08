@@ -35,6 +35,12 @@ Full rules: docs/writing-standard.md. Checks enforced here (2026-08-16):
   - about / contact / privacy / terms links use the canonical trailing-slash
     form, page canonical matches the page's own URL, and a page already in
     data/posts.json is present in sitemap.xml and llms.txt
+  - og:image meta + Article JSON-LD image, both absolute site URLs to files
+    that exist (gen/check_seo.py); On This Day pages get a reduced check set
+    plus a /1960s/<year>/ link inside every year section
+  - song/artist: a gen/key_facts_data.py entry whose rows match the box
+  - trending: at least one /1960s/<year>/ link; genre hubs: every key year
+    in gen/genre_peak_years.py
   - keyword density strictly 1%-2% (outside that band is a fail either
     way), keyword present in title, meta description, first 100 words,
     at least one H2/H3, and never in two consecutive sentences. Focus
@@ -49,6 +55,9 @@ import os
 import re
 import sys
 import html as htmllib
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import check_seo
 
 SITE_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 YT_STATUS_CACHE = os.path.join(os.path.dirname(__file__), "yt_status_cache.json")
@@ -101,6 +110,8 @@ def detect_type(text, path):
             if key in label:
                 return key
     norm = path if path.startswith("/") else "/" + path
+    if re.search(r"/blog/on-this-day/[a-z]+-\d{1,2}/", norm):
+        return "on this day"
     if "/blog/artists/" in norm:
         return "artist bio"
     if "/blog/songs/" in norm:
@@ -432,6 +443,14 @@ def check_site():
     for loc in sorted(set(want) & set(have)):
         if want[loc][0] != have[loc]:
             errors.append(f"sitemap.xml lastmod for {loc} is {have[loc]}, page says {want[loc][0]}")
+    try:
+        with open(os.path.join(SITE_ROOT, "data", "posts.json"), encoding="utf-8") as f:
+            posted = {p["slug"] for p in json.load(f)["posts"]}
+    except (OSError, ValueError):
+        posted = set()
+    for loc in sorted(want):
+        if re.match(r"^/blog/(artists|songs|genres|trending|on-this-day)/[^/]+/$", loc) and loc not in posted:
+            errors.append(f"{loc} is indexable on disk but not in data/posts.json (add the entry, or mark the page <!-- DRAFT -->)")
     import generate_llms_txt as g
     sections = []
     for name, post_type in g.SECTIONS:
@@ -582,6 +601,23 @@ def check_file(path):
 
     errors = []
     notes = []
+    if page_type == "on this day":
+        # Event-feed pages: not prose articles, so only the structural/SEO gates apply.
+        check_em_dashes(text, errors)
+        check_faq(text, errors)
+        # Pre-existing gap (30+ embedded ids lack an on-record status): reported
+        # as NOTEs until gen/yt_video_status.py has been run for them.
+        yt = []
+        check_youtube_compliance(text, yt)
+        notes.extend(yt)
+        check_template_placeholders(text, errors)
+        check_byline(text, errors)
+        check_title_length(text, errors)
+        check_site_links(text, path, errors)
+        check_published_listing(path, errors)
+        check_seo.check_share_image(text, errors)
+        check_seo.check_year_links(text, page_type, path, errors)
+        return page_type, wc, errors, notes
     check_em_dashes(text, errors)
     check_faq(text, errors)
     check_toc(text, errors, wc)
@@ -596,6 +632,10 @@ def check_file(path):
     check_byline(text, errors)
     check_title_length(text, errors)
     check_key_facts(text, errors, page_type, path)
+    check_seo.check_key_facts_data(path, text, page_type, errors)
+    if page_type:
+        check_seo.check_share_image(text, errors)
+    check_seo.check_year_links(text, page_type, path, errors)
     check_site_links(text, path, errors)
     check_published_listing(path, errors)
     check_schema_subject(text, errors, page_type)

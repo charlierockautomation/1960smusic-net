@@ -627,3 +627,4 @@ h3{font-size:1.25rem;color:var(--ink-soft);}
 .key-facts dd{margin:0;}
 .key-facts a{color:var(--red);}
 @media (max-width:560px){.key-facts dl{grid-template-columns:1fr;gap:0;}.key-facts dd{margin-bottom:.5rem;}}
+.otd-year-guide{margin:-6px 0 14px;font-size:.95rem;}

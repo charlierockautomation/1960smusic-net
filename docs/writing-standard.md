@@ -87,7 +87,8 @@ the draft gets written:
   if it fits. Focus keyword still required in it.
 - Byline always shows "Published" and "Updated" dates; Updated equals the
   Article JSON-LD `dateModified`. A new page has both the same. Bump
-  Updated (and dateModified) only after a real content change.
+  Updated (and dateModified) only after a substantive content edit (facts,
+  prose, new sections). Link, image, markup or SEO-plumbing changes never bump it.
 - Song stories and artist bios carry a Key Facts box straight after the
   intro, before the featured image. Song rows: Released, Label, Written by,
   Produced by, US/UK peak. Artist rows: Origin, Genre, Label, Peak chart
@@ -97,6 +98,15 @@ the draft gets written:
 - Song pages link the matching `/1960s/<year>/` page, and
   `/best-60s-songs/` when the song is on that list; artist pages link the
   year pages of their key years.
+- Year-page links on every other type (check_article.py enforces): On This
+  Day links `/1960s/<year>/` inside each year section; trending posts link at
+  least one relevant year page, woven into a sentence that names that year;
+  genre hubs link every key year listed for them in
+  `gen/genre_peak_years.py` (edit that file if a hub's story shifts).
+- Every article type and On This Day page carries `og:image` and an Article
+  JSON-LD `image`: absolute `https://1960smusic.net/...` URLs to a file that
+  exists in the repo (self-hosted, never hotlinked). Song/artist Key Facts
+  data goes in `gen/key_facts_data.py` BEFORE the page is written.
 
 ## Structure
 

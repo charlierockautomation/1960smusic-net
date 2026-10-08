@@ -15,20 +15,20 @@ else.
    first; use web search only to fill verified gaps (release dates,
    chart facts, direct quotes with a real source). Never invent history,
    quotes, or trivia, matching the standing site rule in `README.md`.
-3. Run `python3 gen/check_article.py <path>` before committing. If it
-   fails, fix the article and rerun. Do not commit on a FAIL, and do not
-   ask Charlie to fix formatting or structure, since the template and
-   check_article.py already define both.
-4. Build locally, run a local server, and get Charlie's explicit
-   go-ahead before pushing to `main`. Pushing to `main` is what makes a
-   page live (see `wrangler.toml` / Cloudflare Workers Builds). Do not
-   push without that go-ahead.
-5. Once live, in the same session, update all three of:
-   - this file (status → `live`)
-   - `data/posts.json` (new entry)
-   - `link-map.md` (status → `live`, live URL, inbound/outbound links)
-
-   Only then move to the next `not started` row.
+3. For a song or artist, add its verified entry to `gen/key_facts_data.py`
+   BEFORE writing (check_article.py fails without it). Run
+   `python3 gen/check_article.py <path>` before committing. If it fails,
+   fix the article and rerun. Do not commit on a FAIL, and do not ask
+   Charlie to fix formatting or structure.
+4. Pre-push gate: add the `data/posts.json` entry, then run
+   `python3 gen/publish_prep.py` (listings, sitemap, llms.txt, site check,
+   `validate_jsonld.py --all`). Any failure blocks the push. Build locally,
+   run a local server, and get Charlie's explicit go-ahead before pushing
+   to `main` (see `wrangler.toml` / Cloudflare Workers Builds).
+5. Post-push, same session: `python3 gen/verify_live.py --last-commit`
+   (200 + in live sitemap.xml and llms.txt), then update this file (status
+   → `live`) and `link-map.md` (status → `live`, live URL, inbound/outbound
+   links). Only then move to the next `not started` row.
 
 Status values: `not started` · `in progress` (page being written) ·
 `drafted` (page written, not yet passing check_article.py or not yet
