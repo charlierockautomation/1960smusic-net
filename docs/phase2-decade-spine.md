@@ -43,7 +43,7 @@ restored, and note the result here either way.
 | 9 | Year page: 1967 | live |
 | 10 | Year page: 1968 | live |
 | 11 | Year page: 1969 | live |
-| 12 | Best 60s Songs list page (/best-60s-songs/) | not started |
+| 12 | Best 60s Songs list page (/best-60s-songs/) | live |
 | 13 | 60s Rock umbrella hub (/blog/genres/60s-rock/) | not started |
 | 14 | Tool intro copy (7 tools, 200-400 words each, crawlable) | not started |
 | 15 | Homepage rebuild (full pillar copy, not just Phase 1's static links) | not started |
@@ -137,6 +137,12 @@ self-test (`gen/test_playlist_player_1969.py`) PASS.
 dataset first if it doesn't yet cover 100), each with year, genre,
 one-line why-it-matters, embedded player, link to its song story where
 one exists. Targets "60s songs" / "60s music hits" clusters.
+
+Done 2026-10-08: `/best-60s-songs/` live, 3530 words, check_article.py PASS
+(new "list page" type, 2800-4200). 100 songs from `songs.json`, year order,
+not ranked; 27 link to song stories. Filters via opt-in
+`data-pp-visible-only` in playlist-table.js. Gap: dataset lacks Hey Jude and
+other big hits; 1960/1961 thin (3/4). Test: `gen/test_best_60s_songs.py`.
 
 ### 13. 60s Rock umbrella hub
 `/blog/genres/60s-rock/`: links down to British Invasion, Garage &
