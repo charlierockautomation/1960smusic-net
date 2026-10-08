@@ -41,7 +41,7 @@ restored, and note the result here either way.
 | 7 | Year page: 1965 | live |
 | 8 | Year page: 1966 | live |
 | 9 | Year page: 1967 | live |
-| 10 | Year page: 1968 | not started |
+| 10 | Year page: 1968 | live |
 | 11 | Year page: 1969 | not started |
 | 12 | Best 60s Songs list page (/best-60s-songs/) | not started |
 | 13 | 60s Rock umbrella hub (/blog/genres/60s-rock/) | not started |
@@ -115,6 +115,20 @@ Atlantic trade ad in Billboard, via Wikimedia Commons. Velvet
 Underground and Forever Changes dates left at month level (sources
 disagree / single source). Notable Events links OTD Sep 17, 18, 23,
 Oct 14. Playwright self-test (`gen/test_playlist_player_1967.py`) PASS.
+
+`/1960s/1968/` live 2026-10-08, 1637 words, check_article.py PASS.
+Billboard Year-End Hot 100 top 25 of 1968 (Wikipedia; Hey Jude No. 1)
+plus the chronological number-ones list (16 songs; weeks derived from
+Wikipedia issue dates, sum to 52 and match its stated per-act totals, no
+independent second source). Peaks for non-number-ones from Wikipedia's
+top-ten list. All 25 YouTube ids verified embeddable, not made-for-kids,
+in one batched call (8 cached, 17 via scraper, mostly official/Topic
+uploads). Links 7 hubs (no garage-surf-rock: no 1968 top-25 tie). Prose
+avoids "Jeannie C. Riley" because check_article.py's sentence splitter
+treats the initial as a sentence end. Featured image: public-domain
+Warner/Reprise Jimi Hendrix Experience promo, via Wikimedia Commons.
+Notable Events links OTD Sep 7, 21, 28, Oct 12, 16. Playwright self-test
+(`gen/test_playlist_player_1968.py`) PASS.
 
 ### 12. Best 60s Songs list page
 `/best-60s-songs/`: 100 songs pulled from `data/songs.json` (extend the
