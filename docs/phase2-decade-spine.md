@@ -40,7 +40,7 @@ restored, and note the result here either way.
 | 6 | Year page: 1964 | live |
 | 7 | Year page: 1965 | live |
 | 8 | Year page: 1966 | live |
-| 9 | Year page: 1967 | not started |
+| 9 | Year page: 1967 | live |
 | 10 | Year page: 1968 | not started |
 | 11 | Year page: 1969 | not started |
 | 12 | Best 60s Songs list page (/best-60s-songs/) | not started |
@@ -115,6 +115,24 @@ no verified 1966 tie). Featured image: CBS publicity photo of the
 Supremes on Ed Sullivan, 1966, public domain via Wikimedia Commons.
 Notable Events links OTD Sep 3, 12, 21, 24, Oct 15 (Sep 10 in albums
 bullet text only, no link). Playwright self-test PASS.
+
+`/1960s/1967/` live 2026-10-08, 1554 words, check_article.py PASS.
+Billboard Year-End Hot 100 top 25 of 1967 (Wikipedia, cross-checked
+against billboardtop100of.com; To Sir With Love No. 1) plus the
+chronological number-ones list (19 songs; weeks derived from the
+Wikipedia issue-date ranges, no independent second source found).
+Peaks for non-number-ones from Wikipedia's top-ten list, Come Back
+When You Grow Up confirmed No. 3 by search. All 25 YouTube ids
+verified embeddable, not made-for-kids, in one batched call; two
+scraper picks were live versions (Ode to Billie Joe, I Think We're
+Alone Now) and were swapped for studio Topic uploads. Flagged `yt`:
+I'm a Believer, Happy Together, Groovin', Incense and Peppermints.
+Links 6 hubs (no country-60s, no folk-rock: no verified tie). Featured
+image: public-domain Aretha Franklin photo from a July 15 1967
+Atlantic trade ad in Billboard, via Wikimedia Commons. Velvet
+Underground and Forever Changes dates left at month level (sources
+disagree / single source). Notable Events links OTD Sep 17, 18, 23,
+Oct 14. Playwright self-test (`gen/test_playlist_player_1967.py`) PASS.
 
 ### 12. Best 60s Songs list page
 `/best-60s-songs/`: 100 songs pulled from `data/songs.json` (extend the
