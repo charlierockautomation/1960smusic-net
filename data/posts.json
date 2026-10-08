@@ -890,6 +890,16 @@
       "date": "2026-10-06",
       "genre": null,
       "seq": 44
+    },
+    {
+      "id": "on-this-day-october-15",
+      "title": "On This Day: October 15 in 1960s Music",
+      "slug": "/blog/on-this-day/october-15/",
+      "type": "on-this-day",
+      "description": "15 verified 1960s music events from October 15: the Beatles record together for the first time, Hendrix signs with PPX, and the Four Tops hit No. 1.",
+      "date": "2026-10-08",
+      "genre": null,
+      "seq": 45
     }
   ]
 }
