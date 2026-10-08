@@ -175,6 +175,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://1960smusic.net/blog/genres/60s-rock/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://1960smusic.net/blog/genres/british-invasion/</loc>
     <lastmod>2026-08-13</lastmod>
     <changefreq>monthly</changefreq>

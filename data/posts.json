@@ -910,6 +910,15 @@
       "date": "2026-10-08",
       "genre": null,
       "seq": 46
+    },
+    {
+      "id": "60s-rock",
+      "title": "60s Rock: How the Decade Went from Garage Bands to Psychedelia",
+      "slug": "/blog/genres/60s-rock/",
+      "type": "genre-hub",
+      "description": "60s rock explained: how British Invasion, garage, folk rock, and psychedelic bands turned a three-chord sound into the decade's biggest music, year by year.",
+      "date": "2026-10-08",
+      "genre": null
     }
   ]
 }

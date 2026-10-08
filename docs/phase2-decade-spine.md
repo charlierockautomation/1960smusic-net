@@ -44,7 +44,7 @@ restored, and note the result here either way.
 | 10 | Year page: 1968 | live |
 | 11 | Year page: 1969 | live |
 | 12 | Best 60s Songs list page (/best-60s-songs/) | live |
-| 13 | 60s Rock umbrella hub (/blog/genres/60s-rock/) | not started |
+| 13 | 60s Rock umbrella hub (/blog/genres/60s-rock/) | live |
 | 14 | Tool intro copy (7 tools, 200-400 words each, crawlable) | not started |
 | 15 | Homepage rebuild (full pillar copy, not just Phase 1's static links) | not started |
 | 16 | `/1960s/` hub page (year index + genre hub links) | live |
@@ -92,6 +92,11 @@ rebuilt by `gen/build_best_60s.py`. Test: `gen/test_best_60s_songs.py`.
 `/blog/genres/60s-rock/`: links down to British Invasion, Garage &
 Surf, Psychedelic Rock hubs. Add to CLAUDE.md's Genre Hub Linking list
 the same commit it goes live, per that section's existing rule.
+
+Done 2026-10-08: `/blog/genres/60s-rock/` live, 1238 words, check_article.py
+PASS. Timeline 1960-69 plus four-branch table (British Invasion, Garage &
+Surf, Folk Rock, Psychedelic), 7 artist bios linked, Kinks embed. In
+posts.json (genre null), CLAUDE.md hub list updated.
 
 ### 14. Tool intro copy
 200-400 words of crawlable text on each of the 7 tool pages (radio,
