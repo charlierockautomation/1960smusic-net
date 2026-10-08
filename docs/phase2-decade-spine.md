@@ -69,68 +69,9 @@ type. 1960-1965 build notes (playlist player's 3 iterations, the
 [`docs/phase2-decade-spine-archive.md`](phase2-decade-spine-archive.md)
 and [`-archive-2.md`](phase2-decade-spine-archive-2.md).
 
-`/1960s/1966/` live 2026-10-08, 1694 words, check_article.py PASS.
-Billboard year-end top 25 of 1966 uses Billboard's REVISED ranking
-(Green Berets No. 1; billboardtop100of.com full list, Billboard's
-revision confirmed by AOL and Wikipedia's Green Berets article). The
-original Dec 24 1966 printed list (Wikipedia) ranks California
-Dreamin' first and Green Berets tenth; the page says so in an h3.
-Billboard's own page returned HTTP 402. Chronological number-ones list
-(27 titles, weeks cross-checked against rogerogreen.com). All 25
-YouTube ids resolved (6 cached, 19 via scraper) and verified
-embeddable, not made-for-kids, in one batched call; several carry the
-usual acceptable-if-compliant `yt` flag. Links 7 hubs (no country-60s,
-no verified 1966 tie). Featured image: CBS publicity photo of the
-Supremes on Ed Sullivan, 1966, public domain via Wikimedia Commons.
-Notable Events links OTD Sep 3, 12, 21, 24, Oct 15 (Sep 10 in albums
-bullet text only, no link). Playwright self-test PASS.
-
-`/1960s/1967/` live 2026-10-08, 1554 words, check_article.py PASS.
-Billboard Year-End Hot 100 top 25 of 1967 (Wikipedia, cross-checked
-against billboardtop100of.com; To Sir With Love No. 1) plus the
-chronological number-ones list (19 songs; weeks derived from the
-Wikipedia issue-date ranges, no independent second source found).
-Peaks for non-number-ones from Wikipedia's top-ten list, Come Back
-When You Grow Up confirmed No. 3 by search. All 25 YouTube ids
-verified embeddable, not made-for-kids, in one batched call; two
-scraper picks were live versions (Ode to Billie Joe, I Think We're
-Alone Now) and were swapped for studio Topic uploads. Flagged `yt`:
-I'm a Believer, Happy Together, Groovin', Incense and Peppermints.
-Links 6 hubs (no country-60s, no folk-rock: no verified tie). Featured
-image: public-domain Aretha Franklin photo from a July 15 1967
-Atlantic trade ad in Billboard, via Wikimedia Commons. Velvet
-Underground and Forever Changes dates left at month level (sources
-disagree / single source). Notable Events links OTD Sep 17, 18, 23,
-Oct 14. Playwright self-test (`gen/test_playlist_player_1967.py`) PASS.
-
-`/1960s/1968/` live 2026-10-08, 1637 words, check_article.py PASS.
-Billboard Year-End Hot 100 top 25 of 1968 (Wikipedia; Hey Jude No. 1)
-plus the chronological number-ones list (16 songs; weeks derived from
-Wikipedia issue dates, sum to 52 and match its stated per-act totals, no
-independent second source). Peaks for non-number-ones from Wikipedia's
-top-ten list. All 25 YouTube ids verified embeddable, not made-for-kids,
-in one batched call (8 cached, 17 via scraper, mostly official/Topic
-uploads). Links 7 hubs (no garage-surf-rock: no 1968 top-25 tie). Prose
-avoids "Jeannie C. Riley" because check_article.py's sentence splitter
-treats the initial as a sentence end. Featured image: public-domain
-Warner/Reprise Jimi Hendrix Experience promo, via Wikimedia Commons.
-Notable Events links OTD Sep 7, 21, 28, Oct 12, 16. Playwright self-test
-(`gen/test_playlist_player_1968.py`) PASS.
-
-`/1960s/1969/` live 2026-10-08, 1697 words, check_article.py PASS.
-Billboard Year-End Hot 100 top 25 of 1969 (Wikipedia) plus the
-chronological number-ones list (17 songs; weeks sum to 52, 5th
-Dimension 9 and Beatles/Zager and Evans 6 each match Wikipedia's stated
-totals; no independent second source). Peaks for non-number-ones from
-Wikipedia's top-ten list. All 25 YouTube ids verified embeddable, not
-made-for-kids, in one batched call; seven scraper picks (fan uploads,
-live/TV takes) were swapped for studio Topic/VEVO uploads. Links 7 hubs (no psychedelic-rock:
-no 1969 top-25 tie); CCR tagged garage-surf-rock, Tom Jones tagged
-jazz-easy-listening, both judgment calls. Featured image: CC BY-SA 4.0
-Woodstock crowd photo by James M Shelley, via Wikimedia Commons (a
-public-domain Sly Stone Woodstock photo was passed over: eBay/AP
-provenance unclear). Notable Events links OTD Sep 13, 14, Oct 1, 4, 7, 12. Playwright
-self-test (`gen/test_playlist_player_1969.py`) PASS.
+`/1960s/1966/` through `/1969/` live 2026-10-08, all check_article.py PASS; build
+notes (sources, YouTube swaps, hub counts, images) moved to
+[`-archive-2.md`](phase2-decade-spine-archive-2.md).
 
 ### 12. Best 60s Songs list page
 `/best-60s-songs/`: 100 songs pulled from `data/songs.json` (extend the
