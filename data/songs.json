@@ -6308,5 +6308,425 @@
     "crossword_eligible": true,
     "difficulty": "easy",
     "article_slug": null
+  },
+  {
+    "id": "the-twist-chubby-checker",
+    "title": "The Twist",
+    "artist_id": "chubby-checker",
+    "artist_name": "Chubby Checker",
+    "year": 1960,
+    "genre_id": "pop-brill-building",
+    "secondary_genre_ids": [],
+    "youtube_id": "-CCgDvUM4TM",
+    "_youtube_flagged": false,
+    "_youtube_flag_reason": null,
+    "_youtube_embeddable": true,
+    "_youtube_made_for_kids": false,
+    "_youtube_checked_at": "2026-09-30",
+    "youtube_clip_start_seconds": 0,
+    "spotify_id": null,
+    "mood_tags": [
+      "danceable",
+      "upbeat",
+      "novelty"
+    ],
+    "tiktok_viral": {
+      "is_viral": false,
+      "note": null,
+      "year_of_virality": null
+    },
+    "sampled_by": [],
+    "trivia_facts": [
+      "It topped the US Billboard Hot 100 in 1960 and again in 1962, in two separate chart runs.",
+      "It launched a dance craze that spawned a run of follow-up twist records."
+    ],
+    "crossword_eligible": true,
+    "difficulty": "easy",
+    "article_slug": null
+  },
+  {
+    "id": "only-the-lonely-roy-orbison",
+    "title": "Only the Lonely",
+    "artist_id": "roy-orbison",
+    "artist_name": "Roy Orbison",
+    "year": 1960,
+    "genre_id": "pop-brill-building",
+    "secondary_genre_ids": [],
+    "youtube_id": "6qZsjakky-k",
+    "_youtube_flagged": false,
+    "_youtube_flag_reason": null,
+    "_youtube_embeddable": true,
+    "_youtube_made_for_kids": false,
+    "_youtube_checked_at": "2026-09-29",
+    "youtube_clip_start_seconds": 0,
+    "spotify_id": null,
+    "mood_tags": [
+      "dramatic",
+      "yearning",
+      "operatic"
+    ],
+    "tiktok_viral": {
+      "is_viral": false,
+      "note": null,
+      "year_of_virality": null
+    },
+    "sampled_by": [],
+    "trivia_facts": [
+      "Roy Orbison co-wrote it with Joe Melson.",
+      "It reached No. 1 in the UK and No. 2 in the US."
+    ],
+    "crossword_eligible": true,
+    "difficulty": "medium",
+    "article_slug": null
+  },
+  {
+    "id": "runaway-del-shannon",
+    "title": "Runaway",
+    "artist_id": "del-shannon",
+    "artist_name": "Del Shannon",
+    "year": 1961,
+    "genre_id": "pop-brill-building",
+    "secondary_genre_ids": [],
+    "youtube_id": "0S13mP_pfEc",
+    "_youtube_flagged": false,
+    "_youtube_flag_reason": null,
+    "_youtube_embeddable": true,
+    "_youtube_made_for_kids": false,
+    "_youtube_checked_at": "2026-09-29",
+    "youtube_clip_start_seconds": 0,
+    "spotify_id": null,
+    "mood_tags": [
+      "driving",
+      "wistful",
+      "urgent"
+    ],
+    "tiktok_viral": {
+      "is_viral": false,
+      "note": null,
+      "year_of_virality": null
+    },
+    "sampled_by": [],
+    "trivia_facts": [
+      "It topped the US chart in 1961.",
+      "Max Crook's Musitron, a modified keyboard, supplies its signature solo."
+    ],
+    "crossword_eligible": true,
+    "difficulty": "medium",
+    "article_slug": null
+  },
+  {
+    "id": "hit-the-road-jack-ray-charles",
+    "title": "Hit the Road Jack",
+    "artist_id": "ray-charles",
+    "artist_name": "Ray Charles",
+    "year": 1961,
+    "genre_id": "motown-soul",
+    "secondary_genre_ids": [],
+    "youtube_id": "uSiHqxgE2d0",
+    "_youtube_flagged": false,
+    "_youtube_flag_reason": null,
+    "_youtube_embeddable": true,
+    "_youtube_made_for_kids": false,
+    "_youtube_checked_at": "2026-09-29",
+    "youtube_clip_start_seconds": 0,
+    "spotify_id": null,
+    "mood_tags": [
+      "bluesy",
+      "playful",
+      "call-and-response"
+    ],
+    "tiktok_viral": {
+      "is_viral": false,
+      "note": null,
+      "year_of_virality": null
+    },
+    "sampled_by": [],
+    "trivia_facts": [
+      "Percy Mayfield wrote it.",
+      "It topped the US pop chart in 1961."
+    ],
+    "crossword_eligible": true,
+    "difficulty": "easy",
+    "article_slug": null
+  },
+  {
+    "id": "i-get-around-beach-boys",
+    "title": "I Get Around",
+    "artist_id": "the-beach-boys",
+    "artist_name": "The Beach Boys",
+    "year": 1964,
+    "genre_id": "garage-surf-rock",
+    "secondary_genre_ids": [],
+    "youtube_id": "BchXkabxn4A",
+    "_youtube_flagged": false,
+    "_youtube_flag_reason": null,
+    "_youtube_embeddable": true,
+    "_youtube_made_for_kids": false,
+    "_youtube_checked_at": "2026-10-06",
+    "youtube_clip_start_seconds": 0,
+    "spotify_id": null,
+    "mood_tags": [
+      "upbeat",
+      "harmonious",
+      "cruising"
+    ],
+    "tiktok_viral": {
+      "is_viral": false,
+      "note": null,
+      "year_of_virality": null
+    },
+    "sampled_by": [],
+    "trivia_facts": [
+      "It was The Beach Boys' first US No. 1 single.",
+      "Brian Wilson wrote it with Mike Love."
+    ],
+    "crossword_eligible": true,
+    "difficulty": "easy",
+    "article_slug": null
+  },
+  {
+    "id": "oh-pretty-woman-roy-orbison",
+    "title": "Oh, Pretty Woman",
+    "artist_id": "roy-orbison",
+    "artist_name": "Roy Orbison",
+    "year": 1964,
+    "genre_id": "pop-brill-building",
+    "secondary_genre_ids": [],
+    "youtube_id": "D3a8Seh3Cp4",
+    "_youtube_flagged": false,
+    "_youtube_flag_reason": null,
+    "_youtube_embeddable": true,
+    "_youtube_made_for_kids": false,
+    "_youtube_checked_at": "2026-10-06",
+    "youtube_clip_start_seconds": 0,
+    "spotify_id": null,
+    "mood_tags": [
+      "swaggering",
+      "driving",
+      "catchy"
+    ],
+    "tiktok_viral": {
+      "is_viral": false,
+      "note": null,
+      "year_of_virality": null
+    },
+    "sampled_by": [],
+    "trivia_facts": [
+      "Roy Orbison co-wrote it with Bill Dees.",
+      "It reached No. 1 in both the US and the UK."
+    ],
+    "crossword_eligible": true,
+    "difficulty": "easy",
+    "article_slug": null
+  },
+  {
+    "id": "when-a-man-loves-a-woman-percy-sledge",
+    "title": "When a Man Loves a Woman",
+    "artist_id": "percy-sledge",
+    "artist_name": "Percy Sledge",
+    "year": 1966,
+    "genre_id": "motown-soul",
+    "secondary_genre_ids": [],
+    "youtube_id": "EYb84BDMbi0",
+    "_youtube_flagged": false,
+    "_youtube_flag_reason": null,
+    "_youtube_embeddable": true,
+    "_youtube_made_for_kids": false,
+    "_youtube_checked_at": "2026-10-08",
+    "youtube_clip_start_seconds": 0,
+    "spotify_id": null,
+    "mood_tags": [
+      "soulful",
+      "aching",
+      "slow-burning"
+    ],
+    "tiktok_viral": {
+      "is_viral": false,
+      "note": null,
+      "year_of_virality": null
+    },
+    "sampled_by": [],
+    "trivia_facts": [
+      "It was Percy Sledge's debut hit.",
+      "It topped both the US pop and R&B charts in 1966."
+    ],
+    "crossword_eligible": true,
+    "difficulty": "medium",
+    "article_slug": null
+  },
+  {
+    "id": "these-boots-are-made-for-walkin-nancy-sinatra",
+    "title": "These Boots Are Made for Walkin'",
+    "artist_id": "nancy-sinatra",
+    "artist_name": "Nancy Sinatra",
+    "year": 1966,
+    "genre_id": "pop-brill-building",
+    "secondary_genre_ids": [],
+    "youtube_id": "GM1kzbAgo_E",
+    "_youtube_flagged": false,
+    "_youtube_flag_reason": null,
+    "_youtube_embeddable": true,
+    "_youtube_made_for_kids": false,
+    "_youtube_checked_at": "2026-10-08",
+    "youtube_clip_start_seconds": 0,
+    "spotify_id": null,
+    "mood_tags": [
+      "sassy",
+      "confident",
+      "driving"
+    ],
+    "tiktok_viral": {
+      "is_viral": false,
+      "note": null,
+      "year_of_virality": null
+    },
+    "sampled_by": [],
+    "trivia_facts": [
+      "Lee Hazlewood wrote it.",
+      "It reached No. 1 on the US chart in early 1966."
+    ],
+    "crossword_eligible": true,
+    "difficulty": "easy",
+    "article_slug": null
+  },
+  {
+    "id": "hey-jude-beatles",
+    "title": "Hey Jude",
+    "artist_id": "the-beatles",
+    "artist_name": "The Beatles",
+    "year": 1968,
+    "genre_id": "british-invasion",
+    "secondary_genre_ids": [],
+    "youtube_id": "A_MjCqQoLLA",
+    "_youtube_flagged": false,
+    "_youtube_flag_reason": null,
+    "_youtube_embeddable": true,
+    "_youtube_made_for_kids": false,
+    "_youtube_checked_at": "2026-10-08",
+    "youtube_clip_start_seconds": 0,
+    "spotify_id": null,
+    "mood_tags": [
+      "anthemic",
+      "uplifting",
+      "singalong"
+    ],
+    "tiktok_viral": {
+      "is_viral": false,
+      "note": null,
+      "year_of_virality": null
+    },
+    "sampled_by": [],
+    "trivia_facts": [
+      "It spent nine weeks at No. 1 on the Billboard Hot 100.",
+      "At over seven minutes it was far longer than the typical 1960s single."
+    ],
+    "crossword_eligible": true,
+    "difficulty": "easy",
+    "article_slug": null
+  },
+  {
+    "id": "mrs-robinson-simon-and-garfunkel",
+    "title": "Mrs. Robinson",
+    "artist_id": "simon-and-garfunkel",
+    "artist_name": "Simon & Garfunkel",
+    "year": 1968,
+    "genre_id": "folk-rock",
+    "secondary_genre_ids": [],
+    "youtube_id": "9C1BCAgu2I8",
+    "_youtube_flagged": false,
+    "_youtube_flag_reason": null,
+    "_youtube_embeddable": true,
+    "_youtube_made_for_kids": false,
+    "_youtube_checked_at": "2026-10-08",
+    "youtube_clip_start_seconds": 0,
+    "spotify_id": null,
+    "mood_tags": [
+      "wry",
+      "bouncy",
+      "cinematic"
+    ],
+    "tiktok_viral": {
+      "is_viral": false,
+      "note": null,
+      "year_of_virality": null
+    },
+    "sampled_by": [],
+    "trivia_facts": [
+      "It was featured in the film The Graduate.",
+      "It won the 1969 Grammy Award for Record of the Year."
+    ],
+    "crossword_eligible": true,
+    "difficulty": "easy",
+    "article_slug": null
+  },
+  {
+    "id": "sittin-on-the-dock-of-the-bay-otis-redding",
+    "title": "(Sittin' On) The Dock of the Bay",
+    "artist_id": "otis-redding",
+    "artist_name": "Otis Redding",
+    "year": 1968,
+    "genre_id": "motown-soul",
+    "secondary_genre_ids": [],
+    "youtube_id": "rTVjnBo96Ug",
+    "_youtube_flagged": false,
+    "_youtube_flag_reason": null,
+    "_youtube_embeddable": true,
+    "_youtube_made_for_kids": false,
+    "_youtube_checked_at": "2026-10-08",
+    "youtube_clip_start_seconds": 0,
+    "spotify_id": null,
+    "mood_tags": [
+      "relaxed",
+      "reflective",
+      "wistful"
+    ],
+    "tiktok_viral": {
+      "is_viral": false,
+      "note": null,
+      "year_of_virality": null
+    },
+    "sampled_by": [],
+    "trivia_facts": [
+      "Otis Redding recorded it days before his death in a December 1967 plane crash.",
+      "It became the first posthumous No. 1 single on the US chart."
+    ],
+    "crossword_eligible": true,
+    "difficulty": "easy",
+    "article_slug": null
+  },
+  {
+    "id": "get-back-beatles",
+    "title": "Get Back",
+    "artist_id": "the-beatles",
+    "artist_name": "The Beatles with Billy Preston",
+    "year": 1969,
+    "genre_id": "british-invasion",
+    "secondary_genre_ids": [],
+    "youtube_id": "YEESfv-11ng",
+    "_youtube_flagged": false,
+    "_youtube_flag_reason": null,
+    "_youtube_embeddable": true,
+    "_youtube_made_for_kids": false,
+    "_youtube_checked_at": "2026-10-08",
+    "youtube_clip_start_seconds": 0,
+    "spotify_id": null,
+    "mood_tags": [
+      "bluesy",
+      "loose",
+      "driving"
+    ],
+    "tiktok_viral": {
+      "is_viral": false,
+      "note": null,
+      "year_of_virality": null
+    },
+    "sampled_by": [],
+    "trivia_facts": [
+      "It is the only Beatles single credited to another artist, keyboardist Billy Preston.",
+      "The Beatles performed it live on the rooftop of Apple Corps in January 1969."
+    ],
+    "crossword_eligible": true,
+    "difficulty": "easy",
+    "article_slug": null
   }
 ]

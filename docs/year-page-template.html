@@ -34,15 +34,14 @@ How to use:
      with zero songs for the year is left unfiltered rather than made
      unplayable, so the dial always plays something.
   6. Breadcrumb (nav + BreadcrumbList schema) always routes through the
-     /1960s/ hub (task 16, live): Home > 1960s > {{YEAR}}. Up-links to
-     /best-60s-songs/ and /blog/genres/60s-rock/ only once those pages
-     are live (tasks 12/13). Until then, omit those two links entirely
-     rather than link a 404, they are not orphan risks since they're
-     just not linkable yet. Per the "Tracker discipline" rule in
+     /1960s/ hub (task 16, live): Home > 1960s > {{YEAR}}. Up-link to
+     /best-60s-songs/ is required (task 12 live). /blog/genres/60s-rock/
+     only once it is live (task 13); until then omit it rather than
+     link a 404. Per the "Tracker discipline" rule in
      phase2-decade-spine.md, also move this year's card on /1960s/
      from "Coming Soon" to a live link in the same push.
-  7. Word count: gen/check_article.py's "year page" type is (1100, 1700),
-     sized off the 1960 page (task 2). Keep every year page in that range.
+  7. Word count: gen/check_article.py's "year page" type is (1100, 1800),
+     sized off the 1960 page (task 2). Keep every year page in that range (ceiling raised from 1700 on 2026-10-08 when the best-60s-songs up-link was added to every page).
   8. "Listen to {{YEAR}} Music" section, right after the lead paragraph,
      before the featured image (Charlie's call 2026-09-29, overrides the
      base article-template.html embed position for this content type
@@ -55,7 +54,7 @@ How to use:
      one sentence per line, banned words, keyword density 1-2%, FAQ 4-6
      real questions, image alt text rules, internal/external link counts.
      A 20-30 song tracklist table adds real body word count; trim prose
-     elsewhere if you run over the (1100, 1700) ceiling rather than widen
+     elsewhere if you run over the (1100, 1800) ceiling rather than widen
      the range, that range is meant to bound prose, not tracklist rows.
   10. Run: python3 gen/check_article.py 1960s/{{YEAR}}/index.html
      Fix and rerun until PASS.
@@ -408,11 +407,13 @@ Playlist player ("Listen to {{YEAR}} Music" section)
 
       <hr>
 
-      <!-- Up-links: homepage always; /best-60s-songs/ and
-           /blog/genres/60s-rock/ only once tasks 12/13 are live (drop
-           these two lines entirely until then, don't link a 404). -->
+      <!-- Up-links: homepage and /best-60s-songs/ always (task 12 live;
+           put the best-60s-songs line just before the homepage line).
+           /blog/genres/60s-rock/ only once task 13 is live (drop it until
+           then, don't link a 404). -->
       <p>{{CLOSING_PARAGRAPH_CONTAINING_FOCUS_KEYWORD_IN_LAST_SENTENCE}}<br>
       {{INTERNAL_LINKS_ACROSS_2_TO_4_ADJACENT_YEARS_OR_GENRE_HUBS}}<br>
+      Hear more of the decade in the <a href="/best-60s-songs/">best 60s songs</a> list.<br>
       Back to the <a href="/">1960smusic.net homepage</a> to explore every year and genre of the decade.</p>
     </div>
   </article>

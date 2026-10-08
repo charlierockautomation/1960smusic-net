@@ -82,8 +82,11 @@ one exists. Targets "60s songs" / "60s music hits" clusters.
 Done 2026-10-08: `/best-60s-songs/` live, 3530 words, check_article.py PASS
 (new "list page" type, 2800-4200). 100 songs from `songs.json`, year order,
 not ranked; 27 link to song stories. Filters via opt-in
-`data-pp-visible-only` in playlist-table.js. Gap: dataset lacks Hey Jude and
-other big hits; 1960/1961 thin (3/4). Test: `gen/test_best_60s_songs.py`.
+`data-pp-visible-only` in playlist-table.js. Follow-up 2026-10-08: 12 big hits
+only on year pages (Hey Jude, Mrs. Robinson, Dock of the Bay, The Twist
+and others) added to `gen/songs_data.py` (192 songs) and swapped into the
+100; 25 song-story links; all 10 year pages now link up to the list. Page is
+rebuilt by `gen/build_best_60s.py`. Test: `gen/test_best_60s_songs.py`.
 
 ### 13. 60s Rock umbrella hub
 `/blog/genres/60s-rock/`: links down to British Invasion, Garage &

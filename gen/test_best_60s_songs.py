@@ -66,7 +66,7 @@ def main():
             # genre + year combined
             page.select_option(f'[data-pp-filter="genre"]{T}', "folk-rock"); page.wait_for_timeout(300)
             v = visible()
-            if sorted(v) != ["Leaving on a Jet Plane", "The Boxer"]:
+            if sorted(v) != ["The Boxer"]:
                 errors.append(f"1969+folk-rock: {v}")
             page.click(f'[data-pp-shuffle]{T}'); page.wait_for_timeout(2500)
             ids = {r.get_attribute("data-pp-yt") for r in rows if "pp-hidden" not in (r.get_attribute("class") or "")}
