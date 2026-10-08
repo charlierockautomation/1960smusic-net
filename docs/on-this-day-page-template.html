@@ -63,6 +63,7 @@ How to use:
   "@type": "Article",
   "headline": "On This Day: {{DATE_LABEL}} in 1960s Music",
   "description": "{{META_DESCRIPTION_150_160_CHARS_SUMMARIZING_THE_DAYS_EVENTS}}",
+  "image": "https://1960smusic.net{{FIRST_ARTICLE_IMAGE_PATH_OR_/assets/og-home.png}}",
   "author": {"@type": "Person", "name": "Charlie Gillingham", "url": "https://1960smusic.net/about/charlie/"},
   "publisher": {
     "@type": "Organization",
@@ -70,7 +71,7 @@ How to use:
     "logo": {"@type": "ImageObject", "url": "https://1960smusic.net/android-chrome-512x512.png"}
   },
   "datePublished": "{{DATE_YYYY-MM-DD}}",
-  "dateModified": "{{DATE_YYYY-MM-DD}}",
+  "dateModified": "{{DATE_MODIFIED_YYYY-MM-DD}}",
   "mainEntityOfPage": {"@type": "WebPage", "@id": "https://1960smusic.net/blog/on-this-day/{{DATE_SLUG}}/"}
 }
 </script>
@@ -131,8 +132,8 @@ How to use:
       <a href="/">Home</a>
       <a href="/tools/radio/">Listen Now</a>
       <a href="/blog/">Blog</a>
-      <a href="/about">About</a>
-      <a href="/contact">Contact</a>
+      <a href="/about/">About</a>
+      <a href="/contact/">Contact</a>
     </nav>
   </div>
 </header>
@@ -145,7 +146,7 @@ How to use:
       </nav>
       <p class="eyebrow">On this day in 1960s music</p>
       <h1>{{DATE_LABEL}}</h1>
-      <p class="byline byline-dark">By <a href="/about/charlie/">Charlie Gillingham</a> <span aria-hidden="true">&middot;</span> Published <time datetime="{{DATE_YYYY-MM-DD}}">{{DATE_MONTH_D_YYYY}}</time></p>
+      <p class="byline byline-dark">By <a href="/about/charlie/">Charlie Gillingham</a> <span aria-hidden="true">&middot;</span> Published <time datetime="{{DATE_YYYY-MM-DD}}">{{DATE_MONTH_D_YYYY}}</time> <span aria-hidden="true">&middot;</span> Updated <time datetime="{{DATE_MODIFIED_YYYY-MM-DD}}">{{DATE_MODIFIED_MONTH_D_YYYY}}</time></p>
       <!-- One pill per year present in the JSON, most recent first. Add class "current" to the first (most recent) pill only. -->
       <ul class="otd-years">
         <li><a href="#y{{YEAR}}" class="current">{{YEAR}}</a></li>
@@ -246,12 +247,12 @@ How to use:
 
 <footer class="site-footer">
   <div class="wrap">
-    <div>&copy; <span data-year>2025</span> 1960smusic.net</div>
+    <div>&copy; <span data-year>2026</span> 1960smusic.net</div>
     <nav aria-label="Footer">
-      <a href="/about">About</a>
-      <a href="/contact">Contact</a>
-      <a href="/privacy-policy">Privacy Policy</a>
-      <a href="/terms-of-use">Terms of Use</a>
+      <a href="/about/">About</a>
+      <a href="/contact/">Contact</a>
+      <a href="/privacy-policy/">Privacy Policy</a>
+      <a href="/terms-of-use/">Terms of Use</a>
     </nav>
   </div>
 </footer>

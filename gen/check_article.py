@@ -2,6 +2,8 @@
 """Validate a published article page against house style before it ships.
 
 Usage: python3 gen/check_article.py <path-to-index.html> [...]
+       python3 gen/check_article.py --site     (sitemap/llms.txt sync, run by
+                                                gen/publish_prep.py)
 
 Full rules: docs/writing-standard.md. Checks enforced here (2026-08-16):
   - zero em dashes (—) or en dashes used as em-dash substitutes (–)
@@ -24,6 +26,15 @@ Full rules: docs/writing-standard.md. Checks enforced here (2026-08-16):
   - visible byline linking to /about/charlie/ with a Published <time>
     date, and Article JSON-LD with a Person author plus datePublished and
     dateModified
+  - title tag 60 characters or fewer in total (brand suffix only if it fits)
+  - visible "Updated <time>" in the byline, equal to Article JSON-LD
+    dateModified (and never earlier than Published)
+  - song story / artist bio: Key Facts box right after the intro (before
+    the featured image) with the required rows, a link to the matching
+    /1960s/<year>/ page, and /best-60s-songs/ for songs on that list
+  - about / contact / privacy / terms links use the canonical trailing-slash
+    form, page canonical matches the page's own URL, and a page already in
+    data/posts.json is present in sitemap.xml and llms.txt
   - keyword density strictly 1%-2% (outside that band is a fail either
     way), keyword present in title, meta description, first 100 words,
     at least one H2/H3, and never in two consecutive sentences. Focus
@@ -39,6 +50,7 @@ import re
 import sys
 import html as htmllib
 
+SITE_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 YT_STATUS_CACHE = os.path.join(os.path.dirname(__file__), "yt_status_cache.json")
 
 BANNED_PHRASES = [
@@ -126,6 +138,8 @@ def body_html(text):
 
 def body_text(text):
     body = re.sub(r"<!--.*?-->", " ", body_html(text), flags=re.S)
+    # The Key Facts box is a data table, not prose: out of word count/density.
+    body = re.sub(r'<aside class="key-facts".*?</aside>', " ", body, flags=re.S)
     return strip_tags(body)
 
 
@@ -279,6 +293,10 @@ def check_byline(text, errors):
             errors.append("byline does not link to /about/charlie/")
         if not re.search(r'Published\s*<time datetime="\d{4}-\d{2}-\d{2}"', m.group(1)):
             errors.append('byline has no "Published <time datetime=...>" date')
+    upd = re.search(r'Updated\s*<time datetime="(\d{4}-\d{2}-\d{2})"', m.group(1)) if m else None
+    pub = re.search(r'Published\s*<time datetime="(\d{4}-\d{2}-\d{2})"', m.group(1)) if m else None
+    if m and not upd:
+        errors.append('byline has no visible "Updated <time datetime=...>" date')
     article = None
     for block in re.findall(r'<script type="application/ld\+json">(.*?)</script>', text, flags=re.S | re.I):
         try:
@@ -296,6 +314,133 @@ def check_byline(text, errors):
     for key in ("datePublished", "dateModified"):
         if not article.get(key):
             errors.append(f"Article JSON-LD missing {key}")
+    if upd and article.get("dateModified") and upd.group(1) != article["dateModified"]:
+        errors.append(f'visible Updated date {upd.group(1)} does not match JSON-LD dateModified {article["dateModified"]}')
+    if upd and pub and upd.group(1) < pub.group(1):
+        errors.append("Updated date is earlier than Published date")
+    if pub and article.get("datePublished") and pub.group(1) != article["datePublished"]:
+        errors.append(f'visible Published date {pub.group(1)} does not match JSON-LD datePublished {article["datePublished"]}')
+
+
+def check_title_length(text, errors):
+    m = re.search(r"<title>(.*?)</title>", text, flags=re.S)
+    if not m:
+        errors.append("no <title> tag")
+        return
+    title = htmllib.unescape(m.group(1)).strip()
+    if len(title) > 60:
+        errors.append(f"title tag is {len(title)} chars (max 60 in total): {title!r}")
+
+
+KEY_FACT_LABELS = {
+    "song story": ["Released", "Label", "Written by", "Produced by"],
+    "artist bio": ["Origin", "Genre", "Label", "Peak chart hits"],
+}
+
+
+def check_key_facts(text, errors, page_type, path):
+    """Song stories and artist bios: Key Facts box after the intro, plus
+    the required /1960s/<year>/ link (and /best-60s-songs/ when listed)."""
+    if page_type not in KEY_FACT_LABELS:
+        return
+    m = re.search(r'<aside class="key-facts"[^>]*>(.*?)</aside>', text, flags=re.S)
+    if not m:
+        errors.append("no Key Facts box (<aside class=\"key-facts\">) after the intro")
+        return
+    lead = text.find('<p class="lead">')
+    fig = text.find('<figure class="featured-image">')
+    if not (0 <= lead < m.start() < fig):
+        errors.append("Key Facts box must sit after the lead paragraph and before the featured image")
+    labels = re.findall(r"<dt>(.*?)</dt>", m.group(1))
+    for need in KEY_FACT_LABELS[page_type]:
+        if need not in labels:
+            errors.append(f'Key Facts box missing "{need}" row')
+    if page_type == "song story" and not any("peak" in l.lower() for l in labels):
+        errors.append('Key Facts box needs at least one chart "peak" row (US peak / UK peak)')
+    for dd in re.findall(r"<dd>(.*?)</dd>", m.group(1), flags=re.S):
+        if not re.sub(r"<[^>]+>", "", dd).strip():
+            errors.append("Key Facts box has an empty value")
+    year_links = set(re.findall(r'href="/1960s/(\d{4})/"', text))
+    if not year_links:
+        errors.append("no link to a /1960s/<year>/ year page")
+    elif page_type == "song story":
+        sub = re.search(r'"@type":\s*"MusicRecording".*?"datePublished":\s*"(\d{4})"', text, flags=re.S)
+        if sub and sub.group(1) not in year_links:
+            errors.append(f"song story must link to /1960s/{sub.group(1)}/ (its release year)")
+    if page_type == "song story":
+        slug = os.path.basename(os.path.dirname(os.path.abspath(path)))
+        try:
+            with open(os.path.join(SITE_ROOT, "best-60s-songs", "index.html"), encoding="utf-8") as f:
+                listed = f'href="/blog/songs/{slug}/"' in f.read()
+        except OSError:
+            listed = False
+        if listed and 'href="/best-60s-songs/"' not in text:
+            errors.append("song is on /best-60s-songs/ but the page does not link to it")
+
+
+LEGAL_BAD = re.compile(r'href="/(about|contact|privacy-policy|terms-of-use)(\.html)?["#?]')
+
+
+def check_site_links(text, path, errors):
+    bad = sorted({m.group(1) for m in LEGAL_BAD.finditer(text)})
+    if bad:
+        errors.append("non-canonical links (need trailing slash): " + ", ".join("/" + b for b in bad))
+    if "<span data-year>" not in text:
+        errors.append("footer copyright year missing the dynamic <span data-year> hook")
+    rel = os.path.relpath(os.path.abspath(path), SITE_ROOT).replace(os.sep, "/")
+    url = "/" if rel == "index.html" else "/" + rel[: -len("index.html")] if rel.endswith("index.html") else "/" + rel
+    m = re.search(r'<link rel="canonical" href="https://1960smusic\.net([^"]*)"', text)
+    if m and m.group(1) != url:
+        errors.append(f"canonical {m.group(1)} does not match page URL {url}")
+
+
+def check_published_listing(path, errors):
+    """A page already in data/posts.json is live: it must be in sitemap.xml and llms.txt."""
+    rel = os.path.relpath(os.path.abspath(path), SITE_ROOT).replace(os.sep, "/")
+    if not rel.endswith("index.html"):
+        return
+    slug = "/" + rel[: -len("index.html")]
+    try:
+        with open(os.path.join(SITE_ROOT, "data", "posts.json"), encoding="utf-8") as f:
+            live = {p["slug"] for p in json.load(f)["posts"]}
+    except (OSError, ValueError):
+        return
+    if slug not in live:
+        return
+    for name, needle in (("sitemap.xml", f"<loc>https://1960smusic.net{slug}</loc>"), ("llms.txt", f"(https://1960smusic.net{slug})")):
+        try:
+            with open(os.path.join(SITE_ROOT, name), encoding="utf-8") as f:
+                if needle not in f.read():
+                    errors.append(f"live page missing from {name}: run python3 gen/publish_prep.py")
+        except OSError:
+            errors.append(f"{name} not found")
+
+
+def check_site():
+    """sitemap.xml must match what generate_sitemap.py would write (same URLs
+    and lastmod); llms.txt must match generate_llms_txt.py output."""
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import generate_sitemap
+    errors = []
+    want = generate_sitemap.build_urls()
+    with open(os.path.join(SITE_ROOT, "sitemap.xml"), encoding="utf-8") as f:
+        have = {m[0]: m[1] for m in re.findall(r"<loc>https://1960smusic\.net([^<]*)</loc>\s*<lastmod>([^<]*)</lastmod>", f.read())}
+    for loc in sorted(set(want) - set(have)):
+        errors.append(f"sitemap.xml missing {loc}")
+    for loc in sorted(set(have) - set(want)):
+        errors.append(f"sitemap.xml lists {loc} but no live page found")
+    for loc in sorted(set(want) & set(have)):
+        if want[loc][0] != have[loc]:
+            errors.append(f"sitemap.xml lastmod for {loc} is {have[loc]}, page says {want[loc][0]}")
+    import generate_llms_txt as g
+    sections = []
+    for name, post_type in g.SECTIONS:
+        sections.append((name, g.live_tools() if post_type is None else g.posts_by_type(post_type)))
+    expected = g.render(g.cap_sections(sections), None)
+    with open(os.path.join(SITE_ROOT, "llms.txt"), encoding="utf-8") as f:
+        if f.read() != expected:
+            errors.append("llms.txt is stale: run python3 gen/generate_llms_txt.py")
+    return errors
 
 
 SUBJECT_TYPES = {"artist bio": ("MusicGroup", "Person"), "song story": ("MusicRecording",)}
@@ -449,6 +594,10 @@ def check_file(path):
     check_one_sentence_per_line(text, errors)
     check_template_placeholders(text, errors)
     check_byline(text, errors)
+    check_title_length(text, errors)
+    check_key_facts(text, errors, page_type, path)
+    check_site_links(text, path, errors)
+    check_published_listing(path, errors)
     check_schema_subject(text, errors, page_type)
     check_sentence_length(text, errors)
     check_keyword(text, plain, errors, notes)
@@ -458,8 +607,14 @@ def check_file(path):
 
 def main(argv):
     if not argv:
-        print("usage: python3 gen/check_article.py <path-to-index.html> [...]")
+        print("usage: python3 gen/check_article.py <path-to-index.html> [...] | --site")
         return 2
+    if argv == ["--site"]:
+        errs = check_site()
+        for e in errs:
+            print(f"  FAIL: {e}")
+        print("site check: " + ("FAIL" if errs else "PASS (sitemap.xml and llms.txt in sync)"))
+        return 1 if errs else 0
     failed = False
     for path in argv:
         page_type, wc, errors, notes = check_file(path)

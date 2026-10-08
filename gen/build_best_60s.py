@@ -222,7 +222,7 @@ page = f'''<!DOCTYPE html>
 </script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{E(TITLE)} | 1960smusic.net</title>
+<title>{E(TITLE)}</title>
 <meta name="description" content="{E(DESC)}">
 <link rel="canonical" href="https://1960smusic.net/best-60s-songs/">
 <meta property="og:type" content="article">
@@ -300,8 +300,8 @@ page = f'''<!DOCTYPE html>
       <a href="/">Home</a>
       <a href="/tools/radio/">Listen Now</a>
       <a href="/blog/">Blog</a>
-      <a href="/about">About</a>
-      <a href="/contact">Contact</a>
+      <a href="/about/">About</a>
+      <a href="/contact/">Contact</a>
     </nav>
   </div>
 </header>
@@ -314,7 +314,7 @@ page = f'''<!DOCTYPE html>
 
     <header class="article-header">
       <h1>{E(TITLE)}</h1>
-      <p class="byline">By <a href="/about/charlie/">Charlie Gillingham</a> <span aria-hidden="true">&middot;</span> Published <time datetime="2026-10-08">October 8, 2026</time></p>
+      <p class="byline">By <a href="/about/charlie/">Charlie Gillingham</a> <span aria-hidden="true">&middot;</span> Published <time datetime="2026-10-08">October 8, 2026</time> <span aria-hidden="true">&middot;</span> Updated <time datetime="2026-10-08">October 8, 2026</time></p>
     </header>
 
     <div class="article-body">
@@ -447,12 +447,12 @@ page = f'''<!DOCTYPE html>
 
 <footer class="site-footer">
   <div class="wrap">
-    <div>&copy; <span data-year>2025</span> 1960smusic.net</div>
+    <div>&copy; <span data-year>2026</span> 1960smusic.net</div>
     <nav aria-label="Footer">
-      <a href="/about">About</a>
-      <a href="/contact">Contact</a>
-      <a href="/privacy-policy">Privacy Policy</a>
-      <a href="/terms-of-use">Terms of Use</a>
+      <a href="/about/">About</a>
+      <a href="/contact/">Contact</a>
+      <a href="/privacy-policy/">Privacy Policy</a>
+      <a href="/terms-of-use/">Terms of Use</a>
     </nav>
   </div>
 </footer>

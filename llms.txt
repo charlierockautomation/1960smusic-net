@@ -10,8 +10,27 @@ Sitemap: https://1960smusic.net/sitemap.xml
 - [Music Trivia](https://1960smusic.net/tools/trivia/): A ten-question round drawn from real facts about the decade's greatest records. Keep score, then play again.
 - [What's Your 60s Sound?](https://1960smusic.net/tools/quiz/): Answer seven quick questions and discover which 1960s genre is your personal soundtrack.
 - [Radio Dial](https://1960smusic.net/tools/radio/): A continuous, station-style listening experience that rotates through each genre.
-- [Daily Guessing Game](https://1960smusic.net/tools/daily/): A new song clip every day: guess the track from a short, recognizable hook.
+- [Daily Guessing Game](https://1960smusic.net/tools/daily/): Watch a 1960s music video and guess its release year. Fifteen elimination-style levels, one wrong guess ends the run.
 - [60s Music Crossword](https://1960smusic.net/tools/60s-music-crossword/): A 55-clue crossword pulling songs, artists and genre terms from every station on the dial.
+
+## Year Guides
+- [1960s Music by Year: 1960-1969 Year Guides](https://1960smusic.net/1960s/): 1960s music broken down year by year: number one hits, key albums and genre shifts for 1960 through 1969, each with a playable tracklist.
+- [1960 Music: The Year's Biggest Hit Songs and Albums](https://1960smusic.net/1960s/1960/): 1960 music delivered 19 different Billboard number ones, Elvis Presley's record year, and the first steps toward Nashville, Brill Building and surf sounds.
+- [1961 Music: The Year's Biggest Hit Songs and Albums](https://1960smusic.net/1960s/1961/): 1961 music brought Motown its first number one, Patsy Cline's Nashville Sound breakthrough, and 22 different Billboard chart toppers across the year.
+- [1962 Music: The Year's Biggest Hit Songs and Albums](https://1960smusic.net/1960s/1962/): 1962 music brought The Twist back to number one, Ray Charles crossed into Nashville, and the Four Seasons became the first rock act to top the chart with their first two singles.
+- [1963 Music: The Year's Biggest Hit Songs and Albums](https://1960smusic.net/1960s/1963/): 1963 music crowned Surfin' U.S.A. the year's top song even though it only reached No. 3, while Beatlemania swept Britain months before the US Hot 100 noticed.
+- [1964 Music: The Year's Biggest Hit Songs and Albums](https://1960smusic.net/1960s/1964/): 1964 music belonged to the Beatles, who held all five top Hot 100 spots on April 4 and took six number ones, 18 weeks in all.
+- [1965 Music: The Year's Biggest Hit Songs and Albums](https://1960smusic.net/1960s/1965/): 1965 music crowned Wooly Bully, a song that never reached number one, while the Beatles took five number ones and 12 weeks at the top.
+- [1966 Music: The Year's Biggest Hit Songs and Albums](https://1960smusic.net/1960s/1966/): 1966 music crowned The Ballad of the Green Berets, a five-week number one, while 27 different songs topped the Billboard Hot 100.
+- [1967 Music: The Year's Biggest Hit Songs and Albums](https://1960smusic.net/1960s/1967/): 1967 music crowned Lulu's To Sir With Love, a five-week number one, while 19 different songs topped the Billboard Hot 100.
+- [1968 Music: The Year's Biggest Hit Songs and Albums](https://1960smusic.net/1960s/1968/): 1968 music crowned the Beatles' Hey Jude, a nine-week number one, while 16 different songs topped the Billboard Hot 100.
+- [1969 Music: The Year's Biggest Hit Songs and Albums](https://1960smusic.net/1960s/1969/): 1969 music crowned the Archies' Sugar, Sugar, a four-week number one, while 17 different songs topped the Billboard Hot 100.
+
+## Best 60s Songs
+- [Best 60s Songs: 100 Playable Hits From 1960 to 1969](https://1960smusic.net/best-60s-songs/): The best 60s songs: 100 playable hits from 1960 to 1969 across Motown, British Invasion, folk rock, surf and country, each with a why-it-matters line.
+
+## About the Author
+- [About Charlie](https://1960smusic.net/about/charlie/): Meet Charlie, the retired Alberta music lover who researches, writes and fact-checks every page on 1960smusic.net.
 
 ## Genre Hubs
 - [60s Rock: How the Decade Went from Garage Bands to Psychedelia](https://1960smusic.net/blog/genres/60s-rock/): 60s rock explained: how British Invasion, garage, folk rock, and psychedelic bands turned a three-chord sound into the decade's biggest music, year by year.
@@ -50,8 +69,8 @@ Sitemap: https://1960smusic.net/sitemap.xml
 - [Mrs. Brown, You've Got a Lovely Daughter: The Two-Take Number One](https://1960smusic.net/blog/songs/mrs-brown-youve-got-a-lovely-daughter-hermanns-hermits/): Mrs. Brown, You've Got a Lovely Daughter was an album afterthought Peter Noone taped off his TV. How it hit number one in America in 1965 with no UK release.
 - [Because the Dave Clark Five: The Ballad Epic Almost Buried](https://1960smusic.net/blog/songs/because-dave-clark-five/): Because is the 1964 ballad Epic Records twice refused to release, then watched climb to number three in America. The label fight, the Ron Ryan credit dispute, the chart record.
 - [Glad All Over: How the Dave Clark Five Beat the Beatles](https://1960smusic.net/blog/songs/glad-all-over-dave-clark-five/): Glad All Over knocked the Beatles off number one in January 1964, made the Dave Clark Five stars, and became a football terrace anthem that never went away.
-- [Bits and Pieces Dave Clark Five: The Stomp That Shook Britain](https://1960smusic.net/blog/songs/bits-and-pieces-dave-clark-five/): Bits and Pieces followed Glad All Over to UK number two in 1964, its stomping beat so heavy that dance hall managers banned the record to protect their floors.
-- [Heart Full of Soul by The Yardbirds: When a Sitar Became Fuzz](https://1960smusic.net/blog/songs/heart-full-of-soul-yardbirds/): Heart Full of Soul by The Yardbirds turned a scrapped sitar session into Jeff Beck's fuzz guitar breakthrough in 1965. Here is the real story behind it.
+- [Bits and Pieces Dave Clark Five: The Banned Dance-Hall Stomp](https://1960smusic.net/blog/songs/bits-and-pieces-dave-clark-five/): Bits and Pieces followed Glad All Over to UK number two in 1964, its stomping beat so heavy that dance hall managers banned the record to protect their floors.
+- [Heart Full of Soul by The Yardbirds: How a Sitar Became Fuzz](https://1960smusic.net/blog/songs/heart-full-of-soul-yardbirds/): Heart Full of Soul by The Yardbirds turned a scrapped sitar session into Jeff Beck's fuzz guitar breakthrough in 1965. Here is the real story behind it.
 - [Over Under Sideways Down: The Yardbirds' Raga Rock Riff](https://1960smusic.net/blog/songs/over-under-sideways-down-yardbirds/): Over Under Sideways Down Yardbirds fans still ask about: the 1966 raga rock riff, chart run, and studio story behind Jeff Beck's boldest Yardbirds single.
 - [For Your Love by The Yardbirds: The Harpsichord Hit That Split a Band](https://1960smusic.net/blog/songs/for-your-love-yardbirds/): For Your Love by The Yardbirds turned a rejected teenage demo into a harpsichord-driven hit and pushed Eric Clapton out the door in 1965. Here's the real story.
 - [House of the Rising Sun: How The Animals Made Folk Electric](https://1960smusic.net/blog/songs/house-of-the-rising-sun-animals/): House of the Rising Sun turned a centuries-old folk song into a one-take, world-conquering single for The Animals in 1964. Here's the real story behind it.

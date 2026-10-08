@@ -81,10 +81,27 @@ the draft gets written:
   retrofit after check_article.py passes. Facts found during this step
   still go through the no-hallucination rule below: verified only.
 
+## Title, dates, Key Facts, year links (all types, 2026-10-08)
+
+- Title tag: 60 characters or fewer in total; add " | 1960smusic.net" only
+  if it fits. Focus keyword still required in it.
+- Byline always shows "Published" and "Updated" dates; Updated equals the
+  Article JSON-LD `dateModified`. A new page has both the same. Bump
+  Updated (and dateModified) only after a real content change.
+- Song stories and artist bios carry a Key Facts box straight after the
+  intro, before the featured image. Song rows: Released, Label, Written by,
+  Produced by, US/UK peak. Artist rows: Origin, Genre, Label, Peak chart
+  hits. Source values in `gen/key_facts_data.py`, verified (no guesses,
+  omit unconfirmed), then run `gen/build_key_facts.py --write`. The box is
+  excluded from word count and density.
+- Song pages link the matching `/1960s/<year>/` page, and
+  `/best-60s-songs/` when the song is on that list; artist pages link the
+  year pages of their key years.
+
 ## Structure
 
-- Fixed order: H1, then the intro/lead paragraph, then the featured
-  image, then the Table of Contents, then the YouTube embed, then the
+- Fixed order: H1, then the intro/lead paragraph, then the Key Facts box
+  (song/artist only), then the featured image, then the Table of Contents, then the YouTube embed, then the
   rest of the body (sections, FAQ, closing paragraph).
 - FAQ: 4-6 questions, no fixed word count per answer.
 - FAQ questions should be real questions people actually search for

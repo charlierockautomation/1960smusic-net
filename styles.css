@@ -618,3 +618,12 @@ h3{font-size:1.25rem;color:var(--ink-soft);}
   *{transition:none !important;animation:none !important;}
   .station a:hover,.tool-window:hover,.genre-card:hover,.share-btn:hover{transform:none;}
 }
+
+/* Key Facts box (song + artist pages), gen/build_key_facts.py */
+.key-facts{background:var(--ivory-face);border:1px solid var(--line);border-left:4px solid var(--brass);border-radius:6px;padding:.9rem 1.1rem;margin:1.4rem 0;}
+.key-facts-title{font-family:var(--font-display);font-size:1.05rem;font-weight:700;color:var(--walnut-cabinet);margin:0 0 .5rem;}
+.key-facts dl{display:grid;grid-template-columns:max-content 1fr;gap:.35rem 1rem;margin:0;}
+.key-facts dt{font-family:var(--font-mono);font-size:.78rem;text-transform:uppercase;letter-spacing:.04em;color:var(--ink-soft);padding-top:.15rem;}
+.key-facts dd{margin:0;}
+.key-facts a{color:var(--red);}
+@media (max-width:560px){.key-facts dl{grid-template-columns:1fr;gap:0;}.key-facts dd{margin-bottom:.5rem;}}

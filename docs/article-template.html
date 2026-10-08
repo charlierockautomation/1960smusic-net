@@ -19,7 +19,12 @@ How to use:
      sentences, keyword density strictly between 1% and 2%. Structure
      order is fixed: H1, intro, image, TOC, YouTube embed, then the
      rest. Long H2 sections get real H3 subheadings, one per idea.
-  5. Run: python3 gen/check_article.py blog/{artists|songs}/{slug}/index.html
+  5. All types: title tag 60 characters or fewer in total (brand suffix only
+     if it fits), visible "Updated" date in the byline matching JSON-LD
+     dateModified. Song/artist pages: Key Facts box after the intro and a
+     link to the matching /1960s/<year>/ page (plus /best-60s-songs/ when
+     the song is on that list).
+  6. Run: python3 gen/check_article.py blog/{artists|songs}/{slug}/index.html
      Fix and rerun until PASS before committing.
 -->
 <!DOCTYPE html>
@@ -35,7 +40,7 @@ How to use:
 </script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{TITLE_TAG}} | 1960smusic.net</title>
+<title>{{TITLE_TAG_MAX_60_CHARS_FOCUS_KEYWORD_INCLUDED}}</title>
 <meta name="description" content="{{META_DESCRIPTION_150_160_CHARS}}">
 <link rel="canonical" href="https://1960smusic.net{{SLUG}}">
 <meta property="og:type" content="article">
@@ -66,7 +71,7 @@ How to use:
     "logo": {"@type": "ImageObject", "url": "https://1960smusic.net/android-chrome-512x512.png"}
   },
   "datePublished": "{{DATE_YYYY-MM-DD}}",
-  "dateModified": "{{DATE_YYYY-MM-DD}}",
+  "dateModified": "{{DATE_MODIFIED_YYYY-MM-DD}}",
   "mainEntityOfPage": {"@type": "WebPage", "@id": "https://1960smusic.net{{SLUG}}"},
   "about": {"@type": "{{MusicGroup_OR_MusicRecording}}", "@id": "https://1960smusic.net{{SLUG}}#subject", "name": "{{ARTIST_NAME_OR_SONG_TITLE}}"},
   "keywords": "{{COMMA_SEPARATED_KEYWORDS}}"
@@ -133,8 +138,8 @@ How to use:
       <a href="/">Home</a>
       <a href="/tools/radio/">Listen Now</a>
       <a href="/blog/">Blog</a>
-      <a href="/about">About</a>
-      <a href="/contact">Contact</a>
+      <a href="/about/">About</a>
+      <a href="/contact/">Contact</a>
     </nav>
   </div>
 </header>
@@ -147,13 +152,29 @@ How to use:
 
     <header class="article-header">
       <h1>{{H1_TEXT_MAX_65_CHARS_STARTS_WITH_FOCUS_KEYWORD}}</h1>
-      <!-- Published = the post's date in data/posts.json. Add the Updated part only after a real content change (and set dateModified to match). Never fake freshness. -->
-      <p class="byline">By <a href="/about/charlie/">Charlie Gillingham</a> <span aria-hidden="true">&middot;</span> Published <time datetime="{{DATE_YYYY-MM-DD}}">{{DATE_MONTH_D_YYYY}}</time></p>
+      <!-- Published = the post's date in data/posts.json. Updated = Article JSON-LD dateModified, always shown, same date. Equal to Published on a new page; bump both only after a real content change. Never fake freshness. -->
+      <p class="byline">By <a href="/about/charlie/">Charlie Gillingham</a> <span aria-hidden="true">&middot;</span> Published <time datetime="{{DATE_YYYY-MM-DD}}">{{DATE_MONTH_D_YYYY}}</time> <span aria-hidden="true">&middot;</span> Updated <time datetime="{{DATE_MODIFIED_YYYY-MM-DD}}">{{DATE_MODIFIED_MONTH_D_YYYY}}</time></p>
     </header>
 
     <div class="article-body">
       <p class="lead">{{OPENING_SENTENCE_CONTAINING_FOCUS_KEYWORD}}<br>
       {{SECOND_LEAD_SENTENCE}}</p>
+
+      <!-- KEY FACTS (song-story and artist-bio only; delete for genre-hub / trending). Data lives in gen/key_facts_data.py; run python3 gen/build_key_facts.py --write instead of hand-editing. Box sits straight after the lead, before the featured image. Song rows: Released, Label, Written by, Produced by, US peak / UK peak, plus links to /1960s/<year>/ and (if the song is on it) /best-60s-songs/. Artist rows: Origin, Genre, Label, Peak chart hits, Key years links. Unconfirmed = omit. -->
+      <!-- key-facts:start -->
+      <aside class="key-facts" aria-label="Key facts">
+        <p class="key-facts-title">Key Facts</p>
+        <dl>
+          <dt>Released</dt><dd>{{RELEASE_DATE}}</dd>
+          <dt>Label</dt><dd>{{LABEL}}</dd>
+          <dt>Written by</dt><dd>{{WRITERS}}</dd>
+          <dt>Produced by</dt><dd>{{PRODUCER}}</dd>
+          <dt>US peak</dt><dd>{{US_PEAK}}</dd>
+          <dt>UK peak</dt><dd>{{UK_PEAK}}</dd>
+          <dt>Year guide</dt><dd><a href="/1960s/{{SONG_YEAR}}/">{{SONG_YEAR}} music year guide</a></dd>
+        </dl>
+      </aside>
+      <!-- key-facts:end -->
 
       <figure class="featured-image">
         <img src="{{FEATURED_IMAGE_FILENAME}}" alt="{{IMAGE_ALT_TEXT}}" width="{{IMAGE_WIDTH}}" height="{{IMAGE_HEIGHT}}">
@@ -223,12 +244,12 @@ How to use:
 
 <footer class="site-footer">
   <div class="wrap">
-    <div>&copy; <span data-year>2025</span> 1960smusic.net</div>
+    <div>&copy; <span data-year>2026</span> 1960smusic.net</div>
     <nav aria-label="Footer">
-      <a href="/about">About</a>
-      <a href="/contact">Contact</a>
-      <a href="/privacy-policy">Privacy Policy</a>
-      <a href="/terms-of-use">Terms of Use</a>
+      <a href="/about/">About</a>
+      <a href="/contact/">Contact</a>
+      <a href="/privacy-policy/">Privacy Policy</a>
+      <a href="/terms-of-use/">Terms of Use</a>
     </nav>
   </div>
 </footer>

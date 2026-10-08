@@ -184,7 +184,7 @@ Playlist player ("Listen to {{YEAR}} Music" section)
 </script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{TITLE_TAG}} | 1960smusic.net</title>
+<title>{{TITLE_TAG_MAX_60_CHARS}}</title>
 <meta name="description" content="{{META_DESCRIPTION_150_160_CHARS}}">
 <link rel="canonical" href="https://1960smusic.net/1960s/{{YEAR}}/">
 <meta property="og:type" content="article">
@@ -216,7 +216,7 @@ Playlist player ("Listen to {{YEAR}} Music" section)
     "logo": {"@type": "ImageObject", "url": "https://1960smusic.net/android-chrome-512x512.png"}
   },
   "datePublished": "{{DATE_YYYY-MM-DD}}",
-  "dateModified": "{{DATE_YYYY-MM-DD}}",
+  "dateModified": "{{DATE_MODIFIED_YYYY-MM-DD}}",
   "mainEntityOfPage": {"@type": "WebPage", "@id": "https://1960smusic.net/1960s/{{YEAR}}/"},
   "about": {"@type": "Thing", "@id": "https://1960smusic.net/1960s/{{YEAR}}/#subject", "name": "Music in {{YEAR}}"},
   "keywords": "{{COMMA_SEPARATED_KEYWORDS}}"
@@ -283,8 +283,8 @@ Playlist player ("Listen to {{YEAR}} Music" section)
       <a href="/">Home</a>
       <a href="/tools/radio/">Listen Now</a>
       <a href="/blog/">Blog</a>
-      <a href="/about">About</a>
-      <a href="/contact">Contact</a>
+      <a href="/about/">About</a>
+      <a href="/contact/">Contact</a>
     </nav>
   </div>
 </header>
@@ -297,7 +297,7 @@ Playlist player ("Listen to {{YEAR}} Music" section)
 
     <header class="article-header">
       <h1>{{H1_TEXT_MAX_65_CHARS_STARTS_WITH_FOCUS_KEYWORD}}</h1>
-      <p class="byline">By <a href="/about/charlie/">Charlie Gillingham</a> <span aria-hidden="true">&middot;</span> Published <time datetime="{{DATE_YYYY-MM-DD}}">{{DATE_MONTH_D_YYYY}}</time></p>
+      <p class="byline">By <a href="/about/charlie/">Charlie Gillingham</a> <span aria-hidden="true">&middot;</span> Published <time datetime="{{DATE_YYYY-MM-DD}}">{{DATE_MONTH_D_YYYY}}</time> <span aria-hidden="true">&middot;</span> Updated <time datetime="{{DATE_MODIFIED_YYYY-MM-DD}}">{{DATE_MODIFIED_MONTH_D_YYYY}}</time></p>
     </header>
 
     <div class="article-body">
@@ -421,12 +421,12 @@ Playlist player ("Listen to {{YEAR}} Music" section)
 
 <footer class="site-footer">
   <div class="wrap">
-    <div>&copy; <span data-year>2025</span> 1960smusic.net</div>
+    <div>&copy; <span data-year>2026</span> 1960smusic.net</div>
     <nav aria-label="Footer">
-      <a href="/about">About</a>
-      <a href="/contact">Contact</a>
-      <a href="/privacy-policy">Privacy Policy</a>
-      <a href="/terms-of-use">Terms of Use</a>
+      <a href="/about/">About</a>
+      <a href="/contact/">Contact</a>
+      <a href="/privacy-policy/">Privacy Policy</a>
+      <a href="/terms-of-use/">Terms of Use</a>
     </nav>
   </div>
 </footer>

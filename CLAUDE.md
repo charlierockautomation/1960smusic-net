@@ -75,7 +75,12 @@ queue, not ad hoc requests.
    `data/songs.json` / `data/artists.json` first, then competitor research,
    then web search to verify and fill remaining gaps. Never invent history,
    quotes, or trivia.
-4. **`gen/check_article.py` is the formatting/structure gate.** Run it on
+4. **`gen/check_article.py` is the formatting/structure gate.** It also
+   enforces: title tag ≤60 chars, visible "Updated" date = JSON-LD
+   dateModified, Key Facts box (song/artist, built by
+   `gen/build_key_facts.py` from `gen/key_facts_data.py`), link to the
+   matching `/1960s/<year>/` page (+ `/best-60s-songs/` if listed), and
+   canonical `/about/`-style legal links. Run it on
    the built page; fix and rerun until it PASSes. Never bring a formatting or
    structure question to Charlie — the template, `docs/writing-standard.md`,
    and check_article.py already define all of it. Do not commit on a FAIL.
@@ -88,16 +93,18 @@ queue, not ad hoc requests.
    same session update all four, in order: `docs/content-build.md` (status →
    `live`), `data/posts.json` (new entry — this is what makes it show up on
    `/blog/` and its category archive), `link-map.md` (status → `live`, live
-   URL, inbound/outbound links), then run `python3 gen/build_listings.py`
-   (rebuilds the static `<a class="genre-card">` markup in `blog/index.html`
-   and every `blog/*/index.html` from the updated `posts.json` — this is
-   what makes the new entry crawlable without JS) and regenerate
-   `sitemap.xml` (`python3 gen/generate_sitemap.py`, after both `posts.json`
-   and `build_listings.py` run, not before) and commit/push the new
-   `sitemap.xml` alongside the tracker updates, then ping IndexNow
-   (`python3 gen/indexnow_ping.py <new-page-url>`, see `gen/indexnow_ping.py`)
-   for the page(s) that just went live. Only then move to the next queue
-   row.
+   URL, inbound/outbound links), then
+   run **`python3 gen/publish_prep.py`**: one command that rebuilds the
+   static blog cards (`build_listings.py`), regenerates `sitemap.xml`
+   (every live page found on disk, canonical trailing-slash URLs, real
+   lastmod) and `llms.txt` (includes Year Guides, Best 60s Songs, author
+   page), then runs `check_article.py --site` to prove both are in sync.
+   Commit/push the regenerated files with the tracker updates, then ping
+   IndexNow (`python3 gen/indexnow_ping.py <new-page-url>`, see
+   `gen/indexnow_ping.py`) for the page(s) that just went live. Only then
+   move to the next queue row. `check_article.py` FAILs a page already in
+   `posts.json` that is missing from `sitemap.xml`/`llms.txt`. A page not
+   meant to be indexed yet must carry `<!-- DRAFT -->` or `noindex`.
 
 ## Content Quality & Site-Strengthening Standard
 
