@@ -42,7 +42,7 @@ restored, and note the result here either way.
 | 8 | Year page: 1966 | live |
 | 9 | Year page: 1967 | live |
 | 10 | Year page: 1968 | live |
-| 11 | Year page: 1969 | not started |
+| 11 | Year page: 1969 | live |
 | 12 | Best 60s Songs list page (/best-60s-songs/) | not started |
 | 13 | 60s Rock umbrella hub (/blog/genres/60s-rock/) | not started |
 | 14 | Tool intro copy (7 tools, 200-400 words each, crawlable) | not started |
@@ -64,23 +64,10 @@ hub exists yet"); task 16 added that hub, so it's 3-level now (Home >
 Build one at a time, in year order, using the task-1 template. Each is
 its own row so a partial build never blocks the next; check_article.py
 gate + Charlie's go-ahead before push, same as every other content
-type. 1960-1964 build notes (playlist player's 3 iterations, the
+type. 1960-1965 build notes (playlist player's 3 iterations, the
 `data-year` collision bug, sourcing approach) moved to
 [`docs/phase2-decade-spine-archive.md`](phase2-decade-spine-archive.md)
-to keep this file under the line ceiling.
-
-`/1960s/1965/` live 2026-10-08, 1689 words, check_article.py PASS.
-Billboard Year-End Hot 100 top 25 of 1965 (tracklist; cross-verified
-against billboardtop100of.com) plus the chronological number-ones
-list (27 titles, dates/weeks cross-checked against de.wikipedia; no
-total stated since en/de disagree 26 vs 27). Wooly Bully is year-end
-No. 1 but peaked No. 2, used as the lead hook. All 25 YouTube ids
-resolved (3 cached, 22 via scraper, This Diamond Ring on a retry) and
-verified embeddable, not made-for-kids, in one batched call. Links all
-7 eligible hubs. Featured image is a real CC BY 4.0 photo of the Rolling
-Stones in Finland, June 25 1965 (Finnish Heritage Agency, via Wikimedia
-Commons). Notable Events links OTD Sep 4, Sep 12, Oct 9. Playwright
-self-test (`gen/test_playlist_player_1965.py`) PASS.
+and [`-archive-2.md`](phase2-decade-spine-archive-2.md).
 
 `/1960s/1966/` live 2026-10-08, 1694 words, check_article.py PASS.
 Billboard year-end top 25 of 1966 uses Billboard's REVISED ranking
@@ -129,6 +116,21 @@ treats the initial as a sentence end. Featured image: public-domain
 Warner/Reprise Jimi Hendrix Experience promo, via Wikimedia Commons.
 Notable Events links OTD Sep 7, 21, 28, Oct 12, 16. Playwright self-test
 (`gen/test_playlist_player_1968.py`) PASS.
+
+`/1960s/1969/` live 2026-10-08, 1697 words, check_article.py PASS.
+Billboard Year-End Hot 100 top 25 of 1969 (Wikipedia) plus the
+chronological number-ones list (17 songs; weeks sum to 52, 5th
+Dimension 9 and Beatles/Zager and Evans 6 each match Wikipedia's stated
+totals; no independent second source). Peaks for non-number-ones from
+Wikipedia's top-ten list. All 25 YouTube ids verified embeddable, not
+made-for-kids, in one batched call; seven scraper picks (fan uploads,
+live/TV takes) were swapped for studio Topic/VEVO uploads. Links 7 hubs (no psychedelic-rock:
+no 1969 top-25 tie); CCR tagged garage-surf-rock, Tom Jones tagged
+jazz-easy-listening, both judgment calls. Featured image: CC BY-SA 4.0
+Woodstock crowd photo by James M Shelley, via Wikimedia Commons (a
+public-domain Sly Stone Woodstock photo was passed over: eBay/AP
+provenance unclear). Notable Events links OTD Sep 13, 14, Oct 1, 4, 7, 12. Playwright
+self-test (`gen/test_playlist_player_1969.py`) PASS.
 
 ### 12. Best 60s Songs list page
 `/best-60s-songs/`: 100 songs pulled from `data/songs.json` (extend the
