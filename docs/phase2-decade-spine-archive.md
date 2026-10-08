@@ -129,3 +129,42 @@ self-test (`gen/test_playlist_player_1961.py`, copied per-year per the
 template's testing note) PASS. This rebuild is also what surfaced task
 16 below: the page existed with no working path back to it from the
 homepage or any index.
+
+## Year page build notes: 1962, 1963 (moved from active file 2026-10-08)
+
+`/1960s/1962/` live 2026-09-30, 1677 words, check_article.py PASS.
+Billboard Year-End Hot 100 top 25 of 1962 (tracklist) plus the full
+chronological 21-single number-ones list, both cross-verified against
+a second source. All 25 YouTube ids resolved via `generate.py`'s
+no-API scraper and verified embeddable, not made-for-kids, in one
+batched `yt_video_status.py` call; several (The Stripper, Mashed
+Potato Time, and others hosted by non-VEVO/Topic channels) carry the
+same acceptable-if-compliant flag as existing `yt`-flagged rows in
+`content-build.md`. British Invasion hub not linked: `data/genres.json`
+has it starting 1963, so 1962 draws only on the other 5 eligible hubs
+(pop-brill-building, motown-soul, country-60s, jazz-easy-listening,
+garage-surf-rock). Featured image is a real 1969 Wikimedia Commons
+photo of Ray Charles (public domain, correctly dated, not claimed as
+1962), chosen because he anchors both the number-ones table and the
+Key Albums section (Modern Sounds in Country and Western Music).
+Notable Events links two live OTD pages with direct 1962 music ties
+(`/blog/on-this-day/september-15/`, Four Seasons' Sherry; `/blog/
+on-this-day/october-1/`, Beach Boys' Surfin' Safari debut album).
+Playwright self-test (`gen/test_playlist_player_1962.py`) PASS.
+
+`/1960s/1963/` live 2026-10-03, 1696 words, check_article.py PASS.
+Billboard Year-End Hot 100 top 25 of 1963 (tracklist) plus the full
+chronological 21-single number-ones list, both cross-verified against
+a second source. All 25 YouTube ids resolved (7 already cached, 18 via
+`generate.py`'s no-API scraper) and verified embeddable, not
+made-for-kids, in one batched `yt_video_status.py` call; several carry
+the same acceptable-if-compliant `yt` flag used elsewhere on the site.
+First year page to link the British Invasion hub (`data/genres.json`
+starts it at 1963); also links garage-surf-rock, pop-brill-building,
+motown-soul, jazz-easy-listening and country-60s. Featured image reuses
+the existing verified 1963 Dezo Hoffmann Beatles publicity photo
+(public domain, already live on two other pages) rather than sourcing
+a new one. Notable Events links two live OTD pages with direct 1963
+music ties (`/blog/on-this-day/september-12/`, She Loves You hits UK
+No. 1; `/blog/on-this-day/september-21/`, Blue Velvet hits US No. 1).
+Playwright self-test (`gen/test_playlist_player_1963.py`) PASS.

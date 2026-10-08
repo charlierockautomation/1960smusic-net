@@ -38,7 +38,7 @@ restored, and note the result here either way.
 | 4 | Year page: 1962 | live |
 | 5 | Year page: 1963 | live |
 | 6 | Year page: 1964 | live |
-| 7 | Year page: 1965 | not started |
+| 7 | Year page: 1965 | live |
 | 8 | Year page: 1966 | not started |
 | 9 | Year page: 1967 | not started |
 | 10 | Year page: 1968 | not started |
@@ -64,47 +64,10 @@ hub exists yet"); task 16 added that hub, so it's 3-level now (Home >
 Build one at a time, in year order, using the task-1 template. Each is
 its own row so a partial build never blocks the next; check_article.py
 gate + Charlie's go-ahead before push, same as every other content
-type. 1960 and 1961 build notes (playlist player's 3 iterations, the
+type. 1960-1963 build notes (playlist player's 3 iterations, the
 `data-year` collision bug, sourcing approach) moved to
 [`docs/phase2-decade-spine-archive.md`](phase2-decade-spine-archive.md)
 to keep this file under the line ceiling.
-
-`/1960s/1962/` live 2026-09-30, 1677 words, check_article.py PASS.
-Billboard Year-End Hot 100 top 25 of 1962 (tracklist) plus the full
-chronological 21-single number-ones list, both cross-verified against
-a second source. All 25 YouTube ids resolved via `generate.py`'s
-no-API scraper and verified embeddable, not made-for-kids, in one
-batched `yt_video_status.py` call; several (The Stripper, Mashed
-Potato Time, and others hosted by non-VEVO/Topic channels) carry the
-same acceptable-if-compliant flag as existing `yt`-flagged rows in
-`content-build.md`. British Invasion hub not linked: `data/genres.json`
-has it starting 1963, so 1962 draws only on the other 5 eligible hubs
-(pop-brill-building, motown-soul, country-60s, jazz-easy-listening,
-garage-surf-rock). Featured image is a real 1969 Wikimedia Commons
-photo of Ray Charles (public domain, correctly dated, not claimed as
-1962), chosen because he anchors both the number-ones table and the
-Key Albums section (Modern Sounds in Country and Western Music).
-Notable Events links two live OTD pages with direct 1962 music ties
-(`/blog/on-this-day/september-15/`, Four Seasons' Sherry; `/blog/
-on-this-day/october-1/`, Beach Boys' Surfin' Safari debut album).
-Playwright self-test (`gen/test_playlist_player_1962.py`) PASS.
-
-`/1960s/1963/` live 2026-10-03, 1696 words, check_article.py PASS.
-Billboard Year-End Hot 100 top 25 of 1963 (tracklist) plus the full
-chronological 21-single number-ones list, both cross-verified against
-a second source. All 25 YouTube ids resolved (7 already cached, 18 via
-`generate.py`'s no-API scraper) and verified embeddable, not
-made-for-kids, in one batched `yt_video_status.py` call; several carry
-the same acceptable-if-compliant `yt` flag used elsewhere on the site.
-First year page to link the British Invasion hub (`data/genres.json`
-starts it at 1963); also links garage-surf-rock, pop-brill-building,
-motown-soul, jazz-easy-listening and country-60s. Featured image reuses
-the existing verified 1963 Dezo Hoffmann Beatles publicity photo
-(public domain, already live on two other pages) rather than sourcing
-a new one. Notable Events links two live OTD pages with direct 1963
-music ties (`/blog/on-this-day/september-12/`, She Loves You hits UK
-No. 1; `/blog/on-this-day/september-21/`, Blue Velvet hits US No. 1).
-Playwright self-test (`gen/test_playlist_player_1963.py`) PASS.
 
 `/1960s/1964/` live 2026-10-06, 1686 words, check_article.py PASS.
 Billboard Year-End Hot 100 top 25 of 1964 (tracklist; one primary
@@ -123,6 +86,19 @@ public-domain Library of Congress photo (Marion S. Trikosko) of the
 Beatles at the Washington Coliseum, Feb 11 1964, via Wikimedia Commons.
 Notable Events links OTD Sep 5, Sep 26, Sep 27. Playwright self-test
 (`gen/test_playlist_player_1964.py`) PASS.
+
+`/1960s/1965/` live 2026-10-08, 1689 words, check_article.py PASS.
+Billboard Year-End Hot 100 top 25 of 1965 (tracklist; cross-verified
+against billboardtop100of.com) plus the chronological number-ones
+list (27 titles, dates/weeks cross-checked against de.wikipedia; no
+total stated since en/de disagree 26 vs 27). Wooly Bully is year-end
+No. 1 but peaked No. 2, used as the lead hook. All 25 YouTube ids
+resolved (3 cached, 22 via scraper, This Diamond Ring on a retry) and
+verified embeddable, not made-for-kids, in one batched call. Links all
+7 eligible hubs. Featured image is a real CC BY 4.0 photo of the Rolling
+Stones in Finland, June 25 1965 (Finnish Heritage Agency, via Wikimedia
+Commons). Notable Events links OTD Sep 4, Sep 12, Oct 9. Playwright
+self-test (`gen/test_playlist_player_1965.py`) PASS.
 
 ### 12. Best 60s Songs list page
 `/best-60s-songs/`: 100 songs pulled from `data/songs.json` (extend the
