@@ -43,7 +43,8 @@ audit rules) and `docs/on-this-day-template-spec.md` (page structure).
 5. Pre-push gate, any failure blocks the push: `python3 gen/check_article.py
    <page>` (OTD reduced set: byline/dates, title, og:image + JSON-LD image,
    a `/1960s/<year>/` link inside every year section, FAQ, canonical links;
-   unrecorded YouTube ids print as NOTEs); add the `data/posts.json` entry
+   every YouTube id needs an on-record status in `gen/yt_status_cache.json`,
+   ask Charlie to run `gen/yt_video_status.py` for new ids); add the `data/posts.json` entry
    (type `on-this-day`, **including a `seq` field set to this file's queue
    row number**, see note below, required); then `python3
    gen/publish_prep.py` (listings, sitemap, llms.txt, site check,

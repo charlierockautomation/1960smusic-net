@@ -605,11 +605,7 @@ def check_file(path):
         # Event-feed pages: not prose articles, so only the structural/SEO gates apply.
         check_em_dashes(text, errors)
         check_faq(text, errors)
-        # Pre-existing gap (30+ embedded ids lack an on-record status): reported
-        # as NOTEs until gen/yt_video_status.py has been run for them.
-        yt = []
-        check_youtube_compliance(text, yt)
-        notes.extend(yt)
+        check_youtube_compliance(text, errors)
         check_template_placeholders(text, errors)
         check_byline(text, errors)
         check_title_length(text, errors)
