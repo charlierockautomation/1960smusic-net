@@ -83,22 +83,55 @@
       playFrom(tr.getAttribute('data-pp-yt'));
     });
 
-    Array.prototype.forEach.call(document.querySelectorAll('[data-pp-playall][data-pp-table="' + table.id + '"]'), function(btn){
-      btn.addEventListener('click', function(){ PlaylistPlayer.loadPlaylist(songs, 0, id); });
-    });
-    Array.prototype.forEach.call(document.querySelectorAll('[data-pp-shuffle][data-pp-table="' + table.id + '"]'), function(btn){
-      btn.addEventListener('click', function(){ PlaylistPlayer.loadPlaylist(shuffle(songs), 0, id); });
-    });
-    Array.prototype.forEach.call(document.querySelectorAll('[data-pp-search][data-pp-table="' + table.id + '"]'), function(input){
-      input.addEventListener('input', function(){
-        var q = input.value.trim().toLowerCase();
-        rows.forEach(function(tr){
-          var hay = (tr.getAttribute('data-pp-title') + ' ' + tr.getAttribute('data-pp-artist')).toLowerCase();
-          tr.classList.toggle('pp-hidden', q.length > 0 && hay.indexOf(q) === -1);
-        });
-        if (scrollBox) scrollBox.scrollTop = 0;
+    // Opt-in: a table with data-pp-visible-only plays only the rows the
+    // search box and year/genre filters leave showing (e.g. /best-60s-songs/).
+    var visibleOnly = table.hasAttribute('data-pp-visible-only');
+    function playable(){
+      if (!visibleOnly) return songs;
+      var out = [];
+      rows.forEach(function(tr, i){ if (!tr.classList.contains('pp-hidden')) out.push(songs[i]); });
+      return out;
+    }
+
+    function ctl(attr){
+      return document.querySelectorAll('[' + attr + '][data-pp-table="' + table.id + '"]');
+    }
+    Array.prototype.forEach.call(ctl('data-pp-playall'), function(btn){
+      btn.addEventListener('click', function(){
+        var list = playable();
+        if (list.length) PlaylistPlayer.loadPlaylist(list, 0, id);
       });
     });
+    Array.prototype.forEach.call(ctl('data-pp-shuffle'), function(btn){
+      btn.addEventListener('click', function(){
+        var list = playable();
+        if (list.length) PlaylistPlayer.loadPlaylist(shuffle(list), 0, id);
+      });
+    });
+
+    var searchEls = ctl('data-pp-search');
+    var filterEls = ctl('data-pp-filter');
+    var statusEls = ctl('data-pp-filter-status');
+    function applyFilters(){
+      var q = searchEls.length ? searchEls[0].value.trim().toLowerCase() : '';
+      var f = {};
+      Array.prototype.forEach.call(filterEls, function(sel){ f[sel.getAttribute('data-pp-filter')] = sel.value; });
+      var shown = 0;
+      rows.forEach(function(tr){
+        var hay = (tr.getAttribute('data-pp-title') + ' ' + tr.getAttribute('data-pp-artist')).toLowerCase();
+        var hide = (q.length > 0 && hay.indexOf(q) === -1) ||
+          (f.year && tr.getAttribute('data-pp-yr') !== f.year) ||
+          (f.genre && tr.getAttribute('data-pp-genre') !== f.genre);
+        tr.classList.toggle('pp-hidden', !!hide);
+        if (!hide) shown++;
+      });
+      Array.prototype.forEach.call(statusEls, function(el){
+        el.textContent = 'Showing ' + shown + ' of ' + rows.length + ' songs';
+      });
+      if (scrollBox) scrollBox.scrollTop = 0;
+    }
+    Array.prototype.forEach.call(searchEls, function(el){ el.addEventListener('input', applyFilters); });
+    Array.prototype.forEach.call(filterEls, function(el){ el.addEventListener('change', applyFilters); });
   }
 
   document.addEventListener('DOMContentLoaded', function(){

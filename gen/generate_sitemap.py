@@ -39,6 +39,7 @@ STATIC_PAGES = {
     # 2-11). Not blog posts, so not in posts.json/build_listings.py; add
     # each year here individually as it goes live.
     "/1960s/": ("weekly", "0.7"),
+    "/best-60s-songs/": ("monthly", "0.8"),
     "/1960s/1960/": ("monthly", "0.7"),
     "/1960s/1961/": ("monthly", "0.7"),
     "/1960s/1962/": ("monthly", "0.7"),

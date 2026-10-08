@@ -104,3 +104,13 @@
   .pp-bar-transport{ justify-content:center; }
   .pp-vol{ width:60px; }
 }
+
+/* Year/genre filter selects and live count, used by /best-60s-songs/
+   (wired in playlist-table.js via data-pp-filter / data-pp-filter-status). */
+.pp-filter{
+  font:inherit; font-size:.9rem; padding:10px 12px; min-height:44px; box-sizing:border-box;
+  border:1px solid var(--line); border-radius:8px; background:var(--card); color:var(--ink);
+}
+.pp-filter:focus-visible{ outline:2px solid var(--amber); outline-offset:2px; }
+.pp-filter-status{ font-family:sans-serif; font-size:.8rem; color:var(--muted); margin:0 0 10px; }
+.pp-table .pp-why{ min-width:260px; }

@@ -85,6 +85,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://1960smusic.net/best-60s-songs/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://1960smusic.net/blog/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>

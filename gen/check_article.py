@@ -71,6 +71,10 @@ WORD_COUNT_RANGES = {
     # OTD-linked events, genre shifts and a radio CTA push it well past a
     # song story but the content list doesn't need genre-hub-length prose.
     "year page": (1100, 1700),
+    # /best-60s-songs/ (Phase 2 task 12): a 100-row table with a why-it-matters
+    # line per song is ~2,500 words by itself, so the range sits above the
+    # prose-only types and bounds table plus surrounding prose together.
+    "list page": (2800, 4200),
 }
 
 EM_DASH = "—"
@@ -95,6 +99,8 @@ def detect_type(text, path):
         return "trending"
     if "/1960s/" in norm:
         return "year page"
+    if "/best-60s-songs/" in norm:
+        return "list page"
     return None
 
 
