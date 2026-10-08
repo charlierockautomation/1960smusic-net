@@ -900,6 +900,16 @@
       "date": "2026-10-08",
       "genre": null,
       "seq": 45
+    },
+    {
+      "id": "on-this-day-october-16",
+      "title": "On This Day: October 16 in 1960s Music",
+      "slug": "/blog/on-this-day/october-16/",
+      "type": "on-this-day",
+      "description": "11 verified 1960s music events from October 16: the Beatles' 24-hour White Album session, Hendrix's Electric Ladyland, and Patsy Cline's Crazy.",
+      "date": "2026-10-08",
+      "genre": null,
+      "seq": 46
     }
   ]
 }
