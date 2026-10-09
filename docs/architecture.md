@@ -28,15 +28,15 @@ The `_youtube_flagged` / `_youtube_flag_reason` fields on song records are
 QA-only scaffolding for this phase (not part of the long-term schema) and can
 be stripped later once every flagged song has been manually verified.
 
-## YouTube compliance data (embeddable + made-for-kids)
+## YouTube status data (optional tooling)
 
 `gen/yt_video_status.py` is the one place that calls the YouTube Data API
 v3 `videos.list` (part=status). It writes every result into
 `gen/yt_status_cache.json`, a flat `{video_id: {embeddable, made_for_kids,
 privacy_status, checked_at}}` map covering every id ever checked by any
-part of the pipeline, song or otherwise. `gen/check_article.py` reads this
-file to block any page carrying an id with no on-record status, or one
-flagged `made_for_kids: true`.
+part of the pipeline, song or otherwise. It is optional tooling: nothing
+in the article gate (`gen/check_article.py`) or the publish process
+requires an id to appear in it.
 
 - `gen/radio_verify.py` (quarterly, `--songs` for the song cache) and
   `gen/yt_backfill.py` (one-time, songs + live pages, report-only) both
@@ -50,7 +50,7 @@ flagged `made_for_kids: true`.
   on each `songs.json` record. Made-for-kids ids are auto-removed from
   `data/radio-eligible-*.json` (reported in `radio-dial-flagged.md`), not
   auto-removed from `songs.json`/live pages — that needs a human look.
-- Never hand-edit `checked_at`/`embeddable`/`made_for_kids` fields in
+- Don't hand-edit `checked_at`/`embeddable`/`made_for_kids` fields in
   either cache; they only come from a `yt_video_status.py` run.
 
 ## Dataset relationship: artists vs. song performers

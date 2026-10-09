@@ -12,15 +12,15 @@
   },
   "stats": [
     {
-      "value": 6,
+      "value": 7,
       "label": "verified events"
     },
     {
-      "value": 4,
+      "value": 5,
       "label": "event categories"
     },
     {
-      "value": 6,
+      "value": 7,
       "label": "watchable clips"
     }
   ],
@@ -94,6 +94,23 @@
     {
       "year": 1964,
       "events": [
+        {
+          "id": "ev-animals-debut",
+          "category": "broadcast",
+          "headline": "The Animals make their Ed Sullivan Show debut",
+          "summary_line_1": "The Animals performed I'm Crying and House of the Rising Sun on The Ed Sullivan Show, the first of their six appearances, per the <a href=\"https://www.edsullivan.com/?p=3050\" target=\"_blank\" rel=\"noopener\">Ed Sullivan Show site</a>.",
+          "summary_line_2": "The episode also featured Joan Sutherland and Jackie Mason, per the <a href=\"https://ctva.biz/US/MusicVariety/EdSullivan_17_(1964-65).htm\" target=\"_blank\" rel=\"noopener\">CTVA episode guide</a>, and the clip below is the Animals' House of the Rising Sun on the show.",
+          "youtube_id": "yxrz00XSOAo",
+          "image": null,
+          "internal_link": [
+            "Animals",
+            "/blog/artists/the-animals/"
+          ],
+          "external_link": [
+            "Ed Sullivan Show site",
+            "https://www.edsullivan.com/?p=3050"
+          ]
+        },
         {
           "id": "ev-i-feel-fine",
           "category": "industry",

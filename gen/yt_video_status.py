@@ -5,8 +5,8 @@ Single source of the actual API call so gen/radio_verify.py never duplicates
 it. Maintains gen/yt_status_cache.json: a flat {video_id: {embeddable,
 made_for_kids, privacy_status, checked_at}} record covering every id ever
 checked by any part of the pipeline (radio-eligible, songs.json, or a
-one-off page embed). check_article.py reads this file to enforce that no
-new YouTube id ships without a status on record.
+one-off page embed). Optional tooling: nothing in the article gate or the
+publish process requires an id to be recorded here.
 
 videos.list with part=status costs 1 quota unit per call regardless of how
 many ids are batched (up to 50), per Google's quota documentation

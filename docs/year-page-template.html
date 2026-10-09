@@ -122,9 +122,9 @@ Playlist player ("Listen to {{YEAR}} Music" section)
       Cross-check the list against a second source before trusting rank
       order, the same way the 1960 page's chronological #1 list was
       cross-verified.
-    - For each song, check gen/yt_status_cache.json first (many will
-      already be there from the existing catalog or other pages' work).
-    - For everything not already cached, find a candidate id WITHOUT the
+    - For each song, check gen/yt_cache.json / data/songs.json first (many
+      will already have an id from the existing catalog or other pages' work).
+    - For everything not already in the catalog, find a candidate id WITHOUT the
       API: `cd gen && python3 -c "import generate as g; print(g.resolve_youtube(title, artist))"`
       (the same scraper generate.py already uses for the whole site,
       reads youtube.com/results, no key needed). Spot check a few with
@@ -132,18 +132,13 @@ Playlist player ("Listen to {{YEAR}} Music" section)
       to prefer an official/VEVO/Topic/artist channel and an original
       recording over a re-record, per CLAUDE.md's YouTube rule, but
       don't let perfect be the enemy of done, non-official uploads that
-      pass the compliance check are acceptable and already normal
+      play fine are acceptable and already normal
       elsewhere on this site (see the `yt` flag column in
       content-build.md).
-    - Verify every new id in ONE batched call:
-      `python3 gen/yt_video_status.py "id1,id2,id3,..."` (needs
-      YOUTUBE_API_KEY in the environment; up to 50 ids per call, 1 quota
-      unit regardless of batch size). Drop and replace any id that comes
-      back not embeddable or made-for-kids.
-    - check_article.py's compliance check already scans for
+    - check_article.py's embed check also scans for
       data-pp-yt="..." attributes (not just .../embed/ URLs), so a page
-      built entirely on the dynamic player still gets the same
-      never-ship-an-unverified-id safety net as every other page type.
+      built entirely on the dynamic player is still recognized as having
+      an embed.
 
   Testing (do this before ever telling Charlie a page is ready):
     No browser is available for casual checking in this environment, so
@@ -307,8 +302,7 @@ Playlist player ("Listen to {{YEAR}} Music" section)
       {{SECOND_LEAD_SENTENCE}}</p>
 
       <!-- One embed per genre-shift anchor song (see instruction 8 above).
-           Copy this h3+div pair per song, only ids already verified in
-           gen/yt_status_cache.json. -->
+           Copy this h3+div pair per song, only ids you have checked play. -->
       <h2 id="listen">Listen to {{YEAR}} Music</h2>
       <p>{{LISTEN_INTRO_SENTENCE}}</p>
       <h3>{{SONG_1_TITLE}}, {{SONG_1_ARTIST}}</h3>

@@ -12,7 +12,7 @@
   },
   "stats": [
     {
-      "value": 12,
+      "value": 13,
       "label": "verified events"
     },
     {
@@ -20,7 +20,7 @@
       "label": "event categories"
     },
     {
-      "value": 12,
+      "value": 13,
       "label": "watchable clips"
     }
   ],
@@ -103,6 +103,23 @@
           "external_link": [
             "Wikipedia",
             "https://en.wikipedia.org/wiki/The_Rolling_Stones_2nd_British_Tour_1965"
+          ]
+        },
+        {
+          "id": "ev-animals-sullivan",
+          "category": "broadcast",
+          "headline": "The Animals perform Work Song on The Ed Sullivan Show",
+          "summary_line_1": "The <a href=\"/blog/artists/the-animals/\">Animals</a> performed Work Song on The Ed Sullivan Show, broadcast from CBS Television City in Hollywood, per the <a href=\"https://ctva.biz/US/MusicVariety/EdSullivan_18_(1965-66).htm\" target=\"_blank\" rel=\"noopener\">CTVA episode guide</a>.",
+          "summary_line_2": "It was one of six appearances by the group on the show between 1964 and 1966, per the <a href=\"https://www.edsullivan.com/?p=3050\" target=\"_blank\" rel=\"noopener\">Ed Sullivan Show site</a>, and the clip below is the Animals' Work Song on The Ed Sullivan Show.",
+          "youtube_id": "ZG2hUyzqw_E",
+          "image": null,
+          "internal_link": [
+            "Animals",
+            "/blog/artists/the-animals/"
+          ],
+          "external_link": [
+            "CTVA episode guide",
+            "https://ctva.biz/US/MusicVariety/EdSullivan_18_(1965-66).htm"
           ]
         }
       ]

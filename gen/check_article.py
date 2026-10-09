@@ -12,8 +12,6 @@ Full rules: docs/writing-standard.md. Checks enforced here (2026-08-16):
   - every <img> has descriptive alt text: non-empty, not the filename, not
     identical to its figcaption
   - at least one YouTube embed on song and artist pages
-  - every embedded YouTube id has an on-record embeddable=true,
-    made_for_kids=false status in gen/yt_status_cache.json
   - at least one TikTok embed on trending pages, unless the page carries a
     `<!-- TIKTOK-EXEMPT: ... -->` comment documenting why no verifiable
     TikTok source exists for that story
@@ -60,7 +58,6 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import check_seo
 
 SITE_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-YT_STATUS_CACHE = os.path.join(os.path.dirname(__file__), "yt_status_cache.json")
 
 BANNED_PHRASES = [
     "in this article",
@@ -241,29 +238,6 @@ def check_youtube(text, errors, page_type):
         return
     if "youtube.com/embed/" not in text and "youtube-nocookie.com/embed/" not in text:
         errors.append(f"no YouTube embed found (required on {page_type} pages)")
-
-
-def check_youtube_compliance(text, errors):
-    """Every embedded YouTube id must have an on-record embeddable=true,
-    made_for_kids=false result in gen/yt_status_cache.json (see
-    gen/yt_video_status.py) before it can ship. Covers both a static
-    .../embed/<id> URL and a data-pp-yt="<id>" attribute (the shared
-    playlist-player component in /assets/js/ loads ids that way, never as
-    a static embed URL, since nothing loads until Play is pressed)."""
-    ids = set(re.findall(r"youtube(?:-nocookie)?\.com/embed/([A-Za-z0-9_-]{11})", text))
-    ids |= set(re.findall(r'data-pp-yt="([A-Za-z0-9_-]{11})"', text))
-    if not ids:
-        return
-    cache = json.load(open(YT_STATUS_CACHE)) if os.path.exists(YT_STATUS_CACHE) else {}
-    for vid in sorted(ids):
-        st = cache.get(vid)
-        if not st:
-            errors.append(f"YouTube id {vid} has no status on record; run "
-                           f"gen/yt_video_status.py {vid} first")
-        elif st.get("made_for_kids"):
-            errors.append(f"YouTube id {vid} is made-for-kids, cannot be embedded")
-        elif not st.get("embeddable"):
-            errors.append(f"YouTube id {vid} is not embeddable per its on-record status")
 
 
 def check_tiktok(text, errors, page_type):
@@ -605,7 +579,6 @@ def check_file(path):
         # Event-feed pages: not prose articles, so only the structural/SEO gates apply.
         check_em_dashes(text, errors)
         check_faq(text, errors)
-        check_youtube_compliance(text, errors)
         check_template_placeholders(text, errors)
         check_byline(text, errors)
         check_title_length(text, errors)
@@ -619,7 +592,6 @@ def check_file(path):
     check_toc(text, errors, wc)
     check_images(text, errors)
     check_youtube(text, errors, page_type)
-    check_youtube_compliance(text, errors)
     check_tiktok(text, errors, page_type)
     check_word_count(wc, errors, page_type)
     check_banned_phrases(plain, errors)

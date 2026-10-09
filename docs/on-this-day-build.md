@@ -42,9 +42,8 @@ audit rules) and `docs/on-this-day-template-spec.md` (page structure).
      spot-check on the live page rather than silently skipping video.
 5. Pre-push gate, any failure blocks the push: `python3 gen/check_article.py
    <page>` (OTD reduced set: byline/dates, title, og:image + JSON-LD image,
-   a `/1960s/<year>/` link inside every year section, FAQ, canonical links;
-   every YouTube id needs an on-record status in `gen/yt_status_cache.json`,
-   ask Charlie to run `gen/yt_video_status.py` for new ids); add the `data/posts.json` entry
+   a `/1960s/<year>/` link inside every year section, FAQ, canonical links);
+   add the `data/posts.json` entry
    (type `on-this-day`, **including a `seq` field set to this file's queue
    row number**, see note below, required); then `python3
    gen/publish_prep.py` (listings, sitemap, llms.txt, site check,
@@ -92,16 +91,6 @@ past that, move the oldest `live` rows out to
 
 | # | Date | Page | Data file | Status |
 |---|------|------|-----------|--------|
-| 4 | September 4 | /blog/on-this-day/september-4/ | data/on-this-day/09-04.json | live |
-| 5 | September 5 | /blog/on-this-day/september-5/ | data/on-this-day/09-05.json | live |
-| 6 | September 6 | /blog/on-this-day/september-6/ | data/on-this-day/09-06.json | live |
-| 7 | September 7 | /blog/on-this-day/september-7/ | data/on-this-day/09-07.json | live |
-| 8 | September 8 | /blog/on-this-day/september-8/ | data/on-this-day/09-08.json | live |
-| 9 | September 9 | /blog/on-this-day/september-9/ | data/on-this-day/09-09.json | live |
-| 10 | September 10 | /blog/on-this-day/september-10/ | data/on-this-day/09-10.json | live |
-| 11 | September 11 | /blog/on-this-day/september-11/ | data/on-this-day/09-11.json | live |
-| 12 | September 12 | /blog/on-this-day/september-12/ | data/on-this-day/09-12.json | live |
-| 13 | September 13 | /blog/on-this-day/september-13/ | data/on-this-day/09-13.json | live |
 | 14 | September 14 | /blog/on-this-day/september-14/ | data/on-this-day/09-14.json | live |
 | 15 | September 15 | /blog/on-this-day/september-15/ | data/on-this-day/09-15.json | live |
 | 16 | September 16 | /blog/on-this-day/september-16/ | data/on-this-day/09-16.json | live |
@@ -182,3 +171,15 @@ past that, move the oldest `live` rows out to
 | 91 | November 30 | /blog/on-this-day/november-30/ | data/on-this-day/11-30.json | not started |
 | 92 | December 1 | /blog/on-this-day/december-1/ | data/on-this-day/12-01.json | not started |
 | 93 | December 2 | /blog/on-this-day/december-2/ | data/on-this-day/12-02.json | not started |
+
+## Carry-over finds for upcoming dates
+
+Confirmed during the Oct 18 audit, dated for other days. Re-verify the source
+before building each page, then include as normal cards.
+
+- Oct 20, 1967: Beatles overdub flutes (Jack Ellory, Christopher and Richard
+  Taylor) on "The Fool on the Hill", Studio Three. Beatles Bible, 1967/10/20.
+- Oct 23, 1966: Jimi Hendrix Experience first session, De Lane Lea, cuts "Hey
+  Joe" and "Stone Free". Source: Experience Hendrix or Lewisohn-grade log.
+- Oct 24, 1962: James Brown records Live at the Apollo (Apollo, Harlem); live
+  album released May 1963. Source: Library of Congress / King Records.

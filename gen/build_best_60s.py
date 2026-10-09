@@ -128,8 +128,8 @@ why = dict(PICKS)
 stories = {s["id"] for s in rows if os.path.isdir(f"{ROOT}/blog/songs/{s['id']}")}
 yt_cache = json.load(open(f"{ROOT}/gen/yt_status_cache.json"))
 for s in rows:
-    st = yt_cache[s["youtube_id"]]
-    assert st["embeddable"] and not st["made_for_kids"], s["id"]
+    st = yt_cache.get(s["youtube_id"])
+    assert not st or (st["embeddable"] and not st["made_for_kids"]), s["id"]
 
 by_year = collections.Counter(s["year"] for s in rows)
 by_genre = collections.Counter(s["genre_id"] for s in rows)

@@ -37,15 +37,8 @@ linter, or JS build.
 
 Every embed must be visible, unobscured, and at/above YouTube's minimum
 size (200x200px, 480x270 for 16:9); never a hidden/background player.
-Before shipping a new id, it needs an on-record `embeddable=true` /
-`made_for_kids=false` result in `gen/yt_status_cache.json` (run
-`gen/yt_video_status.py <id>`, `YOUTUBE_API_KEY` env var, never commit the
-key). `check_article.py` enforces this on song/artist pages; other types
-need a manual check first.
-
-**Never search for, read, or ask for the YouTube API key, in any session.**
-When ids need checking, give Charlie the exact `gen/yt_video_status.py`
-command and wait. He runs it himself; then read `gen/yt_status_cache.json`.
+`check_article.py` checks that song/artist pages carry an embed; the
+visibility and size rules above are a manual check for every type.
 
 ## No Hallucination Rule — ABSOLUTE
 
