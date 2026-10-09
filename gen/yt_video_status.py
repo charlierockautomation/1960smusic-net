@@ -78,19 +78,61 @@ def check_and_record(ids, api_key):
     return status, calls
 
 
+def parse_ids(args):
+    """Accept ids as separate args, comma-joined, or any mix; de-dupe in order."""
+    ids = [t for a in args for t in a.replace(",", " ").split()]
+    return list(dict.fromkeys(ids))
+
+
+def safe_err(e, api_key):
+    """Short error text with the key scrubbed, in case a library echoes the URL."""
+    msg = f"{type(e).__name__}: {e}"
+    return msg.replace(api_key, "***")
+
+
+def check_each(ids, api_key):
+    """Check ids in batches; if a batch call fails, retry its ids one at a time
+    so one bad id or transient error never loses the rest. Returns
+    (status_by_id, errors_by_id, calls)."""
+    status, errors, calls = {}, {}, 0
+    for batch in chunks(ids, BATCH_SIZE):
+        try:
+            st, n = fetch_status(batch, api_key)
+            status.update(st)
+            calls += n
+            continue
+        except Exception:
+            pass
+        for vid in batch:
+            try:
+                st, n = fetch_status([vid], api_key)
+                status.update(st)
+                calls += n
+            except Exception as e:
+                errors[vid] = safe_err(e, api_key)
+    return status, errors, calls
+
+
 if __name__ == "__main__":
     api_key = os.environ.get("YOUTUBE_API_KEY")
     if not api_key:
         sys.exit("Set YOUTUBE_API_KEY env var first.")
-    if len(sys.argv) < 2:
-        sys.exit("usage: python3 gen/yt_video_status.py id1,id2,...")
-    ids = [i for i in sys.argv[1].split(",") if i]
-    status, calls = check_and_record(ids, api_key)
+    ids = parse_ids(sys.argv[1:])
+    if not ids:
+        sys.exit("usage: python3 gen/yt_video_status.py id1 id2 id3 ...  (commas also OK)")
+    status, errors, calls = check_each(ids, api_key)
+    if status:
+        save_cache(record(load_cache(), status))
     for vid in ids:
         st = status.get(vid)
-        if not st:
+        if vid in errors:
+            print(f"{vid}: ERROR {errors[vid]}")
+        elif not st:
             print(f"{vid}: NOT FOUND (deleted/private, or bad id)")
         else:
             print(f"{vid}: embeddable={st['embeddable']} made_for_kids={st['made_for_kids']} "
                   f"privacy={st['privacy_status']}")
-    print(f"\n{calls} API call(s), {calls * QUOTA_COST_PER_CALL} quota unit(s).")
+    print(f"\n{len(status)}/{len(ids)} recorded, {calls} API call(s), "
+          f"{calls * QUOTA_COST_PER_CALL} quota unit(s).")
+    if errors or len(status) < len(ids):
+        sys.exit(1)
