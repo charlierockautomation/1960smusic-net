@@ -45,7 +45,7 @@ restored, and note the result here either way.
 | 11 | Year page: 1969 | live |
 | 12 | Best 60s Songs list page (/best-60s-songs/) | live |
 | 13 | 60s Rock umbrella hub (/blog/genres/60s-rock/) | live |
-| 14 | Tool intro copy (7 tools, 200-400 words each, crawlable) | not started |
+| 14 | Tool intro copy (7 tools, 200-400 words each, crawlable) | live |
 | 15 | Homepage rebuild (full pillar copy, not just Phase 1's static links) | not started |
 | 16 | `/1960s/` hub page (year index + genre hub links) | live |
 
@@ -99,6 +99,7 @@ Surf, Folk Rock, Psychedelic), 7 artist bios linked, Kinks embed. In
 posts.json (genre null), CLAUDE.md hub list updated.
 
 ### 14. Tool intro copy
+Done 2026-10-10: `.tool-intro` blocks (211-240 words) on radio, daily, trivia, quiz, playlist-builder, random-song; crossword already had ~345 words. Same push: crossword clue lists scroll (260px), playlist builder now one visible player with Play all/auto-advance/Prev/Next.
 200-400 words of crawlable text on each of the 7 tool pages (radio,
 daily, trivia, quiz, playlist-builder, random-song,
 60s-music-crossword), targeting tool-specific queries ("60s music

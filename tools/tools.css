@@ -72,3 +72,17 @@ label.field{font-family:inherit;font-size:.95rem;color:var(--muted);display:flex
 .tool-links a{margin-right:16px;}
 
 .hidden{display:none;}
+
+.tool-intro{margin:36px 0 24px;max-width:720px;line-height:1.6;}
+.tool-intro h2{margin:0 0 12px;}
+.tool-intro h3{margin:22px 0 8px;font-size:1.1rem;}
+.tool-intro p{margin:0 0 10px;}
+.tool-intro ul{margin:0 0 12px;padding-left:22px;}
+
+/* playlist builder: one shared, visible player */
+.pb-player{margin:0 0 22px;}
+.pb-screen{position:relative;width:100%;max-width:720px;aspect-ratio:16/9;border-radius:10px;overflow:hidden;background:#000;}
+.pb-screen iframe{position:absolute;inset:0;width:100%;height:100%;}
+.pb-bar{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:10px;font-family:sans-serif;font-size:.95rem;}
+.pb-bar #pb-now{flex:1 1 220px;}
+.playlist li.pb-current .song{border-color:var(--amber);box-shadow:0 0 0 2px var(--amber);}

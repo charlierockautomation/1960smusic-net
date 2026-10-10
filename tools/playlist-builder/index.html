@@ -81,7 +81,43 @@
       <button class="btn" id="build">Build playlist</button>
     </div>
 
+    <div class="pb-player" id="pb-player-wrap" hidden>
+      <div class="pb-screen"><div id="pb-player"></div></div>
+      <div class="pb-bar">
+        <span id="pb-now" aria-live="polite">Press Play all or pick a song.</span>
+        <button class="btn secondary" id="pb-prev" type="button">&laquo; Prev</button>
+        <button class="btn secondary" id="pb-next" type="button">Next &raquo;</button>
+      </div>
+    </div>
+
     <div id="result" aria-live="polite"></div>
+
+    <section class="tool-intro" aria-labelledby="ti-h">
+      <h2 id="ti-h">About the 60s party playlist builder</h2>
+      <p>The Party Playlist Builder makes a 60s playlist for whatever mood the room is in.</p>
+      <p>Choose a vibe and a length of 6, 10 or 15 songs, and it pulls a shuffled set of 1960s tracks that match.</p>
+      <p>One player on the page plays the whole playlist, moving to the next song on its own when each one ends.</p>
+      <h3>The eight vibes</h3>
+      <ul>
+        <li>Upbeat &amp; Feel-Good</li>
+        <li>Romantic &amp; Tender</li>
+        <li>Dance Party</li>
+        <li>Driving Rock</li>
+        <li>Dreamy &amp; Psychedelic</li>
+        <li>Mellow &amp; Reflective</li>
+        <li>Smooth &amp; Sophisticated</li>
+        <li>Anthemic &amp; Epic</li>
+      </ul>
+      <p>Vibes are matched to mood tags on each song, not to genre, so one playlist can mix British Invasion, soul and pop.</p>
+      <h3>Tips for a 60s party</h3>
+      <p>Press Build again for a different mix with the same vibe.</p>
+      <p>Pick Dance Party early in the night and Mellow &amp; Reflective near the end.</p>
+      <p>For a fixed list instead of a random one, use the <a href="/best-60s-songs/">100 best 60s songs</a>, or let the <a href="/tools/radio/">Radio Dial</a> run in the background.</p>
+      <p>To plan around a single year, browse the <a href="/1960s/">1960s year guides</a>.</p>
+      <p>The builder is free, runs in your browser, and needs no sign-up.</p>
+      <p>Nothing is saved, so if a mix is a keeper, note the titles before you press Build again.</p>
+      <p>The songs come from the same catalogue as the rest of the site, so the artists range from household names to one-hit wonders.</p>
+    </section>
 
     <nav class="tool-links" aria-label="More tools">
       <strong>More tools:</strong>
@@ -126,25 +162,64 @@ function songsForVibe(key) {
   return DATA.songs.filter(s => (s.mood_tags || []).some(t => wanted.has(t)));
 }
 
+let list = [], cur = -1, errRun = 0, ytPlayer = null, ytReady = false;
+
+window.onYouTubeIframeAPIReady = function () {
+  ytPlayer = new YT.Player('pb-player', {
+    width: '640', height: '360',
+    playerVars: { autoplay: 0, controls: 1, playsinline: 1 },
+    events: { onReady: function () { ytReady = true; }, onStateChange: onState, onError: onErr }
+  });
+};
+
+function onState(e) {
+  if (e.data === YT.PlayerState.PLAYING) errRun = 0;
+  if (e.data === YT.PlayerState.ENDED) playIdx(cur + 1);
+}
+function onErr() {
+  errRun++;
+  if (errRun >= list.length) { document.getElementById('pb-now').textContent = 'Playback trouble. Try building a new playlist.'; return; }
+  playIdx(cur + 1);
+}
+
+/* Called directly from click handlers so mobile browsers allow playback. */
+function playIdx(i) {
+  if (!list.length || !ytReady) return;
+  if (i >= list.length) i = 0;
+  if (i < 0) i = list.length - 1;
+  cur = i;
+  const s = list[i];
+  document.getElementById('pb-player-wrap').hidden = false;
+  ytPlayer.loadVideoById({ videoId: s.youtube_id, startSeconds: Number.isFinite(s.youtube_clip_start_seconds) ? s.youtube_clip_start_seconds : 0 });
+  document.getElementById('pb-now').textContent = 'Now playing #' + (i + 1) + ': ' + s.title + ' by ' + (s.artist_name || '');
+  document.querySelectorAll('#result .playlist li').forEach((li, k) => li.classList.toggle('pb-current', k === i));
+}
+
 function build() {
   const key = document.getElementById('vibe').value;
   const count = parseInt(document.getElementById('count').value, 10);
   const matches = shuffle(songsForVibe(key)).slice(0, count);
+  if (ytReady && ytPlayer.stopVideo) ytPlayer.stopVideo();
+  list = matches; cur = -1; errRun = 0;
+  document.getElementById('pb-now').textContent = 'Press Play all or pick a song.';
   if (!matches.length) { document.getElementById('result').innerHTML = '<p>No songs found for that vibe.</p>'; return; }
   const items = matches.map((s, i) =>
-    '<li>' +
+    '<li data-pb-idx="' + i + '">' +
       '<span class="n">#' + (i + 1) + '</span>' +
       '<div class="song" style="margin-top:6px">' +
         '<h2>' + escapeHtml(s.title) + '</h2>' +
         '<p class="meta">' + songMeta(s) + '</p>' +
-        ytEmbed(s) +
+        '<button class="btn secondary pb-play" type="button" data-pb-idx="' + i + '">&#9654; Play this song</button>' +
       '</div>' +
     '</li>').join('');
   document.getElementById('result').innerHTML =
     '<h2>' + escapeHtml(VIBES[key].label) + ': ' + matches.length + ' tracks</h2>' +
+    '<p><button class="btn" id="pb-playall" type="button">&#9654; Play all</button></p>' +
     '<ol class="playlist">' + items + '</ol>';
+  document.getElementById('pb-playall').addEventListener('click', () => playIdx(0));
+  document.querySelectorAll('.pb-play').forEach(b =>
+    b.addEventListener('click', () => playIdx(parseInt(b.getAttribute('data-pb-idx'), 10))));
 }
-
 (async function init() {
   await loadData();
   const sel = document.getElementById('vibe');
@@ -153,9 +228,12 @@ function build() {
     o.value = k; o.textContent = VIBES[k].label; sel.appendChild(o);
   });
   document.getElementById('build').addEventListener('click', build);
+  document.getElementById('pb-prev').addEventListener('click', () => playIdx(cur - 1));
+  document.getElementById('pb-next').addEventListener('click', () => playIdx(cur + 1));
   build();
 })();
 </script>
+<script src="https://www.youtube.com/iframe_api" async></script>
 <script src="/site.js" defer></script>
 </body>
 </html>

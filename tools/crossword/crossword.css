@@ -43,7 +43,7 @@
 
 .cw-clues{flex:1 1 260px;min-width:240px;display:grid;grid-template-columns:1fr;gap:20px;}
 .cw-clue-col h3{margin:0 0 10px;font-size:1.05rem;}
-.cw-clue-list{list-style:none;margin:0;padding:0;}
+.cw-clue-list{list-style:none;margin:0;padding:0 4px 0 0;max-height:260px;overflow-y:auto;overscroll-behavior:contain;}
 .cw-clue-list li{
   font-size:.92rem;padding:6px 8px;border-radius:6px;cursor:pointer;
   display:flex;gap:8px;
