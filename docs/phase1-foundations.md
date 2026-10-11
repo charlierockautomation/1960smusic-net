@@ -96,7 +96,8 @@ right after pushing it live. First real submission sent 2026-09-29 for
   indexing already requested by Charlie.
 - Cloudflare: AI Crawl Control screenshots reviewed 2026-09-29, unsuccessful
   crawl count down sharply from the 408/7-day baseline in the strategy
-  review. Bot Fight Mode setting still needs a status check/screenshot.
+  review. Charlie confirmed 2026-10-11 Cloudflare is set up properly
+  (Bot Fight Mode included).
 - Author page facts: done (task 6). Dolly Parton decision: done (task 9).
   Row 62 decision: done, dropped (see `content-build.md`).
 

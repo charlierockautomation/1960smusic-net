@@ -15,18 +15,16 @@ status is `not started`.
 
 Status values: `not started` · `in progress` · `blocked (reason)` · `live`
 
-## Open blocker: keyword volumes unverified
+## Keyword volumes: verified 2026-10-11
 
-Strategy review flagged year-page keyword volumes (1960-1969) as
-**not yet verified**. Attempted verification 2026-09-29 via the
-DataForSEO MCP tools (`dataforseo_labs_google_keyword_overview`,
-`kw_data_google_ads_search_volume`): both returned HTTP 402 (no credits
-on the connected account). Task 1 below proceeds on the existing
-WordStream-verified clusters only (see `strategy-review-2026-09.md`
-baseline data); per-year search volume is not part of any page's
-published claims, so this blocks planning confidence, not the no-
-hallucination rule. Re-attempt verification once DataForSEO access is
-restored, and note the result here either way.
+DataForSEO funded; `kw_data_google_ads_search_volume` (US, monthly avg)
+now works (earlier HTTP 402 on 2026-09-29 resolved). "[year] music":
+1960 2,900 (spiky); 1961 170; 1962 210; 1963 320; 1964 320; 1965 590;
+1966 590; 1967 590; 1968 480; 1969 720. "1965 songs" 1,600, "1965 hits"
+590, "best songs of 1965" 140. Clusters: "1960s music" 22,200; "60s songs"
+14,800; "best 60s songs" 4,400; "60s rock" 3,600; "60s music hits" 1,600.
+"top songs of [year]" returned no data. "[year] songs" runs about 3x
+"[year] music" (checked for 1965 only); worth a title/H2 check on year pages.
 
 ## Tasks
 
@@ -148,8 +146,10 @@ grid in `index.html` (add the new year's card; missed for 1964 on the
 first push, fixed the same day). This rule exists because task 3 shipped without
 any of the first three the first time.
 
-## Gate 2 (target Nov 8)
-All 10 year pages and the Best 60s Songs list are live and linked from
+## Gate 2 (target Nov 8): met 2026-10-11
+Audit: every year section on all 51 OTD pages links its `/1960s/<year>/`
+page; `/best-60s-songs/` added to every OTD "More On This Day" block and
+`docs/on-this-day-page-template.html`. Phase 3 may begin. Original gate: All 10 year pages and the Best 60s Songs list are live and linked from
 every existing On This Day page whose date falls in that year. Then
 Phase 3 (`docs/strategy-review-2026-09.md` roadmap: queue rotation,
 monthly data page, weekly Trending, weekly refresh) begins.
