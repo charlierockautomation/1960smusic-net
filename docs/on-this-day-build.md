@@ -128,7 +128,7 @@ past that, move the oldest `live` rows out to
 | 48 | October 18 | /blog/on-this-day/october-18/ | data/on-this-day/10-18.json | live |
 | 49 | October 19 | /blog/on-this-day/october-19/ | data/on-this-day/10-19.json | live |
 | 50 | October 20 | /blog/on-this-day/october-20/ | data/on-this-day/10-20.json | live |
-| 51 | October 21 | /blog/on-this-day/october-21/ | data/on-this-day/10-21.json | drafted |
+| 51 | October 21 | /blog/on-this-day/october-21/ | data/on-this-day/10-21.json | live |
 | 52 | October 22 | /blog/on-this-day/october-22/ | data/on-this-day/10-22.json | not started |
 | 53 | October 23 | /blog/on-this-day/october-23/ | data/on-this-day/10-23.json | not started |
 | 54 | October 24 | /blog/on-this-day/october-24/ | data/on-this-day/10-24.json | not started |
