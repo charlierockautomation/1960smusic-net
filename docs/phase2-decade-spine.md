@@ -46,7 +46,7 @@ restored, and note the result here either way.
 | 12 | Best 60s Songs list page (/best-60s-songs/) | live |
 | 13 | 60s Rock umbrella hub (/blog/genres/60s-rock/) | live |
 | 14 | Tool intro copy (7 tools, 200-400 words each, crawlable) | live |
-| 15 | Homepage rebuild (full pillar copy, not just Phase 1's static links) | not started |
+| 15 | Homepage rebuild (full pillar copy, not just Phase 1's static links) | live |
 | 16 | `/1960s/` hub page (year index + genre hub links) | live |
 
 ## Task detail
@@ -109,8 +109,13 @@ or beside the existing interactive markup.
 ### 15. Homepage rebuild
 Full pillar copy rewrite (Phase 1 task 2 only added static crawlable
 links/tools/latest-blog block, explicitly deferred the copy rewrite to
-here). Scope this once tasks 1-13 are live, since the rebuilt homepage
-should link to the year spine and the new hubs/list page.
+here).
+
+Done 2026-10-10: hero answer-first intro; Hear/Understand/Play pillar
+cards; year, genre (incl. 60s Rock), artist-bio, song-story and On This
+Day link sections; five-stop decade guide (facts reused from live year
+pages only); FAQ 5 to 7 (schema matches); year-guide `ItemList`. Tools
+grid moved below content. Live, verify_live 200, IndexNow pinged.
 
 ### 16. `/1960s/` hub page
 Not in the original task 1-15 scoping; gap found 2026-09-29 while
