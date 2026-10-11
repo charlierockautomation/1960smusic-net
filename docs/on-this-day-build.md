@@ -127,7 +127,7 @@ past that, move the oldest `live` rows out to
 | 47 | October 17 | /blog/on-this-day/october-17/ | data/on-this-day/10-17.json | live |
 | 48 | October 18 | /blog/on-this-day/october-18/ | data/on-this-day/10-18.json | live |
 | 49 | October 19 | /blog/on-this-day/october-19/ | data/on-this-day/10-19.json | live |
-| 50 | October 20 | /blog/on-this-day/october-20/ | data/on-this-day/10-20.json | not started |
+| 50 | October 20 | /blog/on-this-day/october-20/ | data/on-this-day/10-20.json | live |
 | 51 | October 21 | /blog/on-this-day/october-21/ | data/on-this-day/10-21.json | not started |
 | 52 | October 22 | /blog/on-this-day/october-22/ | data/on-this-day/10-22.json | not started |
 | 53 | October 23 | /blog/on-this-day/october-23/ | data/on-this-day/10-23.json | not started |
@@ -177,8 +177,6 @@ past that, move the oldest `live` rows out to
 Confirmed during the Oct 18 audit, dated for other days. Re-verify the source
 before building each page, then include as normal cards.
 
-- Oct 20, 1967: Beatles overdub flutes (Jack Ellory, Christopher and Richard
-  Taylor) on "The Fool on the Hill", Studio Three. Beatles Bible, 1967/10/20.
 - Oct 23, 1966: Jimi Hendrix Experience first session, De Lane Lea, cuts "Hey
   Joe" and "Stone Free". Source: Experience Hendrix or Lewisohn-grade log.
 - Oct 24, 1962: James Brown records Live at the Apollo (Apollo, Harlem); live
