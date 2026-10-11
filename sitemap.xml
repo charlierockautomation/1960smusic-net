@@ -542,7 +542,7 @@
   </url>
   <url>
     <loc>https://1960smusic.net/blog/songs/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -573,6 +573,12 @@
   <url>
     <loc>https://1960smusic.net/blog/songs/for-your-love-yardbirds/</loc>
     <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://1960smusic.net/blog/songs/fun-fun-fun-beach-boys/</loc>
+    <lastmod>2026-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

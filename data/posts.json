@@ -969,6 +969,15 @@
       "description": "60s rock explained: how British Invasion, garage, folk rock, and psychedelic bands turned a three-chord sound into the decade's biggest music, year by year.",
       "date": "2026-10-08",
       "genre": null
+    },
+    {
+      "id": "fun-fun-fun-beach-boys",
+      "title": "Fun, Fun, Fun by The Beach Boys: Story Behind the 1964 Hit",
+      "slug": "/blog/songs/fun-fun-fun-beach-boys/",
+      "type": "song-story",
+      "description": "Fun, Fun, Fun put a borrowed Chuck Berry guitar intro and a Thunderbird joyride into The Beach Boys' 1964 top five hit. Here is the full story.",
+      "date": "2026-10-11",
+      "genre": "garage-surf-rock"
     }
   ]
 }

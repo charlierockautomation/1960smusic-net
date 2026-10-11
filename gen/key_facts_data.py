@@ -62,6 +62,14 @@ SONGS = {
         ("US peak", "No. 6, Billboard Hot 100"),
         ("UK peak", "No. 1"),
     ]),
+    "fun-fun-fun-beach-boys": dict(year=1964, rows=[
+        ("Released", "February 3, 1964"),
+        ("Label", "Capitol"),
+        ("Written by", "Brian Wilson and Mike Love"),
+        ("Produced by", "Brian Wilson"),
+        ("US peak", "No. 5, Billboard Hot 100"),
+        ("UK peak", "Did not chart"),
+    ]),
     "good-vibrations-beach-boys": dict(year=1966, rows=[
         ("Released", "October 10, 1966"),
         ("Label", "Capitol"),
