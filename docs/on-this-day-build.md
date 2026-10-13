@@ -129,7 +129,7 @@ past that, move the oldest `live` rows out to
 | 49 | October 19 | /blog/on-this-day/october-19/ | data/on-this-day/10-19.json | live |
 | 50 | October 20 | /blog/on-this-day/october-20/ | data/on-this-day/10-20.json | live |
 | 51 | October 21 | /blog/on-this-day/october-21/ | data/on-this-day/10-21.json | live |
-| 52 | October 22 | /blog/on-this-day/october-22/ | data/on-this-day/10-22.json | drafted |
+| 52 | October 22 | /blog/on-this-day/october-22/ | data/on-this-day/10-22.json | live |
 | 53 | October 23 | /blog/on-this-day/october-23/ | data/on-this-day/10-23.json | not started |
 | 54 | October 24 | /blog/on-this-day/october-24/ | data/on-this-day/10-24.json | not started |
 | 55 | October 25 | /blog/on-this-day/october-25/ | data/on-this-day/10-25.json | not started |
@@ -179,5 +179,9 @@ before building each page, then include as normal cards.
 
 - Oct 23, 1966: Jimi Hendrix Experience first session, De Lane Lea, cuts "Hey
   Joe" and "Stone Free". Source: Experience Hendrix or Lewisohn-grade log.
+- Oct 24, 1964: Sandie Shaw's (There's) Always Something There to Remind Me
+  reaches UK No. 1 (chart dated Oct 24, three weeks). Source: Official Charts.
+- Oct 24, 1969: Paul McCartney denies "Paul Is Dead" to the BBC's Chris Drake
+  at High Park Farm, Campbeltown. Source: Beatles Bible (1969/10/24).
 - Oct 24, 1962: James Brown records Live at the Apollo (Apollo, Harlem); live
   album released May 1963. Source: Library of Congress / King Records.
