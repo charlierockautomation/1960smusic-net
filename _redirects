@@ -8,3 +8,8 @@
 /privacy-policy.html /privacy-policy/ 301
 /terms-of-use /terms-of-use/ 301
 /terms-of-use.html /terms-of-use/ 301
+/blog/on-this-day/:slug /blog/on-this-day/:slug/ 301
+/blog/songs/:slug /blog/songs/:slug/ 301
+/blog/artists/:slug /blog/artists/:slug/ 301
+/blog/genres/:slug /blog/genres/:slug/ 301
+/blog/trending/:slug /blog/trending/:slug/ 301

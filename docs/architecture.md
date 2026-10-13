@@ -113,14 +113,14 @@ changed), and `rd:track-started` (a track began playing).
 - `onPlayerError`'s consecutive-failure threshold is 5 (auto-skip on each
   embeddability failure, stop with a status-line message after 5 in a row).
 
-## Page conventions (see index.html / about.html)
+## Page conventions (see index.html / about/index.html)
 
 - Every page: `<link rel="stylesheet" href="/styles.css">`,
   `<link rel="canonical" href="https://1960smusic.net/...">`, standard
   `site-header` with `brand` + `site-nav` (`aria-current="page"` on the
   active link). `site-nav` order is Home, Listen Now (`/tools/radio/`),
   Blog, About, Contact, on every page site-wide.
-- Root-relative links (`/about.html`, not `about.html`).
+- Root-relative links (`/about/`, not `about/`).
 - `_headers` sets baseline security headers (X-Frame-Options,
   X-Content-Type-Options, Referrer-Policy) applied to `/*`; `_redirects` is
   intentionally empty in this phase.

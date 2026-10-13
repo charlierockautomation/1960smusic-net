@@ -13,7 +13,7 @@ sections** — empty, unlinked shells only exist as folders for later phases.
 
 ### What's live in this phase
 - `index.html` — Home
-- `about.html`, `contact.html`, `privacy-policy.html`, `terms-of-use.html`
+- `about/`, `contact/`, `privacy-policy/`, `terms-of-use/` (clean trailing-slash URLs; old `.html` paths 301 via `_redirects`)
 - `styles.css` — shared stylesheet
 - `data/genres.json`, `data/artists.json`, `data/songs.json` — the master dataset
 
