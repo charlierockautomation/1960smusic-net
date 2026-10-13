@@ -126,6 +126,14 @@ SONGS = {
         ("US peak", "No. 1, Billboard Hot 100"),
         ("UK peak", "Not released as a UK single"),
     ]),
+    "like-a-rolling-stone-bob-dylan": dict(year=1965, rows=[
+        ("Released", "July 20, 1965 (US)"),
+        ("Label", "Columbia"),
+        ("Written by", "Bob Dylan"),
+        ("Produced by", "Tom Wilson"),
+        ("US peak", "No. 2, Billboard Hot 100 (No. 1, Cash Box)"),
+        ("UK peak", "No. 4"),
+    ]),
     "light-my-fire-doors": dict(year=1967, rows=[
         ("Released", "April 24, 1967 (single)"),
         ("Label", "Elektra"),

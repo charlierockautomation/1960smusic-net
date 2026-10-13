@@ -1035,6 +1035,15 @@
       "description": "Bob Dylan went from Greenwich Village folk singer to the 1960s' most argued-over songwriter, plugging in at Newport and changing rock with Like a Rolling Stone.",
       "date": "2026-10-13",
       "genre": "folk-rock"
+    },
+    {
+      "id": "like-a-rolling-stone-bob-dylan",
+      "title": "Like a Rolling Stone by Bob Dylan: Story of the 1965 Hit",
+      "slug": "/blog/songs/like-a-rolling-stone-bob-dylan/",
+      "type": "song-story",
+      "description": "Like a Rolling Stone grew from pages of verse into Bob Dylan's 1965 No. 2 hit. Here is the story of the session, the organ and the legacy.",
+      "date": "2026-10-13",
+      "genre": "folk-rock"
     }
   ]
 }
