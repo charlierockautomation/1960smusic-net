@@ -1026,6 +1026,15 @@
       "description": "Surfin' Safari by The Beach Boys was the band's first Capitol single in 1962. Here is how it was written, recorded and charted.",
       "date": "2026-10-12",
       "genre": "garage-surf-rock"
+    },
+    {
+      "id": "bob-dylan",
+      "title": "Bob Dylan: From Hibbing Folk Singer to Electric Poet",
+      "slug": "/blog/artists/bob-dylan/",
+      "type": "artist-bio",
+      "description": "Bob Dylan went from Greenwich Village folk singer to the 1960s' most argued-over songwriter, plugging in at Newport and changing rock with Like a Rolling Stone.",
+      "date": "2026-10-13",
+      "genre": "folk-rock"
     }
   ]
 }

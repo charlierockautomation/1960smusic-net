@@ -256,6 +256,13 @@ SONGS = {
 # Artist rows: Origin, Genre, Label and "Peak chart hits" are required by
 # check_article.py. `years` lists the /1960s/<year>/ pages the box links.
 ARTISTS = {
+    "bob-dylan": dict(years=[1963, 1965, 1966], rows=[
+        ("Origin", "Duluth, Minnesota (raised in Hibbing)"),
+        ("Born", "May 24, 1941"),
+        ("Genre", "Folk Rock"),
+        ("Label", "Columbia"),
+        ("Peak chart hits", "\"Like a Rolling Stone\" (US No. 2, 1965); \"Rainy Day Women #12 & 35\" (US No. 2, 1966)"),
+    ]),
     "hermanns-hermits": dict(years=[1964, 1965], rows=[
         ("Origin", "Manchester, England"),
         ("Active", "1964-1971"),
