@@ -101,7 +101,7 @@ Live rows (1-26) are in [`docs/content-build-archive.md`](content-build-archive.
 | 43 | Surfin' USA | /blog/songs/surfin-usa-beach-boys/ | song-story | garage-surf-rock | live | Surfin USA | enlOHxQ0tb4 |  |
 | 44 | Good Vibrations | /blog/songs/good-vibrations-beach-boys/ | song-story | garage-surf-rock | live | Good Vibrations by The Beach Boys | apBWI6xrbLY |  |
 | 45 | Fun, Fun, Fun | /blog/songs/fun-fun-fun-beach-boys/ | song-story | garage-surf-rock | live | Fun, Fun, Fun | VF_o-N0fhZ0 |  |
-| 46 | California Girls | /blog/songs/california-girls-beach-boys/ | song-story | garage-surf-rock | not started | California Girls by The Beach Boys | DR2lvcdKSdU |  |
+| 46 | California Girls | /blog/songs/california-girls-beach-boys/ | song-story | garage-surf-rock | live | California Girls by The Beach Boys | DR2lvcdKSdU |  |
 | 47 | Surfin' Safari | /blog/songs/surfin-safari-beach-boys/ | song-story | garage-surf-rock | not started | Surfin' Safari by The Beach Boys | IMChBJZUDK8 | yt |
 | 48 | Bob Dylan bio | /blog/artists/bob-dylan/ | artist-bio | folk-rock | not started | Bob Dylan | IwOfCgkyEj0 |  |
 | 49 | Like a Rolling Stone | /blog/songs/like-a-rolling-stone-bob-dylan/ | song-story | folk-rock | not started | Like a Rolling Stone | IwOfCgkyEj0 |  |
