@@ -8,6 +8,12 @@ var RadioPlayer = (function(){
   var pendingInit = null;
   var readyTimer = null;
   var hooks = {};
+  var stallTimer = null;
+  var pendingId = null;
+  /* Watchdog: a loaded track that never reaches PLAYING (blocked, stuck
+     buffering, silently dead video) would otherwise freeze the station. */
+  function armStall(){ clearStall(); stallTimer = setTimeout(function(){ stallTimer = null; if (hooks.onStall) hooks.onStall(); }, 15000); }
+  function clearStall(){ if (stallTimer) { clearTimeout(stallTimer); stallTimer = null; } }
 
   window.onYouTubeIframeAPIReady = function(){
     apiReady = true;
@@ -26,9 +32,16 @@ var RadioPlayer = (function(){
         ? { autoplay: 1, mute: 1, controls: 1, playsinline: 1 }
         : { autoplay: 0, controls: 1, playsinline: 1 },
       events: {
-        onReady: function(e){ clearReadyTimer(); if (hooks.onReady) hooks.onReady(e); },
-        onStateChange: function(e){ if (hooks.onStateChange) hooks.onStateChange(e); },
-        onError: function(e){ if (hooks.onError) hooks.onError(e); }
+        onReady: function(e){
+          clearReadyTimer();
+          if (pendingId) { var id = pendingId; pendingId = null; player.loadVideoById(id); armStall(); }
+          if (hooks.onReady) hooks.onReady(e);
+        },
+        onStateChange: function(e){
+          if (e.data === YT.PlayerState.PLAYING || e.data === YT.PlayerState.PAUSED) clearStall();
+          if (hooks.onStateChange) hooks.onStateChange(e);
+        },
+        onError: function(e){ clearStall(); if (hooks.onError) hooks.onError(e); }
       }
     });
   }
@@ -40,10 +53,14 @@ var RadioPlayer = (function(){
       readyTimer = setTimeout(function(){
         if (hooks.onReadyTimeout) hooks.onReadyTimeout();
       }, opts.readyTimeoutMs || 9000);
-      var start = function(){ create(elementId, firstVideoId, true); };
+      var start = function(){ create(elementId, firstVideoId, true); armStall(); };
       if (apiReady && window.YT && window.YT.Player) start();
       else pendingInit = start;
     },
+    /* Event hooks must be set even when the player was pre-created by
+       preload() (which runs before any hooks exist). Without this, ENDED
+       and errors fire into an empty hooks object and playback stops. */
+    setHooks: function(opts){ hooks = opts || {}; },
     preload: function(elementId, firstVideoId){
       if (player) return;
       var start = function(){ create(elementId, firstVideoId, false); };
@@ -51,7 +68,8 @@ var RadioPlayer = (function(){
       else pendingInit = start;
     },
     loadVideo: function(id){
-      if (player && player.loadVideoById) player.loadVideoById(id);
+      if (player && player.loadVideoById) { player.loadVideoById(id); armStall(); }
+      else if (player) pendingId = id; /* pre-created player not ready yet: play on onReady */
     },
     unmute: function(vol){
       if (player && player.unMute) { player.unMute(); player.setVolume(vol == null ? 100 : vol); }
@@ -60,10 +78,11 @@ var RadioPlayer = (function(){
       if (player && player.setVolume) player.setVolume(vol);
     },
     stop: function(){
+      clearStall();
       if (player && player.stopVideo) player.stopVideo();
     },
     destroy: function(){
-      clearReadyTimer();
+      clearReadyTimer(); clearStall();
       pendingInit = null;
       if (player && player.destroy) { try { player.destroy(); } catch(e){} }
       player = null;

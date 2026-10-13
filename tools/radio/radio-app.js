@@ -12,7 +12,6 @@ var ENABLED_GENRES = {
   'garage-surf-rock': true, 'psychedelic-rock': true, 'country-60s': true,
   'pop-brill-building': true, 'jazz-easy-listening': true
 };
-var SKIP_CODES = { 2:1, 5:1, 100:1, 101:1, 150:1 };
 var DEFAULT_GENRE = 'british-invasion';
 
 var cache = {};
@@ -67,18 +66,20 @@ function onPlayerStateChange(e){
     if (!hasUnmuted){ hasUnmuted = true; RadioPlayer.unmute(); }
     document.dispatchEvent(new CustomEvent('rd:track-started', { detail: { genre: currentGenre, song: currentSong } }));
   }
-  else if (e.data === YT.PlayerState.ENDED){ nextTrack(); }
+  else if (e.data === YT.PlayerState.ENDED && playingGenre){ nextTrack(); }
 }
 function onPlayerError(e){
   if (typeof gtag === 'function' && currentSong){
     gtag('event', 'radio_track_error', { genre: currentGenre, video_id: currentSong.youtube_id, error_code: e.data });
   }
-  if (!SKIP_CODES[e.data]) return;
-  consecutiveFails++;
+  if (!playingGenre) return;
+  consecutiveFails++; /* any error (incl. 'stall' from the watchdog) skips forward */
   if (consecutiveFails >= 5){ showTrouble(); return; }
   nextTrack();
 }
 function onReadyTimeout(){ showDiagnostic(); }
+var PLAYER_HOOKS = { readyTimeoutMs: 9000, onReady: onPlayerReady, onStateChange: onPlayerStateChange,
+  onError: onPlayerError, onStall: function(){ onPlayerError({ data: 'stall' }); }, onReadyTimeout: onReadyTimeout };
 
 function updateTiles(){
   document.querySelectorAll('.rd-station').forEach(function(tile){
@@ -107,15 +108,13 @@ function selectStation(genreId, startSong){
     currentGenre = genreId;
     buildQueue(songs);
     var song = startSong || queue[queueIdx++];
-    if (startSong) dedupeHead(startSong);
+    if (startSong) queue = queue.filter(function(s){ return s.youtube_id !== startSong.youtube_id; });
     currentSong = song;
     renderNowPlaying(song, true);
     if (!RadioPlayer.isActive()){
-      RadioPlayer.init('rd-audio', song.youtube_id, {
-        readyTimeoutMs: 9000, onReady: onPlayerReady,
-        onStateChange: onPlayerStateChange, onError: onPlayerError, onReadyTimeout: onReadyTimeout
-      });
+      RadioPlayer.init('rd-audio', song.youtube_id, PLAYER_HOOKS);
     } else {
+      RadioPlayer.setHooks(PLAYER_HOOKS); /* player was pre-created by preload() with no hooks */
       RadioPlayer.loadVideo(song.youtube_id);
     }
   }).catch(function(){

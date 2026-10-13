@@ -110,8 +110,10 @@ changed), and `rd:track-started` (a track began playing).
   to that year in place, so every other file's Play/Skip/Select logic
   stays within-year with no changes of its own. A genre with zero songs
   for that year is left unfiltered rather than made unplayable.
-- `onPlayerError`'s consecutive-failure threshold is 5 (auto-skip on each
-  embeddability failure, stop with a status-line message after 5 in a row).
+- Any player error or a 15s stall (watchdog in `radio-player.js`) auto-skips;
+  5 in a row stops with the status-line message. Hooks are re-applied via
+  `RadioPlayer.setHooks()` on every station start because `preload()` creates
+  the player hook-less.
 
 ## Page conventions (see index.html / about/index.html)
 
