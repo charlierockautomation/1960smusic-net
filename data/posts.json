@@ -1044,6 +1044,15 @@
       "description": "Like a Rolling Stone grew from pages of verse into Bob Dylan's 1965 No. 2 hit. Here is the story of the session, the organ and the legacy.",
       "date": "2026-10-13",
       "genre": "folk-rock"
+    },
+    {
+      "id": "blowin-in-the-wind-bob-dylan",
+      "title": "Blowin' in the Wind by Bob Dylan: Story of the 1963 Song",
+      "slug": "/blog/songs/blowin-in-the-wind-bob-dylan/",
+      "type": "song-story",
+      "description": "Blowin' in the Wind began as a two-verse Greenwich Village tune in 1962. Here is how Bob Dylan's song became an anthem for a generation.",
+      "date": "2026-10-13",
+      "genre": "folk-rock"
     }
   ]
 }

@@ -126,6 +126,13 @@ SONGS = {
         ("US peak", "No. 1, Billboard Hot 100"),
         ("UK peak", "Not released as a UK single"),
     ]),
+    "blowin-in-the-wind-bob-dylan": dict(year=1963, rows=[
+        ("Released", "May 1963 (album); single August 1963 (US)"),
+        ("Label", "Columbia"),
+        ("Written by", "Bob Dylan"),
+        ("Produced by", "John H. Hammond"),
+        ("US peak", "Did not chart (Peter, Paul and Mary version: No. 2, Billboard Hot 100)"),
+    ]),
     "like-a-rolling-stone-bob-dylan": dict(year=1965, rows=[
         ("Released", "July 20, 1965 (US)"),
         ("Label", "Columbia"),
