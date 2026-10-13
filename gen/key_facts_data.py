@@ -205,6 +205,14 @@ SONGS = {
         ("US peak", "No. 14, Billboard Hot 100"),
         ("UK peak", "No. 1"),
     ]),
+    "surfin-safari-beach-boys": dict(year=1962, rows=[
+        ("Released", "June 4, 1962"),
+        ("Label", "Capitol"),
+        ("Written by", "Brian Wilson and Mike Love"),
+        ("Produced by", "Murry Wilson (single credit)"),
+        ("US peak", "No. 14, Billboard Hot 100"),
+        ("UK peak", "Did not chart"),
+    ]),
     "surfin-usa-beach-boys": dict(year=1963, rows=[
         ("Released", "March 4, 1963"),
         ("Label", "Capitol"),

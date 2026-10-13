@@ -1007,6 +1007,15 @@
       "description": "California Girls came to Brian Wilson during his first LSD trip and became The Beach Boys' 1965 No. 3 hit. Here is the full story.",
       "date": "2026-10-12",
       "genre": "garage-surf-rock"
+    },
+    {
+      "id": "surfin-safari-beach-boys",
+      "title": "Surfin' Safari by The Beach Boys: Story of the 1962 Hit",
+      "slug": "/blog/songs/surfin-safari-beach-boys/",
+      "type": "song-story",
+      "description": "Surfin' Safari by The Beach Boys was the band's first Capitol single in 1962. Here is how it was written, recorded and charted.",
+      "date": "2026-10-12",
+      "genre": "garage-surf-rock"
     }
   ]
 }
