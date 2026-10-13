@@ -978,6 +978,15 @@
       "description": "Fun, Fun, Fun put a borrowed Chuck Berry guitar intro and a Thunderbird joyride into The Beach Boys' 1964 top five hit. Here is the full story.",
       "date": "2026-10-11",
       "genre": "garage-surf-rock"
+    },
+    {
+      "id": "california-girls-beach-boys",
+      "title": "California Girls by The Beach Boys: Story of the 1965 Hit",
+      "slug": "/blog/songs/california-girls-beach-boys/",
+      "type": "song-story",
+      "description": "California Girls came to Brian Wilson during his first LSD trip and became The Beach Boys' 1965 No. 3 hit. Here is the full story.",
+      "date": "2026-10-12",
+      "genre": "garage-surf-rock"
     }
   ]
 }
