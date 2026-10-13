@@ -130,7 +130,7 @@ past that, move the oldest `live` rows out to
 | 50 | October 20 | /blog/on-this-day/october-20/ | data/on-this-day/10-20.json | live |
 | 51 | October 21 | /blog/on-this-day/october-21/ | data/on-this-day/10-21.json | live |
 | 52 | October 22 | /blog/on-this-day/october-22/ | data/on-this-day/10-22.json | live |
-| 53 | October 23 | /blog/on-this-day/october-23/ | data/on-this-day/10-23.json | not started |
+| 53 | October 23 | /blog/on-this-day/october-23/ | data/on-this-day/10-23.json | drafted |
 | 54 | October 24 | /blog/on-this-day/october-24/ | data/on-this-day/10-24.json | not started |
 | 55 | October 25 | /blog/on-this-day/october-25/ | data/on-this-day/10-25.json | not started |
 | 56 | October 26 | /blog/on-this-day/october-26/ | data/on-this-day/10-26.json | not started |
@@ -177,8 +177,16 @@ past that, move the oldest `live` rows out to
 Confirmed during the Oct 18 audit, dated for other days. Re-verify the source
 before building each page, then include as normal cards.
 
-- Oct 23, 1966: Jimi Hendrix Experience first session, De Lane Lea, cuts "Hey
-  Joe" and "Stone Free". Source: Experience Hendrix or Lewisohn-grade log.
+- Oct 24, 1963: Bob Dylan cuts the master takes of "The Times They Are
+  a-Changin'" and "One Too Many Mornings" (Oct 23 session was Hattie Carroll).
+  Source: alldylan.com / Wikipedia album page.
+- Oct 24, 1960: Brenda Lee's "I Want to Be Wanted" is No. 1 on the Hot 100
+  (chart dated Oct 24, one week). Source: Wikipedia #1s of 1960.
+- HELD (conflicting dates, not on Oct 23 page): Stevie Wonder, "Thank You (For
+  Loving Me All the Way)": Parade/Yahoo say Oct 23, 1962, another source says
+  Nov 1, 1961; single issued Jan 1964 as B-side of "Castles in the Sand".
+  Also held: J. Frank Wilson crash (day unconfirmed), Temptations "My Baby"
+  chart entry (no date source).
 - Oct 24, 1964: Sandie Shaw's (There's) Always Something There to Remind Me
   reaches UK No. 1 (chart dated Oct 24, three weeks). Source: Official Charts.
 - Oct 24, 1969: Paul McCartney denies "Paul Is Dead" to the BBC's Chris Drake
