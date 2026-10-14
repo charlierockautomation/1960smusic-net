@@ -1,0 +1,153 @@
+{
+  "date_label": "October 25",
+  "date_slug": "october-25",
+  "flagship": {
+    "year": 1964,
+    "category": "broadcast",
+    "headline": "The Rolling Stones make their Ed Sullivan Show debut",
+    "summary_line_1": "The <a href=\"/blog/artists/the-rolling-stones/\">Rolling Stones</a> made their first appearance on The Ed Sullivan Show on October 25, 1964, playing Around and Around and then, about twenty minutes later, Time Is On My Side, per <a href=\"https://www.goldradio.com/artists/rolling-stones/ed-sullivan-show-1964-british-invasion/\" target=\"_blank\" rel=\"noopener\">Gold Radio</a>.",
+    "summary_line_2": "Screaming from the audience drowned out much of the performance, and Sullivan reportedly said he would never book them again, yet they returned five more times, and the clip below is Around and Around.",
+    "youtube_id": "J7VX-8w9Mas",
+    "image": null
+  },
+  "stats": [
+    {
+      "value": 6,
+      "label": "verified events"
+    },
+    {
+      "value": 4,
+      "label": "event categories"
+    },
+    {
+      "value": 6,
+      "label": "watchable clips"
+    }
+  ],
+  "years": [
+    {
+      "year": 1968,
+      "events": [
+        {
+          "id": "ev-led-zeppelin-surrey",
+          "category": "concert",
+          "headline": "Led Zeppelin play their first show under that name",
+          "summary_line_1": "Led Zeppelin played their first show under that name at the Great Hall of the University of Surrey's original Battersea site in London on October 25, 1968, per the <a href=\"https://blogs.surrey.ac.uk/archives/2015/03/27/the-show-must-go-on/\" target=\"_blank\" rel=\"noopener\">University of Surrey archives</a>.",
+          "summary_line_2": "The group had earlier been advertised under other names, including the New Yardbirds, and the clip below is Dazed and Confused from their 1969 debut album, a hallmark of the <a href=\"/blog/genres/60s-rock/\">1960s rock</a> that came next.",
+          "youtube_id": "yO2n7QoyieM",
+          "image": null,
+          "internal_link": [
+            "1960s rock",
+            "/blog/genres/60s-rock/"
+          ],
+          "external_link": [
+            "University of Surrey archives",
+            "https://blogs.surrey.ac.uk/archives/2015/03/27/the-show-must-go-on/"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1967,
+      "events": [
+        {
+          "id": "ev-hendrix-little-wing",
+          "category": "industry",
+          "headline": "Hendrix cuts an instrumental take of Little Wing",
+          "summary_line_1": "The Jimi Hendrix Experience recorded an instrumental take of Little Wing at Olympic Studios in London on October 25, 1967, with overdubs following on October 28, per the session dates on <a href=\"https://en.wikipedia.org/wiki/Little_Wing\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>.",
+          "summary_line_2": "The finished song appeared on the album Axis: Bold as Love that December, and the clip below is the album version.",
+          "youtube_id": "35luFxHO5E0",
+          "image": null,
+          "internal_link": null,
+          "external_link": [
+            "Wikipedia",
+            "https://en.wikipedia.org/wiki/Little_Wing"
+          ]
+        },
+        {
+          "id": "ev-supremes-in-and-out-of-love",
+          "category": "release",
+          "headline": "Motown releases In and Out of Love by Diana Ross & the Supremes",
+          "summary_line_1": "<a href=\"/blog/genres/motown-soul/\">Motown</a> released Diana Ross &amp; the Supremes' In and Out of Love, backed with I Guess I'll Always Love You, as Motown M 1116 on October 25, 1967, per <a href=\"https://en.wikipedia.org/wiki/In_and_Out_of_Love_(The_Supremes_song)\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>.",
+          "summary_line_2": "It entered the Hot 100 on November 11 and peaked at No. 9, and it was the last single to feature original member Florence Ballard, and the clip below is the record.",
+          "youtube_id": "Up23oFWZ2kQ",
+          "image": null,
+          "internal_link": [
+            "Motown",
+            "/blog/genres/motown-soul/"
+          ],
+          "external_link": [
+            "Wikipedia",
+            "https://en.wikipedia.org/wiki/In_and_Out_of_Love_(The_Supremes_song)"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1964,
+      "events": [
+        {
+          "id": "ev-stones-ed-sullivan",
+          "category": "broadcast",
+          "headline": "The Rolling Stones make their Ed Sullivan Show debut",
+          "summary_line_1": "The <a href=\"/blog/artists/the-rolling-stones/\">Rolling Stones</a> made their first appearance on The Ed Sullivan Show on October 25, 1964, playing Around and Around and then, about twenty minutes later, Time Is On My Side, per <a href=\"https://www.goldradio.com/artists/rolling-stones/ed-sullivan-show-1964-british-invasion/\" target=\"_blank\" rel=\"noopener\">Gold Radio</a>.",
+          "summary_line_2": "Screaming from the audience drowned out much of the performance, and Sullivan reportedly said he would never book them again, yet they returned five more times, and the clip below is Around and Around.",
+          "youtube_id": "J7VX-8w9Mas",
+          "image": null,
+          "internal_link": [
+            "Rolling Stones",
+            "/blog/artists/the-rolling-stones/"
+          ],
+          "external_link": [
+            "Gold Radio",
+            "https://www.goldradio.com/artists/rolling-stones/ed-sullivan-show-1964-british-invasion/"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1963,
+      "events": [
+        {
+          "id": "ev-beatles-karlstad",
+          "category": "concert",
+          "headline": "The Beatles play their first Swedish concert in Karlstad",
+          "summary_line_1": "The <a href=\"/blog/artists/the-beatles/\">Beatles</a> played their first concert in Sweden on October 25, 1963, in the hall of the Sundsta Läroverk school in Karlstad, per the <a href=\"https://www.beatlesbible.com/1963/10/25/\" target=\"_blank\" rel=\"noopener\">Beatles Bible</a>.",
+          "summary_line_2": "It came a day after they taped a radio special in Stockholm, and the clip below is She Loves You, their single from that August. The <a href=\"/blog/on-this-day/october-24/\">October 24 page</a> has the Stockholm session.",
+          "youtube_id": "nGbWU8S3vzs",
+          "image": null,
+          "internal_link": [
+            "Beatles",
+            "/blog/artists/the-beatles/"
+          ],
+          "external_link": [
+            "Beatles Bible",
+            "https://www.beatlesbible.com/1963/10/25/"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1962,
+      "events": [
+        {
+          "id": "ev-beatles-here-we-go",
+          "category": "broadcast",
+          "headline": "The Beatles record their first BBC radio session",
+          "summary_line_1": "The <a href=\"/blog/artists/the-beatles/\">Beatles</a> did their first radio session, for the BBC show Here We Go, on October 25, 1962, per the <a href=\"https://www.beatlesbible.com/1962/10/25/\" target=\"_blank\" rel=\"noopener\">Beatles Bible</a>.",
+          "summary_line_2": "It came twenty days after Love Me Do was released on October 5, and the clip below is that single.",
+          "youtube_id": "7uQuX1sOYk4",
+          "image": null,
+          "internal_link": [
+            "Beatles",
+            "/blog/artists/the-beatles/"
+          ],
+          "external_link": [
+            "Beatles Bible",
+            "https://www.beatlesbible.com/1962/10/25/"
+          ]
+        }
+      ]
+    }
+  ]
+}
