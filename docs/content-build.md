@@ -106,7 +106,7 @@ Live rows (1-26) are in [`docs/content-build-archive.md`](content-build-archive.
 | 48 | Bob Dylan bio | /blog/artists/bob-dylan/ | artist-bio | folk-rock | live | Bob Dylan | IwOfCgkyEj0 |  |
 | 49 | Like a Rolling Stone | /blog/songs/like-a-rolling-stone-bob-dylan/ | song-story | folk-rock | live | Like a Rolling Stone | IwOfCgkyEj0 |  |
 | 50 | Blowin' in the Wind | /blog/songs/blowin-in-the-wind-bob-dylan/ | song-story | folk-rock | live | Blowin' in the Wind | MMFj8uDubsE |  |
-| 51 | Positively 4th Street | /blog/songs/positively-4th-street-bob-dylan/ | song-story | folk-rock | not started | Positively 4th Street | aehwEu8SBSo |  |
+| 51 | Positively 4th Street | /blog/songs/positively-4th-street-bob-dylan/ | song-story | folk-rock | live | Positively 4th Street | aehwEu8SBSo |  |
 | 52 | Subterranean Homesick Blues | /blog/songs/subterranean-homesick-blues-bob-dylan/ | song-story | folk-rock | not started | Subterranean Homesick Blues | MGxjIBEZvx0 |  |
 | 53 | The Times They Are a-Changin' | /blog/songs/the-times-they-are-a-changin-bob-dylan/ | song-story | folk-rock | not started | The Times They Are a-Changin' | 90WD_ats6eE |  |
 | 54 | The Supremes bio | /blog/artists/the-supremes/ | artist-bio | motown-soul | not started | The Supremes | une981B7Q4Y |  |
