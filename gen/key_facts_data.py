@@ -133,6 +133,14 @@ SONGS = {
         ("Produced by", "John H. Hammond"),
         ("US peak", "Did not chart (Peter, Paul and Mary version: No. 2, Billboard Hot 100)"),
     ]),
+    "positively-4th-street-bob-dylan": dict(year=1965, rows=[
+        ("Released", "September 7, 1965 (US single)"),
+        ("Label", "Columbia"),
+        ("Written by", "Bob Dylan"),
+        ("Produced by", "Bob Johnston"),
+        ("US peak", "No. 7, Billboard Hot 100"),
+        ("UK peak", "No. 8"),
+    ]),
     "like-a-rolling-stone-bob-dylan": dict(year=1965, rows=[
         ("Released", "July 20, 1965 (US)"),
         ("Label", "Columbia"),

@@ -578,7 +578,7 @@
   </url>
   <url>
     <loc>https://1960smusic.net/blog/songs/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -717,6 +717,12 @@
   <url>
     <loc>https://1960smusic.net/blog/songs/please-please-me-beatles/</loc>
     <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://1960smusic.net/blog/songs/positively-4th-street-bob-dylan/</loc>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

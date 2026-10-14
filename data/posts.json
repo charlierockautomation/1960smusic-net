@@ -1073,6 +1073,15 @@
       "description": "Blowin' in the Wind began as a two-verse Greenwich Village tune in 1962. Here is how Bob Dylan's song became an anthem for a generation.",
       "date": "2026-10-13",
       "genre": "folk-rock"
+    },
+    {
+      "id": "positively-4th-street-bob-dylan",
+      "title": "Positively 4th Street by Bob Dylan: The 1965 Single",
+      "slug": "/blog/songs/positively-4th-street-bob-dylan/",
+      "type": "song-story",
+      "description": "Positively 4th Street was Bob Dylan's bitter 1965 follow-up to Like a Rolling Stone. Here is the story, the session and who the song may be about.",
+      "date": "2026-10-14",
+      "genre": "folk-rock"
     }
   ]
 }
