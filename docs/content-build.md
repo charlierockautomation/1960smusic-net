@@ -108,7 +108,7 @@ Live rows (1-26) are in [`docs/content-build-archive.md`](content-build-archive.
 | 50 | Blowin' in the Wind | /blog/songs/blowin-in-the-wind-bob-dylan/ | song-story | folk-rock | live | Blowin' in the Wind | MMFj8uDubsE |  |
 | 51 | Positively 4th Street | /blog/songs/positively-4th-street-bob-dylan/ | song-story | folk-rock | live | Positively 4th Street | aehwEu8SBSo |  |
 | 52 | Subterranean Homesick Blues | /blog/songs/subterranean-homesick-blues-bob-dylan/ | song-story | folk-rock | live | Subterranean Homesick Blues | MGxjIBEZvx0 |  |
-| 53 | The Times They Are a-Changin' | /blog/songs/the-times-they-are-a-changin-bob-dylan/ | song-story | folk-rock | not started | The Times They Are a-Changin' | 90WD_ats6eE |  |
+| 53 | The Times They Are a-Changin' | /blog/songs/the-times-they-are-a-changin-bob-dylan/ | song-story | folk-rock | live | The Times They Are a-Changin' | 90WD_ats6eE |  |
 | 54 | The Supremes bio | /blog/artists/the-supremes/ | artist-bio | motown-soul | not started | The Supremes | une981B7Q4Y |  |
 | 55 | Stop! In the Name of Love | /blog/songs/stop-in-the-name-of-love-supremes/ | song-story | motown-soul | not started | Stop! In the Name of Love | une981B7Q4Y |  |
 | 56 | Baby Love | /blog/songs/baby-love-supremes/ | song-story | motown-soul | not started | Baby Love by The Supremes | D6QF4sB40gU |  |
