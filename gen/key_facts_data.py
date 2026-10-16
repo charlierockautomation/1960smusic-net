@@ -374,6 +374,14 @@ ARTISTS = {
         ("Classic lineup", "John McNally, Mike Pender, Tony Jackson, Chris Curtis"),
         ("Peak chart hits", "Three UK No. 1s: \"Sweets for My Sweet\" (1963), \"Needles and Pins\" and \"Don't Throw Your Love Away\" (1964); \"Needles and Pins\" reached US No. 13"),
     ]),
+    "the-supremes": dict(years=[1964, 1965, 1966], rows=[
+        ("Origin", "Detroit, Michigan"),
+        ("Active", "1959-1977"),
+        ("Genre", "Motown, Soul & R&B"),
+        ("Label", "Motown (early singles on Tamla)"),
+        ("Classic lineup", "Diana Ross, Mary Wilson, Florence Ballard"),
+        ("Peak chart hits", "\"Where Did Our Love Go\" (US No. 1, 1964); five straight US No. 1s from 1964 to 1965; 12 Hot 100 No. 1s in all"),
+    ]),
     "the-who": dict(years=[1965], rows=[
         ("Origin", "London, England"),
         ("Active", "1964-1983, 1989, 1996-present"),

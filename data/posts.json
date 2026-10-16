@@ -1120,6 +1120,15 @@
       "description": "The Times They Are a-Changin' is Bob Dylan's 1963 protest anthem. Here is how he wrote it, how it was recorded, what it means and who covered it.",
       "date": "2026-10-15",
       "genre": "folk-rock"
+    },
+    {
+      "id": "the-supremes",
+      "title": "The Supremes: Motown's Hit Machine of the 1960s",
+      "slug": "/blog/artists/the-supremes/",
+      "type": "artist-bio",
+      "description": "The Supremes went from the no-hit Detroit trio of 1961 to Motown's biggest act, with five straight US number ones. Their story, hits and lineup changes.",
+      "date": "2026-10-16",
+      "genre": "motown-soul"
     }
   ]
 }

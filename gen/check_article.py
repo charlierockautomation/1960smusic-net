@@ -468,11 +468,15 @@ def check_template_placeholders(text, errors):
 
 
 ABBREVIATIONS = ["Mr", "Mrs", "Ms", "Dr", "St", "Sgt", "Capt", "Rev", "Jr", "Sr", "vs", "etc"]
+# Song titles with an internal "!" that is not a sentence end.
+TITLE_BANGS = ["Stop! In the Name of Love"]
 
 
 def _strip_abbreviation_periods(plain):
     for abbr in ABBREVIATIONS:
         plain = re.sub(r"\b" + abbr + r"\.", abbr, plain)
+    for title in TITLE_BANGS:
+        plain = plain.replace(title, title.replace("! ", " "))
     return plain
 
 
