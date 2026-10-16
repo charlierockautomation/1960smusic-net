@@ -1,0 +1,119 @@
+{
+  "date_label": "October 30",
+  "date_slug": "october-30",
+  "flagship": {
+    "year": 1968,
+    "category": "concert",
+    "headline": "MC5 begin recording Kick Out the Jams in Detroit",
+    "summary_line_1": "MC5 began recording their debut album Kick Out the Jams live at the Grande Ballroom in Detroit on October 30, 1968, the first of two nights, per <a href=\"https://www.loudersound.com/features/mc5-kick-out-the-jams\" target=\"_blank\" rel=\"noopener\">Louder</a>.",
+    "summary_line_2": "Elektra's live album reached No. 30 on the Billboard 200, and the clip below is the title track.",
+    "youtube_id": "EuZG2Sy7pUU",
+    "image": null
+  },
+  "years": [
+    {
+      "year": 1968,
+      "events": [
+        {
+          "id": "ev-mc5-grande-ballroom",
+          "category": "concert",
+          "headline": "MC5 begin recording Kick Out the Jams in Detroit",
+          "summary_line_1": "MC5 began recording their debut album Kick Out the Jams live at the Grande Ballroom in Detroit on October 30, 1968, the first of two nights, per <a href=\"https://www.loudersound.com/features/mc5-kick-out-the-jams\" target=\"_blank\" rel=\"noopener\">Louder</a>.",
+          "summary_line_2": "Elektra's live album reached No. 30 on the Billboard 200, and the clip below is the title track.",
+          "youtube_id": "EuZG2Sy7pUU",
+          "image": null,
+          "internal_link": null,
+          "external_link": [
+            "Louder",
+            "https://www.loudersound.com/features/mc5-kick-out-the-jams"
+          ]
+        },
+        {
+          "id": "ev-gaye-grapevine-release",
+          "category": "release",
+          "headline": "Marvin Gaye releases I Heard It Through the Grapevine",
+          "summary_line_1": "Tamla released <a href=\"/blog/genres/motown-soul/\">Marvin Gaye</a>'s single I Heard It Through the Grapevine, backed with You're What's Happening (in the World Today), on October 30, 1968, per <a href=\"https://en.wikipedia.org/wiki/I_Heard_It_Through_the_Grapevine\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>.",
+          "summary_line_2": "It reached No. 1 on the Billboard Hot 100 on the chart dated December 14, 1968, and stayed there for seven weeks, and the clip below is the single version.",
+          "youtube_id": "VWG3npfEoHo",
+          "image": null,
+          "internal_link": null,
+          "external_link": [
+            "Wikipedia",
+            "https://en.wikipedia.org/wiki/I_Heard_It_Through_the_Grapevine"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1967,
+      "events": [
+        {
+          "id": "ev-brian-jones-sentence",
+          "category": "culture",
+          "headline": "Brian Jones is sentenced to nine months in prison",
+          "summary_line_1": "Brian Jones of the <a href=\"/blog/artists/the-rolling-stones/\">Rolling Stones</a> admitted drug possession in court on October 30, 1967, and was sentenced to nine months in prison, per <a href=\"https://calendar.songfacts.com/timeline/rolling-stones/page-3\" target=\"_blank\" rel=\"noopener\">Songfacts</a>.",
+          "summary_line_2": "A London appeals court overturned the sentence on December 12, 1967, and the clip below is the Stones' 1967 single We Love You.",
+          "youtube_id": "lOf-0Mur7t4",
+          "image": null,
+          "internal_link": null,
+          "external_link": [
+            "Songfacts",
+            "https://calendar.songfacts.com/timeline/rolling-stones/page-3"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1964,
+      "events": [
+        {
+          "id": "ev-beatles-bournemouth",
+          "category": "concert",
+          "headline": "The Beatles play two shows at the Gaumont in Bournemouth",
+          "summary_line_1": "The <a href=\"/blog/artists/the-beatles/\">Beatles</a> played two shows at the Gaumont Cinema in Bournemouth on October 30, 1964, on their autumn UK tour, per the <a href=\"https://www.the-paulmccartney-project.com/concert/1964-10-30/\" target=\"_blank\" rel=\"noopener\">Paul McCartney Project</a>.",
+          "summary_line_2": "Both shows used the same ten-song set, and the clip below is A Hard Day's Night, which was on it.",
+          "youtube_id": "Yjyj8qnqkYI",
+          "image": null,
+          "internal_link": null,
+          "external_link": [
+            "Paul McCartney Project",
+            "https://www.the-paulmccartney-project.com/concert/1964-10-30/"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1963,
+      "events": [
+        {
+          "id": "ev-beatles-drop-in",
+          "category": "broadcast",
+          "headline": "The Beatles tape Drop In for Swedish television",
+          "summary_line_1": "The <a href=\"/blog/artists/the-beatles/\">Beatles</a> taped an appearance on the Swedish television show Drop In in Stockholm on October 30, 1963, the day after their last Swedish concert, per the <a href=\"https://www.beatlesbible.com/1963/10/30/television-drop-in-stockholm-sweden/\" target=\"_blank\" rel=\"noopener\">Beatles Bible</a>.",
+          "summary_line_2": "Producer Klas Burling talked them into one song beyond the planned <a href=\"/blog/songs/she-loves-you-beatles/\">She Loves You</a> and Twist and Shout, and the clip below is She Loves You.",
+          "youtube_id": "nGbWU8S3vzs",
+          "image": null,
+          "internal_link": null,
+          "external_link": [
+            "Beatles Bible",
+            "https://www.beatlesbible.com/1963/10/30/television-drop-in-stockholm-sweden/"
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "value": 5,
+      "label": "verified events"
+    },
+    {
+      "value": 4,
+      "label": "event categories"
+    },
+    {
+      "value": 5,
+      "label": "watchable clips"
+    }
+  ]
+}
