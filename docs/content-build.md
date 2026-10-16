@@ -110,7 +110,7 @@ Live rows (1-26) are in [`docs/content-build-archive.md`](content-build-archive.
 | 52 | Subterranean Homesick Blues | /blog/songs/subterranean-homesick-blues-bob-dylan/ | song-story | folk-rock | live | Subterranean Homesick Blues | MGxjIBEZvx0 |  |
 | 53 | The Times They Are a-Changin' | /blog/songs/the-times-they-are-a-changin-bob-dylan/ | song-story | folk-rock | live | The Times They Are a-Changin' | 90WD_ats6eE |  |
 | 54 | The Supremes bio | /blog/artists/the-supremes/ | artist-bio | motown-soul | live | The Supremes | une981B7Q4Y |  |
-| 55 | Stop! In the Name of Love | /blog/songs/stop-in-the-name-of-love-supremes/ | song-story | motown-soul | not started | Stop! In the Name of Love | une981B7Q4Y |  |
+| 55 | Stop! In the Name of Love | /blog/songs/stop-in-the-name-of-love-supremes/ | song-story | motown-soul | live | Stop! In the Name of Love | une981B7Q4Y |  |
 | 56 | Baby Love | /blog/songs/baby-love-supremes/ | song-story | motown-soul | not started | Baby Love by The Supremes | D6QF4sB40gU |  |
 | 57 | Where Did Our Love Go | /blog/songs/where-did-our-love-go-supremes/ | song-story | motown-soul | not started | Where Did Our Love Go | Jt_31gR18NA |  |
 | 58 | You Keep Me Hangin' On | /blog/songs/you-keep-me-hangin-on-supremes/ | song-story | motown-soul | not started | You Keep Me Hangin' On | pi00f6oiMu4 |  |
