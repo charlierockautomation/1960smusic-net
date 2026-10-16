@@ -1102,6 +1102,15 @@
       "description": "Positively 4th Street was Bob Dylan's bitter 1965 follow-up to Like a Rolling Stone. Here is the story, the session and who the song may be about.",
       "date": "2026-10-14",
       "genre": "folk-rock"
+    },
+    {
+      "id": "subterranean-homesick-blues-bob-dylan",
+      "title": "Subterranean Homesick Blues: Bob Dylan's 1965 Hit",
+      "slug": "/blog/songs/subterranean-homesick-blues-bob-dylan/",
+      "type": "song-story",
+      "description": "Subterranean Homesick Blues was Bob Dylan's 1965 rapid-fire single. Here is the story, the session, the cue card clip and what the lyrics mean.",
+      "date": "2026-10-15",
+      "genre": "folk-rock"
     }
   ]
 }

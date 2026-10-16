@@ -141,6 +141,14 @@ SONGS = {
         ("US peak", "No. 7, Billboard Hot 100"),
         ("UK peak", "No. 8"),
     ]),
+    "subterranean-homesick-blues-bob-dylan": dict(year=1965, rows=[
+        ("Released", "March 8, 1965 (US single)"),
+        ("Label", "Columbia"),
+        ("Written by", "Bob Dylan"),
+        ("Produced by", "Tom Wilson"),
+        ("US peak", "No. 39, Billboard Hot 100"),
+        ("UK peak", "No. 9"),
+    ]),
     "like-a-rolling-stone-bob-dylan": dict(year=1965, rows=[
         ("Released", "July 20, 1965 (US)"),
         ("Label", "Columbia"),

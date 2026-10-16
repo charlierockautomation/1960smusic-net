@@ -590,7 +590,7 @@
   </url>
   <url>
     <loc>https://1960smusic.net/blog/songs/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -747,6 +747,12 @@
   <url>
     <loc>https://1960smusic.net/blog/songs/strange-days-doors/</loc>
     <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://1960smusic.net/blog/songs/subterranean-homesick-blues-bob-dylan/</loc>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
