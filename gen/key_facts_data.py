@@ -133,6 +133,14 @@ SONGS = {
         ("Produced by", "John H. Hammond"),
         ("US peak", "Did not chart (Peter, Paul and Mary version: No. 2, Billboard Hot 100)"),
     ]),
+    "the-times-they-are-a-changin-bob-dylan": dict(year=1964, rows=[
+        ("Released", "February 10, 1964 (album); March 8, 1965 (UK single)"),
+        ("Label", "Columbia"),
+        ("Written by", "Bob Dylan"),
+        ("Produced by", "Tom Wilson"),
+        ("US peak", "Not released as a US single"),
+        ("UK peak", "No. 9"),
+    ]),
     "positively-4th-street-bob-dylan": dict(year=1965, rows=[
         ("Released", "September 7, 1965 (US single)"),
         ("Label", "Columbia"),

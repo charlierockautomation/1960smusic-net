@@ -38,7 +38,7 @@
   </url>
   <url>
     <loc>https://1960smusic.net/1960s/1964/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -783,6 +783,12 @@
   <url>
     <loc>https://1960smusic.net/blog/songs/the-end-doors/</loc>
     <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://1960smusic.net/blog/songs/the-times-they-are-a-changin-bob-dylan/</loc>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
