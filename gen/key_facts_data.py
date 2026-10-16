@@ -149,6 +149,14 @@ SONGS = {
         ("US peak", "No. 7, Billboard Hot 100"),
         ("UK peak", "No. 8"),
     ]),
+    "stop-in-the-name-of-love-supremes": dict(year=1965, rows=[
+        ("Released", "February 8, 1965"),
+        ("Label", "Motown"),
+        ("Written by", "Holland-Dozier-Holland (Brian Holland, Lamont Dozier, Eddie Holland)"),
+        ("Produced by", "Brian Holland and Lamont Dozier"),
+        ("US peak", "No. 1, Billboard Hot 100"),
+        ("UK peak", "No. 7"),
+    ]),
     "subterranean-homesick-blues-bob-dylan": dict(year=1965, rows=[
         ("Released", "March 8, 1965 (US single)"),
         ("Label", "Columbia"),

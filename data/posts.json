@@ -1129,6 +1129,15 @@
       "description": "The Supremes went from the no-hit Detroit trio of 1961 to Motown's biggest act, with five straight US number ones. Their story, hits and lineup changes.",
       "date": "2026-10-16",
       "genre": "motown-soul"
+    },
+    {
+      "id": "stop-in-the-name-of-love-supremes",
+      "title": "Stop! In the Name of Love: The Supremes' 1965 No. 1",
+      "slug": "/blog/songs/stop-in-the-name-of-love-supremes/",
+      "type": "song-story",
+      "description": "Stop! In the Name of Love is the 1965 Supremes hit by Holland-Dozier-Holland. Here is how it was written, recorded, staged and charted.",
+      "date": "2026-10-16",
+      "genre": "motown-soul"
     }
   ]
 }
