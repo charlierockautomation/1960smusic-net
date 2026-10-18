@@ -149,6 +149,14 @@ SONGS = {
         ("US peak", "No. 7, Billboard Hot 100"),
         ("UK peak", "No. 8"),
     ]),
+    "where-did-our-love-go-supremes": dict(year=1964, rows=[
+        ("Released", "June 17, 1964"),
+        ("Label", "Motown"),
+        ("Written by", "Holland-Dozier-Holland (Brian Holland, Lamont Dozier, Eddie Holland)"),
+        ("Produced by", "Brian Holland and Lamont Dozier"),
+        ("US peak", "No. 1, Billboard Hot 100 (2 weeks)"),
+        ("UK peak", "No. 3"),
+    ]),
     "baby-love-supremes": dict(year=1964, rows=[
         ("Released", "September 17, 1964"),
         ("Label", "Motown"),

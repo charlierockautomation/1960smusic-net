@@ -1207,6 +1207,15 @@
       "description": "Baby Love by The Supremes was the 1964 Holland-Dozier-Holland follow-up to Where Did Our Love Go. Here is how it was made, charted and remembered.",
       "date": "2026-10-18",
       "genre": "motown-soul"
+    },
+    {
+      "id": "where-did-our-love-go-supremes",
+      "title": "Where Did Our Love Go: The Supremes' First No. 1 Story",
+      "slug": "/blog/songs/where-did-our-love-go-supremes/",
+      "type": "song-story",
+      "description": "Where Did Our Love Go was the 1964 Holland-Dozier-Holland single that gave The Supremes their first No. 1. Here is how it was made and charted.",
+      "date": "2026-10-18",
+      "genre": "motown-soul"
     }
   ]
 }
