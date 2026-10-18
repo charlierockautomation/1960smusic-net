@@ -1198,6 +1198,15 @@
       "description": "Stop! In the Name of Love is the 1965 Supremes hit by Holland-Dozier-Holland. Here is how it was written, recorded, staged and charted.",
       "date": "2026-10-16",
       "genre": "motown-soul"
+    },
+    {
+      "id": "baby-love-supremes",
+      "title": "Baby Love by The Supremes: The 1964 No. 1 Story",
+      "slug": "/blog/songs/baby-love-supremes/",
+      "type": "song-story",
+      "description": "Baby Love by The Supremes was the 1964 Holland-Dozier-Holland follow-up to Where Did Our Love Go. Here is how it was made, charted and remembered.",
+      "date": "2026-10-18",
+      "genre": "motown-soul"
     }
   ]
 }
