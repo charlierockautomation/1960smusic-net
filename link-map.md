@@ -160,3 +160,4 @@ from the site).
 | /blog/artists/johnny-cash/ | artist bio | live | https://1960smusic.net/blog/artists/johnny-cash/ | /blog/genres/country-60s/, / (homepage) | /blog/artists/bob-dylan/, /1960s/1963/, /1960s/1968/, /1960s/1969/ |
 | /blog/songs/ring-of-fire-johnny-cash/ | song story | live | https://1960smusic.net/blog/songs/ring-of-fire-johnny-cash/ | /blog/artists/johnny-cash/, /blog/genres/country-60s/, / (homepage) | /1960s/1963/, /best-60s-songs/ |
 | /blog/artists/the-monkees/ | artist bio | live | https://1960smusic.net/blog/artists/the-monkees/ | /blog/genres/pop-brill-building/, / (homepage) | /blog/artists/the-beatles/, /1960s/1966/, /1960s/1967/, /best-60s-songs/ |
+| /blog/songs/im-a-believer-monkees/ | song story | live | https://1960smusic.net/blog/songs/im-a-believer-monkees/ | /blog/artists/the-monkees/, /blog/genres/pop-brill-building/, / (homepage) | /1960s/1966/, /1960s/1967/, /best-60s-songs/ |
