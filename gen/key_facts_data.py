@@ -172,6 +172,14 @@ SONGS = {
         ("Produced by", "Don Law and Frank Jones"),
         ("US peak", "No. 1, Billboard Hot Country Singles (7 weeks); No. 17, Hot 100"),
     ]),
+    "last-train-to-clarksville-monkees": dict(year=1966, rows=[
+        ("Released", "August 16, 1966"),
+        ("Label", "Colgems"),
+        ("Written by", "Tommy Boyce and Bobby Hart"),
+        ("Produced by", "Tommy Boyce and Bobby Hart"),
+        ("US peak", "No. 1, Billboard Hot 100 (1 week)"),
+        ("UK peak", "No. 23"),
+    ]),
     "im-a-believer-monkees": dict(year=1966, rows=[
         ("Released", "November 1966"),
         ("Label", "Colgems"),
