@@ -395,6 +395,13 @@ ARTISTS = {
         ("Label", "Colgems (US), RCA Victor (elsewhere)"),
         ("Peak chart hits", "\"Last Train to Clarksville\" (US No. 1, 1966); \"I'm a Believer\" (US No. 1 for 7 weeks, UK No. 1, 1966-67); \"Daydream Believer\" (US No. 1, 1967)"),
     ]),
+    "frank-sinatra": dict(years=[1964, 1966], rows=[
+        ("Origin", "Hoboken, New Jersey"),
+        ("Active", "1935-1995"),
+        ("Genre", "Jazz & Easy Listening"),
+        ("Label", "Capitol (to 1960), Reprise (from 1960)"),
+        ("Peak chart hits", "\"Strangers in the Night\" (US No. 1, UK No. 1, 1966); \"Somethin' Stupid\" with Nancy Sinatra (US No. 1 for 4 weeks, UK No. 1, 1967); \"My Way\" (US No. 27, UK No. 5, 1969)"),
+    ]),
     "the-animals": dict(years=[1964], rows=[
         ("Origin", "Newcastle upon Tyne, England"),
         ("Active", "1963-1969"),

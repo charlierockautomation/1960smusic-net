@@ -1300,6 +1300,15 @@
       "genre": "pop-brill-building"
     },
     {
+      "id": "frank-sinatra",
+      "title": "Frank Sinatra: Reprise Records, Hits and My Way",
+      "slug": "/blog/artists/frank-sinatra/",
+      "type": "artist-bio",
+      "description": "Frank Sinatra launched Reprise Records in 1960, then scored US No. 1 hits with Strangers in the Night and Somethin' Stupid before recording My Way in 1968.",
+      "date": "2026-10-19",
+      "genre": "jazz-easy-listening"
+    },
+    {
       "id": "on-this-day-november-5",
       "title": "On This Day: November 5 in 1960s Music",
       "slug": "/blog/on-this-day/november-5/",
