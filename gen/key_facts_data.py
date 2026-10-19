@@ -180,6 +180,14 @@ SONGS = {
         ("US peak", "No. 1, Billboard Hot 100 (1 week)"),
         ("UK peak", "No. 23"),
     ]),
+    "daydream-believer-monkees": dict(year=1967, rows=[
+        ("Released", "October 25, 1967"),
+        ("Label", "Colgems"),
+        ("Written by", "John Stewart"),
+        ("Produced by", "Chip Douglas"),
+        ("US peak", "No. 1, Billboard Hot 100 (4 weeks)"),
+        ("UK peak", "No. 5"),
+    ]),
     "im-a-believer-monkees": dict(year=1966, rows=[
         ("Released", "November 1966"),
         ("Label", "Colgems"),
