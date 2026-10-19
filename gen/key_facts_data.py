@@ -172,6 +172,14 @@ SONGS = {
         ("Produced by", "Don Law and Frank Jones"),
         ("US peak", "No. 1, Billboard Hot Country Singles (7 weeks); No. 17, Hot 100"),
     ]),
+    "im-a-believer-monkees": dict(year=1966, rows=[
+        ("Released", "November 1966"),
+        ("Label", "Colgems"),
+        ("Written by", "Neil Diamond"),
+        ("Produced by", "Jeff Barry"),
+        ("US peak", "No. 1, Billboard Hot 100 (7 weeks)"),
+        ("UK peak", "No. 1 (4 weeks)"),
+    ]),
     "come-see-about-me-supremes": dict(year=1964, rows=[
         ("Released", "October 27, 1964"),
         ("Label", "Motown"),

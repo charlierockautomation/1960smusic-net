@@ -1261,6 +1261,15 @@
       "description": "The Monkees went from a 1966 NBC sitcom to three US No. 1 singles and four No. 1 albums, then fought for control and made Headquarters in 1967.",
       "date": "2026-10-18",
       "genre": "pop-brill-building"
+    },
+    {
+      "id": "im-a-believer-monkees",
+      "title": "I'm a Believer: The Monkees' 1966 Hit by Neil Diamond",
+      "slug": "/blog/songs/im-a-believer-monkees/",
+      "type": "song-story",
+      "description": "I'm a Believer was The Monkees' 1966 hit, written by Neil Diamond. Here is how it was recorded, why it topped the US and UK charts, and who has covered it since.",
+      "date": "2026-10-19",
+      "genre": "pop-brill-building"
     }
   ]
 }
