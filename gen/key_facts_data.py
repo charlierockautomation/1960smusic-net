@@ -165,6 +165,13 @@ SONGS = {
         ("US peak", "No. 1, Billboard Hot 100 (2 weeks)"),
         ("UK peak", "No. 8"),
     ]),
+    "ring-of-fire-johnny-cash": dict(year=1963, rows=[
+        ("Released", "April 19, 1963"),
+        ("Label", "Columbia"),
+        ("Written by", "June Carter and Merle Kilgore"),
+        ("Produced by", "Don Law and Frank Jones"),
+        ("US peak", "No. 1, Billboard Hot Country Singles (7 weeks); No. 17, Hot 100"),
+    ]),
     "come-see-about-me-supremes": dict(year=1964, rows=[
         ("Released", "October 27, 1964"),
         ("Label", "Motown"),

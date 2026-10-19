@@ -1243,6 +1243,15 @@
       "description": "Johnny Cash went from Sun Records rockabilly to Columbia's biggest country star, with Ring of Fire in 1963 and the Folsom and San Quentin prison albums.",
       "date": "2026-10-18",
       "genre": "country-60s"
+    },
+    {
+      "id": "ring-of-fire-johnny-cash",
+      "title": "Ring of Fire: Johnny Cash's 1963 Country No. 1 Story",
+      "slug": "/blog/songs/ring-of-fire-johnny-cash/",
+      "type": "song-story",
+      "description": "Ring of Fire was Johnny Cash's 1963 country No. 1, co-written by June Carter and Merle Kilgore. Here is the story of the mariachi horns, the charts and the authorship dispute.",
+      "date": "2026-10-18",
+      "genre": "country-60s"
     }
   ]
 }
