@@ -1280,6 +1280,16 @@
       "description": "I'm a Believer was The Monkees' 1966 hit, written by Neil Diamond. Here is how it was recorded, why it topped the US and UK charts, and who has covered it since.",
       "date": "2026-10-19",
       "genre": "pop-brill-building"
+    },
+    {
+      "id": "on-this-day-november-5",
+      "title": "On This Day: November 5 in 1960s Music",
+      "slug": "/blog/on-this-day/november-5/",
+      "type": "on-this-day",
+      "description": "7 verified 1960s music events from November 5: Johnny Horton dies in a Texas crash, the Beatles play Slough the day after the Royal Variety show, and the Monkees top the Hot 100.",
+      "date": "2026-10-19",
+      "genre": null,
+      "seq": 66
     }
   ]
 }

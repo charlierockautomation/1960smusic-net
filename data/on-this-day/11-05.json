@@ -1,0 +1,127 @@
+{
+  "date_label": "November 5",
+  "date_slug": "november-5",
+  "flagship": {
+    "year": 1960,
+    "category": "death",
+    "headline": "Johnny Horton dies in a head-on crash near Milano, Texas",
+    "summary_line_1": "The <a href=\"/blog/genres/country-60s/\">country</a> singer Johnny Horton died on November 5, 1960, after a collision with an oncoming truck on a bridge near Milano, Texas, as he returned from the Skyline Club in Austin, per <a href=\"https://en.wikipedia.org/wiki/Johnny_Horton\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>.",
+    "summary_line_2": "He was 35, and the clip below is North to Alaska, which reached No. 1 on the country chart and No. 4 on the Hot 100.",
+    "youtube_id": "BLONWy46gIE",
+    "image": null
+  },
+  "years": [
+    {
+      "year": 1966,
+      "events": [
+        {
+          "id": "ev-monkees-clarksville",
+          "category": "chart",
+          "headline": "The Monkees hit No. 1 with Last Train to Clarksville",
+          "summary_line_1": "The <a href=\"/blog/artists/the-monkees/\">Monkees</a> topped the Billboard Hot 100 on the chart dated November 5, 1966, with Last Train to Clarksville, for one week, per the <a href=\"https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1966\" target=\"_blank\" rel=\"noopener\">list of 1966 Hot 100 number ones</a>.",
+          "summary_line_2": "It was their debut single, released on August 16, 1966 and written by Tommy Boyce and Bobby Hart, and the clip below is the single.",
+          "youtube_id": "BlgmfYoMD-g",
+          "image": null,
+          "internal_link": {"text": "Monkees", "url": "/blog/artists/the-monkees/"},
+          "external_link": ["list of 1966 Hot 100 number ones", "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1966"]
+        }
+      ]
+    },
+    {
+      "year": 1965,
+      "events": [
+        {
+          "id": "ev-stones-boston-garden",
+          "category": "concert",
+          "headline": "The Rolling Stones play Boston Garden",
+          "summary_line_1": "The <a href=\"/blog/artists/the-rolling-stones/\">Rolling Stones</a> played Boston Garden on November 5, 1965, between a pair of shows at the New Haven Arena the night before and two at New York's Academy of Music the night after, per <a href=\"https://en.wikipedia.org/wiki/The_Rolling_Stones_2nd_American_Tour_1965\" target=\"_blank\" rel=\"noopener\">Wikipedia's tour page</a>.",
+          "summary_line_2": "The tour ran from October 29 to December 5, 1965, and the clip below is <a href=\"/blog/songs/i-cant-get-no-satisfaction-rolling-stones/\">(I Can't Get No) Satisfaction</a>, their American No. 1 that summer.",
+          "youtube_id": "nrIPxlFzDi0",
+          "image": null,
+          "internal_link": {"text": "Rolling Stones", "url": "/blog/artists/the-rolling-stones/"},
+          "external_link": ["Wikipedia's tour page", "https://en.wikipedia.org/wiki/The_Rolling_Stones_2nd_American_Tour_1965"]
+        }
+      ]
+    },
+    {
+      "year": 1964,
+      "events": [
+        {
+          "id": "ev-beatles-nottingham",
+          "category": "concert",
+          "headline": "The Beatles play two shows at the Odeon in Nottingham",
+          "summary_line_1": "The <a href=\"/blog/artists/the-beatles/\">Beatles</a> played two shows at the Odeon Cinema in Nottingham on November 5, 1964, at 6.15pm and 8.30pm, per the <a href=\"https://beatlesbible.com/1964/11/05/live-odeon-cinema-nottingham-3\" target=\"_blank\" rel=\"noopener\">Beatles Bible</a>.",
+          "summary_line_2": "It was the 22nd date of their autumn British tour and their third and final visit to the Nottingham Odeon, and the clip below is Can't Buy Me Love.",
+          "youtube_id": "srwxJUXPHvE",
+          "image": null,
+          "internal_link": {"text": "Beatles", "url": "/blog/artists/the-beatles/"},
+          "external_link": ["Beatles Bible", "https://beatlesbible.com/1964/11/05/live-odeon-cinema-nottingham-3"]
+        }
+      ]
+    },
+    {
+      "year": 1963,
+      "events": [
+        {
+          "id": "ev-beatles-slough",
+          "category": "concert",
+          "headline": "The Beatles play two shows at the Adelphi in Slough",
+          "summary_line_1": "The <a href=\"/blog/artists/the-beatles/\">Beatles</a> played two shows at the Adelphi Cinema in Slough on November 5, 1963, the day after the Royal Variety Performance, per the <a href=\"https://www.beatlesbible.com/1963/11/05/live-adelphi-cinema-slough-2/\" target=\"_blank\" rel=\"noopener\">Beatles Bible</a>.",
+          "summary_line_2": "It was their second and last appearance at the Adelphi, and the clip below is <a href=\"/blog/songs/she-loves-you-beatles/\">She Loves You</a>, part of the autumn tour's standard 10-song set.",
+          "youtube_id": "nGbWU8S3vzs",
+          "image": null,
+          "internal_link": {"text": "Beatles", "url": "/blog/artists/the-beatles/"},
+          "external_link": ["Beatles Bible", "https://www.beatlesbible.com/1963/11/05/live-adelphi-cinema-slough-2/"]
+        },
+        {
+          "id": "ev-beatles-this-week",
+          "category": "broadcast",
+          "headline": "The Beatles film a car interview for This Week",
+          "summary_line_1": "All four Beatles were filmed in the back of a car in London on November 5, 1963 for Associated-Rediffusion's current affairs programme This Week, the night after the Royal Variety Performance, per the <a href=\"https://player.bfi.org.uk/node/2390\" target=\"_blank\" rel=\"noopener\">BFI</a>.",
+          "summary_line_2": "George Harrison and Ringo Starr took it seriously while John Lennon and Paul McCartney clowned, and the clip below is From Me to You, which was in the autumn tour's set.",
+          "youtube_id": "GN-iTB-CEC4",
+          "image": null,
+          "internal_link": null,
+          "external_link": ["BFI", "https://player.bfi.org.uk/node/2390"]
+        }
+      ]
+    },
+    {
+      "year": 1962,
+      "events": [
+        {
+          "id": "ev-beatles-star-club-1962",
+          "category": "concert",
+          "headline": "The Beatles play the Star-Club in Hamburg",
+          "summary_line_1": "The <a href=\"/blog/artists/the-beatles/\">Beatles</a> played the Star-Club in Hamburg on November 5, 1962, the fifth show of a 14-night second residency that ran from November 1 to 14, per the <a href=\"https://www.the-paulmccartney-project.com/concert/1962-11-05/\" target=\"_blank\" rel=\"noopener\">Paul McCartney Project</a>.",
+          "summary_line_2": "Love Me Do had come out a month earlier, and the clip below is its B-side, P.S. I Love You.",
+          "youtube_id": "MA5DkiVKSlM",
+          "image": null,
+          "internal_link": {"text": "Beatles", "url": "/blog/artists/the-beatles/"},
+          "external_link": ["Paul McCartney Project", "https://www.the-paulmccartney-project.com/concert/1962-11-05/"]
+        }
+      ]
+    },
+    {
+      "year": 1960,
+      "events": [
+        {
+          "id": "ev-horton-death",
+          "category": "death",
+          "headline": "Johnny Horton dies in a head-on crash near Milano, Texas",
+          "summary_line_1": "The <a href=\"/blog/genres/country-60s/\">country</a> singer Johnny Horton died on November 5, 1960, after a collision with an oncoming truck on a bridge near Milano, Texas, as he returned from the Skyline Club in Austin, per <a href=\"https://en.wikipedia.org/wiki/Johnny_Horton\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>.",
+          "summary_line_2": "He was 35, and the clip below is North to Alaska, which reached No. 1 on the country chart and No. 4 on the Hot 100.",
+          "youtube_id": "BLONWy46gIE",
+          "image": null,
+          "internal_link": {"text": "country", "url": "/blog/genres/country-60s/"},
+          "external_link": ["Wikipedia", "https://en.wikipedia.org/wiki/Johnny_Horton"]
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {"value": 7, "label": "verified events"},
+    {"value": 4, "label": "event categories"},
+    {"value": 7, "label": "watchable clips"}
+  ]
+}
