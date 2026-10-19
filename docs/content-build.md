@@ -116,7 +116,7 @@ Live rows (1-26) are in [`docs/content-build-archive.md`](content-build-archive.
 | 58 | You Keep Me Hangin' On | /blog/songs/you-keep-me-hangin-on-supremes/ | song-story | motown-soul | live | You Keep Me Hangin' On | pi00f6oiMu4 |  |
 | 59 | Come See About Me | /blog/songs/come-see-about-me-supremes/ | song-story | motown-soul | live | Come See About Me | NkH_dm9NkxQ |  |
 | 60 | Johnny Cash bio | /blog/artists/johnny-cash/ | artist-bio | country-60s | live | Johnny Cash | 1WaV2x8GXj0 |  |
-| 61 | Ring of Fire | /blog/songs/ring-of-fire-johnny-cash/ | song-story | country-60s | not started | Ring of Fire | 1WaV2x8GXj0 |  |
+| 61 | Ring of Fire | /blog/songs/ring-of-fire-johnny-cash/ | song-story | country-60s | live | Ring of Fire | 1WaV2x8GXj0 |  |
 | 63 | The Monkees bio | /blog/artists/the-monkees/ | artist-bio | pop-brill-building | not started | The Monkees | 5tpxXDILZHs | yt |
 | 64 | I'm a Believer | /blog/songs/im-a-believer-monkees/ | song-story | pop-brill-building | not started | I'm a Believer | 5tpxXDILZHs | yt |
 | 65 | Last Train to Clarksville | /blog/songs/last-train-to-clarksville-monkees/ | song-story | pop-brill-building | not started | Last Train to Clarksville | zSzsyqzQNeQ | yt |
