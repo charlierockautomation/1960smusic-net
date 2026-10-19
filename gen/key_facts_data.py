@@ -165,6 +165,14 @@ SONGS = {
         ("US peak", "No. 1, Billboard Hot 100 (2 weeks)"),
         ("UK peak", "No. 8"),
     ]),
+    "come-see-about-me-supremes": dict(year=1964, rows=[
+        ("Released", "October 27, 1964"),
+        ("Label", "Motown"),
+        ("Written by", "Holland-Dozier-Holland (Brian Holland, Lamont Dozier, Eddie Holland)"),
+        ("Produced by", "Brian Holland and Lamont Dozier"),
+        ("US peak", "No. 1, Billboard Hot 100 (2 non-consecutive weeks)"),
+        ("UK peak", "No. 27"),
+    ]),
     "baby-love-supremes": dict(year=1964, rows=[
         ("Released", "September 17, 1964"),
         ("Label", "Motown"),

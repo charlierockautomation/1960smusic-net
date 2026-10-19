@@ -1225,6 +1225,15 @@
       "description": "You Keep Me Hangin' On was the 1966 Holland-Dozier-Holland rocker that gave The Supremes their eighth No. 1. Here is how it was made and charted.",
       "date": "2026-10-18",
       "genre": "motown-soul"
+    },
+    {
+      "id": "come-see-about-me-supremes",
+      "title": "Come See About Me: The Supremes' 1964 No. 1 Story",
+      "slug": "/blog/songs/come-see-about-me-supremes/",
+      "type": "song-story",
+      "description": "Come See About Me was the 1964 Holland-Dozier-Holland hit that gave The Supremes their third straight No. 1. Here is how it was made and charted.",
+      "date": "2026-10-18",
+      "genre": "motown-soul"
     }
   ]
 }
