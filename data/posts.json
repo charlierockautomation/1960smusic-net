@@ -1252,6 +1252,15 @@
       "description": "Ring of Fire was Johnny Cash's 1963 country No. 1, co-written by June Carter and Merle Kilgore. Here is the story of the mariachi horns, the charts and the authorship dispute.",
       "date": "2026-10-18",
       "genre": "country-60s"
+    },
+    {
+      "id": "the-monkees",
+      "title": "The Monkees: TV Band, Hit Singles and Headquarters",
+      "slug": "/blog/artists/the-monkees/",
+      "type": "artist-bio",
+      "description": "The Monkees went from a 1966 NBC sitcom to three US No. 1 singles and four No. 1 albums, then fought for control and made Headquarters in 1967.",
+      "date": "2026-10-18",
+      "genre": "pop-brill-building"
     }
   ]
 }

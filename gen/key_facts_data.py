@@ -364,6 +364,13 @@ ARTISTS = {
         ("Label", "Sun (1955-1958), Columbia (from 1958)"),
         ("Peak chart hits", "\"Ring of Fire\" (US country No. 1, Hot 100 No. 17, 1963); \"A Boy Named Sue\" (Hot 100 No. 2, US country No. 1, 1969)"),
     ]),
+    "the-monkees": dict(years=[1966, 1967], rows=[
+        ("Origin", "Los Angeles, California"),
+        ("Active", "1966-1970, with later reunions"),
+        ("Genre", "Pop & Brill Building"),
+        ("Label", "Colgems (US), RCA Victor (elsewhere)"),
+        ("Peak chart hits", "\"Last Train to Clarksville\" (US No. 1, 1966); \"I'm a Believer\" (US No. 1 for 7 weeks, UK No. 1, 1966-67); \"Daydream Believer\" (US No. 1, 1967)"),
+    ]),
     "the-animals": dict(years=[1964], rows=[
         ("Origin", "Newcastle upon Tyne, England"),
         ("Active", "1963-1969"),
