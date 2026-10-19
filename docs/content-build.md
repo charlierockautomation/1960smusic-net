@@ -119,7 +119,7 @@ Live rows (1-26) are in [`docs/content-build-archive.md`](content-build-archive.
 | 61 | Ring of Fire | /blog/songs/ring-of-fire-johnny-cash/ | song-story | country-60s | live | Ring of Fire | 1WaV2x8GXj0 |  |
 | 63 | The Monkees bio | /blog/artists/the-monkees/ | artist-bio | pop-brill-building | live | The Monkees | 5tpxXDILZHs | yt |
 | 64 | I'm a Believer | /blog/songs/im-a-believer-monkees/ | song-story | pop-brill-building | live | I'm a Believer | 5tpxXDILZHs | yt |
-| 65 | Last Train to Clarksville | /blog/songs/last-train-to-clarksville-monkees/ | song-story | pop-brill-building | not started | Last Train to Clarksville | zSzsyqzQNeQ | yt |
+| 65 | Last Train to Clarksville | /blog/songs/last-train-to-clarksville-monkees/ | song-story | pop-brill-building | live | Last Train to Clarksville | zSzsyqzQNeQ | yt |
 | 66 | Daydream Believer | /blog/songs/daydream-believer-monkees/ | song-story | pop-brill-building | not started | Daydream Believer by The Monkees | xvqeSJlgaNk |  |
 | 67 | Frank Sinatra bio | /blog/artists/frank-sinatra/ | artist-bio | jazz-easy-listening | not started | Frank Sinatra | JYuyWrkwpok |  |
 | 68 | Fly Me to the Moon | /blog/songs/fly-me-to-the-moon-frank-sinatra/ | song-story | jazz-easy-listening | not started | Fly Me to the Moon | JYuyWrkwpok |  |
