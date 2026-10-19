@@ -1216,6 +1216,15 @@
       "description": "Where Did Our Love Go was the 1964 Holland-Dozier-Holland single that gave The Supremes their first No. 1. Here is how it was made and charted.",
       "date": "2026-10-18",
       "genre": "motown-soul"
+    },
+    {
+      "id": "you-keep-me-hangin-on-supremes",
+      "title": "You Keep Me Hangin' On: The Supremes' 1966 No. 1 Story",
+      "slug": "/blog/songs/you-keep-me-hangin-on-supremes/",
+      "type": "song-story",
+      "description": "You Keep Me Hangin' On was the 1966 Holland-Dozier-Holland rocker that gave The Supremes their eighth No. 1. Here is how it was made and charted.",
+      "date": "2026-10-18",
+      "genre": "motown-soul"
     }
   ]
 }
