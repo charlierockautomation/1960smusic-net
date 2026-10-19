@@ -350,6 +350,13 @@ ARTISTS = {
         ("Producer", "Mickie Most"),
         ("Peak chart hits", "\"I'm Into Something Good\" (UK No. 1, 1964); \"Mrs. Brown, You've Got a Lovely Daughter\" and \"I'm Henry the VIII, I Am\" (US No. 1, 1965)"),
     ]),
+    "johnny-cash": dict(years=[1963, 1968, 1969], rows=[
+        ("Origin", "Kingsland, Arkansas"),
+        ("Born", "February 26, 1932"),
+        ("Genre", "Country (Nashville Sound & Bakersfield)"),
+        ("Label", "Sun (1955-1958), Columbia (from 1958)"),
+        ("Peak chart hits", "\"Ring of Fire\" (US country No. 1, Hot 100 No. 17, 1963); \"A Boy Named Sue\" (Hot 100 No. 2, US country No. 1, 1969)"),
+    ]),
     "the-animals": dict(years=[1964], rows=[
         ("Origin", "Newcastle upon Tyne, England"),
         ("Active", "1963-1969"),

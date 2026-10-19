@@ -1234,6 +1234,15 @@
       "description": "Come See About Me was the 1964 Holland-Dozier-Holland hit that gave The Supremes their third straight No. 1. Here is how it was made and charted.",
       "date": "2026-10-18",
       "genre": "motown-soul"
+    },
+    {
+      "id": "johnny-cash",
+      "title": "Johnny Cash: From Ring of Fire to Folsom Prison",
+      "slug": "/blog/artists/johnny-cash/",
+      "type": "artist-bio",
+      "description": "Johnny Cash went from Sun Records rockabilly to Columbia's biggest country star, with Ring of Fire in 1963 and the Folsom and San Quentin prison albums.",
+      "date": "2026-10-18",
+      "genre": "country-60s"
     }
   ]
 }
