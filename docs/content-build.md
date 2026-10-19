@@ -113,7 +113,7 @@ Live rows (1-26) are in [`docs/content-build-archive.md`](content-build-archive.
 | 55 | Stop! In the Name of Love | /blog/songs/stop-in-the-name-of-love-supremes/ | song-story | motown-soul | live | Stop! In the Name of Love | une981B7Q4Y |  |
 | 56 | Baby Love | /blog/songs/baby-love-supremes/ | song-story | motown-soul | live | Baby Love by The Supremes | D6QF4sB40gU |  |
 | 57 | Where Did Our Love Go | /blog/songs/where-did-our-love-go-supremes/ | song-story | motown-soul | live | Where Did Our Love Go | Jt_31gR18NA |  |
-| 58 | You Keep Me Hangin' On | /blog/songs/you-keep-me-hangin-on-supremes/ | song-story | motown-soul | not started | You Keep Me Hangin' On | pi00f6oiMu4 |  |
+| 58 | You Keep Me Hangin' On | /blog/songs/you-keep-me-hangin-on-supremes/ | song-story | motown-soul | live | You Keep Me Hangin' On | pi00f6oiMu4 |  |
 | 59 | Come See About Me | /blog/songs/come-see-about-me-supremes/ | song-story | motown-soul | not started | Come See About Me | NkH_dm9NkxQ |  |
 | 60 | Johnny Cash bio | /blog/artists/johnny-cash/ | artist-bio | country-60s | not started | Johnny Cash | 1WaV2x8GXj0 |  |
 | 61 | Ring of Fire | /blog/songs/ring-of-fire-johnny-cash/ | song-story | country-60s | not started | Ring of Fire | 1WaV2x8GXj0 |  |
