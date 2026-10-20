@@ -1327,6 +1327,16 @@
       "date": "2026-10-19",
       "genre": null,
       "seq": 67
+    },
+    {
+      "id": "on-this-day-november-7",
+      "title": "On This Day: November 7 in 1960s Music",
+      "slug": "/blog/on-this-day/november-7/",
+      "type": "on-this-day",
+      "description": "9 verified 1960s music events from November 7: John Lennon meets Yoko Ono at the Indica Gallery, the Beatles play Dublin, and Herb Alpert debuts on Ed Sullivan.",
+      "date": "2026-10-19",
+      "genre": null,
+      "seq": 68
     }
   ]
 }
