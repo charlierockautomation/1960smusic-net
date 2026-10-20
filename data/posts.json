@@ -1317,6 +1317,16 @@
       "date": "2026-10-19",
       "genre": null,
       "seq": 66
+    },
+    {
+      "id": "on-this-day-november-6",
+      "title": "On This Day: November 6 in 1960s Music",
+      "slug": "/blog/on-this-day/november-6/",
+      "type": "on-this-day",
+      "description": "9 verified 1960s music events from November 6: Bob Dylan records All Along the Watchtower in Nashville, the Beatles play Southampton, and Jimmy Dean's Big Bad John tops the Hot 100.",
+      "date": "2026-10-19",
+      "genre": null,
+      "seq": 67
     }
   ]
 }
