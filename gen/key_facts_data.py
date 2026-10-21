@@ -474,6 +474,14 @@ ARTISTS = {
         ("Classic lineup", "Jim Morrison, Ray Manzarek, Robby Krieger, John Densmore"),
         ("Peak chart hits", "\"Light My Fire\" (US No. 1, 1967); the album Waiting for the Sun (US No. 1 on the Billboard 200, 1968)"),
     ]),
+    "the-jimi-hendrix-experience": dict(years=[1967, 1968], rows=[
+        ("Origin", "London, England"),
+        ("Active", "1966-1969"),
+        ("Genre", "Psychedelic Rock"),
+        ("Label", "Track (UK), Reprise (US)"),
+        ("Classic lineup", "Jimi Hendrix, Noel Redding, Mitch Mitchell"),
+        ("Peak chart hits", "\"Purple Haze\" (UK No. 3, 1967); \"Hey Joe\" and \"The Wind Cries Mary\" (both UK No. 6); the album Electric Ladyland (US No. 1 on the Billboard 200, 1968)"),
+    ]),
     "the-kinks": dict(years=[1964, 1966], rows=[
         ("Origin", "Muswell Hill, London, England"),
         ("Active", "1963-1996"),

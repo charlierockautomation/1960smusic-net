@@ -98,7 +98,7 @@
   </url>
   <url>
     <loc>https://1960smusic.net/blog/artists/</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -153,6 +153,12 @@
   <url>
     <loc>https://1960smusic.net/blog/artists/the-doors/</loc>
     <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://1960smusic.net/blog/artists/the-jimi-hendrix-experience/</loc>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

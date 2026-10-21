@@ -1393,6 +1393,15 @@
       "description": "A World Without Love was a Paul McCartney song the Beatles passed on. Here is how Peter and Gordon turned it into a 1964 number one in the UK and US.",
       "date": "2026-10-21",
       "genre": "british-invasion"
+    },
+    {
+      "id": "the-jimi-hendrix-experience",
+      "title": "The Jimi Hendrix Experience: Three Years That Rewired Rock",
+      "slug": "/blog/artists/the-jimi-hendrix-experience/",
+      "type": "artist-bio",
+      "description": "The Jimi Hendrix Experience formed in London in 1966 and changed electric guitar in three albums. Meet the trio, the hits and the breakup.",
+      "date": "2026-10-21",
+      "genre": "psychedelic-rock"
     }
   ]
 }
