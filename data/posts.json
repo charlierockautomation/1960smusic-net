@@ -1366,6 +1366,15 @@
       "description": "Fly Me to the Moon by Frank Sinatra began as a 1954 waltz called In Other Words. Here is how Quincy Jones and Count Basie made it a swing standard that reached Apollo 10.",
       "date": "2026-10-20",
       "genre": "jazz-easy-listening"
+    },
+    {
+      "id": "strangers-in-the-night-frank-sinatra",
+      "title": "Strangers in the Night by Frank Sinatra: 1966 Story",
+      "slug": "/blog/songs/strangers-in-the-night-frank-sinatra/",
+      "type": "song-story",
+      "description": "Strangers in the Night by Frank Sinatra began as a film instrumental called Beddy Bye. Here is how a rushed 1966 session made it a No. 1 hit Sinatra disliked.",
+      "date": "2026-10-21",
+      "genre": "jazz-easy-listening"
     }
   ]
 }

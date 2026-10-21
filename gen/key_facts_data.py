@@ -188,6 +188,14 @@ SONGS = {
         ("US album peak", "No. 13, Billboard Top LPs"),
         ("UK album peak", "No. 17"),
     ]),
+    "strangers-in-the-night-frank-sinatra": dict(year=1966, rows=[
+        ("Released", "April 12, 1966"),
+        ("Label", "Reprise"),
+        ("Written by", "Bert Kaempfert (music), Charles Singleton and Eddie Snyder (lyrics)"),
+        ("Produced by", "Jimmy Bowen; arranged by Ernie Freeman"),
+        ("US peak", "No. 1, Billboard Hot 100 (week of July 2, 1966)"),
+        ("UK peak", "No. 1 (3 weeks)"),
+    ]),
     "daydream-believer-monkees": dict(year=1967, rows=[
         ("Released", "October 25, 1967"),
         ("Label", "Colgems"),
