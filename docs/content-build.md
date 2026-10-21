@@ -124,7 +124,7 @@ Live rows (1-26) are in [`docs/content-build-archive.md`](content-build-archive.
 | 67 | Frank Sinatra bio | /blog/artists/frank-sinatra/ | artist-bio | jazz-easy-listening | live | Frank Sinatra | JYuyWrkwpok |  |
 | 68 | Fly Me to the Moon | /blog/songs/fly-me-to-the-moon-frank-sinatra/ | song-story | jazz-easy-listening | live | Fly Me to the Moon | JYuyWrkwpok |  |
 | 69 | Strangers in the Night | /blog/songs/strangers-in-the-night-frank-sinatra/ | song-story | jazz-easy-listening | live | Strangers in the Night | Sek1vLw3s20 |  |
-| 70 | My Way | /blog/songs/my-way-frank-sinatra/ | song-story | jazz-easy-listening | not started | My Way by Frank Sinatra | qQzdAsjWGPg |  |
+| 70 | My Way | /blog/songs/my-way-frank-sinatra/ | song-story | jazz-easy-listening | live | My Way by Frank Sinatra | qQzdAsjWGPg |  |
 
 Artist-bio YouTube IDs are the artist's first `notable_song_ids` entry in
 `data/artists.json` (same convention used for The Beatles bio, which
