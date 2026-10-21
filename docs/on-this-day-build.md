@@ -149,7 +149,7 @@ past that, move the oldest `live` rows out to
 | 69 | November 8 | /blog/on-this-day/november-8/ | data/on-this-day/11-08.json | live |
 | 70 | November 9 | /blog/on-this-day/november-9/ | data/on-this-day/11-09.json | live |
 | 71 | November 10 | /blog/on-this-day/november-10/ | data/on-this-day/11-10.json | live |
-| 72 | November 11 | /blog/on-this-day/november-11/ | data/on-this-day/11-11.json | drafted |
+| 72 | November 11 | /blog/on-this-day/november-11/ | data/on-this-day/11-11.json | live |
 | 73 | November 12 | /blog/on-this-day/november-12/ | data/on-this-day/11-12.json | not started |
 | 74 | November 13 | /blog/on-this-day/november-13/ | data/on-this-day/11-13.json | not started |
 | 75 | November 14 | /blog/on-this-day/november-14/ | data/on-this-day/11-14.json | not started |
