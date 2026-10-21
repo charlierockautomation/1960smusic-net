@@ -1337,6 +1337,16 @@
       "date": "2026-10-19",
       "genre": null,
       "seq": 68
+    },
+    {
+      "id": "on-this-day-november-8",
+      "title": "On This Day: November 8 in 1960s Music",
+      "slug": "/blog/on-this-day/november-8/",
+      "type": "on-this-day",
+      "description": "9 verified 1960s music events from November 8: Johnny Cash plays Folsom Prison, the Beatles record Think for Yourself, and the Stones play the Forum.",
+      "date": "2026-10-20",
+      "genre": null,
+      "seq": 69
     }
   ]
 }
