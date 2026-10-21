@@ -180,6 +180,14 @@ SONGS = {
         ("US peak", "No. 1, Billboard Hot 100 (1 week)"),
         ("UK peak", "No. 23"),
     ]),
+    "fly-me-to-the-moon-frank-sinatra": dict(year=1964, rows=[
+        ("Released", "August 1964 (on the album It Might as Well Be Swing)"),
+        ("Label", "Reprise"),
+        ("Written by", "Bart Howard (1954, as \"In Other Words\")"),
+        ("Produced by", "Sonny Burke (album); arranged by Quincy Jones"),
+        ("US album peak", "No. 13, Billboard Top LPs"),
+        ("UK album peak", "No. 17"),
+    ]),
     "daydream-believer-monkees": dict(year=1967, rows=[
         ("Released", "October 25, 1967"),
         ("Label", "Colgems"),

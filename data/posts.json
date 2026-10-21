@@ -1357,6 +1357,15 @@
       "date": "2026-10-20",
       "genre": null,
       "seq": 70
+    },
+    {
+      "id": "fly-me-to-the-moon-frank-sinatra",
+      "title": "Fly Me to the Moon by Frank Sinatra: 1964 Story",
+      "slug": "/blog/songs/fly-me-to-the-moon-frank-sinatra/",
+      "type": "song-story",
+      "description": "Fly Me to the Moon by Frank Sinatra began as a 1954 waltz called In Other Words. Here is how Quincy Jones and Count Basie made it a swing standard that reached Apollo 10.",
+      "date": "2026-10-20",
+      "genre": "jazz-easy-listening"
     }
   ]
 }
