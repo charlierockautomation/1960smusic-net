@@ -1,0 +1,152 @@
+{
+  "date_label": "November 10",
+  "date_slug": "november-10",
+  "flagship": {
+    "year": 1969,
+    "category": "broadcast",
+    "headline": "Sesame Street premieres on NET",
+    "summary_line_1": "Sesame Street premiered on National Educational Television on November 10, 1969, per <a href=\"https://en.wikipedia.org/wiki/Sesame_Street\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>.",
+    "summary_line_2": "Joe Raposo wrote the theme, Can You Tell Me How to Get to Sesame Street, with lyrics shared with Jon Stone and Bruce Hart, and the clip below is the show open.",
+    "youtube_id": "jfQSp92L88I",
+    "image": null
+  },
+  "years": [
+    {
+      "year": 1969,
+      "events": [
+        {
+          "id": "ev-sesame-street",
+          "category": "broadcast",
+          "headline": "Sesame Street premieres on NET",
+          "summary_line_1": "Sesame Street premiered on National Educational Television on November 10, 1969, per <a href=\"https://en.wikipedia.org/wiki/Sesame_Street\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>.",
+          "summary_line_2": "Joe Raposo wrote the theme, Can You Tell Me How to Get to Sesame Street, with lyrics shared with Jon Stone and Bruce Hart, and the clip below is the show open.",
+          "youtube_id": "jfQSp92L88I",
+          "image": null,
+          "internal_link": null,
+          "external_link": [
+            "Wikipedia",
+            "https://en.wikipedia.org/wiki/Sesame_Street"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1968,
+      "events": [
+        {
+          "id": "ev-airplane-smothers",
+          "category": "broadcast",
+          "headline": "Jefferson Airplane play Crown of Creation on the Smothers Brothers",
+          "summary_line_1": "CBS aired the Smothers Brothers Comedy Hour episode with Jefferson Airplane on November 10, 1968, five days after Richard Nixon won the presidential election, per <a href=\"https://www.cambridge.org/core/journals/popular-music/article/tear-down-the-walls-jefferson-airplane-race-and-revolutionary-rhetoric-in-1960s-rock/19488B06DBC292E3E44874F2E37D99D5\" target=\"_blank\" rel=\"noopener\">Patrick Burke in Popular Music</a>.",
+          "summary_line_2": "The band played the title track of its fourth album, taped in late October, and Grace Slick ended it in dark makeup with a Black Power salute, which made the performance controversial, and the clip below is the song.",
+          "youtube_id": "tp168VmwTJM",
+          "image": null,
+          "internal_link": null,
+          "external_link": [
+            "Popular Music",
+            "https://www.cambridge.org/core/journals/popular-music/article/tear-down-the-walls-jefferson-airplane-race-and-revolutionary-rhetoric-in-1960s-rock/19488B06DBC292E3E44874F2E37D99D5"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1967,
+      "events": [
+        {
+          "id": "ev-hello-goodbye-film",
+          "category": "industry",
+          "headline": "The Beatles film three Hello, Goodbye promo clips at the Saville Theatre",
+          "summary_line_1": "The <a href=\"/blog/artists/the-beatles/\">Beatles</a> arrived at the Saville Theatre in London on Friday, November 10, 1967, to make three promotional films for Hello, Goodbye, per the <a href=\"https://www.beatlesbible.com/1967/11/10/filming-hello-goodbye/\" target=\"_blank\" rel=\"noopener\">Beatles Bible</a>.",
+          "summary_line_2": "A Musicians' Union ban on miming kept the clips off UK television, and the clip below is the song.",
+          "youtube_id": "rblYSKz_VnI",
+          "image": null,
+          "internal_link": {
+            "text": "Beatles",
+            "url": "/blog/artists/the-beatles/"
+          },
+          "external_link": [
+            "Beatles Bible",
+            "https://www.beatlesbible.com/1967/11/10/filming-hello-goodbye/"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1965,
+      "events": [
+        {
+          "id": "ev-the-word-session",
+          "category": "industry",
+          "headline": "The Beatles record The Word at Abbey Road",
+          "summary_line_1": "The <a href=\"/blog/artists/the-beatles/\">Beatles</a> began a 9pm session in Studio Two at EMI, Abbey Road on November 10, 1965, cutting the rhythm track for The Word in three takes and a new backing track for I'm Looking Through You, per the <a href=\"https://www.beatlesbible.com/1965/11/10/recording-the-word-im-looking-through-you/\" target=\"_blank\" rel=\"noopener\">Beatles Bible</a>.",
+          "summary_line_2": "The session ran until 4am, after George Martin made stereo mixes of Run For Your Life and We Can Work It Out that afternoon, and the clip below is The Word from Rubber Soul.",
+          "youtube_id": "RfBEqiEhCgM",
+          "image": null,
+          "internal_link": {
+            "text": "Beatles",
+            "url": "/blog/artists/the-beatles/"
+          },
+          "external_link": [
+            "Beatles Bible",
+            "https://www.beatlesbible.com/1965/11/10/recording-the-word-im-looking-through-you/"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1963,
+      "events": [
+        {
+          "id": "ev-beatles-birmingham",
+          "category": "concert",
+          "headline": "The Beatles play the Hippodrome in Birmingham",
+          "summary_line_1": "The <a href=\"/blog/artists/the-beatles/\">Beatles</a> played the Hippodrome in Birmingham on Sunday, November 10, 1963, the ninth date of their autumn tour, per the <a href=\"https://beatlesbible.com/1963/11/10/live-hippodrome-birmingham-2\" target=\"_blank\" rel=\"noopener\">Beatles Bible</a>.",
+          "summary_line_2": "It was their second show at the venue, after one on March 10, 1963, and the clip below is <a href=\"/blog/songs/she-loves-you-beatles/\">She Loves You</a>.",
+          "youtube_id": "nGbWU8S3vzs",
+          "image": null,
+          "internal_link": {
+            "text": "Beatles",
+            "url": "/blog/artists/the-beatles/"
+          },
+          "external_link": [
+            "Beatles Bible",
+            "https://beatlesbible.com/1963/11/10/live-hippodrome-birmingham-2"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1962,
+      "events": [
+        {
+          "id": "ev-hes-a-rebel-no1",
+          "category": "chart",
+          "headline": "The Crystals hold No. 1 with He's a Rebel",
+          "summary_line_1": "The Crystals' He's a Rebel was the No. 1 single on the Billboard Hot 100 dated November 10, 1962, its second of two weeks at the top, per <a href=\"https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1962\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>.",
+          "summary_line_2": "It first reached No. 1 on November 3 before Big Girls Don't Cry by the Four Seasons took over on November 17, and the clip below is the song.",
+          "youtube_id": "jbp1h74-RUs",
+          "image": null,
+          "internal_link": null,
+          "external_link": [
+            "Wikipedia",
+            "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1962"
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "value": 6,
+      "label": "verified events"
+    },
+    {
+      "value": 4,
+      "label": "event categories"
+    },
+    {
+      "value": 6,
+      "label": "watchable clips"
+    }
+  ]
+}
