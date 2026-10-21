@@ -56,6 +56,28 @@
       ]
     },
     {
+      "year": 1966,
+      "events": [
+        {
+          "id": "ev-ready-steady-who",
+          "category": "release",
+          "headline": "The Who release the Ready Steady Who EP",
+          "summary_line_1": "The <a href=\"/blog/artists/the-who/\">Who</a> released the Ready Steady Who EP in the UK on Reaction (592001) on November 11, 1966, per <a href=\"https://www.thewho.com/music/ready-steady-who-ep/\" target=\"_blank\" rel=\"noopener\">thewho.com</a>.",
+          "summary_line_2": "It topped the Record Mirror EP chart and was never issued in the US at the time, and the clip below is Batman from the EP.",
+          "youtube_id": "KNldFQGtfoY",
+          "image": null,
+          "internal_link": {
+            "text": "Who",
+            "url": "/blog/artists/the-who/"
+          },
+          "external_link": [
+            "thewho.com",
+            "https://www.thewho.com/music/ready-steady-who-ep/"
+          ]
+        }
+      ]
+    },
+    {
       "year": 1965,
       "events": [
         {
@@ -73,6 +95,28 @@
           "external_link": [
             "Paul McCartney Project",
             "https://www.the-paulmccartney-project.com/session/rubber-soul-session-15/"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1963,
+      "events": [
+        {
+          "id": "ev-beatles-pop-63",
+          "category": "broadcast",
+          "headline": "Swedish radio broadcasts the Beatles in Pop '63",
+          "summary_line_1": "Sveriges Radio broadcast the <a href=\"/blog/artists/the-beatles/\">Beatles</a> on Monday, November 11, 1963, from 10.05 to 10.30pm, per the <a href=\"https://beatlesbible.com/1963/10/24/radio-karlaplansstudion-stockholm-sweden\" target=\"_blank\" rel=\"noopener\">Beatles Bible</a>.",
+          "summary_line_2": "The Stockholm show featured seven songs including She Loves You, and the clip below is that single.",
+          "youtube_id": "nGbWU8S3vzs",
+          "image": null,
+          "internal_link": {
+            "text": "Beatles",
+            "url": "/blog/artists/the-beatles/"
+          },
+          "external_link": [
+            "Beatles Bible",
+            "https://beatlesbible.com/1963/10/24/radio-karlaplansstudion-stockholm-sweden"
           ]
         }
       ]
@@ -98,11 +142,39 @@
           ]
         }
       ]
+    },
+    {
+      "year": 1960,
+      "events": [
+        {
+          "id": "ev-byrd-half-note",
+          "category": "industry",
+          "headline": "Donald Byrd records six sets at the Half Note",
+          "summary_line_1": "Trumpeter Donald Byrd's quintet recorded six sets at the Half Note in Manhattan on November 11, 1960, per the <a href=\"https://www.jazzdisco.org/donald-byrd/discography/\" target=\"_blank\" rel=\"noopener\">Jazz Discography Project</a>.",
+          "summary_line_2": "Pepper Adams joined the band on baritone sax for some of the tracks, Blue Note issued the material as At the Half Note Cafe Vols. 1 and 2, and the clip below is Jeannine.",
+          "youtube_id": "9-fn-tf9g7M",
+          "image": null,
+          "internal_link": null,
+          "external_link": [
+            "Jazz Discography Project",
+            "https://www.jazzdisco.org/donald-byrd/discography/"
+          ]
+        }
+      ]
     }
   ],
   "stats": [
-    { "value": 4, "label": "verified events" },
-    { "value": 4, "label": "event categories" },
-    { "value": 4, "label": "watchable clips" }
+    {
+      "value": 7,
+      "label": "verified events"
+    },
+    {
+      "value": 5,
+      "label": "event categories"
+    },
+    {
+      "value": 7,
+      "label": "watchable clips"
+    }
   ]
 }
