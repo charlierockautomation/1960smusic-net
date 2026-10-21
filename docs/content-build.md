@@ -122,7 +122,7 @@ Live rows (1-26) are in [`docs/content-build-archive.md`](content-build-archive.
 | 65 | Last Train to Clarksville | /blog/songs/last-train-to-clarksville-monkees/ | song-story | pop-brill-building | live | Last Train to Clarksville | zSzsyqzQNeQ | yt |
 | 66 | Daydream Believer | /blog/songs/daydream-believer-monkees/ | song-story | pop-brill-building | live | Daydream Believer by The Monkees | xvqeSJlgaNk |  |
 | 67 | Frank Sinatra bio | /blog/artists/frank-sinatra/ | artist-bio | jazz-easy-listening | live | Frank Sinatra | JYuyWrkwpok |  |
-| 68 | Fly Me to the Moon | /blog/songs/fly-me-to-the-moon-frank-sinatra/ | song-story | jazz-easy-listening | not started | Fly Me to the Moon | JYuyWrkwpok |  |
+| 68 | Fly Me to the Moon | /blog/songs/fly-me-to-the-moon-frank-sinatra/ | song-story | jazz-easy-listening | live | Fly Me to the Moon | JYuyWrkwpok |  |
 | 69 | Strangers in the Night | /blog/songs/strangers-in-the-night-frank-sinatra/ | song-story | jazz-easy-listening | not started | Strangers in the Night | Sek1vLw3s20 |  |
 | 70 | My Way | /blog/songs/my-way-frank-sinatra/ | song-story | jazz-easy-listening | not started | My Way by Frank Sinatra | qQzdAsjWGPg |  |
 
