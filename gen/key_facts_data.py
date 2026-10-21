@@ -196,6 +196,14 @@ SONGS = {
         ("US peak", "No. 1, Billboard Hot 100 (week of July 2, 1966)"),
         ("UK peak", "No. 1 (3 weeks)"),
     ]),
+    "my-way-frank-sinatra": dict(year=1969, rows=[
+        ("Released", "March 1969 (recorded December 30, 1968)"),
+        ("Label", "Reprise"),
+        ("Written by", "Jacques Revaux, Gilles Thibaut and Claude François (music, as \"Comme d'habitude\"); Paul Anka (English lyrics)"),
+        ("Produced by", "Sonny Burke; arranged by Don Costa"),
+        ("US peak", "No. 27, Billboard Hot 100; No. 2, Easy Listening"),
+        ("UK peak", "No. 5 (75 weeks in the Top 40)"),
+    ]),
     "daydream-believer-monkees": dict(year=1967, rows=[
         ("Released", "October 25, 1967"),
         ("Label", "Colgems"),

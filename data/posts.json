@@ -1375,6 +1375,15 @@
       "description": "Strangers in the Night by Frank Sinatra began as a film instrumental called Beddy Bye. Here is how a rushed 1966 session made it a No. 1 hit Sinatra disliked.",
       "date": "2026-10-21",
       "genre": "jazz-easy-listening"
+    },
+    {
+      "id": "my-way-frank-sinatra",
+      "title": "My Way by Frank Sinatra: The 1968 Story Behind the Song",
+      "slug": "/blog/songs/my-way-frank-sinatra/",
+      "type": "song-story",
+      "description": "My Way by Frank Sinatra began as a French pop song about a dying marriage. Here is how Paul Anka rewrote it overnight and Sinatra cut it in one take.",
+      "date": "2026-10-21",
+      "genre": "jazz-easy-listening"
     }
   ]
 }
