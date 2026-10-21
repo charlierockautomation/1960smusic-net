@@ -1347,6 +1347,16 @@
       "date": "2026-10-20",
       "genre": null,
       "seq": 69
+    },
+    {
+      "id": "on-this-day-november-9",
+      "title": "On This Day: November 9 in 1960s Music",
+      "slug": "/blog/on-this-day/november-9/",
+      "type": "on-this-day",
+      "description": "11 verified 1960s music events from November 9: Brian Epstein sees the Beatles, Rolling Stone launches, and Hey Jude tops the Hot 100.",
+      "date": "2026-10-20",
+      "genre": null,
+      "seq": 70
     }
   ]
 }
