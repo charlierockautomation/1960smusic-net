@@ -1,0 +1,108 @@
+{
+  "date_label": "November 11",
+  "date_slug": "november-11",
+  "flagship": {
+    "year": 1965,
+    "category": "industry",
+    "headline": "The Beatles finish Rubber Soul with an all-night session",
+    "summary_line_1": "The <a href=\"/blog/artists/the-beatles/\">Beatles</a> started the last recording session for Rubber Soul at 6pm on November 11, 1965 at EMI, Abbey Road, cutting You Won't See Me and Girl in two takes each, per the <a href=\"https://www.the-paulmccartney-project.com/session/rubber-soul-session-15/\" target=\"_blank\" rel=\"noopener\">Paul McCartney Project</a>.",
+    "summary_line_2": "They also added overdubs to Wait and I'm Looking Through You, and the clip below is You Won't See Me.",
+    "youtube_id": "_HPkTdOfPZQ",
+    "image": null
+  },
+  "years": [
+    {
+      "year": 1969,
+      "events": [
+        {
+          "id": "ev-morrison-phoenix-arrest",
+          "category": "culture",
+          "headline": "Jim Morrison is arrested after a flight to Phoenix",
+          "summary_line_1": "<a href=\"/blog/artists/the-doors/\">The Doors</a> singer Jim Morrison was arrested in Phoenix on November 11, 1969, charged with drunk and disorderly conduct and interfering with the flight of an aircraft, per <a href=\"https://ultimateclassicrock.com/jim-morrison-arrested-in-arizona/\" target=\"_blank\" rel=\"noopener\">Ultimate Classic Rock</a>.",
+          "summary_line_2": "He was flying to see the Rolling Stones at Veterans Coliseum and did not serve any time, and the clip below is Roadhouse Blues, a track from the Morrison Hotel sessions the band was working on that month.",
+          "youtube_id": "kszS7vjA808",
+          "image": null,
+          "internal_link": {
+            "text": "The Doors",
+            "url": "/blog/artists/the-doors/"
+          },
+          "external_link": [
+            "Ultimate Classic Rock",
+            "https://ultimateclassicrock.com/jim-morrison-arrested-in-arizona/"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1968,
+      "events": [
+        {
+          "id": "ev-two-virgins-us",
+          "category": "release",
+          "headline": "John Lennon and Yoko Ono release Two Virgins in the US",
+          "summary_line_1": "Unfinished Music No. 1: Two Virgins by John Lennon and Yoko Ono came out in the US on Apple on November 11, 1968, with Tetragrammaton handling distribution, per the <a href=\"https://www.beatlesbible.com/1968/11/11/us-lp-two-virgins-john-lennon-yoko-ono/\" target=\"_blank\" rel=\"noopener\">Beatles Bible</a>.",
+          "summary_line_2": "The nude cover was hidden in a brown paper sleeve, and the clip below is Hey Jude, the <a href=\"/blog/artists/the-beatles/\">Beatles</a> single Apple had released that August.",
+          "youtube_id": "A_MjCqQoLLA",
+          "image": null,
+          "internal_link": {
+            "text": "Beatles",
+            "url": "/blog/artists/the-beatles/"
+          },
+          "external_link": [
+            "Beatles Bible",
+            "https://www.beatlesbible.com/1968/11/11/us-lp-two-virgins-john-lennon-yoko-ono/"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1965,
+      "events": [
+        {
+          "id": "ev-rubber-soul-finale",
+          "category": "industry",
+          "headline": "The Beatles finish Rubber Soul with an all-night session",
+          "summary_line_1": "The <a href=\"/blog/artists/the-beatles/\">Beatles</a> started the last recording session for Rubber Soul at 6pm on November 11, 1965 at EMI, Abbey Road, cutting You Won't See Me and Girl in two takes each, per the <a href=\"https://www.the-paulmccartney-project.com/session/rubber-soul-session-15/\" target=\"_blank\" rel=\"noopener\">Paul McCartney Project</a>.",
+          "summary_line_2": "They also added overdubs to Wait and I'm Looking Through You, and the clip below is You Won't See Me.",
+          "youtube_id": "_HPkTdOfPZQ",
+          "image": null,
+          "internal_link": {
+            "text": "Beatles",
+            "url": "/blog/artists/the-beatles/"
+          },
+          "external_link": [
+            "Paul McCartney Project",
+            "https://www.the-paulmccartney-project.com/session/rubber-soul-session-15/"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1962,
+      "events": [
+        {
+          "id": "ev-beatles-star-club-1962",
+          "category": "concert",
+          "headline": "The Beatles play the Star-Club in Hamburg",
+          "summary_line_1": "The <a href=\"/blog/artists/the-beatles/\">Beatles</a> played the Star-Club in Hamburg on Sunday, November 11, 1962, the 59th show the band had played at the club and part of their second residency there, per the <a href=\"https://www.the-paulmccartney-project.com/concert/1962-11-11/\" target=\"_blank\" rel=\"noopener\">Paul McCartney Project</a>.",
+          "summary_line_2": "Love Me Do had come out five weeks earlier, and the clip below is that single.",
+          "youtube_id": "0pGOFX1D_jg",
+          "image": null,
+          "internal_link": {
+            "text": "Beatles",
+            "url": "/blog/artists/the-beatles/"
+          },
+          "external_link": [
+            "Paul McCartney Project",
+            "https://www.the-paulmccartney-project.com/concert/1962-11-11/"
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": [
+    { "value": 4, "label": "verified events" },
+    { "value": 4, "label": "event categories" },
+    { "value": 4, "label": "watchable clips" }
+  ]
+}
