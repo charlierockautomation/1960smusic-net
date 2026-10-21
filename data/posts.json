@@ -1384,6 +1384,15 @@
       "description": "My Way by Frank Sinatra began as a French pop song about a dying marriage. Here is how Paul Anka rewrote it overnight and Sinatra cut it in one take.",
       "date": "2026-10-21",
       "genre": "jazz-easy-listening"
+    },
+    {
+      "id": "a-world-without-love-peter-and-gordon",
+      "title": "A World Without Love: Peter and Gordon's 1964 No. 1",
+      "slug": "/blog/songs/a-world-without-love-peter-and-gordon/",
+      "type": "song-story",
+      "description": "A World Without Love was a Paul McCartney song the Beatles passed on. Here is how Peter and Gordon turned it into a 1964 number one in the UK and US.",
+      "date": "2026-10-21",
+      "genre": "british-invasion"
     }
   ]
 }

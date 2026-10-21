@@ -15,6 +15,14 @@ least one row whose label contains "peak" (check_article.py enforces it).
 """
 
 SONGS = {
+    "a-world-without-love-peter-and-gordon": dict(year=1964, rows=[
+        ("Released", "February 1964 (UK); recorded January 21, 1964"),
+        ("Label", "Columbia (UK), Capitol (US)"),
+        ("Written by", "Paul McCartney, credited to Lennon-McCartney"),
+        ("Produced by", "Norman Newell"),
+        ("US peak", "No. 1, Billboard Hot 100 (one week, June 27, 1964)"),
+        ("UK peak", "No. 1, Record Retailer and NME"),
+    ]),
     "all-day-and-all-of-the-night-kinks": dict(year=1964, rows=[
         ("Released", "October 23, 1964 (UK)"),
         ("Label", "Pye (UK), Reprise (US)"),

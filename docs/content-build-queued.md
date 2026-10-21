@@ -1,4 +1,4 @@
-# Content Build Queue — Overflow (rows 71-165)
+# Content Build Queue — Overflow (rows 120-165)
 
 Paginated out of [`docs/content-build.md`](content-build.md) to keep every
 queue file at or under 195 lines. Not read every session. Pull the next
@@ -8,55 +8,6 @@ active file; rotation logic is documented there. Block after this one: [`docs/co
 
 | # | Title | Slug | Type | Genre | Status | Focus Keyword | YouTube ID | Flag |
 |---|-------|------|------|-------|--------|----------------|------------|------|
-| 71 | A World Without Love | /blog/songs/a-world-without-love-peter-and-gordon/ | song-story | british-invasion | not started | A World Without Love | Tdx6lLvvRyg | yt |
-| 72 | The Jimi Hendrix Experience bio | /blog/artists/the-jimi-hendrix-experience/ | artist-bio | psychedelic-rock | not started | The Jimi Hendrix Experience | WGoDaYjdfSg |  |
-| 73 | Purple Haze | /blog/songs/purple-haze-jimi-hendrix-experience/ | song-story | psychedelic-rock | not started | Purple Haze by The Jimi Hendrix Experience | WGoDaYjdfSg |  |
-| 74 | Hey Joe | /blog/songs/hey-joe-jimi-hendrix-experience/ | song-story | psychedelic-rock | not started | Hey Joe by The Jimi Hendrix Experience | rXwMrBb2x1Q |  |
-| 75 | The Sonics bio | /blog/artists/the-sonics/ | artist-bio | garage-surf-rock | not started | The Sonics | HGBsxpnRhMk |  |
-| 76 | The Witch | /blog/songs/the-witch-sonics/ | song-story | garage-surf-rock | not started | The Witch by The Sonics | HGBsxpnRhMk |  |
-| 77 | Have Love, Will Travel | /blog/songs/have-love-will-travel-sonics/ | song-story | garage-surf-rock | not started | Have Love, Will Travel | SV9N7TbIzcE |  |
-| 78 | Simon & Garfunkel bio | /blog/artists/simon-and-garfunkel/ | artist-bio | folk-rock | not started | Simon & Garfunkel | 4fWyzwo1xg0 |  |
-| 79 | The Sound of Silence | /blog/songs/the-sound-of-silence-simon-and-garfunkel/ | song-story | folk-rock | not started | The Sound of Silence | 4fWyzwo1xg0 |  |
-| 80 | The Boxer | /blog/songs/the-boxer-simon-and-garfunkel/ | song-story | folk-rock | not started | The Boxer by Simon & Garfunkel | l3LFML_pxlY |  |
-| 81 | Scarborough Fair/Canticle | /blog/songs/scarborough-fair-canticle-simon-and-garfunkel/ | song-story | folk-rock | not started | Scarborough Fair/Canticle by Simon & Garfunkel | -Jj4s9I-53g |  |
-| 82 | The Temptations bio | /blog/artists/the-temptations/ | artist-bio | motown-soul | not started | The Temptations | y3KJ7d2qBoA |  |
-| 83 | My Girl | /blog/songs/my-girl-temptations/ | song-story | motown-soul | not started | My Girl by The Temptations | y3KJ7d2qBoA |  |
-| 84 | Get Ready | /blog/songs/get-ready-temptations/ | song-story | motown-soul | not started | Get Ready by The Temptations | mhsYOzdJjI0 |  |
-| 85 | Patsy Cline bio | /blog/artists/patsy-cline/ | artist-bio | country-60s | not started | Patsy Cline | YWKeuYcDAoo |  |
-| 86 | Crazy | /blog/songs/crazy-patsy-cline/ | song-story | country-60s | not started | Crazy by Patsy Cline | YWKeuYcDAoo |  |
-| 87 | I Fall to Pieces | /blog/songs/i-fall-to-pieces-patsy-cline/ | song-story | country-60s | not started | I Fall to Pieces | gEcZ8BlsJhI |  |
-| 88 | The Four Seasons bio | /blog/artists/the-four-seasons/ | artist-bio | pop-brill-building | not started | The Four Seasons | GzoIvwNqKpw | yt |
-| 89 | Walk Like a Man | /blog/songs/walk-like-a-man-four-seasons/ | song-story | pop-brill-building | not started | Walk Like a Man | GzoIvwNqKpw | yt |
-| 90 | Big Girls Don't Cry | /blog/songs/big-girls-dont-cry-four-seasons/ | song-story | pop-brill-building | not started | Big Girls Don't Cry | zRZpaxBMJRU | yt |
-| 91 | Sherry | /blog/songs/sherry-four-seasons/ | song-story | pop-brill-building | not started | Sherry by The Four Seasons | jMcWldfg28s | yt |
-| 92 | Herb Alpert & The Tijuana Brass bio | /blog/artists/herb-alpert-and-the-tijuana-brass/ | artist-bio | jazz-easy-listening | not started | Herb Alpert & The Tijuana Brass | NC38-qqiVgg | yt |
-| 93 | A Taste of Honey | /blog/songs/a-taste-of-honey-herb-alpert-and-the-tijuana-brass/ | song-story | jazz-easy-listening | not started | A Taste of Honey | NC38-qqiVgg | yt |
-| 94 | Spanish Flea | /blog/songs/spanish-flea-herb-alpert-and-the-tijuana-brass/ | song-story | jazz-easy-listening | not started | Spanish Flea by Herb Alpert & The Tijuana Brass | aBE9EQ7gXKI |  |
-| 95 | This Guy's in Love with You | /blog/songs/this-guys-in-love-with-you-herb-alpert-and-the-tijuana-brass/ | song-story | jazz-easy-listening | not started | This Guy's in Love with You | o8ByJ1C0iR4 |  |
-| 96 | Sha La La La Lee | /blog/songs/sha-la-la-la-lee-small-faces/ | song-story | british-invasion | not started | Sha La La La Lee | JsuKmqQyYR4 | yt |
-| 97 | Jefferson Airplane bio | /blog/artists/jefferson-airplane/ | artist-bio | psychedelic-rock | not started | Jefferson Airplane | pnJM_jC7j_4 |  |
-| 98 | White Rabbit | /blog/songs/white-rabbit-jefferson-airplane/ | song-story | psychedelic-rock | not started | White Rabbit by Jefferson Airplane | pnJM_jC7j_4 |  |
-| 99 | Somebody to Love | /blog/songs/somebody-to-love-jefferson-airplane/ | song-story | psychedelic-rock | not started | Somebody to Love | a-C9pUGszsw |  |
-| 100 | Wooden Ships | /blog/songs/wooden-ships-jefferson-airplane/ | song-story | psychedelic-rock | not started | Wooden Ships by Jefferson Airplane | ROBaoiJK0wc |  |
-| 101 | Dick Dale bio | /blog/artists/dick-dale/ | artist-bio | garage-surf-rock | not started | Dick Dale | MXB6T55oytE |  |
-| 102 | Miserlou | /blog/songs/miserlou-dick-dale/ | song-story | garage-surf-rock | not started | Miserlou by Dick Dale and His Del-Tones | MXB6T55oytE |  |
-| 103 | The Byrds bio | /blog/artists/the-byrds/ | artist-bio | folk-rock | not started | The Byrds | NxyOhFBoxSY |  |
-| 104 | Mr. Tambourine Man | /blog/songs/mr-tambourine-man-byrds/ | song-story | folk-rock | not started | Mr. Tambourine Man | Swqw5a8I4b4 |  |
-| 105 | Turn! Turn! Turn! | /blog/songs/turn-turn-turn-byrds/ | song-story | folk-rock | not started | Turn! Turn! Turn! | xVOJla2vYx8 |  |
-| 106 | Marvin Gaye bio | /blog/artists/marvin-gaye/ | artist-bio | motown-soul | not started | Marvin Gaye | 5ZnrZnFSlWU |  |
-| 107 | I Heard It Through the Grapevine | /blog/songs/i-heard-it-through-the-grapevine-marvin-gaye/ | song-story | motown-soul | not started | I Heard It Through the Grapevine | 5ZnrZnFSlWU |  |
-| 108 | Ain't No Mountain High Enough | /blog/songs/aint-no-mountain-high-enough-marvin-gaye/ | song-story | motown-soul | not started | Ain't No Mountain High Enough | IC5PL0XImjw | yt |
-| 109 | How Sweet It Is (To Be Loved by You) | /blog/songs/how-sweet-it-is-to-be-loved-by-you-marvin-gaye/ | song-story | motown-soul | not started | How Sweet It Is (To Be Loved by You) | OhbQVA7hPuQ |  |
-| 110 | Buck Owens bio | /blog/artists/buck-owens/ | artist-bio | country-60s | not started | Buck Owens | __SMDtF_DsY |  |
-| 111 | Act Naturally | /blog/songs/act-naturally-buck-owens/ | song-story | country-60s | not started | Act Naturally by Buck Owens | __SMDtF_DsY |  |
-| 112 | Together Again | /blog/songs/together-again-buck-owens/ | song-story | country-60s | not started | Together Again by Buck Owens | h6-wKFK4sQM |  |
-| 113 | Buckaroo | /blog/songs/buckaroo-buck-owens/ | song-story | country-60s | not started | Buckaroo by Buck Owens | -2VLIO14dns | yt |
-| 114 | The Ronettes bio | /blog/artists/the-ronettes/ | artist-bio | pop-brill-building | not started | The Ronettes | jSPpbOGnFgk |  |
-| 115 | Be My Baby | /blog/songs/be-my-baby-ronettes/ | song-story | pop-brill-building | not started | Be My Baby | jSPpbOGnFgk |  |
-| 116 | Dionne Warwick bio | /blog/artists/dionne-warwick/ | artist-bio | jazz-easy-listening | not started | Dionne Warwick | vsGsCvJWEo8 |  |
-| 117 | Walk On By | /blog/songs/walk-on-by-dionne-warwick/ | song-story | jazz-easy-listening | not started | Walk On By | vsGsCvJWEo8 |  |
-| 118 | Do You Know the Way to San Jose | /blog/songs/do-you-know-the-way-to-san-jose-dionne-warwick/ | song-story | jazz-easy-listening | not started | Do You Know the Way to San Jose | FZLa-1q-lkw |  |
-| 119 | Alfie | /blog/songs/alfie-dionne-warwick/ | song-story | jazz-easy-listening | not started | Alfie by Dionne Warwick | YL06i9aiM4o | yt |
 | 120 | Pink Floyd bio | /blog/artists/pink-floyd/ | artist-bio | psychedelic-rock | not started | Pink Floyd | H3DGpINHX5Q |  |
 | 121 | Arnold Layne | /blog/songs/arnold-layne-pink-floyd/ | song-story | psychedelic-rock | not started | Arnold Layne by Pink Floyd | H3DGpINHX5Q |  |
 | 122 | Astronomy Domine | /blog/songs/astronomy-domine-pink-floyd/ | song-story | psychedelic-rock | not started | Astronomy Domine by Pink Floyd | 8UbNbor3OqQ |  |
