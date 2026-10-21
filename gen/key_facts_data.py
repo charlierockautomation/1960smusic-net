@@ -316,6 +316,14 @@ SONGS = {
         ("US peak", "No. 1, Billboard Hot 100"),
         ("UK peak", "No. 1"),
     ]),
+    "purple-haze-jimi-hendrix-experience": dict(year=1967, rows=[
+        ("Released", "March 17, 1967 (UK); June 19, 1967 (US); recorded January 11, 1967"),
+        ("Label", "Track (UK), Reprise (US)"),
+        ("Written by", "Jimi Hendrix"),
+        ("Produced by", "Chas Chandler"),
+        ("US peak", "No. 65, Billboard Hot 100"),
+        ("UK peak", "No. 3, Record Retailer"),
+    ]),
     "please-please-me-beatles": dict(year=1963, rows=[
         ("Released", "January 11, 1963 (UK)"),
         ("Label", "Parlophone (UK), Vee-Jay (US, 1963)"),
