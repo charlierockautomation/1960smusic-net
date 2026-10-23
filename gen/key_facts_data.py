@@ -110,6 +110,14 @@ SONGS = {
         ("US peak", "Did not chart"),
         ("UK peak", "No. 6"),
     ]),
+    "the-witch-sonics": dict(year=1964, rows=[
+        ("Released", "Late 1964 (sources differ on October or November); recorded July 1964"),
+        ("Label", "Etiquette"),
+        ("Written by", "Gerry Roslie"),
+        ("Produced by", "Buck Ormsby"),
+        ("US peak", "Did not chart nationally; about No. 2 on regional Seattle-area charts"),
+        ("UK peak", "Did not chart"),
+    ]),
     "house-of-the-rising-sun-animals": dict(year=1964, rows=[
         ("Released", "June 19, 1964"),
         ("Label", "Columbia"),

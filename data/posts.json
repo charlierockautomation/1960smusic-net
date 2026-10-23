@@ -1499,6 +1499,15 @@
       "description": "The Sonics, a Tacoma garage band, cut The Witch and Psycho in 1964-65. Meet the lineup, the raw records and the proto-punk legacy they left behind.",
       "date": "2026-10-23",
       "genre": "garage-surf-rock"
+    },
+    {
+      "id": "the-witch-sonics",
+      "title": "The Witch by The Sonics: 1964 Garage Rock Story",
+      "slug": "/blog/songs/the-witch-sonics/",
+      "type": "song-story",
+      "description": "The Witch by The Sonics was cut in July 1964 in Seattle. Here is who wrote it, how a radio ban shaped its run and why it still sounds so wild.",
+      "date": "2026-10-23",
+      "genre": "garage-surf-rock"
     }
   ]
 }
