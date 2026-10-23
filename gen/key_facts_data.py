@@ -102,6 +102,14 @@ SONGS = {
         ("US peak", "No. 9, Billboard Hot 100"),
         ("UK peak", "No. 2"),
     ]),
+    "hey-joe-jimi-hendrix-experience": dict(year=1966, rows=[
+        ("Released", "December 16, 1966 (UK); May 1, 1967 (US); recorded October 23, 1966"),
+        ("Label", "Polydor (UK), Reprise (US)"),
+        ("Written by", "Billy Roberts (authorship disputed)"),
+        ("Produced by", "Chas Chandler"),
+        ("US peak", "Did not chart"),
+        ("UK peak", "No. 6"),
+    ]),
     "house-of-the-rising-sun-animals": dict(year=1964, rows=[
         ("Released", "June 19, 1964"),
         ("Label", "Columbia"),

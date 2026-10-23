@@ -85,7 +85,7 @@ Live rows (1-70) are in [`docs/content-build-archive.md`](content-build-archive.
 | 71 | A World Without Love | /blog/songs/a-world-without-love-peter-and-gordon/ | song-story | british-invasion | live | A World Without Love | ke4hgo43JGc | swapped from Tdx6lLvvRyg (non-official) |
 | 72 | The Jimi Hendrix Experience bio | /blog/artists/the-jimi-hendrix-experience/ | artist-bio | psychedelic-rock | live | The Jimi Hendrix Experience | WGoDaYjdfSg |  |
 | 73 | Purple Haze | /blog/songs/purple-haze-jimi-hendrix-experience/ | song-story | psychedelic-rock | live | Purple Haze by The Jimi Hendrix Experience | WGoDaYjdfSg |  |
-| 74 | Hey Joe | /blog/songs/hey-joe-jimi-hendrix-experience/ | song-story | psychedelic-rock | not started | Hey Joe by The Jimi Hendrix Experience | rXwMrBb2x1Q |  |
+| 74 | Hey Joe | /blog/songs/hey-joe-jimi-hendrix-experience/ | song-story | psychedelic-rock | drafted | Hey Joe by The Jimi Hendrix Experience | rXwMrBb2x1Q |  |
 | 75 | The Sonics bio | /blog/artists/the-sonics/ | artist-bio | garage-surf-rock | not started | The Sonics | HGBsxpnRhMk |  |
 | 76 | The Witch | /blog/songs/the-witch-sonics/ | song-story | garage-surf-rock | not started | The Witch by The Sonics | HGBsxpnRhMk |  |
 | 77 | Have Love, Will Travel | /blog/songs/have-love-will-travel-sonics/ | song-story | garage-surf-rock | not started | Have Love, Will Travel | SV9N7TbIzcE |  |

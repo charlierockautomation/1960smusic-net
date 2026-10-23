@@ -1481,6 +1481,15 @@
       "description": "Purple Haze by The Jimi Hendrix Experience was written in December 1966 and recorded in January 1967. Here is how the riff, the fuzz and the legend came together.",
       "date": "2026-10-21",
       "genre": "psychedelic-rock"
+    },
+    {
+      "id": "hey-joe-jimi-hendrix-experience",
+      "title": "Hey Joe by The Jimi Hendrix Experience: 1966 Story",
+      "slug": "/blog/songs/hey-joe-jimi-hendrix-experience/",
+      "type": "song-story",
+      "description": "Hey Joe by The Jimi Hendrix Experience was recorded in two hours on October 23, 1966. Here is who wrote it, who cut it first and how Hendrix made it his.",
+      "date": "2026-10-23",
+      "genre": "psychedelic-rock"
     }
   ]
 }

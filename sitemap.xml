@@ -734,7 +734,7 @@
   </url>
   <url>
     <loc>https://1960smusic.net/blog/songs/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -831,6 +831,12 @@
   <url>
     <loc>https://1960smusic.net/blog/songs/heart-full-of-soul-yardbirds/</loc>
     <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://1960smusic.net/blog/songs/hey-joe-jimi-hendrix-experience/</loc>
+    <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
