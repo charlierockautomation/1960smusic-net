@@ -1508,6 +1508,15 @@
       "description": "The Witch by The Sonics was cut in July 1964 in Seattle. Here is who wrote it, how a radio ban shaped its run and why it still sounds so wild.",
       "date": "2026-10-23",
       "genre": "garage-surf-rock"
+    },
+    {
+      "id": "have-love-will-travel-sonics",
+      "title": "Have Love, Will Travel by The Sonics: 1965 Garage Cover",
+      "slug": "/blog/songs/have-love-will-travel-sonics/",
+      "type": "song-story",
+      "description": "Have Love, Will Travel by The Sonics took Richard Berry's 1959 R&B song and made it a garage-rock classic. Here is how the cover came together.",
+      "date": "2026-10-23",
+      "genre": "garage-surf-rock"
     }
   ]
 }

@@ -118,6 +118,13 @@ SONGS = {
         ("US peak", "Did not chart nationally; about No. 2 on regional Seattle-area charts"),
         ("UK peak", "Did not chart"),
     ]),
+    "have-love-will-travel-sonics": dict(year=1965, rows=[
+        ("Released", "March 1965, on the album Here Are the Sonics; Richard Berry's original dates to 1959-1960"),
+        ("Label", "Etiquette"),
+        ("Written by", "Richard Berry"),
+        ("Produced by", "Buck Ormsby and Kent Morrill (album)"),
+        ("US peak", "Album track, did not chart as a single"),
+    ]),
     "house-of-the-rising-sun-animals": dict(year=1964, rows=[
         ("Released", "June 19, 1964"),
         ("Label", "Columbia"),
