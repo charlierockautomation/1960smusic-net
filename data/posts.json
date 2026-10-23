@@ -1517,6 +1517,15 @@
       "description": "Have Love, Will Travel by The Sonics took Richard Berry's 1959 R&B song and made it a garage-rock classic. Here is how the cover came together.",
       "date": "2026-10-23",
       "genre": "garage-surf-rock"
+    },
+    {
+      "id": "simon-and-garfunkel",
+      "title": "Simon & Garfunkel: Folk-Rock Duo From Queens, New York",
+      "slug": "/blog/artists/simon-and-garfunkel/",
+      "type": "artist-bio",
+      "description": "Simon & Garfunkel went from a flopped 1964 debut to three US No. 1s. Meet the Queens duo, the Sound of Silence overdub, The Graduate and the 1970 split.",
+      "date": "2026-10-23",
+      "genre": "folk-rock"
     }
   ]
 }

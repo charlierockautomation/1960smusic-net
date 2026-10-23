@@ -529,6 +529,14 @@ ARTISTS = {
         ("Producer", "Andrew Loog Oldham (1965-1966 singles)"),
         ("Peak chart hits", "\"(I Can't Get No) Satisfaction\" (US No. 1, UK No. 1, 1965); \"Paint It Black\" (US No. 1, UK No. 1, 1966)"),
     ]),
+    "simon-and-garfunkel": dict(years=[1965, 1966, 1968, 1969], rows=[
+        ("Origin", "Queens, New York"),
+        ("Active", "1957-1970 (later reunions)"),
+        ("Genre", "Folk Rock"),
+        ("Label", "Columbia"),
+        ("Classic lineup", "Paul Simon, Art Garfunkel"),
+        ("Peak chart hits", "\"The Sound of Silence\" (US No. 1, 1966); \"Mrs. Robinson\" (US No. 1, 1968); \"Bridge over Troubled Water\" (US No. 1, 1970); \"The Boxer\" (US No. 7, 1969)"),
+    ]),
     "the-searchers": dict(years=[1963, 1964], rows=[
         ("Origin", "Liverpool, England"),
         ("Active", "1959-1985"),
