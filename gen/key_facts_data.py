@@ -522,6 +522,14 @@ ARTISTS = {
         ("Classic lineup", "John McNally, Mike Pender, Tony Jackson, Chris Curtis"),
         ("Peak chart hits", "Three UK No. 1s: \"Sweets for My Sweet\" (1963), \"Needles and Pins\" and \"Don't Throw Your Love Away\" (1964); \"Needles and Pins\" reached US No. 13"),
     ]),
+    "the-sonics": dict(years=[1964, 1965, 1966], rows=[
+        ("Origin", "Tacoma, Washington"),
+        ("Active", "1960-1968 (reunions from 1972)"),
+        ("Genre", "Garage & Surf Rock"),
+        ("Label", "Etiquette, then Jerden"),
+        ("Classic lineup", "Gerry Roslie, Larry Parypa, Andy Parypa, Rob Lind, Bob Bennett"),
+        ("Peak chart hits", "No national chart hits; \"The Witch\" (1964) sold about 29,000 copies in the Seattle-Tacoma market; \"Shot Down\" (1966) reached No. 15 on area charts"),
+    ]),
     "the-supremes": dict(years=[1964, 1965, 1966], rows=[
         ("Origin", "Detroit, Michigan"),
         ("Active", "1959-1977"),
