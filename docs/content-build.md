@@ -87,7 +87,7 @@ Live rows (1-70) are in [`docs/content-build-archive.md`](content-build-archive.
 | 73 | Purple Haze | /blog/songs/purple-haze-jimi-hendrix-experience/ | song-story | psychedelic-rock | live | Purple Haze by The Jimi Hendrix Experience | WGoDaYjdfSg |  |
 | 74 | Hey Joe | /blog/songs/hey-joe-jimi-hendrix-experience/ | song-story | psychedelic-rock | live | Hey Joe by The Jimi Hendrix Experience | rXwMrBb2x1Q |  |
 | 75 | The Sonics bio | /blog/artists/the-sonics/ | artist-bio | garage-surf-rock | live | The Sonics | HGBsxpnRhMk |  |
-| 76 | The Witch | /blog/songs/the-witch-sonics/ | song-story | garage-surf-rock | not started | The Witch by The Sonics | HGBsxpnRhMk |  |
+| 76 | The Witch | /blog/songs/the-witch-sonics/ | song-story | garage-surf-rock | live | The Witch by The Sonics | HGBsxpnRhMk |  |
 | 77 | Have Love, Will Travel | /blog/songs/have-love-will-travel-sonics/ | song-story | garage-surf-rock | not started | Have Love, Will Travel | SV9N7TbIzcE |  |
 | 78 | Simon & Garfunkel bio | /blog/artists/simon-and-garfunkel/ | artist-bio | folk-rock | not started | Simon & Garfunkel | 4fWyzwo1xg0 |  |
 | 79 | The Sound of Silence | /blog/songs/the-sound-of-silence-simon-and-garfunkel/ | song-story | folk-rock | not started | The Sound of Silence | 4fWyzwo1xg0 |  |
