@@ -1535,6 +1535,15 @@
       "description": "The Sound of Silence flopped as an acoustic track, then hit No. 1 after a secret electric overdub. Read how Simon & Garfunkel's folk rock classic was made.",
       "date": "2026-10-24",
       "genre": "folk-rock"
+    },
+    {
+      "id": "the-boxer-simon-and-garfunkel",
+      "title": "The Boxer by Simon & Garfunkel: Story of the 1969 Hit",
+      "slug": "/blog/songs/the-boxer-simon-and-garfunkel/",
+      "type": "song-story",
+      "description": "The Boxer by Simon & Garfunkel grew from a placeholder chorus and a hotel Bible. Read how the 1969 hit was made, with a cannon-shot drum and 100 hours of work.",
+      "date": "2026-10-24",
+      "genre": "folk-rock"
     }
   ]
 }

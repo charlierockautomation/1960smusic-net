@@ -171,6 +171,14 @@ SONGS = {
         ("Produced by", "Tom Wilson"),
         ("US peak", "No. 1, Billboard Hot 100 (weeks of January 1 and January 22, 1966)"),
     ]),
+    "the-boxer-simon-and-garfunkel": dict(year=1969, rows=[
+        ("Released", "March 21, 1969 (single); recorded November 1968"),
+        ("Label", "Columbia"),
+        ("Written by", "Paul Simon"),
+        ("Produced by", "Paul Simon, Art Garfunkel and Roy Halee"),
+        ("US peak", "No. 7, Billboard Hot 100"),
+        ("UK peak", "No. 6"),
+    ]),
     "the-times-they-are-a-changin-bob-dylan": dict(year=1964, rows=[
         ("Released", "February 10, 1964 (album); March 8, 1965 (UK single)"),
         ("Label", "Columbia"),
