@@ -179,6 +179,14 @@ SONGS = {
         ("US peak", "No. 7, Billboard Hot 100"),
         ("UK peak", "No. 6"),
     ]),
+    "scarborough-fair-canticle-simon-and-garfunkel": dict(year=1966, rows=[
+        ("Released", "October 1966 (album track); February 1968 (single); recorded July 26, 1966"),
+        ("Label", "Columbia"),
+        ("Written by", "Traditional ballad, arranged by Paul Simon and Art Garfunkel; \"Canticle\" adapted from Simon's \"The Side of a Hill\""),
+        ("Produced by", "Bob Johnston"),
+        ("US peak", "No. 11, Billboard Hot 100 (1968)"),
+        ("Canada peak", "No. 5, RPM"),
+    ]),
     "the-times-they-are-a-changin-bob-dylan": dict(year=1964, rows=[
         ("Released", "February 10, 1964 (album); March 8, 1965 (UK single)"),
         ("Label", "Columbia"),
