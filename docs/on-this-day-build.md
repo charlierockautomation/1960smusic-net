@@ -91,17 +91,6 @@ past that, move the oldest `live` rows out to
 
 | # | Date | Page | Data file | Status |
 |---|------|------|-----------|--------|
-| 14 | September 14 | /blog/on-this-day/september-14/ | data/on-this-day/09-14.json | live |
-| 15 | September 15 | /blog/on-this-day/september-15/ | data/on-this-day/09-15.json | live |
-| 16 | September 16 | /blog/on-this-day/september-16/ | data/on-this-day/09-16.json | live |
-| 17 | September 17 | /blog/on-this-day/september-17/ | data/on-this-day/09-17.json | live |
-| 18 | September 18 | /blog/on-this-day/september-18/ | data/on-this-day/09-18.json | live |
-| 19 | September 19 | /blog/on-this-day/september-19/ | data/on-this-day/09-19.json | live |
-| 20 | September 20 | /blog/on-this-day/september-20/ | data/on-this-day/09-20.json | live |
-| 21 | September 21 | /blog/on-this-day/september-21/ | data/on-this-day/09-21.json | live |
-| 22 | September 22 | /blog/on-this-day/september-22/ | data/on-this-day/09-22.json | live |
-| 23 | September 23 | /blog/on-this-day/september-23/ | data/on-this-day/09-23.json | live |
-| 24 | September 24 | /blog/on-this-day/september-24/ | data/on-this-day/09-24.json | live |
 | 25 | September 25 | /blog/on-this-day/september-25/ | data/on-this-day/09-25.json | live |
 | 26 | September 26 | /blog/on-this-day/september-26/ | data/on-this-day/09-26.json | live |
 | 27 | September 27 | /blog/on-this-day/september-27/ | data/on-this-day/09-27.json | live |
@@ -193,3 +182,10 @@ before building each page, then include as normal cards.
   at High Park Farm, Campbeltown. Source: Beatles Bible (1969/10/24).
 - Oct 24, 1962: James Brown records Live at the Apollo (Apollo, Harlem); live
   album released May 1963. Source: Library of Congress / King Records.
+- Nov 20, 1965: Supremes "I Hear a Symphony" No. 1 on Hot 100 dated Nov 20
+  (and Nov 27), per Wikipedia 1965 #1s. Charlie's Nov 17 list wrongly had it
+  on the 17th. Re-verify at Billboard before building Nov 20.
+- HELD from Nov 17 (no dated source): Cavern double show 1961, Jagger/Richards
+  give Pitney the song 1963 (Pitney recorded it Nov 20-21), Surrey moptop ban
+  1963, Davy Jones Zilch boutique 1967, Laura Nyro Massey Hall 1969. Dropped:
+  Star-Club Nov 17 1962 (residency ended Nov 14).

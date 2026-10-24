@@ -19,3 +19,14 @@ This is a record only — for the active queue (what to build next), see
 | 11 | September 11 | /blog/on-this-day/september-11/ | data/on-this-day/09-11.json | live |
 | 12 | September 12 | /blog/on-this-day/september-12/ | data/on-this-day/09-12.json | live |
 | 13 | September 13 | /blog/on-this-day/september-13/ | data/on-this-day/09-13.json | live |
+| 14 | September 14 | /blog/on-this-day/september-14/ | data/on-this-day/09-14.json | live |
+| 15 | September 15 | /blog/on-this-day/september-15/ | data/on-this-day/09-15.json | live |
+| 16 | September 16 | /blog/on-this-day/september-16/ | data/on-this-day/09-16.json | live |
+| 17 | September 17 | /blog/on-this-day/september-17/ | data/on-this-day/09-17.json | live |
+| 18 | September 18 | /blog/on-this-day/september-18/ | data/on-this-day/09-18.json | live |
+| 19 | September 19 | /blog/on-this-day/september-19/ | data/on-this-day/09-19.json | live |
+| 20 | September 20 | /blog/on-this-day/september-20/ | data/on-this-day/09-20.json | live |
+| 21 | September 21 | /blog/on-this-day/september-21/ | data/on-this-day/09-21.json | live |
+| 22 | September 22 | /blog/on-this-day/september-22/ | data/on-this-day/09-22.json | live |
+| 23 | September 23 | /blog/on-this-day/september-23/ | data/on-this-day/09-23.json | live |
+| 24 | September 24 | /blog/on-this-day/september-24/ | data/on-this-day/09-24.json | live |

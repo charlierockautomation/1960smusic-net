@@ -1544,6 +1544,16 @@
       "description": "The Boxer by Simon & Garfunkel grew from a placeholder chorus and a hotel Bible. Read how the 1969 hit was made, with a cannon-shot drum and 100 hours of work.",
       "date": "2026-10-24",
       "genre": "folk-rock"
+    },
+    {
+      "id": "on-this-day-november-17",
+      "title": "On This Day: November 17 in 1960s Music",
+      "slug": "/blog/on-this-day/november-17/",
+      "type": "on-this-day",
+      "description": "10 verified 1960s music events from November 17: The Four Seasons hit No. 1, the Beatles at Matrix Hall, and Good Vibrations tops the UK chart.",
+      "date": "2026-10-24",
+      "genre": null,
+      "seq": 78
     }
   ]
 }
