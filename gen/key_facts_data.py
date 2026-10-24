@@ -164,6 +164,13 @@ SONGS = {
         ("Produced by", "John H. Hammond"),
         ("US peak", "Did not chart (Peter, Paul and Mary version: No. 2, Billboard Hot 100)"),
     ]),
+    "the-sound-of-silence-simon-and-garfunkel": dict(year=1965, rows=[
+        ("Released", "September 1965 (single); original recorded March 10, 1964"),
+        ("Label", "Columbia"),
+        ("Written by", "Paul Simon"),
+        ("Produced by", "Tom Wilson"),
+        ("US peak", "No. 1, Billboard Hot 100 (weeks of January 1 and January 22, 1966)"),
+    ]),
     "the-times-they-are-a-changin-bob-dylan": dict(year=1964, rows=[
         ("Released", "February 10, 1964 (album); March 8, 1965 (UK single)"),
         ("Label", "Columbia"),
