@@ -91,7 +91,7 @@ Live rows (1-70) are in [`docs/content-build-archive.md`](content-build-archive.
 | 77 | Have Love, Will Travel | /blog/songs/have-love-will-travel-sonics/ | song-story | garage-surf-rock | live | Have Love, Will Travel | SV9N7TbIzcE |  |
 | 78 | Simon & Garfunkel bio | /blog/artists/simon-and-garfunkel/ | artist-bio | folk-rock | live | Simon & Garfunkel | l0q7MLPo-u8 |  |
 | 79 | The Sound of Silence | /blog/songs/the-sound-of-silence-simon-and-garfunkel/ | song-story | folk-rock | live | The Sound of Silence | l0q7MLPo-u8 |  |
-| 80 | The Boxer | /blog/songs/the-boxer-simon-and-garfunkel/ | song-story | folk-rock | not started | The Boxer by Simon & Garfunkel | l3LFML_pxlY |  |
+| 80 | The Boxer | /blog/songs/the-boxer-simon-and-garfunkel/ | song-story | folk-rock | live | The Boxer by Simon & Garfunkel | l3LFML_pxlY |  |
 | 81 | Scarborough Fair/Canticle | /blog/songs/scarborough-fair-canticle-simon-and-garfunkel/ | song-story | folk-rock | not started | Scarborough Fair/Canticle by Simon & Garfunkel | -Jj4s9I-53g |  |
 | 82 | The Temptations bio | /blog/artists/the-temptations/ | artist-bio | motown-soul | not started | The Temptations | y3KJ7d2qBoA |  |
 | 83 | My Girl | /blog/songs/my-girl-temptations/ | song-story | motown-soul | not started | My Girl by The Temptations | y3KJ7d2qBoA |  |
