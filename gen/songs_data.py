@@ -339,7 +339,7 @@ SONGS += [
    "Its cue-card promo clip is considered an early music video."], []),
  ("The Boxer", "Simon & Garfunkel", "simon-and-garfunkel", 1969, "folk-rock", "easy", 30,
   ["poignant", "narrative", "reflective"],
-  ["Its explosive 'lie-la-lie' chorus was recorded partly in an echoing elevator shaft.",
+  ["Hal Blaine's single drum hit in the refrain was recorded beside an elevator for a huge echo.",
    "The recording took over 100 hours across several studios."], []),
  ("Scarborough Fair/Canticle", "Simon & Garfunkel", "simon-and-garfunkel", 1966, "folk-rock", "medium", 0,
   ["haunting", "delicate", "medieval"],

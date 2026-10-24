@@ -106,7 +106,7 @@ PICKS = [
  ("my-way-frank-sinatra", "Paul Anka wrote the English lyric to a French melody."),
  ("okie-from-muskogee-merle-haggard", "It became an anthem amid the cultural divisions of the late 1960s."),
  ("sugar-sugar-archies", "Studio musicians performed it for the cartoon band, and it was Billboard's No. 1 single of 1969."),
- ("the-boxer-simon-and-garfunkel", "Its lie-la-lie chorus was recorded partly in an echoing elevator shaft."),
+ ("the-boxer-simon-and-garfunkel", "Hal Blaine's lone drum hit was recorded beside an elevator for a cannon-shot echo."),
  ("the-twist-chubby-checker", "It topped the US chart in 1960 and again in 1962, and launched a national dance craze."),
  ("only-the-lonely-roy-orbison", "Roy Orbison co-wrote this operatic ballad with Joe Melson, and it reached No. 1 in the UK."),
  ("runaway-del-shannon", "Max Crook's Musitron keyboard solo helped it top the US chart in 1961."),
@@ -254,7 +254,7 @@ page = f'''<!DOCTYPE html>
     "logo": {{"@type": "ImageObject", "url": "https://1960smusic.net/android-chrome-512x512.png"}}
   }},
   "datePublished": "2026-10-08",
-  "dateModified": "2026-10-08",
+  "dateModified": "2026-10-24",
   "mainEntityOfPage": {{"@type": "WebPage", "@id": "https://1960smusic.net/best-60s-songs/"}},
   "about": {{"@type": "Thing", "@id": "https://1960smusic.net/best-60s-songs/#subject", "name": "Best 60s songs"}},
   "keywords": "best 60s songs, 60s songs, 60s music hits, 1960s songs"
@@ -314,7 +314,7 @@ page = f'''<!DOCTYPE html>
 
     <header class="article-header">
       <h1>{E(TITLE)}</h1>
-      <p class="byline">By <a href="/about/charlie/">Charlie Gillingham</a> <span aria-hidden="true">&middot;</span> Published <time datetime="2026-10-08">October 8, 2026</time> <span aria-hidden="true">&middot;</span> Updated <time datetime="2026-10-08">October 8, 2026</time></p>
+      <p class="byline">By <a href="/about/charlie/">Charlie Gillingham</a> <span aria-hidden="true">&middot;</span> Published <time datetime="2026-10-08">October 8, 2026</time> <span aria-hidden="true">&middot;</span> Updated <time datetime="2026-10-24">October 24, 2026</time></p>
     </header>
 
     <div class="article-body">
