@@ -124,5 +124,5 @@ changed), and `rd:track-started` (a track began playing).
   Blog, About, Contact, on every page site-wide.
 - Root-relative links (`/about/`, not `about/`).
 - `_headers` sets baseline security headers (X-Frame-Options,
-  X-Content-Type-Options, Referrer-Policy) applied to `/*`; `_redirects` is
-  intentionally empty in this phase.
+  X-Content-Type-Options, Referrer-Policy) applied to `/*`; `_redirects`
+  holds explicit 301s for legacy `.html`/slashless URLs (see CLAUDE.md).

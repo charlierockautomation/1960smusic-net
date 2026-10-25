@@ -417,6 +417,25 @@ def check_site():
     for loc in sorted(set(want) & set(have)):
         if want[loc][0] != have[loc]:
             errors.append(f"sitemap.xml lastmod for {loc} is {have[loc]}, page says {want[loc][0]}")
+    with open(os.path.join(SITE_ROOT, "sitemap.xml"), encoding="utf-8") as f:
+        raw_locs = re.findall(r"<loc>([^<]*)</loc>", f.read())
+    for loc in raw_locs:
+        path = loc[len("https://1960smusic.net"):] if loc.startswith("https://1960smusic.net") else None
+        if path is None or "www." in loc:
+            errors.append(f"sitemap <loc> not https apex: {loc}")
+            continue
+        if path.endswith(".html") or not path.endswith("/"):
+            errors.append(f"sitemap <loc> not trailing-slash canonical form: {loc}")
+            continue
+        page = os.path.join(SITE_ROOT, path.lstrip("/"), "index.html")
+        try:
+            with open(page, encoding="utf-8") as pf:
+                m = re.search(r'<link rel="canonical" href="([^"]+)"', pf.read())
+        except OSError:
+            errors.append(f"sitemap <loc> has no page on disk: {loc}")
+            continue
+        if not m or m.group(1) != loc:
+            errors.append(f"sitemap <loc> {loc} != page canonical {m.group(1) if m else None}")
     try:
         with open(os.path.join(SITE_ROOT, "data", "posts.json"), encoding="utf-8") as f:
             posted = {p["slug"] for p in json.load(f)["posts"]}
