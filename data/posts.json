@@ -1582,6 +1582,15 @@
       "description": "The Temptations rose from Detroit to Motown stardom. Meet the five voices behind My Girl, the David Ruffin years, Norman Whitfield's psychedelic soul and Cloud Nine.",
       "date": "2026-10-24",
       "genre": "motown-soul"
+    },
+    {
+      "id": "my-girl-temptations",
+      "title": "My Girl by The Temptations: The 1965 No. 1 Story",
+      "slug": "/blog/songs/my-girl-temptations/",
+      "type": "song-story",
+      "description": "My Girl by The Temptations was the 1965 Smokey Robinson song that gave David Ruffin his big lead. Here is how it was made, charted and remembered.",
+      "date": "2026-10-25",
+      "genre": "motown-soul"
     }
   ]
 }
