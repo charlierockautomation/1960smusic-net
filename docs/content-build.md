@@ -93,7 +93,7 @@ Live rows (1-70) are in [`docs/content-build-archive.md`](content-build-archive.
 | 79 | The Sound of Silence | /blog/songs/the-sound-of-silence-simon-and-garfunkel/ | song-story | folk-rock | live | The Sound of Silence | l0q7MLPo-u8 |  |
 | 80 | The Boxer | /blog/songs/the-boxer-simon-and-garfunkel/ | song-story | folk-rock | live | The Boxer by Simon & Garfunkel | l3LFML_pxlY |  |
 | 81 | Scarborough Fair/Canticle | /blog/songs/scarborough-fair-canticle-simon-and-garfunkel/ | song-story | folk-rock | live | Scarborough Fair/Canticle by Simon & Garfunkel | -Jj4s9I-53g |  |
-| 82 | The Temptations bio | /blog/artists/the-temptations/ | artist-bio | motown-soul | not started | The Temptations | y3KJ7d2qBoA |  |
+| 82 | The Temptations bio | /blog/artists/the-temptations/ | artist-bio | motown-soul | live | The Temptations | y3KJ7d2qBoA |  |
 | 83 | My Girl | /blog/songs/my-girl-temptations/ | song-story | motown-soul | not started | My Girl by The Temptations | y3KJ7d2qBoA |  |
 | 84 | Get Ready | /blog/songs/get-ready-temptations/ | song-story | motown-soul | not started | Get Ready by The Temptations | mhsYOzdJjI0 |  |
 | 85 | Patsy Cline bio | /blog/artists/patsy-cline/ | artist-bio | country-60s | not started | Patsy Cline | YWKeuYcDAoo |  |
