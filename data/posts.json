@@ -1591,6 +1591,15 @@
       "description": "My Girl by The Temptations was the 1965 Smokey Robinson song that gave David Ruffin his big lead. Here is how it was made, charted and remembered.",
       "date": "2026-10-25",
       "genre": "motown-soul"
+    },
+    {
+      "id": "get-ready-temptations",
+      "title": "Get Ready by The Temptations: The 1966 Kendricks Showcase",
+      "slug": "/blog/songs/get-ready-temptations/",
+      "type": "song-story",
+      "description": "Get Ready by The Temptations was Smokey Robinson's last song for the group. See how it topped the R&B chart, then became a pop hit for Rare Earth.",
+      "date": "2026-10-25",
+      "genre": "motown-soul"
     }
   ]
 }

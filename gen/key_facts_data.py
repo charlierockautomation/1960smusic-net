@@ -298,6 +298,14 @@ SONGS = {
         ("US peak", "No. 1, Billboard Hot 100 (March 6, 1965)"),
         ("UK peak", "No. 43 (1964-65); No. 2 on 1992 re-release"),
     ]),
+    "get-ready-temptations": dict(year=1966, rows=[
+        ("Released", "February 7, 1966"),
+        ("Label", "Gordy (Motown)"),
+        ("Written by", "Smokey Robinson"),
+        ("Produced by", "Smokey Robinson"),
+        ("US peak", "No. 29, Billboard Hot 100; No. 1, Hot R&B Singles"),
+        ("UK peak", "No. 10"),
+    ]),
     "stop-in-the-name-of-love-supremes": dict(year=1965, rows=[
         ("Released", "February 8, 1965"),
         ("Label", "Motown"),
