@@ -1573,6 +1573,15 @@
       "date": "2026-10-24",
       "genre": null,
       "seq": 79
+    },
+    {
+      "id": "the-temptations",
+      "title": "The Temptations: Motown's Five-Man Detroit Soul Group",
+      "slug": "/blog/artists/the-temptations/",
+      "type": "artist-bio",
+      "description": "The Temptations rose from Detroit to Motown stardom. Meet the five voices behind My Girl, the David Ruffin years, Norman Whitfield's psychedelic soul and Cloud Nine.",
+      "date": "2026-10-24",
+      "genre": "motown-soul"
     }
   ]
 }

@@ -584,6 +584,14 @@ ARTISTS = {
         ("Classic lineup", "Diana Ross, Mary Wilson, Florence Ballard"),
         ("Peak chart hits", "\"Where Did Our Love Go\" (US No. 1, 1964); five straight US No. 1s from 1964 to 1965; 12 Hot 100 No. 1s in all"),
     ]),
+    "the-temptations": dict(years=[1964, 1965, 1966, 1968, 1969], rows=[
+        ("Origin", "Detroit, Michigan"),
+        ("Active", "1961-present"),
+        ("Genre", "Motown, Soul & R&B"),
+        ("Label", "Miracle, then Gordy (Motown)"),
+        ("Classic lineup", "Otis Williams, Melvin Franklin, Paul Williams, Eddie Kendricks, David Ruffin"),
+        ("Peak chart hits", "\"My Girl\" (US No. 1, 1965); \"I Can't Get Next to You\" (US No. 1, 1969); \"Beauty Is Only Skin Deep\" (US No. 3, 1966)"),
+    ]),
     "the-who": dict(years=[1965], rows=[
         ("Origin", "London, England"),
         ("Active", "1964-1983, 1989, 1996-present"),
