@@ -22,5 +22,12 @@ as every other type above, plus:
   none exists, fall back to editorial-context single/album cover art,
   then non-person period-appropriate stock imagery, in that order.
   Note which tier was used when reporting the page as done.
-- No rotation queue yet, unlike `docs/content-build.md`. Charlie
-  requests each Trending post individually until one exists.
+- Weekly cadence (set 2026-10-22, supersedes "Charlie requests each
+  post individually"): cloud routine `trig_01GCntYZh1oWceGXGBxqYKHA`
+  ("1960smusic.net weekly Trending draft") runs Mondays 14:00 UTC. It
+  researches a resurging 1960s peg, builds the page, passes
+  `check_article.py` + `publish_prep.py`, and pushes only a
+  `trending/YYYY-MM-DD` branch. Charlie's approval is still required
+  before anything merges to `main`; post-push steps (verify_live,
+  IndexNow, link-map) follow the normal pipeline. Manage at
+  https://claude.ai/code/routines. Still no rotation queue file.
