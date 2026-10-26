@@ -1,6 +1,6 @@
-# Daily Guessing Game -- Pool Report -- 2026-09-20
+# Daily Guessing Game -- Pool Report -- 2026-10-26
 
-434 pool entries checked, 352 kept, 82 excluded.
+557 pool entries checked, 450 kept, 107 excluded.
 
 ## 1. Dual-year songs
 
@@ -11,7 +11,7 @@
 ## 2. Excluded songs
 
 
-### title_exposes_year (82)
+### title_exposes_year (107)
 
 | Title | Artist | YouTube ID | Detail |
 |---|---|---|---|
@@ -24,13 +24,13 @@
 | Love Child | The Supremes | JdmGO-GvHyo | title_exposes_year: "The Supremes , Love Child 1968" contains 1968 |
 | Papa's Got a Brand New Bag | James Brown | QE5D2hJhacU | title_exposes_year: "James Brown ~ Papa's Got A Brand New Bag (1965)" contains 1965 |
 | Shotgun | Jr. Walker & the All Stars | 6FgO2Hs4t_4 | title_exposes_year: "NEW 📀 Shotgun - Jr. Walker and The All Stars {Stereo} 1965" contains 1965 |
-| If I Had a Hammer | Peter, Paul and Mary | XxWTDcP9Y5E | title_exposes_year: "Peter, Paul and Mary - If I Had A Hammer (1963 performance)" contains 1963 |
-| Puff, the Magic Dragon | Peter, Paul and Mary | z15pxWUXvLY | title_exposes_year: "Puff The Magic Dragon -- Peter, Paul & Mary ~ Live 1965" contains 1965 |
-| For Emily, Whenever I May Find Her | Simon & Garfunkel | kOgmYFTZ2iU | title_exposes_year: "For Emily, Whenever I May Find Her (Live in St. Louis, MO - November 1969)" contains 1969 |
-| Farewell, Angelina | Joan Baez | qcwP2ulxDdY | title_exposes_year: "Joan Baez ~ Farewell  Angelina  (1965)" contains 1965 |
-| Chelsea Morning | Judy Collins | NFlv_CKIE9w | title_exposes_year: "JUDY COLLINS - "Chelsea Morning"  1969" contains 1969 |
-| Georgy Girl | The Seekers | wsIbfYEizLk | title_exposes_year: "The Seekers - Georgy Girl (1967 - Stereo)" contains 1967 |
-| It Ain't Me Babe | The Turtles | SRBkFnPgcik | title_exposes_year: "It Ain't Me Babe The Turtles RESTORED VIDEO TRUE 1965 STEREO HiQ Hybrid JARichardsFilm" contains 1965 |
+| Night | Jackie Wilson | h_ctJX8qmfM | title_exposes_year: "Jackie Wilson - Night (1960)" contains 1960 |
+| Stay | Maurice Williams and the Zodiacs | inZPaKNpcis | title_exposes_year: "The Zodiacs- "Stay" 1967 [Reelin' In The Years Archives]" contains 1967 |
+| Mother-in-Law | Ernie K-Doe | BEwl_sAiAtM | title_exposes_year: "1961 HITS ARCHIVE: Mother-In-Law - Ernie K-Doe (a #1 record)" contains 1961 |
+| Ya Ya | Lee Dorsey | OeF-xJ1mOmU | title_exposes_year: "Lee Dorsey - Ya Ya (1961)" contains 1961 |
+| Soul Twist | King Curtis | gMqKXGurWG8 | title_exposes_year: "Soul Twist - King Curtis & The Noble Nights (1962)  (HD Quality)" contains 1962 |
+| Rinky Dink | Dave "Baby" Cortez | fn3_ks5JFis | title_exposes_year: "1962 HITS ARCHIVE: Rinky Dink - Dave “Baby” Cortez" contains 1962 |
+| Oh, What a Night | The Dells | mvXDEs9Klio | title_exposes_year: "The  Dells-  The 1969 Soul Classic "Oh What a Night" performed live." contains 1969 |
 | Wipe Out | The Surfaris | m4IfxAQ4TqQ | title_exposes_year: "NEW 📀 Wipe Out - The Surfaris {DES Stereo} 1963" contains 1963 |
 | Pipeline | The Chantays | ZFucCXherLg | title_exposes_year: "THE CHANTAYS Pipeline Tv 1963" contains 1963 |
 | Surf City | Jan & Dean | nFeUEfpN_yc | title_exposes_year: "NEW * Surf City - Jan & Dean {Stereo} 1963" contains 1963 |
@@ -64,6 +64,8 @@
 | Password | Kitty Wells | KjliYHmc10w | title_exposes_year: "Kitty Wells - Password [1964]" contains 1964 |
 | Need You | Sonny James | re0yP-OAHoA | title_exposes_year: "Sonny James - Need You - 1967" contains 1967 |
 | Ode to Billie Joe | Bobbie Gentry | HaRacIzZSPo | title_exposes_year: "Ode to Billie Joe - Bobbie Gentry (BBC Live 1968)" contains 1968 |
+| Please Help Me, I'm Falling | Hank Locklin | C7IwO5C187A | title_exposes_year: "Hank Locklin - Please Help Me, I'm Falling [ORIGINAL] -  [1960]**   and  Answer Song." contains 1960 |
+| Big Bad John | Jimmy Dean | KnnHprUGKF0 | title_exposes_year: "BIG BAD JOHN ~ Jimmy Dean  (1961)" contains 1961 |
 | Will You Love Me Tomorrow | The Shirelles | Y2e8B2CmicQ | title_exposes_year: "The Shirelles  - Will You Love Me Tomorrow    (1960)" contains 1960 |
 | Last Train to Clarksville | The Monkees | zSzsyqzQNeQ | title_exposes_year: "The Monkees - Last Train To Clarksville (1966/HD)" contains 1966 |
 | Judy in Disguise (With Glasses) | John Fred & His Playboy Band | tWhnmF-Clu0 | title_exposes_year: "NEW * Judy In Disguise (With Glasses) - John Fred & His Playboy Band {Stereo} 1967" contains 1967 |
@@ -80,6 +82,16 @@
 | Yummy Yummy Yummy | Ohio Express | tUwLPuc1WSo | title_exposes_year: "Ohio Express  - Yummy Yummy Yummy (Buddah Records 1968 HD 1080p)" contains 1968 |
 | Let's Live for Today | The Grass Roots | HKvxZyM5QdA | title_exposes_year: "NEW 📀 Let's Live For Today - Grass Roots {Stereo} 1967" contains 1967 |
 | Red Rubber Ball | The Cyrkle | emx6dU7suvg | title_exposes_year: "The Cyrkle - Red Rubber Ball (1966)" contains 1966 |
+| My Heart Has a Mind of Its Own | Connie Francis | Gf7oOugV4EE | title_exposes_year: "CONNIE FRANCIS - My Heart Has A Mind Of It's Own (1960) with lyrics" contains 1960 |
+| Rubber Ball | Bobby Vee | z5jrqe8ryJ8 | title_exposes_year: "Bobby Vee ~ Rubber Ball  (1960)" contains 1960 |
+| Crying | Roy Orbison | qLC9o_unLq4 | title_exposes_year: "Roy Orbison - Crying (Monument Concert 1965)" contains 1965 |
+| Travelin' Man | Ricky Nelson | vGlOuYVTEX4 | title_exposes_year: "Ricky Nelson - Travelin' Man (1961)" contains 1961 |
+| Johnny Angel | Shelley Fabares | OnEmeOUmjVk | title_exposes_year: "Shelley Fabares - Johnny Angel, in color! (1961)" contains 1961 |
+| The Loco-Motion | Little Eva | eKpVQm41f8Y | title_exposes_year: "Little Eva - Loco-motion(1962)" contains 1962 |
+| Uptown | The Crystals | G0il2Qd3jcs | title_exposes_year: "Uptown - The Crystals (Original Quintet) 1962" contains 1962 |
+| In the Year 2525 | Zager & Evans | Gb7poHQuMWg | title_exposes_year: "NEW * In The Year 2525 - Zager & Evans {Stereo} 1969" contains 1969 |
+| Good Morning Starshine | Oliver | -I-NbgskFeY | title_exposes_year: "Oliver - Good Morning Starshine  (1969)" contains 1969 |
+| Put a Little Love in Your Heart | Jackie DeShannon | NTxxEdBIL6Y | title_exposes_year: "Jackie DeShannon  - Put A Little Love In Your Heart (1969)" contains 1969 |
 | The Girl from Ipanema | Stan Getz & Astrud Gilberto | sVdaFQhS86E | title_exposes_year: "Astrud Gilberto and Stan Getz - The Girl From Ipanema (1964) LIVE" contains 1964 |
 | Days of Wine and Roses | Henry Mancini | bY55VayUW9I | title_exposes_year: "Henry Mancini - The Days Of Wine And Roses (Best Of Both Worlds, November 29th 1964)" contains 1964 |
 | Mercy, Mercy, Mercy | Cannonball Adderley | s4rXEKtC8iY | title_exposes_year: "Cannonball Adderley Quintet - "Mercy, Mercy, Mercy" (1966)" contains 1966 |
@@ -89,6 +101,11 @@
 | It Must Be Him | Vikki Carr | J-qgHOQ1ofg | title_exposes_year: "Vikki Carr - It Must Be Him (1967)" contains 1967 |
 | Born Free | Matt Monro | VE-BYbkHWI8 | title_exposes_year: "Matt Monro - Born Free (The Big Ben Show, 31.12.1982)" contains 1982 |
 | Java | Al Hirt | _tbF9SJA9Nw | title_exposes_year: "NEW * Java - Al Hirt {Stereo} 1964" contains 1964 |
+| Apache | Jørgen Ingmann | TyXLJsO_ulw | title_exposes_year: "Apache - Jörgen Ingmann 1961" contains 1961 |
+| My Kind of Girl | Matt Monro | hWjksSClg9E | title_exposes_year: "Matt Monro - My Kind Of Girl (Miss England, March 21st 1975)" contains 1975 |
+| Mexico | Bob Moore | tg4cGgSEwqc | title_exposes_year: "Mexico (1961) - Bob Moore & His Orchestra" contains 1961 |
+| Asia Minor | Kokomo | DPiGG66WFdQ | title_exposes_year: "1961 HITS ARCHIVE: Asia Minor - Kokomo" contains 1961 |
+| The Stripper | David Rose | QYkdwTB4uIQ | title_exposes_year: "David Rose And His Orchestra — The Stripper / Ebb Tide | 1962 Instrumental 45" contains 1962 |
 | A World Without Love | Peter & Gordon | Tdx6lLvvRyg | title_exposes_year: "Peter and Gordon - A World Without Love (HD) 1964 Stereo" contains 1964 |
 | Sha La La La Lee | The Small Faces | JsuKmqQyYR4 | title_exposes_year: "The Small Faces - Sha La La La Lee (1966)" contains 1966 |
 | Shapes of Things | The Yardbirds | tOc-_GpfF1w | title_exposes_year: "The Yardbirds - Shapes of Things (1966)" contains 1966 |
@@ -97,6 +114,14 @@
 | Gimme Some Lovin' | Spencer Davis Group | RSIj_yhj7hg | title_exposes_year: "Gimme Some Lovin Spencer Davis Group FULL SONG ReEdit TRUE 1966 STEREO HiQ Hybrid JARichardsFilm" contains 1966 |
 | Have I the Right | The Honeycombs | 2ZUWHfI6EuE | title_exposes_year: "Have I The Right? - The Honeycombs (Promotional Video) UK# 1 - June 1964" contains 1964 |
 | Ferry Cross the Mersey | Gerry and the Pacemakers | 08083BNaYcA | title_exposes_year: "Gerry & The Pacemakers - Ferry Cross The Mersey (1965)" contains 1965 |
+| If I Had a Hammer | Peter, Paul and Mary | XxWTDcP9Y5E | title_exposes_year: "Peter, Paul and Mary - If I Had A Hammer (1963 performance)" contains 1963 |
+| Puff, the Magic Dragon | Peter, Paul and Mary | z15pxWUXvLY | title_exposes_year: "Puff The Magic Dragon -- Peter, Paul & Mary ~ Live 1965" contains 1965 |
+| For Emily, Whenever I May Find Her | Simon & Garfunkel | kOgmYFTZ2iU | title_exposes_year: "For Emily, Whenever I May Find Her (Live in St. Louis, MO - November 1969)" contains 1969 |
+| Farewell, Angelina | Joan Baez | qcwP2ulxDdY | title_exposes_year: "Joan Baez ~ Farewell  Angelina  (1965)" contains 1965 |
+| Chelsea Morning | Judy Collins | NFlv_CKIE9w | title_exposes_year: "JUDY COLLINS - "Chelsea Morning"  1969" contains 1969 |
+| Georgy Girl | The Seekers | wsIbfYEizLk | title_exposes_year: "The Seekers - Georgy Girl (1967 - Stereo)" contains 1967 |
+| It Ain't Me Babe | The Turtles | SRBkFnPgcik | title_exposes_year: "It Ain't Me Babe The Turtles RESTORED VIDEO TRUE 1965 STEREO HiQ Hybrid JARichardsFilm" contains 1965 |
+| Greenfields | The Brothers Four | 1ddhdo78z6o | title_exposes_year: "Brothers Four - Greenfields  (1960)" contains 1960 |
 
 ## 3. How `year` is sourced
 

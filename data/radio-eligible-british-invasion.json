@@ -58,5 +58,9 @@
   {"title": "Hippy Hippy Shake", "artist": "The Swinging Blue Jeans", "year": 1963, "youtube_id": "w-DMuIvyJss", "genre": "british-invasion", "verified_date": "2026-09-20"},
   {"title": "A Summer Song", "artist": "Chad & Jeremy", "year": 1964, "youtube_id": "vfvL2oLeBYs", "genre": "british-invasion", "verified_date": "2026-09-20"},
   {"title": "You've Got Your Troubles", "artist": "The Fortunes", "year": 1965, "youtube_id": "-VTz0H01ttQ", "genre": "british-invasion", "verified_date": "2026-09-20"},
-  {"title": "Little Children", "artist": "Billy J. Kramer and the Dakotas", "year": 1964, "youtube_id": "SJBq7HY46oI", "genre": "british-invasion", "verified_date": "2026-09-20"}
+  {"title": "Little Children", "artist": "Billy J. Kramer and the Dakotas", "year": 1964, "youtube_id": "SJBq7HY46oI", "genre": "british-invasion", "verified_date": "2026-09-20"},
+  {"title": "Hey Jude", "artist": "The Beatles", "year": 1968, "youtube_id": "A_MjCqQoLLA", "genre": "british-invasion", "verified_date": "2026-10-26"},
+  {"title": "Honky Tonk Women", "artist": "The Rolling Stones", "year": 1969, "youtube_id": "hqqkGxZ1_8I", "genre": "british-invasion", "verified_date": "2026-10-26"},
+  {"title": "Get Back", "artist": "The Beatles with Billy Preston", "year": 1969, "youtube_id": "YEESfv-11ng", "genre": "british-invasion", "verified_date": "2026-10-26"},
+  {"title": "Something", "artist": "The Beatles", "year": 1969, "youtube_id": "UelDrZ1aFeY", "genre": "british-invasion", "verified_date": "2026-10-26"}
 ]

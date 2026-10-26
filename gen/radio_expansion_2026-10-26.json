@@ -1,0 +1,990 @@
+{
+ "added": "2026-10-26",
+ "method": "Candidates from Wikipedia Billboard Year-End Hot 100 lists (1960, 1961, 1962, 1969) plus the 1960-1962/1968-1969 year-page playlists. Release year = single year in the song's Wikipedia infobox 'released' field and equal to the 'year' stored; multi-year, missing or wrong-version infoboxes were dropped. YouTube ids: 54 reused from year-page playlists, 69 via gen/generate.py resolve_youtube. All 123 ids checked in batched videos.list: public, embeddable, not made-for-kids, no duplicate of an existing radio id.",
+ "songs": [
+  {
+   "year": 1960,
+   "genre": "pop-brill-building",
+   "title": "Cathy's Clown",
+   "artist": "The Everly Brothers",
+   "youtube_id": "WvjuQaEBUoo",
+   "wiki": "Cathy's Clown"
+  },
+  {
+   "year": 1960,
+   "genre": "pop-brill-building",
+   "title": "I'm Sorry",
+   "artist": "Brenda Lee",
+   "youtube_id": "3Gfwde_rQ-M",
+   "wiki": "I'm Sorry (Brenda Lee song)"
+  },
+  {
+   "year": 1960,
+   "genre": "pop-brill-building",
+   "title": "It's Now or Never",
+   "artist": "Elvis Presley",
+   "youtube_id": "Uwelrtb8Oho",
+   "wiki": "It's Now or Never (song)"
+  },
+  {
+   "year": 1960,
+   "genre": "pop-brill-building",
+   "title": "Everybody's Somebody's Fool",
+   "artist": "Connie Francis",
+   "youtube_id": "ECOthzFvUXY",
+   "wiki": "Everybody's Somebody's Fool"
+  },
+  {
+   "year": 1960,
+   "genre": "pop-brill-building",
+   "title": "Only the Lonely",
+   "artist": "Roy Orbison",
+   "youtube_id": "6qZsjakky-k",
+   "wiki": "Only the Lonely"
+  },
+  {
+   "year": 1960,
+   "genre": "pop-brill-building",
+   "title": "Puppy Love",
+   "artist": "Paul Anka",
+   "youtube_id": "gyshr1hhv3E",
+   "wiki": "Puppy Love (Paul Anka song)"
+  },
+  {
+   "year": 1960,
+   "genre": "pop-brill-building",
+   "title": "Poetry in Motion",
+   "artist": "Johnny Tillotson",
+   "youtube_id": "Oy_ArpznZUs",
+   "wiki": "Poetry in Motion (song)"
+  },
+  {
+   "year": 1960,
+   "genre": "pop-brill-building",
+   "title": "Itsy Bitsy Teenie Weenie Yellow Polkadot Bikini",
+   "artist": "Brian Hyland",
+   "youtube_id": "ge9Ou3-YyqU",
+   "wiki": "Itsy Bitsy Teenie Weenie Yellow Polkadot Bikini"
+  },
+  {
+   "year": 1960,
+   "genre": "pop-brill-building",
+   "title": "Stuck on You",
+   "artist": "Elvis Presley",
+   "youtube_id": "jVqR2PwX428",
+   "wiki": "Stuck on You (Elvis Presley song)"
+  },
+  {
+   "year": 1960,
+   "genre": "pop-brill-building",
+   "title": "Wild One",
+   "artist": "Bobby Rydell",
+   "youtube_id": "ax-6U-KaBAY",
+   "wiki": "Wild One (Bobby Rydell song)"
+  },
+  {
+   "year": 1960,
+   "genre": "pop-brill-building",
+   "title": "My Heart Has a Mind of Its Own",
+   "artist": "Connie Francis",
+   "youtube_id": "Gf7oOugV4EE",
+   "wiki": "My Heart Has a Mind of Its Own"
+  },
+  {
+   "year": 1960,
+   "genre": "pop-brill-building",
+   "title": "Alley Oop",
+   "artist": "The Hollywood Argyles",
+   "youtube_id": "vcNSGFeUIV0",
+   "wiki": "Alley Oop (song)"
+  },
+  {
+   "year": 1960,
+   "genre": "pop-brill-building",
+   "title": "Angel Baby",
+   "artist": "Rosie and the Originals",
+   "youtube_id": "9xm3qnh1sck",
+   "wiki": "Angel Baby (Rosie and the Originals song)"
+  },
+  {
+   "year": 1960,
+   "genre": "pop-brill-building",
+   "title": "Rubber Ball",
+   "artist": "Bobby Vee",
+   "youtube_id": "z5jrqe8ryJ8",
+   "wiki": "Rubber Ball"
+  },
+  {
+   "year": 1960,
+   "genre": "motown-soul",
+   "title": "Save the Last Dance for Me",
+   "artist": "The Drifters",
+   "youtube_id": "n-XQ26KePUQ",
+   "wiki": "Save the Last Dance for Me"
+  },
+  {
+   "year": 1960,
+   "genre": "motown-soul",
+   "title": "Chain Gang",
+   "artist": "Sam Cooke",
+   "youtube_id": "zBn5aIfZElE",
+   "wiki": "Chain Gang (Sam Cooke song)"
+  },
+  {
+   "year": 1960,
+   "genre": "motown-soul",
+   "title": "Night",
+   "artist": "Jackie Wilson",
+   "youtube_id": "h_ctJX8qmfM",
+   "wiki": "Night (Jackie Wilson song)"
+  },
+  {
+   "year": 1960,
+   "genre": "motown-soul",
+   "title": "Finger Poppin' Time",
+   "artist": "Hank Ballard & The Midnighters",
+   "youtube_id": "uAeea4S43JY",
+   "wiki": "Finger Poppin' Time"
+  },
+  {
+   "year": 1960,
+   "genre": "motown-soul",
+   "title": "Wonderful World",
+   "artist": "Sam Cooke",
+   "youtube_id": "R4GLAKEjU4w",
+   "wiki": "Wonderful World (Sam Cooke song)"
+  },
+  {
+   "year": 1960,
+   "genre": "motown-soul",
+   "title": "Stay",
+   "artist": "Maurice Williams and the Zodiacs",
+   "youtube_id": "inZPaKNpcis",
+   "wiki": "Stay (Maurice Williams song)"
+  },
+  {
+   "year": 1960,
+   "genre": "motown-soul",
+   "title": "Walking to New Orleans",
+   "artist": "Fats Domino",
+   "youtube_id": "aTQs34AdlFE",
+   "wiki": "Walking to New Orleans (song)"
+  },
+  {
+   "year": 1960,
+   "genre": "motown-soul",
+   "title": "Baby (You've Got What It Takes)",
+   "artist": "Dinah Washington & Brook Benton",
+   "youtube_id": "izeB43hRA-g",
+   "wiki": "Baby (You've Got What It Takes)"
+  },
+  {
+   "year": 1960,
+   "genre": "motown-soul",
+   "title": "Gee Whiz (Look at His Eyes)",
+   "artist": "Carla Thomas",
+   "youtube_id": "S48rwkLHefo",
+   "wiki": "Gee Whiz (Look at His Eyes)"
+  },
+  {
+   "year": 1960,
+   "genre": "country-60s",
+   "title": "Sink the Bismarck",
+   "artist": "Johnny Horton",
+   "youtube_id": "M1Ufc2hI4FM",
+   "wiki": "Sink the Bismark"
+  },
+  {
+   "year": 1960,
+   "genre": "country-60s",
+   "title": "Please Help Me, I'm Falling",
+   "artist": "Hank Locklin",
+   "youtube_id": "C7IwO5C187A",
+   "wiki": "Please Help Me, I'm Falling"
+  },
+  {
+   "year": 1960,
+   "genre": "country-60s",
+   "title": "He'll Have to Stay",
+   "artist": "Jeanne Black",
+   "youtube_id": "eF0Buqw-jxc",
+   "wiki": "He'll Have to Stay"
+  },
+  {
+   "year": 1960,
+   "genre": "garage-surf-rock",
+   "title": "Wheels",
+   "artist": "The String-A-Longs",
+   "youtube_id": "cy6ILMonp9Q",
+   "wiki": "Wheels (String-A-Longs song)"
+  },
+  {
+   "year": 1960,
+   "genre": "garage-surf-rock",
+   "title": "Because They're Young",
+   "artist": "Duane Eddy",
+   "youtube_id": "bKm2_67xtVs",
+   "wiki": "Because They're Young (song)"
+  },
+  {
+   "year": 1960,
+   "genre": "jazz-easy-listening",
+   "title": "Calcutta",
+   "artist": "Lawrence Welk",
+   "youtube_id": "shZDK4P9ouE",
+   "wiki": "Calcutta (song)"
+  },
+  {
+   "year": 1960,
+   "genre": "jazz-easy-listening",
+   "title": "Theme from The Apartment",
+   "artist": "Ferrante & Teicher",
+   "youtube_id": "xRvvzm-HYKw",
+   "wiki": "Theme from The Apartment"
+  },
+  {
+   "year": 1960,
+   "genre": "jazz-easy-listening",
+   "title": "Wonderland by Night",
+   "artist": "Bert Kaempfert",
+   "youtube_id": "YCDpJT7pJFk",
+   "wiki": "Wonderland by Night"
+  },
+  {
+   "year": 1960,
+   "genre": "jazz-easy-listening",
+   "title": "Apache",
+   "artist": "Jørgen Ingmann",
+   "youtube_id": "TyXLJsO_ulw",
+   "wiki": "Apache (instrumental)"
+  },
+  {
+   "year": 1960,
+   "genre": "folk-rock",
+   "title": "Greenfields",
+   "artist": "The Brothers Four",
+   "youtube_id": "1ddhdo78z6o",
+   "wiki": "Greenfields (song)"
+  },
+  {
+   "year": 1960,
+   "genre": "folk-rock",
+   "title": "Michael",
+   "artist": "The Highwaymen",
+   "youtube_id": "1RwNs8wHRqk",
+   "wiki": "Michael, Row the Boat Ashore"
+  },
+  {
+   "year": 1961,
+   "genre": "pop-brill-building",
+   "title": "Crying",
+   "artist": "Roy Orbison",
+   "youtube_id": "qLC9o_unLq4",
+   "wiki": "Crying (Roy Orbison song)"
+  },
+  {
+   "year": 1961,
+   "genre": "pop-brill-building",
+   "title": "Running Scared",
+   "artist": "Roy Orbison",
+   "youtube_id": "jX9nvmeZl9g",
+   "wiki": "Running Scared (Roy Orbison song)"
+  },
+  {
+   "year": 1961,
+   "genre": "pop-brill-building",
+   "title": "Where the Boys Are",
+   "artist": "Connie Francis",
+   "youtube_id": "sccTzpFfPaE",
+   "wiki": "Where the Boys Are (song)"
+  },
+  {
+   "year": 1961,
+   "genre": "pop-brill-building",
+   "title": "Sad Movies (Make Me Cry)",
+   "artist": "Sue Thompson",
+   "youtube_id": "9pK97JS0ag4",
+   "wiki": "Sad Movies (Make Me Cry)"
+  },
+  {
+   "year": 1961,
+   "genre": "pop-brill-building",
+   "title": "Bristol Stomp",
+   "artist": "The Dovells",
+   "youtube_id": "XCOB5-E4P6Y",
+   "wiki": "Bristol Stomp"
+  },
+  {
+   "year": 1961,
+   "genre": "pop-brill-building",
+   "title": "Travelin' Man",
+   "artist": "Ricky Nelson",
+   "youtube_id": "vGlOuYVTEX4",
+   "wiki": "Travelin' Man"
+  },
+  {
+   "year": 1961,
+   "genre": "pop-brill-building",
+   "title": "Hello Mary Lou",
+   "artist": "Ricky Nelson",
+   "youtube_id": "zLkCWT2neuI",
+   "wiki": "Hello Mary Lou"
+  },
+  {
+   "year": 1961,
+   "genre": "pop-brill-building",
+   "title": "Surrender",
+   "artist": "Elvis Presley",
+   "youtube_id": "O3Bj9fQkvGo",
+   "wiki": "Surrender (Elvis Presley song)"
+  },
+  {
+   "year": 1961,
+   "genre": "pop-brill-building",
+   "title": "Let's Twist Again",
+   "artist": "Chubby Checker",
+   "youtube_id": "md-k3_D08cg",
+   "wiki": "Let's Twist Again"
+  },
+  {
+   "year": 1961,
+   "genre": "pop-brill-building",
+   "title": "Hats Off to Larry",
+   "artist": "Del Shannon",
+   "youtube_id": "Xk_FR3341bA",
+   "wiki": "Hats Off to Larry"
+  },
+  {
+   "year": 1961,
+   "genre": "pop-brill-building",
+   "title": "Who Put the Bomp (in the Bomp, Bomp, Bomp)",
+   "artist": "Barry Mann",
+   "youtube_id": "aumW5e28xic",
+   "wiki": "Who Put the Bomp (in the Bomp, Bomp, Bomp)"
+  },
+  {
+   "year": 1961,
+   "genre": "pop-brill-building",
+   "title": "Walk Right Back",
+   "artist": "The Everly Brothers",
+   "youtube_id": "c048o_KvWsA",
+   "wiki": "Walk Right Back"
+  },
+  {
+   "year": 1961,
+   "genre": "pop-brill-building",
+   "title": "Pony Time",
+   "artist": "Chubby Checker",
+   "youtube_id": "JyaxcvHSyZY",
+   "wiki": "Pony Time"
+  },
+  {
+   "year": 1961,
+   "genre": "pop-brill-building",
+   "title": "Mama Said",
+   "artist": "The Shirelles",
+   "youtube_id": "8Tls-55Q5Bo",
+   "wiki": "Mama Said (The Shirelles song)"
+  },
+  {
+   "year": 1961,
+   "genre": "pop-brill-building",
+   "title": "Little Sister",
+   "artist": "Elvis Presley",
+   "youtube_id": "lWWZSu4e5cI",
+   "wiki": "Little Sister (Elvis Presley song)"
+  },
+  {
+   "year": 1961,
+   "genre": "motown-soul",
+   "title": "Tossin' and Turnin'",
+   "artist": "Bobby Lewis",
+   "youtube_id": "4zkPBwlyd4M",
+   "wiki": "Tossin' and Turnin'"
+  },
+  {
+   "year": 1961,
+   "genre": "motown-soul",
+   "title": "Raindrops",
+   "artist": "Dee Clark",
+   "youtube_id": "oPCJgclG3Us",
+   "wiki": "Raindrops (Dee Clark song)"
+  },
+  {
+   "year": 1961,
+   "genre": "motown-soul",
+   "title": "My True Story",
+   "artist": "The Jive Five",
+   "youtube_id": "glOMdK8gfbo",
+   "wiki": "My True Story (song)"
+  },
+  {
+   "year": 1961,
+   "genre": "motown-soul",
+   "title": "Last Night",
+   "artist": "The Mar-Keys",
+   "youtube_id": "FX5T9GvSnbY",
+   "wiki": "Last Night (Mar-Keys composition)"
+  },
+  {
+   "year": 1961,
+   "genre": "motown-soul",
+   "title": "Hit the Road Jack",
+   "artist": "Ray Charles",
+   "youtube_id": "uSiHqxgE2d0",
+   "wiki": "Hit the Road Jack"
+  },
+  {
+   "year": 1961,
+   "genre": "motown-soul",
+   "title": "Mother-in-Law",
+   "artist": "Ernie K-Doe",
+   "youtube_id": "BEwl_sAiAtM",
+   "wiki": "Mother-in-Law (song)"
+  },
+  {
+   "year": 1961,
+   "genre": "motown-soul",
+   "title": "Ya Ya",
+   "artist": "Lee Dorsey",
+   "youtube_id": "OeF-xJ1mOmU",
+   "wiki": "Ya Ya (Lee Dorsey song)"
+  },
+  {
+   "year": 1961,
+   "genre": "motown-soul",
+   "title": "It's Gonna Work Out Fine",
+   "artist": "Ike & Tina Turner",
+   "youtube_id": "Rj9Um8T88KM",
+   "wiki": "It's Gonna Work Out Fine"
+  },
+  {
+   "year": 1961,
+   "genre": "country-60s",
+   "title": "Hello Walls",
+   "artist": "Faron Young",
+   "youtube_id": "HMSWAUAKJn0",
+   "wiki": "Hello Walls"
+  },
+  {
+   "year": 1961,
+   "genre": "country-60s",
+   "title": "Big Bad John",
+   "artist": "Jimmy Dean",
+   "youtube_id": "KnnHprUGKF0",
+   "wiki": "Big Bad John"
+  },
+  {
+   "year": 1961,
+   "genre": "country-60s",
+   "title": "Sea of Heartbreak",
+   "artist": "Don Gibson",
+   "youtube_id": "A4bo4ByFhLM",
+   "wiki": "Sea of Heartbreak"
+  },
+  {
+   "year": 1961,
+   "genre": "jazz-easy-listening",
+   "title": "My Kind of Girl",
+   "artist": "Matt Monro",
+   "youtube_id": "hWjksSClg9E",
+   "wiki": "My Kind of Girl (Matt Monro song)"
+  },
+  {
+   "year": 1961,
+   "genre": "jazz-easy-listening",
+   "title": "Mexico",
+   "artist": "Bob Moore",
+   "youtube_id": "tg4cGgSEwqc",
+   "wiki": "Mexico (instrumental)"
+  },
+  {
+   "year": 1961,
+   "genre": "jazz-easy-listening",
+   "title": "Asia Minor",
+   "artist": "Kokomo",
+   "youtube_id": "DPiGG66WFdQ",
+   "wiki": "Asia Minor (instrumental)"
+  },
+  {
+   "year": 1962,
+   "genre": "pop-brill-building",
+   "title": "Roses Are Red (My Love)",
+   "artist": "Bobby Vinton",
+   "youtube_id": "8rjPC7-JMUM",
+   "wiki": "Roses Are Red (My Love)"
+  },
+  {
+   "year": 1962,
+   "genre": "pop-brill-building",
+   "title": "Johnny Angel",
+   "artist": "Shelley Fabares",
+   "youtube_id": "OnEmeOUmjVk",
+   "wiki": "Johnny Angel (song)"
+  },
+  {
+   "year": 1962,
+   "genre": "pop-brill-building",
+   "title": "The Loco-Motion",
+   "artist": "Little Eva",
+   "youtube_id": "eKpVQm41f8Y",
+   "wiki": "The Loco-Motion"
+  },
+  {
+   "year": 1962,
+   "genre": "pop-brill-building",
+   "title": "Good Luck Charm",
+   "artist": "Elvis Presley",
+   "youtube_id": "Z0gx4kPDW0w",
+   "wiki": "Good Luck Charm"
+  },
+  {
+   "year": 1962,
+   "genre": "pop-brill-building",
+   "title": "Sheila",
+   "artist": "Tommy Roe",
+   "youtube_id": "0i-wfec5HGY",
+   "wiki": "Sheila (Tommy Roe song)"
+  },
+  {
+   "year": 1962,
+   "genre": "pop-brill-building",
+   "title": "Break It to Me Gently",
+   "artist": "Brenda Lee",
+   "youtube_id": "t3sD_NI0rcY",
+   "wiki": "Break It to Me Gently"
+  },
+  {
+   "year": 1962,
+   "genre": "pop-brill-building",
+   "title": "(The Man Who Shot) Liberty Valance",
+   "artist": "Gene Pitney",
+   "youtube_id": "vDN4L7cAQf0",
+   "wiki": "(The Man Who Shot) Liberty Valance"
+  },
+  {
+   "year": 1962,
+   "genre": "pop-brill-building",
+   "title": "Dream Baby (How Long Must I Dream)",
+   "artist": "Roy Orbison",
+   "youtube_id": "4MXdzlTTmv8",
+   "wiki": "Dream Baby (How Long Must I Dream)"
+  },
+  {
+   "year": 1962,
+   "genre": "pop-brill-building",
+   "title": "Uptown",
+   "artist": "The Crystals",
+   "youtube_id": "G0il2Qd3jcs",
+   "wiki": "Uptown (The Crystals song)"
+  },
+  {
+   "year": 1962,
+   "genre": "motown-soul",
+   "title": "The One Who Really Loves You",
+   "artist": "Mary Wells",
+   "youtube_id": "PuQt3fgNqik",
+   "wiki": "The One Who Really Loves You (song)"
+  },
+  {
+   "year": 1962,
+   "genre": "motown-soul",
+   "title": "You Beat Me to the Punch",
+   "artist": "Mary Wells",
+   "youtube_id": "OCUXSdg6PCc",
+   "wiki": "You Beat Me to the Punch"
+  },
+  {
+   "year": 1962,
+   "genre": "motown-soul",
+   "title": "Playboy",
+   "artist": "The Marvelettes",
+   "youtube_id": "CNhAPHtWA6c",
+   "wiki": "Playboy (The Marvelettes song)"
+  },
+  {
+   "year": 1962,
+   "genre": "motown-soul",
+   "title": "Soul Twist",
+   "artist": "King Curtis",
+   "youtube_id": "gMqKXGurWG8",
+   "wiki": "Soul Twist"
+  },
+  {
+   "year": 1962,
+   "genre": "motown-soul",
+   "title": "Having a Party",
+   "artist": "Sam Cooke",
+   "youtube_id": "OmMbN_MrlTQ",
+   "wiki": "Having a Party (Sam Cooke song)"
+  },
+  {
+   "year": 1962,
+   "genre": "motown-soul",
+   "title": "Rinky Dink",
+   "artist": "Dave \"Baby\" Cortez",
+   "youtube_id": "fn3_ks5JFis",
+   "wiki": "Rinky Dink (instrumental)"
+  },
+  {
+   "year": 1962,
+   "genre": "country-60s",
+   "title": "Wolverton Mountain",
+   "artist": "Claude King",
+   "youtube_id": "QpmztcX_BtI",
+   "wiki": "Wolverton Mountain"
+  },
+  {
+   "year": 1962,
+   "genre": "country-60s",
+   "title": "Funny Way of Laughin'",
+   "artist": "Burl Ives",
+   "youtube_id": "MTjK3VBSKVU",
+   "wiki": "Funny Way of Laughin'"
+  },
+  {
+   "year": 1962,
+   "genre": "country-60s",
+   "title": "Old Rivers",
+   "artist": "Walter Brennan",
+   "youtube_id": "1IzRQyt2PyU",
+   "wiki": "Old Rivers"
+  },
+  {
+   "year": 1962,
+   "genre": "jazz-easy-listening",
+   "title": "Alley Cat",
+   "artist": "Bent Fabric",
+   "youtube_id": "IMqTuWl3xAA",
+   "wiki": "Alley Cat (song)"
+  },
+  {
+   "year": 1962,
+   "genre": "jazz-easy-listening",
+   "title": "A Swingin' Safari",
+   "artist": "Billy Vaughn",
+   "youtube_id": "bTFqPbIC0iM",
+   "wiki": "A Swingin' Safari"
+  },
+  {
+   "year": 1962,
+   "genre": "jazz-easy-listening",
+   "title": "The Stripper",
+   "artist": "David Rose",
+   "youtube_id": "QYkdwTB4uIQ",
+   "wiki": "The Stripper"
+  },
+  {
+   "year": 1968,
+   "genre": "british-invasion",
+   "title": "Hey Jude",
+   "artist": "The Beatles",
+   "youtube_id": "A_MjCqQoLLA",
+   "wiki": "Hey Jude"
+  },
+  {
+   "year": 1968,
+   "genre": "psychedelic-rock",
+   "title": "Hello, I Love You",
+   "artist": "The Doors",
+   "youtube_id": "exs6GO2bvjE",
+   "wiki": "Hello, I Love You"
+  },
+  {
+   "year": 1968,
+   "genre": "motown-soul",
+   "title": "Tighten Up",
+   "artist": "Archie Bell & the Drells",
+   "youtube_id": "Kk1RCfV4zNM",
+   "wiki": "Tighten Up (Archie Bell & the Drells song)"
+  },
+  {
+   "year": 1968,
+   "genre": "motown-soul",
+   "title": "People Got to Be Free",
+   "artist": "The Rascals",
+   "youtube_id": "PGUhdwTyziM",
+   "wiki": "People Got to Be Free"
+  },
+  {
+   "year": 1968,
+   "genre": "jazz-easy-listening",
+   "title": "Grazing in the Grass",
+   "artist": "Hugh Masekela",
+   "youtube_id": "b_V3mg_7xlE",
+   "wiki": "Grazing in the Grass"
+  },
+  {
+   "year": 1968,
+   "genre": "pop-brill-building",
+   "title": "Honey",
+   "artist": "Bobby Goldsboro",
+   "youtube_id": "WAgSOa2NbJA",
+   "wiki": "Honey (Bobby Goldsboro song)"
+  },
+  {
+   "year": 1969,
+   "genre": "british-invasion",
+   "title": "Honky Tonk Women",
+   "artist": "The Rolling Stones",
+   "youtube_id": "hqqkGxZ1_8I",
+   "wiki": "Honky Tonk Women"
+  },
+  {
+   "year": 1969,
+   "genre": "british-invasion",
+   "title": "Get Back",
+   "artist": "The Beatles with Billy Preston",
+   "youtube_id": "YEESfv-11ng",
+   "wiki": "Get Back"
+  },
+  {
+   "year": 1969,
+   "genre": "british-invasion",
+   "title": "Something",
+   "artist": "The Beatles",
+   "youtube_id": "UelDrZ1aFeY",
+   "wiki": "Something (Beatles song)"
+  },
+  {
+   "year": 1969,
+   "genre": "psychedelic-rock",
+   "title": "Come Together",
+   "artist": "The Beatles",
+   "youtube_id": "45cYwDMibGo",
+   "wiki": "Come Together"
+  },
+  {
+   "year": 1969,
+   "genre": "psychedelic-rock",
+   "title": "Crystal Blue Persuasion",
+   "artist": "Tommy James and the Shondells",
+   "youtube_id": "oDN7nukZRnw",
+   "wiki": "Crystal Blue Persuasion"
+  },
+  {
+   "year": 1969,
+   "genre": "folk-rock",
+   "title": "Lay Lady Lay",
+   "artist": "Bob Dylan",
+   "youtube_id": "LhzEsb2tNbI",
+   "wiki": "Lay Lady Lay"
+  },
+  {
+   "year": 1969,
+   "genre": "jazz-easy-listening",
+   "title": "Love Theme from Romeo and Juliet",
+   "artist": "Henry Mancini",
+   "youtube_id": "r3pzeS93j30",
+   "wiki": "Love Theme from Romeo and Juliet"
+  },
+  {
+   "year": 1969,
+   "genre": "motown-soul",
+   "title": "I Can't Get Next to You",
+   "artist": "The Temptations",
+   "youtube_id": "vT4l-rgjtPM",
+   "wiki": "I Can't Get Next to You"
+  },
+  {
+   "year": 1969,
+   "genre": "motown-soul",
+   "title": "Hot Fun in the Summertime",
+   "artist": "Sly and the Family Stone",
+   "youtube_id": "Bg0tFRea0wA",
+   "wiki": "Hot Fun in the Summertime"
+  },
+  {
+   "year": 1969,
+   "genre": "motown-soul",
+   "title": "Too Busy Thinking About My Baby",
+   "artist": "Marvin Gaye",
+   "youtube_id": "eyZgAbXfsL4",
+   "wiki": "Too Busy Thinking About My Baby"
+  },
+  {
+   "year": 1969,
+   "genre": "motown-soul",
+   "title": "What Does It Take (To Win Your Love)",
+   "artist": "Jr. Walker & The All Stars",
+   "youtube_id": "sHOYJEvtFFs",
+   "wiki": "What Does It Take (to Win Your Love)"
+  },
+  {
+   "year": 1969,
+   "genre": "motown-soul",
+   "title": "It's Your Thing",
+   "artist": "The Isley Brothers",
+   "youtube_id": "Tqc_EhmL8-E",
+   "wiki": "It's Your Thing"
+  },
+  {
+   "year": 1969,
+   "genre": "motown-soul",
+   "title": "Mother Popcorn",
+   "artist": "James Brown",
+   "youtube_id": "5eoSXpNZD9o",
+   "wiki": "Mother Popcorn"
+  },
+  {
+   "year": 1969,
+   "genre": "motown-soul",
+   "title": "Twenty-Five Miles",
+   "artist": "Edwin Starr",
+   "youtube_id": "v6fTlPnR4g4",
+   "wiki": "Twenty-Five Miles"
+  },
+  {
+   "year": 1969,
+   "genre": "motown-soul",
+   "title": "Oh, What a Night",
+   "artist": "The Dells",
+   "youtube_id": "mvXDEs9Klio",
+   "wiki": "Oh, What a Night (The Dells song)"
+  },
+  {
+   "year": 1969,
+   "genre": "motown-soul",
+   "title": "Baby, I'm for Real",
+   "artist": "The Originals",
+   "youtube_id": "0dcHGP8_9p0",
+   "wiki": "Baby, I'm for Real"
+  },
+  {
+   "year": 1969,
+   "genre": "motown-soul",
+   "title": "Time Is Tight",
+   "artist": "Booker T. & the M.G.'s",
+   "youtube_id": "50xx1_CbJTI",
+   "wiki": "Time Is Tight"
+  },
+  {
+   "year": 1969,
+   "genre": "motown-soul",
+   "title": "Your Good Thing (Is About to End)",
+   "artist": "Lou Rawls",
+   "youtube_id": "4tFh4lkiCaU",
+   "wiki": "Your Good Thing (Is About to End)"
+  },
+  {
+   "year": 1969,
+   "genre": "motown-soul",
+   "title": "Only the Strong Survive",
+   "artist": "Jerry Butler",
+   "youtube_id": "XPkd9ZQOtbI",
+   "wiki": "Only the Strong Survive (song)"
+  },
+  {
+   "year": 1969,
+   "genre": "motown-soul",
+   "title": "Runaway Child, Running Wild",
+   "artist": "The Temptations",
+   "youtube_id": "uoXRjSO34Gw",
+   "wiki": "Runaway Child, Running Wild"
+  },
+  {
+   "year": 1969,
+   "genre": "pop-brill-building",
+   "title": "Aquarius/Let the Sunshine In",
+   "artist": "The 5th Dimension",
+   "youtube_id": "VlrQ-bOzpkQ",
+   "wiki": "Aquarius/Let the Sunshine In"
+  },
+  {
+   "year": 1969,
+   "genre": "pop-brill-building",
+   "title": "Sweet Caroline",
+   "artist": "Neil Diamond",
+   "youtube_id": "5JfU4PKgmJc",
+   "wiki": "Sweet Caroline"
+  },
+  {
+   "year": 1969,
+   "genre": "pop-brill-building",
+   "title": "Jean",
+   "artist": "Oliver",
+   "youtube_id": "hozEk-eCYwc",
+   "wiki": "Jean (song)"
+  },
+  {
+   "year": 1969,
+   "genre": "pop-brill-building",
+   "title": "In the Year 2525",
+   "artist": "Zager & Evans",
+   "youtube_id": "Gb7poHQuMWg",
+   "wiki": "In the Year 2525"
+  },
+  {
+   "year": 1969,
+   "genre": "pop-brill-building",
+   "title": "Wedding Bell Blues",
+   "artist": "The 5th Dimension",
+   "youtube_id": "uiQjJraovrI",
+   "wiki": "Wedding Bell Blues"
+  },
+  {
+   "year": 1969,
+   "genre": "pop-brill-building",
+   "title": "Good Morning Starshine",
+   "artist": "Oliver",
+   "youtube_id": "-I-NbgskFeY",
+   "wiki": "Good Morning Starshine"
+  },
+  {
+   "year": 1969,
+   "genre": "pop-brill-building",
+   "title": "Put a Little Love in Your Heart",
+   "artist": "Jackie DeShannon",
+   "youtube_id": "NTxxEdBIL6Y",
+   "wiki": "Put a Little Love in Your Heart"
+  },
+  {
+   "year": 1969,
+   "genre": "pop-brill-building",
+   "title": "More Today Than Yesterday",
+   "artist": "Spiral Starecase",
+   "youtube_id": "89eEa3RvCF4",
+   "wiki": "More Today Than Yesterday"
+  },
+  {
+   "year": 1969,
+   "genre": "pop-brill-building",
+   "title": "Traces",
+   "artist": "Classics IV",
+   "youtube_id": "-hkMwXNJ_cM",
+   "wiki": "Traces (song)"
+  },
+  {
+   "year": 1969,
+   "genre": "pop-brill-building",
+   "title": "In the Ghetto",
+   "artist": "Elvis Presley",
+   "youtube_id": "qfypRsWPuVM",
+   "wiki": "In the Ghetto"
+  },
+  {
+   "year": 1969,
+   "genre": "pop-brill-building",
+   "title": "Easy to Be Hard",
+   "artist": "Three Dog Night",
+   "youtube_id": "adPIeQDeCsU",
+   "wiki": "Easy to Be Hard"
+  },
+  {
+   "year": 1969,
+   "genre": "pop-brill-building",
+   "title": "Spinning Wheel",
+   "artist": "Blood, Sweat & Tears",
+   "youtube_id": "SFEewD4EVwU",
+   "wiki": "Spinning Wheel (song)"
+  },
+  {
+   "year": 1969,
+   "genre": "pop-brill-building",
+   "title": "Smile a Little Smile for Me",
+   "artist": "The Flying Machine",
+   "youtube_id": "BR3xcZ-osqE",
+   "wiki": "Smile a Little Smile for Me"
+  }
+ ]
+}
