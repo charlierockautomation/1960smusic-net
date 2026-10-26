@@ -77,7 +77,7 @@ quarterly cadence; never hand-edit the `verified_date`/`youtube_id` pairing
 without running that check. An optional `hook_start_seconds` field may be
 added per song for the guessing game (a recognizable point past any spoken
 intro); when absent, the game falls back to a default offset rather than
-requiring the field on all 434+ entries.
+requiring the field on all 550+ entries.
 
 ### Radio Dial controls (`/tools/radio/`)
 

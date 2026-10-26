@@ -17,7 +17,7 @@ Status values: `not started` · `in progress` · `blocked (reason)` · `live`
 | # | Task | Cadence | Status |
 |---|---|---|---|
 | 1 | Queue rotation: `content-build.md` rows 85+ | 3-4 pages/week | not started |
-| 2 | Monthly original-data page (`data-page` type, `/data/<topic-slug>/`) | 1/month | wiring built, spec awaiting approval |
+| 2 | Monthly original-data page (`data-page` type, `/data/<topic-slug>/`) | 1/month | in progress (keyword OK needed) |
 | 3 | Weekly Trending post (Monday routine) | 1/week | not started |
 | 4 | Weekly refresh of one existing page | 1/week | not started |
 
@@ -46,21 +46,21 @@ inside a week so a single genre doesn't fill a whole week's 3-4 pages.
 Minor notes, no action taken: row 96 (Small Faces) is a lone song story with
 no bio row; rows 101-102 and 114-115 are two-row clusters.
 
-### 2. Monthly original-data page (wiring built, spec awaiting approval)
+### 2. Monthly original-data page (wiring built, list expanded, keyword awaiting OK)
 New page type `data-page`, one per month, built only from our own dataset and
-framed as "our dataset", never as the whole 1960s. Spec draft:
-`docs/phase3-data-page-spec.md` (written, draft). Summary:
+framed as "our dataset", never as the whole 1960s. Full spec:
+`docs/phase3-data-page-spec.md`. Status 2026-10-26:
 
-- URL `/data/<topic-slug>/`. Wiring and a DRAFT `/data/` index are in place (uncommitted); no data page exists.
-- Wiring (all in the build commit): `gen/check_article.py` (new type in
-  `detect_type`, `WORD_COUNT_RANGES`, year/genre link checks), `sitemap.xml`
-  via `gen/generate_sitemap.py`, `data/posts.json` entry, `link-map.md` row,
-  `llms.txt` via `publish_prep.py`.
-- Fields allowed: only ones present in `data/songs.json` / `artists.json` /
-  `genres.json`. Nothing from outside the files, no chart data.
-- First page: songs per year by genre, 1960-1969, linking every
-  `/1960s/<year>/` page and every live genre hub. Source: radio-eligible
-  lists (434 rows, 50+ per genre), not the 192-song `songs.json` set. See spec.
+- Wiring committed (20e36a0): type detection, 600-1200 words, year/genre
+  link checks, sitemap carve-out for `/data/`, `posts.json` and `llms.txt`
+  support, DRAFT `/data/` index, `link-map.md` row. CLAUDE.md has a pointer.
+- Source list expanded (50f4c29): radio-eligible now 557 rows, every year
+  43+ songs and every genre 53+. Daily pool check re-run.
+- Page 1 approved: Radio Dial songs by year and genre, genre share next to
+  counts, leads with psychedelic rock, Wild Thing counted in both genres
+  with a note. Built only after Charlie OKs the focus keyword.
+- Keyword research done in DataForSEO: recommend "1960s music genres" (US
+  720/mo, CA 90, KD 0). Slug question open. Details in the spec.
 
 ### 3. Weekly Trending
 Cloud routine `trig_01GCntYZh1oWceGXGBxqYKHA`, Mondays 14:00 UTC, pushes a

@@ -1,88 +1,106 @@
-# Phase 3 Data Page Spec (DRAFT, awaiting Charlie's sign-off)
+# Phase 3 Data Page Spec (page 1 approved; keyword awaiting Charlie's OK)
 
 Spec for the `data-page` type (`/data/<topic-slug>/`, one a month). Wiring is
-built; no data page is. Nothing here is built until Charlie signs off.
+built and committed (20e36a0). Source list expanded (50f4c29). Page 1 is NOT
+built: the build waits for Charlie's OK on the focus keyword.
 
-## Wiring status (built 2026-10-26, uncommitted)
+## Wiring (built, committed 20e36a0)
 
 - `gen/check_article.py`: `detect_type` returns "data page" for
-  `/data/<slug>/index.html`; word range 600-1200. All shared gates still
-  apply: FAQ 4-6, TOC, image + alt, byline, title <= 60, Article JSON-LD
-  with image, og:image, sentence length, keyword density and placement.
-- `gen/check_seo.py`: a data page must link >= 1 `/1960s/<year>/` page and
-  >= 1 genre hub, and must contain the phrase "our dataset".
-- `gen/generate_sitemap.py`: `data/` stays skipped for JSON, but
-  `/data/` and `/data/<slug>/` are discovered (they would otherwise have been
-  silently dropped). `/data/` index is a DRAFT page, so it is not yet listed.
-- `check_article.py --site`: a `/data/<slug>/` page must be in `posts.json`.
-- `posts.json` type `data-page` (label "Data"); `llms.txt` gets a "Data"
-  section from those entries; `/data/` index itself is not in `llms.txt`.
-- `/data/index.html` placed as DRAFT (remove the comment with page one).
-  `link-map.md` row added, status `placed`.
-- Not wired, by choice: `CLAUDE.md` is at 195 lines, so the new type's rules
-  live here and in `phase3-spread.md`. A "Data Pages" pointer needs one line
-  moved out first. Ask before touching.
+  `/data/<slug>/index.html`; word range 600-1200. Shared gates apply: FAQ 4-6,
+  TOC, image + alt, byline, title <= 60, Article JSON-LD + image, og:image,
+  sentence length, keyword density/placement.
+- `gen/check_seo.py`: data page links >= 1 `/1960s/<year>/` page and >= 1 genre
+  hub, and contains the phrase "our dataset".
+- `gen/generate_sitemap.py`: `/data/` and `/data/<slug>/` are discovered
+  (the JSON dirs under `data/` stay skipped). `/data/` index is a DRAFT page
+  until page 1 ships. `posts.json` type `data-page` (label "Data") feeds
+  listings and a "Data" section in `llms.txt`; `--site` requires the entry.
+- `CLAUDE.md` carries a one-line Data Pages pointer to this file (196 lines).
 
-## Source lists checked
+## Source list: radio-eligible, expanded 2026-10-26 (50f4c29)
 
-| Source | Rows | Per genre | Per year |
+Added 123 songs for 1960, 1961, 1962, 1968, 1969 (list and method:
+`gen/radio_expansion_2026-10-26.json`). Sourcing: Wikipedia Billboard Year-End
+Hot 100 lists plus the year-page playlists; release year = the single year in
+the song's Wikipedia infobox, equal to the stored `year` (multi-year, missing
+or wrong-version infoboxes dropped, so some year-end hits released the year
+before were left out); ids public, embeddable, not made-for-kids, no duplicate
+ids; `daily_pool_check.py` re-run (25 of the new ids excluded from the Daily
+game only, because the video title shows the year).
+
+Now 557 rows, 556 unique ids (Wild Thing is in two genre files).
+Per year: 1960 43, 1961 44, 1962 44, 1963 43, 1964 58, 1965 70, 1966 83,
+1967 85, 1968 43, 1969 44. No year is under 20, so no "small sample" callout
+is needed today; the page script still adds one automatically if a year
+ever falls under 20. Per genre: pop-brill-building 108, motown-soul 97,
+british-invasion 64, jazz-easy-listening 63, country-60s 61, folk-rock 58,
+garage-surf-rock 53, psychedelic-rock 53. Fields: `title`, `artist`, `year`,
+`genre`, `youtube_id`, `verified_date`. 11 of 80 year x genre cells are zero.
+Psychedelic rock: 1966 7, 1967 32, 1968 11, 1969 3, nothing earlier; 1967
+holds 32 of its 53 songs (60%).
+
+## Page 1 (approved by Charlie 2026-10-26)
+
+- URL: `/data/radio-dial-songs-by-year-and-genre/` as approved. See keyword
+  note: the writing standard wants the focus keyword in the slug.
+- Framing: what is on the Radio Dial, from our dataset, not the whole decade.
+  Primary internal link goes to `/tools/radio/`.
+- Headline number: 556 unique songs (557 rows). One-line note that Wild
+  Thing is counted in both British Invasion and Garage & Surf Rock as listed
+  on the dial. The script recounts both numbers at build time.
+- Table: 10 years x 8 genres, raw counts with the genre's percentage share of
+  that year next to each count. Primary genre only, stated on the page.
+  Year rows link `/1960s/<year>/`; genre columns link the 8 hubs.
+- Analysis leads with psychedelic rock (nothing before 1966, then 1967), then
+  genre leaders, zero cells, thin years (every year here is >= 43). Any year
+  under 20 songs is called out as a small sample (none today).
+- Generated, not typed: `gen/build_data_page_radio.py` writes table, chart and
+  prose figures from the JSON files; a test fails if page numbers drift.
+- Required by the gates: FAQ 4-6, TOC, byline, self-hosted chart image with
+  real alt, Article JSON-LD with image, og:image, 600-1200 words, no chart
+  positions or "the 1960s had" claims.
+
+## Focus keyword research (DataForSEO, run 2026-10-26)
+
+Volume = Google Ads monthly average; KD = DataForSEO keyword difficulty.
+Google folds "60s music genres" and "music genres of the 1960s" into the same
+cluster as "1960s music genres" (identical numbers).
+
+| Candidate | US vol | CA vol | KD US / CA |
 |---|---|---|---|
-| `data/songs.json` | 192 | 12-46 | 5 (1960) to 35 (1967) |
-| `data/radio-eligible-*.json` (8 files) | 434 (433 unique ids) | 50-60 | 9 (1960) to 85 (1967) |
+| 1960s music genres | 720 (480-1,300 over 12 mo) | 90 | 0 / 0 |
+| 1960s songs | 14,800 | 1,300 | 8 / 8 |
+| 1960s songs by year | no data | no data | no data |
+| 1960s music by genre | no data | no data | no data |
+| 60s music by year | no data | no data | no data |
+| 60s songs by genre | no data | no data | no data |
+| 1960s music statistics | no data | no data | no data |
 
-Radio-eligible per genre: british-invasion 60, motown-soul 59, pop-brill-building
-56, folk-rock 55, country-60s 52, garage-surf-rock 51, jazz-easy-listening 51,
-psychedelic-rock 50. Per year: 1960 9, 1961 15, 1962 23, 1963 43, 1964 58,
-1965 70, 1966 83, 1967 85, 1968 37, 1969 11.
-Fields: `title`, `artist`, `year`, `genre`, `youtube_id`, `verified_date`
-(plus `year_alt*` on 1 row). 189 of the 434 also appear in `songs.json`;
-208 distinct artists. Hand-maintained, quarterly-verified (see
-`docs/architecture.md`), so the file is stable enough to cite as a dataset.
+Top results, "1960s music genres" (US): Wikipedia "1960s in music", a Reddit
+thread, Full Sail LibGuide, Rock Music Timeline, jeffs60s.com, Study.com, an
+IMDb list; AI Overview and YouTube video block above them. No data-led page.
+Top results, "1960s songs" (US): Spotify/Apple playlists, SiriusXM list,
+YouTube videos, Wikipedia year-end list, Pitchfork, Gold Standard Song List.
+Playlist and list intent, and `/best-60s-songs/` already targets it.
 
-Every genre clears the 50 bar, so the radio list qualifies. It does not fix
-the year skew: 13 of 80 year x genre cells are zero, psychedelic rock has no
-rows before 1966 and 32 in 1967, 1960 and 1969 are thin. The skew comes from
-what we verified as embeddable, not from the decade. The page must say so.
+Recommendation: "1960s music genres". Real demand (720 US), KD 0, weak
+non-specialist competition, and a count-by-genre page matches the intent.
+Reject "1960s songs": 20x the volume but a list/playlist intent we already
+serve, so a data page would cannibalize `/best-60s-songs/`. The by-year/
+by-genre long tails have no measurable volume; use them as secondary terms.
+Open: with this keyword the slug should contain it, e.g.
+`/data/1960s-music-genres-by-year/` (replaces the approved slug if OK'd).
 
-## Proposed page 1
+## Later pages (same two rules: fields that exist, "our dataset")
 
-- Slug: `/data/radio-dial-songs-by-year-and-genre/`.
-- Focus keyword (to verify with competitor research): "1960s songs by year".
-- H1/angle: what the Radio Dial's verified playlist holds, 1960-1969, by
-  year and genre. Framed as "our dataset" and "the Radio Dial's verified
-  list", never "the 1960s had".
-- Fields used: `year`, `genre` only (primary genre, stated on the page; the
-  radio files give each row one genre). `artist`/`title` only for named
-  examples in prose, checked against the file.
-- Open item: "Wild Thing" (The Troggs, 1966) sits in both british-invasion
-  and garage-surf-rock, so counting rows gives 434 and unique songs gives 433.
-  Needs a rule. Proposed: count rows as listed per station, state the 434 vs
-  433 difference in a note.
-- Body: lead with the totals; one 10 x 8 count table (rows link
-  `/1960s/<year>/`, column heads link the 8 genre hubs, all 10 years and 8 hubs
-  linked); a method section (source, primary genre only, verification, what is
-  not counted); "What the numbers show" (peak year, genre leaders, zero cells,
-  each tied to the skew caveat); links to `/tools/radio/`, `/best-60s-songs/`.
-  FAQ 4-6, TOC, byline, one self-hosted chart image (SVG/PNG, real alt) for
-  `og:image`.
-- Every figure is generated, not typed: `gen/build_data_page_radio.py`
-  writes the table and chart from the JSON files, with a test like
-  `gen/test_best_60s_songs.py` that fails if a number in the page differs
-  from the data. Prose figures read from the same script.
-- No chart positions, sales, rankings or claims about "the decade".
-- Updated date rule: bumps only on a re-count after the radio files change.
-
-## Monthly cadence ideas (subject to the same two rules: fields that exist, "our dataset")
-
-Nov: page 1 above. Dec onward, candidates: most-featured artists in the radio
-list; songs per year by `mood_tags` / `difficulty` / `tiktok_viral` from
-`songs.json` (field coverage must be counted first); year-over-year genre
-share. Each gets its own spec line before building.
+Dec onward, candidates: artists most often on the dial; songs by `mood_tags`,
+`difficulty` or `tiktok_viral` from `songs.json` (count field coverage first);
+year-over-year genre share. Each gets its own spec line before building.
 
 ## Decisions needed from Charlie
 
-1. Approve radio-eligible as the source for page 1 (50+ per genre met, year skew
-   stays and is disclosed).
-2. Wild Thing counting rule (row count 434, or unique 433).
-3. Slug and focus keyword OK, or run the keyword check first.
-4. Okay to free one line in CLAUDE.md for a "Data Pages" pointer.
+1. OK the focus keyword "1960s music genres" (or pick another).
+2. Slug: keep `/data/radio-dial-songs-by-year-and-genre/` (needs a documented
+   exception to the keyword-in-slug rule) or switch to
+   `/data/1960s-music-genres-by-year/`.
