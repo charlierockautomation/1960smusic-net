@@ -17,7 +17,7 @@ Status values: `not started` · `in progress` · `blocked (reason)` · `live`
 | # | Task | Cadence | Status |
 |---|---|---|---|
 | 1 | Queue rotation: `content-build.md` rows 85+ | 3-4 pages/week | not started |
-| 2 | Monthly original-data page (`data-page` type, `/data/<topic-slug>/`) | 1/month | in progress (page 1 built, not pushed) |
+| 2 | Monthly original-data page (`data-page` type, `/data/<topic-slug>/`) | 1/month | in progress (page 1 live; next due Nov) |
 | 3 | Weekly Trending post (Monday routine) | 1/week | not started |
 | 4 | Weekly refresh of one existing page | 1/week | not started |
 
@@ -46,7 +46,7 @@ inside a week so a single genre doesn't fill a whole week's 3-4 pages.
 Minor notes, no action taken: row 96 (Small Faces) is a lone song story with
 no bio row; rows 101-102 and 114-115 are two-row clusters.
 
-### 2. Monthly original-data page (page 1 built, awaiting push approval)
+### 2. Monthly original-data page (page 1 live)
 New page type `data-page`, one per month, built only from our own dataset and
 framed as "our dataset", never as the whole 1960s. Full spec:
 `docs/phase3-data-page-spec.md`. Status 2026-10-26:
@@ -57,8 +57,8 @@ framed as "our dataset", never as the whole 1960s. Full spec:
 - Source list expanded (50f4c29): radio-eligible now 557 rows, every year
   43+ songs and every genre 53+. Daily pool check re-run.
 - Page 1 built 2026-10-26: `/data/1960s-music-genres-by-year/` (keyword
-  "1960s music genres" approved, 954 words, check_article.py PASS). Not
-  pushed; Charlie approves first. Rebuild with `gen/build_data_page_radio.py`,
+  "1960s music genres" approved, 954 words, check_article.py PASS). Live
+  2026-10-26. Rebuild with `gen/build_data_page_radio.py`,
   verify with `gen/test_data_page_radio.py`.
 
 ### Cleanup (not urgent)

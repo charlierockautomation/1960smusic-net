@@ -1,4 +1,4 @@
-# Phase 3 Data Page Spec (page 1 built, awaiting push approval)
+# Phase 3 Data Page Spec (page 1 live 2026-10-26)
 
 Spec for the `data-page` type (`/data/<topic-slug>/`, one a month). Wiring is
 built and committed (20e36a0). Source list expanded (50f4c29). Page 1 built locally, not pushed.
@@ -39,7 +39,7 @@ garage-surf-rock 53, psychedelic-rock 53. Fields: `title`, `artist`, `year`,
 Psychedelic rock: 1966 7, 1967 32, 1968 11, 1969 3, nothing earlier; 1967
 holds 32 of its 53 songs (60%).
 
-## Page 1: BUILT 2026-10-26, awaiting Charlie's approval to push
+## Page 1: LIVE 2026-10-26 (pushed 0533405; verify_live 200, in sitemap and llms.txt, IndexNow 200)
 
 URL `/data/1960s-music-genres-by-year/` (slug switched to carry the approved
 focus keyword "1960s music genres"; the title and intro still say Radio Dial).
@@ -97,5 +97,4 @@ year-over-year genre share. Each gets its own spec line before building.
 
 ## Open
 
-1. Charlie's approval to push page 1 (nothing pushed yet).
-2. After push: `verify_live.py`, `indexnow_ping.py`, `link-map.md` rows to live.
+Next data page due November 2026 (one a month). Spec line first, Charlie's OK, then build.
