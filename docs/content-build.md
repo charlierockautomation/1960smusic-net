@@ -96,7 +96,7 @@ Live rows (1-70) are in [`docs/content-build-archive.md`](content-build-archive.
 | 82 | The Temptations bio | /blog/artists/the-temptations/ | artist-bio | motown-soul | live | The Temptations | y3KJ7d2qBoA |  |
 | 83 | My Girl | /blog/songs/my-girl-temptations/ | song-story | motown-soul | live | My Girl by The Temptations | y3KJ7d2qBoA |  |
 | 84 | Get Ready | /blog/songs/get-ready-temptations/ | song-story | motown-soul | live | Get Ready by The Temptations | mhsYOzdJjI0 |  |
-| 85 | Patsy Cline bio | /blog/artists/patsy-cline/ | artist-bio | country-60s | not started | Patsy Cline | YWKeuYcDAoo |  |
+| 85 | Patsy Cline bio | /blog/artists/patsy-cline/ | artist-bio | country-60s | live | Patsy Cline | YWKeuYcDAoo |  |
 | 86 | Crazy | /blog/songs/crazy-patsy-cline/ | song-story | country-60s | not started | Crazy by Patsy Cline | YWKeuYcDAoo |  |
 | 87 | I Fall to Pieces | /blog/songs/i-fall-to-pieces-patsy-cline/ | song-story | country-60s | not started | I Fall to Pieces | gEcZ8BlsJhI |  |
 | 88 | The Four Seasons bio | /blog/artists/the-four-seasons/ | artist-bio | pop-brill-building | not started | The Four Seasons | GzoIvwNqKpw | yt |
