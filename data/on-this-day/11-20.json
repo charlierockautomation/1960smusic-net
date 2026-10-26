@@ -1,0 +1,199 @@
+{
+  "date_label": "November 20",
+  "date_slug": "november-20",
+  "flagship": {
+    "category": "industry",
+    "headline": "Bob Dylan begins recording his debut album",
+    "summary_line_1": "<a href=\"/blog/artists/bob-dylan/\">Bob Dylan</a> recorded Talkin' New York at Columbia Studio A in New York City on November 20, 1961, the first day of sessions for his debut album, with John Hammond producing, per <a href=\"https://en.wikipedia.org/wiki/Talkin%27_New_York\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>.",
+    "summary_line_2": "He cut two versions that day, the second made the album Bob Dylan, and the clip below is that song.",
+    "youtube_id": "rxIJnZQmTt4",
+    "image": null,
+    "year": 1961
+  },
+  "years": [
+    {
+      "year": 1969,
+      "events": [
+        {
+          "id": "ev-funky-drummer",
+          "category": "industry",
+          "headline": "James Brown records Funky Drummer in Cincinnati",
+          "summary_line_1": "James Brown recorded Funky Drummer at King Studios in Cincinnati on November 20, 1969, with Clyde Stubblefield on drums, per <a href=\"https://en.wikipedia.org/wiki/Funky_Drummer\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>.",
+          "summary_line_2": "King released it as a two-part single in March 1970, it reached No. 51 on the Hot 100, and the clip below is the track whose drum break became one of the most sampled in recorded music.",
+          "youtube_id": "rMWzjLl7Keo",
+          "image": null,
+          "internal_link": null,
+          "external_link": [
+            "Wikipedia",
+            "https://en.wikipedia.org/wiki/Funky_Drummer"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1968,
+      "events": [
+        {
+          "id": "ev-monkees-head-la",
+          "category": "culture",
+          "headline": "The Monkees' Head opens in Los Angeles",
+          "summary_line_1": "The <a href=\"/blog/artists/the-monkees/\">Monkees</a> film Head began its regular run at the Vogue Theatre in Los Angeles on November 20, 1968, a day after its West Coast premiere and two weeks after the New York premiere on November 6, per the <a href=\"https://catalog.afi.com/Catalog/MovieDetails/21458\" target=\"_blank\" rel=\"noopener\">AFI Catalog</a>.",
+          "summary_line_2": "Bob Rafelson directed it and co-wrote it with Jack Nicholson, and the clip below is Porpoise Song, which reached No. 62 on the Hot 100.",
+          "youtube_id": "sb4LMEGQBSs",
+          "image": null,
+          "internal_link": {
+            "text": "Monkees",
+            "url": "/blog/artists/the-monkees/"
+          },
+          "external_link": [
+            "AFI Catalog",
+            "https://catalog.afi.com/Catalog/MovieDetails/21458"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1966,
+      "events": [
+        {
+          "id": "ev-cabaret-broadway",
+          "category": "culture",
+          "headline": "Cabaret opens on Broadway",
+          "summary_line_1": "Kander and Ebb's musical Cabaret opened at the Broadhurst Theatre on Broadway on November 20, 1966, directed by Harold Prince, per <a href=\"https://www.ibdb.com/broadway-production/cabaret-3348\" target=\"_blank\" rel=\"noopener\">IBDB</a>.",
+          "summary_line_2": "It won eight Tony Awards including Best Musical, and the clip below is Willkommen, sung by Joel Grey as the Emcee, from the original Broadway cast recording.",
+          "youtube_id": "-NVnZw1d7A0",
+          "image": null,
+          "internal_link": null,
+          "external_link": [
+            "IBDB",
+            "https://www.ibdb.com/broadway-production/cabaret-3348"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1965,
+      "events": [
+        {
+          "id": "ev-symphony-no1",
+          "category": "chart",
+          "headline": "The Supremes reach No. 1 with I Hear a Symphony",
+          "summary_line_1": "The <a href=\"/blog/artists/the-supremes/\">Supremes</a> had I Hear a Symphony at No. 1 on the Billboard Hot 100 dated November 20, 1965, the first of two weeks on top, per the <a href=\"https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1965\" target=\"_blank\" rel=\"noopener\">Wikipedia list of Hot 100 number ones of 1965</a>.",
+          "summary_line_2": "It replaced the Rolling Stones' Get Off of My Cloud, it was the group's sixth No. 1, and the clip below is the Motown single.",
+          "youtube_id": "aKG89jm79kc",
+          "image": null,
+          "internal_link": {
+            "text": "Supremes",
+            "url": "/blog/artists/the-supremes/"
+          },
+          "external_link": [
+            "Wikipedia list of Hot 100 number ones of 1965",
+            "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1965"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1964,
+      "events": [
+        {
+          "id": "ev-lennon-not-only-but-also",
+          "category": "broadcast",
+          "headline": "John Lennon films a sequence for Not Only... But Also",
+          "summary_line_1": "John Lennon filmed part of a sequence for Dudley Moore's forthcoming TV show Not Only... But Also early on November 20, 1964, per the <a href=\"https://www.beatlesbible.com/1964/11/20/\" target=\"_blank\" rel=\"noopener\">Beatles Bible</a>.",
+          "summary_line_2": "I Feel Fine, written by Lennon, came out in the US three days later on November 23, and the clip below is that single.",
+          "youtube_id": "WrAV5EVI4tU",
+          "image": null,
+          "internal_link": {
+            "text": "Lennon",
+            "url": "/blog/artists/the-beatles/"
+          },
+          "external_link": [
+            "Beatles Bible",
+            "https://www.beatlesbible.com/1964/11/20/"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1963,
+      "events": [
+        {
+          "id": "ev-beatles-manchester-pathe",
+          "category": "concert",
+          "headline": "The Beatles play Manchester as Pathé films the show",
+          "summary_line_1": "The <a href=\"/blog/artists/the-beatles/\">Beatles</a> played two shows at the ABC Cinema in Manchester on Wednesday, November 20, 1963, the 16th date of their autumn tour, and Pathé filmed the first, per the <a href=\"https://beatlesbible.com/1963/11/20/live-abc-cinema-manchester\" target=\"_blank\" rel=\"noopener\">Beatles Bible</a>.",
+          "summary_line_2": "The footage of She Loves You and Twist and Shout became the short The Beatles Come To Town, and the clip below is <a href=\"/blog/songs/she-loves-you-beatles/\">She Loves You</a>.",
+          "youtube_id": "nGbWU8S3vzs",
+          "image": null,
+          "internal_link": {
+            "text": "Beatles",
+            "url": "/blog/artists/the-beatles/"
+          },
+          "external_link": [
+            "Beatles Bible",
+            "https://beatlesbible.com/1963/11/20/live-abc-cinema-manchester"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1962,
+      "events": [
+        {
+          "id": "ev-beatles-southport",
+          "category": "concert",
+          "headline": "The Beatles play the Floral Hall in Southport",
+          "summary_line_1": "The <a href=\"/blog/artists/the-beatles/\">Beatles</a> played two houses at the Floral Hall on the Promenade in Southport, Lancashire, on Tuesday, November 20, 1962, their second appearance there, per the <a href=\"https://www.beatlesbible.com/1962/11/20/live-floral-hall-southport-2/\" target=\"_blank\" rel=\"noopener\">Beatles Bible</a>.",
+          "summary_line_2": "Love Me Do was their current single, and the clip below is the song.",
+          "youtube_id": "0pGOFX1D_jg",
+          "image": null,
+          "internal_link": {
+            "text": "Beatles",
+            "url": "/blog/artists/the-beatles/"
+          },
+          "external_link": [
+            "Beatles Bible",
+            "https://www.beatlesbible.com/1962/11/20/live-floral-hall-southport-2/"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 1961,
+      "events": [
+        {
+          "id": "ev-dylan-debut-session",
+          "category": "industry",
+          "headline": "Bob Dylan begins recording his debut album",
+          "summary_line_1": "<a href=\"/blog/artists/bob-dylan/\">Bob Dylan</a> recorded Talkin' New York at Columbia Studio A in New York City on November 20, 1961, the first day of sessions for his debut album, with John Hammond producing, per <a href=\"https://en.wikipedia.org/wiki/Talkin%27_New_York\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>.",
+          "summary_line_2": "He cut two versions that day, the second made the album Bob Dylan, and the clip below is that song.",
+          "youtube_id": "rxIJnZQmTt4",
+          "image": null,
+          "internal_link": {
+            "text": "Bob Dylan",
+            "url": "/blog/artists/bob-dylan/"
+          },
+          "external_link": [
+            "Wikipedia",
+            "https://en.wikipedia.org/wiki/Talkin%27_New_York"
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "value": 8,
+      "label": "verified events"
+    },
+    {
+      "value": 5,
+      "label": "event categories"
+    },
+    {
+      "value": 8,
+      "label": "watchable clips"
+    }
+  ]
+}
