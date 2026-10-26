@@ -92,7 +92,7 @@
   </url>
   <url>
     <loc>https://1960smusic.net/blog/</loc>
-    <lastmod>2026-10-25</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -284,7 +284,7 @@
   </url>
   <url>
     <loc>https://1960smusic.net/blog/on-this-day/</loc>
-    <lastmod>2026-10-25</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -363,6 +363,12 @@
   <url>
     <loc>https://1960smusic.net/blog/on-this-day/november-20/</loc>
     <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://1960smusic.net/blog/on-this-day/november-21/</loc>
+    <lastmod>2026-10-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
