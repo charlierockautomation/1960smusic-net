@@ -26,6 +26,7 @@ TYPE_LABELS = {
     "song-story": "Song Story",
     "trending": "Trending",
     "on-this-day": "On This Day",
+    "data-page": "Data",
 }
 
 TYPE_ORDER = ["genre-hub", "artist-bio", "song-story", "trending", "on-this-day"]

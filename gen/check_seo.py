@@ -90,6 +90,13 @@ def check_year_links(text, page_type, path, errors):
             for y in want:
                 if str(y) not in years:
                     errors.append(f"genre hub must link its key year page /1960s/{y}/")
+    elif page_type == "data page":
+        if not years:
+            errors.append("data page must link at least one /1960s/<year>/ page")
+        if not re.search(r'href="/blog/genres/[a-z0-9-]+/"', text):
+            errors.append("data page must link at least one live genre hub")
+        if not re.search(r"\bour dataset\b", text, flags=re.I):
+            errors.append('data page must frame its numbers as "our dataset" (never as the whole decade)')
     elif page_type == "on this day":
         for y, body in re.findall(r'<section id="y(\d{4})">(.*?)</section>', text, flags=re.S):
             if f'href="/1960s/{y}/"' not in body:

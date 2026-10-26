@@ -32,6 +32,9 @@ BASE = "https://1960smusic.net"
 TODAY = date.today().isoformat()
 
 SKIP_DIRS = {"gen", "docs", "worker", "assets", ".git", ".serena", "node_modules", "data"}
+# /data/ holds the raw JSON files, but /data/ (index) and /data/<slug>/ are
+# real pages (Phase 3 data-page type). Skip data/*.json etc., not those pages.
+PAGE_DIRS_UNDER_SKIPPED = {"data"}
 
 # (path prefix or exact path) -> (changefreq, priority); first match wins.
 RULES = [
@@ -39,6 +42,7 @@ RULES = [
     ("/blog/", ("weekly", "0.9")),
     ("/1960s/", ("weekly", "0.7")),
     ("/best-60s-songs/", ("monthly", "0.8")),
+    ("/data/", ("monthly", "0.7")),
     ("/blog/genres/", ("weekly", "0.7")),
     ("/blog/artists/", ("weekly", "0.7")),
     ("/blog/songs/", ("weekly", "0.7")),
@@ -50,7 +54,7 @@ RULES = [
     ("/terms-of-use/", ("yearly", "0.2")),
     ("/tools/", ("monthly", "0.6")),
 ]
-EXACT = {"/", "/blog/", "/1960s/", "/best-60s-songs/", "/blog/genres/",
+EXACT = {"/", "/blog/", "/1960s/", "/best-60s-songs/", "/data/", "/blog/genres/",
          "/blog/artists/", "/blog/songs/", "/blog/trending/",
          "/blog/on-this-day/", "/about/", "/contact/", "/privacy-policy/",
          "/terms-of-use/"}
@@ -63,6 +67,8 @@ def freq_pri(loc):
                 return val
     if re.match(r"^/1960s/\d{4}/$", loc):
         return ("monthly", "0.7")
+    if loc.startswith("/data/"):
+        return ("monthly", "0.7")  # data pages
     if loc.startswith("/blog/"):
         return ("monthly", "0.8")  # individual posts
     if loc.startswith("/tools/"):
@@ -100,10 +106,16 @@ def discover():
     for dirpath, dirs, files in os.walk(ROOT):
         rel_dir = os.path.relpath(dirpath, ROOT)
         top = rel_dir.split(os.sep)[0]
-        if top in SKIP_DIRS:
+        if top in SKIP_DIRS and top not in PAGE_DIRS_UNDER_SKIPPED:
             dirs[:] = []
             continue
-        dirs[:] = [d for d in dirs if not (rel_dir == "." and d in SKIP_DIRS)]
+        dirs[:] = [d for d in dirs if not (rel_dir == "." and d in SKIP_DIRS and d not in PAGE_DIRS_UNDER_SKIPPED)]
+        if top in PAGE_DIRS_UNDER_SKIPPED:
+            # only data/index.html and data/<slug>/index.html count; the JSON
+            # subtrees (data/on-this-day, data/crosswords) have no index.html
+            if rel_dir.count(os.sep) > 1:
+                dirs[:] = []
+                continue
         if "index.html" not in files:
             continue
         rel = os.path.normpath(os.path.join(rel_dir, "index.html"))

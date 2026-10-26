@@ -16,7 +16,7 @@ Full rules: docs/writing-standard.md. Checks enforced here (2026-08-16):
     `<!-- TIKTOK-EXEMPT: ... -->` comment documenting why no verifiable
     TikTok source exists for that story
   - word count within range for the page type:
-      artist bio: 800-1200, song story: 600-900, genre hub: 1200-1800,
+      artist bio: 800-1200, song story: 600-900, genre hub: 1200-1800, data page: 600-1200,
       trending: 400-700
   - no banned filler phrases / AI-cliche words
   - one sentence per line: no multi-sentence paragraph without a <br> break
@@ -93,6 +93,10 @@ WORD_COUNT_RANGES = {
     # line per song is ~2,500 words by itself, so the range sits above the
     # prose-only types and bounds table plus surrounding prose together.
     "list page": (2800, 4200),
+    # /data/<topic-slug>/ (Phase 3 task 2): a count table plus prose reading
+    # of it, framed as "our dataset". Shorter than a song story's research
+    # load but long enough to explain the method and the caveats.
+    "data page": (600, 1200),
 }
 
 EM_DASH = "—"
@@ -121,6 +125,8 @@ def detect_type(text, path):
         return "year page"
     if "/best-60s-songs/" in norm:
         return "list page"
+    if re.search(r"/data/[a-z0-9-]+/index\.html$", norm):
+        return "data page"
     return None
 
 
@@ -442,7 +448,7 @@ def check_site():
     except (OSError, ValueError):
         posted = set()
     for loc in sorted(want):
-        if re.match(r"^/blog/(artists|songs|genres|trending|on-this-day)/[^/]+/$", loc) and loc not in posted:
+        if re.match(r"^/(blog/(artists|songs|genres|trending|on-this-day)|data)/[^/]+/$", loc) and loc not in posted:
             errors.append(f"{loc} is indexable on disk but not in data/posts.json (add the entry, or mark the page <!-- DRAFT -->)")
     import generate_llms_txt as g
     sections = []

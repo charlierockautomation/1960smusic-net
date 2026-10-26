@@ -37,6 +37,7 @@ SECTIONS = [
     ("Tools", None),
     ("Year Guides", "year-guide"),
     ("Best 60s Songs", "best-songs"),
+    ("Data", "data-page"),
     ("About the Author", "author"),
     ("Genre Hubs", "genre-hub"),
     ("Artists", "artist-bio"),
