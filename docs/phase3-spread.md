@@ -61,15 +61,15 @@ framed as "our dataset", never as the whole 1960s. Full spec:
   2026-10-26. Rebuild with `gen/build_data_page_radio.py`,
   verify with `gen/test_data_page_radio.py`.
 
-### Cleanup (not urgent)
-- Review the `/1960s/1960/` and `/1960s/1969/` playlists for songs released
-  the year before, to match the release-year rule used for the radio list
-  (`gen/radio_expansion_2026-10-26.json`). Known 1960 cases: Theme from A
-  Summer Place, Running Bear, Teen Angel, El Paso, Handy Man, Why, Sweet
-  Nothin's, Sixteen Reasons, What in the World's Come Over You. Known 1969
-  cases: Everyday People, Dizzy, Build Me Up Buttercup, One, Hair, Grazing in
-  the Grass, Proud Mary. Check each against its Wikipedia infobox first.
-  Playlist edits are substantive (bump Updated) and need their own approval.
+### Cleanup: done 2026-10-26 (a14233a)
+- Checked the 1960 and 1969 candidates against Wikipedia infoboxes: all 9
+  (1960) were released in 1959; Everyday People, Dizzy, Build Me Up Buttercup
+  were released late 1968; One, Grazing in the Grass, Hair stay (1969);
+  Proud Mary's sources disagree and it stays. Decision (Charlie): keep the
+  chart-year framing, no songs removed. Every year page 1960-1969 now has a
+  two-line intro note and a "Why are some songs from late <prior year>..."
+  FAQ entry (visible plus FAQPage JSON-LD), with verified examples. Updated
+  bumped to 2026-10-26. Examples are a shortlist, not exhaustive.
 
 ### 3. Weekly Trending
 Cloud routine `trig_01GCntYZh1oWceGXGBxqYKHA`, Mondays 14:00 UTC, pushes a
