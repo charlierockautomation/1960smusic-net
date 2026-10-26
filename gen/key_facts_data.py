@@ -490,6 +490,13 @@ ARTISTS = {
         ("Label", "Sun (1955-1958), Columbia (from 1958)"),
         ("Peak chart hits", "\"Ring of Fire\" (US country No. 1, Hot 100 No. 17, 1963); \"A Boy Named Sue\" (Hot 100 No. 2, US country No. 1, 1969)"),
     ]),
+    "patsy-cline": dict(years=[1961, 1962, 1963], rows=[
+        ("Origin", "Winchester, Virginia"),
+        ("Born", "September 8, 1932"),
+        ("Genre", "Country (Nashville Sound & Bakersfield)"),
+        ("Label", "4 Star (1954-1960), Decca (from 1960)"),
+        ("Peak chart hits", "\"I Fall to Pieces\" (US country No. 1, Hot 100 No. 12, 1961); \"Crazy\" (US country No. 2, Hot 100 No. 9, 1961); \"She's Got You\" (US country No. 1, 1962)"),
+    ]),
     "the-monkees": dict(years=[1966, 1967], rows=[
         ("Origin", "Los Angeles, California"),
         ("Active", "1966-1970, with later reunions"),

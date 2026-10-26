@@ -1246,6 +1246,15 @@
       "genre": "motown-soul"
     },
     {
+      "id": "patsy-cline",
+      "title": "Patsy Cline: Crazy, the Nashville Sound and 1963",
+      "slug": "/blog/artists/patsy-cline/",
+      "type": "artist-bio",
+      "description": "Patsy Cline went from Winchester, Virginia to Decca stardom with I Fall to Pieces and Crazy in 1961, then died in a plane crash on March 5, 1963, at 30.",
+      "date": "2026-10-26",
+      "genre": "country-60s"
+    },
+    {
       "id": "johnny-cash",
       "title": "Johnny Cash: From Ring of Fire to Folsom Prison",
       "slug": "/blog/artists/johnny-cash/",
