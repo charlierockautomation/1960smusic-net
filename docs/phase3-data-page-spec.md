@@ -1,8 +1,7 @@
-# Phase 3 Data Page Spec (page 1 approved; keyword awaiting Charlie's OK)
+# Phase 3 Data Page Spec (page 1 built, awaiting push approval)
 
 Spec for the `data-page` type (`/data/<topic-slug>/`, one a month). Wiring is
-built and committed (20e36a0). Source list expanded (50f4c29). Page 1 is NOT
-built: the build waits for Charlie's OK on the focus keyword.
+built and committed (20e36a0). Source list expanded (50f4c29). Page 1 built locally, not pushed.
 
 ## Wiring (built, committed 20e36a0)
 
@@ -40,26 +39,28 @@ garage-surf-rock 53, psychedelic-rock 53. Fields: `title`, `artist`, `year`,
 Psychedelic rock: 1966 7, 1967 32, 1968 11, 1969 3, nothing earlier; 1967
 holds 32 of its 53 songs (60%).
 
-## Page 1 (approved by Charlie 2026-10-26)
+## Page 1: BUILT 2026-10-26, awaiting Charlie's approval to push
 
-- URL: `/data/radio-dial-songs-by-year-and-genre/` as approved. See keyword
-  note: the writing standard wants the focus keyword in the slug.
-- Framing: what is on the Radio Dial, from our dataset, not the whole decade.
-  Primary internal link goes to `/tools/radio/`.
-- Headline number: 556 unique songs (557 rows). One-line note that Wild
-  Thing is counted in both British Invasion and Garage & Surf Rock as listed
-  on the dial. The script recounts both numbers at build time.
-- Table: 10 years x 8 genres, raw counts with the genre's percentage share of
-  that year next to each count. Primary genre only, stated on the page.
-  Year rows link `/1960s/<year>/`; genre columns link the 8 hubs.
-- Analysis leads with psychedelic rock (nothing before 1966, then 1967), then
-  genre leaders, zero cells, thin years (every year here is >= 43). Any year
-  under 20 songs is called out as a small sample (none today).
-- Generated, not typed: `gen/build_data_page_radio.py` writes table, chart and
-  prose figures from the JSON files; a test fails if page numbers drift.
-- Required by the gates: FAQ 4-6, TOC, byline, self-hosted chart image with
-  real alt, Article JSON-LD with image, og:image, 600-1200 words, no chart
-  positions or "the 1960s had" claims.
+URL `/data/1960s-music-genres-by-year/` (slug switched to carry the approved
+focus keyword "1960s music genres"; the title and intro still say Radio Dial).
+Built by `gen/build_data_page_radio.py` from the radio-eligible JSON; checked
+by `gen/test_data_page_radio.py` (table cells, shares, totals, links) and
+`gen/check_article.py` (PASS, 954 words). Self-hosted chart PNG is the
+`og:image`.
+
+- Structure: H1, lead (556 unique songs, "our dataset", Radio Dial link),
+  chart, TOC, psychedelic rock lead insight (no songs 1960 to 1965, 7 in 1966,
+  32 of its 53 in 1967, 38% of that year, 3 by 1969), the 10 x 8 table (count
+  plus share of year, year rows link `/1960s/<year>/`, genre columns link the
+  hubs), "What Each Genre Means" (8 H3s, each hub-linked: one paraphrased
+  sentence from `genres.json` plus one dataset sentence), "How We Counted"
+  (primary genre only, Wild Thing counted in both stations, 557 rows / 556
+  unique), 4-question FAQ, closing with the keyword.
+- Small-sample rule: the script adds a note automatically for any year under
+  20 songs. None today (minimum 43).
+- Wiring touched while building: `validate_jsonld.py --all` skipped all of
+  `data/`, now covers `/data/` pages; `/data/` index live (DRAFT removed) with
+  the page's card; `/1960s/` hub has a Data card; `posts.json` entry added.
 
 ## Focus keyword research (DataForSEO, run 2026-10-26)
 
@@ -84,13 +85,9 @@ Top results, "1960s songs" (US): Spotify/Apple playlists, SiriusXM list,
 YouTube videos, Wikipedia year-end list, Pitchfork, Gold Standard Song List.
 Playlist and list intent, and `/best-60s-songs/` already targets it.
 
-Recommendation: "1960s music genres". Real demand (720 US), KD 0, weak
-non-specialist competition, and a count-by-genre page matches the intent.
-Reject "1960s songs": 20x the volume but a list/playlist intent we already
-serve, so a data page would cannibalize `/best-60s-songs/`. The by-year/
-by-genre long tails have no measurable volume; use them as secondary terms.
-Open: with this keyword the slug should contain it, e.g.
-`/data/1960s-music-genres-by-year/` (replaces the approved slug if OK'd).
+Decision (Charlie, 2026-10-26): focus keyword "1960s music genres"; slug
+`/data/1960s-music-genres-by-year/`. "1960s songs" rejected: list intent,
+already served by `/best-60s-songs/`.
 
 ## Later pages (same two rules: fields that exist, "our dataset")
 
@@ -98,9 +95,7 @@ Dec onward, candidates: artists most often on the dial; songs by `mood_tags`,
 `difficulty` or `tiktok_viral` from `songs.json` (count field coverage first);
 year-over-year genre share. Each gets its own spec line before building.
 
-## Decisions needed from Charlie
+## Open
 
-1. OK the focus keyword "1960s music genres" (or pick another).
-2. Slug: keep `/data/radio-dial-songs-by-year-and-genre/` (needs a documented
-   exception to the keyword-in-slug rule) or switch to
-   `/data/1960s-music-genres-by-year/`.
+1. Charlie's approval to push page 1 (nothing pushed yet).
+2. After push: `verify_live.py`, `indexnow_ping.py`, `link-map.md` rows to live.

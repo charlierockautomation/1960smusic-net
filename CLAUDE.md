@@ -169,8 +169,8 @@ this series (see its own header for the current workflow).
 `/blog/trending/` (1960s songs/artists resurging in modern culture): same
 pipeline as above, plus a live TikTok embed, a real-photo feature image
 (never AI-generated), 400-700 words, and at least one `/1960s/<year>/`
-link. Full rules: @docs/trending-posts.md. Charlie requests each post
-individually; there is no rotation queue.
+link. Full rules: @docs/trending-posts.md. Weekly cloud routine (Mondays
+14:00 UTC) drafts a branch; Charlie approves before merge; no rotation queue.
 Data pages (`/data/<slug>/`, type `data-page`, one a month, "our dataset" framing): @docs/phase3-data-page-spec.md
 
 ## No Subagents, Site-Wide

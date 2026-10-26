@@ -1620,6 +1620,15 @@
       "description": "Get Ready by The Temptations was Smokey Robinson's last song for the group. See how it topped the R&B chart, then became a pop hit for Rare Earth.",
       "date": "2026-10-25",
       "genre": "motown-soul"
+    },
+    {
+      "id": "1960s-music-genres-by-year",
+      "title": "1960s Music Genres by Year: What Our Radio Dial Holds",
+      "slug": "/data/1960s-music-genres-by-year/",
+      "type": "data-page",
+      "description": "1960s music genres by year, counted across 556 songs on our Radio Dial. See where each genre peaks, when psychedelic rock appears, and how the mix shifts.",
+      "date": "2026-10-26",
+      "genre": null
     }
   ]
 }

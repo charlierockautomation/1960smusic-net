@@ -29,6 +29,9 @@ Sitemap: https://1960smusic.net/sitemap.xml
 ## Best 60s Songs
 - [Best 60s Songs: 100 Playable Hits From 1960 to 1969](https://1960smusic.net/best-60s-songs/): The best 60s songs: 100 playable hits from 1960 to 1969 across Motown, British Invasion, folk rock, surf and country, each with a why-it-matters line.
 
+## Data
+- [1960s Music Genres by Year: What Our Radio Dial Holds](https://1960smusic.net/data/1960s-music-genres-by-year/): 1960s music genres by year, counted across 556 songs on our Radio Dial. See where each genre peaks, when psychedelic rock appears, and how the mix shifts.
+
 ## About the Author
 - [About Charlie](https://1960smusic.net/about/charlie/): Meet Charlie, the retired Alberta music lover who researches, writes and fact-checks every page on 1960smusic.net.
 

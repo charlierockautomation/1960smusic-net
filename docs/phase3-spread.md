@@ -17,7 +17,7 @@ Status values: `not started` · `in progress` · `blocked (reason)` · `live`
 | # | Task | Cadence | Status |
 |---|---|---|---|
 | 1 | Queue rotation: `content-build.md` rows 85+ | 3-4 pages/week | not started |
-| 2 | Monthly original-data page (`data-page` type, `/data/<topic-slug>/`) | 1/month | in progress (keyword OK needed) |
+| 2 | Monthly original-data page (`data-page` type, `/data/<topic-slug>/`) | 1/month | in progress (page 1 built, not pushed) |
 | 3 | Weekly Trending post (Monday routine) | 1/week | not started |
 | 4 | Weekly refresh of one existing page | 1/week | not started |
 
@@ -46,7 +46,7 @@ inside a week so a single genre doesn't fill a whole week's 3-4 pages.
 Minor notes, no action taken: row 96 (Small Faces) is a lone song story with
 no bio row; rows 101-102 and 114-115 are two-row clusters.
 
-### 2. Monthly original-data page (wiring built, list expanded, keyword awaiting OK)
+### 2. Monthly original-data page (page 1 built, awaiting push approval)
 New page type `data-page`, one per month, built only from our own dataset and
 framed as "our dataset", never as the whole 1960s. Full spec:
 `docs/phase3-data-page-spec.md`. Status 2026-10-26:
@@ -56,11 +56,20 @@ framed as "our dataset", never as the whole 1960s. Full spec:
   support, DRAFT `/data/` index, `link-map.md` row. CLAUDE.md has a pointer.
 - Source list expanded (50f4c29): radio-eligible now 557 rows, every year
   43+ songs and every genre 53+. Daily pool check re-run.
-- Page 1 approved: Radio Dial songs by year and genre, genre share next to
-  counts, leads with psychedelic rock, Wild Thing counted in both genres
-  with a note. Built only after Charlie OKs the focus keyword.
-- Keyword research done in DataForSEO: recommend "1960s music genres" (US
-  720/mo, CA 90, KD 0). Slug question open. Details in the spec.
+- Page 1 built 2026-10-26: `/data/1960s-music-genres-by-year/` (keyword
+  "1960s music genres" approved, 954 words, check_article.py PASS). Not
+  pushed; Charlie approves first. Rebuild with `gen/build_data_page_radio.py`,
+  verify with `gen/test_data_page_radio.py`.
+
+### Cleanup (not urgent)
+- Review the `/1960s/1960/` and `/1960s/1969/` playlists for songs released
+  the year before, to match the release-year rule used for the radio list
+  (`gen/radio_expansion_2026-10-26.json`). Known 1960 cases: Theme from A
+  Summer Place, Running Bear, Teen Angel, El Paso, Handy Man, Why, Sweet
+  Nothin's, Sixteen Reasons, What in the World's Come Over You. Known 1969
+  cases: Everyday People, Dizzy, Build Me Up Buttercup, One, Hair, Grazing in
+  the Grass, Proud Mary. Check each against its Wikipedia infobox first.
+  Playlist edits are substantive (bump Updated) and need their own approval.
 
 ### 3. Weekly Trending
 Cloud routine `trig_01GCntYZh1oWceGXGBxqYKHA`, Mondays 14:00 UTC, pushes a
