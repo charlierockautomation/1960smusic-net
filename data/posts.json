@@ -1593,7 +1593,7 @@
       "genre": null,
       "seq": 80
     },
-  {
+    {
       "id": "on-this-day-november-20",
       "title": "On This Day: November 20 in 1960s Music",
       "slug": "/blog/on-this-day/november-20/",
@@ -1603,7 +1603,7 @@
       "genre": null,
       "seq": 81
     },
-  {
+    {
       "id": "on-this-day-november-21",
       "title": "On This Day: November 21 in 1960s Music",
       "slug": "/blog/on-this-day/november-21/",
@@ -1613,7 +1613,7 @@
       "genre": null,
       "seq": 82
     },
-  {
+    {
       "id": "on-this-day-november-22",
       "title": "On This Day: November 22 in 1960s Music",
       "slug": "/blog/on-this-day/november-22/",
@@ -1622,6 +1622,16 @@
       "date": "2026-10-26",
       "genre": null,
       "seq": 83
+    },
+    {
+      "id": "on-this-day-november-24",
+      "title": "On This Day: November 24 in 1960s Music",
+      "slug": "/blog/on-this-day/november-24/",
+      "type": "on-this-day",
+      "description": "6 verified 1960s music events from November 24: Strawberry Fields Forever sessions begin, Hello, Goodbye is released, and the Who start a Marquee residency.",
+      "date": "2026-10-27",
+      "genre": null,
+      "seq": 85
     },
     {
       "id": "the-temptations",
