@@ -5,6 +5,7 @@ types this site uses, plus cross-checks against the visible page.
 
 Usage: python3 gen/validate_jsonld.py <index.html> [...]
        python3 gen/validate_jsonld.py --all      (every index.html on the site)
+       python3 gen/validate_jsonld.py --gate     (publish gate, see gate())
 Exit 1 if any ERROR. WARN = recommended property missing / soft mismatch.
 """
 import html
@@ -151,6 +152,53 @@ def validate(path):
     return types, errs, warns
 
 
+# "/" has no parent to crumb to (a one-item BreadcrumbList is invalid)
+GATE_EXEMPT = {"/", "/about/", "/contact/", "/privacy-policy/", "/terms-of-use/"}
+# article pages: a slug under a content section, plus the list page
+ARTICLE_URL = re.compile(r"^/(blog/(artists|songs|genres|trending|on-this-day)|1960s|data)/[^/]+/$|^/best-60s-songs/$")
+LISTING_URLS = {"/blog/", "/blog/artists/", "/blog/genres/", "/blog/songs/", "/blog/on-this-day/", "/blog/trending/", "/tools/"}
+
+
+def gate():
+    """Publish gate: every sitemap page except GATE_EXEMPT has valid JSON-LD
+    with a BreadcrumbList; article pages also need Article + FAQPage; the six
+    blog listings need CollectionPage + ItemList matching their linked cards."""
+    with open(os.path.join(ROOT, "sitemap.xml"), encoding="utf-8") as f:
+        urls = re.findall(r"<loc>https://1960smusic\.net(/[^<]*)</loc>", f.read())
+    bad = []
+    for u in urls:
+        if u in GATE_EXEMPT:
+            continue
+        path = os.path.join(ROOT, u.strip("/"), "index.html")
+        if not os.path.exists(path):
+            bad.append((u, ["sitemap URL has no index.html"]))
+            continue
+        types, errs, _ = validate(path)
+        errs = list(errs)
+        need_t = ["BreadcrumbList"]
+        if ARTICLE_URL.match(u):
+            need_t += ["Article", "FAQPage"]
+        if u in LISTING_URLS:
+            need_t += ["CollectionPage", "ItemList"]
+        errs += [f"missing {t} JSON-LD" for t in need_t if t not in types]
+        if u in LISTING_URLS:
+            text = open(path, encoding="utf-8").read()
+            ld = text[text.find("<!-- ld:start -->"):text.find("<!-- ld:end -->")]
+            body = text[text.find("</head>"):]
+            listed = re.findall(r'"url": "https://1960smusic\.net(/[^"]+)"', ld)[1:]
+            linked = re.findall(r'<a class="genre-card" href="(/(?:blog|tools)/[^"]+)"', body)
+            if listed != linked:
+                errs.append(f"ItemList ({len(listed)}) != cards linked on page ({len(linked)}); rerun build_listings.py")
+        if errs:
+            bad.append((u, errs))
+    for u, errs in bad:
+        print(u)
+        for e in errs:
+            print(f"  GATE FAIL: {e}")
+    print(f"jsonld gate: {len(urls) - len(GATE_EXEMPT & set(urls))} pages checked, " + (f"{len(bad)} FAILED" if bad else "all pass"))
+    return 1 if bad else 0
+
+
 def main(paths, quiet=False):
     bad = False
     for p in paths:
@@ -172,6 +220,8 @@ def main(paths, quiet=False):
 
 if __name__ == "__main__":
     args = sys.argv[1:]
+    if args == ["--gate"]:
+        sys.exit(gate())
     quiet = args == ["--all"]
     if quiet:
         args = sorted(

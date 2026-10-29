@@ -172,7 +172,10 @@ from the site).
 | /blog/songs/crazy-patsy-cline/ | song story | live | https://1960smusic.net/blog/songs/crazy-patsy-cline/ | /blog/artists/patsy-cline/, /blog/genres/country-60s/, / (homepage) | /1960s/1961/, /best-60s-songs/ |
 | /blog/songs/i-fall-to-pieces-patsy-cline/ | song story | live | https://1960smusic.net/blog/songs/i-fall-to-pieces-patsy-cline/ | /blog/artists/patsy-cline/, /blog/genres/country-60s/, / (homepage) | /blog/songs/crazy-patsy-cline/, /1960s/1961/, /best-60s-songs/ |
 | /blog/artists/the-four-seasons/ | artist bio | live | https://1960smusic.net/blog/artists/the-four-seasons/ | /blog/genres/pop-brill-building/, / (homepage) | /blog/artists/the-beatles/, /1960s/1962/, /1960s/1963/, /1960s/1964/, /1960s/1966/, /1960s/1967/, playable singles table (docs/singles-table.md) |
+| /tools/ | tools index | live | https://1960smusic.net/tools/ | / (homepage) | /tools/random-song/, /tools/playlist-builder/, /tools/trivia/, /tools/quiz/, /tools/radio/, /tools/daily/, /tools/60s-music-crossword/ |
 
 2026-10-29: renamed the Herman's Hermits artist page and both song pages to the single-n spelling (hermans-hermits); old double-n URLs 301 via `_redirects`.
 
 2026-10-29: playable singles table (docs/singles-table.md) now also on the-four-seasons, patsy-cline, frank-sinatra, johnny-cash, the-monkees, simon-and-garfunkel, the-supremes artist pages; Monkees/Sinatra/Cash song-page IDs swapped to official uploads. No link changes.
+
+2026-10-29: schema fix pass. BreadcrumbList on OTD oct-19/20 and 7 tool pages; CollectionPage/ItemList/BreadcrumbList on the six blog listings and new /tools/ index (built by `gen/build_listings.py` / `gen/build_tools_index.py`); `validate_jsonld.py --gate` added to publish_prep. Tool pages and homepage tools card now link /tools/.
