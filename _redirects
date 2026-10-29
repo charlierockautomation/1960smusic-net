@@ -8,6 +8,10 @@
 /privacy-policy.html /privacy-policy/ 301
 /terms-of-use /terms-of-use/ 301
 /terms-of-use.html /terms-of-use/ 301
+# 2026-10-29 slug rename (old double-n spelling), explicit single-hop 301s above the :slug rules
+/blog/artists/hermanns-hermits/ /blog/artists/hermans-hermits/ 301
+/blog/songs/mrs-brown-youve-got-a-lovely-daughter-hermanns-hermits/ /blog/songs/mrs-brown-youve-got-a-lovely-daughter-hermans-hermits/ 301
+/blog/songs/im-henry-the-viii-i-am-hermanns-hermits/ /blog/songs/im-henry-the-viii-i-am-hermans-hermits/ 301
 /blog/on-this-day/:slug /blog/on-this-day/:slug/ 301
 /blog/songs/:slug /blog/songs/:slug/ 301
 /blog/artists/:slug /blog/artists/:slug/ 301

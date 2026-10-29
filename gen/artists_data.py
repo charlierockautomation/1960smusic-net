@@ -16,7 +16,7 @@ ARTISTS = [
      "Gritty R&B-driven group fronted by Eric Burdon, best known for the transatlantic No. 1 'House of the Rising Sun'."),
     ("the-dave-clark-five", "The Dave Clark Five", ["british-invasion"], "1958\u20131970", "Tottenham, London, England",
      "Drummer-led beat group whose stomping 'Tottenham Sound' briefly rivaled The Beatles and made a record number of Ed Sullivan Show appearances."),
-    ("hermanns-hermits", "Herman's Hermits", ["british-invasion"], "1964\u20131971", "Manchester, England",
+    ("hermans-hermits", "Herman's Hermits", ["british-invasion"], "1964\u20131971", "Manchester, England",
      "Clean-cut Manchester pop group fronted by Peter Noone that scored a run of cheerful transatlantic hits in the mid-1960s."),
     ("the-yardbirds", "The Yardbirds", ["british-invasion"], "1963\u20131968", "London, England",
      "Blues-rock incubator famous for launching guitarists Eric Clapton, Jeff Beck and Jimmy Page and for pioneering the 'rave-up'."),

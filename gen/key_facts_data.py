@@ -149,7 +149,7 @@ SONGS = {
         ("US peak", "No. 1, Billboard Hot 100"),
         ("UK peak", "No. 1"),
     ]),
-    "im-henry-the-viii-i-am-hermanns-hermits": dict(year=1965, rows=[
+    "im-henry-the-viii-i-am-hermans-hermits": dict(year=1965, rows=[
         ("Released", "June 1965 (US)"),
         ("Label", "MGM (US)"),
         ("Written by", "Fred Murray and R. P. Weston (1910 music hall song)"),
@@ -354,7 +354,7 @@ SONGS = {
         ("US peak", "No. 1, Billboard Hot 100"),
         ("UK peak", "No. 49 (1967 release)"),
     ]),
-    "mrs-brown-youve-got-a-lovely-daughter-hermanns-hermits": dict(year=1965, rows=[
+    "mrs-brown-youve-got-a-lovely-daughter-hermans-hermits": dict(year=1965, rows=[
         ("Released", "April 1965 (US single)"),
         ("Label", "MGM (US)"),
         ("Written by", "Trevor Peacock"),
@@ -491,7 +491,7 @@ ARTISTS = {
         ("Label", "Columbia"),
         ("Peak chart hits", "\"Like a Rolling Stone\" (US No. 2, 1965); \"Rainy Day Women #12 & 35\" (US No. 2, 1966)"),
     ]),
-    "hermanns-hermits": dict(years=[1964, 1965], rows=[
+    "hermans-hermits": dict(years=[1964, 1965], rows=[
         ("Origin", "Manchester, England"),
         ("Active", "1964-1971"),
         ("Genre", "British Invasion"),

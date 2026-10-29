@@ -141,7 +141,7 @@ matching record in `data/songs.json`.
 
 - Row 88 feature image is 541x330 (public-domain 1966 Philips trade ad, Commons). Replace with a larger freely-licensed photo when one turns up; swap `blog/artists/the-four-seasons/the-four-seasons-1966.png`, update alt/caption and `og:image` + JSON-LD `image`. Image-only swap, no Updated bump.
 
-- Singles-table component live 2026-10-29 on the-four-seasons (`docs/singles-table.md`). Retrofit pending approval: hermanns-hermits, the-temptations, the-searchers (built locally). Mixed singles/album tables not yet decided: patsy-cline, frank-sinatra, johnny-cash, the-monkees, simon-and-garfunkel, the-supremes.
+- Singles-table component live 2026-10-29 on the-four-seasons (`docs/singles-table.md`). Retrofit pending approval: hermans-hermits, the-temptations, the-searchers (built locally). Mixed singles/album tables not yet decided: patsy-cline, frank-sinatra, johnny-cash, the-monkees, simon-and-garfunkel, the-supremes.
 
 ## Future keywords (not queued, do not add to the rotation above)
 
