@@ -83,6 +83,7 @@
   ]
 }
 </script>
+<link rel="stylesheet" href="/assets/css/playlist-player.css">
 </head>
 <body>
 <header class="site-header">
@@ -144,7 +145,7 @@
       </ul>
 
       <div class="youtube-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;margin:2rem 0;">
-        <iframe src="https://www.youtube.com/embed/5tpxXDILZHs" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="The Monkees - I'm a Believer"></iframe>
+        <iframe src="https://www.youtube.com/embed/4PQAqprjOuA" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="The Monkees - I'm a Believer"></iframe>
       </div>
 
       <hr>
@@ -213,19 +214,42 @@
       All four of their number one albums peaked in 1967, which no other band had matched in a calendar year as of 2021.<br>
       See the <a href="/1960s/1967/">1967 year guide</a> for the wider picture.</p>
 
-      <table class="table-scroll">
-        <caption>Key 1960s releases and chart peaks</caption>
-        <thead>
-          <tr><th>Release</th><th>Date</th><th>Peak</th></tr>
-        </thead>
-        <tbody>
-          <tr><td>"Last Train to Clarksville"</td><td>August 16, 1966</td><td>Hot 100 No. 1</td></tr>
-          <tr><td>The Monkees (album)</td><td>October 10, 1966</td><td>Billboard 200 No. 1 (13 weeks)</td></tr>
-          <tr><td>"I'm a Believer"</td><td>November 1966</td><td>Hot 100 No. 1 (7 weeks), UK No. 1</td></tr>
-          <tr><td>"Daydream Believer"</td><td>October 25, 1967</td><td>Hot 100 No. 1 (4 weeks), UK No. 5</td></tr>
-          <tr><td>The Birds, The Bees &amp; The Monkees</td><td>April 1968</td><td>Billboard 200 No. 3</td></tr>
-        </tbody>
-      </table>
+      <p class="pp-caption" aria-hidden="true">Key 1960s releases and chart peaks</p>
+      <div class="table-scroll pp-table-scroll">
+        <table id="pp-table-the-monkees" class="pp-table" data-pp-playlist-id="artist-the-monkees" data-pp-sortable>
+          <caption class="pp-sr-only">Key 1960s releases and chart peaks</caption>
+          <thead>
+            <tr>
+              <th><span class="pp-sr-only">Play</span></th>
+              <th aria-sort="none"><button type="button" class="pp-sort" data-pp-sort="text">Release</button></th>
+              <th aria-sort="none"><button type="button" class="pp-sort" data-pp-sort="num">Date</button></th>
+              <th aria-sort="none"><button type="button" class="pp-sort" data-pp-sort="num">Peak</button></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-pp-yt="OA-KO04_KgM" data-pp-title="Last Train to Clarksville" data-pp-artist="The Monkees" data-pp-yr="1966">
+              <td><button type="button" class="pp-play-btn" aria-label="Play Last Train to Clarksville">&#9654; Play</button></td>
+              <td>"Last Train to Clarksville"</td><td data-pp-sortkey="19660816">August 16, 1966</td><td data-pp-sortkey="1">Hot 100 No. 1</td>
+            </tr>
+            <tr data-pp-yt="MADRPuAcKFA" data-pp-title="(Theme From) The Monkees" data-pp-artist="The Monkees" data-pp-yr="1966">
+              <td><button type="button" class="pp-play-btn" aria-label="Play (Theme From) The Monkees, from the album The Monkees">&#9654; Play</button></td>
+              <td>The Monkees (album)</td><td data-pp-sortkey="19661010">October 10, 1966</td><td data-pp-sortkey="1">Billboard 200 No. 1 (13 weeks)</td>
+            </tr>
+            <tr data-pp-yt="4PQAqprjOuA" data-pp-title="I&#x27;m a Believer" data-pp-artist="The Monkees" data-pp-yr="1966">
+              <td><button type="button" class="pp-play-btn" aria-label="Play I&#x27;m a Believer">&#9654; Play</button></td>
+              <td>"I'm a Believer"</td><td data-pp-sortkey="19661100">November 1966</td><td data-pp-sortkey="1">Hot 100 No. 1 (7 weeks), UK No. 1</td>
+            </tr>
+            <tr data-pp-yt="xvqeSJlgaNk" data-pp-title="Daydream Believer" data-pp-artist="The Monkees" data-pp-yr="1967">
+              <td><button type="button" class="pp-play-btn" aria-label="Play Daydream Believer">&#9654; Play</button></td>
+              <td>"Daydream Believer"</td><td data-pp-sortkey="19671025">October 25, 1967</td><td data-pp-sortkey="1">Hot 100 No. 1 (4 weeks), UK No. 5</td>
+            </tr>
+            <tr data-pp-yt="wD9qp0bl0yQ" data-pp-title="Valleri" data-pp-artist="The Monkees" data-pp-yr="1968">
+              <td><button type="button" class="pp-play-btn" aria-label="Play Valleri, from the album The Birds, The Bees &amp; The Monkees">&#9654; Play</button></td>
+              <td>The Birds, The Bees &amp; The Monkees</td><td data-pp-sortkey="19680400">April 1968</td><td data-pp-sortkey="3">Billboard 200 No. 3</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
       <hr>
 
@@ -303,6 +327,9 @@
   </div>
 </footer>
 
+<script src="/assets/js/playlist-player.js"></script>
+<script src="/assets/js/playlist-player-ui.js"></script>
+<script src="/assets/js/playlist-table.js"></script>
 <script src="/site.js" defer></script>
 </body>
 </html>

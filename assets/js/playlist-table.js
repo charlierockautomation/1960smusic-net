@@ -106,7 +106,8 @@
       var td = tr.children[col];
       var raw = td ? (td.getAttribute('data-pp-sortkey') || td.textContent).trim() : '';
       if (type === 'num'){ var n = parseFloat(raw.replace(/[^0-9.\-]/g, '')); return isNaN(n) ? Infinity : n; }
-      return raw.replace(/^[^A-Za-z0-9]+/, '').toLowerCase();
+      var t = raw.replace(/^[^A-Za-z0-9]+/, '').toLowerCase();
+      return t === '' ? Infinity : t;
     }
     if (table.hasAttribute('data-pp-sortable')){
       var heads = Array.prototype.slice.call(table.querySelectorAll('thead th'));

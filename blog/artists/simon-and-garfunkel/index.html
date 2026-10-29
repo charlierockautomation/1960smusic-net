@@ -123,6 +123,7 @@
   ]
 }
 </script>
+<link rel="stylesheet" href="/assets/css/playlist-player.css">
 </head>
 <body>
 <header class="site-header">
@@ -247,21 +248,51 @@
       Simon has said the lyrics are largely autobiographical and were written while he felt unfairly criticized.<br>
       The "lie-la-lie" refrain began as a placeholder.</p>
 
-      <table class="table-scroll">
-        <caption>Key releases, 1964 to 1970</caption>
-        <thead>
-          <tr><th>Release</th><th>When</th><th>US result</th><th>Notes</th></tr>
-        </thead>
-        <tbody>
-          <tr><td>Wednesday Morning, 3 A.M.</td><td>October 1964</td><td>About 3,000 copies sold</td><td>Re-release in 1966 charted at No. 30</td></tr>
-          <tr><td>"The Sound of Silence"</td><td>September 1965</td><td>No. 1 Hot 100</td><td>Electric overdub by Tom Wilson</td></tr>
-          <tr><td>Parsley, Sage, Rosemary and Thyme</td><td>October 1966</td><td>No. 4 album</td><td>Includes "A Hazy Shade of Winter"</td></tr>
-          <tr><td>"Mrs. Robinson"</td><td>April 5, 1968</td><td>No. 1 Hot 100</td><td>Record of the Year, 1969 Grammys</td></tr>
-          <tr><td>Bookends</td><td>April 1968</td><td>No. 1 album</td><td>Seven non-consecutive weeks on top</td></tr>
-          <tr><td>"The Boxer"</td><td>March 21, 1969</td><td>No. 7 Hot 100</td><td>UK No. 6</td></tr>
-          <tr><td>Bridge over Troubled Water</td><td>January 26, 1970</td><td>No. 1 album, 10 weeks</td><td>Six Grammys in 1971</td></tr>
-        </tbody>
-      </table>
+      <p class="pp-caption" aria-hidden="true">Key releases, 1964 to 1970</p>
+      <div class="table-scroll pp-table-scroll">
+        <table id="pp-table-simon-and-garfunkel" class="pp-table" data-pp-playlist-id="artist-simon-and-garfunkel" data-pp-sortable>
+          <caption class="pp-sr-only">Key releases, 1964 to 1970</caption>
+          <thead>
+            <tr>
+              <th><span class="pp-sr-only">Play</span></th>
+              <th aria-sort="none"><button type="button" class="pp-sort" data-pp-sort="text">Release</button></th>
+              <th aria-sort="none"><button type="button" class="pp-sort" data-pp-sort="num">When</button></th>
+              <th aria-sort="none"><button type="button" class="pp-sort" data-pp-sort="num">US result</button></th>
+              <th aria-sort="none"><button type="button" class="pp-sort" data-pp-sort="text">Notes</button></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-pp-yt="9O9DaZUS_EU" data-pp-title="The Sound of Silence (1964 version)" data-pp-artist="Simon &amp; Garfunkel" data-pp-yr="1964">
+              <td><button type="button" class="pp-play-btn" aria-label="Play The Sound of Silence (1964 version), from the album Wednesday Morning, 3 A.M.">&#9654; Play</button></td>
+              <td>Wednesday Morning, 3 A.M.</td><td data-pp-sortkey="19641000">October 1964</td><td data-pp-sortkey="-">About 3,000 copies sold</td><td>Re-release in 1966 charted at No. 30</td>
+            </tr>
+            <tr data-pp-yt="l0q7MLPo-u8" data-pp-title="The Sound of Silence" data-pp-artist="Simon &amp; Garfunkel" data-pp-yr="1965">
+              <td><button type="button" class="pp-play-btn" aria-label="Play The Sound of Silence">&#9654; Play</button></td>
+              <td>"The Sound of Silence"</td><td data-pp-sortkey="19650900">September 1965</td><td data-pp-sortkey="1">No. 1 Hot 100</td><td>Electric overdub by Tom Wilson</td>
+            </tr>
+            <tr data-pp-yt="-Jj4s9I-53g" data-pp-title="Scarborough Fair/Canticle" data-pp-artist="Simon &amp; Garfunkel" data-pp-yr="1966">
+              <td><button type="button" class="pp-play-btn" aria-label="Play Scarborough Fair/Canticle, from the album Parsley, Sage, Rosemary and Thyme">&#9654; Play</button></td>
+              <td>Parsley, Sage, Rosemary and Thyme</td><td data-pp-sortkey="19661000">October 1966</td><td data-pp-sortkey="4">No. 4 album</td><td>Includes "A Hazy Shade of Winter"</td>
+            </tr>
+            <tr data-pp-yt="9C1BCAgu2I8" data-pp-title="Mrs. Robinson" data-pp-artist="Simon &amp; Garfunkel" data-pp-yr="1968">
+              <td><button type="button" class="pp-play-btn" aria-label="Play Mrs. Robinson">&#9654; Play</button></td>
+              <td>"Mrs. Robinson"</td><td data-pp-sortkey="19680405">April 5, 1968</td><td data-pp-sortkey="1">No. 1 Hot 100</td><td>Record of the Year, 1969 Grammys</td>
+            </tr>
+            <tr data-pp-yt="dVA-1iJxRQI" data-pp-title="A Hazy Shade of Winter" data-pp-artist="Simon &amp; Garfunkel" data-pp-yr="1968">
+              <td><button type="button" class="pp-play-btn" aria-label="Play A Hazy Shade of Winter, from the album Bookends">&#9654; Play</button></td>
+              <td>Bookends</td><td data-pp-sortkey="19680400">April 1968</td><td data-pp-sortkey="1">No. 1 album</td><td>Seven non-consecutive weeks on top</td>
+            </tr>
+            <tr data-pp-yt="l3LFML_pxlY" data-pp-title="The Boxer" data-pp-artist="Simon &amp; Garfunkel" data-pp-yr="1969">
+              <td><button type="button" class="pp-play-btn" aria-label="Play The Boxer">&#9654; Play</button></td>
+              <td>"The Boxer"</td><td data-pp-sortkey="19690321">March 21, 1969</td><td data-pp-sortkey="7">No. 7 Hot 100</td><td>UK No. 6</td>
+            </tr>
+            <tr data-pp-yt="4G-YQA_bsOU" data-pp-title="Bridge over Troubled Water" data-pp-artist="Simon &amp; Garfunkel" data-pp-yr="1970">
+              <td><button type="button" class="pp-play-btn" aria-label="Play Bridge over Troubled Water, from the album Bridge over Troubled Water">&#9654; Play</button></td>
+              <td>Bridge over Troubled Water</td><td data-pp-sortkey="19700126">January 26, 1970</td><td data-pp-sortkey="1">No. 1 album, 10 weeks</td><td>Six Grammys in 1971</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
       <hr>
 
@@ -338,6 +369,9 @@
   </div>
 </footer>
 
+<script src="/assets/js/playlist-player.js"></script>
+<script src="/assets/js/playlist-player-ui.js"></script>
+<script src="/assets/js/playlist-table.js"></script>
 <script src="/site.js" defer></script>
 </body>
 </html>

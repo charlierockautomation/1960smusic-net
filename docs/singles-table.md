@@ -39,3 +39,11 @@ its channel when presenting the page.
 ## Updated dates
 Adding Play buttons or sorting to an existing table is plumbing: no Updated or
 `dateModified` bump.
+
+## Song-story links
+When a song story is published for any song in an artist's singles table, link that table row to it in the same push.
+
+## Mixed singles/album tables
+- Album row plays the album's best-known track, and the bar shows that track's title (`data-pp-title`); put the album in the `aria-label`.
+- A table never repeats a `data-pp-yt` id (highlight and seek key on it), so if the album's hit is already a row, use its next best-known track.
+- `check_article.py` leaves Play/sort buttons and the `.pp-caption` duplicate out of the word count.

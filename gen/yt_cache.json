@@ -1474,15 +1474,15 @@
   "checked_at": "2026-09-20"
  },
  "The Monkees|||I'm a Believer": {
-  "youtube_id": "5tpxXDILZHs",
-  "flagged": true,
-  "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('Classics in HD') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
-  "video_title": "The Monkees - I'm a Believer HD",
-  "author": "Classics in HD",
+  "youtube_id": "4PQAqprjOuA",
+  "flagged": false,
+  "reason": null,
+  "video_title": "I'm a Believer",
+  "author": "THE MONKEES - Topic",
   "live_ok": true,
   "embeddable": true,
   "made_for_kids": false,
-  "checked_at": "2026-09-20"
+  "checked_at": "2026-10-29"
  },
  "The Shirelles|||Will You Love Me Tomorrow": {
   "youtube_id": "Y2e8B2CmicQ",
@@ -1496,15 +1496,15 @@
   "checked_at": "2026-09-20"
  },
  "The Monkees|||Last Train to Clarksville": {
-  "youtube_id": "zSzsyqzQNeQ",
-  "flagged": true,
-  "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('Monte Carlo Music') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
-  "video_title": "The Monkees - Last Train To Clarksville (1966/HD)",
-  "author": "Monte Carlo Music",
+  "youtube_id": "OA-KO04_KgM",
+  "flagged": false,
+  "reason": null,
+  "video_title": "Last Train to Clarksville",
+  "author": "THE MONKEES - Topic",
   "live_ok": true,
   "embeddable": true,
   "made_for_kids": false,
-  "checked_at": "2026-09-20"
+  "checked_at": "2026-10-29"
  },
  "Lesley Gore|||It's My Party": {
   "youtube_id": "mtCIdpnQoWk",

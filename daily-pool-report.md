@@ -1,6 +1,6 @@
 # Daily Guessing Game -- Pool Report -- 2026-10-29
 
-557 pool entries checked, 451 kept, 106 excluded.
+557 pool entries checked, 452 kept, 105 excluded.
 
 ## 1. Dual-year songs
 
@@ -11,7 +11,7 @@
 ## 2. Excluded songs
 
 
-### title_exposes_year (106)
+### title_exposes_year (105)
 
 | Title | Artist | YouTube ID | Detail |
 |---|---|---|---|
@@ -55,19 +55,22 @@
 | Born to Be Wild | Steppenwolf | 41cFf9N5F-A | title_exposes_year: "Steppenwolf - Born To Be Wild (1969)" contains 1969 |
 | I Got a Line on You | Spirit | 0eOHu0rMqMI | title_exposes_year: "Spirit   I Got A Line On You 1984 Original Video" contains 1984 |
 | I Can Hear the Grass Grow | The Move | _QJHdovVj-M | title_exposes_year: "The Move - I Can Hear The Grass Grow (1967)" contains 1967 |
-| King of the Road | Roger Miller | L4kvi5IG_KE | title_exposes_year: "King Of The Road 📀 Roger Miller 4K-HD 1965  {Stereo}" contains 1965 |
-| Funny How Time Slips Away | Willie Nelson | iZaZqx9v3dU | title_exposes_year: "Willie Nelson - 1997 - Funny How Time Slips Away" contains 1997 |
-| Buckaroo | Buck Owens | -2VLIO14dns | title_exposes_year: "Buck Owens - Buckaroo - 1965" contains 1965 |
-| Dang Me | Roger Miller | Lg7DcCI39GY | title_exposes_year: "Roger Miller ~ Dang Me (1964)" contains 1964 |
-| England Swings | Roger Miller | 2I7yAC1Pz6Y | title_exposes_year: "Roger Miller - England Swings  (1965)" contains 1965 |
-| The End of the World | Skeeter Davis | sonLd-32ns4 | title_exposes_year: "Skeeter Davis ~ The End of The World  (1962)" contains 1962 |
-| Password | Kitty Wells | KjliYHmc10w | title_exposes_year: "Kitty Wells - Password [1964]" contains 1964 |
-| Need You | Sonny James | re0yP-OAHoA | title_exposes_year: "Sonny James - Need You - 1967" contains 1967 |
-| Ode to Billie Joe | Bobbie Gentry | HaRacIzZSPo | title_exposes_year: "Ode to Billie Joe - Bobbie Gentry (BBC Live 1968)" contains 1968 |
-| Please Help Me, I'm Falling | Hank Locklin | C7IwO5C187A | title_exposes_year: "Hank Locklin - Please Help Me, I'm Falling [ORIGINAL] -  [1960]**   and  Answer Song." contains 1960 |
-| Big Bad John | Jimmy Dean | KnnHprUGKF0 | title_exposes_year: "BIG BAD JOHN ~ Jimmy Dean  (1961)" contains 1961 |
+| If I Had a Hammer | Peter, Paul and Mary | XxWTDcP9Y5E | title_exposes_year: "Peter, Paul and Mary - If I Had A Hammer (1963 performance)" contains 1963 |
+| Puff, the Magic Dragon | Peter, Paul and Mary | z15pxWUXvLY | title_exposes_year: "Puff The Magic Dragon -- Peter, Paul & Mary ~ Live 1965" contains 1965 |
+| For Emily, Whenever I May Find Her | Simon & Garfunkel | kOgmYFTZ2iU | title_exposes_year: "For Emily, Whenever I May Find Her (Live in St. Louis, MO - November 1969)" contains 1969 |
+| Farewell, Angelina | Joan Baez | qcwP2ulxDdY | title_exposes_year: "Joan Baez ~ Farewell  Angelina  (1965)" contains 1965 |
+| Chelsea Morning | Judy Collins | NFlv_CKIE9w | title_exposes_year: "JUDY COLLINS - "Chelsea Morning"  1969" contains 1969 |
+| Georgy Girl | The Seekers | wsIbfYEizLk | title_exposes_year: "The Seekers - Georgy Girl (1967 - Stereo)" contains 1967 |
+| It Ain't Me Babe | The Turtles | SRBkFnPgcik | title_exposes_year: "It Ain't Me Babe The Turtles RESTORED VIDEO TRUE 1965 STEREO HiQ Hybrid JARichardsFilm" contains 1965 |
+| Greenfields | The Brothers Four | 1ddhdo78z6o | title_exposes_year: "Brothers Four - Greenfields  (1960)" contains 1960 |
+| A World Without Love | Peter & Gordon | Tdx6lLvvRyg | title_exposes_year: "Peter and Gordon - A World Without Love (HD) 1964 Stereo" contains 1964 |
+| Sha La La La Lee | The Small Faces | JsuKmqQyYR4 | title_exposes_year: "The Small Faces - Sha La La La Lee (1966)" contains 1966 |
+| Shapes of Things | The Yardbirds | tOc-_GpfF1w | title_exposes_year: "The Yardbirds - Shapes of Things (1966)" contains 1966 |
+| 5-4-3-2-1 | Manfred Mann | 9lGLbL5M8kY | title_exposes_year: "Manfred Mann -  5-4-3-2-1 [Official Lyric Video] 1964" contains 1964 |
+| Gimme Some Lovin' | Spencer Davis Group | RSIj_yhj7hg | title_exposes_year: "Gimme Some Lovin Spencer Davis Group FULL SONG ReEdit TRUE 1966 STEREO HiQ Hybrid JARichardsFilm" contains 1966 |
+| Have I the Right | The Honeycombs | 2ZUWHfI6EuE | title_exposes_year: "Have I The Right? - The Honeycombs (Promotional Video) UK# 1 - June 1964" contains 1964 |
+| Ferry Cross the Mersey | Gerry and the Pacemakers | 08083BNaYcA | title_exposes_year: "Gerry & The Pacemakers - Ferry Cross The Mersey (1965)" contains 1965 |
 | Will You Love Me Tomorrow | The Shirelles | Y2e8B2CmicQ | title_exposes_year: "The Shirelles  - Will You Love Me Tomorrow    (1960)" contains 1960 |
-| Last Train to Clarksville | The Monkees | zSzsyqzQNeQ | title_exposes_year: "The Monkees - Last Train To Clarksville (1966/HD)" contains 1966 |
 | Judy in Disguise (With Glasses) | John Fred & His Playboy Band | tWhnmF-Clu0 | title_exposes_year: "NEW * Judy In Disguise (With Glasses) - John Fred & His Playboy Band {Stereo} 1967" contains 1967 |
 | I Think We're Alone Now | Tommy James & The Shondells | hFWhTqLSVzE | title_exposes_year: "Tommy James & The Shondells - I Think We`re Alone Now Live on Village Square 1967" contains 1967 |
 | Groovin' | The Young Rascals | 4JIq8Zn0AJE | title_exposes_year: "The Young Rascals - Groovin' (1967)" contains 1967 |
@@ -96,7 +99,6 @@
 | Days of Wine and Roses | Henry Mancini | bY55VayUW9I | title_exposes_year: "Henry Mancini - The Days Of Wine And Roses (Best Of Both Worlds, November 29th 1964)" contains 1964 |
 | Mercy, Mercy, Mercy | Cannonball Adderley | s4rXEKtC8iY | title_exposes_year: "Cannonball Adderley Quintet - "Mercy, Mercy, Mercy" (1966)" contains 1966 |
 | Wives and Lovers | Jack Jones | rZ7WT02wFOk | title_exposes_year: "Jack Jones: Wives and Lovers (Bacharach, David, 1963)" contains 1963 |
-| Somethin' Stupid | Frank Sinatra & Nancy Sinatra | 0f48fpoSEPU | title_exposes_year: "Frank & Nancy Sinatra ~ Something Stupid (1967)" contains 1967 |
 | The Lonely Bull | Herb Alpert & The Tijuana Brass | 6uqPBZncL5Q | title_exposes_year: "The Lonely Bull. Herb Alpert & the Tijuana Brass. (1962)" contains 1962 |
 | It Must Be Him | Vikki Carr | J-qgHOQ1ofg | title_exposes_year: "Vikki Carr - It Must Be Him (1967)" contains 1967 |
 | Born Free | Matt Monro | VE-BYbkHWI8 | title_exposes_year: "Matt Monro - Born Free (The Big Ben Show, 31.12.1982)" contains 1982 |
@@ -106,21 +108,18 @@
 | Mexico | Bob Moore | tg4cGgSEwqc | title_exposes_year: "Mexico (1961) - Bob Moore & His Orchestra" contains 1961 |
 | Asia Minor | Kokomo | DPiGG66WFdQ | title_exposes_year: "1961 HITS ARCHIVE: Asia Minor - Kokomo" contains 1961 |
 | The Stripper | David Rose | QYkdwTB4uIQ | title_exposes_year: "David Rose And His Orchestra — The Stripper / Ebb Tide | 1962 Instrumental 45" contains 1962 |
-| If I Had a Hammer | Peter, Paul and Mary | XxWTDcP9Y5E | title_exposes_year: "Peter, Paul and Mary - If I Had A Hammer (1963 performance)" contains 1963 |
-| Puff, the Magic Dragon | Peter, Paul and Mary | z15pxWUXvLY | title_exposes_year: "Puff The Magic Dragon -- Peter, Paul & Mary ~ Live 1965" contains 1965 |
-| For Emily, Whenever I May Find Her | Simon & Garfunkel | kOgmYFTZ2iU | title_exposes_year: "For Emily, Whenever I May Find Her (Live in St. Louis, MO - November 1969)" contains 1969 |
-| Farewell, Angelina | Joan Baez | qcwP2ulxDdY | title_exposes_year: "Joan Baez ~ Farewell  Angelina  (1965)" contains 1965 |
-| Chelsea Morning | Judy Collins | NFlv_CKIE9w | title_exposes_year: "JUDY COLLINS - "Chelsea Morning"  1969" contains 1969 |
-| Georgy Girl | The Seekers | wsIbfYEizLk | title_exposes_year: "The Seekers - Georgy Girl (1967 - Stereo)" contains 1967 |
-| It Ain't Me Babe | The Turtles | SRBkFnPgcik | title_exposes_year: "It Ain't Me Babe The Turtles RESTORED VIDEO TRUE 1965 STEREO HiQ Hybrid JARichardsFilm" contains 1965 |
-| Greenfields | The Brothers Four | 1ddhdo78z6o | title_exposes_year: "Brothers Four - Greenfields  (1960)" contains 1960 |
-| A World Without Love | Peter & Gordon | Tdx6lLvvRyg | title_exposes_year: "Peter and Gordon - A World Without Love (HD) 1964 Stereo" contains 1964 |
-| Sha La La La Lee | The Small Faces | JsuKmqQyYR4 | title_exposes_year: "The Small Faces - Sha La La La Lee (1966)" contains 1966 |
-| Shapes of Things | The Yardbirds | tOc-_GpfF1w | title_exposes_year: "The Yardbirds - Shapes of Things (1966)" contains 1966 |
-| 5-4-3-2-1 | Manfred Mann | 9lGLbL5M8kY | title_exposes_year: "Manfred Mann -  5-4-3-2-1 [Official Lyric Video] 1964" contains 1964 |
-| Gimme Some Lovin' | Spencer Davis Group | RSIj_yhj7hg | title_exposes_year: "Gimme Some Lovin Spencer Davis Group FULL SONG ReEdit TRUE 1966 STEREO HiQ Hybrid JARichardsFilm" contains 1966 |
-| Have I the Right | The Honeycombs | 2ZUWHfI6EuE | title_exposes_year: "Have I The Right? - The Honeycombs (Promotional Video) UK# 1 - June 1964" contains 1964 |
-| Ferry Cross the Mersey | Gerry and the Pacemakers | 08083BNaYcA | title_exposes_year: "Gerry & The Pacemakers - Ferry Cross The Mersey (1965)" contains 1965 |
+| King of the Road | Roger Miller | L4kvi5IG_KE | title_exposes_year: "King Of The Road 📀 Roger Miller 4K-HD 1965  {Stereo}" contains 1965 |
+| Funny How Time Slips Away | Willie Nelson | iZaZqx9v3dU | title_exposes_year: "Willie Nelson - 1997 - Funny How Time Slips Away" contains 1997 |
+| Buckaroo | Buck Owens | -2VLIO14dns | title_exposes_year: "Buck Owens - Buckaroo - 1965" contains 1965 |
+| Dang Me | Roger Miller | Lg7DcCI39GY | title_exposes_year: "Roger Miller ~ Dang Me (1964)" contains 1964 |
+| A Boy Named Sue | Johnny Cash | WOHPuY88Ry4 | title_exposes_year: "Johnny Cash - A Boy Named Sue (Live at San Quentin, 1969)" contains 1969 |
+| England Swings | Roger Miller | 2I7yAC1Pz6Y | title_exposes_year: "Roger Miller - England Swings  (1965)" contains 1965 |
+| The End of the World | Skeeter Davis | sonLd-32ns4 | title_exposes_year: "Skeeter Davis ~ The End of The World  (1962)" contains 1962 |
+| Password | Kitty Wells | KjliYHmc10w | title_exposes_year: "Kitty Wells - Password [1964]" contains 1964 |
+| Need You | Sonny James | re0yP-OAHoA | title_exposes_year: "Sonny James - Need You - 1967" contains 1967 |
+| Ode to Billie Joe | Bobbie Gentry | HaRacIzZSPo | title_exposes_year: "Ode to Billie Joe - Bobbie Gentry (BBC Live 1968)" contains 1968 |
+| Please Help Me, I'm Falling | Hank Locklin | C7IwO5C187A | title_exposes_year: "Hank Locklin - Please Help Me, I'm Falling [ORIGINAL] -  [1960]**   and  Answer Song." contains 1960 |
+| Big Bad John | Jimmy Dean | KnnHprUGKF0 | title_exposes_year: "BIG BAD JOHN ~ Jimmy Dean  (1961)" contains 1961 |
 
 ## 3. How `year` is sourced
 

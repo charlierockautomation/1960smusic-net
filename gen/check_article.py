@@ -154,6 +154,10 @@ def body_text(text):
     body = re.sub(r"<!--.*?-->", " ", body_html(text), flags=re.S)
     # The Key Facts box is a data table, not prose: out of word count/density.
     body = re.sub(r'<aside class="key-facts".*?</aside>', " ", body, flags=re.S)
+    # Singles-table UI chrome, not prose: Play/sort buttons and the
+    # aria-hidden visual caption that repeats the table's real <caption>.
+    body = re.sub(r"<button\b.*?</button>", " ", body, flags=re.S | re.I)
+    body = re.sub(r'<p class="pp-caption"[^>]*>.*?</p>', " ", body, flags=re.S)
     return strip_tags(body)
 
 

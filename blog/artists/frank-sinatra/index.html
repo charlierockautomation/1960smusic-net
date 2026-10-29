@@ -85,6 +85,7 @@
   ]
 }
 </script>
+<link rel="stylesheet" href="/assets/css/playlist-player.css">
 </head>
 <body>
 <header class="site-header">
@@ -227,19 +228,42 @@
       His daughter Tina has said he came to dislike it as self-indulgent.<br>
       Read the full <a href="/blog/songs/my-way-frank-sinatra/">My Way story</a>, or see how the <a href="/1960s/1969/">1969 year guide</a> closes the decade.</p>
 
-      <table class="table-scroll">
-        <caption>Key 1960s releases and chart peaks</caption>
-        <thead>
-          <tr><th>Release</th><th>Date</th><th>Peak</th></tr>
-        </thead>
-        <tbody>
-          <tr><td>Ring-a-Ding-Ding! (album)</td><td>February 1961</td><td>Billboard No. 4</td></tr>
-          <tr><td>It Might as Well Be Swing (album)</td><td>1964</td><td>Includes "Fly Me to the Moon"</td></tr>
-          <tr><td>"Strangers in the Night"</td><td>April 12, 1966</td><td>Hot 100 No. 1, UK No. 1</td></tr>
-          <tr><td>"Somethin' Stupid" (with Nancy Sinatra)</td><td>March 1967</td><td>Hot 100 No. 1 (4 weeks), UK No. 1</td></tr>
-          <tr><td>"My Way"</td><td>March 1969</td><td>Hot 100 No. 27, UK No. 5</td></tr>
-        </tbody>
-      </table>
+      <p class="pp-caption" aria-hidden="true">Key 1960s releases and chart peaks</p>
+      <div class="table-scroll pp-table-scroll">
+        <table id="pp-table-frank-sinatra" class="pp-table" data-pp-playlist-id="artist-frank-sinatra" data-pp-sortable>
+          <caption class="pp-sr-only">Key 1960s releases and chart peaks</caption>
+          <thead>
+            <tr>
+              <th><span class="pp-sr-only">Play</span></th>
+              <th aria-sort="none"><button type="button" class="pp-sort" data-pp-sort="text">Release</button></th>
+              <th aria-sort="none"><button type="button" class="pp-sort" data-pp-sort="num">Date</button></th>
+              <th aria-sort="none"><button type="button" class="pp-sort" data-pp-sort="num">Peak</button></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-pp-yt="OU5J6gaW0k8" data-pp-title="Ring-a-Ding-Ding" data-pp-artist="Frank Sinatra" data-pp-yr="1961">
+              <td><button type="button" class="pp-play-btn" aria-label="Play Ring-a-Ding-Ding, from the album Ring-a-Ding-Ding!">&#9654; Play</button></td>
+              <td>Ring-a-Ding-Ding! (album)</td><td data-pp-sortkey="19610200">February 1961</td><td data-pp-sortkey="4">Billboard No. 4</td>
+            </tr>
+            <tr data-pp-yt="JYuyWrkwpok" data-pp-title="Fly Me to the Moon" data-pp-artist="Frank Sinatra" data-pp-yr="1964">
+              <td><button type="button" class="pp-play-btn" aria-label="Play Fly Me to the Moon, from the album It Might as Well Be Swing">&#9654; Play</button></td>
+              <td>It Might as Well Be Swing (album)</td><td data-pp-sortkey="19640000">1964</td><td data-pp-sortkey="-">Includes "Fly Me to the Moon"</td>
+            </tr>
+            <tr data-pp-yt="Sek1vLw3s20" data-pp-title="Strangers in the Night" data-pp-artist="Frank Sinatra" data-pp-yr="1966">
+              <td><button type="button" class="pp-play-btn" aria-label="Play Strangers in the Night">&#9654; Play</button></td>
+              <td>"Strangers in the Night"</td><td data-pp-sortkey="19660412">April 12, 1966</td><td data-pp-sortkey="1">Hot 100 No. 1, UK No. 1</td>
+            </tr>
+            <tr data-pp-yt="fwEN2gOJdbw" data-pp-title="Somethin&#x27; Stupid" data-pp-artist="Frank Sinatra" data-pp-yr="1967">
+              <td><button type="button" class="pp-play-btn" aria-label="Play Somethin&#x27; Stupid">&#9654; Play</button></td>
+              <td>"Somethin' Stupid" (with Nancy Sinatra)</td><td data-pp-sortkey="19670300">March 1967</td><td data-pp-sortkey="1">Hot 100 No. 1 (4 weeks), UK No. 1</td>
+            </tr>
+            <tr data-pp-yt="qQzdAsjWGPg" data-pp-title="My Way" data-pp-artist="Frank Sinatra" data-pp-yr="1969">
+              <td><button type="button" class="pp-play-btn" aria-label="Play My Way">&#9654; Play</button></td>
+              <td>"My Way"</td><td data-pp-sortkey="19690300">March 1969</td><td data-pp-sortkey="5">Hot 100 No. 27, UK No. 5</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
       <hr>
 
@@ -313,6 +337,9 @@
   </div>
 </footer>
 
+<script src="/assets/js/playlist-player.js"></script>
+<script src="/assets/js/playlist-player-ui.js"></script>
+<script src="/assets/js/playlist-table.js"></script>
 <script src="/site.js" defer></script>
 </body>
 </html>

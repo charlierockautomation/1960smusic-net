@@ -89,6 +89,7 @@
   ]
 }
 </script>
+<link rel="stylesheet" href="/assets/css/playlist-player.css">
 </head>
 <body>
 <header class="site-header">
@@ -193,22 +194,53 @@
       They were also regular guests on The Ed Sullivan Show.<br>
       At the mid-1960s peak, their worldwide popularity came close to matching <a href="/blog/artists/the-beatles/">The Beatles</a>.</p>
 
-      <table class="table-scroll">
-        <caption>Selected Hot 100 number ones by The Supremes, 1964 to 1966</caption>
-        <thead>
-          <tr><th>Song</th><th>Reached number one</th></tr>
-        </thead>
-        <tbody>
-          <tr><td>Where Did Our Love Go</td><td>August 1964</td></tr>
-          <tr><td>Baby Love</td><td>October 1964</td></tr>
-          <tr><td>Come See About Me</td><td>December 1964</td></tr>
-          <tr><td>Stop! In the Name of Love</td><td>March 1965</td></tr>
-          <tr><td>Back in My Arms Again</td><td>June 1965</td></tr>
-          <tr><td>I Hear a Symphony</td><td>November 1965</td></tr>
-          <tr><td>You Can't Hurry Love</td><td>September 1966</td></tr>
-          <tr><td>You Keep Me Hangin' On</td><td>November 1966</td></tr>
-        </tbody>
-      </table>
+      <p class="pp-caption" aria-hidden="true">Selected Hot 100 number ones by The Supremes, 1964 to 1966</p>
+      <div class="table-scroll pp-table-scroll">
+        <table id="pp-table-the-supremes" class="pp-table" data-pp-playlist-id="artist-the-supremes" data-pp-sortable>
+          <caption class="pp-sr-only">Selected Hot 100 number ones by The Supremes, 1964 to 1966</caption>
+          <thead>
+            <tr>
+              <th><span class="pp-sr-only">Play</span></th>
+              <th aria-sort="none"><button type="button" class="pp-sort" data-pp-sort="text">Song</button></th>
+              <th aria-sort="none"><button type="button" class="pp-sort" data-pp-sort="num">Reached number one</button></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-pp-yt="Jt_31gR18NA" data-pp-title="Where Did Our Love Go" data-pp-artist="The Supremes" data-pp-yr="1964">
+              <td><button type="button" class="pp-play-btn" aria-label="Play Where Did Our Love Go">&#9654; Play</button></td>
+              <td>Where Did Our Love Go</td><td data-pp-sortkey="19640800">August 1964</td>
+            </tr>
+            <tr data-pp-yt="D6QF4sB40gU" data-pp-title="Baby Love" data-pp-artist="The Supremes" data-pp-yr="1964">
+              <td><button type="button" class="pp-play-btn" aria-label="Play Baby Love">&#9654; Play</button></td>
+              <td>Baby Love</td><td data-pp-sortkey="19641000">October 1964</td>
+            </tr>
+            <tr data-pp-yt="NkH_dm9NkxQ" data-pp-title="Come See About Me" data-pp-artist="The Supremes" data-pp-yr="1964">
+              <td><button type="button" class="pp-play-btn" aria-label="Play Come See About Me">&#9654; Play</button></td>
+              <td>Come See About Me</td><td data-pp-sortkey="19641200">December 1964</td>
+            </tr>
+            <tr data-pp-yt="une981B7Q4Y" data-pp-title="Stop! In the Name of Love" data-pp-artist="The Supremes" data-pp-yr="1965">
+              <td><button type="button" class="pp-play-btn" aria-label="Play Stop! In the Name of Love">&#9654; Play</button></td>
+              <td>Stop! In the Name of Love</td><td data-pp-sortkey="19650300">March 1965</td>
+            </tr>
+            <tr data-pp-yt="edDBXaWN5Ns" data-pp-title="Back in My Arms Again" data-pp-artist="The Supremes" data-pp-yr="1965">
+              <td><button type="button" class="pp-play-btn" aria-label="Play Back in My Arms Again">&#9654; Play</button></td>
+              <td>Back in My Arms Again</td><td data-pp-sortkey="19650600">June 1965</td>
+            </tr>
+            <tr data-pp-yt="aKG89jm79kc" data-pp-title="I Hear a Symphony" data-pp-artist="The Supremes" data-pp-yr="1965">
+              <td><button type="button" class="pp-play-btn" aria-label="Play I Hear a Symphony">&#9654; Play</button></td>
+              <td>I Hear a Symphony</td><td data-pp-sortkey="19651100">November 1965</td>
+            </tr>
+            <tr data-pp-yt="ovoBi3pXD_A" data-pp-title="You Can&#x27;t Hurry Love" data-pp-artist="The Supremes" data-pp-yr="1966">
+              <td><button type="button" class="pp-play-btn" aria-label="Play You Can&#x27;t Hurry Love">&#9654; Play</button></td>
+              <td>You Can't Hurry Love</td><td data-pp-sortkey="19660900">September 1966</td>
+            </tr>
+            <tr data-pp-yt="pi00f6oiMu4" data-pp-title="You Keep Me Hangin&#x27; On" data-pp-artist="The Supremes" data-pp-yr="1966">
+              <td><button type="button" class="pp-play-btn" aria-label="Play You Keep Me Hangin&#x27; On">&#9654; Play</button></td>
+              <td>You Keep Me Hangin' On</td><td data-pp-sortkey="19661100">November 1966</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
       <p>The 1964 run is covered in the <a href="/1960s/1964/">1964 year guide</a>, with the follow-ups in <a href="/1960s/1965/">1965</a> and <a href="/1960s/1966/">1966</a>.<br>
       "The Happening" in 1967 was their tenth number one.<br>
@@ -307,6 +339,9 @@
   </div>
 </footer>
 
+<script src="/assets/js/playlist-player.js"></script>
+<script src="/assets/js/playlist-player-ui.js"></script>
+<script src="/assets/js/playlist-table.js"></script>
 <script src="/site.js" defer></script>
 </body>
 </html>

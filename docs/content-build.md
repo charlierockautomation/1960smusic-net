@@ -99,10 +99,10 @@ Live rows (1-70) are in [`docs/content-build-archive.md`](content-build-archive.
 | 85 | Patsy Cline bio | /blog/artists/patsy-cline/ | artist-bio | country-60s | live | Patsy Cline | YWKeuYcDAoo |  |
 | 86 | Crazy | /blog/songs/crazy-patsy-cline/ | song-story | country-60s | live | Crazy by Patsy Cline | YWKeuYcDAoo |  |
 | 87 | I Fall to Pieces | /blog/songs/i-fall-to-pieces-patsy-cline/ | song-story | country-60s | live | I Fall to Pieces | gEcZ8BlsJhI |  |
-| 88 | The Four Seasons bio | /blog/artists/the-four-seasons/ | artist-bio | pop-brill-building | live | The Four Seasons | GzoIvwNqKpw | yt |
-| 89 | Walk Like a Man | /blog/songs/walk-like-a-man-four-seasons/ | song-story | pop-brill-building | not started | Walk Like a Man | GzoIvwNqKpw | yt |
-| 90 | Big Girls Don't Cry | /blog/songs/big-girls-dont-cry-four-seasons/ | song-story | pop-brill-building | not started | Big Girls Don't Cry | zRZpaxBMJRU | yt |
-| 91 | Sherry | /blog/songs/sherry-four-seasons/ | song-story | pop-brill-building | not started | Sherry by The Four Seasons | jMcWldfg28s | yt |
+| 88 | The Four Seasons bio | /blog/artists/the-four-seasons/ | artist-bio | pop-brill-building | live | The Four Seasons | GzoIvwNqKpw | yt Feature image: searched Commons and PD sources 2026-10-29, no larger free image available; current 541x330 stays. |
+| 89 | Walk Like a Man | /blog/songs/walk-like-a-man-four-seasons/ | song-story | pop-brill-building | not started | Walk Like a Man | GzoIvwNqKpw | yt REQUIRED: On publish, add a link to this song story from /blog/artists/the-four-seasons/ (in the matching section and in the singles table row), then push both pages together. |
+| 90 | Big Girls Don't Cry | /blog/songs/big-girls-dont-cry-four-seasons/ | song-story | pop-brill-building | not started | Big Girls Don't Cry | zRZpaxBMJRU | yt REQUIRED: On publish, add a link to this song story from /blog/artists/the-four-seasons/ (in the matching section and in the singles table row), then push both pages together. |
+| 91 | Sherry | /blog/songs/sherry-four-seasons/ | song-story | pop-brill-building | not started | Sherry by The Four Seasons | jMcWldfg28s | yt REQUIRED: On publish, add a link to this song story from /blog/artists/the-four-seasons/ (in the matching section and in the singles table row), then push both pages together. |
 | 92 | Herb Alpert & The Tijuana Brass bio | /blog/artists/herb-alpert-and-the-tijuana-brass/ | artist-bio | jazz-easy-listening | not started | Herb Alpert & The Tijuana Brass | NC38-qqiVgg | yt |
 | 93 | A Taste of Honey | /blog/songs/a-taste-of-honey-herb-alpert-and-the-tijuana-brass/ | song-story | jazz-easy-listening | not started | A Taste of Honey | NC38-qqiVgg | yt |
 | 94 | Spanish Flea | /blog/songs/spanish-flea-herb-alpert-and-the-tijuana-brass/ | song-story | jazz-easy-listening | not started | Spanish Flea by Herb Alpert & The Tijuana Brass | aBE9EQ7gXKI |  |
@@ -139,9 +139,7 @@ matching record in `data/songs.json`.
 
 ## Follow-ups
 
-- Row 88 feature image is 541x330 (public-domain 1966 Philips trade ad, Commons). Replace with a larger freely-licensed photo when one turns up; swap `blog/artists/the-four-seasons/the-four-seasons-1966.png`, update alt/caption and `og:image` + JSON-LD `image`. Image-only swap, no Updated bump.
-
-- Singles-table component live 2026-10-29 on the-four-seasons (`docs/singles-table.md`). Retrofit pending approval: hermans-hermits, the-temptations, the-searchers (built locally). Mixed singles/album tables not yet decided: patsy-cline, frank-sinatra, johnny-cash, the-monkees, simon-and-garfunkel, the-supremes.
+- Singles-table component live 2026-10-29 on the-four-seasons, hermans-hermits, the-temptations, the-searchers, patsy-cline, frank-sinatra, johnny-cash, the-monkees, simon-and-garfunkel, the-supremes (`docs/singles-table.md`).
 
 ## Future keywords (not queued, do not add to the rotation above)
 
