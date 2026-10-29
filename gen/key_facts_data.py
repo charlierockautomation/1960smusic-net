@@ -567,6 +567,14 @@ ARTISTS = {
         ("Classic lineup", "Jim Morrison, Ray Manzarek, Robby Krieger, John Densmore"),
         ("Peak chart hits", "\"Light My Fire\" (US No. 1, 1967); the album Waiting for the Sun (US No. 1 on the Billboard 200, 1968)"),
     ]),
+    "the-four-seasons": dict(years=[1962, 1963, 1964], rows=[
+        ("Origin", "Newark, New Jersey"),
+        ("Active", "1960-1977, reunited from 1979"),
+        ("Genre", "Pop & Brill Building"),
+        ("Label", "Vee-Jay, then Philips (from January 1964)"),
+        ("Classic lineup", "Frankie Valli, Bob Gaudio, Tommy DeVito, Nick Massi"),
+        ("Peak chart hits", "\"Sherry\" (US No. 1, 1962); \"Big Girls Don't Cry\" (US No. 1, 1962); \"Walk Like a Man\" (US No. 1, 1963); \"Rag Doll\" (US No. 1, 1964)"),
+    ]),
     "the-jimi-hendrix-experience": dict(years=[1967, 1968], rows=[
         ("Origin", "London, England"),
         ("Active", "1966-1969"),

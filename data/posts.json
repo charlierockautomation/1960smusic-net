@@ -1716,6 +1716,15 @@
       "description": "I Fall to Pieces by Patsy Cline was turned down by Brenda Lee and Roy Drusky. See the November 1960 session, the radio fight and the No. 1 country run.",
       "date": "2026-10-29",
       "genre": "country-60s"
+    },
+    {
+      "id": "the-four-seasons",
+      "title": "The Four Seasons: Frankie Valli, Sherry and Four No. 1s",
+      "slug": "/blog/artists/the-four-seasons/",
+      "type": "artist-bio",
+      "description": "The Four Seasons formed in Newark in 1960 and reached No. 1 with Sherry, Big Girls Don't Cry, Walk Like a Man and Rag Doll between 1962 and 1964.",
+      "date": "2026-10-29",
+      "genre": "pop-brill-building"
     }
   ]
 }

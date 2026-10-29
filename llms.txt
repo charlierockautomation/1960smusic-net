@@ -47,6 +47,7 @@ Sitemap: https://1960smusic.net/sitemap.xml
 - [British Invasion: How 1960s British Rock Bands Conquered America](https://1960smusic.net/blog/genres/british-invasion/): How UK bands led by The Beatles conquered American radio, charts, and TV starting in 1964, and the sound and artists that defined the movement.
 
 ## Artists
+- [The Four Seasons: Frankie Valli, Sherry and Four No. 1s](https://1960smusic.net/blog/artists/the-four-seasons/): The Four Seasons formed in Newark in 1960 and reached No. 1 with Sherry, Big Girls Don't Cry, Walk Like a Man and Rag Doll between 1962 and 1964.
 - [Patsy Cline: Crazy, the Nashville Sound and 1963](https://1960smusic.net/blog/artists/patsy-cline/): Patsy Cline went from Winchester, Virginia to Decca stardom with I Fall to Pieces and Crazy in 1961, then died in a plane crash on March 5, 1963, at 30.
 - [The Temptations: Motown's Five-Man Detroit Soul Group](https://1960smusic.net/blog/artists/the-temptations/): The Temptations rose from Detroit to Motown stardom. Meet the five voices behind My Girl, the David Ruffin years, Norman Whitfield's psychedelic soul and Cloud Nine.
 - [The Sonics: Tacoma's Screaming Garage Rock Pioneers](https://1960smusic.net/blog/artists/the-sonics/): The Sonics, a Tacoma garage band, cut The Witch and Psycho in 1964-65. Meet the lineup, the raw records and the proto-punk legacy they left behind.
@@ -216,7 +217,6 @@ Sitemap: https://1960smusic.net/sitemap.xml
 - [On This Day: September 4 in 1960s Music](https://1960smusic.net/blog/on-this-day/september-4/): 14 verified 1960s music events from September 4: Ringo's first Beatles session cuts Love Me Do, the Animals' US debut, Help! hits No. 1, and the Highwaymen top the charts.
 - [On This Day: September 5 in 1960s Music](https://1960smusic.net/blog/on-this-day/september-5/): 10 verified 1960s music events from September 5: the Animals hit No. 1 with House of the Rising Sun, the Beatles cut I Am the Walrus, and the Doors debut on Top of the Pops.
 - [On This Day: September 2 in 1960s Music](https://1960smusic.net/blog/on-this-day/september-2/): 21 verified 1960s music events from September 2: Hendrix's most famous cover, Beatles and Stones history, chart-topping hits, and a Jodeci birth, each dated and sourced.
-- [On This Day: September 3 in 1960s Music](https://1960smusic.net/blog/on-this-day/september-3/): 23 verified 1960s music events from September 3: Ringo Starr rejoins the Beatles, four different Beatles milestones across the decade, Dylan's electric Hollywood Bowl debut, and a Rolling Stones riot in Dublin, each dated and sourced.
 
 ## Trending
 - [Dolly Parton's Catalog Is Surging. It Started With "Dumb Blonde"](https://1960smusic.net/blog/trending/dolly-parton-dumb-blonde/): Dolly Parton's streams are surging after her death. The real story behind Dumb Blonde, her 1967 breakthrough single, and how it led to The Porter Wagoner Show.
