@@ -1698,6 +1698,15 @@
       "description": "1960s music genres by year, counted across 556 songs on our Radio Dial. See where each genre peaks, when psychedelic rock appears, and how the mix shifts.",
       "date": "2026-10-26",
       "genre": null
+    },
+    {
+      "id": "crazy-patsy-cline",
+      "title": "Crazy by Patsy Cline: The Willie Nelson Song She Made Hers",
+      "slug": "/blog/songs/crazy-patsy-cline/",
+      "type": "song-story",
+      "description": "Crazy by Patsy Cline began as Willie Nelson's demo. See the Billy Walker trade, the one-take vocal on September 15, 1961, and how it hit No. 9.",
+      "date": "2026-10-29",
+      "genre": "country-60s"
     }
   ]
 }

@@ -298,6 +298,14 @@ SONGS = {
         ("US peak", "No. 1, Billboard Hot 100 (March 6, 1965)"),
         ("UK peak", "No. 43 (1964-65); No. 2 on 1992 re-release"),
     ]),
+    "crazy-patsy-cline": dict(year=1961, rows=[
+        ("Released", "October 16, 1961"),
+        ("Label", "Decca"),
+        ("Written by", "Willie Nelson"),
+        ("Produced by", "Owen Bradley"),
+        ("US peak", "No. 9, Billboard Hot 100; No. 2, Hot Country Songs"),
+        ("UK peak", "No. 14 (1990 chart run)"),
+    ]),
     "get-ready-temptations": dict(year=1966, rows=[
         ("Released", "February 7, 1966"),
         ("Label", "Gordy (Motown)"),
