@@ -27,6 +27,7 @@
 <link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#3D2B1F">
 <link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/assets/css/playlist-player.css">
 <!-- FOCUS KEYWORD: The Searchers band -->
 <script type="application/ld+json">
 {
@@ -216,19 +217,47 @@
 
       <h3>UK Chart Hits, 1963-1966</h3>
       <p>The band placed 14 singles on the UK chart across four years, with three of them reaching number one.</p>
-      <div class="table-scroll">
-        <table>
+      <p class="pp-caption" aria-hidden="true">Selected UK chart hits by The Searchers, 1963 to 1965</p>
+      <div class="table-scroll pp-table-scroll">
+        <table id="pp-table-the-searchers" class="pp-table" data-pp-playlist-id="artist-the-searchers" data-pp-sortable>
+          <caption class="pp-sr-only">Selected UK chart hits by The Searchers, 1963 to 1965</caption>
           <thead>
-            <tr><th>Song</th><th>UK Peak</th><th>Year</th></tr>
+            <tr>
+              <th><span class="pp-sr-only">Play</span></th>
+              <th aria-sort="none"><button type="button" class="pp-sort" data-pp-sort="text">Song</button></th>
+              <th aria-sort="none"><button type="button" class="pp-sort" data-pp-sort="num">UK Peak</button></th>
+              <th aria-sort="none"><button type="button" class="pp-sort" data-pp-sort="num">Year</button></th>
+            </tr>
           </thead>
           <tbody>
-            <tr><td>Sweets for My Sweet</td><td>#1</td><td>1963</td></tr>
-            <tr><td>Sugar and Spice</td><td>#2</td><td>1963</td></tr>
-            <tr><td>Needles and Pins</td><td>#1</td><td>1964</td></tr>
-            <tr><td>Don't Throw Your Love Away</td><td>#1</td><td>1964</td></tr>
-            <tr><td>When You Walk in the Room</td><td>#3</td><td>1964</td></tr>
-            <tr><td>Goodbye My Love</td><td>#4</td><td>1965</td></tr>
-            <tr><td>He's Got No Love</td><td>#12</td><td>1965</td></tr>
+            <tr data-pp-yt="_lsvYyyzvTk" data-pp-title="Sweets for My Sweet" data-pp-artist="The Searchers" data-pp-yr="1963">
+              <td><button type="button" class="pp-play-btn" aria-label="Play Sweets for My Sweet">&#9654; Play</button></td>
+              <td>Sweets for My Sweet</td><td>#1</td><td>1963</td>
+            </tr>
+            <tr data-pp-yt="Jbf0d4oBMT4" data-pp-title="Sugar and Spice" data-pp-artist="The Searchers" data-pp-yr="1963">
+              <td><button type="button" class="pp-play-btn" aria-label="Play Sugar and Spice">&#9654; Play</button></td>
+              <td>Sugar and Spice</td><td>#2</td><td>1963</td>
+            </tr>
+            <tr data-pp-yt="dojmsGEhGHU" data-pp-title="Needles and Pins" data-pp-artist="The Searchers" data-pp-yr="1964">
+              <td><button type="button" class="pp-play-btn" aria-label="Play Needles and Pins">&#9654; Play</button></td>
+              <td>Needles and Pins</td><td>#1</td><td>1964</td>
+            </tr>
+            <tr data-pp-yt="CAaiK9ukDvM" data-pp-title="Don&#x27;t Throw Your Love Away" data-pp-artist="The Searchers" data-pp-yr="1964">
+              <td><button type="button" class="pp-play-btn" aria-label="Play Don&#x27;t Throw Your Love Away">&#9654; Play</button></td>
+              <td>Don't Throw Your Love Away</td><td>#1</td><td>1964</td>
+            </tr>
+            <tr data-pp-yt="fema-XUpCUk" data-pp-title="When You Walk in the Room" data-pp-artist="The Searchers" data-pp-yr="1964">
+              <td><button type="button" class="pp-play-btn" aria-label="Play When You Walk in the Room">&#9654; Play</button></td>
+              <td>When You Walk in the Room</td><td>#3</td><td>1964</td>
+            </tr>
+            <tr data-pp-yt="_FnGTZqdmg8" data-pp-title="Goodbye My Love" data-pp-artist="The Searchers" data-pp-yr="1965">
+              <td><button type="button" class="pp-play-btn" aria-label="Play Goodbye My Love">&#9654; Play</button></td>
+              <td>Goodbye My Love</td><td>#4</td><td>1965</td>
+            </tr>
+            <tr data-pp-yt="486lYrM3-kg" data-pp-title="He&#x27;s Got No Love" data-pp-artist="The Searchers" data-pp-yr="1965">
+              <td><button type="button" class="pp-play-btn" aria-label="Play He&#x27;s Got No Love">&#9654; Play</button></td>
+              <td>He's Got No Love</td><td>#12</td><td>1965</td>
+            </tr>
           </tbody>
         </table>
       </div>
@@ -306,6 +335,9 @@
   </div>
 </footer>
 
+<script src="/assets/js/playlist-player.js"></script>
+<script src="/assets/js/playlist-player-ui.js"></script>
+<script src="/assets/js/playlist-table.js"></script>
 <script src="/site.js" defer></script>
 </body>
 </html>

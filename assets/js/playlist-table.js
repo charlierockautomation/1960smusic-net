@@ -119,6 +119,9 @@
           heads.forEach(function(h){ h.setAttribute('aria-sort', h === th ? (dir === 1 ? 'ascending' : 'descending') : 'none'); });
           var keyed = rows.map(function(tr){ return { tr: tr, k: cellKey(tr, col, type), o: origOrder.indexOf(tr) }; });
           keyed.sort(function(a, b){
+            // Blank/non-numeric cells (e.g. "Not a UK single") always sort last.
+            var am = a.k === Infinity, bm = b.k === Infinity;
+            if (am !== bm) return am ? 1 : -1;
             var c = type === 'num' ? (a.k === b.k ? 0 : a.k < b.k ? -1 : 1) : a.k.localeCompare(b.k);
             return c ? c * dir : a.o - b.o;
           });

@@ -35,8 +35,9 @@ linter, or JS build.
 
 ## YouTube Embed Rule — ABSOLUTE
 
-Every embed must be visible, unobscured, and at/above YouTube's minimum
-size (200x200px, 480x270 for 16:9); never a hidden/background player.
+Every embed must be visible, unobscured, and at least 200x200px visible
+(YouTube's requirement; 480x270 is only its 16:9 recommendation); never a
+hidden/background player.
 `check_article.py` checks that song/artist pages carry an embed; the
 visibility and size rules above are a manual check for every type.
 

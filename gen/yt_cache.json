@@ -121,15 +121,15 @@
   "checked_at": "2026-09-20"
  },
  "Herman's Hermits|||Mrs. Brown You've Got a Lovely Daughter": {
-  "youtube_id": "IOfs8U_3NQk",
-  "flagged": true,
-  "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('The Ed Sullivan Show') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
-  "video_title": "Herman's Hermits \"Mrs. Brown, You've Got A Lovely Daughter\" on The Ed Sullivan Show",
-  "author": "The Ed Sullivan Show",
+  "youtube_id": "VgC9QKKUZiM",
+  "flagged": false,
+  "reason": null,
+  "video_title": "Mrs. Brown You've Got a Lovely Daughter",
+  "author": "Herman's Hermits - Topic",
   "live_ok": true,
   "embeddable": true,
   "made_for_kids": false,
-  "checked_at": "2026-09-20"
+  "checked_at": "2026-10-29"
  },
  "The Kinks|||Sunny Afternoon": {
   "youtube_id": "TYIl6n_SRCI",
@@ -165,15 +165,15 @@
   "checked_at": "2026-09-20"
  },
  "Herman's Hermits|||I'm Henry the VIII, I Am": {
-  "youtube_id": "FFNoDsOmluA",
-  "flagged": true,
-  "reason": "Auto-selected upload is live and title-matched, but the hosting channel ('The Ed Sullivan Show') is not an obviously official source (VEVO/Topic/artist channel) \u2014 verify it is an acceptable copy.",
-  "video_title": "Herman's Hermits \"Henry The VIII, I Am\" on The Ed Sullivan Show",
-  "author": "The Ed Sullivan Show",
+  "youtube_id": "6aw5w38S8NA",
+  "flagged": false,
+  "reason": null,
+  "video_title": "I'm Henry the VIII, I Am",
+  "author": "Herman's Hermits - Topic",
   "live_ok": true,
   "embeddable": true,
   "made_for_kids": false,
-  "checked_at": "2026-09-20"
+  "checked_at": "2026-10-29"
  },
  "The Dave Clark Five|||Bits and Pieces": {
   "youtube_id": "SzTQduUZFY8",

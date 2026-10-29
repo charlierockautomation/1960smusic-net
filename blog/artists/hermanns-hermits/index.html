@@ -27,6 +27,7 @@
 <link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#3D2B1F">
 <link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/assets/css/playlist-player.css">
 <!-- FOCUS KEYWORD: Herman's Hermits -->
 <script type="application/ld+json">
 {
@@ -187,7 +188,7 @@
       </ul>
 
       <div class="youtube-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;margin:2rem 0;">
-        <iframe src="https://www.youtube.com/embed/IOfs8U_3NQk" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Herman's Hermits - Mrs. Brown, You've Got a Lovely Daughter"></iframe>
+        <iframe src="https://www.youtube.com/embed/VgC9QKKUZiM" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Herman's Hermits - Mrs. Brown, You've Got a Lovely Daughter"></iframe>
       </div>
 
       <hr>
@@ -239,23 +240,60 @@
       "No Milk Today," written by Graham Gouldman, reached number seven in Britain.<br>
       The band also had a US Top Five hit with "Dandy," a Ray Davies song first cut by <a href="/blog/artists/the-kinks/">the Kinks</a>.</p>
 
-      <div class="table-scroll">
-        <table>
-          <caption>Selected singles: UK and US peak chart positions, 1964 to 1967</caption>
+      <p class="pp-caption" aria-hidden="true">Selected singles: UK and US peak chart positions, 1964 to 1967</p>
+      <div class="table-scroll pp-table-scroll">
+        <table id="pp-table-hermanns-hermits" class="pp-table" data-pp-playlist-id="artist-hermanns-hermits" data-pp-sortable>
+          <caption class="pp-sr-only">Selected singles: UK and US peak chart positions, 1964 to 1967</caption>
           <thead>
-            <tr><th>Single</th><th>Year</th><th>UK</th><th>US (Billboard)</th></tr>
+            <tr>
+              <th><span class="pp-sr-only">Play</span></th>
+              <th aria-sort="none"><button type="button" class="pp-sort" data-pp-sort="text">Single</button></th>
+              <th aria-sort="none"><button type="button" class="pp-sort" data-pp-sort="num">Year</button></th>
+              <th aria-sort="none"><button type="button" class="pp-sort" data-pp-sort="num">UK</button></th>
+              <th aria-sort="none"><button type="button" class="pp-sort" data-pp-sort="num">US (Billboard)</button></th>
+            </tr>
           </thead>
           <tbody>
-            <tr><td>I'm Into Something Good</td><td>1964</td><td>1</td><td>13</td></tr>
-            <tr><td>Can't You Hear My Heartbeat</td><td>1965</td><td>Not a UK single</td><td>2</td></tr>
-            <tr><td>Silhouettes</td><td>1965</td><td>3</td><td>5</td></tr>
-            <tr><td>Wonderful World</td><td>1965</td><td>7</td><td>4</td></tr>
-            <tr><td>Mrs. Brown, You've Got a Lovely Daughter</td><td>1965</td><td>Not a UK single</td><td>1</td></tr>
-            <tr><td>I'm Henry the VIII, I Am</td><td>1965</td><td>Not a UK single</td><td>1</td></tr>
-            <tr><td>A Must to Avoid</td><td>1965</td><td>6</td><td>8</td></tr>
-            <tr><td>Listen People</td><td>1966</td><td>Not a UK single</td><td>3</td></tr>
-            <tr><td>No Milk Today</td><td>1966</td><td>7</td><td>35</td></tr>
-            <tr><td>There's a Kind of Hush</td><td>1967</td><td>7</td><td>4</td></tr>
+            <tr data-pp-yt="Q39YlH6CofI" data-pp-title="I&#x27;m Into Something Good" data-pp-artist="Herman&#x27;s Hermits" data-pp-yr="1964">
+              <td><button type="button" class="pp-play-btn" aria-label="Play I&#x27;m Into Something Good">&#9654; Play</button></td>
+              <td>I'm Into Something Good</td><td>1964</td><td>1</td><td>13</td>
+            </tr>
+            <tr data-pp-yt="DYVMhfwak7o" data-pp-title="Can&#x27;t You Hear My Heartbeat" data-pp-artist="Herman&#x27;s Hermits" data-pp-yr="1965">
+              <td><button type="button" class="pp-play-btn" aria-label="Play Can&#x27;t You Hear My Heartbeat">&#9654; Play</button></td>
+              <td>Can't You Hear My Heartbeat</td><td>1965</td><td>Not a UK single</td><td>2</td>
+            </tr>
+            <tr data-pp-yt="3TF4l3-VAH8" data-pp-title="Silhouettes" data-pp-artist="Herman&#x27;s Hermits" data-pp-yr="1965">
+              <td><button type="button" class="pp-play-btn" aria-label="Play Silhouettes">&#9654; Play</button></td>
+              <td>Silhouettes</td><td>1965</td><td>3</td><td>5</td>
+            </tr>
+            <tr data-pp-yt="iZJyznIO3uE" data-pp-title="Wonderful World" data-pp-artist="Herman&#x27;s Hermits" data-pp-yr="1965">
+              <td><button type="button" class="pp-play-btn" aria-label="Play Wonderful World">&#9654; Play</button></td>
+              <td>Wonderful World</td><td>1965</td><td>7</td><td>4</td>
+            </tr>
+            <tr data-pp-yt="VgC9QKKUZiM" data-pp-title="Mrs. Brown, You&#x27;ve Got a Lovely Daughter" data-pp-artist="Herman&#x27;s Hermits" data-pp-yr="1965">
+              <td><button type="button" class="pp-play-btn" aria-label="Play Mrs. Brown, You&#x27;ve Got a Lovely Daughter">&#9654; Play</button></td>
+              <td>Mrs. Brown, You've Got a Lovely Daughter</td><td>1965</td><td>Not a UK single</td><td>1</td>
+            </tr>
+            <tr data-pp-yt="6aw5w38S8NA" data-pp-title="I&#x27;m Henry the VIII, I Am" data-pp-artist="Herman&#x27;s Hermits" data-pp-yr="1965">
+              <td><button type="button" class="pp-play-btn" aria-label="Play I&#x27;m Henry the VIII, I Am">&#9654; Play</button></td>
+              <td>I'm Henry the VIII, I Am</td><td>1965</td><td>Not a UK single</td><td>1</td>
+            </tr>
+            <tr data-pp-yt="JBfFF98VczM" data-pp-title="A Must to Avoid" data-pp-artist="Herman&#x27;s Hermits" data-pp-yr="1965">
+              <td><button type="button" class="pp-play-btn" aria-label="Play A Must to Avoid">&#9654; Play</button></td>
+              <td>A Must to Avoid</td><td>1965</td><td>6</td><td>8</td>
+            </tr>
+            <tr data-pp-yt="uuNhYenoTNk" data-pp-title="Listen People" data-pp-artist="Herman&#x27;s Hermits" data-pp-yr="1966">
+              <td><button type="button" class="pp-play-btn" aria-label="Play Listen People">&#9654; Play</button></td>
+              <td>Listen People</td><td>1966</td><td>Not a UK single</td><td>3</td>
+            </tr>
+            <tr data-pp-yt="cV9fGx7ygAc" data-pp-title="No Milk Today" data-pp-artist="Herman&#x27;s Hermits" data-pp-yr="1966">
+              <td><button type="button" class="pp-play-btn" aria-label="Play No Milk Today">&#9654; Play</button></td>
+              <td>No Milk Today</td><td>1966</td><td>7</td><td>35</td>
+            </tr>
+            <tr data-pp-yt="fhJSnWwGies" data-pp-title="There&#x27;s a Kind of Hush" data-pp-artist="Herman&#x27;s Hermits" data-pp-yr="1967">
+              <td><button type="button" class="pp-play-btn" aria-label="Play There&#x27;s a Kind of Hush">&#9654; Play</button></td>
+              <td>There's a Kind of Hush</td><td>1967</td><td>7</td><td>4</td>
+            </tr>
           </tbody>
         </table>
       </div>
@@ -350,6 +388,9 @@
   </div>
 </footer>
 
+<script src="/assets/js/playlist-player.js"></script>
+<script src="/assets/js/playlist-player-ui.js"></script>
+<script src="/assets/js/playlist-table.js"></script>
 <script src="/site.js" defer></script>
 </body>
 </html>

@@ -1,6 +1,6 @@
-# Daily Guessing Game -- Pool Report -- 2026-10-26
+# Daily Guessing Game -- Pool Report -- 2026-10-29
 
-557 pool entries checked, 450 kept, 107 excluded.
+557 pool entries checked, 451 kept, 106 excluded.
 
 ## 1. Dual-year songs
 
@@ -11,7 +11,7 @@
 ## 2. Excluded songs
 
 
-### title_exposes_year (107)
+### title_exposes_year (106)
 
 | Title | Artist | YouTube ID | Detail |
 |---|---|---|---|
@@ -106,14 +106,6 @@
 | Mexico | Bob Moore | tg4cGgSEwqc | title_exposes_year: "Mexico (1961) - Bob Moore & His Orchestra" contains 1961 |
 | Asia Minor | Kokomo | DPiGG66WFdQ | title_exposes_year: "1961 HITS ARCHIVE: Asia Minor - Kokomo" contains 1961 |
 | The Stripper | David Rose | QYkdwTB4uIQ | title_exposes_year: "David Rose And His Orchestra — The Stripper / Ebb Tide | 1962 Instrumental 45" contains 1962 |
-| A World Without Love | Peter & Gordon | Tdx6lLvvRyg | title_exposes_year: "Peter and Gordon - A World Without Love (HD) 1964 Stereo" contains 1964 |
-| Sha La La La Lee | The Small Faces | JsuKmqQyYR4 | title_exposes_year: "The Small Faces - Sha La La La Lee (1966)" contains 1966 |
-| Shapes of Things | The Yardbirds | tOc-_GpfF1w | title_exposes_year: "The Yardbirds - Shapes of Things (1966)" contains 1966 |
-| There's a Kind of Hush | Herman's Hermits | F0RrC_n-OTc | title_exposes_year: "NEW * There's A Kind Of Hush - Herman's Hermits 4K {Stereo} 1967" contains 1967 |
-| 5-4-3-2-1 | Manfred Mann | 9lGLbL5M8kY | title_exposes_year: "Manfred Mann -  5-4-3-2-1 [Official Lyric Video] 1964" contains 1964 |
-| Gimme Some Lovin' | Spencer Davis Group | RSIj_yhj7hg | title_exposes_year: "Gimme Some Lovin Spencer Davis Group FULL SONG ReEdit TRUE 1966 STEREO HiQ Hybrid JARichardsFilm" contains 1966 |
-| Have I the Right | The Honeycombs | 2ZUWHfI6EuE | title_exposes_year: "Have I The Right? - The Honeycombs (Promotional Video) UK# 1 - June 1964" contains 1964 |
-| Ferry Cross the Mersey | Gerry and the Pacemakers | 08083BNaYcA | title_exposes_year: "Gerry & The Pacemakers - Ferry Cross The Mersey (1965)" contains 1965 |
 | If I Had a Hammer | Peter, Paul and Mary | XxWTDcP9Y5E | title_exposes_year: "Peter, Paul and Mary - If I Had A Hammer (1963 performance)" contains 1963 |
 | Puff, the Magic Dragon | Peter, Paul and Mary | z15pxWUXvLY | title_exposes_year: "Puff The Magic Dragon -- Peter, Paul & Mary ~ Live 1965" contains 1965 |
 | For Emily, Whenever I May Find Her | Simon & Garfunkel | kOgmYFTZ2iU | title_exposes_year: "For Emily, Whenever I May Find Her (Live in St. Louis, MO - November 1969)" contains 1969 |
@@ -122,6 +114,13 @@
 | Georgy Girl | The Seekers | wsIbfYEizLk | title_exposes_year: "The Seekers - Georgy Girl (1967 - Stereo)" contains 1967 |
 | It Ain't Me Babe | The Turtles | SRBkFnPgcik | title_exposes_year: "It Ain't Me Babe The Turtles RESTORED VIDEO TRUE 1965 STEREO HiQ Hybrid JARichardsFilm" contains 1965 |
 | Greenfields | The Brothers Four | 1ddhdo78z6o | title_exposes_year: "Brothers Four - Greenfields  (1960)" contains 1960 |
+| A World Without Love | Peter & Gordon | Tdx6lLvvRyg | title_exposes_year: "Peter and Gordon - A World Without Love (HD) 1964 Stereo" contains 1964 |
+| Sha La La La Lee | The Small Faces | JsuKmqQyYR4 | title_exposes_year: "The Small Faces - Sha La La La Lee (1966)" contains 1966 |
+| Shapes of Things | The Yardbirds | tOc-_GpfF1w | title_exposes_year: "The Yardbirds - Shapes of Things (1966)" contains 1966 |
+| 5-4-3-2-1 | Manfred Mann | 9lGLbL5M8kY | title_exposes_year: "Manfred Mann -  5-4-3-2-1 [Official Lyric Video] 1964" contains 1964 |
+| Gimme Some Lovin' | Spencer Davis Group | RSIj_yhj7hg | title_exposes_year: "Gimme Some Lovin Spencer Davis Group FULL SONG ReEdit TRUE 1966 STEREO HiQ Hybrid JARichardsFilm" contains 1966 |
+| Have I the Right | The Honeycombs | 2ZUWHfI6EuE | title_exposes_year: "Have I The Right? - The Honeycombs (Promotional Video) UK# 1 - June 1964" contains 1964 |
+| Ferry Cross the Mersey | Gerry and the Pacemakers | 08083BNaYcA | title_exposes_year: "Gerry & The Pacemakers - Ferry Cross The Mersey (1965)" contains 1965 |
 
 ## 3. How `year` is sourced
 
