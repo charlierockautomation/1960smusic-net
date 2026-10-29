@@ -159,22 +159,64 @@ ARTICLE_URL = re.compile(r"^/(blog/(artists|songs|genres|trending|on-this-day)|1
 LISTING_URLS = {"/blog/", "/blog/artists/", "/blog/genres/", "/blog/songs/", "/blog/on-this-day/", "/blog/trending/", "/tools/"}
 
 
+def visible_crumbs(text, url):
+    """[(name, absolute url)] from the page's <nav class="breadcrumb">, or None.
+    The current-page span carries the page URL."""
+    m = re.search(r'<nav class="breadcrumb"[^>]*>(.*?)</nav>', text, flags=re.S)
+    if not m:
+        return None
+    out = []
+    for tag in re.finditer(r'<a href="([^"]*)"[^>]*>(.*?)</a>|<span[^>]*aria-current[^>]*>(.*?)</span>', m.group(1), flags=re.S):
+        if tag.group(1) is not None:
+            href = tag.group(1)
+            out.append((plain(tag.group(2)), href if href.startswith("http") else "https://1960smusic.net" + href))
+        else:
+            out.append((plain(tag.group(3)), "https://1960smusic.net" + url))
+    return out
+
+
+def jsonld_crumbs(text):
+    for raw in blocks(text):
+        try:
+            d = json.loads(raw)
+        except ValueError:
+            continue
+        for n in (d.get("@graph", [d]) if isinstance(d, dict) else []):
+            if n.get("@type") == "BreadcrumbList":
+                return [(plain(i.get("name", "")), i.get("item")) for i in n.get("itemListElement", [])]
+    return None
+
+
 def gate():
-    """Publish gate: every sitemap page except GATE_EXEMPT has valid JSON-LD
+    """Publish gate: every sitemap page has a title of 60 chars or fewer and, if it
+    shows a visible breadcrumb, one matching its BreadcrumbList (names + URLs).
+    Every sitemap page except GATE_EXEMPT has valid JSON-LD
     with a BreadcrumbList; article pages also need Article + FAQPage; the six
     blog listings need CollectionPage + ItemList matching their linked cards."""
     with open(os.path.join(ROOT, "sitemap.xml"), encoding="utf-8") as f:
         urls = re.findall(r"<loc>https://1960smusic\.net(/[^<]*)</loc>", f.read())
     bad = []
     for u in urls:
-        if u in GATE_EXEMPT:
-            continue
-        path = os.path.join(ROOT, u.strip("/"), "index.html")
+        path = os.path.join(ROOT, u.strip("/"), "index.html") if u != "/" else os.path.join(ROOT, "index.html")
         if not os.path.exists(path):
             bad.append((u, ["sitemap URL has no index.html"]))
             continue
+        text = open(path, encoding="utf-8").read()
+        tm = re.search(r"<title>(.*?)</title>", text, flags=re.S)
+        terrs = []
+        if not tm:
+            terrs.append("no <title>")
+        elif len(plain(tm.group(1))) > 60:
+            terrs.append(f"title is {len(plain(tm.group(1)))} chars (limit 60)")
+        vis, ld_c = visible_crumbs(text, u), jsonld_crumbs(text)
+        if vis is not None and vis != ld_c:
+            terrs.append(f"visible breadcrumb {vis} != BreadcrumbList {ld_c}")
+        if u in GATE_EXEMPT:
+            if terrs:
+                bad.append((u, terrs))
+            continue
         types, errs, _ = validate(path)
-        errs = list(errs)
+        errs = terrs + list(errs)
         need_t = ["BreadcrumbList"]
         if ARTICLE_URL.match(u):
             need_t += ["Article", "FAQPage"]
@@ -182,7 +224,6 @@ def gate():
             need_t += ["CollectionPage", "ItemList"]
         errs += [f"missing {t} JSON-LD" for t in need_t if t not in types]
         if u in LISTING_URLS:
-            text = open(path, encoding="utf-8").read()
             ld = text[text.find("<!-- ld:start -->"):text.find("<!-- ld:end -->")]
             body = text[text.find("</head>"):]
             listed = re.findall(r'"url": "https://1960smusic\.net(/[^"]+)"', ld)[1:]
@@ -195,7 +236,7 @@ def gate():
         print(u)
         for e in errs:
             print(f"  GATE FAIL: {e}")
-    print(f"jsonld gate: {len(urls) - len(GATE_EXEMPT & set(urls))} pages checked, " + (f"{len(bad)} FAILED" if bad else "all pass"))
+    print(f"jsonld gate: {len(urls)} pages checked, " + (f"{len(bad)} FAILED" if bad else "all pass"))
     return 1 if bad else 0
 
 
