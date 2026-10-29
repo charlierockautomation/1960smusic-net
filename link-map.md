@@ -174,3 +174,5 @@ from the site).
 | /blog/artists/the-four-seasons/ | artist bio | live | https://1960smusic.net/blog/artists/the-four-seasons/ | /blog/genres/pop-brill-building/, / (homepage) | /blog/artists/the-beatles/, /1960s/1962/, /1960s/1963/, /1960s/1964/, /1960s/1966/, /1960s/1967/, playable singles table (docs/singles-table.md) |
 
 2026-10-29: renamed the Herman's Hermits artist page and both song pages to the single-n spelling (hermans-hermits); old double-n URLs 301 via `_redirects`.
+
+2026-10-29: playable singles table (docs/singles-table.md) now also on the-four-seasons, patsy-cline, frank-sinatra, johnny-cash, the-monkees, simon-and-garfunkel, the-supremes artist pages; Monkees/Sinatra/Cash song-page IDs swapped to official uploads. No link changes.
