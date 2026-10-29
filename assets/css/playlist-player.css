@@ -114,3 +114,36 @@
 .pp-filter:focus-visible{ outline:2px solid var(--amber); outline-offset:2px; }
 .pp-filter-status{ font-family:sans-serif; font-size:.8rem; color:var(--muted); margin:0 0 10px; }
 .pp-table .pp-why{ min-width:260px; }
+
+/* Singles table (artist bios): visible caption above the scroll box,
+   sortable headers with direction arrows, explicit Play button per row.
+   The visible .pp-caption is aria-hidden; the real <caption class="pp-sr-only">
+   inside the table carries the same text for assistive tech and crawlers, so
+   the sticky header can never cover it. */
+.pp-caption{ margin:1.2em 0 .5em; font-family:sans-serif; font-size:.9rem; font-weight:700; color:var(--ink); }
+.pp-sr-only{
+  position:absolute !important; width:1px; height:1px; margin:-1px; padding:0;
+  overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; border:0;
+}
+.pp-table th{ background:var(--card); }
+.pp-table .pp-sort{
+  font:inherit; text-transform:inherit; letter-spacing:inherit; color:inherit;
+  background:none; border:none; padding:6px 0; margin:0; cursor:pointer;
+  min-height:36px; text-align:left;
+}
+.pp-table .pp-sort::after{ content:"\2195"; margin-left:5px; opacity:.4; }
+.pp-table th[aria-sort="ascending"] .pp-sort::after{ content:"\25B2"; opacity:1; color:var(--tube-glow); }
+.pp-table th[aria-sort="descending"] .pp-sort::after{ content:"\25BC"; opacity:1; color:var(--tube-glow); }
+.pp-table .pp-sort:hover,.pp-table .pp-sort:focus-visible{ color:var(--tube-glow); }
+.pp-play-btn{
+  font-family:sans-serif; font-weight:700; font-size:.78rem; cursor:pointer; white-space:nowrap;
+  background:var(--amber); color:#2a160b; border:none; border-radius:6px;
+  padding:6px 10px; min-height:36px; box-sizing:border-box;
+}
+.pp-play-btn:hover{ background:#ff8f57; }
+.pp-play-btn:focus-visible{ outline:2px solid var(--brass); outline-offset:2px; }
+.pp-table tr.pp-active .pp-play-btn{ background:var(--brass); }
+@media (max-width:640px){
+  .pp-table th,.pp-table td{ padding:8px 6px; }
+  .pp-play-btn{ padding:6px 8px; }
+}

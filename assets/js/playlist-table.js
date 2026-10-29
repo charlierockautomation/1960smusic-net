@@ -6,7 +6,13 @@
    overwrites textContent for the footer's copyright year, and once wiped
    out a tracklist row that used a plain data-year attribute). Each table
    needs a matching .pp-controls block (Play All / Shuffle / search) with
-   buttons/input carrying data-pp-table="<table id>". */
+   buttons/input carrying data-pp-table="<table id>".
+
+   Singles-table variant (artist bios): a table with data-pp-sortable has
+   <th aria-sort="none"><button class="pp-sort" data-pp-sort="text|num">
+   headers. Cells may carry data-pp-sortkey (e.g. "1" on "No. 1") so "num"
+   sorts by the key, not the text. Sorting re-orders the real <tr>s, so the
+   play order follows the table; the active song keeps playing. */
 
 (function(){
   function readSongs(table){
@@ -31,8 +37,10 @@
 
   function setup(table){
     var songs = readSongs(table);
+    var origOrder = Array.prototype.slice.call(table.querySelectorAll('tbody tr'));
     var id = table.getAttribute('data-pp-playlist-id') || table.id;
     var rows = Array.prototype.slice.call(table.querySelectorAll('tbody tr[data-pp-yt]'));
+    var tbody = table.querySelector('tbody');
     var scrollBox = table.closest('.pp-table-scroll');
 
     Array.prototype.forEach.call(document.querySelectorAll('[data-pp-count][data-pp-table="' + table.id + '"]'), function(el){
@@ -91,6 +99,36 @@
       var out = [];
       rows.forEach(function(tr, i){ if (!tr.classList.contains('pp-hidden')) out.push(songs[i]); });
       return out;
+    }
+
+    // Opt-in column sorting (data-pp-sortable). Stable: ties keep page order.
+    function cellKey(tr, col, type){
+      var td = tr.children[col];
+      var raw = td ? (td.getAttribute('data-pp-sortkey') || td.textContent).trim() : '';
+      if (type === 'num'){ var n = parseFloat(raw.replace(/[^0-9.\-]/g, '')); return isNaN(n) ? Infinity : n; }
+      return raw.replace(/^[^A-Za-z0-9]+/, '').toLowerCase();
+    }
+    if (table.hasAttribute('data-pp-sortable')){
+      var heads = Array.prototype.slice.call(table.querySelectorAll('thead th'));
+      heads.forEach(function(th, col){
+        var btn = th.querySelector('[data-pp-sort]');
+        if (!btn) return;
+        btn.addEventListener('click', function(){
+          var type = btn.getAttribute('data-pp-sort');
+          var dir = th.getAttribute('aria-sort') === 'ascending' ? -1 : 1;
+          heads.forEach(function(h){ h.setAttribute('aria-sort', h === th ? (dir === 1 ? 'ascending' : 'descending') : 'none'); });
+          var keyed = rows.map(function(tr){ return { tr: tr, k: cellKey(tr, col, type), o: origOrder.indexOf(tr) }; });
+          keyed.sort(function(a, b){
+            var c = type === 'num' ? (a.k === b.k ? 0 : a.k < b.k ? -1 : 1) : a.k.localeCompare(b.k);
+            return c ? c * dir : a.o - b.o;
+          });
+          rows = keyed.map(function(x){ return x.tr; });
+          rows.forEach(function(tr){ tbody.appendChild(tr); });
+          songs = readSongs(table);
+          PlaylistPlayer.reorder(playable(), id);
+          if (scrollBox) scrollBox.scrollTop = 0;
+        });
+      });
     }
 
     function ctl(attr){

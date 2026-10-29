@@ -162,6 +162,16 @@ var PlaylistPlayer = (function(){
     isPlaying = true;
     startCurrent();
   }
+  // Re-order the active playlist in place (a sortable table was re-sorted):
+  // keeps the current song playing and just moves currentIndex to its new slot.
+  function reorder(songs, id){
+    if (!isThisPlaylistActive(id) || !songs || !songs.length) return;
+    var cur = playlist[currentIndex];
+    playlist = songs;
+    var i = cur ? songs.findIndex(function(s){ return s.youtube_id === cur.youtube_id; }) : -1;
+    currentIndex = i >= 0 ? i : 0;
+    emit();
+  }
   function setVolume(v){ if (player) try { player.setVolume(v); } catch(e){} }
 
   function isThisPlaylistActive(id){ return playlist.length > 0 && playlistId === id; }
@@ -175,7 +185,7 @@ var PlaylistPlayer = (function(){
 
   return {
     loadPlaylist: loadPlaylist, play: play, pause: pause, stop: stop,
-    next: next, prev: prev, seekTo: seekTo, setVolume: setVolume,
+    next: next, prev: prev, seekTo: seekTo, reorder: reorder, setVolume: setVolume,
     isThisPlaylistActive: isThisPlaylistActive, getState: getState
   };
 })();

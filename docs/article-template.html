@@ -184,6 +184,32 @@ How to use:
         <figcaption>{{IMAGE_CAPTION}}. Photo: {{PHOTOGRAPHER_OR_SOURCE}}. {{LICENSE}}, via <a href="{{COMMONS_FILE_PAGE_URL}}" target="_blank" rel="noopener">Wikimedia Commons</a>.</figcaption>
       </figure>
 
+      <!-- SINGLES TABLE (artist bios with a chart-singles table). Spec: docs/singles-table.md.
+           Needs in <head>: <link rel="stylesheet" href="/assets/css/playlist-player.css">
+           and before /site.js: /assets/js/playlist-player.js, playlist-player-ui.js, playlist-table.js.
+           Put the "Tap Play to hear a song, or a heading to sort." hint in the prose above the table.
+      <p class="pp-caption" aria-hidden="true">Key singles and Hot 100 peaks</p>
+      <div class="table-scroll pp-table-scroll">
+        <table id="pp-table-ARTIST-SLUG" class="pp-table" data-pp-playlist-id="artist-ARTIST-SLUG" data-pp-sortable>
+          <caption class="pp-sr-only">Key singles and Hot 100 peaks</caption>
+          <thead>
+            <tr>
+              <th><span class="pp-sr-only">Play</span></th>
+              <th aria-sort="none"><button type="button" class="pp-sort" data-pp-sort="text">Single</button></th>
+              <th aria-sort="none"><button type="button" class="pp-sort" data-pp-sort="num">Year</button></th>
+              <th aria-sort="none"><button type="button" class="pp-sort" data-pp-sort="num">Peak</button></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-pp-yt="YOUTUBE_ID" data-pp-title="SONG" data-pp-artist="ARTIST" data-pp-yr="YEAR">
+              <td><button type="button" class="pp-play-btn" aria-label="Play SONG">&#9654; Play</button></td>
+              <td>"SONG"</td><td>YEAR</td><td data-pp-sortkey="1">No. 1</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      -->
+
       <h2 id="table-of-contents">Table of Contents</h2>
       <ul>
         <li><a href="#{{SECTION_1_ID}}">{{SECTION_1_LABEL}}</a></li>

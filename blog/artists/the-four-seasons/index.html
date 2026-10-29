@@ -27,6 +27,7 @@
 <link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#3D2B1F">
 <link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/assets/css/playlist-player.css">
 <!-- FOCUS KEYWORD: The Four Seasons -->
 <script type="application/ld+json">
 {
@@ -212,29 +213,77 @@
       <h3>The 1966 and 1967 Singles</h3>
       <p>The hits kept coming into the next two years.<br>
       The <a href="/1960s/1966/">1966 year guide</a> and the <a href="/1960s/1967/">1967 year guide</a> place them among the decade's pop and psychedelic changes.<br>
-      The table below lists their main Hot 100 peaks.</p>
+      The table lists their main Hot 100 peaks.<br>
+      Tap Play to hear a song, or a heading to sort.</p>
 
-      <table class="table-scroll">
-        <caption>Key singles and Hot 100 peaks</caption>
-        <thead>
-          <tr><th>Single</th><th>Year</th><th>Peak</th></tr>
-        </thead>
-        <tbody>
-          <tr><td>"Sherry"</td><td>1962</td><td>No. 1</td></tr>
-          <tr><td>"Big Girls Don't Cry"</td><td>1962</td><td>No. 1</td></tr>
-          <tr><td>"Walk Like a Man"</td><td>1963</td><td>No. 1</td></tr>
-          <tr><td>"Candy Girl"</td><td>1963</td><td>No. 3</td></tr>
-          <tr><td>"Dawn (Go Away)"</td><td>1964</td><td>No. 3</td></tr>
-          <tr><td>"Rag Doll"</td><td>1964</td><td>No. 1</td></tr>
-          <tr><td>"Let's Hang On!"</td><td>1965</td><td>No. 3</td></tr>
-          <tr><td>"Working My Way Back to You"</td><td>1966</td><td>No. 9</td></tr>
-          <tr><td>"I've Got You Under My Skin"</td><td>1966</td><td>No. 9</td></tr>
-          <tr><td>"Opus 17 (Don't You Worry 'bout Me)"</td><td>1966</td><td>No. 13</td></tr>
-          <tr><td>"C'mon Marianne"</td><td>1967</td><td>No. 9</td></tr>
-          <tr><td>"Beggin'"</td><td>1967</td><td>No. 16</td></tr>
-          <tr><td>"Watch the Flowers Grow"</td><td>1967</td><td>No. 30</td></tr>
-        </tbody>
-      </table>
+      <p class="pp-caption" aria-hidden="true">Key singles and Hot 100 peaks</p>
+      <div class="table-scroll pp-table-scroll">
+        <table id="pp-table-four-seasons" class="pp-table" data-pp-playlist-id="artist-the-four-seasons" data-pp-sortable>
+          <caption class="pp-sr-only">Key singles and Hot 100 peaks</caption>
+          <thead>
+            <tr>
+              <th><span class="pp-sr-only">Play</span></th>
+              <th aria-sort="none"><button type="button" class="pp-sort" data-pp-sort="text">Single</button></th>
+              <th aria-sort="none"><button type="button" class="pp-sort" data-pp-sort="num">Year</button></th>
+              <th aria-sort="none"><button type="button" class="pp-sort" data-pp-sort="num">Peak</button></th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr data-pp-yt="jMcWldfg28s" data-pp-title="Sherry" data-pp-artist="The Four Seasons" data-pp-yr="1962">
+            <td><button type="button" class="pp-play-btn" aria-label="Play Sherry">&#9654; Play</button></td>
+            <td>"Sherry"</td><td>1962</td><td data-pp-sortkey="1">No. 1</td>
+          </tr>
+          <tr data-pp-yt="zRZpaxBMJRU" data-pp-title="Big Girls Don&#x27;t Cry" data-pp-artist="The Four Seasons" data-pp-yr="1962">
+            <td><button type="button" class="pp-play-btn" aria-label="Play Big Girls Don&#x27;t Cry">&#9654; Play</button></td>
+            <td>"Big Girls Don&#x27;t Cry"</td><td>1962</td><td data-pp-sortkey="1">No. 1</td>
+          </tr>
+          <tr data-pp-yt="GzoIvwNqKpw" data-pp-title="Walk Like a Man" data-pp-artist="The Four Seasons" data-pp-yr="1963">
+            <td><button type="button" class="pp-play-btn" aria-label="Play Walk Like a Man">&#9654; Play</button></td>
+            <td>"Walk Like a Man"</td><td>1963</td><td data-pp-sortkey="1">No. 1</td>
+          </tr>
+          <tr data-pp-yt="R-efs62E0SE" data-pp-title="Candy Girl" data-pp-artist="The Four Seasons" data-pp-yr="1963">
+            <td><button type="button" class="pp-play-btn" aria-label="Play Candy Girl">&#9654; Play</button></td>
+            <td>"Candy Girl"</td><td>1963</td><td data-pp-sortkey="3">No. 3</td>
+          </tr>
+          <tr data-pp-yt="wV0rNF3_g4E" data-pp-title="Dawn (Go Away)" data-pp-artist="The Four Seasons" data-pp-yr="1964">
+            <td><button type="button" class="pp-play-btn" aria-label="Play Dawn (Go Away)">&#9654; Play</button></td>
+            <td>"Dawn (Go Away)"</td><td>1964</td><td data-pp-sortkey="3">No. 3</td>
+          </tr>
+          <tr data-pp-yt="X2zPhOirjhI" data-pp-title="Rag Doll" data-pp-artist="The Four Seasons" data-pp-yr="1964">
+            <td><button type="button" class="pp-play-btn" aria-label="Play Rag Doll">&#9654; Play</button></td>
+            <td>"Rag Doll"</td><td>1964</td><td data-pp-sortkey="1">No. 1</td>
+          </tr>
+          <tr data-pp-yt="ukstBybSmos" data-pp-title="Let&#x27;s Hang On!" data-pp-artist="The Four Seasons" data-pp-yr="1965">
+            <td><button type="button" class="pp-play-btn" aria-label="Play Let&#x27;s Hang On!">&#9654; Play</button></td>
+            <td>"Let&#x27;s Hang On!"</td><td>1965</td><td data-pp-sortkey="3">No. 3</td>
+          </tr>
+          <tr data-pp-yt="RStkIO7JQd0" data-pp-title="Working My Way Back to You" data-pp-artist="The Four Seasons" data-pp-yr="1966">
+            <td><button type="button" class="pp-play-btn" aria-label="Play Working My Way Back to You">&#9654; Play</button></td>
+            <td>"Working My Way Back to You"</td><td>1966</td><td data-pp-sortkey="9">No. 9</td>
+          </tr>
+          <tr data-pp-yt="xSpyqTjztwM" data-pp-title="I&#x27;ve Got You Under My Skin" data-pp-artist="The Four Seasons" data-pp-yr="1966">
+            <td><button type="button" class="pp-play-btn" aria-label="Play I&#x27;ve Got You Under My Skin">&#9654; Play</button></td>
+            <td>"I&#x27;ve Got You Under My Skin"</td><td>1966</td><td data-pp-sortkey="9">No. 9</td>
+          </tr>
+          <tr data-pp-yt="0Y5b0fg_ZwE" data-pp-title="Opus 17 (Don&#x27;t You Worry &#x27;bout Me)" data-pp-artist="The Four Seasons" data-pp-yr="1966">
+            <td><button type="button" class="pp-play-btn" aria-label="Play Opus 17 (Don&#x27;t You Worry &#x27;bout Me)">&#9654; Play</button></td>
+            <td>"Opus 17 (Don&#x27;t You Worry &#x27;bout Me)"</td><td>1966</td><td data-pp-sortkey="13">No. 13</td>
+          </tr>
+          <tr data-pp-yt="GcsZa3diYZg" data-pp-title="C&#x27;mon Marianne" data-pp-artist="The Four Seasons" data-pp-yr="1967">
+            <td><button type="button" class="pp-play-btn" aria-label="Play C&#x27;mon Marianne">&#9654; Play</button></td>
+            <td>"C&#x27;mon Marianne"</td><td>1967</td><td data-pp-sortkey="9">No. 9</td>
+          </tr>
+          <tr data-pp-yt="d5AfvOk57bE" data-pp-title="Beggin&#x27;" data-pp-artist="The Four Seasons" data-pp-yr="1967">
+            <td><button type="button" class="pp-play-btn" aria-label="Play Beggin&#x27;">&#9654; Play</button></td>
+            <td>"Beggin&#x27;"</td><td>1967</td><td data-pp-sortkey="16">No. 16</td>
+          </tr>
+          <tr data-pp-yt="eZdRV7x8W3I" data-pp-title="Watch the Flowers Grow" data-pp-artist="The Four Seasons" data-pp-yr="1967">
+            <td><button type="button" class="pp-play-btn" aria-label="Play Watch the Flowers Grow">&#9654; Play</button></td>
+            <td>"Watch the Flowers Grow"</td><td>1967</td><td data-pp-sortkey="30">No. 30</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
 
       <hr>
 
@@ -317,6 +366,9 @@
   </div>
 </footer>
 
+<script src="/assets/js/playlist-player.js"></script>
+<script src="/assets/js/playlist-player-ui.js"></script>
+<script src="/assets/js/playlist-table.js"></script>
 <script src="/site.js" defer></script>
 </body>
 </html>
