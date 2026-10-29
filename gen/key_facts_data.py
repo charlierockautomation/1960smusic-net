@@ -306,6 +306,14 @@ SONGS = {
         ("US peak", "No. 9, Billboard Hot 100; No. 2, Hot Country Songs"),
         ("UK peak", "No. 14 (1990 chart run)"),
     ]),
+    "i-fall-to-pieces-patsy-cline": dict(year=1961, rows=[
+        ("Released", "January 30, 1961"),
+        ("Label", "Decca"),
+        ("Written by", "Hank Cochran and Harlan Howard"),
+        ("Produced by", "Owen Bradley"),
+        ("US peak", "No. 12, Billboard Hot 100; No. 1, Hot Country Songs (two weeks, from August 7, 1961)"),
+        ("UK peak", "No. 87 (1991 re-release)"),
+    ]),
     "get-ready-temptations": dict(year=1966, rows=[
         ("Released", "February 7, 1966"),
         ("Label", "Gordy (Motown)"),
