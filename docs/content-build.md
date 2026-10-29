@@ -99,7 +99,7 @@ Live rows (1-70) are in [`docs/content-build-archive.md`](content-build-archive.
 | 85 | Patsy Cline bio | /blog/artists/patsy-cline/ | artist-bio | country-60s | live | Patsy Cline | YWKeuYcDAoo |  |
 | 86 | Crazy | /blog/songs/crazy-patsy-cline/ | song-story | country-60s | live | Crazy by Patsy Cline | YWKeuYcDAoo |  |
 | 87 | I Fall to Pieces | /blog/songs/i-fall-to-pieces-patsy-cline/ | song-story | country-60s | live | I Fall to Pieces | gEcZ8BlsJhI |  |
-| 88 | The Four Seasons bio | /blog/artists/the-four-seasons/ | artist-bio | pop-brill-building | not started | The Four Seasons | GzoIvwNqKpw | yt |
+| 88 | The Four Seasons bio | /blog/artists/the-four-seasons/ | artist-bio | pop-brill-building | live | The Four Seasons | GzoIvwNqKpw | yt |
 | 89 | Walk Like a Man | /blog/songs/walk-like-a-man-four-seasons/ | song-story | pop-brill-building | not started | Walk Like a Man | GzoIvwNqKpw | yt |
 | 90 | Big Girls Don't Cry | /blog/songs/big-girls-dont-cry-four-seasons/ | song-story | pop-brill-building | not started | Big Girls Don't Cry | zRZpaxBMJRU | yt |
 | 91 | Sherry | /blog/songs/sherry-four-seasons/ | song-story | pop-brill-building | not started | Sherry by The Four Seasons | jMcWldfg28s | yt |
@@ -136,6 +136,10 @@ Artist-bio YouTube IDs are the artist's first `notable_song_ids` entry in
 `data/artists.json` (same convention used for The Beatles bio, which
 embeds "She Loves You"). Song-story YouTube IDs come straight from the
 matching record in `data/songs.json`.
+
+## Follow-ups
+
+- Row 88 feature image is 541x330 (public-domain 1966 Philips trade ad, Commons). Replace with a larger freely-licensed photo when one turns up; swap `blog/artists/the-four-seasons/the-four-seasons-1966.png`, update alt/caption and `og:image` + JSON-LD `image`. Image-only swap, no Updated bump.
 
 ## Future keywords (not queued, do not add to the rotation above)
 
