@@ -1755,6 +1755,16 @@
       "description": "The Four Seasons formed in Newark in 1960 and reached No. 1 with Sherry, Big Girls Don't Cry, Walk Like a Man and Rag Doll between 1962 and 1964.",
       "date": "2026-10-29",
       "genre": "pop-brill-building"
+    },
+    {
+      "id": "on-this-day-november-30",
+      "title": "On This Day: November 30 in 1960s Music",
+      "slug": "/blog/on-this-day/november-30/",
+      "type": "on-this-day",
+      "description": "7 verified 1960s music events from November 30: Neil Diamond sings Sweet Caroline on Ed Sullivan, the Stones play West Palm Beach, and Dylan cuts a single.",
+      "date": "2026-10-31",
+      "genre": null,
+      "seq": 91
     }
   ]
 }
