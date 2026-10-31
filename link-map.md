@@ -173,6 +173,7 @@ from the site).
 | /blog/songs/crazy-patsy-cline/ | song story | live | https://1960smusic.net/blog/songs/crazy-patsy-cline/ | /blog/artists/patsy-cline/, /blog/genres/country-60s/, / (homepage) | /1960s/1961/, /best-60s-songs/ |
 | /blog/songs/i-fall-to-pieces-patsy-cline/ | song story | live | https://1960smusic.net/blog/songs/i-fall-to-pieces-patsy-cline/ | /blog/artists/patsy-cline/, /blog/genres/country-60s/, / (homepage) | /blog/songs/crazy-patsy-cline/, /1960s/1961/, /best-60s-songs/ |
 | /blog/artists/the-four-seasons/ | artist bio | live | https://1960smusic.net/blog/artists/the-four-seasons/ | /blog/genres/pop-brill-building/, / (homepage) | /blog/artists/the-beatles/, /1960s/1962/, /1960s/1963/, /1960s/1964/, /1960s/1966/, /1960s/1967/, playable singles table (docs/singles-table.md) |
+| /blog/on-this-day/november-29/ | on this day | live | https://1960smusic.net/blog/on-this-day/november-29/ | /blog/on-this-day/, / (homepage) | /blog/artists/the-beatles/, /blog/artists/the-rolling-stones/, /blog/songs/i-want-to-hold-your-hand-beatles/, /1960s/1960/ through /1960s/1969/, /blog/on-this-day/november-28/, /blog/on-this-day/november-27/, /best-60s-songs/ |
 | /tools/ | tools index | live | https://1960smusic.net/tools/ | / (homepage) | /tools/random-song/, /tools/playlist-builder/, /tools/trivia/, /tools/quiz/, /tools/radio/, /tools/daily/, /tools/60s-music-crossword/ |
 
 2026-10-29: renamed the Herman's Hermits artist page and both song pages to the single-n spelling (hermans-hermits); old double-n URLs 301 via `_redirects`.

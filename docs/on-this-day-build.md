@@ -156,7 +156,7 @@ past that, move the oldest `live` rows out to
 | 87 | November 26 | /blog/on-this-day/november-26/ | data/on-this-day/11-26.json | live |
 | 88 | November 27 | /blog/on-this-day/november-27/ | data/on-this-day/11-27.json | live |
 | 89 | November 28 | /blog/on-this-day/november-28/ | data/on-this-day/11-28.json | live |
-| 90 | November 29 | /blog/on-this-day/november-29/ | data/on-this-day/11-29.json | drafted |
+| 90 | November 29 | /blog/on-this-day/november-29/ | data/on-this-day/11-29.json | live |
 | 91 | November 30 | /blog/on-this-day/november-30/ | data/on-this-day/11-30.json | not started |
 | 92 | December 1 | /blog/on-this-day/december-1/ | data/on-this-day/12-01.json | not started |
 | 93 | December 2 | /blog/on-this-day/december-2/ | data/on-this-day/12-02.json | not started |
