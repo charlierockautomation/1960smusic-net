@@ -479,6 +479,14 @@ SONGS = {
         ("US peak", "No. 7, Billboard Hot 100"),
         ("UK peak", "No. 1"),
     ]),
+    "walk-like-a-man-four-seasons": dict(year=1963, rows=[
+        ("Released", "January 1963"),
+        ("Label", "Vee-Jay"),
+        ("Written by", "Bob Crewe and Bob Gaudio"),
+        ("Produced by", "Bob Crewe"),
+        ("US peak", "No. 1, Billboard Hot 100 (three weeks, from March 2, 1963); No. 3, R&B"),
+        ("UK peak", "No. 12"),
+    ]),
 }
 
 # Artist rows: Origin, Genre, Label and "Peak chart hits" are required by

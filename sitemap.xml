@@ -848,7 +848,7 @@
   </url>
   <url>
     <loc>https://1960smusic.net/blog/songs/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1179,6 +1179,12 @@
   <url>
     <loc>https://1960smusic.net/blog/songs/the-witch-sonics/</loc>
     <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://1960smusic.net/blog/songs/walk-like-a-man-four-seasons/</loc>
+    <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
