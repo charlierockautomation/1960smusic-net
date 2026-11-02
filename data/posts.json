@@ -1784,6 +1784,16 @@
       "date": "2026-11-01",
       "genre": null,
       "seq": 92
+    },
+    {
+      "id": "on-this-day-december-2",
+      "title": "On This Day: December 2 in 1960s Music",
+      "slug": "/blog/on-this-day/december-2/",
+      "type": "on-this-day",
+      "description": "12 verified 1960s music events from December 2: the Monkees top both Billboard charts, the Stones begin Muscle Shoals, and Harrison joins Delaney & Bonnie.",
+      "date": "2026-11-01",
+      "genre": null,
+      "seq": 93
     }
   ]
 }
