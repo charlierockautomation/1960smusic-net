@@ -1774,6 +1774,16 @@
       "date": "2026-10-31",
       "genre": null,
       "seq": 91
+    },
+    {
+      "id": "on-this-day-december-1",
+      "title": "On This Day: December 1 in 1960s Music",
+      "slug": "/blog/on-this-day/december-1/",
+      "type": "on-this-day",
+      "description": "11 verified 1960s music events from December 1: Hendrix releases Axis: Bold as Love, Tom Jones hits UK No. 1, and Delaney & Bonnie open with Clapton.",
+      "date": "2026-11-01",
+      "genre": null,
+      "seq": 92
     }
   ]
 }
