@@ -161,6 +161,7 @@ past that, move the oldest `live` rows out to
 | 92 | December 1 | /blog/on-this-day/december-1/ | data/on-this-day/12-01.json | live |
 | 93 | December 2 | /blog/on-this-day/december-2/ | data/on-this-day/12-02.json | live |
 | 94 | December 3 | /blog/on-this-day/december-3/ | data/on-this-day/12-03.json | live |
+| 95 | December 4 | /blog/on-this-day/december-4/ | data/on-this-day/12-04.json | live |
 
 ## Carry-over finds for upcoming dates
 
