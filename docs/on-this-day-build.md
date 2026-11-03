@@ -160,7 +160,7 @@ past that, move the oldest `live` rows out to
 | 91 | November 30 | /blog/on-this-day/november-30/ | data/on-this-day/11-30.json | live |
 | 92 | December 1 | /blog/on-this-day/december-1/ | data/on-this-day/12-01.json | live |
 | 93 | December 2 | /blog/on-this-day/december-2/ | data/on-this-day/12-02.json | live |
-| 94 | December 3 | /blog/on-this-day/december-3/ | data/on-this-day/12-03.json | drafted |
+| 94 | December 3 | /blog/on-this-day/december-3/ | data/on-this-day/12-03.json | live |
 
 ## Carry-over finds for upcoming dates
 
