@@ -1794,6 +1794,16 @@
       "date": "2026-11-01",
       "genre": null,
       "seq": 93
+    },
+    {
+      "id": "on-this-day-december-3",
+      "title": "On This Day: December 3 in 1960s Music",
+      "slug": "/blog/on-this-day/december-3/",
+      "type": "on-this-day",
+      "description": "10 verified 1960s music events from December 3: Rubber Soul reaches UK shops, the Beatles open their last UK tour, and Elvis airs his 68 Comeback Special.",
+      "date": "2026-11-03",
+      "genre": null,
+      "seq": 94
     }
   ]
 }
