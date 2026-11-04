@@ -487,6 +487,14 @@ SONGS = {
         ("US peak", "No. 1, Billboard Hot 100 (three weeks, from March 2, 1963); No. 3, R&B"),
         ("UK peak", "No. 12"),
     ]),
+    "big-girls-dont-cry-four-seasons": dict(year=1962, rows=[
+        ("Released", "October 1962"),
+        ("Label", "Vee-Jay"),
+        ("Written by", "Bob Crewe and Bob Gaudio"),
+        ("Produced by", "Bob Crewe"),
+        ("US peak", "No. 1, Billboard Hot 100 (five weeks, from November 17, 1962); No. 1, R&B (three weeks)"),
+        ("UK peak", "No. 13"),
+    ]),
 }
 
 # Artist rows: Origin, Genre, Label and "Peak chart hits" are required by
