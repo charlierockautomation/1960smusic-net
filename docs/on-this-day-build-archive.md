@@ -30,3 +30,8 @@ This is a record only — for the active queue (what to build next), see
 | 22 | September 22 | /blog/on-this-day/september-22/ | data/on-this-day/09-22.json | live |
 | 23 | September 23 | /blog/on-this-day/september-23/ | data/on-this-day/09-23.json | live |
 | 24 | September 24 | /blog/on-this-day/september-24/ | data/on-this-day/09-24.json | live |
+| 25 | September 25 | /blog/on-this-day/september-25/ | data/on-this-day/09-25.json | live |
+| 26 | September 26 | /blog/on-this-day/september-26/ | data/on-this-day/09-26.json | live |
+| 27 | September 27 | /blog/on-this-day/september-27/ | data/on-this-day/09-27.json | live |
+| 28 | September 28 | /blog/on-this-day/september-28/ | data/on-this-day/09-28.json | live |
+| 29 | September 29 | /blog/on-this-day/september-29/ | data/on-this-day/09-29.json | live |
