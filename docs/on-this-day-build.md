@@ -158,7 +158,7 @@ past that, move the oldest `live` rows out to
 | 94 | December 3 | /blog/on-this-day/december-3/ | data/on-this-day/12-03.json | live |
 | 95 | December 4 | /blog/on-this-day/december-4/ | data/on-this-day/12-04.json | live |
 | 96 | December 5 | /blog/on-this-day/december-5/ | data/on-this-day/12-05.json | live |
-| 97 | December 6 | /blog/on-this-day/december-6/ | data/on-this-day/12-06.json | drafted |
+| 97 | December 6 | /blog/on-this-day/december-6/ | data/on-this-day/12-06.json | live |
 
 ## Carry-over finds for upcoming dates
 
