@@ -487,6 +487,14 @@ SONGS = {
         ("US peak", "No. 1, Billboard Hot 100 (three weeks, from March 2, 1963); No. 3, R&B"),
         ("UK peak", "No. 12"),
     ]),
+    "sherry-four-seasons": dict(year=1962, rows=[
+        ("Released", "August 1962"),
+        ("Label", "Vee-Jay"),
+        ("Written by", "Bob Gaudio"),
+        ("Produced by", "Bob Crewe"),
+        ("US peak", "No. 1, Billboard Hot 100 (five weeks, from September 15, 1962); No. 1, R&B (one week)"),
+        ("UK peak", "No. 8"),
+    ]),
     "big-girls-dont-cry-four-seasons": dict(year=1962, rows=[
         ("Released", "October 1962"),
         ("Label", "Vee-Jay"),
