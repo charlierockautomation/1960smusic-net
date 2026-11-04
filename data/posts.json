@@ -1814,6 +1814,16 @@
       "date": "2026-11-03",
       "genre": null,
       "seq": 95
+    },
+    {
+      "id": "on-this-day-december-5",
+      "title": "On This Day: December 5 in 1960s Music",
+      "slug": "/blog/on-this-day/december-5/",
+      "type": "on-this-day",
+      "description": "12 verified 1960s music events from December 5: the Stones release Let It Bleed in the UK, the Beatles play their last Liverpool show, and Lorne Greene hits No. 1.",
+      "date": "2026-11-04",
+      "genre": null,
+      "seq": 96
     }
   ]
 }
