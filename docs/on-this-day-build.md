@@ -158,6 +158,7 @@ past that, move the oldest `live` rows out to
 | 94 | December 3 | /blog/on-this-day/december-3/ | data/on-this-day/12-03.json | live |
 | 95 | December 4 | /blog/on-this-day/december-4/ | data/on-this-day/12-04.json | live |
 | 96 | December 5 | /blog/on-this-day/december-5/ | data/on-this-day/12-05.json | live |
+| 97 | December 6 | /blog/on-this-day/december-6/ | data/on-this-day/12-06.json | drafted |
 
 ## Carry-over finds for upcoming dates
 
@@ -189,3 +190,6 @@ before building each page, then include as normal cards.
   Star-Club Nov 17 1962 (residency ended Nov 14).
 - Nov 19, 1968: Head West Coast premiere, Vogue Theatre LA (AFI: scheduled
   Nov 19 per LAT; unconfirmed it ran). Pasted list wrongly had Nov 18.
+- Dec 8, 1967: Magical Mystery Tour UK double EP released (Parlophone MMT 1/2),
+  not Dec 6 as a pasted list said. HELD from Dec 6: Epstein meeting 1961 (Dec 3/6/10
+  conflict), Stones Aftermath sessions (Dec 3-8 range), Ferry Cross the Mersey premiere.

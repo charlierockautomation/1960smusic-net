@@ -1824,6 +1824,16 @@
       "date": "2026-11-04",
       "genre": null,
       "seq": 96
+    },
+    {
+      "id": "on-this-day-december-6",
+      "title": "On This Day: December 6 in 1960s Music",
+      "slug": "/blog/on-this-day/december-6/",
+      "type": "on-this-day",
+      "description": "13 verified 1960s music events from December 6: the Altamont Free Concert, Beggars Banquet reaches UK shops, and Capitol releases Rubber Soul in the US.",
+      "date": "2026-11-04",
+      "genre": null,
+      "seq": 97
     }
   ]
 }
