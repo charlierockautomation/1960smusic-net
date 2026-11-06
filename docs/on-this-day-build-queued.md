@@ -1,4 +1,4 @@
-# On This Day Build Queue — Overflow (rows 96-242, December 5 – April 30)
+# On This Day Build Queue — Overflow (rows 100-242, December 9 – April 30)
 
 Paginated out of `docs/on-this-day-build.md` to keep every queue file at
 or under 195 lines. Not read every session. Once every row in
@@ -9,7 +9,6 @@ Same columns and status values as the active file.
 
 | # | Date | Page | Data file | Status |
 |---|------|------|-----------|--------|
-| 99 | December 8 | /blog/on-this-day/december-8/ | data/on-this-day/12-08.json | not started |
 | 100 | December 9 | /blog/on-this-day/december-9/ | data/on-this-day/12-09.json | not started |
 | 101 | December 10 | /blog/on-this-day/december-10/ | data/on-this-day/12-10.json | not started |
 | 102 | December 11 | /blog/on-this-day/december-11/ | data/on-this-day/12-11.json | not started |

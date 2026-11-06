@@ -91,8 +91,6 @@ past that, move the oldest `live` rows out to
 
 | # | Date | Page | Data file | Status |
 |---|------|------|-----------|--------|
-| 34 | October 4 | /blog/on-this-day/october-4/ | data/on-this-day/10-04.json | live |
-| 35 | October 5 | /blog/on-this-day/october-5/ | data/on-this-day/10-05.json | live |
 | 36 | October 6 | /blog/on-this-day/october-6/ | data/on-this-day/10-06.json | live |
 | 37 | October 7 | /blog/on-this-day/october-7/ | data/on-this-day/10-07.json | live |
 | 38 | October 8 | /blog/on-this-day/october-8/ | data/on-this-day/10-08.json | live |
@@ -155,6 +153,8 @@ past that, move the oldest `live` rows out to
 | 95 | December 4 | /blog/on-this-day/december-4/ | data/on-this-day/12-04.json | live |
 | 96 | December 5 | /blog/on-this-day/december-5/ | data/on-this-day/12-05.json | live |
 | 97 | December 6 | /blog/on-this-day/december-6/ | data/on-this-day/12-06.json | live |
+| 98 | December 7 | /blog/on-this-day/december-7/ | data/on-this-day/12-07.json | live |
+| 99 | December 8 | /blog/on-this-day/december-8/ | data/on-this-day/12-08.json | live |
 
 ## Carry-over finds for upcoming dates
 

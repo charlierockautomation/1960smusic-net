@@ -39,3 +39,5 @@ This is a record only — for the active queue (what to build next), see
 | 31 | October 1 | /blog/on-this-day/october-1/ | data/on-this-day/10-01.json | live |
 | 32 | October 2 | /blog/on-this-day/october-2/ | data/on-this-day/10-02.json | live |
 | 33 | October 3 | /blog/on-this-day/october-3/ | data/on-this-day/10-03.json | live |
+| 34 | October 4 | /blog/on-this-day/october-4/ | data/on-this-day/10-04.json | live |
+| 35 | October 5 | /blog/on-this-day/october-5/ | data/on-this-day/10-05.json | live |
