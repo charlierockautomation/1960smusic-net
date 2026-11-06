@@ -9,7 +9,6 @@ Same columns and status values as the active file.
 
 | # | Date | Page | Data file | Status |
 |---|------|------|-----------|--------|
-| 98 | December 7 | /blog/on-this-day/december-7/ | data/on-this-day/12-07.json | not started |
 | 99 | December 8 | /blog/on-this-day/december-8/ | data/on-this-day/12-08.json | not started |
 | 100 | December 9 | /blog/on-this-day/december-9/ | data/on-this-day/12-09.json | not started |
 | 101 | December 10 | /blog/on-this-day/december-10/ | data/on-this-day/12-10.json | not started |

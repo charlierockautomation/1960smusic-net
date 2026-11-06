@@ -1852,6 +1852,16 @@
       "date": "2026-11-04",
       "genre": null,
       "seq": 97
+    },
+    {
+      "id": "on-this-day-december-7",
+      "title": "On This Day: December 7 in 1960s Music",
+      "slug": "/blog/on-this-day/december-7/",
+      "type": "on-this-day",
+      "description": "13 verified 1960s music events from December 7: the Beatles' Apple Boutique opens, Otis Redding works on Dock of the Bay, and the Beatles tape Juke Box Jury.",
+      "date": "2026-11-06",
+      "genre": null,
+      "seq": 98
     }
   ]
 }

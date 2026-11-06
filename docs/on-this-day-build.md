@@ -91,10 +91,6 @@ past that, move the oldest `live` rows out to
 
 | # | Date | Page | Data file | Status |
 |---|------|------|-----------|--------|
-| 30 | September 30 | /blog/on-this-day/september-30/ | data/on-this-day/09-30.json | live |
-| 31 | October 1 | /blog/on-this-day/october-1/ | data/on-this-day/10-01.json | live |
-| 32 | October 2 | /blog/on-this-day/october-2/ | data/on-this-day/10-02.json | live |
-| 33 | October 3 | /blog/on-this-day/october-3/ | data/on-this-day/10-03.json | live |
 | 34 | October 4 | /blog/on-this-day/october-4/ | data/on-this-day/10-04.json | live |
 | 35 | October 5 | /blog/on-this-day/october-5/ | data/on-this-day/10-05.json | live |
 | 36 | October 6 | /blog/on-this-day/october-6/ | data/on-this-day/10-06.json | live |
@@ -193,3 +189,5 @@ before building each page, then include as normal cards.
 - Dec 8, 1967: Magical Mystery Tour UK double EP released (Parlophone MMT 1/2),
   not Dec 6 as a pasted list said. HELD from Dec 6: Epstein meeting 1961 (Dec 3/6/10
   conflict), Stones Aftermath sessions (Dec 3-8 range), Ferry Cross the Mersey premiere.
+- Dec 14, 1969: Jackson 5 Ed Sullivan Show network debut (pasted Dec 7 list had wrong date; Songfacts/Ed Sullivan site confirm Dec 14).
+- Dec 8-ish: Harrison/1966 When I'm Sixty-Four: pasted Dec 7 date unsupported (Beatles Bible 404); real overdub dates not checked.
