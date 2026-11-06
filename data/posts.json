@@ -1862,6 +1862,16 @@
       "date": "2026-11-06",
       "genre": null,
       "seq": 98
+    },
+    {
+      "id": "on-this-day-december-8",
+      "title": "On This Day: December 8 in 1960s Music",
+      "slug": "/blog/on-this-day/december-8/",
+      "type": "on-this-day",
+      "description": "15 verified 1960s music events from December 8: the Beatles remake Strawberry Fields Forever, Graham Nash plays his last Hollies show, and Hendrix goes on trial in Toronto.",
+      "date": "2026-11-06",
+      "genre": null,
+      "seq": 99
     }
   ]
 }
