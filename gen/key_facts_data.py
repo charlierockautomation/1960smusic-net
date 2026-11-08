@@ -537,6 +537,13 @@ ARTISTS = {
         ("Label", "4 Star (1954-1960), Decca (from 1960)"),
         ("Peak chart hits", "\"I Fall to Pieces\" (US country No. 1, Hot 100 No. 12, 1961); \"Crazy\" (US country No. 2, Hot 100 No. 9, 1961); \"She's Got You\" (US country No. 1, 1962)"),
     ]),
+    "herb-alpert-and-the-tijuana-brass": dict(years=[1962, 1965, 1966, 1968], rows=[
+        ("Origin", "Los Angeles, California"),
+        ("Active", "1962-1969"),
+        ("Genre", "Jazz & Easy Listening"),
+        ("Label", "A&M (founded 1962 as Carnival Records)"),
+        ("Peak chart hits", "\"This Guy's in Love with You\" (Hot 100 No. 1, 1968); \"The Lonely Bull\" (Hot 100 No. 6, 1962); \"A Taste of Honey\" (Hot 100 No. 7, Easy Listening No. 1, 1965)"),
+    ]),
     "the-monkees": dict(years=[1966, 1967], rows=[
         ("Origin", "Los Angeles, California"),
         ("Active", "1966-1970, with later reunions"),

@@ -1892,6 +1892,15 @@
       "date": "2026-11-07",
       "genre": null,
       "seq": 101
+    },
+    {
+      "id": "herb-alpert-and-the-tijuana-brass",
+      "title": "Herb Alpert & The Tijuana Brass: Whipped Cream and No. 1s",
+      "slug": "/blog/artists/herb-alpert-and-the-tijuana-brass/",
+      "type": "artist-bio",
+      "description": "Herb Alpert & The Tijuana Brass turned a 1962 trumpet single into A&M Records, the Whipped Cream album and a 1968 No. 1 with This Guy's in Love with You.",
+      "date": "2026-11-08",
+      "genre": "jazz-easy-listening"
     }
   ]
 }
