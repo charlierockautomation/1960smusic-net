@@ -1872,6 +1872,16 @@
       "date": "2026-11-06",
       "genre": null,
       "seq": 99
+    },
+    {
+      "id": "on-this-day-december-9",
+      "title": "On This Day: December 9 in 1960s Music",
+      "slug": "/blog/on-this-day/december-9/",
+      "type": "on-this-day",
+      "description": "15 verified 1960s music events from December 9: Jim Morrison is arrested onstage in New Haven, Coltrane records A Love Supreme, and A Charlie Brown Christmas premieres on CBS.",
+      "date": "2026-11-07",
+      "genre": null,
+      "seq": 100
     }
   ]
 }
