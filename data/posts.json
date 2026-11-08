@@ -1882,6 +1882,16 @@
       "date": "2026-11-07",
       "genre": null,
       "seq": 100
+    },
+    {
+      "id": "on-this-day-december-10",
+      "title": "On This Day: December 10 in 1960s Music",
+      "slug": "/blog/on-this-day/december-10/",
+      "type": "on-this-day",
+      "description": "12 verified 1960s music events from December 10: Otis Redding dies in a plane crash, Good Vibrations hits No. 1, and Jimi Hendrix is acquitted in Toronto.",
+      "date": "2026-11-07",
+      "genre": null,
+      "seq": 101
     }
   ]
 }
