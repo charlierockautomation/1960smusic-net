@@ -91,7 +91,6 @@ past that, move the oldest `live` rows out to
 
 | # | Date | Page | Data file | Status |
 |---|------|------|-----------|--------|
-| 37 | October 7 | /blog/on-this-day/october-7/ | data/on-this-day/10-07.json | live |
 | 38 | October 8 | /blog/on-this-day/october-8/ | data/on-this-day/10-08.json | live |
 | 39 | October 9 | /blog/on-this-day/october-9/ | data/on-this-day/10-09.json | live |
 | 40 | October 10 | /blog/on-this-day/october-10/ | data/on-this-day/10-10.json | live |
@@ -155,6 +154,7 @@ past that, move the oldest `live` rows out to
 | 98 | December 7 | /blog/on-this-day/december-7/ | data/on-this-day/12-07.json | live |
 | 99 | December 8 | /blog/on-this-day/december-8/ | data/on-this-day/12-08.json | live |
 | 100 | December 9 | /blog/on-this-day/december-9/ | data/on-this-day/12-09.json | live |
+| 101 | December 10 | /blog/on-this-day/december-10/ | data/on-this-day/12-10.json | live |
 
 ## Carry-over finds for upcoming dates
 
@@ -192,3 +192,5 @@ before building each page, then include as normal cards.
 - Dec 14, 1969: Jackson 5 Ed Sullivan Show network debut (pasted Dec 7 list had wrong date; Songfacts/Ed Sullivan site confirm Dec 14).
 - Dec 8-ish: Harrison/1966 When I'm Sixty-Four: pasted Dec 7 date unsupported (Beatles Bible 404); real overdub dates not checked.
 - HELD from Dec 9: Kinks All Day and All of the Night / I Fought-style 1964 Songfacts items (dates dubious), Crimson and Clover single (Nov vs Dec 1968), Rick Nelson Sings "For You" (Dec 9 1963, Wikipedia only), Stones Olympic sessions (Dec 9-18 range), George Martin at Cavern (Beatles Bible: Dec 12). Dropped: Manchester Odeon 1964 (no gig), Cinnamon Girl 1969, TCB Nielsen 25.1.
+
+- HELD from Dec 10: Grateful Dead first name use (Dec 4 San Jose vs Dec 10 Fillmore, disputed), Stones Got Live US release (Wikipedia Nov 4 1966, rollingstonesdata says Dec 10), Lennon leaving Hamburg Dec 8 per one unsourced comment. Dropped: Cavern evening 1962, Odeon Doncaster 1963, Cardiff 1964, Moody Blues Hammersmith 1965.
