@@ -1931,6 +1931,16 @@
       "date": "2026-11-09",
       "genre": null,
       "seq": 104
+    },
+    {
+      "id": "on-this-day-december-14",
+      "title": "On This Day: December 14 in 1960s Music",
+      "slug": "/blog/on-this-day/december-14/",
+      "type": "on-this-day",
+      "description": "7 verified 1960s music events from December 14: the Jackson 5 debut on Ed Sullivan, Marvin Gaye hits No. 1, and Dylan's first single.",
+      "date": "2026-11-09",
+      "genre": null,
+      "seq": 105
     }
   ]
 }
