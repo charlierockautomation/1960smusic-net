@@ -1921,6 +1921,16 @@
       "date": "2026-11-08",
       "genre": null,
       "seq": 103
+    },
+    {
+      "id": "on-this-day-december-13",
+      "title": "On This Day: December 13 in 1960s Music",
+      "slug": "/blog/on-this-day/december-13/",
+      "type": "on-this-day",
+      "description": "10 verified 1960s music events from December 13: Decca's Mike Smith sees the Beatles at the Cavern, Hendrix records Foxy Lady, and Steam hold No. 1.",
+      "date": "2026-11-09",
+      "genre": null,
+      "seq": 104
     }
   ]
 }
