@@ -502,6 +502,14 @@ SONGS = {
         ("Produced by", "Herb Alpert and Jerry Moss"),
         ("US peak", "No. 7, Billboard Hot 100; No. 1, Easy Listening (five weeks)"),
     ]),
+    "spanish-flea-herb-alpert-and-the-tijuana-brass": dict(year=1965, rows=[
+        ("Released", "September 1965 on Going Places; 1966 US single (B-side of \"What Now My Love\")"),
+        ("Label", "A&M"),
+        ("Written by", "Julius Wechter"),
+        ("Produced by", "Herb Alpert and Jerry Moss"),
+        ("US peak", "No. 27, Billboard Hot 100"),
+        ("UK peak", "No. 3"),
+    ]),
     "big-girls-dont-cry-four-seasons": dict(year=1962, rows=[
         ("Released", "October 1962"),
         ("Label", "Vee-Jay"),

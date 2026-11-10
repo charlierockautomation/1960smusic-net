@@ -73,6 +73,7 @@ Sitemap: https://1960smusic.net/sitemap.xml
 - [The Beatles: The Liverpool Band That Changed Music Forever](https://1960smusic.net/blog/artists/the-beatles/): How four teenagers from Liverpool became the most influential band in music history, from Hamburg's clubs to the studio innovations of Revolver and Sgt. Pepper.
 
 ## Songs
+- [Spanish Flea by Herb Alpert & The Tijuana Brass](https://1960smusic.net/blog/songs/spanish-flea-herb-alpert-and-the-tijuana-brass/): Spanish Flea by Herb Alpert & The Tijuana Brass: Julius Wechter's 1965 marimba-and-trumpet tune, a UK No. 3 hit and the sound of The Dating Game.
 - [A Taste of Honey: Herb Alpert's Four-Grammy Hit](https://1960smusic.net/blog/songs/a-taste-of-honey-herb-alpert-and-the-tijuana-brass/): A Taste of Honey by Herb Alpert & The Tijuana Brass hit No. 7 in 1965. The Broadway origin, the Gold Star session, the kick drum that stayed and four Grammys.
 - [Big Girls Don't Cry by The Four Seasons: A Movie Line](https://1960smusic.net/blog/songs/big-girls-dont-cry-four-seasons/): Big Girls Don't Cry gave The Four Seasons their second No. 1. See the disputed movie-line origin, the Chicago session and the five-week chart run.
 - [Sherry by The Four Seasons: A 15-Minute No. 1](https://1960smusic.net/blog/songs/sherry-four-seasons/): Sherry by The Four Seasons went to No. 1 in 1962. See the 15-minute writing story, the disputed title origin, the two-take session and the five-week run.
@@ -216,7 +217,6 @@ Sitemap: https://1960smusic.net/sitemap.xml
 - [On This Day: September 30 in 1960s Music](https://1960smusic.net/blog/on-this-day/september-30/): 13 verified 1960s music events from September 30: Hendrix cuts an early version of Woodstock, BBC Radio 1 launches, The Flintstones premieres, and the Rolling Stones play three different UK shows across the decade.
 - [On This Day: September 29 in 1960s Music](https://1960smusic.net/blog/on-this-day/september-29/): 14 verified 1960s music events from September 29: the Beatles splice a live King Lear broadcast into I Am the Walrus, Ricky Valance tops the UK chart, and Jimi Hendrix recruits Noel Redding.
 - [On This Day: September 28 in 1960s Music](https://1960smusic.net/blog/on-this-day/september-28/): 16 verified 1960s music events from September 28: Hey Jude begins its nine-week run at number one, the Rolling Stones play four different UK shows across the decade, and Jim Morrison gets arrested in Tallahassee.
-- [On This Day: September 27 in 1960s Music](https://1960smusic.net/blog/on-this-day/september-27/): 11 verified 1960s music events from September 27: The Beach Boys debut on The Ed Sullivan Show, the Beatles record I Am the Walrus, and Led Zeppelin track their debut album.
 
 ## Trending
 - [Dolly Parton's Catalog Is Surging. It Started With "Dumb Blonde"](https://1960smusic.net/blog/trending/dolly-parton-dumb-blonde/): Dolly Parton's streams are surging after her death. The real story behind Dumb Blonde, her 1967 breakthrough single, and how it led to The Porter Wagoner Show.
