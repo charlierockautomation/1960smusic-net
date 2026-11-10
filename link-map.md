@@ -15,8 +15,6 @@ from the site).
 
 | Page | Type | Status | Live URL | Links up to | Links across to |
 |------|------|--------|----------|-------------|------------------|
-| /blog/songs/mrs-brown-youve-got-a-lovely-daughter-hermans-hermits/ | song story | live | https://1960smusic.net/blog/songs/mrs-brown-youve-got-a-lovely-daughter-hermans-hermits/ | /blog/artists/hermans-hermits/, /blog/genres/british-invasion/, / (homepage) | /blog/artists/the-beatles/, /blog/artists/the-animals/ |
-| /blog/on-this-day/september-16/ | on this day | live | https://1960smusic.net/blog/on-this-day/september-16/ | /blog/on-this-day/, / (homepage) | /blog/artists/the-beatles/, /blog/genres/psychedelic-rock/, /blog/genres/jazz-easy-listening/, /blog/genres/motown-soul/, /blog/genres/garage-surf-rock/, /blog/genres/british-invasion/, /blog/on-this-day/september-15/, /blog/on-this-day/september-14/ |
 | /blog/on-this-day/september-17/ | on this day | live | https://1960smusic.net/blog/on-this-day/september-17/ | /blog/on-this-day/, / (homepage) | /blog/artists/the-beatles/, /blog/songs/my-generation-who/, /blog/songs/please-please-me-beatles/, /blog/genres/psychedelic-rock/, /blog/genres/motown-soul/, /blog/genres/pop-brill-building/, /blog/genres/jazz-easy-listening/, /blog/on-this-day/september-16/, /blog/on-this-day/september-15/ |
 | /blog/trending/be-my-baby-ronettes/ | trending | live | https://1960smusic.net/blog/trending/be-my-baby-ronettes/ | /blog/trending/, / (homepage) | /blog/genres/pop-brill-building/, /tools/quiz/, /tools/trivia/ |
 | /blog/on-this-day/september-18/ | on this day | live | https://1960smusic.net/blog/on-this-day/september-18/ | /blog/on-this-day/, / (homepage) | /blog/artists/the-beatles/, /blog/artists/the-who/, /blog/genres/psychedelic-rock/, /blog/genres/garage-surf-rock/, /blog/genres/jazz-easy-listening/, /blog/genres/pop-brill-building/ |
@@ -193,3 +191,5 @@ from the site).
 2026-10-29: playable singles table (docs/singles-table.md) now also on the-four-seasons, patsy-cline, frank-sinatra, johnny-cash, the-monkees, simon-and-garfunkel, the-supremes artist pages; Monkees/Sinatra/Cash song-page IDs swapped to official uploads. No link changes.
 
 2026-10-29: schema fix pass. BreadcrumbList on OTD oct-19/20 and 7 tool pages; CollectionPage/ItemList/BreadcrumbList on the six blog listings and new /tools/ index (built by `gen/build_listings.py` / `gen/build_tools_index.py`); `validate_jsonld.py --gate` added to publish_prep. Tool pages and homepage tools card now link /tools/.
+
+2026-11-10: Phase 3 task 5 (66b337d). /tools/quiz/ FAQ now links /data/1960s-music-genres-by-year/; six tool pages gained FAQ sections; no other link changes.

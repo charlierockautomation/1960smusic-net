@@ -20,7 +20,7 @@ Status values: `not started` · `in progress` · `blocked (reason)` · `live`
 | 2 | Monthly original-data page (`data-page` type, `/data/<topic-slug>/`) | 1/month | in progress (pages 1-2 live; next due Dec) |
 | 3 | Weekly Trending post (Monday routine) | 1/week | not started |
 | 4 | Weekly refresh of one existing page | 1/week | in progress (week of Nov 9 live; log in content-build.md) |
-| 5 | Schema + meta completeness pass | one-off | in progress (started 2026-11-10) |
+| 5 | Schema + meta completeness pass | one-off | live 2026-11-10 (66b337d) |
 
 ## Task detail
 
@@ -85,7 +85,7 @@ One existing page a week. Updated date and `dateModified` change only for
 substantive edits (CLAUDE.md "Updated Dates"). Pick the page and log it here
 when work starts.
 
-### 5. Schema + meta completeness pass (2026-11-10)
+### 5. Schema + meta completeness pass: LIVE 2026-11-10 (66b337d; verify_live 200, IndexNow sitemap ping)
 SEO plumbing, no Updated/dateModified bumps. Gates added: meta 120-160
 (`check_seo.check_meta_description`, all article types + every sitemap page
 via `validate_jsonld.py --gate`); OTD share image (`check_otd_image`); song
