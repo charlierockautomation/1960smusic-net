@@ -1977,6 +1977,16 @@
       "description": "The 1960s musicians with the most songs among 556 on our Radio Dial. The Beatles lead with 16, ahead of Bob Dylan with 10.",
       "date": "2026-11-09",
       "genre": null
+    },
+    {
+      "id": "on-this-day-december-15",
+      "title": "On This Day: December 15 in 1960s Music",
+      "slug": "/blog/on-this-day/december-15/",
+      "type": "on-this-day",
+      "description": "13 verified 1960s music events from December 15: Lennon's Peace for Christmas show, The Who Sell Out, Beatles '65 and the Four Seasons at No. 1.",
+      "date": "2026-11-10",
+      "genre": null,
+      "seq": 106
     }
   ]
 }

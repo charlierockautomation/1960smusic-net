@@ -15,11 +15,12 @@ licence in the caption), point `og:image` and the Article JSON-LD image at
 it, set the JSON `image` field, delete `og-card.png`. Plumbing only: no
 Updated/dateModified bump. `check_article.py` enforces the image rule.
 
-Upgraded so far: September 5 (2026-11-10, The Animals 1964, public domain).
+Upgraded so far: September 5 (2026-11-10, The Animals 1964, public domain);
+September 6 (2026-11-10, Jimi Hendrix Experience 1968 Reprise photo, public domain,
+reused from the Hendrix bio).
 
 | # | Page | Status |
 |---|------|--------|
-| 6 | /blog/on-this-day/september-6/ | pending |
 | 7 | /blog/on-this-day/september-7/ | pending |
 | 10 | /blog/on-this-day/september-10/ | pending |
 | 13 | /blog/on-this-day/september-13/ | pending |
