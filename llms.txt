@@ -30,6 +30,7 @@ Sitemap: https://1960smusic.net/sitemap.xml
 - [Best 60s Songs: 100 Playable Hits From 1960 to 1969](https://1960smusic.net/best-60s-songs/): The best 60s songs: 100 playable hits from 1960 to 1969 across Motown, British Invasion, folk rock, surf and country, each with a why-it-matters line.
 
 ## Data
+- [1960s Musicians With the Most Songs on Our Radio Dial](https://1960smusic.net/data/1960s-musicians-by-song-count/): The 1960s musicians with the most songs among 556 on our Radio Dial. The Beatles lead with 16, ahead of Bob Dylan with 10.
 - [1960s Music Genres by Year: What Our Radio Dial Holds](https://1960smusic.net/data/1960s-music-genres-by-year/): 1960s music genres by year, counted across 556 songs on our Radio Dial. See where each genre peaks, when psychedelic rock appears, and how the mix shifts.
 
 ## About the Author
@@ -216,7 +217,6 @@ Sitemap: https://1960smusic.net/sitemap.xml
 - [On This Day: September 29 in 1960s Music](https://1960smusic.net/blog/on-this-day/september-29/): 14 verified 1960s music events from September 29: the Beatles splice a live King Lear broadcast into I Am the Walrus, Ricky Valance tops the UK chart, and Jimi Hendrix recruits Noel Redding.
 - [On This Day: September 28 in 1960s Music](https://1960smusic.net/blog/on-this-day/september-28/): 16 verified 1960s music events from September 28: Hey Jude begins its nine-week run at number one, the Rolling Stones play four different UK shows across the decade, and Jim Morrison gets arrested in Tallahassee.
 - [On This Day: September 27 in 1960s Music](https://1960smusic.net/blog/on-this-day/september-27/): 11 verified 1960s music events from September 27: The Beach Boys debut on The Ed Sullivan Show, the Beatles record I Am the Walrus, and Led Zeppelin track their debut album.
-- [On This Day: September 26 in 1960s Music](https://1960smusic.net/blog/on-this-day/september-26/): 11 verified 1960s music events from September 26: The Beatles release Abbey Road, Bob Dylan opens his star-making Gerde's Folk City run, and Barry McGuire's Eve of Destruction hits No. 1.
 
 ## Trending
 - [Dolly Parton's Catalog Is Surging. It Started With "Dumb Blonde"](https://1960smusic.net/blog/trending/dolly-parton-dumb-blonde/): Dolly Parton's streams are surging after her death. The real story behind Dumb Blonde, her 1967 breakthrough single, and how it led to The Porter Wagoner Show.

@@ -91,13 +91,44 @@ already served by `/best-60s-songs/`.
 
 ## Later pages (same two rules: fields that exist, "our dataset")
 
-Dec onward, candidates: artists most often on the dial; songs by `mood_tags`,
-`difficulty` or `tiktok_viral` from `songs.json` (count field coverage first);
-year-over-year genre share. Each gets its own spec line before building.
+Dec onward, candidates: songs by `mood_tags`, `difficulty` or `tiktok_viral`
+from `songs.json` (count field coverage first); year-over-year genre share.
+
+**Spec rule (set 2026-11-09, replaces any earlier approve-the-spec step):**
+Each data page gets a spec line written into this file before building, as a
+record only. No approval is needed for the spec line. Claude Code chooses the
+focus keyword itself using the DataForSEO MCP (search volume + keyword
+difficulty, US location), picks the highest-volume keyword that (a) fits the
+page's dataset, (b) is not already a focus keyword anywhere on the site, and
+(c) does not cannibalize an existing page. Log the numbers used beside the
+spec line. Then build. Charlie's only checkpoint is the existing publish
+review of the finished page before push.
+
+## Page 2 spec line (November 2026, topic picked by Charlie 2026-11-09)
+
+URL `/data/1960s-musicians-by-song-count/`, focus keyword "1960s musicians",
+title/H1 "1960s Musicians With the Most Songs on Our Radio Dial". Source: the
+radio-eligible JSON, 556 unique songs (deduped by `youtube_id`), counted by
+credited act; billing variants of one act merged (Little Stevie Wonder, The
+Miracles, The Young Rascals, "and"/"&" Shondells, Vince Guaraldi), duets and
+"with" credits kept separate. Top 20 with ties (26 acts, 13 tie at 5). Table:
+act (bio-linked), songs, main genre (most songs), years in our dataset. Chart,
+lead finding, by-year and by-genre leaders (all year pages + hubs linked), how
+we counted, FAQ. Built by `gen/build_data_page_artists.py`, checked by
+`gen/test_data_page_artists.py`.
+
+Keyword numbers (DataForSEO, US, 2026-11-09; vol = Google Ads monthly avg):
+
+| Candidate | Vol | KD | Result |
+|---|---|---|---|
+| 60s bands / 1960s bands | 8,100 | 1 | rejected: 9 of the 26 top acts are solo |
+| 60s rock bands | 4,400 | n/a | rejected: half the list isn't rock; 60s Rock hub |
+| 1960s music artists / 60s music artists | 2,400 | 0 | rejected: held in content-build Future keywords for an artist hub |
+| 60s singers | 2,400 | 0 | rejected: instrumental acts (Alpert) in top 26 |
+| **1960s musicians** | 2,400 | 0 | **chosen**: fits every act, unused on site |
+| 60s artists / 1960s artists | 1,900 | 0 | lower volume |
+| popular 60s bands | 1,300 | 2 | lower, bands only |
 
 ## Open
 
-Next data page due November 2026 (one a month). Spec line first, Charlie's OK, then build.
-Page 2 topic picked by Charlie 2026-11-09: artists most often on the Radio Dial
-(counts from the radio-eligible JSON, bio-linked where a bio exists). Next: DataForSEO
-focus-keyword check, then the spec line for Charlie's OK, then build.
+Next data page due December 2026 (page 3).
