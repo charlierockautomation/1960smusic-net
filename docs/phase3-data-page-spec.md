@@ -98,3 +98,6 @@ year-over-year genre share. Each gets its own spec line before building.
 ## Open
 
 Next data page due November 2026 (one a month). Spec line first, Charlie's OK, then build.
+Page 2 topic picked by Charlie 2026-11-09: artists most often on the Radio Dial
+(counts from the radio-eligible JSON, bio-linked where a bio exists). Next: DataForSEO
+focus-keyword check, then the spec line for Charlie's OK, then build.
