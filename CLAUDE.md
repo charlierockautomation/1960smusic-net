@@ -176,6 +176,9 @@ unblocked row and continue until the queue runs out, a task needs
 Charlie's decision, or something isn't going cleanly — then stop. No
 narration flourishes (session timers, recap paragraphs) unless asked.
 End each session on a closed status report, not an open question.
+Never end with "say go" or ask approval before starting a queue row: when
+the next row is clear, start it. Charlie reviews the finished page (the
+pre-push checkpoint), not the decision to begin.
 
 ---
 Reference docs (loaded only when the task needs them):

@@ -137,6 +137,17 @@ Artist-bio YouTube IDs are the artist's first `notable_song_ids` entry in
 embeds "She Loves You"). Song-story YouTube IDs come straight from the
 matching record in `data/songs.json`.
 
+## Trending branch check
+
+A Monday Trending routine run that succeeds but pushes no `trending/YYYY-MM-DD`
+branch means "no verifiable peg this week", not a failure. Only a failed run
+needs a look.
+
+## Weekly refresh log
+
+| Week of | Page | Why picked | Status |
+|---|---|---|---|
+
 ## Follow-ups
 
 - Singles-table component live 2026-10-29 on the-four-seasons, hermans-hermits, the-temptations, the-searchers, patsy-cline, frank-sinatra, johnny-cash, the-monkees, simon-and-garfunkel, the-supremes (`docs/singles-table.md`).
