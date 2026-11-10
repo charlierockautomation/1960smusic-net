@@ -15,7 +15,6 @@ from the site).
 
 | Page | Type | Status | Live URL | Links up to | Links across to |
 |------|------|--------|----------|-------------|------------------|
-| /blog/songs/because-dave-clark-five/ | song story | live | https://1960smusic.net/blog/songs/because-dave-clark-five/ | /blog/artists/the-dave-clark-five/, /blog/genres/british-invasion/, / (homepage) | /blog/songs/glad-all-over-dave-clark-five/, /blog/songs/bits-and-pieces-dave-clark-five/, /blog/songs/i-want-to-hold-your-hand-beatles/ |
 | /blog/on-this-day/september-15/ | on this day | live | https://1960smusic.net/blog/on-this-day/september-15/ | /blog/on-this-day/, / (homepage) | /blog/artists/the-beatles/, /blog/songs/waterloo-sunset-kinks/, /blog/genres/british-invasion/, /blog/genres/psychedelic-rock/, /blog/genres/motown-soul/, /blog/genres/garage-surf-rock/, /blog/genres/pop-brill-building/, /blog/on-this-day/september-14/, /blog/on-this-day/september-13/ |
 | /blog/artists/hermans-hermits/ | artist bio | live | https://1960smusic.net/blog/artists/hermans-hermits/ | /blog/genres/british-invasion/, / (homepage) | /blog/artists/the-beatles/, /blog/artists/the-kinks/, /blog/artists/the-dave-clark-five/ |
 | /blog/songs/mrs-brown-youve-got-a-lovely-daughter-hermans-hermits/ | song story | live | https://1960smusic.net/blog/songs/mrs-brown-youve-got-a-lovely-daughter-hermans-hermits/ | /blog/artists/hermans-hermits/, /blog/genres/british-invasion/, / (homepage) | /blog/artists/the-beatles/, /blog/artists/the-animals/ |
@@ -187,6 +186,7 @@ from the site).
 | /tools/ | tools index | live | https://1960smusic.net/tools/ | / (homepage) | /tools/random-song/, /tools/playlist-builder/, /tools/trivia/, /tools/quiz/, /tools/radio/, /tools/daily/, /tools/60s-music-crossword/ |
 | /blog/artists/herb-alpert-and-the-tijuana-brass/ | artist bio | live | https://1960smusic.net/blog/artists/herb-alpert-and-the-tijuana-brass/ | /blog/genres/jazz-easy-listening/, / (homepage) | /blog/artists/the-beatles/, /1960s/1962/, /1960s/1965/, /1960s/1966/, /1960s/1968/, /blog/songs/a-taste-of-honey-herb-alpert-and-the-tijuana-brass/, playable singles table (docs/singles-table.md) |
 | /blog/songs/a-taste-of-honey-herb-alpert-and-the-tijuana-brass/ | song story | live | https://1960smusic.net/blog/songs/a-taste-of-honey-herb-alpert-and-the-tijuana-brass/ | /blog/artists/herb-alpert-and-the-tijuana-brass/, /blog/genres/jazz-easy-listening/, / (homepage) | /blog/artists/the-beatles/, /1960s/1965/, /tools/radio/?year=1965 |
+| /data/1960s-musicians-by-song-count/ | data page | live | https://1960smusic.net/data/1960s-musicians-by-song-count/ | /data/, / (homepage), /1960s/ | /1960s/1960/ through /1960s/1969/, all 8 genre hubs, 15 artist bios, /data/1960s-music-genres-by-year/, /tools/radio/ |
 
 2026-10-29: renamed the Herman's Hermits artist page and both song pages to the single-n spelling (hermans-hermits); old double-n URLs 301 via `_redirects`.
 

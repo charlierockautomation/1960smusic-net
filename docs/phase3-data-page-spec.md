@@ -104,7 +104,7 @@ page's dataset, (b) is not already a focus keyword anywhere on the site, and
 spec line. Then build. Charlie's only checkpoint is the existing publish
 review of the finished page before push.
 
-## Page 2 spec line (November 2026, topic picked by Charlie 2026-11-09)
+## Page 2 spec line (November 2026): LIVE 2026-11-09 (209aea8; verify_live 200, in sitemap and llms.txt, IndexNow 200)
 
 URL `/data/1960s-musicians-by-song-count/`, focus keyword "1960s musicians",
 title/H1 "1960s Musicians With the Most Songs on Our Radio Dial". Source: the

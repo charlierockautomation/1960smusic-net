@@ -17,7 +17,7 @@ Status values: `not started` · `in progress` · `blocked (reason)` · `live`
 | # | Task | Cadence | Status |
 |---|---|---|---|
 | 1 | Queue rotation: `content-build.md` rows 85+ | 3-4 pages/week | not started |
-| 2 | Monthly original-data page (`data-page` type, `/data/<topic-slug>/`) | 1/month | in progress (page 1 live; next due Nov) |
+| 2 | Monthly original-data page (`data-page` type, `/data/<topic-slug>/`) | 1/month | in progress (pages 1-2 live; next due Dec) |
 | 3 | Weekly Trending post (Monday routine) | 1/week | not started |
 | 4 | Weekly refresh of one existing page | 1/week | not started |
 
@@ -60,6 +60,9 @@ framed as "our dataset", never as the whole 1960s. Full spec:
   "1960s music genres" approved, 954 words, check_article.py PASS). Live
   2026-10-26. Rebuild with `gen/build_data_page_radio.py`,
   verify with `gen/test_data_page_radio.py`.
+- Page 2 live 2026-11-09 (209aea8): `/data/1960s-musicians-by-song-count/`
+  ("1960s musicians", 1031 words, PASS). Build/test: `gen/build_data_page_artists.py`,
+  `gen/test_data_page_artists.py`.
 
 ### Cleanup: done 2026-10-26 (a14233a)
 - Checked the 1960 and 1969 candidates against Wikipedia infoboxes: all 9
