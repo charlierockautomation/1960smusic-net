@@ -16,7 +16,7 @@ Status values: `not started` · `in progress` · `blocked (reason)` · `live`
 
 | # | Task | Cadence | Status |
 |---|---|---|---|
-| 1 | Queue rotation: `content-build.md` rows 85+ | 3-4 pages/week | in progress (row 94 live 2026-11-09) |
+| 1 | Queue rotation: `content-build.md` rows 85+ | 3-4 pages/week | in progress (rows 94-95 live 2026-11-09) |
 | 2 | Monthly original-data page (`data-page` type, `/data/<topic-slug>/`) | 1/month | in progress (pages 1-2 live; next due Dec) |
 | 3 | Weekly Trending post (Monday routine) | 1/week | not started |
 | 4 | Weekly refresh of one existing page | 1/week | not started |
