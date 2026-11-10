@@ -7,6 +7,7 @@ Exit 1 on any miss. Run after Cloudflare's build finishes (retry in a minute
 if a URL 404s right after the push).
 
 Usage: python3 gen/verify_live.py /blog/songs/foo-bar/ [...]
+       python3 gen/verify_live.py https://1960smusic.net/blog/songs/foo-bar/ [...]
        python3 gen/verify_live.py --last-commit   (index.html pages changed in HEAD)
 """
 import re
@@ -28,6 +29,15 @@ def fetch(path):
         return 0, str(e)
 
 
+def to_path(arg):
+    """Accept a site path or a full https://1960smusic.net/... URL."""
+    for prefix in (BASE, "http://1960smusic.net", "https://www.1960smusic.net"):
+        if arg.startswith(prefix):
+            arg = arg[len(prefix):] or "/"
+            break
+    return arg if arg.startswith("/") else "/" + arg
+
+
 def last_commit_urls():
     out = subprocess.run(["git", "diff", "--name-only", "--diff-filter=AM", "HEAD~1", "HEAD"],
                          capture_output=True, text=True).stdout.split()
@@ -35,7 +45,7 @@ def last_commit_urls():
 
 
 def main(argv):
-    urls = last_commit_urls() if argv == ["--last-commit"] else argv
+    urls = last_commit_urls() if argv == ["--last-commit"] else [to_path(a) for a in argv]
     if not urls:
         print("usage: verify_live.py <path> [...] | --last-commit")
         return 2

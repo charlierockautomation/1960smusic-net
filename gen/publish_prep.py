@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 """One command for the "once live" generated files (CLAUDE.md step 6).
 
-Runs, in order: build_listings.py (static blog cards from posts.json),
+Runs, in order: radio_counts.py (fills the Radio Dial song-count markers
+from data/radio-eligible-*.json and fails if any stated count disagrees),
+build_listings.py (static blog cards from posts.json),
 build_tools_index.py (/tools/ cards + JSON-LD from tools.json),
 generate_sitemap.py (every live page, real lastmod), generate_llms_txt.py,
 then `check_article.py --site` to confirm sitemap.xml and llms.txt agree
@@ -18,6 +20,7 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 STEPS = [
+    ["radio_counts.py"],
     ["build_listings.py"],
     ["build_tools_index.py"],
     ["generate_sitemap.py"],

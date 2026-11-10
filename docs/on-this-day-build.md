@@ -54,6 +54,10 @@ audit rules) and `docs/on-this-day-template-spec.md` (page structure).
    this file (status -> `live`) and `link-map.md` (status -> `live`, live
    URL, inbound/outbound links). Only then move to the next `not started`
    row.
+7. **Photo upgrade (standing rule, 2026-11-10):** every On This Day session
+   also upgrades one older date-card page to a real photo, oldest date first,
+   from the list and rules in
+   [`docs/on-this-day-photo-upgrades.md`](on-this-day-photo-upgrades.md).
 
 **Why `seq` matters:** the `/blog/on-this-day/` archive and the blog index
 sort this type newest-first, but several date pages often get built and
@@ -91,11 +95,6 @@ past that, move the oldest `live` rows out to
 
 | # | Date | Page | Data file | Status |
 |---|------|------|-----------|--------|
-| 38 | October 8 | /blog/on-this-day/october-8/ | data/on-this-day/10-08.json | live |
-| 39 | October 9 | /blog/on-this-day/october-9/ | data/on-this-day/10-09.json | live |
-| 40 | October 10 | /blog/on-this-day/october-10/ | data/on-this-day/10-10.json | live |
-| 41 | October 11 | /blog/on-this-day/october-11/ | data/on-this-day/10-11.json | live |
-| 42 | October 12 | /blog/on-this-day/october-12/ | data/on-this-day/10-12.json | live |
 | 43 | October 13 | /blog/on-this-day/october-13/ | data/on-this-day/10-13.json | live |
 | 44 | October 14 | /blog/on-this-day/october-14/ | data/on-this-day/10-14.json | live |
 | 45 | October 15 | /blog/on-this-day/october-15/ | data/on-this-day/10-15.json | live |
