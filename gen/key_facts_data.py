@@ -510,6 +510,14 @@ SONGS = {
         ("US peak", "No. 27, Billboard Hot 100"),
         ("UK peak", "No. 3"),
     ]),
+    "this-guys-in-love-with-you-herb-alpert-and-the-tijuana-brass": dict(year=1968, rows=[
+        ("Released", "Spring 1968 (single); June 1968 on The Beat of the Brass"),
+        ("Label", "A&M"),
+        ("Written by", "Burt Bacharach and Hal David"),
+        ("Produced by", "Herb Alpert and Jerry Moss"),
+        ("US peak", "No. 1, Billboard Hot 100 (four weeks, from June 22, 1968); No. 1, Easy Listening"),
+        ("UK peak", "No. 3"),
+    ]),
     "big-girls-dont-cry-four-seasons": dict(year=1962, rows=[
         ("Released", "October 1962"),
         ("Label", "Vee-Jay"),
