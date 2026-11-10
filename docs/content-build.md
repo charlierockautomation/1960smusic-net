@@ -147,7 +147,7 @@ needs a look.
 
 | Week of | Page | Why picked | Status |
 |---|---|---|---|
-| 2026-11-09 | /blog/artists/hermans-hermits/ | DataForSEO ranked keywords (US, 2026-11-09): its top query "herman's hermits band members" (1,300/mo) ranks #58, the weakest position for the highest-volume page-specific query on the site; page has no lineup section. Plan: add a verified band-members section/table, trim to stay under 1,200 words. GSC not connected this session. | in progress |
+| 2026-11-09 | /blog/artists/hermans-hermits/ | DataForSEO ranked keywords (US, 2026-11-09): its top query "herman's hermits band members" (1,300/mo) ranks #58, the weakest position for the highest-volume page-specific query on the site; page has no lineup section. Plan: add a verified band-members section/table, trim to stay under 1,200 words. GSC not connected this session. | live 2026-11-09 (427c2b4) |
 
 ## Follow-ups
 
