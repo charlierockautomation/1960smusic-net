@@ -495,6 +495,13 @@ SONGS = {
         ("US peak", "No. 1, Billboard Hot 100 (five weeks, from September 15, 1962); No. 1, R&B (one week)"),
         ("UK peak", "No. 8"),
     ]),
+    "a-taste-of-honey-herb-alpert-and-the-tijuana-brass": dict(year=1965, rows=[
+        ("Released", "August 1965 (single); April 1965 on Whipped Cream & Other Delights"),
+        ("Label", "A&M"),
+        ("Written by", "Bobby Scott and Ric Marlow"),
+        ("Produced by", "Herb Alpert and Jerry Moss"),
+        ("US peak", "No. 7, Billboard Hot 100; No. 1, Easy Listening (five weeks)"),
+    ]),
     "big-girls-dont-cry-four-seasons": dict(year=1962, rows=[
         ("Released", "October 1962"),
         ("Label", "Vee-Jay"),
