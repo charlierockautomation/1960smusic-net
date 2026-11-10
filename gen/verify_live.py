@@ -2,7 +2,8 @@
 """Post-push check (CLAUDE.md pipeline step 6): confirm each new URL is live.
 
 For every URL: HTTP 200 on production, listed in the LIVE sitemap.xml, and
-(for /blog/ posts, which llms.txt covers) listed in the LIVE llms.txt.
+(for /blog/ posts, which llms.txt covers) listed in the LIVE llms.txt,
+unless generate_llms_txt.py trims that page on purpose to stay under its CAP.
 Exit 1 on any miss. Run after Cloudflare's build finishes (retry in a minute
 if a URL 404s right after the push).
 
@@ -51,11 +52,15 @@ def main(argv):
         return 2
     _, sitemap = fetch("/sitemap.xml")
     _, llms = fetch("/llms.txt")
+    sys.path.insert(0, __import__("os").path.dirname(__import__("os").path.abspath(__file__)))
+    import generate_llms_txt
+    trimmed = generate_llms_txt.trimmed_slugs()
     bad = False
     for u in urls:
         status, _ = fetch(u)
         in_sitemap = f"<loc>{BASE}{u}</loc>" in sitemap
-        needs_llms = bool(re.match(r"^/blog/(artists|songs|genres|trending|on-this-day)/[^/]+/$", u))
+        # pages generate_llms_txt.py leaves out on purpose (CAP) are not required
+        needs_llms = bool(re.match(r"^/blog/(artists|songs|genres|trending|on-this-day)/[^/]+/$", u)) and u not in trimmed
         in_llms = f"({BASE}{u})" in llms if needs_llms else None
         ok = status == 200 and in_sitemap and in_llms is not False
         bad |= not ok
