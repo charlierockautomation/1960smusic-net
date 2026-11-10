@@ -5,7 +5,9 @@ Placement: straight after the intro `<p class="lead">`, before the featured
 image, between `<!-- key-facts:start -->` / `<!-- key-facts:end -->`
 markers so re-runs replace the box in place. Also adds the required links:
 the matching /1960s/<year>/ page, and /best-60s-songs/ when the song is on
-that list (read from best-60s-songs/index.html).
+that list (read from best-60s-songs/index.html). Then gen/schema_enrich.py
+rewrites the song MusicRecording (byArtist @id, recordingOf/composer,
+producer, inAlbum) and the artist sameAs from the same data file.
 
 Usage: python3 gen/build_key_facts.py [--write]   (dry run without --write)
 """
@@ -16,6 +18,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from key_facts_data import ARTISTS, SONGS  # noqa: E402
+import schema_enrich  # noqa: E402
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 START, END = "<!-- key-facts:start -->", "<!-- key-facts:end -->"
@@ -61,13 +64,13 @@ def main(write):
         extra = [("Year guide", f'<a href="/1960s/{d["year"]}/">{d["year"]} music year guide</a>')]
         if slug in best:
             extra.append(("Playlist", '<a href="/best-60s-songs/">Best 60s Songs</a>, 100 playable hits'))
-        jobs.append((f"blog/songs/{slug}/index.html", box(d["rows"], extra)))
+        jobs.append((f"blog/songs/{slug}/index.html", box(d["rows"], extra), schema_enrich.enrich_song, slug))
     for slug, d in ARTISTS.items():
         links = ", ".join(f'<a href="/1960s/{y}/">{y}</a>' for y in d["years"])
-        jobs.append((f"blog/artists/{slug}/index.html", box(d["rows"], [("Key years", links)])))
-    for rel, b in jobs:
+        jobs.append((f"blog/artists/{slug}/index.html", box(d["rows"], [("Key years", links)]), schema_enrich.enrich_artist, slug))
+    for rel, b, enrich, slug in jobs:
         p = os.path.join(ROOT, rel)
-        new = apply(p, b)
+        new = enrich(slug, apply(p, b))
         if write:
             with open(p, "w", encoding="utf-8") as f:
                 f.write(new)

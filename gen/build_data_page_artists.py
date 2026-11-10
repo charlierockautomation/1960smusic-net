@@ -264,6 +264,7 @@ def build():
 <meta property="og:description" content="{html.escape(L['desc'])}">
 <meta property="og:url" content="https://1960smusic.net{SLUG}">
 <meta property="og:image" content="https://1960smusic.net{SLUG}{IMG}">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">

@@ -120,9 +120,14 @@ the draft gets written:
 - Article + FAQPage + BreadcrumbList JSON-LD schema text matches the
   visible page content. If body copy is edited (including density
   trims), the matching schema text gets edited too in the same pass.
-- 3-5 internal links in the body, each distinct URL used once. At least
-  one dofollow external link to an authoritative source (Wikipedia or
-  similar) for factual grounding on named entities.
+- 3-5 internal links in the body, each distinct URL used once.
+- Sources (2026-11-10): song, artist, genre and trending pages link at
+  least 3 distinct authoritative external sources in the body (Wikipedia,
+  Billboard, Official Charts, Rock Hall, label/artist sites; never
+  YouTube/TikTok/streaming/social). Applies to new pages. Weekly refresh:
+  any page refreshed must be brought up to 3 in the same pass.
+  `check_article.py` enforces it once Published or Updated is 2026-11-10+.
+- Meta description 120-160 characters, focus keyword included (enforced).
 - No hallucination: an unverifiable date, quote, or stat gets left out
   of the article, not guessed at or smoothed over.
 
@@ -179,16 +184,9 @@ the `trending` type).
 
 ## What check_article.py can and can't enforce
 
-Mechanically checked: word count by type, TOC presence, image + alt
-text, YouTube embed on song/artist pages, TikTok embed on trending
-pages, banned words, one-sentence-per-line, em dashes, unfilled
-template placeholders, FAQ count (not answer length), sentence-length
-distribution, keyword density and its required placements (title,
-meta, first 100 words, H2/H3, never consecutive sentences).
-
-Not mechanically checked, judgment calls made while writing: whether a
-3+ item list is really a list vs. a run-on sentence, whether PAA
-questions are genuinely sourced from search vs. invented, whether prose
-reads "sensory and specific" vs. generic, whether schema text still
-matches visible content after an edit. These stay a human/agent
-discipline, not a script.
+Checked: word count, TOC, image + alt, YouTube/TikTok embeds, banned
+words, one sentence per line, em dashes, placeholders, FAQ count,
+sentence length, keyword density and placements, meta length, sources.
+Judgment calls, not scripted: real lists vs. run-ons, PAA questions
+really sourced, prose sensory vs. generic, schema text still matching
+visible content after an edit.

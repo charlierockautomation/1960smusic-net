@@ -103,6 +103,19 @@ def cap_sections(sections):
     return sections
 
 
+def trimmed_slugs():
+    """Slugs of posts that cap_sections() intentionally leaves out of
+    llms.txt (oldest-first in the largest section). check_article.py's
+    single-page check accepts these instead of failing them."""
+    full, capped = [], []
+    for name, post_type in SECTIONS:
+        entries = live_tools() if post_type is None else posts_by_type(post_type)
+        full += [e.get("slug") for e in entries]
+        capped.append((name, list(entries)))
+    kept = {e.get("slug") for _, entries in cap_sections(capped) for e in entries}
+    return set(full) - kept
+
+
 def render(sections, tool_entries):
     lines = [f"# {TITLE}", "", TAGLINE, "", f"Sitemap: {BASE}/sitemap.xml", ""]
 

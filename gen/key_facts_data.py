@@ -710,3 +710,188 @@ ARTISTS = {
         ("Peak chart hits", "\"For Your Love\" (UK No. 3, US No. 6, 1965); \"Heart Full of Soul\" (UK No. 2, US No. 9, 1965)"),
     ]),
 }
+
+
+# Entity links for artist bios (Task 5, 2026-11-10): output as sameAs on the
+# page's MusicGroup/Person node by gen/build_key_facts.py. Each URL was fetched
+# (HTTP 200) and matched to the act: Wikipedia via its Wikidata sitelink,
+# Wikidata item typed human (Q5) or musical group, MusicBrainz via Wikidata P434
+# with the MusicBrainz record name checked. Bob Dylan and The Animals list
+# extra P434 ids (pseudonyms, Animals II); only the exact-name id is kept.
+# Herb Alpert & The Tijuana Brass: Wikipedia redirects to the Herb Alpert
+# person article (Q344822), not the group, so only MusicBrainz is kept.
+SAME_AS = {
+    "bob-dylan": [
+        "https://en.wikipedia.org/wiki/Bob_Dylan",
+        "https://www.wikidata.org/wiki/Q392",
+        "https://musicbrainz.org/artist/72c536dc-7137-4477-a521-567eeb840fa8",
+    ],
+    "hermans-hermits": [
+        "https://en.wikipedia.org/wiki/Herman's_Hermits",
+        "https://www.wikidata.org/wiki/Q693597",
+        "https://musicbrainz.org/artist/fc9ec2b3-b44a-4dad-8bc3-ff3738ee02ae",
+    ],
+    "johnny-cash": [
+        "https://en.wikipedia.org/wiki/Johnny_Cash",
+        "https://www.wikidata.org/wiki/Q42775",
+        "https://musicbrainz.org/artist/d43d12a1-2dc9-4257-a2fd-0a3bb1081b86",
+    ],
+    "patsy-cline": [
+        "https://en.wikipedia.org/wiki/Patsy_Cline",
+        "https://www.wikidata.org/wiki/Q273080",
+        "https://musicbrainz.org/artist/ad82dd72-0df3-4a09-8d7a-1af9c9e80522",
+    ],
+    "herb-alpert-and-the-tijuana-brass": [
+        "https://musicbrainz.org/artist/012ef4f9-2d35-4000-86e5-bc761f87dab9",
+    ],
+    "the-monkees": [
+        "https://en.wikipedia.org/wiki/The_Monkees",
+        "https://www.wikidata.org/wiki/Q464036",
+        "https://musicbrainz.org/artist/b8549efe-f4fd-4dc0-8ef1-226e9c400233",
+    ],
+    "frank-sinatra": [
+        "https://en.wikipedia.org/wiki/Frank_Sinatra",
+        "https://www.wikidata.org/wiki/Q40912",
+        "https://musicbrainz.org/artist/197450cd-0124-4164-b723-3c22dd16494d",
+    ],
+    "the-animals": [
+        "https://en.wikipedia.org/wiki/The_Animals",
+        "https://www.wikidata.org/wiki/Q131422",
+        "https://musicbrainz.org/artist/4d8afa16-4018-4ca8-8b5e-ede8f9314562",
+    ],
+    "the-beach-boys": [
+        "https://en.wikipedia.org/wiki/The_Beach_Boys",
+        "https://www.wikidata.org/wiki/Q183048",
+        "https://musicbrainz.org/artist/ebfc1398-8d96-47e3-82c3-f782abcdb13d",
+    ],
+    "the-beatles": [
+        "https://en.wikipedia.org/wiki/The_Beatles",
+        "https://www.wikidata.org/wiki/Q1299",
+        "https://musicbrainz.org/artist/b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+    ],
+    "the-dave-clark-five": [
+        "https://en.wikipedia.org/wiki/The_Dave_Clark_Five",
+        "https://www.wikidata.org/wiki/Q1141454",
+        "https://musicbrainz.org/artist/6da6a053-618f-4f17-aea1-c8075bd8cc2d",
+    ],
+    "the-doors": [
+        "https://en.wikipedia.org/wiki/The_Doors",
+        "https://www.wikidata.org/wiki/Q45354",
+        "https://musicbrainz.org/artist/9efff43b-3b29-4082-824e-bc82f646f93d",
+    ],
+    "the-four-seasons": [
+        "https://en.wikipedia.org/wiki/The_Four_Seasons_(band)",
+        "https://www.wikidata.org/wiki/Q687785",
+        "https://musicbrainz.org/artist/3f64d38c-1ad4-4fb0-941e-7f4b51d4c9e6",
+    ],
+    "the-jimi-hendrix-experience": [
+        "https://en.wikipedia.org/wiki/The_Jimi_Hendrix_Experience",
+        "https://www.wikidata.org/wiki/Q1407424",
+        "https://musicbrainz.org/artist/33b3c323-77c2-417c-a5b4-af7e6a111cc9",
+    ],
+    "the-kinks": [
+        "https://en.wikipedia.org/wiki/The_Kinks",
+        "https://www.wikidata.org/wiki/Q188713",
+        "https://musicbrainz.org/artist/17b53d9f-5c63-4a09-a593-dde4608e0db9",
+    ],
+    "the-rolling-stones": [
+        "https://en.wikipedia.org/wiki/The_Rolling_Stones",
+        "https://www.wikidata.org/wiki/Q11036",
+        "https://musicbrainz.org/artist/b071f9fa-14b0-4217-8e97-eb41da73f598",
+    ],
+    "simon-and-garfunkel": [
+        "https://en.wikipedia.org/wiki/Simon_&_Garfunkel",
+        "https://www.wikidata.org/wiki/Q484918",
+        "https://musicbrainz.org/artist/5d02f264-e225-41ff-83f7-d9b1f0b1874a",
+    ],
+    "the-searchers": [
+        "https://en.wikipedia.org/wiki/The_Searchers_(band)",
+        "https://www.wikidata.org/wiki/Q1132434",
+        "https://musicbrainz.org/artist/a9399880-5587-457c-bc87-8c81fcf57cb1",
+    ],
+    "the-sonics": [
+        "https://en.wikipedia.org/wiki/The_Sonics",
+        "https://www.wikidata.org/wiki/Q904921",
+        "https://musicbrainz.org/artist/16346cf4-4d2b-40ec-8393-0fc7296d92fe",
+    ],
+    "the-supremes": [
+        "https://en.wikipedia.org/wiki/The_Supremes",
+        "https://www.wikidata.org/wiki/Q218837",
+        "https://musicbrainz.org/artist/c1aa2ec9-53e7-4d90-8d36-bac75832e986",
+    ],
+    "the-temptations": [
+        "https://en.wikipedia.org/wiki/The_Temptations",
+        "https://www.wikidata.org/wiki/Q846373",
+        "https://musicbrainz.org/artist/d8df96ae-8fcf-4997-b3e6-e5d1aaf0f69e",
+    ],
+    "the-who": [
+        "https://en.wikipedia.org/wiki/The_Who",
+        "https://www.wikidata.org/wiki/Q93346",
+        "https://musicbrainz.org/artist/9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+    ],
+    "the-yardbirds": [
+        "https://en.wikipedia.org/wiki/The_Yardbirds",
+        "https://www.wikidata.org/wiki/Q192725",
+        "https://musicbrainz.org/artist/191de76f-a224-445d-b041-54df16d65bf7",
+    ],
+}
+
+
+# Song schema extras (Task 5, 2026-11-10), read by gen/schema_enrich.py.
+#
+# SONG_ALBUMS: inAlbum, only where the song's Wikipedia infobox "album" field
+# names the album, the album holds this recording, and our page names it too.
+# Songs left out had no song article linked, a non-album single, a compilation
+# or cover-version infobox, or a version mismatch (The Sound of Silence hit
+# single vs. the Wednesday Morning, 3 A.M. original).
+SONG_ALBUMS = {
+    "a-taste-of-honey-herb-alpert-and-the-tijuana-brass": "Whipped Cream & Other Delights",
+    "a-world-without-love-peter-and-gordon": "A World Without Love",
+    "baby-love-supremes": "Where Did Our Love Go",
+    "because-dave-clark-five": "American Tour",
+    "big-girls-dont-cry-four-seasons": "Sherry & 11 Others",
+    "bits-and-pieces-dave-clark-five": "Glad All Over",
+    "blowin-in-the-wind-bob-dylan": "The Freewheelin' Bob Dylan",
+    "california-girls-beach-boys": "Summer Days (And Summer Nights!!)",
+    "come-see-about-me-supremes": "Where Did Our Love Go",
+    "crazy-patsy-cline": "Showcase",
+    "daydream-believer-monkees": "The Birds, The Bees & The Monkees",
+    "fun-fun-fun-beach-boys": "Shut Down Volume 2",
+    "get-ready-temptations": "Gettin' Ready",
+    "im-a-believer-monkees": "More of the Monkees",
+    "last-train-to-clarksville-monkees": "The Monkees",
+    "light-my-fire-doors": "The Doors",
+    "like-a-rolling-stone-bob-dylan": "Highway 61 Revisited",
+    "my-generation-who": "My Generation",
+    "my-girl-temptations": "The Temptations Sing Smokey",
+    "my-way-frank-sinatra": "My Way",
+    "sherry-four-seasons": "Sherry & 11 Others",
+    "spanish-flea-herb-alpert-and-the-tijuana-brass": "Going Places",
+    "stop-in-the-name-of-love-supremes": "More Hits by the Supremes",
+    "strange-days-doors": "Strange Days",
+    "strangers-in-the-night-frank-sinatra": "Strangers in the Night",
+    "subterranean-homesick-blues-bob-dylan": "Bringing It All Back Home",
+    "surfin-safari-beach-boys": "Surfin' Safari",
+    "surfin-usa-beach-boys": "Surfin' U.S.A.",
+    "the-boxer-simon-and-garfunkel": "Bridge over Troubled Water",
+    "the-crystal-ship-doors": "The Doors",
+    "the-end-doors": "The Doors",
+    "the-times-they-are-a-changin-bob-dylan": "The Times They Are a-Changin'",
+    "the-witch-sonics": "Here Are the Sonics",
+    "this-guys-in-love-with-you-herb-alpert-and-the-tijuana-brass": "The Beat of the Brass",
+    "walk-like-a-man-four-seasons": "Big Girls Don't Cry and Twelve Others",
+    "where-did-our-love-go-supremes": "Where Did Our Love Go",
+}
+
+# CREDIT_OVERRIDES: names for "Written by" / "Produced by" values the generic
+# parser in gen/schema_enrich.py can't split cleanly. Every name must appear in
+# the box value it comes from (schema_enrich checks this). "lyricist" holds
+# names the box marks as lyrics-only.
+CREDIT_OVERRIDES = {
+    "a-world-without-love-peter-and-gordon": dict(writers=["Paul McCartney"]),
+    "house-of-the-rising-sun-animals": dict(writers=["Alan Price"]),
+    # traditional ballad; Simon wrote the "Canticle" counter-melody it is joined to
+    "scarborough-fair-canticle-simon-and-garfunkel": dict(writers=["Paul Simon"]),
+    "strangers-in-the-night-frank-sinatra": dict(writers=["Bert Kaempfert"], lyricists=["Charles Singleton", "Eddie Snyder"]),
+    "my-way-frank-sinatra": dict(writers=["Jacques Revaux", "Gilles Thibaut", "Claude François"], lyricists=["Paul Anka"]),
+}

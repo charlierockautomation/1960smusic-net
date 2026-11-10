@@ -17,7 +17,7 @@ Sitemap: https://1960smusic.net/sitemap.xml
 - [1960s Music by Year: 1960-1969 Year Guides](https://1960smusic.net/1960s/): 1960s music broken down year by year: number one hits, key albums and genre shifts for 1960 through 1969, each with a playable tracklist.
 - [1960 Music: The Year's Biggest Hit Songs and Albums](https://1960smusic.net/1960s/1960/): 1960 music delivered 19 different Billboard number ones, Elvis Presley's record year, and the first steps toward Nashville, Brill Building and surf sounds.
 - [1961 Music: The Year's Biggest Hit Songs and Albums](https://1960smusic.net/1960s/1961/): 1961 music brought Motown its first number one, Patsy Cline's Nashville Sound breakthrough, and 22 different Billboard chart toppers across the year.
-- [1962 Music: The Year's Biggest Hit Songs and Albums](https://1960smusic.net/1960s/1962/): 1962 music brought The Twist back to number one, Ray Charles crossed into Nashville, and the Four Seasons became the first rock act to top the chart with their first two singles.
+- [1962 Music: The Year's Biggest Hit Songs and Albums](https://1960smusic.net/1960s/1962/): 1962 music brought The Twist back to No. 1, Ray Charles crossed into Nashville, and the Four Seasons topped the chart with their first two singles.
 - [1963 Music: The Year's Biggest Hit Songs and Albums](https://1960smusic.net/1960s/1963/): 1963 music crowned Surfin' U.S.A. the year's top song even though it only reached No. 3, while Beatlemania swept Britain months before the US Hot 100 noticed.
 - [1964 Music: The Year's Biggest Hit Songs and Albums](https://1960smusic.net/1960s/1964/): 1964 music belonged to the Beatles, who held all five top Hot 100 spots on April 4 and took six number ones, 18 weeks in all.
 - [1965 Music: The Year's Biggest Hit Songs and Albums](https://1960smusic.net/1960s/1965/): 1965 music crowned Wooly Bully, a song that never reached number one, while the Beatles took five number ones and 12 weeks at the top.
@@ -34,7 +34,7 @@ Sitemap: https://1960smusic.net/sitemap.xml
 - [1960s Music Genres by Year: What Our Radio Dial Holds](https://1960smusic.net/data/1960s-music-genres-by-year/): 1960s music genres by year, counted across 556 songs on our Radio Dial. See where each genre peaks, when psychedelic rock appears, and how the mix shifts.
 
 ## About the Author
-- [About Charlie](https://1960smusic.net/about/charlie/): Meet Charlie, the retired Alberta music lover who researches, writes and fact-checks every page on 1960smusic.net.
+- [About Charlie](https://1960smusic.net/about/charlie/): Meet Charlie, the retired Alberta music lover who researches, writes and fact-checks every page on 1960smusic.net, from song stories to On This Day.
 
 ## Genre Hubs
 - [60s Rock: How the Decade Went from Garage Bands to Psychedelia](https://1960smusic.net/blog/genres/60s-rock/): 60s rock explained: how British Invasion, garage, folk rock, and psychedelic bands turned a three-chord sound into the decade's biggest music, year by year.

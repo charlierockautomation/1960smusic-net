@@ -187,12 +187,61 @@ def jsonld_crumbs(text):
     return None
 
 
+SONG_URL = re.compile(r"^/blog/songs/[^/]+/$")
+ARTIST_URL = re.compile(r"^/blog/artists/[^/]+/$")
+TOOL_URL = re.compile(r"^/tools/[^/]+/$")
+
+
+def nodes_of(text):
+    out = []
+    for raw in blocks(text):
+        try:
+            d = json.loads(raw)
+        except ValueError:
+            continue
+        out += d.get("@graph", [d]) if isinstance(d, dict) else []
+    return out
+
+
+def completeness(u, text):
+    """Task 5 (2026-11-10) checks: meta description length and twitter:card on
+    every gated page; song pages need recordingOf.composer; artist pages need
+    sameAs on the #subject node (or <!-- SAMEAS-EXEMPT: reason -->); tool pages
+    need an og:image that is an absolute site URL to a file on disk."""
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import check_seo
+    errs = []
+    check_seo.check_meta_description(text, errs)
+    if 'name="twitter:card" content="summary_large_image"' not in text:
+        errs.append("no twitter:card summary_large_image meta")
+    nodes = nodes_of(text)
+    if SONG_URL.match(u):
+        rec = next((n for n in nodes if n.get("@type") == "MusicRecording"), {})
+        comp = (rec.get("recordingOf") or {}).get("composer")
+        if not comp:
+            errs.append("song MusicRecording has no recordingOf.composer (run gen/build_key_facts.py --write)")
+    if ARTIST_URL.match(u) and not re.search(r"<!--\s*SAMEAS-EXEMPT:", text):
+        subj = next((n for n in nodes if str(n.get("@id", "")).endswith("#subject")), {})
+        if not subj.get("sameAs"):
+            errs.append("artist #subject node has no sameAs (add SAME_AS in gen/key_facts_data.py, or <!-- SAMEAS-EXEMPT: reason -->)")
+    if TOOL_URL.match(u):
+        m = re.search(r'<meta property="og:image" content="([^"]*)"', text)
+        img = m.group(1) if m else ""
+        if not img.startswith("https://1960smusic.net/"):
+            errs.append("tool page needs an og:image (absolute https://1960smusic.net/ URL)")
+        elif not os.path.exists(os.path.join(ROOT, img[len("https://1960smusic.net/"):])):
+            errs.append(f"tool og:image file not found on disk: {img}")
+    return errs
+
+
 def gate():
     """Publish gate: every sitemap page has a title of 60 chars or fewer and, if it
     shows a visible breadcrumb, one matching its BreadcrumbList (names + URLs).
     Every sitemap page except GATE_EXEMPT has valid JSON-LD
     with a BreadcrumbList; article pages also need Article + FAQPage; the six
-    blog listings need CollectionPage + ItemList matching their linked cards."""
+    blog listings need CollectionPage + ItemList matching their linked cards.
+    Every page also runs completeness() (meta length, twitter:card, song
+    composer, artist sameAs, tool og:image)."""
     with open(os.path.join(ROOT, "sitemap.xml"), encoding="utf-8") as f:
         urls = re.findall(r"<loc>https://1960smusic\.net(/[^<]*)</loc>", f.read())
     bad = []
@@ -212,6 +261,7 @@ def gate():
         if vis is not None and vis != ld_c:
             terrs.append(f"visible breadcrumb {vis} != BreadcrumbList {ld_c}")
         if u in GATE_EXEMPT:
+            terrs += completeness(u, text)
             if terrs:
                 bad.append((u, terrs))
             continue
@@ -223,6 +273,7 @@ def gate():
         if u in LISTING_URLS:
             need_t += ["CollectionPage", "ItemList"]
         errs += [f"missing {t} JSON-LD" for t in need_t if t not in types]
+        errs += completeness(u, text)
         if u in LISTING_URLS:
             ld = text[text.find("<!-- ld:start -->"):text.find("<!-- ld:end -->")]
             body = text[text.find("</head>"):]

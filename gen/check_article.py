@@ -25,6 +25,9 @@ Full rules: docs/writing-standard.md. Checks enforced here (2026-08-16):
     date, and Article JSON-LD with a Person author plus datePublished and
     dateModified
   - title tag 60 characters or fewer in total (brand suffix only if it fits)
+  - meta description 120-160 characters (every type, On This Day included)
+  - song, artist, genre, trending pages published or refreshed from
+    2026-11-10: 3+ distinct authoritative external source links in the body
   - visible "Updated <time>" in the byline, equal to Article JSON-LD
     dateModified (and never earlier than Published)
   - song story / artist bio: Key Facts box right after the intro (before
@@ -390,7 +393,10 @@ def check_site_links(text, path, errors):
 
 
 def check_published_listing(path, errors):
-    """A page already in data/posts.json is live: it must be in sitemap.xml and llms.txt."""
+    """A page already in data/posts.json is live: it must be in sitemap.xml and
+    llms.txt, except that llms.txt may leave out a page generate_llms_txt.py
+    trims on purpose to stay under its CAP (oldest pages of the largest
+    section), so an older On This Day page still passes when refreshed."""
     rel = os.path.relpath(os.path.abspath(path), SITE_ROOT).replace(os.sep, "/")
     if not rel.endswith("index.html"):
         return
@@ -402,10 +408,14 @@ def check_published_listing(path, errors):
         return
     if slug not in live:
         return
+    import generate_llms_txt
+    trimmed = slug in generate_llms_txt.trimmed_slugs()
     for name, needle in (("sitemap.xml", f"<loc>https://1960smusic.net{slug}</loc>"), ("llms.txt", f"(https://1960smusic.net{slug})")):
         try:
             with open(os.path.join(SITE_ROOT, name), encoding="utf-8") as f:
                 if needle not in f.read():
+                    if name == "llms.txt" and trimmed:
+                        continue  # left out on purpose by generate_llms_txt.cap_sections (CAP)
                     errors.append(f"live page missing from {name}: run python3 gen/publish_prep.py")
         except OSError:
             errors.append(f"{name} not found")
@@ -615,9 +625,11 @@ def check_file(path):
         check_template_placeholders(text, errors)
         check_byline(text, errors)
         check_title_length(text, errors)
+        check_seo.check_meta_description(text, errors)
         check_site_links(text, path, errors)
         check_published_listing(path, errors)
         check_seo.check_share_image(text, errors)
+        check_seo.check_otd_image(text, path, errors)
         check_seo.check_year_links(text, page_type, path, errors)
         return page_type, wc, errors, notes
     check_em_dashes(text, errors)
@@ -632,8 +644,10 @@ def check_file(path):
     check_template_placeholders(text, errors)
     check_byline(text, errors)
     check_title_length(text, errors)
+    check_seo.check_meta_description(text, errors)
     check_key_facts(text, errors, page_type, path)
     check_seo.check_key_facts_data(path, text, page_type, errors)
+    check_seo.check_sources(text, body_html(text), page_type, errors)
     if page_type:
         check_seo.check_share_image(text, errors)
     check_seo.check_year_links(text, page_type, path, errors)

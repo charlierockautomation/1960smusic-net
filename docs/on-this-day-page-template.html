@@ -41,13 +41,21 @@ How to use:
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>On This Day: {{DATE_LABEL}} in 1960s Music | 1960smusic.net</title>
-<meta name="description" content="{{META_DESCRIPTION_150_160_CHARS_SUMMARIZING_THE_DAYS_EVENTS}}">
+<meta name="description" content="{{META_DESCRIPTION_120_160_CHARS_SUMMARIZING_THE_DAYS_EVENTS}}">
 <link rel="canonical" href="https://1960smusic.net/blog/on-this-day/{{DATE_SLUG}}/">
 <meta property="og:type" content="article">
 <meta property="og:title" content="On This Day: {{DATE_LABEL}} in 1960s Music">
-<meta property="og:description" content="{{META_DESCRIPTION_150_160_CHARS_SUMMARIZING_THE_DAYS_EVENTS}}">
+<meta property="og:description" content="{{META_DESCRIPTION_120_160_CHARS_SUMMARIZING_THE_DAYS_EVENTS}}">
 <meta property="og:url" content="https://1960smusic.net/blog/on-this-day/{{DATE_SLUG}}/">
-<meta property="og:image" content="https://1960smusic.net{{FIRST_ARTICLE_IMAGE_PATH_OR_/assets/og-home.png}}">
+<!-- SHARE IMAGE RULE (check_article.py enforces, 2026-11-10): og:image and the
+     Article JSON-LD image are the same self-hosted file, picked in this order:
+     (a) a self-hosted photo or cover already shown on this page, or a freely
+         licensed one (Wikimedia Commons first) downloaded into img/ and shown;
+     (b) this page's own date card: python3 gen/build_share_cards.py otd {{DATE_SLUG}}
+         -> /blog/on-this-day/{{DATE_SLUG}}/og-card.png
+     Never /assets/og-home.png, never a hotlinked URL. -->
+<meta property="og:image" content="https://1960smusic.net{{SHARE_IMAGE_PATH}}">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -63,8 +71,8 @@ How to use:
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "On This Day: {{DATE_LABEL}} in 1960s Music",
-  "description": "{{META_DESCRIPTION_150_160_CHARS_SUMMARIZING_THE_DAYS_EVENTS}}",
-  "image": "https://1960smusic.net{{FIRST_ARTICLE_IMAGE_PATH_OR_/assets/og-home.png}}",
+  "description": "{{META_DESCRIPTION_120_160_CHARS_SUMMARIZING_THE_DAYS_EVENTS}}",
+  "image": "https://1960smusic.net{{SHARE_IMAGE_PATH}}",
   "author": {"@type": "Person", "name": "Charlie Gillingham", "url": "https://1960smusic.net/about/charlie/"},
   "publisher": {
     "@type": "Organization",

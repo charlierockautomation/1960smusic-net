@@ -20,6 +20,7 @@ Status values: `not started` · `in progress` · `blocked (reason)` · `live`
 | 2 | Monthly original-data page (`data-page` type, `/data/<topic-slug>/`) | 1/month | in progress (pages 1-2 live; next due Dec) |
 | 3 | Weekly Trending post (Monday routine) | 1/week | not started |
 | 4 | Weekly refresh of one existing page | 1/week | in progress (week of Nov 9 live; log in content-build.md) |
+| 5 | Schema + meta completeness pass | one-off | in progress (started 2026-11-10) |
 
 ## Task detail
 
@@ -83,3 +84,22 @@ Cloud routine `trig_01GCntYZh1oWceGXGBxqYKHA`, Mondays 14:00 UTC, pushes a
 One existing page a week. Updated date and `dateModified` change only for
 substantive edits (CLAUDE.md "Updated Dates"). Pick the page and log it here
 when work starts.
+
+### 5. Schema + meta completeness pass (2026-11-10)
+SEO plumbing, no Updated/dateModified bumps. Gates added: meta 120-160
+(`check_seo.check_meta_description`, all article types + every sitemap page
+via `validate_jsonld.py --gate`); OTD share image (`check_otd_image`); song
+`recordingOf.composer`, artist `sameAs` (or `<!-- SAMEAS-EXEMPT: reason -->`),
+tool og:image and site-wide `twitter:card` in the gate; 3+ external sources
+for song/artist/genre/trending pages published or refreshed from 2026-11-10.
+- 75 meta descriptions rewritten (OTD, songs, listings, tools, legal).
+- Artist `sameAs` from `SAME_AS` in `gen/key_facts_data.py` (Wikipedia,
+  Wikidata, MusicBrainz, all fetched and name-matched); Herb Alpert & TJB
+  MusicBrainz only (its Wikipedia title redirects to the person).
+- Song MusicRecording via `gen/schema_enrich.py` (run by
+  `build_key_facts.py`): byArtist @id, composer/lyricist, producer; inAlbum
+  for 36 songs in `SONG_ALBUMS` (Wikipedia infobox + named on page).
+- OTD: 17 keep on-page photos, 88 get `og-card.png` from
+  `gen/build_share_cards.py`; rule in `docs/on-this-day-page-template.html`.
+- Tools: og-card.png for all 7; 4-question FAQ on 6 (DataForSEO PAA/related).
+- llms.txt: single-page check accepts pages `cap_sections` trims on purpose.

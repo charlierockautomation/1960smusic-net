@@ -230,6 +230,7 @@ page = f'''<!DOCTYPE html>
 <meta property="og:description" content="{E(DESC)}">
 <meta property="og:url" content="https://1960smusic.net/best-60s-songs/">
 <meta property="og:image" content="https://1960smusic.net/1960s/1964/beatles-1964.jpg">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">

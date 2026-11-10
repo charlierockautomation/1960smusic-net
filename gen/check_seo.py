@@ -101,3 +101,79 @@ def check_year_links(text, page_type, path, errors):
         for y, body in re.findall(r'<section id="y(\d{4})">(.*?)</section>', text, flags=re.S):
             if f'href="/1960s/{y}/"' not in body:
                 errors.append(f"On This Day {y} section must link /1960s/{y}/")
+
+
+META_MIN, META_MAX = 120, 160
+
+
+def meta_description(text):
+    m = re.search(r'<meta name="description"\s+content="([^"]*)"', text, flags=re.I)
+    return htmllib.unescape(m.group(1)).strip() if m else None
+
+
+def check_meta_description(text, errors):
+    """Meta description 120-160 characters (Task 5, 2026-11-10). The focus
+    keyword placement is checked separately in check_article.check_keyword."""
+    d = meta_description(text)
+    if d is None:
+        errors.append("no meta description")
+    elif not (META_MIN <= len(d) <= META_MAX):
+        errors.append(f"meta description is {len(d)} chars (need {META_MIN}-{META_MAX}): {d!r}")
+
+
+def check_otd_image(text, path, errors):
+    """On This Day share image (Task 5, 2026-11-10; rule in
+    docs/on-this-day-page-template.html). og:image and the Article image are
+    the same self-hosted file, and it is either (a) an image shown on the page
+    itself or (b) the page's own date card, og-card.png in its folder, made by
+    gen/build_share_cards.py. Never the generic site card, never hotlinked."""
+    m = re.search(r'<meta property="og:image" content="([^"]*)"', text)
+    og = m.group(1) if m else ""
+    art = _article(text) or {}
+    img = art.get("image")
+    if isinstance(img, dict):
+        img = img.get("url")
+    if og and img and og != img:
+        errors.append(f"On This Day og:image {og} != Article image {img}")
+    if og.endswith("/assets/og-home.png"):
+        errors.append("On This Day page uses the generic og-home.png: use an image from the page, else run gen/build_share_cards.py otd <slug>")
+        return
+    folder = "/" + os.path.relpath(os.path.dirname(os.path.abspath(path)), SITE_ROOT).replace(os.sep, "/") + "/"
+    shown = set()
+    for s in re.findall(r'<img\b[^>]*\bsrc="([^"]+)"', text):
+        if s.startswith(BASE):
+            s = s[len(BASE):]
+        elif s.startswith("http"):
+            continue
+        shown.add(BASE + (s if s.startswith("/") else folder + s))
+    if og and og not in shown and og != BASE + folder + "og-card.png":
+        errors.append(f"On This Day og:image must be an image shown on the page or {folder}og-card.png, got {og}")
+
+
+SOURCE_RULE_START = "2026-11-10"
+SOURCE_TYPES = ("song story", "artist bio", "genre hub", "trending")
+NOT_SOURCES = ("1960smusic.net", "youtube.com", "youtu.be", "youtube-nocookie.com", "tiktok.com",
+               "spotify.com", "music.apple.com", "amazon.", "facebook.com", "instagram.com",
+               "twitter.com", "x.com", "pinterest.", "reddit.com")
+MIN_SOURCES = 3
+
+
+def check_sources(text, body, page_type, errors):
+    """Task 5 (2026-11-10): song, artist, genre and trending pages published or
+    refreshed (Updated date) on or after SOURCE_RULE_START link at least 3
+    distinct authoritative external sources in the body. Older pages are not
+    failed until their next refresh (docs/writing-standard.md)."""
+    if page_type not in SOURCE_TYPES:
+        return
+    art = _article(text) or {}
+    newest = max(art.get("datePublished", ""), art.get("dateModified", ""))
+    if newest < SOURCE_RULE_START:
+        return
+    urls = set()
+    for href in re.findall(r'<a\b[^>]*href="(https?://[^"#]+)', body, flags=re.I):
+        host = re.sub(r"^https?://(www\.)?", "", href).split("/")[0].lower()
+        if not any(bad in host for bad in NOT_SOURCES):
+            urls.add(href.rstrip("/"))
+    if len(urls) < MIN_SOURCES:
+        errors.append(f"only {len(urls)} authoritative external source link(s) in the body, need {MIN_SOURCES} "
+                      f"(pages published or refreshed from {SOURCE_RULE_START})")
