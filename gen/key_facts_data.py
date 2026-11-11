@@ -402,6 +402,13 @@ SONGS = {
         ("US peak", "No. 1, Billboard Hot 100"),
         ("UK peak", "No. 1"),
     ]),
+    "white-rabbit-jefferson-airplane": dict(year=1967, rows=[
+        ("Released", "June 1967 (single); February 1, 1967 on Surrealistic Pillow; recorded November 3, 1966"),
+        ("Label", "RCA Victor"),
+        ("Written by", "Grace Slick"),
+        ("Produced by", "Rick Jarrard"),
+        ("US peak", "No. 8, Billboard Hot 100; No. 6, Cash Box"),
+    ]),
     "purple-haze-jimi-hendrix-experience": dict(year=1967, rows=[
         ("Released", "March 17, 1967 (UK); June 19, 1967 (US); recorded January 11, 1967"),
         ("Label", "Track (UK), Reprise (US)"),

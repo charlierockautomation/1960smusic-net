@@ -2025,6 +2025,15 @@
       "date": "2026-11-11",
       "genre": null,
       "seq": 108
+    },
+    {
+      "id": "white-rabbit-jefferson-airplane",
+      "title": "White Rabbit by Jefferson Airplane: How Grace Slick Wrote It",
+      "slug": "/blog/songs/white-rabbit-jefferson-airplane/",
+      "type": "song-story",
+      "description": "White Rabbit by Jefferson Airplane: Grace Slick wrote it on a $50 piano from Alice in Wonderland, and it hit No. 8 in 1967. The full story.",
+      "date": "2026-11-11",
+      "genre": "psychedelic-rock"
     }
   ]
 }
