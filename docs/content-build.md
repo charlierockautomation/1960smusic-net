@@ -107,7 +107,7 @@ Live rows (1-70) are in [`docs/content-build-archive.md`](content-build-archive.
 | 93 | A Taste of Honey | /blog/songs/a-taste-of-honey-herb-alpert-and-the-tijuana-brass/ | song-story | jazz-easy-listening | live | A Taste of Honey | gRGOm071sE0 | swapped from NC38-qqiVgg (Kasbah Party Rentals, non-official) to Herb Alpert - Topic; inbound links from bio (section + singles row) and jazz hub |
 | 94 | Spanish Flea | /blog/songs/spanish-flea-herb-alpert-and-the-tijuana-brass/ | song-story | jazz-easy-listening | live | Spanish Flea by Herb Alpert & The Tijuana Brass | aBE9EQ7gXKI |  |
 | 95 | This Guy's in Love with You | /blog/songs/this-guys-in-love-with-you-herb-alpert-and-the-tijuana-brass/ | song-story | jazz-easy-listening | live | This Guy's in Love with You | o8ByJ1C0iR4 |  |
-| 96 | Sha La La La Lee | /blog/songs/sha-la-la-la-lee-small-faces/ | song-story | british-invasion | not started | Sha La La La Lee | JsuKmqQyYR4 | yt |
+| 96 | Sha La La La Lee | /blog/songs/sha-la-la-la-lee-small-faces/ | song-story | british-invasion | live | Sha La La La Lee | JsuKmqQyYR4 | yt |
 | 97 | Jefferson Airplane bio | /blog/artists/jefferson-airplane/ | artist-bio | psychedelic-rock | not started | Jefferson Airplane | pnJM_jC7j_4 |  |
 | 98 | White Rabbit | /blog/songs/white-rabbit-jefferson-airplane/ | song-story | psychedelic-rock | not started | White Rabbit by Jefferson Airplane | pnJM_jC7j_4 |  |
 | 99 | Somebody to Love | /blog/songs/somebody-to-love-jefferson-airplane/ | song-story | psychedelic-rock | not started | Somebody to Love | a-C9pUGszsw |  |
