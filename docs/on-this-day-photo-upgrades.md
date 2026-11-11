@@ -17,11 +17,12 @@ Updated/dateModified bump. `check_article.py` enforces the image rule.
 
 Upgraded so far: September 5 (2026-11-10, The Animals 1964, public domain);
 September 6 (2026-11-10, Jimi Hendrix Experience 1968 Reprise photo, public domain,
-reused from the Hendrix bio).
+reused from the Hendrix bio);
+September 7 (2026-11-11, Aretha Franklin 1967 Atlantic trade-ad photo, CC0, reused from
+`/1960s/1967/`).
 
 | # | Page | Status |
 |---|------|--------|
-| 7 | /blog/on-this-day/september-7/ | pending |
 | 10 | /blog/on-this-day/september-10/ | pending |
 | 13 | /blog/on-this-day/september-13/ | pending |
 | 14 | /blog/on-this-day/september-14/ | pending |
