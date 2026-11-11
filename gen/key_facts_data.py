@@ -23,6 +23,14 @@ SONGS = {
         ("US peak", "No. 1, Billboard Hot 100 (one week, June 27, 1964)"),
         ("UK peak", "No. 1, Record Retailer and NME"),
     ]),
+    "sha-la-la-la-lee-small-faces": dict(year=1966, rows=[
+        ("Released", "January 28, 1966 (UK); recorded December 13, 1965"),
+        ("Label", "Decca (UK), London (US)"),
+        ("Written by", "Kenny Lynch and Mort Shuman"),
+        ("Produced by", "Kenny Lynch"),
+        ("UK peak", "No. 3, Record Retailer (March 17, 1966); No. 1, Melody Maker and Disc"),
+        ("US peak", "Did not chart on the Billboard Hot 100"),
+    ]),
     "all-day-and-all-of-the-night-kinks": dict(year=1964, rows=[
         ("Released", "October 23, 1964 (UK)"),
         ("Label", "Pye (UK), Reprise (US)"),

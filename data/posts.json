@@ -1997,6 +1997,15 @@
       "date": "2026-11-10",
       "genre": null,
       "seq": 106
+    },
+    {
+      "id": "sha-la-la-la-lee-small-faces",
+      "title": "Sha La La La Lee: The Small Faces' 1966 UK Hit",
+      "slug": "/blog/songs/sha-la-la-la-lee-small-faces/",
+      "type": "song-story",
+      "description": "Sha La La La Lee was the hit the Small Faces never wanted. How Don Arden, Kenny Lynch and Mort Shuman gave the mod band a UK No. 3 in March 1966.",
+      "date": "2026-11-11",
+      "genre": "british-invasion"
     }
   ]
 }

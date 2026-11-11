@@ -73,6 +73,7 @@ Sitemap: https://1960smusic.net/sitemap.xml
 - [The Beatles: The Liverpool Band That Changed Music Forever](https://1960smusic.net/blog/artists/the-beatles/): How four teenagers from Liverpool became the most influential band in music history, from Hamburg's clubs to the studio innovations of Revolver and Sgt. Pepper.
 
 ## Songs
+- [Sha La La La Lee: The Small Faces' 1966 UK Hit](https://1960smusic.net/blog/songs/sha-la-la-la-lee-small-faces/): Sha La La La Lee was the hit the Small Faces never wanted. How Don Arden, Kenny Lynch and Mort Shuman gave the mod band a UK No. 3 in March 1966.
 - [This Guy's in Love with You: Herb Alpert's Vocal No. 1](https://1960smusic.net/blog/songs/this-guys-in-love-with-you-herb-alpert-and-the-tijuana-brass/): This Guy's in Love with You gave Herb Alpert his first No. 1 in 1968. The Bacharach and David song, the TV special, the one-take vocal and the covers.
 - [Spanish Flea by Herb Alpert & The Tijuana Brass](https://1960smusic.net/blog/songs/spanish-flea-herb-alpert-and-the-tijuana-brass/): Spanish Flea by Herb Alpert & The Tijuana Brass: Julius Wechter's 1965 marimba-and-trumpet tune, a UK No. 3 hit and the sound of The Dating Game.
 - [A Taste of Honey: Herb Alpert's Four-Grammy Hit](https://1960smusic.net/blog/songs/a-taste-of-honey-herb-alpert-and-the-tijuana-brass/): A Taste of Honey by Herb Alpert & The Tijuana Brass hit No. 7 in 1965. The Broadway origin, the Gold Star session, the kick drum that stayed and four Grammys.
@@ -216,7 +217,6 @@ Sitemap: https://1960smusic.net/sitemap.xml
 - [On This Day: October 4 in 1960s Music](https://1960smusic.net/blog/on-this-day/october-4/): 8 verified 1960s music events from October 4: Abbey Road debuts at No. 1 in the UK, the Tornados' Telstar tops the UK chart, the Beatles debut on Ready Steady Go!, and Cream launch their farewell tour.
 - [On This Day: October 3 in 1960s Music](https://1960smusic.net/blog/on-this-day/october-3/): 12 verified 1960s music events from October 3: the Beatles begin recording Savoy Truffle, the Zombies release She's Not There in the US, Led Zeppelin open a European tour, and the Beatles' last night at the Indra Club.
 - [On This Day: October 2 in 1960s Music](https://1960smusic.net/blog/on-this-day/october-2/): 9 verified 1960s music events from October 2: Elvis Presley releases Return to Sender, Coltrane records A Love Supreme live in Seattle, the Beatles start Hello, Goodbye, and three Rolling Stones tour dates.
-- [On This Day: October 1 in 1960s Music](https://1960smusic.net/blog/on-this-day/october-1/): 15 verified 1960s music events from October 1: Abbey Road hits US shelves, Hendrix jams with Cream, Dylan debuts The Band at Carnegie Hall, and Brian Epstein signs the Beatles.
 
 ## Trending
 - [Dolly Parton's Catalog Is Surging. It Started With "Dumb Blonde"](https://1960smusic.net/blog/trending/dolly-parton-dumb-blonde/): Dolly Parton's streams are surging after her death. The real story behind Dumb Blonde, her 1967 breakthrough single, and how it led to The Porter Wagoner Show.
