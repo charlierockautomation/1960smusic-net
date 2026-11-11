@@ -2006,6 +2006,15 @@
       "description": "Sha La La La Lee was the hit the Small Faces never wanted. How Don Arden, Kenny Lynch and Mort Shuman gave the mod band a UK No. 3 in March 1966.",
       "date": "2026-11-11",
       "genre": "british-invasion"
+    },
+    {
+      "id": "jefferson-airplane",
+      "title": "Jefferson Airplane: Band History, Members and Hits",
+      "slug": "/blog/artists/jefferson-airplane/",
+      "type": "artist-bio",
+      "description": "Jefferson Airplane formed in San Francisco in 1965, added Grace Slick in 1966 and hit the Top 10 with Somebody to Love and White Rabbit in 1967.",
+      "date": "2026-11-11",
+      "genre": "psychedelic-rock"
     }
   ]
 }

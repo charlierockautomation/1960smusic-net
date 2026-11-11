@@ -568,6 +568,13 @@ ARTISTS = {
         ("Label", "4 Star (1954-1960), Decca (from 1960)"),
         ("Peak chart hits", "\"I Fall to Pieces\" (US country No. 1, Hot 100 No. 12, 1961); \"Crazy\" (US country No. 2, Hot 100 No. 9, 1961); \"She's Got You\" (US country No. 1, 1962)"),
     ]),
+    "jefferson-airplane": dict(years=[1965, 1966, 1967, 1968, 1969], rows=[
+        ("Origin", "San Francisco, California"),
+        ("Active", "1965-1973, with reunions in 1989 and 1996"),
+        ("Genre", "Psychedelic Rock"),
+        ("Label", "RCA Victor (Grunt/RCA from 1971)"),
+        ("Peak chart hits", "\"Somebody to Love\" (Hot 100 No. 5, 1967); \"White Rabbit\" (Hot 100 No. 8, 1967); Surrealistic Pillow (Billboard 200 No. 3, 1967)"),
+    ]),
     "herb-alpert-and-the-tijuana-brass": dict(years=[1962, 1965, 1966, 1968], rows=[
         ("Origin", "Los Angeles, California"),
         ("Active", "1962-1969"),
