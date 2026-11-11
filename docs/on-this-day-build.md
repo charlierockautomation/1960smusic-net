@@ -11,17 +11,16 @@ audit rules) and `docs/on-this-day-template-spec.md` (page structure).
    date to work on. Never start a new row while an earlier row is
    `in progress`, `audited`, or `drafted`, finish and confirm one live
    before starting the next. One date goes live per day, not a batch.
-2. **Workflow starting Sept 2 (changed from the Sept 1 build): Charlie
-   supplies the verified dataset for the next date directly**, instead of
-   researching it from scratch. Still run it through the Part 1/3/4 checks
-   in `docs/on-this-day-sources.md` (date verification, source audit,
-   final output) before building, since a "verified" claim still needs a
-   real Tier 1/2 citation traced and confirmed before it ships, the way
-   the Sept 1 dataset review caught real date errors (Ray Conniff, Sonny &
-   Cher, Bowie, Jethro Tull) even in a pre-vetted list. Get Charlie's
-   explicit approval on the RECOMMENDED FINAL DATASET before writing
-   anything.
-3. Build `data/on-this-day/{MM-DD}.json` from the approved dataset, per the
+2. **Workflow from 2026-11-11 (Charlie's decision): Claude Code does all
+   the research for every date**; Charlie no longer supplies a dataset.
+   Build the candidate list from scratch across all ten years, then run the
+   full Part 1-4 audit in `docs/on-this-day-sources.md` (date verification,
+   missing-event search, source audit, final output). Every kept event needs
+   a traced Tier 1/strong Tier 2 citation; anything disputed or single-day
+   unconfirmed is dropped, never smoothed over. No dataset approval step:
+   the Part 4 output (kept, dropped and why) goes in the pre-push report,
+   and Charlie reviews the finished page before push.
+3. Build `data/on-this-day/{MM-DD}.json` from the RECOMMENDED FINAL DATASET, per the
    schema in `docs/on-this-day-template-spec.md`.
 4. Build the page at `blog/on-this-day/{date-slug}/index.html` from
    `docs/on-this-day-page-template.html`, matching the CSS/markup already
@@ -73,8 +72,8 @@ entry to `posts.json` without it.
 All research, verification, and building happens directly, single-session.
 
 Status values: `not started` -> `in progress` (research/audit underway) ->
-`audited` (RECOMMENDED FINAL DATASET approved by Charlie, JSON not yet
-built) -> `drafted` (JSON and page built, not yet reviewed locally) ->
+`audited` (Part 1-4 audit done, RECOMMENDED FINAL DATASET set, JSON not
+yet built) -> `drafted` (JSON and page built, not yet reviewed locally) ->
 `live` (pushed to main and confirmed responding 200 at its live URL).
 
 Order is locked: September, October, November, December, January,
