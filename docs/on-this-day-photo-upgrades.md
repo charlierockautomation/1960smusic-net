@@ -10,9 +10,12 @@ same push it goes live. A date with no confirmable photo is marked
 Photo order: (a) a self-hosted image already on the page (or already
 self-hosted elsewhere on the site with a confirmed free licence), then
 (b) a freely licensed photo, Wikimedia Commons first, downloaded into the
-page's `img/` folder. Never hotlink. Show it on the page (with credit and
-licence in the caption), point `og:image` and the Article JSON-LD image at
-it, set the JSON `image` field, delete `og-card.png`. Plumbing only: no
+page's `img/` folder. Never hotlink. **Videos before photos (Charlie,
+2026-11-11): never remove or replace a card's video for a photo.** Show the
+photo on a card only if that card has no findable video; otherwise the photo
+is the share image only. Point `og:image` and the Article JSON-LD image at
+it, set the JSON `image` field only on a card that shows it, delete
+`og-card.png`. Pages upgraded before this rule stay as they are. Plumbing only: no
 Updated/dateModified bump. `check_article.py` enforces the image rule.
 
 Upgraded so far: September 5 (2026-11-10, The Animals 1964, public domain);
