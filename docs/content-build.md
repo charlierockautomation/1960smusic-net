@@ -110,7 +110,7 @@ Live rows (1-70) are in [`docs/content-build-archive.md`](content-build-archive.
 | 96 | Sha La La La Lee | /blog/songs/sha-la-la-la-lee-small-faces/ | song-story | british-invasion | live | Sha La La La Lee | JsuKmqQyYR4 | yt |
 | 97 | Jefferson Airplane bio | /blog/artists/jefferson-airplane/ | artist-bio | psychedelic-rock | live | Jefferson Airplane | pnJM_jC7j_4 |  |
 | 98 | White Rabbit | /blog/songs/white-rabbit-jefferson-airplane/ | song-story | psychedelic-rock | live | White Rabbit by Jefferson Airplane | pnJM_jC7j_4 |  |
-| 99 | Somebody to Love | /blog/songs/somebody-to-love-jefferson-airplane/ | song-story | psychedelic-rock | not started | Somebody to Love | a-C9pUGszsw |  |
+| 99 | Somebody to Love | /blog/songs/somebody-to-love-jefferson-airplane/ | song-story | psychedelic-rock | live | Somebody to Love | a-C9pUGszsw |  |
 | 100 | Wooden Ships | /blog/songs/wooden-ships-jefferson-airplane/ | song-story | psychedelic-rock | not started | Wooden Ships by Jefferson Airplane | ROBaoiJK0wc |  |
 | 101 | Dick Dale bio | /blog/artists/dick-dale/ | artist-bio | garage-surf-rock | not started | Dick Dale | MXB6T55oytE |  |
 | 102 | Miserlou | /blog/songs/miserlou-dick-dale/ | song-story | garage-surf-rock | not started | Miserlou by Dick Dale and His Del-Tones | MXB6T55oytE |  |
