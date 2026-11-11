@@ -149,8 +149,7 @@ successor in its header; update every affected header when content moves.
 ## On This Day Pace
 
 On This Day: at most two date pages live per calendar day (Charlie,
-2026-11-11), built one at a time. Sessions default to On This Day; other
-queues (content-build rows) only when Charlie asks. `docs/on-this-day-build.md` is the active queue for
+2026-11-11), built one at a time. More only when Charlie asks. `docs/on-this-day-build.md` is the active queue for
 this series (see its own header for the current workflow).
 
 ## Trending Posts
