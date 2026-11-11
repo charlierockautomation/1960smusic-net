@@ -13,7 +13,7 @@ dashboard promotion needed. Plain HTML/CSS, no framework, no bundler, no JS
 build step.
 
 **Current priority (Sep 29, 2026):** Phase 1 closed, all 10 tasks live.
-`docs/phase2-decade-spine.md` before new queue rows; On This Day 2/day
+`docs/phase2-decade-spine.md` before new queue rows; On This Day (max 2/day)
 continues. Why: `docs/strategy-review-2026-09.md`.
 
 ## Commands
@@ -148,8 +148,9 @@ successor in its header; update every affected header when content moves.
 
 ## On This Day Pace
 
-Two On This Day date pages live per day (Charlie, 2026-11-11), built
-one at a time, to stay ahead of the calendar. `docs/on-this-day-build.md` is the active queue for
+On This Day: at most two date pages live per calendar day (Charlie,
+2026-11-11), built one at a time. Sessions default to On This Day; other
+queues (content-build rows) only when Charlie asks. `docs/on-this-day-build.md` is the active queue for
 this series (see its own header for the current workflow).
 
 ## Trending Posts

@@ -10,8 +10,8 @@ audit rules) and `docs/on-this-day-template-spec.md` (page structure).
 1. Find the first row below with status `not started`. That is the only
    date to work on. Never start a new row while an earlier row is
    `in progress`, `audited`, or `drafted`, finish and confirm one live
-   before starting the next. Two dates go live per day (Charlie, 2026-11-11),
-   one at a time, each fully closed out before the next starts.
+   before starting the next. At most two dates go live per calendar day (Charlie,
+   2026-11-11), one at a time, each closed out before the next starts.
 2. **Workflow from 2026-11-11 (Charlie's decision): Claude Code does all
    the research for every date**; Charlie no longer supplies a dataset.
    Build the candidate list from scratch across all ten years, then run the
