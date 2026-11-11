@@ -14,7 +14,7 @@ Same columns and status values as the active file.
 | 104 | December 13 | /blog/on-this-day/december-13/ | data/on-this-day/12-13.json | live |
 | 105 | December 14 | /blog/on-this-day/december-14/ | data/on-this-day/12-14.json | live |
 | 106 | December 15 | /blog/on-this-day/december-15/ | data/on-this-day/12-15.json | live |
-| 107 | December 16 | /blog/on-this-day/december-16/ | data/on-this-day/12-16.json | drafted |
+| 107 | December 16 | /blog/on-this-day/december-16/ | data/on-this-day/12-16.json | live |
 | 108 | December 17 | /blog/on-this-day/december-17/ | data/on-this-day/12-17.json | not started |
 | 109 | December 18 | /blog/on-this-day/december-18/ | data/on-this-day/12-18.json | not started |
 | 110 | December 19 | /blog/on-this-day/december-19/ | data/on-this-day/12-19.json | not started |
