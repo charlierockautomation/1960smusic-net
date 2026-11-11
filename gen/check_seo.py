@@ -146,8 +146,13 @@ def check_otd_image(text, path, errors):
         elif s.startswith("http"):
             continue
         shown.add(BASE + (s if s.startswith("/") else folder + s))
-    if og and og not in shown and og != BASE + folder + "og-card.png":
-        errors.append(f"On This Day og:image must be an image shown on the page or {folder}og-card.png, got {og}")
+    # (c) share-only photo (Charlie, 2026-11-11, videos before photos): a
+    # licensed photo in the page's own img/ folder may be the share image
+    # without being shown on a card, so no card loses its video for it.
+    share_only = (og.startswith(BASE + folder + "img/")
+                  and os.path.isfile(os.path.join(SITE_ROOT, og[len(BASE) + 1:])))
+    if og and og not in shown and og != BASE + folder + "og-card.png" and not share_only:
+        errors.append(f"On This Day og:image must be an image shown on the page, a photo in {folder}img/, or {folder}og-card.png, got {og}")
 
 
 SOURCE_RULE_START = "2026-11-10"

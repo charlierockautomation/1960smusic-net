@@ -2015,6 +2015,16 @@
       "description": "Jefferson Airplane formed in San Francisco in 1965, added Grace Slick in 1966 and hit the Top 10 with Somebody to Love and White Rabbit in 1967.",
       "date": "2026-11-11",
       "genre": "psychedelic-rock"
+    },
+    {
+      "id": "on-this-day-december-17",
+      "title": "On This Day: December 17 in 1960s Music",
+      "slug": "/blog/on-this-day/december-17/",
+      "type": "on-this-day",
+      "description": "13 verified 1960s music events from December 17: Tiny Tim's Tonight Show wedding, The Who's last Marquee show and I Feel Fine at No. 1 in the UK.",
+      "date": "2026-11-11",
+      "genre": null,
+      "seq": 108
     }
   ]
 }
