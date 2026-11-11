@@ -2034,6 +2034,15 @@
       "description": "White Rabbit by Jefferson Airplane: Grace Slick wrote it on a $50 piano from Alice in Wonderland, and it hit No. 8 in 1967. The full story.",
       "date": "2026-11-11",
       "genre": "psychedelic-rock"
+    },
+    {
+      "id": "somebody-to-love-jefferson-airplane",
+      "title": "Somebody to Love: Jefferson Airplane's First Hit, 1967",
+      "slug": "/blog/songs/somebody-to-love-jefferson-airplane/",
+      "type": "song-story",
+      "description": "Somebody to Love was Darby Slick's song for the Great Society before Jefferson Airplane took it to No. 5 in 1967. How the band's first hit was made.",
+      "date": "2026-11-11",
+      "genre": "psychedelic-rock"
     }
   ]
 }

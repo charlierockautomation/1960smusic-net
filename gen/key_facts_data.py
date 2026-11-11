@@ -402,6 +402,13 @@ SONGS = {
         ("US peak", "No. 1, Billboard Hot 100"),
         ("UK peak", "No. 1"),
     ]),
+    "somebody-to-love-jefferson-airplane": dict(year=1967, rows=[
+        ("Released", "February 1967 (single, backed with She Has Funny Cars); February 1, 1967 on Surrealistic Pillow; recorded November 3, 1966"),
+        ("Label", "RCA Victor"),
+        ("Written by", "Darby Slick"),
+        ("Produced by", "Rick Jarrard"),
+        ("US peak", "No. 5, Billboard Hot 100; No. 5, Cash Box"),
+    ]),
     "white-rabbit-jefferson-airplane": dict(year=1967, rows=[
         ("Released", "June 1967 (single); February 1, 1967 on Surrealistic Pillow; recorded November 3, 1966"),
         ("Label", "RCA Victor"),
