@@ -38,6 +38,8 @@ linter, or JS build.
 Every embed must be visible, unobscured, and at least 200x200px visible
 (YouTube's requirement; 480x270 is only its 16:9 recommendation); never a
 hidden/background player.
+Sizing lives in `styles.css` (`.youtube-embed`, `.otd-embed`): `aspect-ratio:
+16/9` with `min-height`/`min-width: 200px`; never inline padding-bottom hacks.
 `check_article.py` checks that song/artist pages carry an embed; the
 visibility and size rules above are a manual check for every type.
 
