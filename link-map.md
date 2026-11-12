@@ -15,7 +15,6 @@ from the site).
 
 | Page | Type | Status | Live URL | Links up to | Links across to |
 |------|------|--------|----------|-------------|------------------|
-| /blog/songs/im-henry-the-viii-i-am-hermans-hermits/ | song story | live | https://1960smusic.net/blog/songs/im-henry-the-viii-i-am-hermans-hermits/ | /blog/artists/hermans-hermits/, /blog/genres/british-invasion/, / (homepage) | /blog/songs/mrs-brown-youve-got-a-lovely-daughter-hermans-hermits/, /blog/artists/the-rolling-stones/ |
 | /blog/artists/the-searchers/ | artist bio | live | https://1960smusic.net/blog/artists/the-searchers/ | /blog/genres/british-invasion/, / (homepage) | /blog/artists/the-dave-clark-five/, /blog/artists/hermans-hermits/ |
 | /blog/songs/needles-and-pins-searchers/ | song story | live | https://1960smusic.net/blog/songs/needles-and-pins-searchers/ | /blog/artists/the-searchers/, /blog/genres/british-invasion/, / (homepage) | /blog/artists/hermans-hermits/, /blog/artists/the-dave-clark-five/ |
 | /blog/songs/do-wah-diddy-diddy-manfred-mann/ | song story | live | https://1960smusic.net/blog/songs/do-wah-diddy-diddy-manfred-mann/ | /blog/genres/british-invasion/, / (homepage) | /blog/artists/hermans-hermits/, /blog/artists/the-searchers/, /blog/artists/the-dave-clark-five/ |
@@ -185,6 +184,7 @@ from the site).
 | /blog/on-this-day/december-17/ | on this day | live | https://1960smusic.net/blog/on-this-day/december-17/ | /blog/on-this-day/, / (homepage) | /blog/artists/the-who/, /blog/artists/the-beatles/, /blog/artists/the-monkees/, /blog/artists/the-beach-boys/, /blog/artists/the-supremes/, /blog/songs/good-vibrations-beach-boys/, /blog/songs/she-loves-you-beatles/, /1960s/1960/, /1960s/1961/, /1960s/1962/, /1960s/1963/, /1960s/1964/, /1960s/1965/, /1960s/1966/, /1960s/1968/, /1960s/1969/, /blog/on-this-day/december-16/, /blog/on-this-day/december-15/, /best-60s-songs/ |
 | /blog/songs/white-rabbit-jefferson-airplane/ | song story | live | https://1960smusic.net/blog/songs/white-rabbit-jefferson-airplane/ | /blog/artists/jefferson-airplane/, /blog/genres/psychedelic-rock/, / (homepage) | /1960s/1967/, /best-60s-songs/; inbound from Jefferson Airplane bio (section + singles row) and /best-60s-songs/ |
 | /blog/songs/somebody-to-love-jefferson-airplane/ | song story | live | https://1960smusic.net/blog/songs/somebody-to-love-jefferson-airplane/ | /blog/artists/jefferson-airplane/, /blog/genres/psychedelic-rock/, / (homepage) | /blog/songs/white-rabbit-jefferson-airplane/, /1960s/1967/, /best-60s-songs/; inbound from Jefferson Airplane bio (section + singles row), White Rabbit story, /best-60s-songs/ |
+| /blog/songs/wooden-ships-jefferson-airplane/ | song story | live | https://1960smusic.net/blog/songs/wooden-ships-jefferson-airplane/ | /blog/artists/jefferson-airplane/, /blog/genres/psychedelic-rock/, / (homepage) | /1960s/1969/, /tools/radio/; inbound from Jefferson Airplane bio (Volunteers paragraph) |
 
 2026-10-29: renamed the Herman's Hermits artist page and both song pages to the single-n spelling (hermans-hermits); old double-n URLs 301 via `_redirects`.
 
