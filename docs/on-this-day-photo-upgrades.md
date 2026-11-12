@@ -27,10 +27,11 @@ September 10 (2026-11-11, The Beatles 1963 Dezo Hoffmann/Capitol publicity photo
 domain in the US, reused from October 3);
 September 13 (2026-11-11, John Lennon and Yoko Ono 1969 bed-in photo, CC0, reused from
 December 15; share image only, every card keeps its video).
+September 14 (2026-11-12, Jimi Hendrix Experience 1968 Reprise photo, public
+domain, reused from September 6; share image only, every card keeps its video).
 
 | # | Page | Status |
 |---|------|--------|
-| 14 | /blog/on-this-day/september-14/ | pending |
 | 15 | /blog/on-this-day/september-15/ | pending |
 | 16 | /blog/on-this-day/september-16/ | pending |
 | 20 | /blog/on-this-day/september-20/ | pending |
