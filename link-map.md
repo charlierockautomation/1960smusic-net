@@ -15,7 +15,6 @@ from the site).
 
 | Page | Type | Status | Live URL | Links up to | Links across to |
 |------|------|--------|----------|-------------|------------------|
-| /blog/artists/the-searchers/ | artist bio | live | https://1960smusic.net/blog/artists/the-searchers/ | /blog/genres/british-invasion/, / (homepage) | /blog/artists/the-dave-clark-five/, /blog/artists/hermans-hermits/ |
 | /blog/songs/needles-and-pins-searchers/ | song story | live | https://1960smusic.net/blog/songs/needles-and-pins-searchers/ | /blog/artists/the-searchers/, /blog/genres/british-invasion/, / (homepage) | /blog/artists/hermans-hermits/, /blog/artists/the-dave-clark-five/ |
 | /blog/songs/do-wah-diddy-diddy-manfred-mann/ | song story | live | https://1960smusic.net/blog/songs/do-wah-diddy-diddy-manfred-mann/ | /blog/genres/british-invasion/, / (homepage) | /blog/artists/hermans-hermits/, /blog/artists/the-searchers/, /blog/artists/the-dave-clark-five/ |
 | /blog/artists/the-doors/ | artist bio | live | https://1960smusic.net/blog/artists/the-doors/ | /blog/genres/psychedelic-rock/, / (homepage) | /blog/artists/the-who/, /blog/genres/british-invasion/ |
@@ -185,6 +184,7 @@ from the site).
 | /blog/songs/white-rabbit-jefferson-airplane/ | song story | live | https://1960smusic.net/blog/songs/white-rabbit-jefferson-airplane/ | /blog/artists/jefferson-airplane/, /blog/genres/psychedelic-rock/, / (homepage) | /1960s/1967/, /best-60s-songs/; inbound from Jefferson Airplane bio (section + singles row) and /best-60s-songs/ |
 | /blog/songs/somebody-to-love-jefferson-airplane/ | song story | live | https://1960smusic.net/blog/songs/somebody-to-love-jefferson-airplane/ | /blog/artists/jefferson-airplane/, /blog/genres/psychedelic-rock/, / (homepage) | /blog/songs/white-rabbit-jefferson-airplane/, /1960s/1967/, /best-60s-songs/; inbound from Jefferson Airplane bio (section + singles row), White Rabbit story, /best-60s-songs/ |
 | /blog/songs/wooden-ships-jefferson-airplane/ | song story | live | https://1960smusic.net/blog/songs/wooden-ships-jefferson-airplane/ | /blog/artists/jefferson-airplane/, /blog/genres/psychedelic-rock/, / (homepage) | /1960s/1969/, /tools/radio/; inbound from Jefferson Airplane bio (Volunteers paragraph) |
+| /blog/on-this-day/december-18/ | on this day | live | https://1960smusic.net/blog/on-this-day/december-18/ | /blog/on-this-day/, / (homepage) | /blog/artists/the-beatles/, /blog/artists/the-beach-boys/, /blog/artists/herb-alpert-and-the-tijuana-brass/, /blog/songs/a-taste-of-honey-herb-alpert-and-the-tijuana-brass/, /blog/songs/i-want-to-hold-your-hand-beatles/, /blog/songs/please-please-me-beatles/, /1960s/1961/ through /1960s/1965/, /1960s/1967/ through /1960s/1969/, /blog/on-this-day/december-17/, /blog/on-this-day/december-16/, /best-60s-songs/ |
 
 2026-10-29: renamed the Herman's Hermits artist page and both song pages to the single-n spelling (hermans-hermits); old double-n URLs 301 via `_redirects`.
 
