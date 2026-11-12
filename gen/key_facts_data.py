@@ -409,6 +409,13 @@ SONGS = {
         ("Produced by", "Rick Jarrard"),
         ("US peak", "No. 5, Billboard Hot 100; No. 5, Cash Box"),
     ]),
+    "wooden-ships-jefferson-airplane": dict(year=1969, rows=[
+        ("Released", "November 1969 (on the album Volunteers); recorded April 14 and 22, 1969"),
+        ("Label", "RCA Victor"),
+        ("Written by", "David Crosby (music); Paul Kantner and Stephen Stills (lyrics)"),
+        ("Produced by", "Al Schmitt"),
+        ("US album peak", "No. 13, Billboard 200 (Volunteers)"),
+    ]),
     "white-rabbit-jefferson-airplane": dict(year=1967, rows=[
         ("Released", "June 1967 (single); February 1, 1967 on Surrealistic Pillow; recorded November 3, 1966"),
         ("Label", "RCA Victor"),
@@ -910,6 +917,7 @@ SONG_ALBUMS = {
     "this-guys-in-love-with-you-herb-alpert-and-the-tijuana-brass": "The Beat of the Brass",
     "walk-like-a-man-four-seasons": "Big Girls Don't Cry and Twelve Others",
     "where-did-our-love-go-supremes": "Where Did Our Love Go",
+    "wooden-ships-jefferson-airplane": "Volunteers",
 }
 
 # CREDIT_OVERRIDES: names for "Written by" / "Produced by" values the generic
@@ -923,4 +931,5 @@ CREDIT_OVERRIDES = {
     "scarborough-fair-canticle-simon-and-garfunkel": dict(writers=["Paul Simon"]),
     "strangers-in-the-night-frank-sinatra": dict(writers=["Bert Kaempfert"], lyricists=["Charles Singleton", "Eddie Snyder"]),
     "my-way-frank-sinatra": dict(writers=["Jacques Revaux", "Gilles Thibaut", "Claude François"], lyricists=["Paul Anka"]),
+    "wooden-ships-jefferson-airplane": dict(writers=["David Crosby"], lyricists=["Paul Kantner", "Stephen Stills"]),
 }

@@ -2043,6 +2043,15 @@
       "description": "Somebody to Love was Darby Slick's song for the Great Society before Jefferson Airplane took it to No. 5 in 1967. How the band's first hit was made.",
       "date": "2026-11-11",
       "genre": "psychedelic-rock"
+    },
+    {
+      "id": "wooden-ships-jefferson-airplane",
+      "title": "Wooden Ships by Jefferson Airplane: The 1969 Story",
+      "slug": "/blog/songs/wooden-ships-jefferson-airplane/",
+      "type": "song-story",
+      "description": "Wooden Ships by Jefferson Airplane began on David Crosby's boat in 1968. How Kantner, Crosby and Stills wrote it, and how the Airplane recut it in 1969.",
+      "date": "2026-11-11",
+      "genre": "psychedelic-rock"
     }
   ]
 }
