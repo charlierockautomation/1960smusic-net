@@ -29,10 +29,11 @@ September 13 (2026-11-11, John Lennon and Yoko Ono 1969 bed-in photo, CC0, reuse
 December 15; share image only, every card keeps its video).
 September 14 (2026-11-12, Jimi Hendrix Experience 1968 Reprise photo, public
 domain, reused from September 6; share image only, every card keeps its video).
+September 15 (2026-11-12, The Doors 1968 Joel Brodsky publicity photo, public domain,
+reused from the Doors bio; share image only, every card keeps its video).
 
 | # | Page | Status |
 |---|------|--------|
-| 15 | /blog/on-this-day/september-15/ | pending |
 | 16 | /blog/on-this-day/september-16/ | pending |
 | 20 | /blog/on-this-day/september-20/ | pending |
 | 21 | /blog/on-this-day/september-21/ | pending |
