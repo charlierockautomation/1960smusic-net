@@ -2017,6 +2017,15 @@
       "genre": "psychedelic-rock"
     },
     {
+      "id": "dick-dale",
+      "title": "Dick Dale: King of the Surf Guitar, Life and Hits",
+      "slug": "/blog/artists/dick-dale/",
+      "type": "artist-bio",
+      "description": "Dick Dale invented the surf guitar sound with Let's Go Trippin' in 1961 and Miserlou in 1962. His life, his Fender gear, his hits and his legacy.",
+      "date": "2026-11-12",
+      "genre": "garage-surf-rock"
+    },
+    {
       "id": "on-this-day-december-17",
       "title": "On This Day: December 17 in 1960s Music",
       "slug": "/blog/on-this-day/december-17/",

@@ -589,6 +589,13 @@ ARTISTS = {
         ("Label", "4 Star (1954-1960), Decca (from 1960)"),
         ("Peak chart hits", "\"I Fall to Pieces\" (US country No. 1, Hot 100 No. 12, 1961); \"Crazy\" (US country No. 2, Hot 100 No. 9, 1961); \"She's Got You\" (US country No. 1, 1962)"),
     ]),
+    "dick-dale": dict(years=[1961, 1962, 1963, 1964], rows=[
+        ("Origin", "Boston, Massachusetts (raised in Quincy; moved to El Segundo, California, in 1954)"),
+        ("Born", "Richard Anthony Monsour, May 4, 1937; died March 16, 2019"),
+        ("Genre", "Garage & Surf Rock"),
+        ("Label", "Deltone, then Capitol"),
+        ("Peak chart hits", "\"Let's Go Trippin'\" (Hot 100 No. 60, 1961); \"The Scavenger\" (Hot 100 No. 98, 1963); Surfers' Choice (Billboard albums No. 59, 1963)"),
+    ]),
     "jefferson-airplane": dict(years=[1965, 1966, 1967, 1968, 1969], rows=[
         ("Origin", "San Francisco, California"),
         ("Active", "1965-1973, with reunions in 1989 and 1996"),
@@ -757,6 +764,10 @@ ARTISTS = {
 # Herb Alpert & The Tijuana Brass: Wikipedia redirects to the Herb Alpert
 # person article (Q344822), not the group, so only MusicBrainz is kept.
 SAME_AS = {
+    "dick-dale": [
+        "https://en.wikipedia.org/wiki/Dick_Dale",
+        "https://www.wikidata.org/wiki/Q346785",
+    ],
     "bob-dylan": [
         "https://en.wikipedia.org/wiki/Bob_Dylan",
         "https://www.wikidata.org/wiki/Q392",
