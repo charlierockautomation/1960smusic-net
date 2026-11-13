@@ -75,6 +75,7 @@ Sitemap: https://1960smusic.net/sitemap.xml
 - [The Beatles: The Liverpool Band That Changed Music Forever](https://1960smusic.net/blog/artists/the-beatles/): How four teenagers from Liverpool became the most influential band in music history, from Hamburg's clubs to the studio innovations of Revolver and Sgt. Pepper.
 
 ## Songs
+- [Miserlou by Dick Dale and His Del-Tones: 1962 Story](https://1960smusic.net/blog/songs/miserlou-dick-dale/): Miserlou by Dick Dale and His Del-Tones turned a 1920s folk song into the surf rock anthem of 1962. How it was made, who covered it, and Pulp Fiction.
 - [Sha La La La Lee: The Small Faces' 1966 UK Hit](https://1960smusic.net/blog/songs/sha-la-la-la-lee-small-faces/): Sha La La La Lee was the hit the Small Faces never wanted. How Don Arden, Kenny Lynch and Mort Shuman gave the mod band a UK No. 3 in March 1966.
 - [White Rabbit by Jefferson Airplane: How Grace Slick Wrote It](https://1960smusic.net/blog/songs/white-rabbit-jefferson-airplane/): White Rabbit by Jefferson Airplane: Grace Slick wrote it on a $50 piano from Alice in Wonderland, and it hit No. 8 in 1967. The full story.
 - [Somebody to Love: Jefferson Airplane's First Hit, 1967](https://1960smusic.net/blog/songs/somebody-to-love-jefferson-airplane/): Somebody to Love was Darby Slick's song for the Great Society before Jefferson Airplane took it to No. 5 in 1967. How the band's first hit was made.
@@ -216,7 +217,6 @@ Sitemap: https://1960smusic.net/sitemap.xml
 - [On This Day: October 14 in 1960s Music](https://1960smusic.net/blog/on-this-day/october-14/): 8 verified 1960s music events from October 14: Tammi Terrell collapses into Marvin Gaye's arms, John F. Kennedy floats the Peace Corps, and the Easybeats release Friday on My Mind.
 - [On This Day: October 11 in 1960s Music](https://1960smusic.net/blog/on-this-day/october-11/): 12 verified 1960s music events from October 11: the Jimi Hendrix Experience play Winterland, Roy Orbison performs Oh, Pretty Woman on Ed Sullivan, and the Rolling Stones play Derby's Gaumont.
 - [On This Day: October 12 in 1960s Music](https://1960smusic.net/blog/on-this-day/october-12/): 14 verified 1960s music events from October 12: the 'Paul is dead' rumor ignites on Detroit radio, the Beatles open Rubber Soul with Run for Your Life, and Jimmy Gilmer & the Fireballs hit No. 1 with Sugar Shack.
-- [On This Day: October 9 in 1960s Music](https://1960smusic.net/blog/on-this-day/october-9/): 11 verified 1960s music events from October 9: the Beatles' Yesterday hits No. 1, Ray Charles tops the chart with Hit the Road Jack, and the Jimi Hendrix Experience play the Olympia in Paris.
 
 ## Trending
 - [Dolly Parton's Catalog Is Surging. It Started With "Dumb Blonde"](https://1960smusic.net/blog/trending/dolly-parton-dumb-blonde/): Dolly Parton's streams are surging after her death. The real story behind Dumb Blonde, her 1967 breakthrough single, and how it led to The Porter Wagoner Show.

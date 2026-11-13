@@ -409,6 +409,13 @@ SONGS = {
         ("Produced by", "Rick Jarrard"),
         ("US peak", "No. 5, Billboard Hot 100; No. 5, Cash Box"),
     ]),
+    "miserlou-dick-dale": dict(year=1962, rows=[
+        ("Released", "April 21, 1962 (single); B-side \"Eight Till Midnight\""),
+        ("Label", "Deltone"),
+        ("Written by", "Traditional; credited to Nicholas Roubanis, Fred Wise, Milton Leeds and Chaim Tauber"),
+        ("Produced by", "Jim Monsour"),
+        ("US peak", "Did not chart on the Billboard Hot 100"),
+    ]),
     "wooden-ships-jefferson-airplane": dict(year=1969, rows=[
         ("Released", "November 1969 (on the album Volunteers); recorded April 14 and 22, 1969"),
         ("Label", "RCA Victor"),
@@ -942,5 +949,6 @@ CREDIT_OVERRIDES = {
     "scarborough-fair-canticle-simon-and-garfunkel": dict(writers=["Paul Simon"]),
     "strangers-in-the-night-frank-sinatra": dict(writers=["Bert Kaempfert"], lyricists=["Charles Singleton", "Eddie Snyder"]),
     "my-way-frank-sinatra": dict(writers=["Jacques Revaux", "Gilles Thibaut", "Claude François"], lyricists=["Paul Anka"]),
+    "miserlou-dick-dale": dict(writers=["Nicholas Roubanis", "Fred Wise", "Milton Leeds", "Chaim Tauber"]),
     "wooden-ships-jefferson-airplane": dict(writers=["David Crosby"], lyricists=["Paul Kantner", "Stephen Stills"]),
 }

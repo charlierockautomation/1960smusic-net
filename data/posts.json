@@ -2081,6 +2081,15 @@
       "description": "Wooden Ships by Jefferson Airplane began on David Crosby's boat in 1968. How Kantner, Crosby and Stills wrote it, and how the Airplane recut it in 1969.",
       "date": "2026-11-11",
       "genre": "psychedelic-rock"
+    },
+    {
+      "id": "miserlou-dick-dale",
+      "title": "Miserlou by Dick Dale and His Del-Tones: 1962 Story",
+      "slug": "/blog/songs/miserlou-dick-dale/",
+      "type": "song-story",
+      "description": "Miserlou by Dick Dale and His Del-Tones turned a 1920s folk song into the surf rock anthem of 1962. How it was made, who covered it, and Pulp Fiction.",
+      "date": "2026-11-12",
+      "genre": "garage-surf-rock"
     }
   ]
 }
