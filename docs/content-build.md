@@ -113,7 +113,7 @@ Live rows (1-70) are in [`docs/content-build-archive.md`](content-build-archive.
 | 99 | Somebody to Love | /blog/songs/somebody-to-love-jefferson-airplane/ | song-story | psychedelic-rock | live | Somebody to Love | a-C9pUGszsw |  |
 | 100 | Wooden Ships | /blog/songs/wooden-ships-jefferson-airplane/ | song-story | psychedelic-rock | live | Wooden Ships by Jefferson Airplane | ROBaoiJK0wc |  |
 | 101 | Dick Dale bio | /blog/artists/dick-dale/ | artist-bio | garage-surf-rock | live | Dick Dale | MXB6T55oytE |  |
-| 102 | Miserlou | /blog/songs/miserlou-dick-dale/ | song-story | garage-surf-rock | not started | Miserlou by Dick Dale and His Del-Tones | MXB6T55oytE |  |
+| 102 | Miserlou | /blog/songs/miserlou-dick-dale/ | song-story | garage-surf-rock | live | Miserlou by Dick Dale and His Del-Tones | MXB6T55oytE |  |
 | 103 | The Byrds bio | /blog/artists/the-byrds/ | artist-bio | folk-rock | not started | The Byrds | NxyOhFBoxSY |  |
 | 104 | Mr. Tambourine Man | /blog/songs/mr-tambourine-man-byrds/ | song-story | folk-rock | not started | Mr. Tambourine Man | Swqw5a8I4b4 |  |
 | 105 | Turn! Turn! Turn! | /blog/songs/turn-turn-turn-byrds/ | song-story | folk-rock | not started | Turn! Turn! Turn! | xVOJla2vYx8 |  |
