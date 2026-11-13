@@ -1,7 +1,6 @@
 # CLAUDE.md
-# Read this file at the start of EVERY session. This is the current rule only —
-# full detail lives in /docs/. Pull a doc in with @ only when the task actually
-# needs it; none of /docs/ auto-loads.
+# Read at the start of EVERY session. Only the `@`-imported docs auto-load;
+# every other doc is read on demand via its pointer (see Context Budget).
 
 ## What this is
 
@@ -21,16 +20,14 @@ must never go in the deploy output folder.** Keep them as `.md` at the root or
 in `docs/`/`gen/`; never as a web file type inside a public folder, and never
 hand-place anything in `dist/` (it is rebuilt and git-ignored).
 
-**Current priority (Sep 29, 2026):** Phase 1 closed, all 10 tasks live.
-`docs/phase2-decade-spine.md` before new queue rows; On This Day (max 2/day)
-continues. Why: `docs/strategy-review-2026-09.md`.
+**Current priority:** Phases 1-2 closed (all tasks live, Gate 2 met
+2026-10-11); Phase 3 queue work + On This Day (max 2/day). Why: see below.
 
 ## Commands
 
 Regenerate data: `cd gen && python3 generate.py`. YouTube QA: `cd gen &&
 python3 augment.py`. Preview: `python3 scripts/build_dist.py && python3 -m
-http.server 8000 -d dist`. No test suite,
-linter, or JS build.
+http.server 8000 -d dist`. No test suite, linter, or JS build.
 
 ## Data Rules
 
@@ -40,8 +37,7 @@ linter, or JS build.
 - `song.artist_id` does not always resolve in `artists.json` — look it up
   defensively, or just use `song.artist_name` for display. Don't assume every
   song has a matching bio.
-- Full data flow (gen/ → data/*.json → pages), the artists-vs-song-performers
-  relationship, and page-template conventions: @docs/architecture.md
+- Data flow, artists vs. song performers, page conventions: @docs/architecture.md
 
 ## YouTube Embed Rule — ABSOLUTE
 
@@ -133,19 +129,11 @@ below), keep trackers (`link-map.md`, `docs/content-build.md`,
 leave a page orphaned (unlinked from any hub or bio) once something it
 should link to exists.
 
-Artist bios with a singles table use the playable, sortable table
-component (reuses the year-page player): @docs/singles-table.md
+Artist-bio singles tables use the playable, sortable component: @docs/singles-table.md
 
 ## Genre Hub Linking
 
-Live-hub list, linking rules, and "add a new hub to the list in the same commit":
-@docs/genre-hub-linking.md
-
-## Content Rotation
-
-New `docs/content-build.md` rows round-robin across the 8 genres in
-`data/genres.json`; never stack many rows of one genre. Applies to future
-rows only, not rows already locked into the active queue.
+Live hubs + linking rules (add a new hub the same commit): @docs/genre-hub-linking.md
 
 ## File Size Ceiling
 
@@ -169,7 +157,8 @@ pipeline as above, plus a live TikTok embed, a real-photo feature image
 (never AI-generated), 400-700 words, and at least one `/1960s/<year>/`
 link. Full rules: @docs/trending-posts.md. Weekly cloud routine (Mondays
 14:00 UTC) drafts a branch; Charlie approves before merge; no rotation queue.
-Data pages (`/data/<slug>/`, type `data-page`, one a month, "our dataset" framing): @docs/phase3-data-page-spec.md
+Data pages (`/data/<slug>/`, one a month, "our dataset"): read
+`docs/phase3-data-page-spec.md` before building one (spec rule, keyword method).
 
 ## No Subagents, Site-Wide
 
@@ -192,6 +181,15 @@ Never end with "say go" or ask approval before starting a queue row: when
 the next row is clear, start it. Charlie reviews the finished page (the
 pre-push checkpoint), not the decision to begin.
 
----
-Reference docs (loaded only when the task needs them):
-@docs/phase2-decade-spine.md · @docs/phase1-foundations.md · @docs/strategy-review-2026-09.md · @docs/trending-posts.md · @docs/architecture.md · @docs/content-build.md · @docs/writing-standard.md · @link-map.md
+## Context Budget
+
+Never `@`-import large data files (link maps, datasets, logs). Keep the
+auto-loaded instruction total under 100k chars; if a file grows past ~10k,
+split reference material into an on-demand file. Auto-loaded: the inline
+docs above plus @docs/content-build.md · @docs/writing-standard.md
+Read on demand only (never import):
+- Before adding or editing internal links, read `link-map.md` (do not import
+  it); post-push, add the page's row there (step 6).
+- `docs/strategy-review-2026-09.md`: why/roadmap/baselines, full GEO rules.
+- `docs/phase1-foundations.md`, `docs/phase2-decade-spine.md`: closed-phase
+  history; read Phase 2 before editing a year page or the `/1960s/` hub.

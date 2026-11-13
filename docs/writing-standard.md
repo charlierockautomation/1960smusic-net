@@ -1,10 +1,12 @@
 # Writing Standard
 
-Single source of truth for how every article on this site is written.
+Single source of truth for how every article is written.
 `docs/article-template.html` implements the structure; `gen/check_article.py`
-enforces everything below that can be checked mechanically. Adopted
-2026-08-16, revised same day, supersedes anything about article writing
-said in chat before the most recent revision.
+enforces what can be checked mechanically. Supersedes earlier chat guidance.
+Trending-only rules: `docs/trending-posts.md`. GEO/AI-citation rules
+(answer the title's question in the first 60 words, question-style H2s where
+natural, full entity names first, inline sources, FAQ from real
+People-also-ask): full list in `docs/strategy-review-2026-09.md`.
 
 ## Keyword density
 
@@ -57,56 +59,32 @@ said in chat before the most recent revision.
 
 ## Content completeness (mandatory pre-writing step)
 
-Before drafting any article, research what's currently ranking. This is
-not optional and not a nice-to-have, it happens before a single word of
-the draft gets written:
+Before drafting a single word (once per article, never as a retrofit):
 
-- Search the focus keyword and identify the top 3 currently-ranking
-  pages on Google for it.
-- Read all 3. Note every true, verifiable fact, angle, and subtopic
-  they cover: dates, names, numbers, anecdotes, context.
-- The new article must cover everything relevant that those 3 cover, no
-  content gaps against the competition. If a true, findable fact exists
-  and is relevant, it goes in the article. Leaving out a real fact
-  because the article "felt long enough" is not acceptable.
-- The target is not "as good as" the top 3, it's better than all of
-  them: more complete, more accurate, better written, more engaging to
-  actually read. That's the bar for every article, not just the
-  ambitious ones.
-- "Better written" means real flow and voice (see the "top expert"
-  rule above), not just more facts crammed in. Write for the person
-  reading it, a music fan who wants the real story, not for a search
-  engine. Remember who that reader is while writing every section.
-- This research happens once per article, before drafting, not as a
-  retrofit after check_article.py passes. Facts found during this step
-  still go through the no-hallucination rule below: verified only.
+- Search the focus keyword and read the top 3 currently-ranking Google pages.
+- Note every true, verifiable fact, angle and subtopic they cover: dates,
+  names, numbers, anecdotes, context.
+- Cover everything relevant they cover, no gaps; never leave out a real,
+  relevant fact because the article "felt long enough".
+- Beat all three: more complete, more accurate, better written. Better
+  written means real flow and voice for a music fan who wants the real
+  story, not more facts crammed in or writing for a search engine.
+- Facts found here still go through the no-hallucination rule: verified only.
 
-## Title, dates, Key Facts, year links (all types, 2026-10-08)
+## Title, Key Facts, year links (beyond CLAUDE.md pipeline step 4)
 
-- Title tag: 60 characters or fewer in total; add " | 1960smusic.net" only
-  if it fits. Focus keyword still required in it.
-- Byline always shows "Published" and "Updated" dates; Updated equals the
-  Article JSON-LD `dateModified`. A new page has both the same. Bump
-  Updated (and dateModified) only after a substantive content edit (facts,
-  prose, new sections). Link, image, markup or SEO-plumbing changes never bump it.
-- Song stories and artist bios carry a Key Facts box straight after the
-  intro, before the featured image. Song rows: Released, Label, Written by,
-  Produced by, US/UK peak. Artist rows: Origin, Genre, Label, Peak chart
-  hits. Source values in `gen/key_facts_data.py`, verified (no guesses,
-  omit unconfirmed), then run `gen/build_key_facts.py --write`. The box is
-  excluded from word count and density.
-- Song pages link the matching `/1960s/<year>/` page, and
-  `/best-60s-songs/` when the song is on that list; artist pages link the
-  year pages of their key years.
-- Year-page links on every other type (check_article.py enforces): On This
-  Day links `/1960s/<year>/` inside each year section; trending posts link at
-  least one relevant year page, woven into a sentence that names that year;
-  genre hubs link every key year listed for them in
-  `gen/genre_peak_years.py` (edit that file if a hub's story shifts).
-- Every article type and On This Day page carries `og:image` and an Article
-  JSON-LD `image`: absolute `https://1960smusic.net/...` URLs to a file that
-  exists in the repo (self-hosted, never hotlinked). Song/artist Key Facts
-  data goes in `gen/key_facts_data.py` BEFORE the page is written.
+- Title tag ≤60 chars total; add " | 1960smusic.net" only if it fits.
+  Byline always shows Published and Updated (same on a new page; Updated =
+  `dateModified`). When to bump Updated: CLAUDE.md "Updated Dates".
+- Key Facts box (song/artist) sits straight after the intro, before the
+  featured image. Song rows: Released, Label, Written by, Produced by, US/UK
+  peak. Artist rows: Origin, Genre, Label, Peak chart hits. Values from
+  `gen/key_facts_data.py` (verified, omit unconfirmed), then
+  `gen/build_key_facts.py --write`. Box excluded from word count and density.
+- Trending posts weave their year-page link into a sentence naming that
+  year. Genre hubs link every key year in `gen/genre_peak_years.py` (edit
+  that file if a hub's story shifts).
+- `og:image` and JSON-LD `image`: self-hosted, never hotlinked.
 
 ## Structure
 
@@ -130,57 +108,6 @@ the draft gets written:
 - Meta description 120-160 characters, focus keyword included (enforced).
 - No hallucination: an unverifiable date, quote, or stat gets left out
   of the article, not guessed at or smoothed over.
-
-## Trending posts (additional structure)
-
-Applies to `/blog/trending/` on top of everything above. Word count
-target: 400-700 words (`gen/check_article.py` enforces this range for
-the `trending` type).
-
-- Fixed order is the same as the base Structure section, with the
-  YouTube-embed slot replaced: H1, intro/lead, featured image, Table
-  of Contents, then the body sections, one of which is a "why it's
-  trending now" module placed wherever it's contextually relevant
-  (not forced right after the TOC).
-- The "why it's trending now" module explains the actual resurgence
-  (a TikTok clip, a sync placement, a streaming spike) and embeds it
-  live where possible. For a TikTok source, use TikTok's own oEmbed
-  markup: the `blockquote class="tiktok-embed"` with
-  `data-video-id`, plus `<script async src="https://www.tiktok.com/embed.js">`.
-  Confirm the embed actually renders (screenshot a local preview,
-  don't assume from the markup alone) before calling the page done.
-- Exception: if the news peg genuinely has no TikTok source (verified by
-  search, not assumed), use YouTube embed(s) for the "why it's trending
-  now" module instead, and mark the page
-  `<!-- TIKTOK-EXEMPT: <one-line reason> -->` near the top of the file so
-  `gen/check_article.py` doesn't fail it on the missing-TikTok check.
-  This is a real exception, not a shortcut: search for a TikTok source
-  first, every time, and only fall back to it when none exists.
-- If the source clip is tagged as containing AI-generated media (a
-  stylized image, not archival footage), say so briefly and
-  factually in the trending module. State it as fact, not as a
-  disclaimer that undercuts the post, one or two sentences is enough.
-- Feature image is a real photo, never AI-generated, regardless of
-  what the viral source clip itself uses. Sourcing order: a
-  freely-licensed photo of the artist/band (Wikimedia Commons first)
-  > editorial-context single/album cover art (same convention
-  `docs/on-this-day-sources.md` already uses for release-type events)
-  > non-person, period-appropriate stock imagery. Note which tier was
-  used.
-- Schema: Article + FAQPage + BreadcrumbList always; add
-  MusicRecording (song-focused) or MusicGroup (artist-focused)
-  depending on the post's subject, matching the base Structure
-  section's schema rule. Add a VideoObject block for an embedded
-  clip when the source and its metadata (name, description,
-  thumbnail, embed URL) are confirmed, never with a guessed
-  `uploadDate` or other unverified field, omit fields that can't be
-  verified rather than invent them.
-- Internal linking follows the base 3-5 links-in-body rule, but don't
-  force a link to an unrelated genre hub or artist page just because
-  one happens to exist. If nothing in `link-map.md` legitimately
-  connects to the post's subject, link to general site pages instead
-  (homepage, `/blog/trending/`, a relevant tool) rather than manufacture
-  a fit.
 
 ## What check_article.py can and can't enforce
 

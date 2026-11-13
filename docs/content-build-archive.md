@@ -1,6 +1,6 @@
 # Content Build Archive
 
-Live rows (through row 70) moved out of `docs/content-build.md` to keep that
+Live rows (through row 102) moved out of `docs/content-build.md` to keep that
 file short. This is a record only — for the active queue (what to build
 next), see
 [`docs/content-build.md`](content-build.md).
@@ -76,3 +76,45 @@ next), see
 | 68 | Fly Me to the Moon | /blog/songs/fly-me-to-the-moon-frank-sinatra/ | song-story | jazz-easy-listening | live | Fly Me to the Moon | JYuyWrkwpok |  |
 | 69 | Strangers in the Night | /blog/songs/strangers-in-the-night-frank-sinatra/ | song-story | jazz-easy-listening | live | Strangers in the Night | Sek1vLw3s20 |  |
 | 70 | My Way | /blog/songs/my-way-frank-sinatra/ | song-story | jazz-easy-listening | live | My Way by Frank Sinatra | qQzdAsjWGPg |  |
+| 71 | A World Without Love | /blog/songs/a-world-without-love-peter-and-gordon/ | song-story | british-invasion | live | A World Without Love | ke4hgo43JGc | swapped from Tdx6lLvvRyg (non-official) |
+| 72 | The Jimi Hendrix Experience bio | /blog/artists/the-jimi-hendrix-experience/ | artist-bio | psychedelic-rock | live | The Jimi Hendrix Experience | WGoDaYjdfSg |  |
+| 73 | Purple Haze | /blog/songs/purple-haze-jimi-hendrix-experience/ | song-story | psychedelic-rock | live | Purple Haze by The Jimi Hendrix Experience | WGoDaYjdfSg |  |
+| 74 | Hey Joe | /blog/songs/hey-joe-jimi-hendrix-experience/ | song-story | psychedelic-rock | live | Hey Joe by The Jimi Hendrix Experience | rXwMrBb2x1Q |  |
+| 75 | The Sonics bio | /blog/artists/the-sonics/ | artist-bio | garage-surf-rock | live | The Sonics | HGBsxpnRhMk |  |
+| 76 | The Witch | /blog/songs/the-witch-sonics/ | song-story | garage-surf-rock | live | The Witch by The Sonics | HGBsxpnRhMk |  |
+| 77 | Have Love, Will Travel | /blog/songs/have-love-will-travel-sonics/ | song-story | garage-surf-rock | live | Have Love, Will Travel | SV9N7TbIzcE |  |
+| 78 | Simon & Garfunkel bio | /blog/artists/simon-and-garfunkel/ | artist-bio | folk-rock | live | Simon & Garfunkel | l0q7MLPo-u8 |  |
+| 79 | The Sound of Silence | /blog/songs/the-sound-of-silence-simon-and-garfunkel/ | song-story | folk-rock | live | The Sound of Silence | l0q7MLPo-u8 |  |
+| 80 | The Boxer | /blog/songs/the-boxer-simon-and-garfunkel/ | song-story | folk-rock | live | The Boxer by Simon & Garfunkel | l3LFML_pxlY |  |
+| 81 | Scarborough Fair/Canticle | /blog/songs/scarborough-fair-canticle-simon-and-garfunkel/ | song-story | folk-rock | live | Scarborough Fair/Canticle by Simon & Garfunkel | -Jj4s9I-53g |  |
+| 82 | The Temptations bio | /blog/artists/the-temptations/ | artist-bio | motown-soul | live | The Temptations | y3KJ7d2qBoA |  |
+| 83 | My Girl | /blog/songs/my-girl-temptations/ | song-story | motown-soul | live | My Girl by The Temptations | y3KJ7d2qBoA |  |
+| 84 | Get Ready | /blog/songs/get-ready-temptations/ | song-story | motown-soul | live | Get Ready by The Temptations | mhsYOzdJjI0 |  |
+| 85 | Patsy Cline bio | /blog/artists/patsy-cline/ | artist-bio | country-60s | live | Patsy Cline | YWKeuYcDAoo |  |
+| 86 | Crazy | /blog/songs/crazy-patsy-cline/ | song-story | country-60s | live | Crazy by Patsy Cline | YWKeuYcDAoo |  |
+| 87 | I Fall to Pieces | /blog/songs/i-fall-to-pieces-patsy-cline/ | song-story | country-60s | live | I Fall to Pieces | gEcZ8BlsJhI |  |
+| 88 | The Four Seasons bio | /blog/artists/the-four-seasons/ | artist-bio | pop-brill-building | live | The Four Seasons | GzoIvwNqKpw | yt Feature image: searched Commons and PD sources 2026-10-29, no larger free image available; current 541x330 stays. |
+| 89 | Walk Like a Man | /blog/songs/walk-like-a-man-four-seasons/ | song-story | pop-brill-building | live | Walk Like a Man | GzoIvwNqKpw | yt REQUIRED: On publish, add a link to this song story from /blog/artists/the-four-seasons/ (in the matching section and in the singles table row), then push both pages together. |
+| 90 | Big Girls Don't Cry | /blog/songs/big-girls-dont-cry-four-seasons/ | song-story | pop-brill-building | live | Big Girls Don't Cry | zRZpaxBMJRU | yt REQUIRED: On publish, add a link to this song story from /blog/artists/the-four-seasons/ (in the matching section and in the singles table row), then push both pages together. |
+| 91 | Sherry | /blog/songs/sherry-four-seasons/ | song-story | pop-brill-building | live | Sherry by The Four Seasons | jMcWldfg28s | yt REQUIRED: On publish, add a link to this song story from /blog/artists/the-four-seasons/ (in the matching section and in the singles table row), then push both pages together. |
+| 92 | Herb Alpert & The Tijuana Brass bio | /blog/artists/herb-alpert-and-the-tijuana-brass/ | artist-bio | jazz-easy-listening | live | Herb Alpert & The Tijuana Brass | gRGOm071sE0 | swapped from NC38-qqiVgg (Kasbah Party Rentals, non-official); embeds oEmbed-checked only, spot-check Lonely Bull 3PyuxK1cODk |
+| 93 | A Taste of Honey | /blog/songs/a-taste-of-honey-herb-alpert-and-the-tijuana-brass/ | song-story | jazz-easy-listening | live | A Taste of Honey | gRGOm071sE0 | swapped from NC38-qqiVgg (Kasbah Party Rentals, non-official) to Herb Alpert - Topic; inbound links from bio (section + singles row) and jazz hub |
+| 94 | Spanish Flea | /blog/songs/spanish-flea-herb-alpert-and-the-tijuana-brass/ | song-story | jazz-easy-listening | live | Spanish Flea by Herb Alpert & The Tijuana Brass | aBE9EQ7gXKI |  |
+| 95 | This Guy's in Love with You | /blog/songs/this-guys-in-love-with-you-herb-alpert-and-the-tijuana-brass/ | song-story | jazz-easy-listening | live | This Guy's in Love with You | o8ByJ1C0iR4 |  |
+| 96 | Sha La La La Lee | /blog/songs/sha-la-la-la-lee-small-faces/ | song-story | british-invasion | live | Sha La La La Lee | JsuKmqQyYR4 | yt |
+| 97 | Jefferson Airplane bio | /blog/artists/jefferson-airplane/ | artist-bio | psychedelic-rock | live | Jefferson Airplane | pnJM_jC7j_4 |  |
+| 98 | White Rabbit | /blog/songs/white-rabbit-jefferson-airplane/ | song-story | psychedelic-rock | live | White Rabbit by Jefferson Airplane | pnJM_jC7j_4 |  |
+| 99 | Somebody to Love | /blog/songs/somebody-to-love-jefferson-airplane/ | song-story | psychedelic-rock | live | Somebody to Love | a-C9pUGszsw |  |
+| 100 | Wooden Ships | /blog/songs/wooden-ships-jefferson-airplane/ | song-story | psychedelic-rock | live | Wooden Ships by Jefferson Airplane | ROBaoiJK0wc |  |
+| 101 | Dick Dale bio | /blog/artists/dick-dale/ | artist-bio | garage-surf-rock | live | Dick Dale | MXB6T55oytE |  |
+| 102 | Miserlou | /blog/songs/miserlou-dick-dale/ | song-story | garage-surf-rock | live | Miserlou by Dick Dale and His Del-Tones | MXB6T55oytE |  |
+
+## Weekly refresh log
+
+| Week of | Page | Why picked | Status |
+|---|---|---|---|
+| 2026-11-09 | /blog/artists/hermans-hermits/ | DataForSEO ranked keywords (US, 2026-11-09): its top query "herman's hermits band members" (1,300/mo) ranks #58, the weakest position for the highest-volume page-specific query on the site; page has no lineup section. Plan: add a verified band-members section/table, trim to stay under 1,200 words. GSC not connected this session. | live 2026-11-09 (427c2b4) |
+
+## Follow-ups (done)
+
+- Singles-table component live 2026-10-29 on the-four-seasons, hermans-hermits, the-temptations, the-searchers, patsy-cline, frank-sinatra, johnny-cash, the-monkees, simon-and-garfunkel, the-supremes (`docs/singles-table.md`).
