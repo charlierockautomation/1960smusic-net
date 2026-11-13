@@ -320,7 +320,7 @@ if __name__ == "__main__":
             os.path.join(d, "index.html")
             for d, _, fs in os.walk(ROOT)
             if "index.html" in fs
-            and os.path.relpath(d, ROOT).split(os.sep)[0] not in {"gen", "docs", "worker", "assets", "node_modules"}
+            and os.path.relpath(d, ROOT).split(os.sep)[0] not in {"gen", "docs", "worker", "assets", "node_modules", "dist"}
             # data/ holds JSON, but /data/ and /data/<slug>/ are real pages
             and (os.path.relpath(d, ROOT).split(os.sep)[0] != "data" or os.path.relpath(d, ROOT).count(os.sep) <= 1)
             and not os.path.relpath(d, ROOT).startswith(".")
