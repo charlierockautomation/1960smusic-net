@@ -48,6 +48,7 @@ Sitemap: https://1960smusic.net/sitemap.xml
 - [British Invasion: How 1960s British Rock Bands Conquered America](https://1960smusic.net/blog/genres/british-invasion/): How UK bands led by The Beatles conquered American radio, charts, and TV starting in 1964, and the sound and artists that defined the movement.
 
 ## Artists
+- [The Byrds: Band History, Members and Hits](https://1960smusic.net/blog/artists/the-byrds/): The Byrds formed in Los Angeles in 1964, took Mr. Tambourine Man and Turn! Turn! Turn! to No. 1 in 1965, then pioneered psychedelia and country rock.
 - [Dick Dale: King of the Surf Guitar, Life and Hits](https://1960smusic.net/blog/artists/dick-dale/): Dick Dale invented the surf guitar sound with Let's Go Trippin' in 1961 and Miserlou in 1962. His life, his Fender gear, his hits and his legacy.
 - [Jefferson Airplane: Band History, Members and Hits](https://1960smusic.net/blog/artists/jefferson-airplane/): Jefferson Airplane formed in San Francisco in 1965, added Grace Slick in 1966 and hit the Top 10 with Somebody to Love and White Rabbit in 1967.
 - [Herb Alpert & The Tijuana Brass: Whipped Cream and No. 1s](https://1960smusic.net/blog/artists/herb-alpert-and-the-tijuana-brass/): Herb Alpert & The Tijuana Brass turned a 1962 trumpet single into A&M Records, the Whipped Cream album and a 1968 No. 1 with This Guy's in Love with You.
@@ -144,7 +145,6 @@ Sitemap: https://1960smusic.net/sitemap.xml
 - [(I Can't Get No) Satisfaction: Written in His Sleep](https://1960smusic.net/blog/songs/i-cant-get-no-satisfaction-rolling-stones/): How Keith Richards wrote the riff half asleep in a Florida motel room and turned it into the Stones' first US number one.
 - [Paint It Black Stones: The Hit Born From a Studio Joke](https://1960smusic.net/blog/songs/paint-it-black-rolling-stones/): How a joke on the organ and Brian Jones's brand-new sitar turned into the first sitar song ever to hit number one in the US and UK.
 - [She Loves You: Inside The Beatles' Breakthrough 1963 Single](https://1960smusic.net/blog/songs/she-loves-you-beatles/): How The Beatles wrote their biggest UK single on a tour bus, recorded it in a single day, and built pop's most famous closing chord in 1963.
-- [I Want to Hold Your Hand: How The Beatles Broke America](https://1960smusic.net/blog/songs/i-want-to-hold-your-hand-beatles/): How The Beatles wrote it eyeball to eyeball, then rode it to their first US number one and a nation-changing Ed Sullivan debut.
 
 ## On This Day
 - [On This Day: December 21 in 1960s Music](https://1960smusic.net/blog/on-this-day/december-21/): 14 verified 1960s music events from December 21: the Supremes' last Ed Sullivan show with Diana Ross, Janis Joplin's new band and Ornette Coleman's Free Jazz.

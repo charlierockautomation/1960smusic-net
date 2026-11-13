@@ -57,7 +57,7 @@ Live rows (1-102) are in [`docs/content-build-archive.md`](content-build-archive
 
 | # | Title | Slug | Type | Genre | Status | Focus Keyword | YouTube ID | Flag |
 |---|-------|------|------|-------|--------|----------------|------------|------|
-| 103 | The Byrds bio | /blog/artists/the-byrds/ | artist-bio | folk-rock | not started | The Byrds | NxyOhFBoxSY |  |
+| 103 | The Byrds bio | /blog/artists/the-byrds/ | artist-bio | folk-rock | drafted | The Byrds | NxyOhFBoxSY |  |
 | 104 | Mr. Tambourine Man | /blog/songs/mr-tambourine-man-byrds/ | song-story | folk-rock | not started | Mr. Tambourine Man | Swqw5a8I4b4 |  |
 | 105 | Turn! Turn! Turn! | /blog/songs/turn-turn-turn-byrds/ | song-story | folk-rock | not started | Turn! Turn! Turn! | xVOJla2vYx8 |  |
 | 106 | Marvin Gaye bio | /blog/artists/marvin-gaye/ | artist-bio | motown-soul | not started | Marvin Gaye | 5ZnrZnFSlWU |  |

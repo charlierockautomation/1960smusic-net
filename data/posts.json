@@ -2110,6 +2110,15 @@
       "description": "Miserlou by Dick Dale and His Del-Tones turned a 1920s folk song into the surf rock anthem of 1962. How it was made, who covered it, and Pulp Fiction.",
       "date": "2026-11-12",
       "genre": "garage-surf-rock"
+    },
+    {
+      "id": "the-byrds",
+      "title": "The Byrds: Band History, Members and Hits",
+      "slug": "/blog/artists/the-byrds/",
+      "type": "artist-bio",
+      "description": "The Byrds formed in Los Angeles in 1964, took Mr. Tambourine Man and Turn! Turn! Turn! to No. 1 in 1965, then pioneered psychedelia and country rock.",
+      "date": "2026-11-13",
+      "genre": "folk-rock"
     }
   ]
 }

@@ -759,6 +759,13 @@ ARTISTS = {
         ("Guitarists", "Eric Clapton, Jeff Beck, Jimmy Page"),
         ("Peak chart hits", "\"For Your Love\" (UK No. 3, US No. 6, 1965); \"Heart Full of Soul\" (UK No. 2, US No. 9, 1965)"),
     ]),
+    "the-byrds": dict(years=[1965, 1966, 1967, 1968], rows=[
+        ("Origin", "Los Angeles, California"),
+        ("Active", "1964-1973"),
+        ("Genre", "Folk Rock, Psychedelic Rock, Country Rock"),
+        ("Label", "Columbia"),
+        ("Peak chart hits", "\"Mr. Tambourine Man\" (Hot 100 No. 1, UK No. 1, 1965); \"Turn! Turn! Turn!\" (Hot 100 No. 1, 1965); \"Eight Miles High\" (Hot 100 No. 14, 1966)"),
+    ]),
 }
 
 
@@ -771,6 +778,11 @@ ARTISTS = {
 # Herb Alpert & The Tijuana Brass: Wikipedia redirects to the Herb Alpert
 # person article (Q344822), not the group, so only MusicBrainz is kept.
 SAME_AS = {
+    "the-byrds": [
+        "https://en.wikipedia.org/wiki/The_Byrds",
+        "https://www.wikidata.org/wiki/Q211526",
+        "https://musicbrainz.org/artist/2819834e-4e08-47b0-a2c4-b7672318e8f0",
+    ],
     "dick-dale": [
         "https://en.wikipedia.org/wiki/Dick_Dale",
         "https://www.wikidata.org/wiki/Q346785",
