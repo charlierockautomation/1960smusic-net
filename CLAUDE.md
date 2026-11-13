@@ -4,12 +4,10 @@
 
 ## What this is
 
-Static site for **1960smusic.net** — genre guides, artist profiles, song
-stories, interactive tools. Deployed via Cloudflare Workers (static assets),
-git-connected through Workers Builds (see `wrangler.toml`). Production branch
-is `main`; every push to `main` deploys automatically at 100% traffic, no
-dashboard promotion needed. Plain HTML/CSS, no framework, no bundler, no JS
-build step.
+Static site for **1960smusic.net** (genre guides, artist profiles, song
+stories, tools). Cloudflare Workers static assets via Workers Builds
+(`wrangler.toml`); every push to `main` deploys at 100% traffic, no dashboard
+step. Plain HTML/CSS, no framework, bundler or JS build step.
 
 **Deploy output = `dist/` only.** Workers Builds runs `scripts/build_dist.py`,
 which copies tracked public web files (html, css, js, json, images, xml, txt,
@@ -21,7 +19,7 @@ in `docs/`/`gen/`; never as a web file type inside a public folder, and never
 hand-place anything in `dist/` (it is rebuilt and git-ignored).
 
 **Current priority:** Phases 1-2 closed (all tasks live, Gate 2 met
-2026-10-11); Phase 3 queue work + On This Day (max 2/day). Why: see below.
+2026-10-11); Phase 3 queue + On This Day (max 2/day). Why: `docs/strategy-review-2026-09.md`.
 
 ## Commands
 
@@ -59,22 +57,17 @@ awards. Unconfirmed = omit or flag as unconfirmed, never guess.
 Article production (genre hubs, artist bios, song stories) runs off a fixed
 queue, not ad hoc requests.
 
-1. **Read `/docs/content-build.md` first**, before writing anything — it is
-   the single source of truth for what gets built next. Work the first
-   `not started` row only. Never start a new row while an earlier one is
-   still `in progress` or `drafted`.
-2. **Research the competition before writing a word.** See
-   `docs/writing-standard.md` → "Content completeness". Find the top 3
-   currently-ranking pages for the focus keyword, read all 3, note every true
-   fact and subtopic they cover. This is mandatory pre-writing research, not
-   an optional polish pass.
+1. **Read `/docs/content-build.md` first**: work its first `not started` row
+   only, never while an earlier row is `in progress` or `drafted`.
+2. **Research the competition before writing a word** (mandatory): top 3
+   ranking pages, per `docs/writing-standard.md` → "Content completeness".
 3. **Key Facts data first (song/artist).** Before writing, add the page's
    entry to `gen/key_facts_data.py` with verified facts only (omit anything
    unconfirmed). `check_article.py` FAILs a song/artist page with no entry or
    a box that doesn't match it. Then build with `/docs/article-template.html`
    as the shell: facts from `data/songs.json` / `data/artists.json`, then
-   competitor research, then web search to verify gaps. Never invent history,
-   quotes, or trivia. Run `gen/build_key_facts.py --write` for the box.
+   competitor research, then web search to verify gaps. Run
+   `gen/build_key_facts.py --write` for the box.
 4. **`gen/check_article.py` is the formatting/structure gate.** It FAILs a
    page missing any of: title ≤60 chars; visible "Updated" = JSON-LD
    dateModified; `og:image` and JSON-LD `image` (absolute, file exists); Key
@@ -119,15 +112,12 @@ changes never bump them.
 
 ## Content Quality & Site-Strengthening Standard
 
-Every new page must clear `gen/check_article.py` (formatting/structure) and
-`docs/writing-standard.md` (competitive research, density, prose rules) in
-full, no exceptions and no partial passes committed. Beyond that bar, prefer
-work that strengthens the existing site over net-new isolated pages: add
-internal links where a genuine connection exists (see Genre Hub Linking
-below), keep trackers (`link-map.md`, `docs/content-build.md`,
-`data/posts.json`) accurate the same session a page goes live, and don't
-leave a page orphaned (unlinked from any hub or bio) once something it
-should link to exists.
+Every new page clears `gen/check_article.py` and `docs/writing-standard.md`
+in full; no partial passes committed. Prefer strengthening the site over
+isolated new pages: add internal links where a genuine connection exists,
+keep trackers (`link-map.md`, `docs/content-build.md`, `data/posts.json`)
+accurate the same session a page goes live, never leave a page orphaned.
+Before adding or editing internal links, read `link-map.md` (do not import it).
 
 Artist-bio singles tables use the playable, sortable component: @docs/singles-table.md
 
@@ -185,11 +175,6 @@ pre-push checkpoint), not the decision to begin.
 
 Never `@`-import large data files (link maps, datasets, logs). Keep the
 auto-loaded instruction total under 100k chars; if a file grows past ~10k,
-split reference material into an on-demand file. Auto-loaded: the inline
-docs above plus @docs/content-build.md · @docs/writing-standard.md
-Read on demand only (never import):
-- Before adding or editing internal links, read `link-map.md` (do not import
-  it); post-push, add the page's row there (step 6).
-- `docs/strategy-review-2026-09.md`: why/roadmap/baselines, full GEO rules.
-- `docs/phase1-foundations.md`, `docs/phase2-decade-spine.md`: closed-phase
-  history; read Phase 2 before editing a year page or the `/1960s/` hub.
+split reference material into an on-demand file. Also auto-loaded:
+@docs/content-build.md · @docs/writing-standard.md. Which docs are read on
+demand, and when: `docs/context-budget.md` (read before changing any import).
