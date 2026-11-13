@@ -33,10 +33,11 @@ September 15 (2026-11-12, The Doors 1968 Joel Brodsky publicity photo, public do
 reused from the Doors bio; share image only, every card keeps its video).
 September 16 (2026-11-13, The Beatles 1963 Dezo Hoffmann/Capitol publicity photo, public
 domain in the US, reused from September 10; share image only, every card keeps its video).
+September 20 (2026-11-13, John Lennon and Yoko Ono 1969 bed-in photo, CC0, reused from
+September 13; share image only, every card keeps its video).
 
 | # | Page | Status |
 |---|------|--------|
-| 20 | /blog/on-this-day/september-20/ | pending |
 | 21 | /blog/on-this-day/september-21/ | pending |
 | 22 | /blog/on-this-day/september-22/ | pending |
 | 23 | /blog/on-this-day/september-23/ | pending |
