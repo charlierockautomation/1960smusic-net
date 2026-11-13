@@ -1,13 +1,18 @@
 # Cloudflare Workers (static assets) — git-connected via Workers Builds.
-# The whole site deploys as static assets served from the repo root, with a
-# thin Worker script (worker/index.js) in front for the Daily Guessing Game
-# leaderboard API. Every other path falls straight through to assets.
+# Only dist/ deploys as static assets. scripts/build_dist.py builds it from the
+# tracked public web files, so working files (CLAUDE.md, *.md trackers, docs/,
+# gen/, worker/) never reach the live site. A thin Worker script
+# (worker/index.js) sits in front for the Daily Guessing Game leaderboard API;
+# every other path falls straight through to assets.
 name = "1960smusic-net"
 compatibility_date = "2026-08-13"
 main = "worker/index.js"
 
+[build]
+command = "python3 scripts/build_dist.py"
+
 [assets]
-directory = "./"
+directory = "./dist"
 binding = "ASSETS"
 # Fallback for client-side navigation / clean 404 handling.
 not_found_handling = "404-page"

@@ -1,8 +1,0 @@
-# Build-time only — not part of the public static site.
-.git
-gen/
-wrangler.toml
-README.md
-worker/
-.wrangler/
-docs/daily-thumbnail-review.html
