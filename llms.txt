@@ -76,6 +76,7 @@ Sitemap: https://1960smusic.net/sitemap.xml
 - [The Beatles: The Liverpool Band That Changed Music Forever](https://1960smusic.net/blog/artists/the-beatles/): How four teenagers from Liverpool became the most influential band in music history, from Hamburg's clubs to the studio innovations of Revolver and Sgt. Pepper.
 
 ## Songs
+- [Mr. Tambourine Man by The Byrds: The 1965 Story](https://1960smusic.net/blog/songs/mr-tambourine-man-byrds/): Mr. Tambourine Man by The Byrds cut Bob Dylan's song to one verse, added a 12-string jangle and hit No. 1 in 1965. How it was made and why it mattered.
 - [Miserlou by Dick Dale and His Del-Tones: 1962 Story](https://1960smusic.net/blog/songs/miserlou-dick-dale/): Miserlou by Dick Dale and His Del-Tones turned a 1920s folk song into the surf rock anthem of 1962. How it was made, who covered it, and Pulp Fiction.
 - [Sha La La La Lee: The Small Faces' 1966 UK Hit](https://1960smusic.net/blog/songs/sha-la-la-la-lee-small-faces/): Sha La La La Lee was the hit the Small Faces never wanted. How Don Arden, Kenny Lynch and Mort Shuman gave the mod band a UK No. 3 in March 1966.
 - [White Rabbit by Jefferson Airplane: How Grace Slick Wrote It](https://1960smusic.net/blog/songs/white-rabbit-jefferson-airplane/): White Rabbit by Jefferson Airplane: Grace Slick wrote it on a $50 piano from Alice in Wonderland, and it hit No. 8 in 1967. The full story.
@@ -144,7 +145,6 @@ Sitemap: https://1960smusic.net/sitemap.xml
 - [Please Please Me: The Beatles' First UK Number One](https://1960smusic.net/blog/songs/please-please-me-beatles/): How John Lennon's Roy Orbison homage became The Beatles' first chart-topping single after George Martin sped up its tempo in one session.
 - [(I Can't Get No) Satisfaction: Written in His Sleep](https://1960smusic.net/blog/songs/i-cant-get-no-satisfaction-rolling-stones/): How Keith Richards wrote the riff half asleep in a Florida motel room and turned it into the Stones' first US number one.
 - [Paint It Black Stones: The Hit Born From a Studio Joke](https://1960smusic.net/blog/songs/paint-it-black-rolling-stones/): How a joke on the organ and Brian Jones's brand-new sitar turned into the first sitar song ever to hit number one in the US and UK.
-- [She Loves You: Inside The Beatles' Breakthrough 1963 Single](https://1960smusic.net/blog/songs/she-loves-you-beatles/): How The Beatles wrote their biggest UK single on a tour bus, recorded it in a single day, and built pop's most famous closing chord in 1963.
 
 ## On This Day
 - [On This Day: December 21 in 1960s Music](https://1960smusic.net/blog/on-this-day/december-21/): 14 verified 1960s music events from December 21: the Supremes' last Ed Sullivan show with Diana Ross, Janis Joplin's new band and Ornette Coleman's Free Jazz.

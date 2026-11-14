@@ -2119,6 +2119,15 @@
       "description": "The Byrds formed in Los Angeles in 1964, took Mr. Tambourine Man and Turn! Turn! Turn! to No. 1 in 1965, then pioneered psychedelia and country rock.",
       "date": "2026-11-13",
       "genre": "folk-rock"
+    },
+    {
+      "id": "mr-tambourine-man-byrds",
+      "title": "Mr. Tambourine Man by The Byrds: The 1965 Story",
+      "slug": "/blog/songs/mr-tambourine-man-byrds/",
+      "type": "song-story",
+      "description": "Mr. Tambourine Man by The Byrds cut Bob Dylan's song to one verse, added a 12-string jangle and hit No. 1 in 1965. How it was made and why it mattered.",
+      "date": "2026-11-14",
+      "genre": "folk-rock"
     }
   ]
 }

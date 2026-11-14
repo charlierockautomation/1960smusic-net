@@ -409,6 +409,15 @@ SONGS = {
         ("Produced by", "Rick Jarrard"),
         ("US peak", "No. 5, Billboard Hot 100; No. 5, Cash Box"),
     ]),
+    "mr-tambourine-man-byrds": dict(year=1965, rows=[
+        ("Released", "April 12, 1965 (single, Columbia 4-43271); B-side \"I Knew I'd Want You\""),
+        ("Recorded", "January 20, 1965, Columbia Studios, Hollywood"),
+        ("Label", "Columbia"),
+        ("Written by", "Bob Dylan"),
+        ("Produced by", "Terry Melcher"),
+        ("US peak", "No. 1, Billboard Hot 100 (June 26, 1965)"),
+        ("UK peak", "No. 1, two weeks (July 1965)"),
+    ]),
     "miserlou-dick-dale": dict(year=1962, rows=[
         ("Released", "April 21, 1962 (single); B-side \"Eight Till Midnight\""),
         ("Label", "Deltone"),
@@ -943,6 +952,7 @@ SONG_ALBUMS = {
     "the-crystal-ship-doors": "The Doors",
     "the-end-doors": "The Doors",
     "the-times-they-are-a-changin-bob-dylan": "The Times They Are a-Changin'",
+    "mr-tambourine-man-byrds": "Mr. Tambourine Man",
     "the-witch-sonics": "Here Are the Sonics",
     "this-guys-in-love-with-you-herb-alpert-and-the-tijuana-brass": "The Beat of the Brass",
     "walk-like-a-man-four-seasons": "Big Girls Don't Cry and Twelve Others",
