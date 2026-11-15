@@ -2147,6 +2147,15 @@
       "description": "Turn! Turn! Turn! by The Byrds set Pete Seeger's Ecclesiastes song to a 12-string jangle and topped the Hot 100 for three weeks in December 1965.",
       "date": "2026-11-14",
       "genre": "folk-rock"
+    },
+    {
+      "id": "marvin-gaye",
+      "title": "Marvin Gaye: Motown's Prince of Soul in the 1960s",
+      "slug": "/blog/artists/marvin-gaye/",
+      "type": "artist-bio",
+      "description": "Marvin Gaye went from Motown session drummer to soul's biggest male star. His 1960s story, from Pride and Joy to Tammi Terrell and Grapevine.",
+      "date": "2026-11-15",
+      "genre": "motown-soul"
     }
   ]
 }

@@ -784,6 +784,13 @@ ARTISTS = {
         ("Label", "Columbia"),
         ("Peak chart hits", "\"Mr. Tambourine Man\" (Hot 100 No. 1, UK No. 1, 1965); \"Turn! Turn! Turn!\" (Hot 100 No. 1, 1965); \"Eight Miles High\" (Hot 100 No. 14, 1966)"),
     ]),
+    "marvin-gaye": dict(years=[1962, 1963, 1964, 1965, 1967, 1968, 1969], rows=[
+        ("Origin", "Washington, D.C.; Motown career in Detroit"),
+        ("Born", "Marvin Pentz Gay Jr., April 2, 1939; died April 1, 1984"),
+        ("Genre", "Motown, Soul & R&B"),
+        ("Label", "Tamla (Motown)"),
+        ("Peak chart hits", "\"I Heard It Through the Grapevine\" (Hot 100 No. 1 for seven weeks, UK No. 1, 1968-1969); \"How Sweet It Is (To Be Loved by You)\" (Hot 100 No. 6, 1965); \"Too Busy Thinking About My Baby\" (Hot 100 No. 4, R&B No. 1, 1969)"),
+    ]),
 }
 
 
@@ -796,6 +803,11 @@ ARTISTS = {
 # Herb Alpert & The Tijuana Brass: Wikipedia redirects to the Herb Alpert
 # person article (Q344822), not the group, so only MusicBrainz is kept.
 SAME_AS = {
+    "marvin-gaye": [
+        "https://en.wikipedia.org/wiki/Marvin_Gaye",
+        "https://www.wikidata.org/wiki/Q189758",
+        "https://musicbrainz.org/artist/afdb7919-059d-43c1-b668-ba1d265e7e42",
+    ],
     "the-byrds": [
         "https://en.wikipedia.org/wiki/The_Byrds",
         "https://www.wikidata.org/wiki/Q211526",
