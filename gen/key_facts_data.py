@@ -409,6 +409,15 @@ SONGS = {
         ("Produced by", "Rick Jarrard"),
         ("US peak", "No. 5, Billboard Hot 100; No. 5, Cash Box"),
     ]),
+    "turn-turn-turn-byrds": dict(year=1965, rows=[
+        ("Released", "October 1, 1965 (single, Columbia 4-43424); B-side \"She Don't Care About Time\""),
+        ("Recorded", "September 1, 10 and 14-16, 1965, Columbia Studios, Hollywood"),
+        ("Label", "Columbia (CBS 202008 in the UK)"),
+        ("Written by", "Pete Seeger, words adapted from the Book of Ecclesiastes"),
+        ("Produced by", "Terry Melcher"),
+        ("US peak", "No. 1, Billboard Hot 100, three weeks (from December 4, 1965)"),
+        ("UK peak", "No. 26 (8 weeks, from November 17, 1965)"),
+    ]),
     "mr-tambourine-man-byrds": dict(year=1965, rows=[
         ("Released", "April 12, 1965 (single, Columbia 4-43271); B-side \"I Knew I'd Want You\""),
         ("Recorded", "January 20, 1965, Columbia Studios, Hollywood"),
@@ -953,6 +962,7 @@ SONG_ALBUMS = {
     "the-end-doors": "The Doors",
     "the-times-they-are-a-changin-bob-dylan": "The Times They Are a-Changin'",
     "mr-tambourine-man-byrds": "Mr. Tambourine Man",
+    "turn-turn-turn-byrds": "Turn! Turn! Turn!",
     "the-witch-sonics": "Here Are the Sonics",
     "this-guys-in-love-with-you-herb-alpert-and-the-tijuana-brass": "The Beat of the Brass",
     "walk-like-a-man-four-seasons": "Big Girls Don't Cry and Twelve Others",
@@ -973,4 +983,6 @@ CREDIT_OVERRIDES = {
     "my-way-frank-sinatra": dict(writers=["Jacques Revaux", "Gilles Thibaut", "Claude François"], lyricists=["Paul Anka"]),
     "miserlou-dick-dale": dict(writers=["Nicholas Roubanis", "Fred Wise", "Milton Leeds", "Chaim Tauber"]),
     "wooden-ships-jefferson-airplane": dict(writers=["David Crosby"], lyricists=["Paul Kantner", "Stephen Stills"]),
+    # lyrics adapted from Ecclesiastes 3; Seeger is the credited writer
+    "turn-turn-turn-byrds": dict(writers=["Pete Seeger"]),
 }

@@ -2128,6 +2128,15 @@
       "description": "Mr. Tambourine Man by The Byrds cut Bob Dylan's song to one verse, added a 12-string jangle and hit No. 1 in 1965. How it was made and why it mattered.",
       "date": "2026-11-14",
       "genre": "folk-rock"
+    },
+    {
+      "id": "turn-turn-turn-byrds",
+      "title": "Turn! Turn! Turn! by The Byrds: The 1965 No. 1 Story",
+      "slug": "/blog/songs/turn-turn-turn-byrds/",
+      "type": "song-story",
+      "description": "Turn! Turn! Turn! by The Byrds set Pete Seeger's Ecclesiastes song to a 12-string jangle and topped the Hot 100 for three weeks in December 1965.",
+      "date": "2026-11-14",
+      "genre": "folk-rock"
     }
   ]
 }
