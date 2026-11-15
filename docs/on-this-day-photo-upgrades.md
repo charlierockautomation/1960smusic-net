@@ -35,10 +35,11 @@ September 16 (2026-11-13, The Beatles 1963 Dezo Hoffmann/Capitol publicity photo
 domain in the US, reused from September 10; share image only, every card keeps its video).
 September 20 (2026-11-13, John Lennon and Yoko Ono 1969 bed-in photo, CC0, reused from
 September 13; share image only, every card keeps its video).
+September 21 (2026-11-14, The Beatles 1964 UPI New York photo, public domain (Library of
+Congress), reused from September 2; share image only, every card keeps its video).
 
 | # | Page | Status |
 |---|------|--------|
-| 21 | /blog/on-this-day/september-21/ | pending |
 | 22 | /blog/on-this-day/september-22/ | pending |
 | 23 | /blog/on-this-day/september-23/ | pending |
 | 24 | /blog/on-this-day/september-24/ | pending |
