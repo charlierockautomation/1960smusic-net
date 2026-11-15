@@ -2156,6 +2156,15 @@
       "description": "Marvin Gaye went from Motown session drummer to soul's biggest male star. His 1960s story, from Pride and Joy to Tammi Terrell and Grapevine.",
       "date": "2026-11-15",
       "genre": "motown-soul"
+    },
+    {
+      "id": "i-heard-it-through-the-grapevine-marvin-gaye",
+      "title": "I Heard It Through the Grapevine: Marvin Gaye's 1968 No. 1",
+      "slug": "/blog/songs/i-heard-it-through-the-grapevine-marvin-gaye/",
+      "type": "song-story",
+      "description": "I Heard It Through the Grapevine by Marvin Gaye sat in Motown's vault for a year, then spent seven weeks at No. 1 from December 1968.",
+      "date": "2026-11-15",
+      "genre": "motown-soul"
     }
   ]
 }

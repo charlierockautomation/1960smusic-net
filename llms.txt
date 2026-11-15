@@ -77,6 +77,7 @@ Sitemap: https://1960smusic.net/sitemap.xml
 - [The Beatles: The Liverpool Band That Changed Music Forever](https://1960smusic.net/blog/artists/the-beatles/): How four teenagers from Liverpool became the most influential band in music history, from Hamburg's clubs to the studio innovations of Revolver and Sgt. Pepper.
 
 ## Songs
+- [I Heard It Through the Grapevine: Marvin Gaye's 1968 No. 1](https://1960smusic.net/blog/songs/i-heard-it-through-the-grapevine-marvin-gaye/): I Heard It Through the Grapevine by Marvin Gaye sat in Motown's vault for a year, then spent seven weeks at No. 1 from December 1968.
 - [Mr. Tambourine Man by The Byrds: The 1965 Story](https://1960smusic.net/blog/songs/mr-tambourine-man-byrds/): Mr. Tambourine Man by The Byrds cut Bob Dylan's song to one verse, added a 12-string jangle and hit No. 1 in 1965. How it was made and why it mattered.
 - [Turn! Turn! Turn! by The Byrds: The 1965 No. 1 Story](https://1960smusic.net/blog/songs/turn-turn-turn-byrds/): Turn! Turn! Turn! by The Byrds set Pete Seeger's Ecclesiastes song to a 12-string jangle and topped the Hot 100 for three weeks in December 1965.
 - [Miserlou by Dick Dale and His Del-Tones: 1962 Story](https://1960smusic.net/blog/songs/miserlou-dick-dale/): Miserlou by Dick Dale and His Del-Tones turned a 1920s folk song into the surf rock anthem of 1962. How it was made, who covered it, and Pulp Fiction.
@@ -145,7 +146,6 @@ Sitemap: https://1960smusic.net/sitemap.xml
 - [All Day and All of the Night: The Riff The Doors Copied](https://1960smusic.net/blog/songs/all-day-and-all-of-the-night-kinks/): How The Kinks doubled down on their own riff formula, then won a royalties fight when The Doors borrowed it too closely.
 - [Kinks Sunny Afternoon: Written During a Real Breakdown](https://1960smusic.net/blog/songs/sunny-afternoon-kinks/): How Ray Davies wrote a breezy tax satire while recovering from a real nervous breakdown, then knocked The Beatles off number one.
 - [Please Please Me: The Beatles' First UK Number One](https://1960smusic.net/blog/songs/please-please-me-beatles/): How John Lennon's Roy Orbison homage became The Beatles' first chart-topping single after George Martin sped up its tempo in one session.
-- [(I Can't Get No) Satisfaction: Written in His Sleep](https://1960smusic.net/blog/songs/i-cant-get-no-satisfaction-rolling-stones/): How Keith Richards wrote the riff half asleep in a Florida motel room and turned it into the Stones' first US number one.
 
 ## On This Day
 - [On This Day: December 22 in 1960s Music](https://1960smusic.net/blog/on-this-day/december-22/): 10 verified 1960s music events from December 22: Telstar's US No. 1, Pink Floyd and Hendrix at Christmas on Earth Continued and the Strawberry Fields edit.

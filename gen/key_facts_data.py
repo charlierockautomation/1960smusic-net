@@ -409,6 +409,15 @@ SONGS = {
         ("Produced by", "Rick Jarrard"),
         ("US peak", "No. 5, Billboard Hot 100; No. 5, Cash Box"),
     ]),
+    "i-heard-it-through-the-grapevine-marvin-gaye": dict(year=1968, rows=[
+        ("Released", "October 30, 1968 (single, Tamla 54176); B-side \"You're What's Happening (in the World Today)\"; first issued on In the Groove, August 1968"),
+        ("Recorded", "February 3 to April 10, 1967, Hitsville U.S.A. Studio A, Detroit"),
+        ("Label", "Tamla (Tamla Motown TMG 686 in the UK)"),
+        ("Written by", "Norman Whitfield and Barrett Strong"),
+        ("Produced by", "Norman Whitfield"),
+        ("US peak", "No. 1, Billboard Hot 100, seven weeks (December 14, 1968 to January 25, 1969); No. 1 R&B"),
+        ("UK peak", "No. 1, three weeks (1969); No. 8 on the 1986 reissue"),
+    ]),
     "turn-turn-turn-byrds": dict(year=1965, rows=[
         ("Released", "October 1, 1965 (single, Columbia 4-43424); B-side \"She Don't Care About Time\""),
         ("Recorded", "September 1, 10 and 14-16, 1965, Columbia Studios, Hollywood"),
@@ -975,6 +984,7 @@ SONG_ALBUMS = {
     "the-times-they-are-a-changin-bob-dylan": "The Times They Are a-Changin'",
     "mr-tambourine-man-byrds": "Mr. Tambourine Man",
     "turn-turn-turn-byrds": "Turn! Turn! Turn!",
+    "i-heard-it-through-the-grapevine-marvin-gaye": "In the Groove",
     "the-witch-sonics": "Here Are the Sonics",
     "this-guys-in-love-with-you-herb-alpert-and-the-tijuana-brass": "The Beat of the Brass",
     "walk-like-a-man-four-seasons": "Big Girls Don't Cry and Twelve Others",
