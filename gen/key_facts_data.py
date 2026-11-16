@@ -409,6 +409,15 @@ SONGS = {
         ("Produced by", "Rick Jarrard"),
         ("US peak", "No. 5, Billboard Hot 100; No. 5, Cash Box"),
     ]),
+    "how-sweet-it-is-to-be-loved-by-you-marvin-gaye": dict(year=1964, rows=[
+        ("Released", "November 1964 (single, Tamla T-54107); B-side \"Forever\"; title track of the album How Sweet It Is to Be Loved by You, January 1965"),
+        ("Recorded", "July 24, 1964, Hitsville U.S.A. Studio A, Detroit"),
+        ("Label", "Tamla (Stateside SS 360 in the UK)"),
+        ("Written by", "Holland-Dozier-Holland (Brian Holland, Lamont Dozier, Eddie Holland)"),
+        ("Produced by", "Brian Holland and Lamont Dozier"),
+        ("US peak", "No. 6, Billboard Hot 100 (January 1965); No. 3 R&B; No. 9 Cash Box"),
+        ("UK peak", "No. 49 (one week, from December 16, 1964)"),
+    ]),
     "aint-no-mountain-high-enough-marvin-gaye": dict(year=1967, rows=[
         ("Released", "April 20, 1967 (single, Tamla T-54149); B-side \"Give a Little Love\"; album United, August 29, 1967"),
         ("Recorded", "December 1966 to February 1, 1967, Hitsville U.S.A. Studio A, Detroit"),
@@ -994,6 +1003,7 @@ SONG_ALBUMS = {
     "turn-turn-turn-byrds": "Turn! Turn! Turn!",
     "i-heard-it-through-the-grapevine-marvin-gaye": "In the Groove",
     "aint-no-mountain-high-enough-marvin-gaye": "United",
+    "how-sweet-it-is-to-be-loved-by-you-marvin-gaye": "How Sweet It Is to Be Loved by You",
     "the-witch-sonics": "Here Are the Sonics",
     "this-guys-in-love-with-you-herb-alpert-and-the-tijuana-brass": "The Beat of the Brass",
     "walk-like-a-man-four-seasons": "Big Girls Don't Cry and Twelve Others",
