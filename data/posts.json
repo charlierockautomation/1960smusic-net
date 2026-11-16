@@ -2165,6 +2165,15 @@
       "description": "I Heard It Through the Grapevine by Marvin Gaye sat in Motown's vault for a year, then spent seven weeks at No. 1 from December 1968.",
       "date": "2026-11-15",
       "genre": "motown-soul"
+    },
+    {
+      "id": "aint-no-mountain-high-enough-marvin-gaye",
+      "title": "Ain't No Mountain High Enough: Gaye and Terrell's 1967 Duet",
+      "slug": "/blog/songs/aint-no-mountain-high-enough-marvin-gaye/",
+      "type": "song-story",
+      "description": "Ain't No Mountain High Enough was Marvin Gaye and Tammi Terrell's first duet, sung on separate days in Detroit and released by Tamla in April 1967.",
+      "date": "2026-11-16",
+      "genre": "motown-soul"
     }
   ]
 }

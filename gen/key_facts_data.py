@@ -409,6 +409,14 @@ SONGS = {
         ("Produced by", "Rick Jarrard"),
         ("US peak", "No. 5, Billboard Hot 100; No. 5, Cash Box"),
     ]),
+    "aint-no-mountain-high-enough-marvin-gaye": dict(year=1967, rows=[
+        ("Released", "April 20, 1967 (single, Tamla T-54149); B-side \"Give a Little Love\"; album United, August 29, 1967"),
+        ("Recorded", "December 1966 to February 1, 1967, Hitsville U.S.A. Studio A, Detroit"),
+        ("Label", "Tamla"),
+        ("Written by", "Nickolas Ashford and Valerie Simpson"),
+        ("Produced by", "Harvey Fuqua and Johnny Bristol"),
+        ("US peak", "No. 19, Billboard Hot 100; No. 3 R&B"),
+    ]),
     "i-heard-it-through-the-grapevine-marvin-gaye": dict(year=1968, rows=[
         ("Released", "October 30, 1968 (single, Tamla 54176); B-side \"You're What's Happening (in the World Today)\"; first issued on In the Groove, August 1968"),
         ("Recorded", "February 3 to April 10, 1967, Hitsville U.S.A. Studio A, Detroit"),
@@ -985,6 +993,7 @@ SONG_ALBUMS = {
     "mr-tambourine-man-byrds": "Mr. Tambourine Man",
     "turn-turn-turn-byrds": "Turn! Turn! Turn!",
     "i-heard-it-through-the-grapevine-marvin-gaye": "In the Groove",
+    "aint-no-mountain-high-enough-marvin-gaye": "United",
     "the-witch-sonics": "Here Are the Sonics",
     "this-guys-in-love-with-you-herb-alpert-and-the-tijuana-brass": "The Beat of the Brass",
     "walk-like-a-man-four-seasons": "Big Girls Don't Cry and Twelve Others",
