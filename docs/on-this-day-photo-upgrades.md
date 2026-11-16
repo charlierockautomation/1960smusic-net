@@ -39,10 +39,11 @@ September 21 (2026-11-14, The Beatles 1964 UPI New York photo, public domain (Li
 Congress), reused from September 2; share image only, every card keeps its video).
 September 22 (2026-11-16, Bob Dylan 1963 March on Washington photo by Rowland Scherman, public
 domain (U.S. National Archives), reused from the Dylan bio; share image only, every card keeps its video).
+September 23 (2026-11-16, The Rolling Stones at Schiphol Airport 1966, CC0, reused from
+September 30; share image only, every card keeps its video).
 
 | # | Page | Status |
 |---|------|--------|
-| 23 | /blog/on-this-day/september-23/ | pending |
 | 24 | /blog/on-this-day/september-24/ | pending |
 | 25 | /blog/on-this-day/september-25/ | pending |
 | 26 | /blog/on-this-day/september-26/ | pending |
