@@ -48,6 +48,7 @@ Sitemap: https://1960smusic.net/sitemap.xml
 - [British Invasion: How 1960s British Rock Bands Conquered America](https://1960smusic.net/blog/genres/british-invasion/): How UK bands led by The Beatles conquered American radio, charts, and TV starting in 1964, and the sound and artists that defined the movement.
 
 ## Artists
+- [Buck Owens: The Bakersfield Sound's 1960s Star](https://1960smusic.net/blog/artists/buck-owens/): Buck Owens built the Bakersfield sound on twangy Telecasters and a run of 14 straight country No. 1s. His 1960s story, from Act Naturally to Hee Haw.
 - [Marvin Gaye: Motown's Prince of Soul in the 1960s](https://1960smusic.net/blog/artists/marvin-gaye/): Marvin Gaye went from Motown session drummer to soul's biggest male star. His 1960s story, from Pride and Joy to Tammi Terrell and Grapevine.
 - [The Byrds: Band History, Members and Hits](https://1960smusic.net/blog/artists/the-byrds/): The Byrds formed in Los Angeles in 1964, took Mr. Tambourine Man and Turn! Turn! Turn! to No. 1 in 1965, then pioneered psychedelia and country rock.
 - [Dick Dale: King of the Surf Guitar, Life and Hits](https://1960smusic.net/blog/artists/dick-dale/): Dick Dale invented the surf guitar sound with Let's Go Trippin' in 1961 and Miserlou in 1962. His life, his Fender gear, his hits and his legacy.
@@ -145,7 +146,6 @@ Sitemap: https://1960smusic.net/sitemap.xml
 - [My Generation by The Who: The Song Behind the Stutter](https://1960smusic.net/blog/songs/my-generation-who/): My Generation by The Who: the true story of Pete Townshend's train-ride lyric, Roger Daltrey's stutter, and John Entwistle's landmark bass solo.
 - [Waterloo Sunset: The Kinks' Most Personal Song](https://1960smusic.net/blog/songs/waterloo-sunset-kinks/): Waterloo Sunset by The Kinks: how Ray Davies turned a childhood hospital view of the Thames into pop's most tender love letter to London.
 - [You Really Got Me: The Take Ray Davies Refused](https://1960smusic.net/blog/songs/you-really-got-me-kinks/): How Ray Davies refused to release the first take, forced a re-record at his own label's expense, and built a blueprint for hard rock.
-- [All Day and All of the Night: The Riff The Doors Copied](https://1960smusic.net/blog/songs/all-day-and-all-of-the-night-kinks/): How The Kinks doubled down on their own riff formula, then won a royalties fight when The Doors borrowed it too closely.
 
 ## On This Day
 - [On This Day: December 24 in 1960s Music](https://1960smusic.net/blog/on-this-day/december-24/): 12 verified 1960s music events from December 24: the Beatles' first Christmas Show, Wayne Shorter's Speak No Evil and Tommy James's I Think We're Alone Now.

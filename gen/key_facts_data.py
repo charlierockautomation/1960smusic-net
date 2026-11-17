@@ -817,6 +817,14 @@ ARTISTS = {
         ("Label", "Tamla (Motown)"),
         ("Peak chart hits", "\"I Heard It Through the Grapevine\" (Hot 100 No. 1 for seven weeks, UK No. 1, 1968-1969); \"How Sweet It Is (To Be Loved by You)\" (Hot 100 No. 6, 1965); \"Too Busy Thinking About My Baby\" (Hot 100 No. 4, R&B No. 1, 1969)"),
     ]),
+    "buck-owens": dict(years=[1963, 1964, 1965, 1966, 1967, 1969], rows=[
+        ("Origin", "Sherman, Texas; career based in Bakersfield, California"),
+        ("Born", "Alvis Edgar Owens Jr., August 12, 1929; died March 25, 2006"),
+        ("Genre", "Country (Nashville Sound & Bakersfield)"),
+        ("Label", "Capitol (signed 1957)"),
+        ("Band", "The Buckaroos: Don Rich, Doyle Holly, Tom Brumley, Willie Cantu"),
+        ("Peak chart hits", "\"Act Naturally\" (US country No. 1, 1963); \"Love's Gonna Live Here\" (US country No. 1 for 16 weeks, 1963); \"I've Got a Tiger by the Tail\" (US country No. 1, Hot 100 No. 25, 1965)"),
+    ]),
 }
 
 
@@ -829,6 +837,11 @@ ARTISTS = {
 # Herb Alpert & The Tijuana Brass: Wikipedia redirects to the Herb Alpert
 # person article (Q344822), not the group, so only MusicBrainz is kept.
 SAME_AS = {
+    "buck-owens": [
+        "https://en.wikipedia.org/wiki/Buck_Owens",
+        "https://www.wikidata.org/wiki/Q712353",
+        "https://musicbrainz.org/artist/13cb0fb4-7f7f-4116-a282-905c675c39ef",
+    ],
     "marvin-gaye": [
         "https://en.wikipedia.org/wiki/Marvin_Gaye",
         "https://www.wikidata.org/wiki/Q189758",
