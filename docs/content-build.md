@@ -64,7 +64,7 @@ Live rows (1-102) are in [`docs/content-build-archive.md`](content-build-archive
 | 107 | I Heard It Through the Grapevine | /blog/songs/i-heard-it-through-the-grapevine-marvin-gaye/ | song-story | motown-soul | live | I Heard It Through the Grapevine | cXWHpbpNdHE |  |
 | 108 | Ain't No Mountain High Enough | /blog/songs/aint-no-mountain-high-enough-marvin-gaye/ | song-story | motown-soul | live | Ain't No Mountain High Enough | ABfQuZqq8wg |  |
 | 109 | How Sweet It Is (To Be Loved by You) | /blog/songs/how-sweet-it-is-to-be-loved-by-you-marvin-gaye/ | song-story | motown-soul | live | How Sweet It Is (To Be Loved by You) | OhbQVA7hPuQ |  |
-| 110 | Buck Owens bio | /blog/artists/buck-owens/ | artist-bio | country-60s | not started | Buck Owens | __SMDtF_DsY |  |
+| 110 | Buck Owens bio | /blog/artists/buck-owens/ | artist-bio | country-60s | live | Buck Owens | __SMDtF_DsY |  |
 | 111 | Act Naturally | /blog/songs/act-naturally-buck-owens/ | song-story | country-60s | not started | Act Naturally by Buck Owens | __SMDtF_DsY |  |
 | 112 | Together Again | /blog/songs/together-again-buck-owens/ | song-story | country-60s | not started | Together Again by Buck Owens | h6-wKFK4sQM |  |
 | 113 | Buckaroo | /blog/songs/buckaroo-buck-owens/ | song-story | country-60s | not started | Buckaroo by Buck Owens | -2VLIO14dns | yt |
