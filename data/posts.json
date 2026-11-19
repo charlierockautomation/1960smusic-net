@@ -2241,6 +2241,15 @@
       "description": "Act Naturally was Buck Owens' first country No. 1 in 1963, written by Johnny Russell. See how Ringo Starr and the Beatles made it a classic.",
       "date": "2026-11-19",
       "genre": "country-60s"
+    },
+    {
+      "id": "together-again-buck-owens",
+      "title": "Together Again by Buck Owens: The B-Side That Hit No. 1",
+      "slug": "/blog/songs/together-again-buck-owens/",
+      "type": "song-story",
+      "description": "Together Again was Buck Owens' 1964 B-side that hit No. 1 on the country chart. Hear how Tom Brumley's steel solo and Emmylou Harris made it a standard.",
+      "date": "2026-11-19",
+      "genre": "country-60s"
     }
   ]
 }

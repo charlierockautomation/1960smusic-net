@@ -425,6 +425,13 @@ SONGS = {
         ("Produced by", "Ken Nelson"),
         ("US peak", "No. 1, Billboard Hot Country Singles (four non-consecutive weeks, from June 15, 1963); 28 weeks on the chart"),
     ]),
+    "together-again-buck-owens": dict(year=1964, rows=[
+        ("Released", "1964 (B-side of \"My Heart Skips a Beat\"); recorded January 28, 1964, Capitol Records Tower, Hollywood"),
+        ("Label", "Capitol"),
+        ("Written by", "Buck Owens"),
+        ("Produced by", "Ken Nelson"),
+        ("US peak", "No. 1, Billboard Hot Country Singles (B-side of \"My Heart Skips a Beat\")"),
+    ]),
     "aint-no-mountain-high-enough-marvin-gaye": dict(year=1967, rows=[
         ("Released", "April 20, 1967 (single, Tamla T-54149); B-side \"Give a Little Love\"; album United, August 29, 1967"),
         ("Recorded", "December 1966 to February 1, 1967, Hitsville U.S.A. Studio A, Detroit"),
