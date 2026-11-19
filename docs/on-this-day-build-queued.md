@@ -23,7 +23,7 @@ Same columns and status values as the active file.
 | 113 | December 22 | /blog/on-this-day/december-22/ | data/on-this-day/12-22.json | live |
 | 114 | December 23 | /blog/on-this-day/december-23/ | data/on-this-day/12-23.json | live |
 | 115 | December 24 | /blog/on-this-day/december-24/ | data/on-this-day/12-24.json | live |
-| 116 | December 25 | /blog/on-this-day/december-25/ | data/on-this-day/12-25.json | not started |
+| 116 | December 25 | /blog/on-this-day/december-25/ | data/on-this-day/12-25.json | live |
 | 117 | December 26 | /blog/on-this-day/december-26/ | data/on-this-day/12-26.json | not started |
 | 118 | December 27 | /blog/on-this-day/december-27/ | data/on-this-day/12-27.json | not started |
 | 119 | December 28 | /blog/on-this-day/december-28/ | data/on-this-day/12-28.json | not started |
