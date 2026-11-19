@@ -425,6 +425,13 @@ SONGS = {
         ("Produced by", "Ken Nelson"),
         ("US peak", "No. 1, Billboard Hot Country Singles (four non-consecutive weeks, from June 15, 1963); 28 weeks on the chart"),
     ]),
+    "buckaroo-buck-owens": dict(year=1965, rows=[
+        ("Released", "October 11, 1965 (single); B-side \"If You Want a Love\""),
+        ("Label", "Capitol"),
+        ("Written by", "Bob Morris"),
+        ("Produced by", "Ken Nelson"),
+        ("US peak", "No. 1, Billboard Hot Country Singles (16 weeks on the chart); No. 60, Billboard Hot 100"),
+    ]),
     "together-again-buck-owens": dict(year=1964, rows=[
         ("Released", "1964 (B-side of \"My Heart Skips a Beat\"); recorded January 28, 1964, Capitol Records Tower, Hollywood"),
         ("Label", "Capitol"),

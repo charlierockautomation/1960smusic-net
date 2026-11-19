@@ -2250,6 +2250,15 @@
       "description": "Together Again was Buck Owens' 1964 B-side that hit No. 1 on the country chart. Hear how Tom Brumley's steel solo and Emmylou Harris made it a standard.",
       "date": "2026-11-19",
       "genre": "country-60s"
+    },
+    {
+      "id": "buckaroo-buck-owens",
+      "title": "Buckaroo: Buck Owens' 1965 Instrumental No. 1",
+      "slug": "/blog/songs/buckaroo-buck-owens/",
+      "type": "song-story",
+      "description": "Buckaroo was the 1965 instrumental that put Buck Owens and the Buckaroos at No. 1 on the country chart. See who wrote it, who backed it and who covered it.",
+      "date": "2026-11-19",
+      "genre": "country-60s"
     }
   ]
 }
