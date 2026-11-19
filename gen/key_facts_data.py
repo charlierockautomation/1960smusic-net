@@ -418,6 +418,13 @@ SONGS = {
         ("US peak", "No. 6, Billboard Hot 100 (January 1965); No. 3 R&B; No. 9 Cash Box"),
         ("UK peak", "No. 49 (one week, from December 16, 1964)"),
     ]),
+    "act-naturally-buck-owens": dict(year=1963, rows=[
+        ("Released", "March 11, 1963 (non-album single); B-side \"Over and Over Again\"; recorded February 12, 1963, Capitol Studios, Hollywood"),
+        ("Label", "Capitol"),
+        ("Written by", "Johnny Russell, with a writing credit to Voni Morrison"),
+        ("Produced by", "Ken Nelson"),
+        ("US peak", "No. 1, Billboard Hot Country Singles (four non-consecutive weeks, from June 15, 1963); 28 weeks on the chart"),
+    ]),
     "aint-no-mountain-high-enough-marvin-gaye": dict(year=1967, rows=[
         ("Released", "April 20, 1967 (single, Tamla T-54149); B-side \"Give a Little Love\"; album United, August 29, 1967"),
         ("Recorded", "December 1966 to February 1, 1967, Hitsville U.S.A. Studio A, Detroit"),

@@ -2212,6 +2212,15 @@
       "description": "Buck Owens built the Bakersfield sound on twangy Telecasters and a run of 14 straight country No. 1s. His 1960s story, from Act Naturally to Hee Haw.",
       "date": "2026-11-16",
       "genre": "country-60s"
+    },
+    {
+      "id": "act-naturally-buck-owens",
+      "title": "Act Naturally: Buck Owens' 1963 No. 1 and the Beatles Cover",
+      "slug": "/blog/songs/act-naturally-buck-owens/",
+      "type": "song-story",
+      "description": "Act Naturally was Buck Owens' first country No. 1 in 1963, written by Johnny Russell. See how Ringo Starr and the Beatles made it a classic.",
+      "date": "2026-11-19",
+      "genre": "country-60s"
     }
   ]
 }
