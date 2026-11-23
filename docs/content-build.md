@@ -68,7 +68,7 @@ Live rows (1-102) are in [`docs/content-build-archive.md`](content-build-archive
 | 111 | Act Naturally | /blog/songs/act-naturally-buck-owens/ | song-story | country-60s | live | Act Naturally | __SMDtF_DsY |  |
 | 112 | Together Again | /blog/songs/together-again-buck-owens/ | song-story | country-60s | live | Together Again by Buck Owens | h6-wKFK4sQM |  |
 | 113 | Buckaroo | /blog/songs/buckaroo-buck-owens/ | song-story | country-60s | live | Buckaroo by Buck Owens | -2VLIO14dns | yt |
-| 114 | The Ronettes bio | /blog/artists/the-ronettes/ | artist-bio | pop-brill-building | not started | The Ronettes | jSPpbOGnFgk |  |
+| 114 | The Ronettes bio | /blog/artists/the-ronettes/ | artist-bio | pop-brill-building | live | The Ronettes | jSPpbOGnFgk |  |
 | 115 | Be My Baby | /blog/songs/be-my-baby-ronettes/ | song-story | pop-brill-building | not started | Be My Baby | jSPpbOGnFgk |  |
 | 116 | Dionne Warwick bio | /blog/artists/dionne-warwick/ | artist-bio | jazz-easy-listening | not started | Dionne Warwick | vsGsCvJWEo8 |  |
 | 117 | Walk On By | /blog/songs/walk-on-by-dionne-warwick/ | song-story | jazz-easy-listening | not started | Walk On By | vsGsCvJWEo8 |  |
