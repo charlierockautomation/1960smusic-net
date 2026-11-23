@@ -846,6 +846,14 @@ ARTISTS = {
         ("Band", "The Buckaroos: Don Rich, Doyle Holly, Tom Brumley, Willie Cantu"),
         ("Peak chart hits", "\"Act Naturally\" (US country No. 1, 1963); \"Love's Gonna Live Here\" (US country No. 1 for 16 weeks, 1963); \"I've Got a Tiger by the Tail\" (US country No. 1, Hot 100 No. 25, 1965)"),
     ]),
+    "the-ronettes": dict(years=[1963, 1964, 1966], rows=[
+        ("Origin", "Washington Heights, Manhattan, New York City"),
+        ("Members", "Ronnie Spector (born Veronica Bennett), Estelle Bennett, Nedra Talley"),
+        ("Genre", "Pop & Brill Building"),
+        ("Label", "Colpix (1961-1963), Philles (from March 1963)"),
+        ("Active", "1959-1967"),
+        ("Peak chart hits", "\"Be My Baby\" (Hot 100 No. 2, 1963); \"Baby, I Love You\" (Hot 100 No. 24, 1963-1964); \"Walking in the Rain\" (Hot 100 No. 23, 1964)"),
+    ]),
 }
 
 
@@ -858,6 +866,11 @@ ARTISTS = {
 # Herb Alpert & The Tijuana Brass: Wikipedia redirects to the Herb Alpert
 # person article (Q344822), not the group, so only MusicBrainz is kept.
 SAME_AS = {
+    "the-ronettes": [
+        "https://en.wikipedia.org/wiki/The_Ronettes",
+        "https://www.wikidata.org/wiki/Q530886",
+        "https://musicbrainz.org/artist/393e5448-896f-43e9-b80b-4ee58e1e71a4",
+    ],
     "buck-owens": [
         "https://en.wikipedia.org/wiki/Buck_Owens",
         "https://www.wikidata.org/wiki/Q712353",

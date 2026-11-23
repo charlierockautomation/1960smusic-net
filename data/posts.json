@@ -2299,6 +2299,15 @@
       "description": "Buckaroo was the 1965 instrumental that put Buck Owens and the Buckaroos at No. 1 on the country chart. See who wrote it, who backed it and who covered it.",
       "date": "2026-11-19",
       "genre": "country-60s"
+    },
+    {
+      "id": "the-ronettes",
+      "title": "The Ronettes: The Girl Group Behind Be My Baby",
+      "slug": "/blog/artists/the-ronettes/",
+      "type": "artist-bio",
+      "description": "The Ronettes were a Washington Heights girl group whose Be My Baby hit No. 2 in 1963. Their story: Phil Spector, a Beatles tour and a Rock Hall induction.",
+      "date": "2026-11-23",
+      "genre": "pop-brill-building"
     }
   ]
 }
