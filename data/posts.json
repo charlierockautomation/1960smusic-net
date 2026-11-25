@@ -2308,6 +2308,15 @@
       "description": "The Ronettes were a Washington Heights girl group whose Be My Baby hit No. 2 in 1963. Their story: Phil Spector, a Beatles tour and a Rock Hall induction.",
       "date": "2026-11-23",
       "genre": "pop-brill-building"
+    },
+    {
+      "id": "be-my-baby-ronettes-song",
+      "title": "Be My Baby: The Ronettes' 1963 Wall of Sound Hit",
+      "slug": "/blog/songs/be-my-baby-ronettes/",
+      "type": "song-story",
+      "description": "Be My Baby was the 1963 Ronettes single that peaked at No. 2. Learn who played on it, how the drum intro happened and why Brian Wilson loved it.",
+      "date": "2026-11-24",
+      "genre": "pop-brill-building"
     }
   ]
 }

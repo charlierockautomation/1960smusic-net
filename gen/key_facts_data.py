@@ -432,6 +432,14 @@ SONGS = {
         ("Produced by", "Ken Nelson"),
         ("US peak", "No. 1, Billboard Hot Country Singles (16 weeks on the chart); No. 60, Billboard Hot 100"),
     ]),
+    "be-my-baby-ronettes": dict(year=1963, rows=[
+        ("Released", "August 1963 (US single); recorded July 29, 1963, Gold Star Studios, Hollywood; B-side \"Tedesco and Pitman\""),
+        ("Label", "Philles (US), London (UK, October 1963)"),
+        ("Written by", "Jeff Barry, Ellie Greenwich and Phil Spector"),
+        ("Produced by", "Phil Spector"),
+        ("US peak", "No. 2, Billboard Hot 100"),
+        ("UK peak", "No. 4, Record Retailer"),
+    ]),
     "together-again-buck-owens": dict(year=1964, rows=[
         ("Released", "1964 (B-side of \"My Heart Skips a Beat\"); recorded January 28, 1964, Capitol Records Tower, Hollywood"),
         ("Label", "Capitol"),
