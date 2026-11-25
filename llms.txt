@@ -48,6 +48,7 @@ Sitemap: https://1960smusic.net/sitemap.xml
 - [British Invasion: How 1960s British Rock Bands Conquered America](https://1960smusic.net/blog/genres/british-invasion/): How UK bands led by The Beatles conquered American radio, charts, and TV starting in 1964, and the sound and artists that defined the movement.
 
 ## Artists
+- [Dionne Warwick: The Voice of Bacharach and David](https://1960smusic.net/blog/artists/dionne-warwick/): Dionne Warwick turned Burt Bacharach and Hal David songs into 1960s hits like Walk On By and I Say a Little Prayer. Her story, from gospel to the Grammys.
 - [The Ronettes: The Girl Group Behind Be My Baby](https://1960smusic.net/blog/artists/the-ronettes/): The Ronettes were a Washington Heights girl group whose Be My Baby hit No. 2 in 1963. Their story: Phil Spector, a Beatles tour and a Rock Hall induction.
 - [Buck Owens: The Bakersfield Sound's 1960s Star](https://1960smusic.net/blog/artists/buck-owens/): Buck Owens built the Bakersfield sound on twangy Telecasters and a run of 14 straight country No. 1s. His 1960s story, from Act Naturally to Hee Haw.
 - [Marvin Gaye: Motown's Prince of Soul in the 1960s](https://1960smusic.net/blog/artists/marvin-gaye/): Marvin Gaye went from Motown session drummer to soul's biggest male star. His 1960s story, from Pride and Joy to Tammi Terrell and Grapevine.
@@ -146,7 +147,6 @@ Sitemap: https://1960smusic.net/sitemap.xml
 - [Bits and Pieces Dave Clark Five: The Banned Dance-Hall Stomp](https://1960smusic.net/blog/songs/bits-and-pieces-dave-clark-five/): Bits and Pieces followed Glad All Over to UK number two in 1964, its stomping beat so heavy that dance hall managers banned the record to protect their floors.
 - [Heart Full of Soul by The Yardbirds: How a Sitar Became Fuzz](https://1960smusic.net/blog/songs/heart-full-of-soul-yardbirds/): Heart Full of Soul by The Yardbirds turned a scrapped sitar session into Jeff Beck's fuzz guitar breakthrough in 1965. Here is the real story behind it.
 - [Over Under Sideways Down: The Yardbirds' Raga Rock Riff](https://1960smusic.net/blog/songs/over-under-sideways-down-yardbirds/): Over Under Sideways Down Yardbirds fans still ask about: the 1966 raga rock riff, chart run, and studio story behind Jeff Beck's boldest Yardbirds single.
-- [For Your Love by The Yardbirds: The Harpsichord Hit That Split a Band](https://1960smusic.net/blog/songs/for-your-love-yardbirds/): For Your Love by The Yardbirds turned a rejected teenage demo into a harpsichord-driven hit and pushed Eric Clapton out the door in 1965. Here's the real story.
 
 ## On This Day
 - [On This Day: December 29 in 1960s Music](https://1960smusic.net/blog/on-this-day/december-29/): 13 verified 1960s music events from December 29: Penny Lane takes shape at Abbey Road, Hendrix on Top of the Pops, Telstar at No. 1 and the Weavers' farewell.

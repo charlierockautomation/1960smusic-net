@@ -2317,6 +2317,15 @@
       "description": "Be My Baby was the 1963 Ronettes single that peaked at No. 2. Learn who played on it, how the drum intro happened and why Brian Wilson loved it.",
       "date": "2026-11-24",
       "genre": "pop-brill-building"
+    },
+    {
+      "id": "dionne-warwick",
+      "title": "Dionne Warwick: The Voice of Bacharach and David",
+      "slug": "/blog/artists/dionne-warwick/",
+      "type": "artist-bio",
+      "description": "Dionne Warwick turned Burt Bacharach and Hal David songs into 1960s hits like Walk On By and I Say a Little Prayer. Her story, from gospel to the Grammys.",
+      "date": "2026-11-24",
+      "genre": "jazz-easy-listening"
     }
   ]
 }

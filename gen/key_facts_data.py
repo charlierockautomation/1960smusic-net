@@ -862,6 +862,14 @@ ARTISTS = {
         ("Active", "1959-1967"),
         ("Peak chart hits", "\"Be My Baby\" (Hot 100 No. 2, 1963); \"Baby, I Love You\" (Hot 100 No. 24, 1963-1964); \"Walking in the Rain\" (Hot 100 No. 23, 1964)"),
     ]),
+    "dionne-warwick": dict(years=[1963, 1964, 1967, 1968, 1969], rows=[
+        ("Origin", "East Orange, New Jersey"),
+        ("Born", "Marie Dionne Warrick, December 12, 1940"),
+        ("Genre", "Jazz & Easy Listening"),
+        ("Label", "Scepter (signed 1962), Warner Bros. (from 1971)"),
+        ("Songwriters", "Burt Bacharach and Hal David"),
+        ("Peak chart hits", "\"I Say a Little Prayer\" (Hot 100 No. 4, 1967); \"Walk On By\" (Hot 100 No. 6, 1964); \"I'll Never Fall in Love Again\" (Hot 100 No. 6, 1969);\"Do You Know the Way to San Jose\" (Hot 100 No. 10, 1968)"),
+    ]),
 }
 
 
@@ -1010,6 +1018,10 @@ SAME_AS = {
         "https://en.wikipedia.org/wiki/The_Yardbirds",
         "https://www.wikidata.org/wiki/Q192725",
         "https://musicbrainz.org/artist/191de76f-a224-445d-b041-54df16d65bf7",
+    ],
+    "dionne-warwick": [
+        "https://en.wikipedia.org/wiki/Dionne_Warwick",
+        "https://www.wikidata.org/wiki/Q234695",
     ],
 }
 
