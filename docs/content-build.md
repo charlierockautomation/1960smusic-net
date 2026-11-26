@@ -71,7 +71,7 @@ Live rows (1-102) are in [`docs/content-build-archive.md`](content-build-archive
 | 114 | The Ronettes bio | /blog/artists/the-ronettes/ | artist-bio | pop-brill-building | live | The Ronettes | jSPpbOGnFgk |  |
 | 115 | Be My Baby | /blog/songs/be-my-baby-ronettes/ | song-story | pop-brill-building | live | Be My Baby | jSPpbOGnFgk |  |
 | 116 | Dionne Warwick bio | /blog/artists/dionne-warwick/ | artist-bio | jazz-easy-listening | live | Dionne Warwick | vsGsCvJWEo8 |  |
-| 117 | Walk On By | /blog/songs/walk-on-by-dionne-warwick/ | song-story | jazz-easy-listening | not started | Walk On By | vsGsCvJWEo8 |  |
+| 117 | Walk On By | /blog/songs/walk-on-by-dionne-warwick/ | song-story | jazz-easy-listening | live | Walk On By | vsGsCvJWEo8 |  |
 | 118 | Do You Know the Way to San Jose | /blog/songs/do-you-know-the-way-to-san-jose-dionne-warwick/ | song-story | jazz-easy-listening | not started | Do You Know the Way to San Jose | FZLa-1q-lkw |  |
 | 119 | Alfie | /blog/songs/alfie-dionne-warwick/ | song-story | jazz-easy-listening | not started | Alfie by Dionne Warwick | YL06i9aiM4o | yt |
 
