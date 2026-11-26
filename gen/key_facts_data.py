@@ -448,6 +448,14 @@ SONGS = {
         ("US peak", "No. 6, Billboard Hot 100; No. 1, Cash Box R&B"),
         ("UK peak", "No. 9, Official Singles Chart"),
     ]),
+    "do-you-know-the-way-to-san-jose-dionne-warwick": dict(year=1968, rows=[
+        ("Released", "April 1968 (US single); recorded 1967, Bell Sound, New York City; B-side \"Let Me Be Lonely\""),
+        ("Label", "Scepter"),
+        ("Written by", "Burt Bacharach and Hal David"),
+        ("Produced by", "Burt Bacharach and Hal David"),
+        ("US peak", "No. 10, Billboard Hot 100; No. 4 Adult Contemporary"),
+        ("UK peak", "No. 8, Official Singles Chart"),
+    ]),
     "together-again-buck-owens": dict(year=1964, rows=[
         ("Released", "1964 (B-side of \"My Heart Skips a Beat\"); recorded January 28, 1964, Capitol Records Tower, Hollywood"),
         ("Label", "Capitol"),
