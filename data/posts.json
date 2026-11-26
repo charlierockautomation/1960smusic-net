@@ -2346,6 +2346,15 @@
       "description": "Dionne Warwick turned Burt Bacharach and Hal David songs into 1960s hits like Walk On By and I Say a Little Prayer. Her story, from gospel to the Grammys.",
       "date": "2026-11-24",
       "genre": "jazz-easy-listening"
+    },
+    {
+      "id": "walk-on-by-dionne-warwick-song",
+      "title": "Walk On By: Dionne Warwick's 1964 Bacharach Classic",
+      "slug": "/blog/songs/walk-on-by-dionne-warwick/",
+      "type": "song-story",
+      "description": "Walk On By was the 1964 Dionne Warwick single that peaked at No. 6. Learn how Bacharach and David wrote it and how a B-side became a standard.",
+      "date": "2026-11-25",
+      "genre": "jazz-easy-listening"
     }
   ]
 }

@@ -440,6 +440,14 @@ SONGS = {
         ("US peak", "No. 2, Billboard Hot 100"),
         ("UK peak", "No. 4, Record Retailer"),
     ]),
+    "walk-on-by-dionne-warwick": dict(year=1964, rows=[
+        ("Released", "April 26, 1964 (US single); recorded November to December 1963, Bell Sound, New York City; B-side \"Any Old Time of Day\""),
+        ("Label", "Scepter"),
+        ("Written by", "Burt Bacharach and Hal David"),
+        ("Produced by", "Burt Bacharach and Hal David"),
+        ("US peak", "No. 6, Billboard Hot 100; No. 1, Cash Box R&B"),
+        ("UK peak", "No. 9, Official Singles Chart"),
+    ]),
     "together-again-buck-owens": dict(year=1964, rows=[
         ("Released", "1964 (B-side of \"My Heart Skips a Beat\"); recorded January 28, 1964, Capitol Records Tower, Hollywood"),
         ("Label", "Capitol"),
