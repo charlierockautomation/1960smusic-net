@@ -60,7 +60,7 @@ Live rows (1-119) are in [`docs/content-build-archive.md`](content-build-archive
 | 120 | Pink Floyd bio | /blog/artists/pink-floyd/ | artist-bio | psychedelic-rock | live | Pink Floyd | H3DGpINHX5Q |  |
 | 121 | Arnold Layne | /blog/songs/arnold-layne-pink-floyd/ | song-story | psychedelic-rock | live | Arnold Layne by Pink Floyd | H3DGpINHX5Q |  |
 | 122 | Astronomy Domine | /blog/songs/astronomy-domine-pink-floyd/ | song-story | psychedelic-rock | live | Astronomy Domine by Pink Floyd | 8UbNbor3OqQ |  |
-| 123 | The Ventures bio | /blog/artists/the-ventures/ | artist-bio | garage-surf-rock | not started | The Ventures | hIuIIqbyEIU | yt |
+| 123 | The Ventures bio | /blog/artists/the-ventures/ | artist-bio | garage-surf-rock | live | The Ventures | hIuIIqbyEIU | yt |
 | 124 | Walk Don't Run | /blog/songs/walk-dont-run-ventures/ | song-story | garage-surf-rock | not started | Walk Don't Run | hIuIIqbyEIU | yt |
 | 125 | Peter, Paul and Mary bio | /blog/artists/peter-paul-and-mary/ | artist-bio | folk-rock | not started | Peter, Paul and Mary | XxWTDcP9Y5E | yt |
 | 126 | If I Had a Hammer | /blog/songs/if-i-had-a-hammer-peter-paul-and-mary/ | song-story | folk-rock | not started | If I Had a Hammer | XxWTDcP9Y5E | yt |
