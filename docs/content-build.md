@@ -57,7 +57,7 @@ Live rows (1-119) are in [`docs/content-build-archive.md`](content-build-archive
 
 | # | Title | Slug | Type | Genre | Status | Focus Keyword | YouTube ID | Flag |
 |---|-------|------|------|-------|--------|----------------|------------|------|
-| 120 | Pink Floyd bio | /blog/artists/pink-floyd/ | artist-bio | psychedelic-rock | not started | Pink Floyd | H3DGpINHX5Q |  |
+| 120 | Pink Floyd bio | /blog/artists/pink-floyd/ | artist-bio | psychedelic-rock | live | Pink Floyd | H3DGpINHX5Q |  |
 | 121 | Arnold Layne | /blog/songs/arnold-layne-pink-floyd/ | song-story | psychedelic-rock | not started | Arnold Layne by Pink Floyd | H3DGpINHX5Q |  |
 | 122 | Astronomy Domine | /blog/songs/astronomy-domine-pink-floyd/ | song-story | psychedelic-rock | not started | Astronomy Domine by Pink Floyd | 8UbNbor3OqQ |  |
 | 123 | The Ventures bio | /blog/artists/the-ventures/ | artist-bio | garage-surf-rock | not started | The Ventures | hIuIIqbyEIU | yt |
