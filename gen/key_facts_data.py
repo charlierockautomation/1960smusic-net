@@ -15,6 +15,13 @@ least one row whose label contains "peak" (check_article.py enforces it).
 """
 
 SONGS = {
+    "arnold-layne-pink-floyd": dict(year=1967, rows=[
+        ("Released", "March 1967 (UK); sources split between March 10 and March 11; recorded January 29 to February 27, 1967"),
+        ("Label", "Columbia (UK, catalogue DB 8156)"),
+        ("Written by", "Syd Barrett"),
+        ("Produced by", "Joe Boyd"),
+        ("UK peak", "No. 20, Official Charts (8 weeks on the chart in 1967)"),
+    ]),
     "a-world-without-love-peter-and-gordon": dict(year=1964, rows=[
         ("Released", "February 1964 (UK); recorded January 21, 1964"),
         ("Label", "Columbia (UK), Capitol (US)"),

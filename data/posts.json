@@ -2382,6 +2382,15 @@
       "description": "Pink Floyd formed in London in 1965 around Syd Barrett. Read about the early singles, The Piper at the Gates of Dawn, Gilmour's arrival and Barrett's exit.",
       "date": "2026-11-26",
       "genre": "psychedelic-rock"
+    },
+    {
+      "id": "arnold-layne-pink-floyd-song",
+      "title": "Arnold Layne by Pink Floyd: The Story Behind the Debut",
+      "slug": "/blog/songs/arnold-layne-pink-floyd/",
+      "type": "song-story",
+      "description": "Arnold Layne by Pink Floyd was the band's 1967 debut single, a UK No. 20 hit about a Cambridge clothesline thief. Learn how Syd Barrett wrote it.",
+      "date": "2026-11-26",
+      "genre": "psychedelic-rock"
     }
   ]
 }
