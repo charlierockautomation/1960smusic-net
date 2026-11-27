@@ -2364,6 +2364,15 @@
       "description": "Do You Know the Way to San Jose was Dionne Warwick's 1968 Top 10 hit and first Grammy winner. Learn why she disliked it and how it was made.",
       "date": "2026-11-25",
       "genre": "jazz-easy-listening"
+    },
+    {
+      "id": "alfie-dionne-warwick-song",
+      "title": "Alfie by Dionne Warwick: The Story Behind the 1967 Hit",
+      "slug": "/blog/songs/alfie-dionne-warwick/",
+      "type": "song-story",
+      "description": "Alfie by Dionne Warwick reached No. 15 in 1967 after Cilla Black and Cher released it first. Learn how a spare session made it her hit.",
+      "date": "2026-11-26",
+      "genre": "jazz-easy-listening"
     }
   ]
 }

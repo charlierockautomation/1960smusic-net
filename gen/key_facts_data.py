@@ -456,6 +456,13 @@ SONGS = {
         ("US peak", "No. 10, Billboard Hot 100; No. 4 Adult Contemporary"),
         ("UK peak", "No. 8, Official Singles Chart"),
     ]),
+    "alfie-dionne-warwick": dict(year=1967, rows=[
+        ("Released", "March 1967 (US single, flipped from the B-side of \"The Beginning of Loneliness\"); album Here Where There Is Love, December 1966; recorded 1966, A&R Studios, New York City"),
+        ("Label", "Scepter"),
+        ("Written by", "Burt Bacharach and Hal David"),
+        ("Produced by", "Burt Bacharach and Hal David"),
+        ("US peak", "No. 15, Billboard Hot 100; No. 5 R&B"),
+    ]),
     "together-again-buck-owens": dict(year=1964, rows=[
         ("Released", "1964 (B-side of \"My Heart Skips a Beat\"); recorded January 28, 1964, Capitol Records Tower, Hollywood"),
         ("Label", "Capitol"),

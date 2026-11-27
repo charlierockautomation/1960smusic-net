@@ -80,6 +80,7 @@ Sitemap: https://1960smusic.net/sitemap.xml
 - [The Beatles: The Liverpool Band That Changed Music Forever](https://1960smusic.net/blog/artists/the-beatles/): How four teenagers from Liverpool became the most influential band in music history, from Hamburg's clubs to the studio innovations of Revolver and Sgt. Pepper.
 
 ## Songs
+- [Alfie by Dionne Warwick: The Story Behind the 1967 Hit](https://1960smusic.net/blog/songs/alfie-dionne-warwick/): Alfie by Dionne Warwick reached No. 15 in 1967 after Cilla Black and Cher released it first. Learn how a spare session made it her hit.
 - [Walk On By: Dionne Warwick's 1964 Bacharach Classic](https://1960smusic.net/blog/songs/walk-on-by-dionne-warwick/): Walk On By was the 1964 Dionne Warwick single that peaked at No. 6. Learn how Bacharach and David wrote it and how a B-side became a standard.
 - [Do You Know the Way to San Jose: Dionne Warwick's 1968 Hit](https://1960smusic.net/blog/songs/do-you-know-the-way-to-san-jose-dionne-warwick/): Do You Know the Way to San Jose was Dionne Warwick's 1968 Top 10 hit and first Grammy winner. Learn why she disliked it and how it was made.
 - [Be My Baby: The Ronettes' 1963 Wall of Sound Hit](https://1960smusic.net/blog/songs/be-my-baby-ronettes/): Be My Baby was the 1963 Ronettes single that peaked at No. 2. Learn who played on it, how the drum intro happened and why Brian Wilson loved it.
@@ -146,7 +147,6 @@ Sitemap: https://1960smusic.net/sitemap.xml
 - [Mrs. Brown, You've Got a Lovely Daughter: The Two-Take Number One](https://1960smusic.net/blog/songs/mrs-brown-youve-got-a-lovely-daughter-hermans-hermits/): Mrs. Brown, You've Got a Lovely Daughter was an album afterthought Peter Noone taped off his TV. How it hit number one in America in 1965 with no UK release.
 - [Because the Dave Clark Five: The Ballad Epic Almost Buried](https://1960smusic.net/blog/songs/because-dave-clark-five/): Because is the 1964 ballad Epic Records twice refused to release, then watched climb to number three in America. The label fight, the Ron Ryan credit dispute, the chart record.
 - [Glad All Over: How the Dave Clark Five Beat the Beatles](https://1960smusic.net/blog/songs/glad-all-over-dave-clark-five/): Glad All Over knocked the Beatles off number one in January 1964, made the Dave Clark Five stars, and became a football terrace anthem that never went away.
-- [Bits and Pieces Dave Clark Five: The Banned Dance-Hall Stomp](https://1960smusic.net/blog/songs/bits-and-pieces-dave-clark-five/): Bits and Pieces followed Glad All Over to UK number two in 1964, its stomping beat so heavy that dance hall managers banned the record to protect their floors.
 
 ## On This Day
 - [On This Day: December 31 in 1960s Music](https://1960smusic.net/blog/on-this-day/december-31/): 13 verified 1960s music events from December 31: Hendrix rings in 1970, the Monkees hit No. 1 and the Beatles end their Hamburg run.
