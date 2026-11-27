@@ -45,10 +45,11 @@ September 24 (2026-11-19, Jimi Hendrix Experience 1968 Reprise photo, public dom
 reused from September 14; share image only, every card keeps its video).
 September 25 (2026-11-27, The Beatles 1964 UPI New York photo, public domain (Library of
 Congress), reused from September 21; share image only, every card keeps its video).
+September 26 (2026-11-27, Bob Dylan 1963 March on Washington photo by Rowland Scherman, public
+domain (U.S. National Archives), reused from September 22; share image only, every card keeps its video).
 
 | # | Page | Status |
 |---|------|--------|
-| 26 | /blog/on-this-day/september-26/ | pending |
 | 27 | /blog/on-this-day/september-27/ | pending |
 | 34 | /blog/on-this-day/october-4/ | pending |
 | 35 | /blog/on-this-day/october-5/ | pending |
