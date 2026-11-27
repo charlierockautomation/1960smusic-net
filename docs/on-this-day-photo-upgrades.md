@@ -43,10 +43,11 @@ September 23 (2026-11-16, The Rolling Stones at Schiphol Airport 1966, CC0, reus
 September 30; share image only, every card keeps its video).
 September 24 (2026-11-19, Jimi Hendrix Experience 1968 Reprise photo, public domain,
 reused from September 14; share image only, every card keeps its video).
+September 25 (2026-11-27, The Beatles 1964 UPI New York photo, public domain (Library of
+Congress), reused from September 21; share image only, every card keeps its video).
 
 | # | Page | Status |
 |---|------|--------|
-| 25 | /blog/on-this-day/september-25/ | pending |
 | 26 | /blog/on-this-day/september-26/ | pending |
 | 27 | /blog/on-this-day/september-27/ | pending |
 | 34 | /blog/on-this-day/october-4/ | pending |
