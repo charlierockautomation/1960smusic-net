@@ -38,7 +38,7 @@ retired, not reused.
 Each session loads only the rows in this file. The rest of the rotation
 lives, in order, in:
 
-- [`docs/content-build-queued.md`](content-build-queued.md) — rows 120-165
+- [`docs/content-build-queued.md`](content-build-queued.md) — rows 139-165
 - [`docs/content-build-queued-2.md`](content-build-queued-2.md) — rows 166-251
 
 When every row in the Queue table below is `live`, move those rows into
@@ -53,27 +53,29 @@ in the rotation; their pages land in a later phase per
 
 ## Queue
 
-Live rows (1-102) are in [`docs/content-build-archive.md`](content-build-archive.md).
+Live rows (1-119) are in [`docs/content-build-archive.md`](content-build-archive.md).
 
 | # | Title | Slug | Type | Genre | Status | Focus Keyword | YouTube ID | Flag |
 |---|-------|------|------|-------|--------|----------------|------------|------|
-| 103 | The Byrds bio | /blog/artists/the-byrds/ | artist-bio | folk-rock | live | The Byrds | NxyOhFBoxSY |  |
-| 104 | Mr. Tambourine Man | /blog/songs/mr-tambourine-man-byrds/ | song-story | folk-rock | live | Mr. Tambourine Man | Swqw5a8I4b4 |  |
-| 105 | Turn! Turn! Turn! | /blog/songs/turn-turn-turn-byrds/ | song-story | folk-rock | live | Turn! Turn! Turn! | xVOJla2vYx8 |  |
-| 106 | Marvin Gaye bio | /blog/artists/marvin-gaye/ | artist-bio | motown-soul | live | Marvin Gaye | cXWHpbpNdHE |  |
-| 107 | I Heard It Through the Grapevine | /blog/songs/i-heard-it-through-the-grapevine-marvin-gaye/ | song-story | motown-soul | live | I Heard It Through the Grapevine | cXWHpbpNdHE |  |
-| 108 | Ain't No Mountain High Enough | /blog/songs/aint-no-mountain-high-enough-marvin-gaye/ | song-story | motown-soul | live | Ain't No Mountain High Enough | ABfQuZqq8wg |  |
-| 109 | How Sweet It Is (To Be Loved by You) | /blog/songs/how-sweet-it-is-to-be-loved-by-you-marvin-gaye/ | song-story | motown-soul | live | How Sweet It Is (To Be Loved by You) | OhbQVA7hPuQ |  |
-| 110 | Buck Owens bio | /blog/artists/buck-owens/ | artist-bio | country-60s | live | Buck Owens | __SMDtF_DsY |  |
-| 111 | Act Naturally | /blog/songs/act-naturally-buck-owens/ | song-story | country-60s | live | Act Naturally | __SMDtF_DsY |  |
-| 112 | Together Again | /blog/songs/together-again-buck-owens/ | song-story | country-60s | live | Together Again by Buck Owens | h6-wKFK4sQM |  |
-| 113 | Buckaroo | /blog/songs/buckaroo-buck-owens/ | song-story | country-60s | live | Buckaroo by Buck Owens | -2VLIO14dns | yt |
-| 114 | The Ronettes bio | /blog/artists/the-ronettes/ | artist-bio | pop-brill-building | live | The Ronettes | jSPpbOGnFgk |  |
-| 115 | Be My Baby | /blog/songs/be-my-baby-ronettes/ | song-story | pop-brill-building | live | Be My Baby | jSPpbOGnFgk |  |
-| 116 | Dionne Warwick bio | /blog/artists/dionne-warwick/ | artist-bio | jazz-easy-listening | live | Dionne Warwick | vsGsCvJWEo8 |  |
-| 117 | Walk On By | /blog/songs/walk-on-by-dionne-warwick/ | song-story | jazz-easy-listening | live | Walk On By | vsGsCvJWEo8 |  |
-| 118 | Do You Know the Way to San Jose | /blog/songs/do-you-know-the-way-to-san-jose-dionne-warwick/ | song-story | jazz-easy-listening | live | Do You Know the Way to San Jose | FZLa-1q-lkw |  |
-| 119 | Alfie | /blog/songs/alfie-dionne-warwick/ | song-story | jazz-easy-listening | live | Alfie by Dionne Warwick | DNXc1yy9fJw |  |
+| 120 | Pink Floyd bio | /blog/artists/pink-floyd/ | artist-bio | psychedelic-rock | not started | Pink Floyd | H3DGpINHX5Q |  |
+| 121 | Arnold Layne | /blog/songs/arnold-layne-pink-floyd/ | song-story | psychedelic-rock | not started | Arnold Layne by Pink Floyd | H3DGpINHX5Q |  |
+| 122 | Astronomy Domine | /blog/songs/astronomy-domine-pink-floyd/ | song-story | psychedelic-rock | not started | Astronomy Domine by Pink Floyd | 8UbNbor3OqQ |  |
+| 123 | The Ventures bio | /blog/artists/the-ventures/ | artist-bio | garage-surf-rock | not started | The Ventures | hIuIIqbyEIU | yt |
+| 124 | Walk Don't Run | /blog/songs/walk-dont-run-ventures/ | song-story | garage-surf-rock | not started | Walk Don't Run | hIuIIqbyEIU | yt |
+| 125 | Peter, Paul and Mary bio | /blog/artists/peter-paul-and-mary/ | artist-bio | folk-rock | not started | Peter, Paul and Mary | XxWTDcP9Y5E | yt |
+| 126 | If I Had a Hammer | /blog/songs/if-i-had-a-hammer-peter-paul-and-mary/ | song-story | folk-rock | not started | If I Had a Hammer | XxWTDcP9Y5E | yt |
+| 127 | Puff, the Magic Dragon | /blog/songs/puff-the-magic-dragon-peter-paul-and-mary/ | song-story | folk-rock | not started | Puff, the Magic Dragon | z15pxWUXvLY | yt |
+| 128 | Leaving on a Jet Plane | /blog/songs/leaving-on-a-jet-plane-peter-paul-and-mary/ | song-story | folk-rock | not started | Leaving on a Jet Plane | F2m--R3J6f4 |  |
+| 129 | Freight Train | /blog/songs/freight-train-peter-paul-and-mary/ | song-story | folk-rock | not started | Freight Train by Peter, Paul and Mary | BZrb-ao5v3M |  |
+| 130 | The Four Tops bio | /blog/artists/the-four-tops/ | artist-bio | motown-soul | not started | The Four Tops | 2EaflX0MWRo | yt |
+| 131 | Reach Out I'll Be There | /blog/songs/reach-out-ill-be-there-four-tops/ | song-story | motown-soul | not started | Reach Out I'll Be There | 2EaflX0MWRo | yt |
+| 132 | I Can't Help Myself (Sugar Pie Honey Bunch) | /blog/songs/i-cant-help-myself-sugar-pie-honey-bunch-four-tops/ | song-story | motown-soul | not started | I Can't Help Myself (Sugar Pie Honey Bunch) | s3bksUSPB4c | yt |
+| 133 | Merle Haggard bio | /blog/artists/merle-haggard/ | artist-bio | country-60s | not started | Merle Haggard | 3dM03dG3zv4 |  |
+| 134 | Okie from Muskogee | /blog/songs/okie-from-muskogee-merle-haggard/ | song-story | country-60s | not started | Okie from Muskogee | 3dM03dG3zv4 |  |
+| 135 | Mama Tried | /blog/songs/mama-tried-merle-haggard/ | song-story | country-60s | not started | Mama Tried by Merle Haggard | loT_pYzi3Vw |  |
+| 136 | The Crystals bio | /blog/artists/the-crystals/ | artist-bio | pop-brill-building | not started | The Crystals | S-OTd7DXjlo |  |
+| 137 | Da Doo Ron Ron | /blog/songs/da-doo-ron-ron-crystals/ | song-story | pop-brill-building | not started | Da Doo Ron Ron | S-OTd7DXjlo |  |
+| 138 | Then He Kissed Me | /blog/songs/then-he-kissed-me-crystals/ | song-story | pop-brill-building | not started | Then He Kissed Me | MSkum4B162M | yt |
 
 Artist-bio YouTube IDs are the artist's first `notable_song_ids` entry in
 `data/artists.json` (same convention used for The Beatles bio, which

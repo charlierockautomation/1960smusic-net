@@ -108,6 +108,23 @@ next), see
 | 100 | Wooden Ships | /blog/songs/wooden-ships-jefferson-airplane/ | song-story | psychedelic-rock | live | Wooden Ships by Jefferson Airplane | ROBaoiJK0wc |  |
 | 101 | Dick Dale bio | /blog/artists/dick-dale/ | artist-bio | garage-surf-rock | live | Dick Dale | MXB6T55oytE |  |
 | 102 | Miserlou | /blog/songs/miserlou-dick-dale/ | song-story | garage-surf-rock | live | Miserlou by Dick Dale and His Del-Tones | MXB6T55oytE |  |
+| 103 | The Byrds bio | /blog/artists/the-byrds/ | artist-bio | folk-rock | live | The Byrds | NxyOhFBoxSY |  |
+| 104 | Mr. Tambourine Man | /blog/songs/mr-tambourine-man-byrds/ | song-story | folk-rock | live | Mr. Tambourine Man | Swqw5a8I4b4 |  |
+| 105 | Turn! Turn! Turn! | /blog/songs/turn-turn-turn-byrds/ | song-story | folk-rock | live | Turn! Turn! Turn! | xVOJla2vYx8 |  |
+| 106 | Marvin Gaye bio | /blog/artists/marvin-gaye/ | artist-bio | motown-soul | live | Marvin Gaye | cXWHpbpNdHE |  |
+| 107 | I Heard It Through the Grapevine | /blog/songs/i-heard-it-through-the-grapevine-marvin-gaye/ | song-story | motown-soul | live | I Heard It Through the Grapevine | cXWHpbpNdHE |  |
+| 108 | Ain't No Mountain High Enough | /blog/songs/aint-no-mountain-high-enough-marvin-gaye/ | song-story | motown-soul | live | Ain't No Mountain High Enough | ABfQuZqq8wg |  |
+| 109 | How Sweet It Is (To Be Loved by You) | /blog/songs/how-sweet-it-is-to-be-loved-by-you-marvin-gaye/ | song-story | motown-soul | live | How Sweet It Is (To Be Loved by You) | OhbQVA7hPuQ |  |
+| 110 | Buck Owens bio | /blog/artists/buck-owens/ | artist-bio | country-60s | live | Buck Owens | __SMDtF_DsY |  |
+| 111 | Act Naturally | /blog/songs/act-naturally-buck-owens/ | song-story | country-60s | live | Act Naturally | __SMDtF_DsY |  |
+| 112 | Together Again | /blog/songs/together-again-buck-owens/ | song-story | country-60s | live | Together Again by Buck Owens | h6-wKFK4sQM |  |
+| 113 | Buckaroo | /blog/songs/buckaroo-buck-owens/ | song-story | country-60s | live | Buckaroo by Buck Owens | -2VLIO14dns | yt |
+| 114 | The Ronettes bio | /blog/artists/the-ronettes/ | artist-bio | pop-brill-building | live | The Ronettes | jSPpbOGnFgk |  |
+| 115 | Be My Baby | /blog/songs/be-my-baby-ronettes/ | song-story | pop-brill-building | live | Be My Baby | jSPpbOGnFgk |  |
+| 116 | Dionne Warwick bio | /blog/artists/dionne-warwick/ | artist-bio | jazz-easy-listening | live | Dionne Warwick | vsGsCvJWEo8 |  |
+| 117 | Walk On By | /blog/songs/walk-on-by-dionne-warwick/ | song-story | jazz-easy-listening | live | Walk On By | vsGsCvJWEo8 |  |
+| 118 | Do You Know the Way to San Jose | /blog/songs/do-you-know-the-way-to-san-jose-dionne-warwick/ | song-story | jazz-easy-listening | live | Do You Know the Way to San Jose | FZLa-1q-lkw |  |
+| 119 | Alfie | /blog/songs/alfie-dionne-warwick/ | song-story | jazz-easy-listening | live | Alfie by Dionne Warwick | DNXc1yy9fJw |  |
 
 ## Weekly refresh log
 
