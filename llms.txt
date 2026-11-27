@@ -49,6 +49,7 @@ Sitemap: https://1960smusic.net/sitemap.xml
 
 ## Artists
 - [Pink Floyd: Syd Barrett and the Psychedelic Years](https://1960smusic.net/blog/artists/pink-floyd/): Pink Floyd formed in London in 1965 around Syd Barrett. Read about the early singles, The Piper at the Gates of Dawn, Gilmour's arrival and Barrett's exit.
+- [The Ventures: Walk, Don't Run and the Guitar Sound](https://1960smusic.net/blog/artists/the-ventures/): The Ventures formed in Tacoma in 1958 and hit No. 2 with Walk, Don't Run. Meet the lineup, the surf-era hits, Hawaii Five-O and the Hall of Fame honors.
 - [Dionne Warwick: The Voice of Bacharach and David](https://1960smusic.net/blog/artists/dionne-warwick/): Dionne Warwick turned Burt Bacharach and Hal David songs into 1960s hits like Walk On By and I Say a Little Prayer. Her story, from gospel to the Grammys.
 - [The Ronettes: The Girl Group Behind Be My Baby](https://1960smusic.net/blog/artists/the-ronettes/): The Ronettes were a Washington Heights girl group whose Be My Baby hit No. 2 in 1963. Their story: Phil Spector, a Beatles tour and a Rock Hall induction.
 - [Buck Owens: The Bakersfield Sound's 1960s Star](https://1960smusic.net/blog/artists/buck-owens/): Buck Owens built the Bakersfield sound on twangy Telecasters and a run of 14 straight country No. 1s. His 1960s story, from Act Naturally to Hee Haw.
@@ -147,7 +148,6 @@ Sitemap: https://1960smusic.net/sitemap.xml
 - [Do Wah Diddy Diddy: The Story of Manfred Mann's No. 1 Hit](https://1960smusic.net/blog/songs/do-wah-diddy-diddy-manfred-mann/): Do Wah Diddy Diddy turned a flop by The Exciters into a transatlantic No. 1 for Manfred Mann in 1964, care of songwriters Jeff Barry and Ellie Greenwich.
 - [Henry the 8th Herman's Hermits: The Song That Dethroned the Stones](https://1960smusic.net/blog/songs/im-henry-the-viii-i-am-hermans-hermits/): Henry the 8th Herman's Hermits turned a 1910 music hall song into a two-minute 1965 number one that knocked The Rolling Stones off the Billboard top spot.
 - [Needles and Pins: How The Searchers Topped the UK Chart](https://1960smusic.net/blog/songs/needles-and-pins-searchers/): Needles and Pins turned a Jackie DeShannon flop into The Searchers' first UK number one, helped along by a studio accident and a squeaky bass drum pedal.
-- [Mrs. Brown, You've Got a Lovely Daughter: The Two-Take Number One](https://1960smusic.net/blog/songs/mrs-brown-youve-got-a-lovely-daughter-hermans-hermits/): Mrs. Brown, You've Got a Lovely Daughter was an album afterthought Peter Noone taped off his TV. How it hit number one in America in 1965 with no UK release.
 
 ## On This Day
 - [On This Day: December 31 in 1960s Music](https://1960smusic.net/blog/on-this-day/december-31/): 13 verified 1960s music events from December 31: Hendrix rings in 1970, the Monkees hit No. 1 and the Beatles end their Hamburg run.

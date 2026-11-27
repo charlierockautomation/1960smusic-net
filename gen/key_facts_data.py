@@ -805,6 +805,14 @@ ARTISTS = {
         ("Classic lineup", "Syd Barrett, Roger Waters, Richard Wright, Nick Mason; David Gilmour joined in December 1967 and Barrett's exit was announced April 6, 1968"),
         ("Peak chart hits", "\"See Emily Play\" (UK No. 6, 1967); \"Arnold Layne\" (UK No. 20, 1967); the albums The Piper at the Gates of Dawn (UK No. 6, 1967) and Ummagumma (UK No. 5, US No. 74, 1969)"),
     ]),
+    "the-ventures": dict(years=[1960, 1964, 1969], rows=[
+        ("Origin", "Tacoma, Washington"),
+        ("Formed", "1958"),
+        ("Genre", "Garage & Surf Rock"),
+        ("Label", "Dolton Records (\"Walk, Don't Run,\" 1960)"),
+        ("Classic lineup", "Don Wilson, Bob Bogle, Nokie Edwards, Mel Taylor (1962 to 1968)"),
+        ("Peak chart hits", "\"Walk, Don't Run\" (US No. 2, 1960); \"Perfidia\" (US No. 15); \"Walk, Don't Run '64\" (US No. 8, 1964); \"Hawaii Five-O\" (US No. 4, 1969)"),
+    ]),
     "the-kinks": dict(years=[1964, 1966], rows=[
         ("Origin", "Muswell Hill, London, England"),
         ("Active", "1963-1996"),
@@ -1023,6 +1031,9 @@ SAME_AS = {
         "https://en.wikipedia.org/wiki/Pink_Floyd",
         "https://www.wikidata.org/wiki/Q2306",
         "https://musicbrainz.org/artist/83d91898-7763-47d7-b03b-b92132375c47",
+    ],
+    "the-ventures": [
+        "https://en.wikipedia.org/wiki/The_Ventures",
     ],
     "the-kinks": [
         "https://en.wikipedia.org/wiki/The_Kinks",

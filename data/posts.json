@@ -2400,6 +2400,15 @@
       "description": "Astronomy Domine by Pink Floyd opened The Piper at the Gates of Dawn in 1967. Learn how Syd Barrett wrote it and why the band kept playing it live.",
       "date": "2026-11-26",
       "genre": "psychedelic-rock"
+    },
+    {
+      "id": "the-ventures",
+      "title": "The Ventures: Walk, Don't Run and the Guitar Sound",
+      "slug": "/blog/artists/the-ventures/",
+      "type": "artist-bio",
+      "description": "The Ventures formed in Tacoma in 1958 and hit No. 2 with Walk, Don't Run. Meet the lineup, the surf-era hits, Hawaii Five-O and the Hall of Fame honors.",
+      "date": "2026-11-26",
+      "genre": "garage-surf-rock"
     }
   ]
 }
