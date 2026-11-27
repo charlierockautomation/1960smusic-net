@@ -73,7 +73,7 @@ Live rows (1-102) are in [`docs/content-build-archive.md`](content-build-archive
 | 116 | Dionne Warwick bio | /blog/artists/dionne-warwick/ | artist-bio | jazz-easy-listening | live | Dionne Warwick | vsGsCvJWEo8 |  |
 | 117 | Walk On By | /blog/songs/walk-on-by-dionne-warwick/ | song-story | jazz-easy-listening | live | Walk On By | vsGsCvJWEo8 |  |
 | 118 | Do You Know the Way to San Jose | /blog/songs/do-you-know-the-way-to-san-jose-dionne-warwick/ | song-story | jazz-easy-listening | live | Do You Know the Way to San Jose | FZLa-1q-lkw |  |
-| 119 | Alfie | /blog/songs/alfie-dionne-warwick/ | song-story | jazz-easy-listening | not started | Alfie by Dionne Warwick | YL06i9aiM4o | yt |
+| 119 | Alfie | /blog/songs/alfie-dionne-warwick/ | song-story | jazz-easy-listening | live | Alfie by Dionne Warwick | DNXc1yy9fJw |  |
 
 Artist-bio YouTube IDs are the artist's first `notable_song_ids` entry in
 `data/artists.json` (same convention used for The Beatles bio, which
