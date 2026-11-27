@@ -2391,6 +2391,15 @@
       "description": "Arnold Layne by Pink Floyd was the band's 1967 debut single, a UK No. 20 hit about a Cambridge clothesline thief. Learn how Syd Barrett wrote it.",
       "date": "2026-11-26",
       "genre": "psychedelic-rock"
+    },
+    {
+      "id": "astronomy-domine-pink-floyd-song",
+      "title": "Astronomy Domine by Pink Floyd: Barrett's Space Opener",
+      "slug": "/blog/songs/astronomy-domine-pink-floyd/",
+      "type": "song-story",
+      "description": "Astronomy Domine by Pink Floyd opened The Piper at the Gates of Dawn in 1967. Learn how Syd Barrett wrote it and why the band kept playing it live.",
+      "date": "2026-11-26",
+      "genre": "psychedelic-rock"
     }
   ]
 }

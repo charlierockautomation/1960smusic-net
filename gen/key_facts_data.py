@@ -15,6 +15,13 @@ least one row whose label contains "peak" (check_article.py enforces it).
 """
 
 SONGS = {
+    "astronomy-domine-pink-floyd": dict(year=1967, rows=[
+        ("Released", "August 1967 (UK), as the opening track of The Piper at the Gates of Dawn; recorded April 1967"),
+        ("Label", "EMI Columbia (UK), Tower (US)"),
+        ("Written by", "Syd Barrett"),
+        ("Produced by", "Norman Smith"),
+        ("UK peak", "Not a single; the album The Piper at the Gates of Dawn reached No. 6"),
+    ]),
     "arnold-layne-pink-floyd": dict(year=1967, rows=[
         ("Released", "March 1967 (UK); sources split between March 10 and March 11; recorded January 29 to February 27, 1967"),
         ("Label", "Columbia (UK, catalogue DB 8156)"),
