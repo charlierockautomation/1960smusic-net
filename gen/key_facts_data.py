@@ -783,6 +783,14 @@ ARTISTS = {
         ("Classic lineup", "Jimi Hendrix, Noel Redding, Mitch Mitchell"),
         ("Peak chart hits", "\"Purple Haze\" (UK No. 3, 1967); \"Hey Joe\" and \"The Wind Cries Mary\" (both UK No. 6); the album Electric Ladyland (US No. 1 on the Billboard 200, 1968)"),
     ]),
+    "pink-floyd": dict(years=[1967, 1968, 1969], rows=[
+        ("Origin", "London, England"),
+        ("Formed", "1965"),
+        ("Genre", "Psychedelic Rock"),
+        ("Label", "EMI Columbia (UK), Tower (US)"),
+        ("Classic lineup", "Syd Barrett, Roger Waters, Richard Wright, Nick Mason; David Gilmour joined in December 1967 and Barrett's exit was announced April 6, 1968"),
+        ("Peak chart hits", "\"See Emily Play\" (UK No. 6, 1967); \"Arnold Layne\" (UK No. 20, 1967); the albums The Piper at the Gates of Dawn (UK No. 6, 1967) and Ummagumma (UK No. 5, US No. 74, 1969)"),
+    ]),
     "the-kinks": dict(years=[1964, 1966], rows=[
         ("Origin", "Muswell Hill, London, England"),
         ("Active", "1963-1996"),
@@ -996,6 +1004,11 @@ SAME_AS = {
         "https://en.wikipedia.org/wiki/The_Jimi_Hendrix_Experience",
         "https://www.wikidata.org/wiki/Q1407424",
         "https://musicbrainz.org/artist/33b3c323-77c2-417c-a5b4-af7e6a111cc9",
+    ],
+    "pink-floyd": [
+        "https://en.wikipedia.org/wiki/Pink_Floyd",
+        "https://www.wikidata.org/wiki/Q2306",
+        "https://musicbrainz.org/artist/83d91898-7763-47d7-b03b-b92132375c47",
     ],
     "the-kinks": [
         "https://en.wikipedia.org/wiki/The_Kinks",

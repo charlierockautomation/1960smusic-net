@@ -2373,6 +2373,15 @@
       "description": "Alfie by Dionne Warwick reached No. 15 in 1967 after Cilla Black and Cher released it first. Learn how a spare session made it her hit.",
       "date": "2026-11-26",
       "genre": "jazz-easy-listening"
+    },
+    {
+      "id": "pink-floyd",
+      "title": "Pink Floyd: Syd Barrett and the Psychedelic Years",
+      "slug": "/blog/artists/pink-floyd/",
+      "type": "artist-bio",
+      "description": "Pink Floyd formed in London in 1965 around Syd Barrett. Read about the early singles, The Piper at the Gates of Dawn, Gilmour's arrival and Barrett's exit.",
+      "date": "2026-11-26",
+      "genre": "psychedelic-rock"
     }
   ]
 }
