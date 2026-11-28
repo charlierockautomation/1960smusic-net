@@ -41,7 +41,8 @@ def credit_names(slug):
     o = CREDIT_OVERRIDES.get(slug, {})
     writers = o.get("writers") or split_names(rows["Written by"])
     lyricists = o.get("lyricists", [])
-    producers = o.get("producers") or split_names(rows["Produced by"])
+    unconfirmed = rows.get("Produced by", "").startswith("Not confirmed")
+    producers = [] if unconfirmed else (o.get("producers") or split_names(rows["Produced by"]))
     for n in writers + lyricists:
         if n not in rows["Written by"]:
             raise SystemExit(f"{slug}: writer {n!r} not in Key Facts 'Written by'")

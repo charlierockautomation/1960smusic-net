@@ -2429,6 +2429,15 @@
       "description": "The Ventures formed in Tacoma in 1958 and hit No. 2 with Walk, Don't Run. Meet the lineup, the surf-era hits, Hawaii Five-O and the Hall of Fame honors.",
       "date": "2026-11-26",
       "genre": "garage-surf-rock"
+    },
+    {
+      "id": "walk-dont-run-ventures-song",
+      "title": "Walk, Don't Run: The Story Behind The Ventures' Hit",
+      "slug": "/blog/songs/walk-dont-run-ventures/",
+      "type": "song-story",
+      "description": "Walk, Don't Run was a 1954 jazz piece by Johnny Smith that The Ventures turned into a 1960 No. 2 hit. See how a Chet Atkins record started it all.",
+      "date": "2026-11-28",
+      "genre": "garage-surf-rock"
     }
   ]
 }

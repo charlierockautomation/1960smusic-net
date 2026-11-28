@@ -29,6 +29,14 @@ SONGS = {
         ("Produced by", "Joe Boyd"),
         ("UK peak", "No. 20, Official Charts (8 weeks on the chart in 1967)"),
     ]),
+    "walk-dont-run-ventures": dict(year=1960, rows=[
+        ("Released", "Spring 1960 (US single)"),
+        ("Label", "Dolton Records (Dolton 25)"),
+        ("Written by", "Johnny Smith (first recorded 1954)"),
+        ("Produced by", "Not confirmed in sources reviewed; recorded and engineered by Joe Boles"),
+        ("US peak", "No. 2, Billboard Hot 100 (1960), behind Elvis Presley's \"It's Now or Never\""),
+        ("UK peak", "No. 8, Official Charts (13 weeks, October 1960)"),
+    ]),
     "a-world-without-love-peter-and-gordon": dict(year=1964, rows=[
         ("Released", "February 1964 (UK); recorded January 21, 1964"),
         ("Label", "Columbia (UK), Capitol (US)"),

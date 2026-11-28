@@ -82,6 +82,7 @@ Sitemap: https://1960smusic.net/sitemap.xml
 - [The Beatles: The Liverpool Band That Changed Music Forever](https://1960smusic.net/blog/artists/the-beatles/): How four teenagers from Liverpool became the most influential band in music history, from Hamburg's clubs to the studio innovations of Revolver and Sgt. Pepper.
 
 ## Songs
+- [Walk, Don't Run: The Story Behind The Ventures' Hit](https://1960smusic.net/blog/songs/walk-dont-run-ventures/): Walk, Don't Run was a 1954 jazz piece by Johnny Smith that The Ventures turned into a 1960 No. 2 hit. See how a Chet Atkins record started it all.
 - [Alfie by Dionne Warwick: The Story Behind the 1967 Hit](https://1960smusic.net/blog/songs/alfie-dionne-warwick/): Alfie by Dionne Warwick reached No. 15 in 1967 after Cilla Black and Cher released it first. Learn how a spare session made it her hit.
 - [Arnold Layne by Pink Floyd: The Story Behind the Debut](https://1960smusic.net/blog/songs/arnold-layne-pink-floyd/): Arnold Layne by Pink Floyd was the band's 1967 debut single, a UK No. 20 hit about a Cambridge clothesline thief. Learn how Syd Barrett wrote it.
 - [Astronomy Domine by Pink Floyd: Barrett's Space Opener](https://1960smusic.net/blog/songs/astronomy-domine-pink-floyd/): Astronomy Domine by Pink Floyd opened The Piper at the Gates of Dawn in 1967. Learn how Syd Barrett wrote it and why the band kept playing it live.
@@ -147,7 +148,6 @@ Sitemap: https://1960smusic.net/sitemap.xml
 - [The Doors Light My Fire: Story Behind Their Breakthrough Hit](https://1960smusic.net/blog/songs/light-my-fire-doors/): The Doors Light My Fire grew from Robby Krieger's first finished song into a number one hit that got the band banned from The Ed Sullivan Show.
 - [Do Wah Diddy Diddy: The Story of Manfred Mann's No. 1 Hit](https://1960smusic.net/blog/songs/do-wah-diddy-diddy-manfred-mann/): Do Wah Diddy Diddy turned a flop by The Exciters into a transatlantic No. 1 for Manfred Mann in 1964, care of songwriters Jeff Barry and Ellie Greenwich.
 - [Henry the 8th Herman's Hermits: The Song That Dethroned the Stones](https://1960smusic.net/blog/songs/im-henry-the-viii-i-am-hermans-hermits/): Henry the 8th Herman's Hermits turned a 1910 music hall song into a two-minute 1965 number one that knocked The Rolling Stones off the Billboard top spot.
-- [Needles and Pins: How The Searchers Topped the UK Chart](https://1960smusic.net/blog/songs/needles-and-pins-searchers/): Needles and Pins turned a Jackie DeShannon flop into The Searchers' first UK number one, helped along by a studio accident and a squeaky bass drum pedal.
 
 ## On This Day
 - [On This Day: January 2 in 1960s Music](https://1960smusic.net/blog/on-this-day/january-2/): 11 verified 1960s music events from January 2: the Beatles start the Get Back sessions, Led Zeppelin play the Whisky and Elvis tops the charts.
